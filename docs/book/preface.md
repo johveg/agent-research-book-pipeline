@@ -1,24 +1,58 @@
 # Preface
 
-This book tracks practical agent engineering as it develops in public: tools, operating patterns, context architecture, memory architecture, and durable loops.
+This book is about building AI-agent systems that can be operated, inspected, corrected, and restrained. It is not a daily news digest and it is not a list of social-media reactions. The stored material is now used as an evidence base: official project pages and direct repositories are treated as stronger sources, technical articles as context, and social/search-result captures as weak signals only.
 
-## Current evidence status
+The practical question is simple: what changes when an assistant is no longer just answering a prompt, but is allowed to use tools, remember facts, schedule work, inspect files, publish reports, and coordinate across channels? The answer is not “more autonomy” by itself. The answer is a need for editorial and operational discipline: roles, gates, evidence, review, and publication restraint.
 
-The following points are synthesized only from claim records whose status allows Author use:
+## What this book can say now
 
-- Current evidence suggests: Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. (`claim_1e6da5e353cab67ed16c`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: 🛠️ Nous Research has quietly solved one of the clunkiest parts of open-s "Hermes Agent". (`claim_301c456c255778bde504`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. (`claim_3978eea1e495626d9799`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: The RTX Spark is a unified APU — a 20-core Grace Arm "Hermes Agent". (`claim_57126e338b2e5d130fb9`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: It is called AgentMemory, and the idea is simple: Your coding agent remembers everything. (`claim_5b23137f3adf9f377009`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: Loop Engineering is the next leap: agents find work, execute, evaluate, and repeat without constant supervision. (`claim_5fe426bc9f841da6446c`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: Loop Engineering for the Agentforce Era.The point is not to make agents busier.The point is to make Salesforce delivery more inspectable, bo "loop engineer". (`claim_65d6fb05d553a471fdf3`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: Man, if you tell me 1-2 years ago that I only need 2 clicks (first one is for download, second to in "Hermes Agent". (`claim_696f1adf4a0ad2a5e9a2`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: Hermes Agent Evolves into Autonomous Orchestration Platform with Desktop Integration 📌 Nous Research has transformed the Hermes Agent from a "Hermes Agent". (`claim_6ce2be9b18d13ecc9932`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: Is it me or what but my Hermes Agents burned more tokens than my Openclaw?. (`claim_7708c1c74a2093fabc70`, status `weakly_supported`, weak evidence, 1 source(s))
-- Current evidence suggests: ☀️ June is here, and so is the latest AWS Community Builders Spotlight ☀️ This week we're celebrating not one but TWO featured builders with "Hermes Agent". (`claim_7cd52375ed82316c34e1`, status `weakly_supported`, weak evidence, 1 source(s))
+The current stored source base supports three careful observations.
 
-## Editorial policy
+First, Hermes Agent is represented by official and project-adjacent sources as a tool-using agent environment rather than just a chat interface. The strongest stored evidence for that comes from the Hermes Agent repository and official/project pages (`src_946462d4856d38e27d2c`, `src_45d026189270d1762fad`, `src_5de659c63abf9db0dff3`).
 
-Last generated: 2026-06-11T23:00:12Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
+Second, OpenClaw appears in the stored material as an adjacent open-source personal AI assistant project, with its own repository-level evidence (`src_b364e090655731640be0`). Comparisons between Hermes and OpenClaw exist in the source base, but most comparison material is secondary commentary and should be treated cautiously (`src_8e7b3cdb70416086cc19`, `src_3910909dbbac56313a11`).
+
+Third, “loop engineering” appears as an emerging label for designing recurring agent workflows rather than issuing one prompt at a time. The strongest stored sources here are technical explainers and practitioner articles, not standards documents (`src_384bcc1123ee303676b1`, `src_80c8c50e6406c7e7fc95`, `src_e0864997d036665b77f9`, `src_3eb174da3717ef674f19`). Social captures show attention around the term, but not proof of maturity or adoption (`claim_1e6da5e353cab67ed16c`, `claim_78b5de70d95c32a72222`).
+
+## What this book must not claim yet
+
+The evidence does not justify saying that loop engineering is a settled industry discipline, that unattended agents are broadly safe, or that social-media repetition proves market maturity. It also does not justify presenting every captured source as equally useful. Many captures are weak signals, duplicates, search-result fragments, or material requiring human review.
+
+The book will therefore prefer a restrained stance: describe observable patterns, separate strong sources from weak signals, and leave unresolved questions visible.
+
+## Reading guide
+
+The first chapter defines the agent loop as an operating pattern. The Hermes and OpenClaw chapters treat specific systems as examples of agent environments and adjacent tool ecosystems. The loop engineering chapter explains the emerging concept. The context/memory and production chapters discuss what a loop needs in order to be observable, recoverable, and safe enough to operate.
+
+## Source/claim mapping
+
+- Hermes Agent as a project/tooling environment: `src_946462d4856d38e27d2c`, `src_45d026189270d1762fad`, `src_5de659c63abf9db0dff3`.
+- OpenClaw as adjacent open-source assistant project: `src_b364e090655731640be0`.
+- Loop engineering as emerging label and technical discussion: `src_384bcc1123ee303676b1`, `src_80c8c50e6406c7e7fc95`, `src_e0864997d036665b77f9`, `src_3eb174da3717ef674f19`.
+- Social/search-result attention around loop engineering, used only as weak signal: `claim_1e6da5e353cab67ed16c`, `claim_78b5de70d95c32a72222`.
+
+## Weak claims used
+
+- The claims about public attention around loop engineering are weakly supported and used only to explain why the term is worth tracking, not to prove adoption.
+
+## Unsupported claims removed or avoided
+
+- No claim is made that loop engineering is a standard practice.
+- No claim is made that Hermes or OpenClaw is superior based on social posts.
+- No claim is made that social volume proves technical quality.
+
+## Open questions
+
+- Which agent-loop practices will survive after the term “loop engineering” settles or fades?
+- What evidence would justify moving from weak signal to supported claim?
+- How should chapter updates be approved when the source base is noisy but active?
+
+## Editor notes
+
+This revision replaces raw generated claim dumps with a readable preface and explicit caveats. It uses source IDs and claim IDs only from the stored evidence base. It does not use raw captures as prose.
+
+## Changelog
+
+- Replaced weak claim list with a structured editorial introduction.
+- Added source/claim mapping, weak-claim handling, unsupported-claim exclusions, editor notes, and changelog.
+- Clarified that publishing restraint is part of the book’s method.

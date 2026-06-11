@@ -2,36 +2,43 @@
 
 This project uses three practical roles. They can be executed by one Hermes coordinator or split across agents later.
 
-## Book role
+## Book role → keeps the book usable
 
-Maintains the published structure:
+The Book role maintains the public reading experience and operational health of the book:
 
 - chapter order
 - navigation
 - entity pages
 - source and claim pages
 - GitHub Pages build health
+- broken-link/build hygiene
+- clear separation between public pages and local runtime evidence
 
-The book role does not invent facts. It only promotes source-backed material.
+The Book role does not invent facts. It keeps the book usable and makes sure source-backed material can be found, read, and audited.
 
-## Author role
+## Author role → turns approved evidence into readable argument
 
-Turns verified research into readable prose:
+The Author role turns verified or explicitly approved research into readable prose:
 
 - explains Hermes, OpenClaw, loop engineering, context architecture, and memory architecture;
 - writes in book form rather than daily-news form;
+- builds an argument from approved evidence rather than dumping raw captures;
 - adds citations or source notes where claims are specific;
 - marks weak signals as unresolved instead of overstating them.
 
-## Editor role
+The Author role should not promote weak or private material by itself. It writes from material the Editor has approved or clearly labeled as safe candidate evidence.
 
-Protects quality and safety:
+## Editor role → protects quality, truth, privacy, and coherence
+
+The Editor role protects the integrity of the book:
 
 - checks whether a claim is backed by a source;
+- decides whether evidence is strong enough for narrative promotion;
 - rejects private/sensitive personal data;
 - prevents raw authenticated HTML, cookies, tokens, browser profiles, `.env`, and runtime DB files from being published;
 - reviews trend candidates before adding new recurring searches;
-- keeps contradiction/history instead of silently overwriting facts.
+- keeps contradiction/history instead of silently overwriting facts;
+- preserves coherence across chapters so the book does not become a pile of disconnected daily notes.
 
 ## Current daily loop
 

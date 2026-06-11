@@ -17,4 +17,4 @@ The following points are synthesized only from claim records whose status allows
 
 ## Editorial policy
 
-Last generated: 2026-06-11T22:39:09Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
+Last generated: 2026-06-11T22:43:39Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.

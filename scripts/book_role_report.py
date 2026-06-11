@@ -18,6 +18,22 @@ from research_common import DOCS, ROOT
 
 UNSAFE_PATTERNS = re.compile(r"(^|/)(raw|logs|\.var|vector_db|site|\.env|cookies?|tokens?|secrets?|sessions?|browser|profile)(/|$)|\.(sqlite|db|wal|shm)$", re.I)
 CLAIM_REF = re.compile(r"`(claim_[a-f0-9]{20}|src_[a-f0-9]{20})`")
+BOOK_TO_BRIEF = {
+    "book/preface.md": "chapter-briefs/preface.md",
+    "book/01-the-agent-loop.md": "chapter-briefs/01-the-agent-loop.md",
+    "book/02-hermes.md": "chapter-briefs/02-hermes.md",
+    "book/03-openclaw.md": "chapter-briefs/03-openclaw.md",
+    "book/04-loop-engineering.md": "chapter-briefs/04-loop-engineering.md",
+    "book/05-context-memory-architecture.md": "chapter-briefs/05-context-memory-architecture.md",
+    "book/06-operating-loops.md": "chapter-briefs/06-operating-loops.md",
+    "book/open-questions.md": "chapter-briefs/open-questions.md",
+}
+REQUIRED_BRIEF_HEADINGS = [
+    "Purpose", "Target reader", "Main argument", "Required concepts", "Required claims",
+    "Required examples", "Allowed source types", "Excluded source types", "Open questions",
+    "What this chapter must not claim", "Desired tone", "Desired length", "Related entities",
+    "Publication readiness criteria",
+]
 
 
 def run(cmd: list[str]) -> dict:
@@ -83,9 +99,23 @@ def main() -> int:
         errors.append("nav points to missing docs pages: " + ", ".join(nav_missing))
 
     # Required operations docs.
-    for rel in ["operations/book-role-instruction.md", "operations/master-editorial-system.md", "operations/roles.md"]:
+    for rel in ["operations/book-role-instruction.md", "operations/master-editorial-system.md", "operations/roles.md", "operations/chapter-brief-instruction.md"]:
         if not (DOCS/rel).exists():
             errors.append(f"missing required operations page: {rel}")
+
+    # Chapter briefs are mandatory before Author writes/revises.
+    for book_rel, brief_rel in BOOK_TO_BRIEF.items():
+        if not (DOCS/book_rel).exists():
+            errors.append(f"missing book chapter expected by brief map: {book_rel}")
+            continue
+        brief_path = DOCS / brief_rel
+        if not brief_path.exists():
+            errors.append(f"missing chapter brief for {book_rel}: {brief_rel}")
+            continue
+        brief_text = brief_path.read_text(encoding="utf-8", errors="ignore")
+        missing = [h for h in REQUIRED_BRIEF_HEADINGS if f"## {h}" not in brief_text]
+        if missing:
+            errors.append(f"chapter brief {brief_rel} missing required headings: {', '.join(missing)}")
 
     # Internal links.
     broken=[]

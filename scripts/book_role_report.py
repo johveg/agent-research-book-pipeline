@@ -34,6 +34,17 @@ REQUIRED_BRIEF_HEADINGS = [
     "What this chapter must not claim", "Desired tone", "Desired length", "Related entities",
     "Publication readiness criteria",
 ]
+STYLE_SHEET = "operations/author-style-sheet.md"
+REQUIRED_STYLE_HEADINGS = [
+    "Audience", "Voice", "Preferred sentence style", "Argument style", "Evidence style",
+    "Forbidden or discouraged words", "Treatment of social media",
+    "Treatment of internal project examples", "Chapter ending style", "Final style rule",
+]
+DISCOURAGED_STYLE_WORDS = [
+    "revolutionary", "game-changing", "unlock", "unleash", "transformative", "disruptive",
+    "paradigm shift", "next-generation", "groundbreaking", "magical", "seamless",
+    "frictionless", "cutting-edge", "future-proof",
+]
 
 
 def run(cmd: list[str]) -> dict:
@@ -99,9 +110,16 @@ def main() -> int:
         errors.append("nav points to missing docs pages: " + ", ".join(nav_missing))
 
     # Required operations docs.
-    for rel in ["operations/book-role-instruction.md", "operations/master-editorial-system.md", "operations/roles.md", "operations/chapter-brief-instruction.md"]:
+    for rel in ["operations/book-role-instruction.md", "operations/master-editorial-system.md", "operations/roles.md", "operations/chapter-brief-instruction.md", STYLE_SHEET]:
         if not (DOCS/rel).exists():
             errors.append(f"missing required operations page: {rel}")
+
+    style_path = DOCS / STYLE_SHEET
+    if style_path.exists():
+        style_text = style_path.read_text(encoding="utf-8", errors="ignore")
+        missing_style = [h for h in REQUIRED_STYLE_HEADINGS if f"## {h}" not in style_text]
+        if missing_style:
+            errors.append(f"Author style sheet {STYLE_SHEET} missing required headings: {', '.join(missing_style)}")
 
     # Chapter briefs are mandatory before Author writes/revises.
     for book_rel, brief_rel in BOOK_TO_BRIEF.items():
@@ -147,6 +165,10 @@ def main() -> int:
         body=[ln.strip() for ln in text.splitlines() if ln.strip() and not ln.startswith("#")]
         if len(body) < 3 and "not yet ready" not in text.lower() and "No supported or high-confidence claims" not in text:
             errors.append(f"chapter appears placeholder-only without explicit not-ready marker: {ch.relative_to(DOCS)}")
+        lowered = text.lower()
+        for word in DISCOURAGED_STYLE_WORDS:
+            if word in lowered and "directly quoted" not in lowered:
+                errors.append(f"{ch.relative_to(DOCS)} uses discouraged style word without direct-quote context: {word}")
         bad=chapter_has_bad_update(ch)
         if bad:
             errors.append(f"{ch.relative_to(DOCS)}: {bad}")

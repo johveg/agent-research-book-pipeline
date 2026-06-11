@@ -58,6 +58,7 @@ nav:
       - Roles: operations/roles.md
       - Book Role Instruction: operations/book-role-instruction.md
       - Author Role Instruction: operations/author-role-instruction.md
+      - Author Style Sheet: operations/author-style-sheet.md
       - Editor Role Instruction: operations/editor-role-instruction.md
       - Curator Function Instruction: operations/curator-function-instruction.md
       - Editorial Content Pipeline: operations/editorial-content-pipeline.md

@@ -66,6 +66,12 @@ REQUIRED_BRIEF_HEADINGS = [
     "What this chapter must not claim", "Desired tone", "Desired length", "Related entities",
     "Publication readiness criteria",
 ]
+STYLE_SHEET = "operations/author-style-sheet.md"
+REQUIRED_STYLE_HEADINGS = [
+    "Audience", "Voice", "Preferred sentence style", "Argument style", "Evidence style",
+    "Forbidden or discouraged words", "Treatment of social media",
+    "Treatment of internal project examples", "Chapter ending style", "Final style rule",
+]
 
 
 def validate_brief(rel: str) -> None:
@@ -76,6 +82,16 @@ def validate_brief(rel: str) -> None:
     missing = [h for h in REQUIRED_BRIEF_HEADINGS if f"## {h}" not in text]
     if missing:
         raise SystemExit(f"Chapter brief {rel} is missing required headings: {', '.join(missing)}")
+
+
+def validate_style_sheet() -> None:
+    path = DOCS / STYLE_SHEET
+    if not path.exists():
+        raise SystemExit(f"Missing Author style sheet before Author synthesis: {STYLE_SHEET}")
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    missing = [h for h in REQUIRED_STYLE_HEADINGS if f"## {h}" not in text]
+    if missing:
+        raise SystemExit(f"Author style sheet {STYLE_SHEET} is missing required headings: {', '.join(missing)}")
 
 
 def find_claims(con, terms: list[str], approved_only: bool = True):
@@ -122,6 +138,7 @@ def main() -> int:
     args = ap.parse_args()
     init_db()
     now = utc_now()
+    validate_style_sheet()
     updated = []
     with connect_db() as con:
         ensure_editorial_schema(con)

@@ -38,6 +38,8 @@ def main() -> int:
     p=subprocess.run(['git','ls-files'], cwd=ROOT, text=True, capture_output=True)
     for line in p.stdout.splitlines():
         low=line.lower()
+        if line == '.env.example':
+            continue
         if any(x in low for x in FORBIDDEN_PATTERNS): errors.append(f'unsafe tracked path: {line}')
     payload={'status':'ok' if not errors else 'error','errors':errors,'warnings':warnings,'db_path':str(DB_PATH)}
     print(json.dumps(payload, indent=2))

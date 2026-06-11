@@ -46,10 +46,25 @@ CREATE TABLE IF NOT EXISTS claims (
   claim_type TEXT DEFAULT 'observation',
   subject_entity_id TEXT,
   confidence TEXT DEFAULT 'low',
-  status TEXT DEFAULT 'observed',
+  status TEXT DEFAULT 'candidate',
   first_seen_at TEXT,
   last_seen_at TEXT,
-  current_best_understanding TEXT
+  current_best_understanding TEXT,
+  evidence_strength TEXT DEFAULT 'weak',
+  source_count INTEGER DEFAULT 0,
+  updated_at TEXT
+);
+
+CREATE TABLE IF NOT EXISTS entity_sources (
+  entity_id TEXT NOT NULL,
+  source_id TEXT NOT NULL,
+  mention_count INTEGER DEFAULT 1,
+  first_seen_at TEXT,
+  last_seen_at TEXT,
+  sample TEXT,
+  PRIMARY KEY (entity_id, source_id),
+  FOREIGN KEY (entity_id) REFERENCES entities(id),
+  FOREIGN KEY (source_id) REFERENCES sources(id)
 );
 
 CREATE TABLE IF NOT EXISTS claim_sources (

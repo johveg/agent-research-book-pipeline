@@ -22,12 +22,9 @@ logs/runs/state/*.state
 logs/runs/state/latest.state
 logs/runs/*.pid
 
-# Raw/private captures; sanitized metadata/reports may be committed selectively
-raw/authenticated/
-raw/linkedin/**/source.html
-raw/linkedin/**/screenshots/
-raw/web/**/source.html
-raw/web/**/raw-response.json
+# Raw/private captures; preserve locally only unless explicitly approved for publication
+raw/
+!raw/.gitkeep
 
 # Local databases and vector stores
 *.sqlite

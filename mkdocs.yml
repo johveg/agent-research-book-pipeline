@@ -33,6 +33,7 @@ nav:
       - 6. Operating Loops in Production: book/06-operating-loops.md
       - Open Questions: book/open-questions.md
   - Entities:
+      - Index: entities/index.md
       - Companies: entities/companies.md
       - People: entities/people.md
       - Projects: entities/projects.md

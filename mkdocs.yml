@@ -57,6 +57,20 @@ nav:
   - Operations:
       - Runbook: operations/runbook.md
       - Roles: operations/roles.md
+      - Instructions:
+          - Master Editorial System: operations/instructions/master-editorial-system.md
+          - Book Role: operations/instructions/book-role.md
+          - Author Role: operations/instructions/author-role.md
+          - Editor Role: operations/instructions/editor-role.md
+          - Curator Function: operations/instructions/curator-function.md
+          - Content Pipeline: operations/instructions/content-pipeline.md
+          - Claim Status: operations/instructions/claim-status.md
+          - Chapter Briefs: operations/instructions/chapter-briefs.md
+          - Author Style Sheet: operations/instructions/author-style-sheet.md
+          - Source Quality: operations/instructions/source-quality.md
+          - Weekly Curation: operations/instructions/weekly-curation.md
+          - Acceptance Criteria: operations/instructions/acceptance-criteria.md
+          - Do Not Publish: operations/instructions/do-not-publish.md
       - Book Role Instruction: operations/book-role-instruction.md
       - Author Role Instruction: operations/author-role-instruction.md
       - Author Style Sheet: operations/author-style-sheet.md

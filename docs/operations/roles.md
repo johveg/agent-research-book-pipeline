@@ -1,65 +1,59 @@
-# Book / Author / Editor Roles
+# Editorial Role System
 
-This project uses three practical roles. They can be executed by one Hermes coordinator or split across agents later.
+This project is a living research book workflow, not only a collector/source index. The roles below keep collection, curation, editing, authoring, and publication separate.
 
-## Book role → keeps the book usable
+## Instruction set
 
-The Book role should not write the argument. Its job is structural.
+- [Master Editorial System](instructions/master-editorial-system.md)
+- [Book Role](instructions/book-role.md)
+- [Author Role](instructions/author-role.md)
+- [Editor Role](instructions/editor-role.md)
+- [Curator Function](instructions/curator-function.md)
+- [Content Pipeline](instructions/content-pipeline.md)
+- [Claim Status](instructions/claim-status.md)
+- [Chapter Briefs](instructions/chapter-briefs.md)
+- [Author Style Sheet](instructions/author-style-sheet.md)
+- [Source Quality](instructions/source-quality.md)
+- [Weekly Curation](instructions/weekly-curation.md)
+- [Acceptance Criteria](instructions/acceptance-criteria.md)
+- [Do Not Publish](instructions/do-not-publish.md)
 
-The Book role maintains:
+## Role boundaries
 
-- MkDocs navigation
-- chapter files
-- entity pages
-- report indexes
-- broken-link checks
-- build validity
-- consistent formatting
-- approved public content only
+### Collector
 
-The Book role is basically the publisher / production editor.
+Captures and stores source metadata. The Collector does not decide what belongs in prose.
 
-It should ask:
+### Curator
 
-- Does the site build?
-- Are pages in the right place?
-- Are links valid?
-- Are reports reachable?
-- Are chapters consistently structured?
-- Is the book navigable?
+Separates meaningful findings from noise, duplicates, weak signals, irrelevant material, and human-review items.
 
-It should not decide whether a claim is true.
+### Editor
 
-## Author role → turns approved evidence into readable argument
+Reviews claims, source quality, contradictions, privacy risk, duplicate/repeated signals, trends, and Author output. The Editor may block publication.
 
-The Author role turns verified or explicitly approved research into readable prose:
+### Author
 
-- explains Hermes, OpenClaw, loop engineering, context architecture, and memory architecture;
-- writes in book form rather than daily-news form;
-- builds an argument from approved evidence rather than dumping raw captures;
-- adds citations or source notes where claims are specific;
-- marks weak signals as unresolved instead of overstating them.
+Writes only from approved/caveated claims, chapter briefs, source notes, entity summaries, editor instructions, and the style sheet. The Author does not write from raw captures.
 
-The Author role should not promote weak or private material by itself. It writes from material the Editor has approved or clearly labeled as safe candidate evidence.
+### Book role
 
-## Editor role → protects quality, truth, privacy, and coherence
+Maintains MkDocs structure, navigation, links, reports, strict build status, and publication safety. The Book role does not decide claim truth.
 
-The Editor role protects the integrity of the book:
+## Current conservative v1 implementation
 
-- checks whether a claim is backed by a source;
-- decides whether evidence is strong enough for narrative promotion;
-- rejects private/sensitive personal data;
-- prevents raw authenticated HTML, cookies, tokens, browser profiles, `.env`, and runtime DB files from being published;
-- reviews trend candidates before adding new recurring searches;
-- keeps contradiction/history instead of silently overwriting facts;
-- preserves coherence across chapters so the book does not become a pile of disconnected daily notes.
+- Entity extraction: implemented in `scripts/extract_entities.py`, called by `scripts/daily_book_worker.py`.
+- Claim extraction: implemented in `scripts/extract_claims.py`, called by `scripts/daily_book_worker.py`.
+- Source quality scoring: implemented in `scripts/editorial_pipeline_report.py`.
+- Claim review/status assignment: implemented in `scripts/editorial_pipeline_report.py`.
+- Chapter brief handling: implemented in `scripts/synthesize_chapters.py` and checked by `scripts/book_role_report.py`.
+- Author writing from approved claims: implemented conservatively in `scripts/synthesize_chapters.py`; daily runs skip this unless explicitly allowed.
+- Editor review of chapter diffs: **planned** as durable explicit human/editor approval; current v1 blocks and reports through `scripts/editorial_pipeline_report.py` and `scripts/book_role_report.py`.
+- Book role publication: implemented in `scripts/book_role_report.py` plus `mkdocs build --strict`.
+- Research quality verification: implemented in `scripts/verify_editorial_ingestion.py` and `scripts/verify_editorial_roles.py`.
 
-## Current daily loop
+## TODO
 
-1. Web search: Hermes/OpenClaw/loop-engineering queries through Brave Search.
-2. LinkedIn search: read-only authenticated search-result page capture through existing CDP browser.
-3. Trend discovery: candidate words/phrases from daily captures.
-4. Book update: generated source/trend pages plus curated chapter structure.
-5. Vector update: local ChromaDB over sanitized Markdown.
-6. Commit/push: sanitized artifacts only.
-7. Report: Telegram via Hermes cron.
+- Add durable Editor approval records for material chapter diffs.
+- Add richer contradiction/correction workflow.
+- Add a UI or report field for human decisions after weekly curation.

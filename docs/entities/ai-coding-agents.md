@@ -1,13 +1,13 @@
 # AI Coding Agents
 
-Last generated: 2026-06-11T23:00:11Z
+Last generated: 2026-06-11T23:11:24Z
 
 - Type: `framework`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:00:11Z
+- Last seen: 2026-06-11T23:11:24Z
 - Source count: 5
-- Mention count: 61
+- Mention count: 66
 
 ## Description
 

@@ -106,6 +106,7 @@ def main() -> int:
     ap.add_argument("--skip-vector", action="store_true", help="Skip local vector-index refresh")
     ap.add_argument("--vector-limit", type=int, default=200, help="Maximum Markdown files to vector-index in this run; 0 means no limit")
     ap.add_argument("--no-commit", action="store_true", help="Do not commit or push; useful for verification runs")
+    ap.add_argument("--allow-chapter-updates", action="store_true", help="Allow Author chapter synthesis. Default daily behavior is collection/preparation only; use after weekly curation or explicit Editor approval.")
     args = ap.parse_args()
 
     run_id = args.run_id or (("manual-" + run_id_now()) if args.manual else run_id_now())
@@ -159,8 +160,10 @@ def main() -> int:
             if editorial.get("final_status") == "blocked":
                 status = "blocked"
                 steps.append(script_step("scripts/synthesize_chapters.py", 0, "skipped because editorial pipeline blocked chapter publication"))
+            elif not args.allow_chapter_updates:
+                steps.append(script_step("scripts/synthesize_chapters.py", 0, "skipped: daily runs collect/classify/extract/propose only; weekly curation or explicit Editor approval is required for chapter movement"))
             else:
-                # Author writes only from Editor-promoted claims. If none exist, it writes explicit not-ready status.
+                # Author writes only from approved/caveated claims after weekly curation or explicit Editor approval.
                 steps.append(run([PY, "scripts/synthesize_chapters.py", "--run-id", run_id], log))
 
             steps.append(run([PY, "scripts/update_book_pages.py", "--run-id", run_id], log))

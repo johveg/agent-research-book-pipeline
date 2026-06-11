@@ -110,7 +110,7 @@ def main() -> int:
         errors.append("nav points to missing docs pages: " + ", ".join(nav_missing))
 
     # Required operations docs.
-    for rel in ["operations/book-role-instruction.md", "operations/master-editorial-system.md", "operations/roles.md", "operations/chapter-brief-instruction.md", "operations/source-quality-instruction.md", STYLE_SHEET]:
+    for rel in ["operations/book-role-instruction.md", "operations/master-editorial-system.md", "operations/roles.md", "operations/chapter-brief-instruction.md", "operations/source-quality-instruction.md", "operations/weekly-curation-instruction.md", STYLE_SHEET]:
         if not (DOCS/rel).exists():
             errors.append(f"missing required operations page: {rel}")
 

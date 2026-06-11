@@ -53,6 +53,7 @@ nav:
       - Claims: research/claims.md
       - Trend Discovery: research/trend-discovery.md
       - Daily Reports: reports/index.md
+      - Weekly Reports: reports/weekly.md
   - Operations:
       - Runbook: operations/runbook.md
       - Roles: operations/roles.md
@@ -63,6 +64,7 @@ nav:
       - Curator Function Instruction: operations/curator-function-instruction.md
       - Editorial Content Pipeline: operations/editorial-content-pipeline.md
       - Source Quality Instruction: operations/source-quality-instruction.md
+      - Weekly Curation Instruction: operations/weekly-curation-instruction.md
       - Claim Status Instruction: operations/claim-status-instruction.md
       - Chapter Brief Instruction: operations/chapter-brief-instruction.md
       - Master Editorial System: operations/master-editorial-system.md

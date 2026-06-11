@@ -1,13 +1,13 @@
 # Loop engineering
 
-Last generated: 2026-06-11T23:00:11Z
+Last generated: 2026-06-11T23:11:24Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:00:11Z
+- Last seen: 2026-06-11T23:11:24Z
 - Source count: 136
-- Mention count: 4180
+- Mention count: 4544
 
 ## Description
 

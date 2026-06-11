@@ -1,6 +1,6 @@
 # Sources
 
-Last generated: 2026-06-11T23:00:12Z
+Last generated: 2026-06-11T23:11:25Z
 
 This page is generated from the local source database and contains sanitized source metadata only.
 
@@ -18,7 +18,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/002-b014c683189fd8759734.md`
 - **Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 28m • Follow For about two years, getting something out of a codin**
   - Source ID: `src_08e08e34c45ef3541b1d`
@@ -32,7 +32,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/005-5e96596ccae8e96a36c2.md`
 - **Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 33m • Follow "Loop engineering".**
   - Source ID: `src_cabdb559be67bbc0e0cc`
@@ -46,7 +46,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/008-15ceb935b7fbc31d950b.md`
 - **Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT**
   - Source ID: `src_194861917446751632aa`
@@ -60,7 +60,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/011-d6a2309388baa2809f47.md`
 - **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 50m • Follow Outpost hosted a dinner in NYC this week with AI lea**
   - Source ID: `src_4ba99190c772bc83c614`
@@ -74,7 +74,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/014-8ce5a9e0e5a9f1aa2836.md`
 - **Feed post TheNextGenTechInsider.com 783 followers 26m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O**
   - Source ID: `src_7a8656fa04e1cba1efb2`
@@ -88,7 +88,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/017-07fa2b68fa6a76b7b8a0.md`
 - **Feed post Devesh Paragiri • 3rd+ paragiri.com 54m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some **
   - Source ID: `src_0099faf480337ab39237`
@@ -102,7 +102,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/019-c18a3a35fe3d20e6a981.md`
 - **Feed post AMC Bridge, Inc. 7,904 followers 1h • Follow As engineering and manufacturing organizations continue to scale, a persistent challe**
   - Source ID: `src_235baf25b0345b0402a8`
@@ -116,7 +116,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/037-13766f91baa7d0bfbd29.md`
 - **As engineering and manufacturing organizations continue to scale, a persistent challenge is becoming harder to ignore: finding and reusing e**
   - Source ID: `src_e07c7f2aa9c18c1173d4`
@@ -129,7 +129,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_b62b21ae591a60fc46d6"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/039-569faff9d75ac7e93636.md`
 - **Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex**
   - Source ID: `src_2cb5222822668212bbcc`
@@ -143,7 +143,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/068-a8f722ab4703655c26d8.md`
 - **Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent**
   - Source ID: `src_1df3199c7e95dfdf6420`
@@ -157,7 +157,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/080-9f0e1bb3146982109c74.md`
 - **Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage**
   - Source ID: `src_ec7da3edd7411a047fec`
@@ -171,7 +171,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/093-8495e9d4f0a761f55efb.md`
 - **Feed post Pawfect Loop Inc. 11 followers 3h • Follow The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your te**
   - Source ID: `src_c9a7cbd25de5a87a0893`
@@ -185,7 +185,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/109-8d6bea9d1fa5157bde74.md`
 - **The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your team spending more time fighting pet fur than caring fo**
   - Source ID: `src_61203742a4beebcf45ef`
@@ -198,7 +198,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_79307773dedf003b03e5"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/111-76eb3dd20a06e4b38911.md`
 - **Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi**
   - Source ID: `src_bdc4613f2ad6c94cb207`
@@ -212,7 +212,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/130-3091c0f4e9f5abb6d624.md`
 - **Loop Engineering: stop prompting, start lopping! (ES) Ingeniería de contexto era lo ultimo.. luego apareció ingeniería de arneses... ahora t**
   - Source ID: `src_d655e40e10d270563db3`
@@ -226,7 +226,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/171-91a97a3e24333586cbe5.md`
 - **Feed post Shivanath Devinarayanan • 3rd+ Chief Digital Labor & Technology Officer at Asymbl | Salesforce MVP Hall of Fame | 180+ AI Agents i**
   - Source ID: `src_b498fdf309bbe197d84c`
@@ -240,7 +240,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/172-43d9fa8f234a060646c6.md`
 - **Loop Engineering for the Agentforce Era.The point is not to make agents busier.The point is to make Salesforce delivery more inspectable, bo**
   - Source ID: `src_bbea13b56217dc6481aa`
@@ -253,7 +253,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_65d6fb05d553a471fdf3"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/174-dbd62ead742df77ea91e.md`
 - **Feed post Nader Slim • 3rd+ Engineering Leader at Loblaw Digital 6h • Boris Cherny, the engineer behind one of the most widely used coding a**
   - Source ID: `src_33af03839dc87cf0d44b`
@@ -267,7 +267,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/175-544855bfd5536190e741.md`
 - **Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O**
   - Source ID: `src_bec329323b1b96d80c48`
@@ -281,7 +281,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/002-7995cfb7029384c17d0c.md`
 - **Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering,**
   - Source ID: `src_41eb746f04a3ea6b0071`
@@ -294,7 +294,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_82bfd616fea69cce2d95"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/004-54e88de2be7c7a9b21f8.md`
 - **Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 25m • Follow For about two years, getting something out of a codin**
   - Source ID: `src_2267eb6a85d64a985258`
@@ -308,7 +308,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/005-518d606b9bc95ed247a3.md`
 - **For about two years, getting something out of a coding agent meant holding it the whole time. You typed a prompt, read what came back, typed**
   - Source ID: `src_6dd1980514dc1aaed786`
@@ -321,7 +321,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/007-d73e252364d8dcc45838.md`
 - **Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".**
   - Source ID: `src_fccced70af25ad30495a`
@@ -335,7 +335,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/008-9baf8e463ca2976cd23b.md`
 - **Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT**
   - Source ID: `src_93f660a204114fc11316`
@@ -349,7 +349,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/011-4b5875f82920e7e66589.md`
 - **There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth**
   - Source ID: `src_5041e58ca7814decf8f5`
@@ -362,7 +362,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
 - **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 47m • Follow Outpost hosted a dinner in NYC this week with AI lea**
   - Source ID: `src_d7ef46707f234d4abd1b`
@@ -376,7 +376,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/014-066d5c04e372ae9e450a.md`
 - **Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun**
   - Source ID: `src_b77d7e5c1188e7c1668c`
@@ -390,7 +390,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/017-11d062b78446be7e37a1.md`
 - **Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod**
   - Source ID: `src_196cf6f616a9eee401b7`
@@ -403,7 +403,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_c86b0732dedc22f8a651"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/018-0fcf39793ffc381af45e.md`
 - **Feed post Devesh Paragiri • 3rd+ paragiri.com 51m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some **
   - Source ID: `src_ed0132fb20b200bfffb3`
@@ -417,7 +417,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/019-352d12389acd8f2e50e9.md`
 - **i've spent the past few weeks on the autoresearch paradigm, trying to close some of the systematic gaps in how it's used today. the testbed **
   - Source ID: `src_a0cdc450328cbbaa6e6d`
@@ -431,7 +431,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/021-02945ecd79656176b9e7.md`
 - **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 59m • F**
   - Source ID: `src_d97a58701c22069baefd`
@@ -445,7 +445,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/022-d142fc94559b022df371.md`
 - **🚀 The Saudi RDF Giga-Project Arbitrage: Powering the Kingdom’s Smart Infrastructure with Upgraded Alternative Fuels Under the strategic mand**
   - Source ID: `src_2e17918bf9fc6347026b`
@@ -458,7 +458,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/024-6b710cc1ecf2750b2574.md`
 - **Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac**
   - Source ID: `src_c6cf3d54e8eb380412df`
@@ -472,7 +472,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/025-144e9089624de80d3540.md`
 - **Every team building AI agents goes through the same arc. The model does something magical. Then it hits production. And slowly, things break**
   - Source ID: `src_cd3658d2d9ce48d6250c`
@@ -485,7 +485,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/027-8cc858c8a3b0a8e2829e.md`
 - **Feed post Cristian Camilo Peña Sanchez • 3rd+ Product Engineer · Healthcare platforms across web & mobile · Design systems, DDD, multi-tenan**
   - Source ID: `src_8137679458f85dcd076d`
@@ -499,7 +499,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/028-6f6e8933001fe0842121.md`
 - **Prompt Engineer -> Context Engineer -> Loop Engineer -> ¿Qué sigue? 🤔**
   - Source ID: `src_6c8e03d4dca6fa3e3bac`
@@ -512,7 +512,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/030-a04a8815caddf8b753ed.md`
 - **Feed post Cathartic Computing Club 578 followers 1h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.**
   - Source ID: `src_59b180e9625a95a78dc0`
@@ -526,7 +526,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/031-da1b79830678c0fdd977.md`
 - **The paradigm shift in interacting with coding agents is here: Loop Engineering. Instead of direct prompting, the focus is now on designing s**
   - Source ID: `src_d6b19e77f7b0a7947e07`
@@ -539,7 +539,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_115b4898cd95a01eed6c", "claim_c7640d7d37d3acade845"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/033-52f3f914667566b8c3ae.md`
 - **Feed post Evnek 25,463 followers 1h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys**
   - Source ID: `src_3f9855c77890e7de7133`
@@ -553,7 +553,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/034-a87ccd061e5972d1cbfb.md`
 - **Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. Here's how the**
   - Source ID: `src_e0171aeaf56dd4cb0cd7`
@@ -566,7 +566,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_99a44d43b86eaa5907ba"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/036-b0c417aaaed0f16416d0.md`
 - **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
   - Source ID: `src_154a639a03a5adaa6f45`
@@ -580,7 +580,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/037-e2344d4fccd6458970f2.md`
 - **🚀 The Saudi WPC Giga-Project Arbitrage: Engineering Weather-Resistant Biomaterials for Extreme Arid Climates Under the strategic mandates of**
   - Source ID: `src_641aefd0d460fa083344`
@@ -593,7 +593,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/038-5a1fe77412181cf98508.md`
 - **Feed post Jazzy L. Jazzy L. • 3rd+ Sr. Designer | AI Cloud Infrastructure | AIOps | Agentic Commerce | Correlation UX | HITL Evaluation | Ob**
   - Source ID: `src_37157037f000cb04e7e0`
@@ -607,7 +607,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/039-e33e5e922b9c9b42b801.md`
 - **https://lnkd.in/gXJHvTmu hashtag #agentic hashtag #artificialintelligence**
   - Source ID: `src_4a6f55653ff6506123e7`
@@ -620,7 +620,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/041-90edbae12984087bb22e.md`
 - **Feed post Lonnie McRorey • 3rd+ We Replace Nearshore, Offshore & EOR with a Distributed Engineering OS | 0→PR in 14 Days | For CTOs & CIOs V**
   - Source ID: `src_cbc7f51eda4bad5c3daf`
@@ -634,7 +634,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/042-f283a5864e97978d181f.md`
 - **Funny thing. A lot of engineers are spending 8 hours learning how to write a better prompt. Meanwhile the engineer next to them is building **
   - Source ID: `src_9bc98ee031231318454e`
@@ -647,7 +647,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_8502d4dc9dc0b0eb83dc"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/044-f92898c1f273efbd01ae.md`
 - **Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. Over the last two **
   - Source ID: `src_b4579afbea1fcf6d2e2d`
@@ -660,7 +660,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_3978eea1e495626d9799"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/045-1948055b4a151f7fb1a3.md`
 - **Feed post Edoardo Oranger • 3rd+ Software Engineer 1h • Follow Negli ultimi anni grazie all’intelligenza artificiale, la figura del software**
   - Source ID: `src_cfdba148777ab9a2333c`
@@ -674,7 +674,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/046-8f7c70d059d267453fcc.md`
 - **Negli ultimi anni grazie all’intelligenza artificiale, la figura del software engineer si è evoluta in questo modo: 1. software engineer 2. **
   - Source ID: `src_ffc27bf5f2222b9fd41c`
@@ -687,7 +687,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/048-608b3d852e3318401df4.md`
 - **Feed post Zaid Alazawe • 3rd+ Senior Process Engineer | LNG, Refining, Biodiesel & Renewables | 17+Yrs | PMP® | PSM | Enzymatic & FAME Proce**
   - Source ID: `src_00145a38e52a09bd30c1`
@@ -701,7 +701,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/049-73f3d4693ea255d97872.md`
 - **Process Engineering Essentials – A New Series for Engineers 👨🏻‍💻🚀 Process engineering is more than simulations and calculations. It’s about **
   - Source ID: `src_5ffc286797a568b2ac2c`
@@ -714,7 +714,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/051-1cfdf48b79729ca69ac2.md`
 - **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
   - Source ID: `src_55047ddd2b7f38bdf12c`
@@ -728,7 +728,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/052-0150217525705d5a7718.md`
 - **🚀 The Saudi MDF Giga-Project Arbitrage: Upcycling Palm Waste Feedstocks into Structural Biomaterials Under the strategic mandates of Saudi V**
   - Source ID: `src_bf1503eca7407a86234e`
@@ -741,7 +741,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/053-6ab74f32a9440a643d8a.md`
 - **Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 1h • Follow "Loop Engineering" is so hot right now, in**
   - Source ID: `src_8ef64e5b25fcac4e92a7`
@@ -755,7 +755,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/054-bc58a29a9bb7801f894c.md`
 - **"Loop Engineering" is so hot right now, instantly reminded me of this classic.**
   - Source ID: `src_d5aa7edc8d9b671b6a0b`
@@ -768,7 +768,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_d80d87b3689a8d771f16"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/056-aab12e31d1d92de0acdd.md`
 - **Feed post Brett Marlin • 3rd+ Founder & Principal at Marliin AI. Senior product practitioners delivered as AI agent infrastructure. 1h • Fol**
   - Source ID: `src_2506bae58d1ed7d34d6c`
@@ -782,7 +782,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/057-18c758ba7957a6316036.md`
 - **phht, i've been loop engineering since rollercoaster tycoon 3. but seriously: buying claude licenses for the whole team is not an ai strateg**
   - Source ID: `src_ab47cd65dcd4c734832f`
@@ -795,7 +795,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_fe853f4d14e32dc5ee0b"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/059-83c202f3d5c23c9d5cc1.md`
 - **Feed post Quinton Wall • 3rd+ Tell your agent I said 👋 1h • Edited • Follow All of a sudden loop engineering has replaced prompt engineering**
   - Source ID: `src_03e6f9b7b0ca795b560b`
@@ -809,7 +809,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/060-43eecf59df5f0ebedc3a.md`
 - **All of a sudden loop engineering has replaced prompt engineering. What is it, and why you should be using /goal as often as possible. https:**
   - Source ID: `src_8f12ecc8197d2f838117`
@@ -822,7 +822,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_44553080825a09530959"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/062-fe2563dff40f74ff3e27.md`
 - **Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 2h • Follow Everyone is suddenly saying "loop engineering." Alm**
   - Source ID: `src_8e9c2ef34e47997786bf`
@@ -836,7 +836,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/063-9f5d734ae33c3d6feb4b.md`
 - **Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. So here it is, in the time it takes to d**
   - Source ID: `src_6ec2b3fdea5e136677c5`
@@ -849,7 +849,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_78b5de70d95c32a72222"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/065-c0cd1620ac7015fa8576.md`
 - **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
   - Source ID: `src_73ab742770943981950c`
@@ -863,7 +863,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/066-b3627c698e7f88c5f34f.md`
 - **🚀 The European MDF Paradigm: Turning Post-Consumer Wood Waste into Premium Circular Panels Standalone wood processing facilities and furnitu**
   - Source ID: `src_5b8251198f2f2a17ba53`
@@ -876,7 +876,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/067-ee476c44456bcf9505f2.md`
 - **Feed post Dylan Williams • 3rd+ Co-Founder - Spectrum Security Visit my website 2h • Follow If we now have loop engineering, then what’s nex**
   - Source ID: `src_e2de6364ccc0540faa95`
@@ -890,7 +890,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/068-f40bf5d6911c7865d4f5.md`
 - **If we now have loop engineering, then what’s next? Environment engineering. Prompt engineering, context engineering, harness engineering, lo**
   - Source ID: `src_d19c8f39ecb42fcb43de`
@@ -904,7 +904,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/070-e60057894ed30f492dc1.md`
 - **Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex**
   - Source ID: `src_f1898f6d5dce6bcd1786`
@@ -918,7 +918,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/071-d22b4253c15e91dfd9fd.md`
 - **Loop Engineering is the next leap: agents find work, execute, evaluate, and repeat without constant supervision. The secret? Build the evalu**
   - Source ID: `src_45271aaf537ca39870f7`
@@ -931,7 +931,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_5fe426bc9f841da6446c"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/073-f213d10bb437a0af4304.md`
 - **Feed post Esmat Nawahda • 3rd+ Co-founder & CTO at Genpire | ex-Check Point, ex-AUI | Building the agentic infrastructure for the next gener**
   - Source ID: `src_e0f917a77b8f68587320`
@@ -945,7 +945,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/074-4e52bd82203a5dbf450b.md`
 - **Loop Engineering: replacing one-shot prompts with a self-correcting cycle. Four phases: Act. The agent generates output. Observe. The system**
   - Source ID: `src_1d386e25cf92c1f02650`
@@ -958,7 +958,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/076-d7b973aee355132aa3f9.md`
 - **Feed post Adrien Desbiaux • 3rd+ Applied AI engineer 2h • Follow I am officially becoming a high agency AI Loop Engineer. 2 comments Like Co**
   - Source ID: `src_abe9abf1c706f220f883`
@@ -972,7 +972,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/077-6bcb6bc4abeff89ebaba.md`
 - **I am officially becoming a high agency AI Loop Engineer.**
   - Source ID: `src_12ee00d806eca0600392`
@@ -985,7 +985,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/079-bcd26c704aec730edc84.md`
 - **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
   - Source ID: `src_591c73dcf4ae08f772eb`
@@ -999,7 +999,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/080-eed176669e2cd00cdfb3.md`
 - **🚀 The Saudi Gelatin Giga-Project Arbitrage: Upcycling Halal Leather Streams into Pharma-Grade Biomaterials Under the strategic mandates of S**
   - Source ID: `src_f14dd1adefcf99f67e8e`
@@ -1012,7 +1012,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/081-ac0a2591f04829b785c6.md`
 - **Feed post Milton Thomas • 3rd+ Architecte IA & Conseiller Stratégique : L’œil anthropologique sur votre technologie | Détecteur de Scams Tec**
   - Source ID: `src_e9cec6de6cde88277dd1`
@@ -1026,7 +1026,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/082-cbc5000dc8ca54885c00.md`
 - **Si vous passez encore vos journées à chercher le "prompt magique" de 50 lignes pour obtenir la réponse parfaite du premier coup, vous avez d**
   - Source ID: `src_9c06bccff652d7408881`
@@ -1039,7 +1039,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/084-2600c34267f53625c8e4.md`
 - **Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent**
   - Source ID: `src_dabe1f21d66b5c81825e`
@@ -1053,7 +1053,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/085-791a8409cf05de355ac0.md`
 - **Stop prompting AI agents. Start engineering loops. A loop is a small program that prompts an AI agent for you, reads what it produced, decid**
   - Source ID: `src_a45643df73fd7508537b`
@@ -1066,7 +1066,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_ddcb28eb301b363c351a"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/087-50ea264ef868979450bb.md`
 - **Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera **
   - Source ID: `src_6dcc4ca70392d35f0253`
@@ -1080,7 +1080,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/088-2ecf1233d61cf6196904.md`
 - **IA gera código rápido, mas frequentemente peca na falta de design, documentação e revisão antes do commit. Para mudar essa abordagem, estrut**
   - Source ID: `src_7de35d8856d9efa30129`
@@ -1093,7 +1093,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/090-2c811f5a7031dcae55d2.md`
 - **Tava insatisfeito com como IA gera código: pula etapas, não documenta, não pensa em design antes de implementar, e às vezes commita sem revi**
   - Source ID: `src_634a6637b12c5831dfd6`
@@ -1107,7 +1107,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/091-33a39daeeb238bd29954.md`
 - **Feed post Muhammad Adnan • 3rd+ BDE @ Zenveus | LinkedIn Outbound & Growth | Email Marketing | SaaS & AI Automation | Coffee-Fueled Operator**
   - Source ID: `src_db513a029e6b9351b583`
@@ -1121,7 +1121,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/092-2cdfe73907625b97dad8.md`
 - **AI is changing how SaaS companies grow. But the real advantage is not just adding AI features. It is building better systems around the enti**
   - Source ID: `src_4f399dde5c84a687e7af`
@@ -1134,7 +1134,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_e3b28135bcb28d4ef2aa"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/094-8a75cb237fc13c060129.md`
 - **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
   - Source ID: `src_894ae79eb4f739f98a48`
@@ -1148,7 +1148,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/095-8d771208b555abf3573f.md`
 - **🚀 The European Gelatin Premium: Upcycling Cow Leather Scrap into Medical-Grade Assets Standalone leather tanneries across Europe face severe**
   - Source ID: `src_9c49e00ffc65153ff3cf`
@@ -1161,7 +1161,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/096-4a6c0c11eed8dc39eb16.md`
 - **Feed post Nirmalkumar Sathiamurthi • 3rd+ Senior Engineering Manager | Scaled SaaS to $400M ARR | Led 20+ Engineers | 30x Performance Gains **
   - Source ID: `src_f598a07d0baed0022154`
@@ -1175,7 +1175,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/097-4f81484efdeb739a72e4.md`
 - **We've moved fast. Vibe coding → Agentic workflows → Harness engineering → Loop engineering. But here's the question nobody's asking loudly e**
   - Source ID: `src_14d5206f07305edbab45`
@@ -1188,7 +1188,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/099-c4017c55be4e384c083a.md`
 - **Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage**
   - Source ID: `src_e57c9f9405f1d7479c72`
@@ -1202,7 +1202,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/100-0ad199d1753e2556739d.md`
 - **Converting world-class engineering capability into an unassailable commercial advantage? Interview from Baker Hughes on their advanced geoth**
   - Source ID: `src_d1940b923ec5314259f8`
@@ -1216,7 +1216,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/102-13396b7335afa1b7b5b1.md`
 - **As the energy system evolves, geothermal stands out as a reliable, scalable source of baseload, lower-carbon power and heat. In this video, **
   - Source ID: `src_10358a46b2b76be55e09`
@@ -1229,7 +1229,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/103-92767558faf151c7991a.md`
 - **Feed post Edward Chen • 3rd+ Engineering Excellence Leader | AI, Quality Engineering & Developer Productivity | Automation Strategy | ADLC S**
   - Source ID: `src_3c4b4db3e530fe43e085`
@@ -1243,7 +1243,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/104-bb97a7983ab8bf664b0c.md`
 - **最近看到很多人在討論 Loop Engineering . 如果回頭看過去一年 AI Coding 的發展，我反而覺得大家其實是在一路往上抽象。 一開始我們研究怎麼寫 Prompt，後來發現光會下指令不夠，又開始想辦法管理 Context，避免模型每次都像剛報到的新同事。接著進入**
   - Source ID: `src_f94ea32ae29619aa2c2f`
@@ -1256,7 +1256,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/106-c3f3d5b4ea71aa0bee7d.md`
 - **Feed post Saulius Tautvaisas, PhD Saulius Tautvaisas, PhD • 3rd+ Senior Data Scientist @ Danske Bank | GenAI Technology 3h • Follow "Loop en**
   - Source ID: `src_9c87bdb62665675d6a1b`
@@ -1270,7 +1270,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/107-8f630fc15e60ab671916.md`
 - **"Loop engineering" is a term that has emerged recently. It means designing the system that runs a coding agent, instead of prompting the age**
   - Source ID: `src_4ece22e6dadda1dd0ac6`
@@ -1283,7 +1283,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/109-c98d67376a024dded32f.md`
 - **Feed post Pitchayut Roejanapreecha • 3rd+ Enterprise Architecture | Enterprise Agility | Enterprise Transformation | Agile at Scale 3h • Fol**
   - Source ID: `src_0c07cb7db30a2f21cecc`
@@ -1297,7 +1297,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/110-07a0a7527124485e7da6.md`
 - **Enterprise Architecture is entering the Loop Engineering era. For years, EA was built around static artifacts: Capability Maps Target Archit**
   - Source ID: `src_358f72ad3225c760e7d8`
@@ -1310,7 +1310,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_18d2cb81ce2a907f0b84", "claim_95f6c85087cb4ae65419"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/112-d18b315b431a39f58491.md`
 - **Feed post Hyun Kil Shin • 3rd+ AI drug design education gamification 3h • Follow https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하**
   - Source ID: `src_3651b0e7c06943121a04`
@@ -1324,7 +1324,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/113-b9149e8bffdcf0b109e0.md`
 - **https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하는 거였는데 말입니다. 매번 프롬프트 다듬고 md에 지시문 추가하고 이제까지 했던 과정 스킬로 만들거나 하네스로 저장 요청했었는데, closed **
   - Source ID: `src_00522c21d6d6bf94c66a`
@@ -1337,7 +1337,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/115-0e681f98632386b9fe90.md`
 - **Feed post Mohamed Hany Youns • 3rd+ Software Engineer | Frontend-Focused Full-Stack | GSoC’25 @Chromium | Web Performance & Systems 3h • Fol**
   - Source ID: `src_ff8afc7c338b128fedfc`
@@ -1351,7 +1351,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/116-15294ed24bcce1c143c2.md`
 - **فى ظل تخبط الأسواق والاقتصاد الحالى وعدم وجود ملامح واضحة للمستقبل ولو انت متابع الاخبار فى الوقت الحالى فى موضوع ال AI و Agentic Ai هيلاحظ **
   - Source ID: `src_45f24e5f767e3e33d933`
@@ -1364,7 +1364,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/118-de87fc0ab32a1d55d1a8.md`
 - **Feed post Aleksander Stensby • 3rd+ 🚀 Founder @ GritAI Studio | Claude Ambassador | Making AI Accessible & Practical for Everyone Visit my w**
   - Source ID: `src_34ad352ee2cdf107e2c6`
@@ -1378,7 +1378,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/119-b61d9b76c0b5861ed371.md`
 - **It's time to be more ambitious! That's Anthropic's own advice for working with Claude Fable 5, launched this week. The first Mythos-class mo**
   - Source ID: `src_00be58448b668123927e`
@@ -1391,7 +1391,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/121-b14fc305ec0ca22838cd.md`
 - **Feed post Olli-Pekka Heinisuo • 3rd+ Co-founder @ GitHits. Code examples for coding agents and developers, distilled from open source repos.**
   - Source ID: `src_6890f1b854213ea33104`
@@ -1405,7 +1405,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/122-af27dfddb800407694ce.md`
 - **Loop engineering is all the hype now but have you actually looked into what kind of stuff the LLM does in those loops? It might easily spend**
   - Source ID: `src_e99a32967bee75ffa2a3`
@@ -1418,7 +1418,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_2311b109d80f8a43b0ec"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/124-396609a59af213d8d792.md`
 - **Feed post Aric Crosson Bouwers • 3rd+ Full-stack AI Engineer & natural intrapreneur. Product mindset is my jam. | Lover of coffee, architect**
   - Source ID: `src_411524d3ea58632f86c5`
@@ -1432,7 +1432,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/125-e56a8433dc3c4d262d5b.md`
 - **I’ve seen a lot of posts about loop engineering, and they definitely are powerful. They basically unlock your ability to keep contributing v**
   - Source ID: `src_41f88cf3f524177b3d40`
@@ -1445,7 +1445,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_6407b3c3730ab2c3a53d"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/127-4625065c8e11323a8643.md`
 - **Feed post Avinash Tiwari • 3rd+ Human Technologist [ my thoughts ≠ employer’s view ] 4h • Edited • Follow Where are we headed..... Boris Che**
   - Source ID: `src_bf96326c9f90fe6dac0a`
@@ -1459,7 +1459,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/128-37d469c97ae9c77a7e43.md`
 - **Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create**
   - Source ID: `src_04119334ec1ee2a928e1`
@@ -1472,7 +1472,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/130-372eae5f4dfdc174adda.md`
 - **Feed post Vincent Sipoi • 3rd+ 2x Tech Founder | Systems Architect | Claude, n8n & Smart Agents | Web3 & Blockchain Engineering 4h • Follow **
   - Source ID: `src_18f7ba367007937d7200`
@@ -1486,7 +1486,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/131-6f31d77d9ed0f9016d80.md`
 - **From Prompt Engineering to Loop Engineering Architecture The 4 Core Components 1. Trigger what starts the loop 2. Actor the AI doing work 3.**
   - Source ID: `src_8d15780646dfabab8bc0`
@@ -1499,7 +1499,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/133-41a47e406d41941e2fd6.md`
 - **Feed post Paloma B. Akerman, PhD • 3rd+ Senior Strategic Advisor & PhD in Hydrology | Digital Twins & Smart Water Expert | Associate Profess**
   - Source ID: `src_2c2c7c159786cfd3ca0b`
@@ -1513,7 +1513,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/134-6b0d09c47ed44d7910d5.md`
 - **​🌍💧 Engineering Meets Digital Water: The Future of Advanced Sewer Modelling at Scale! ​Following our recent presentation with Enrique Sorian**
   - Source ID: `src_6c80e6ce84c0c762ab72`
@@ -1527,7 +1527,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/136-14925f9190903b1863c8.md`
 - **Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi**
   - Source ID: `src_87db5f9f4398d78f8cd4`
@@ -1541,7 +1541,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/137-3a54e578e238ff2bba3f.md`
 - **This is brilliant! An engineer used Claude Mythos & data from Whoop to find which coworker gives him the most stress 👏 A developer hooked hi**
   - Source ID: `src_5130c8e9582e51e17cb9`
@@ -1554,7 +1554,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/139-92676053bf6eed04a377.md`
 - **Feed post Nikhil Kassetty • 3rd+ AI-Powered Architect | Top 50 Global Thought Leader – Agentic AI & FinTech (Thinkers360) | Speaker & Mentor**
   - Source ID: `src_d60d2af1d430843ee916`
@@ -1568,7 +1568,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/140-de36d909aa3a1b0d782c.md`
 - **Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. Design the loop that p**
   - Source ID: `src_a43da2bf7e7a8325ac0f`
@@ -1581,7 +1581,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_1e6da5e353cab67ed16c"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/142-7ad78a44bee487408048.md`
 - **Feed post KASKTAŞ 7,131 followers 4h • Edited • Follow Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisl**
   - Source ID: `src_54950c06feda0988f147`
@@ -1595,7 +1595,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/143-448f688f5efceed46721.md`
 - **Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisliğinde Döngüyü Tamamlamak: Tasarım Kabullerinden Doğrul**
   - Source ID: `src_a37f1d2093e758bdeb7b`
@@ -1609,7 +1609,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/145-31bf7fc664f29d355eef.md`
 - **Feed post Suresh G. • 3rd+ SSE @Oracle | ex Amazon | ex Microsoft | Best Selling Udemy Instructor | IIT KGP || Heartfulness Meditation Train**
   - Source ID: `src_8ddabb2aab6231f5c861`
@@ -1623,7 +1623,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/146-4d0bdf26694802b03cfe.md`
 - **Anthropic and OpenAI engineers are both telling software engineers to write loops. That is not a coincidence. For the last two years, most o**
   - Source ID: `src_2dfcfc1259b8af274abd`
@@ -1636,7 +1636,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/148-67a3fc4a482ae415151e.md`
 - **Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many**
   - Source ID: `src_c1d6a2ce72949bf5cc64`
@@ -1650,7 +1650,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/149-76d04b4013d789d82793.md`
 - **Feed post Sean Reed • 3rd+ I design and build multi-agent systems for commercial banks. 5h • Follow Loop Engineering Explained louisbouchard**
   - Source ID: `src_a946c1fb4e962bd502ae`
@@ -1664,7 +1664,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/155-943c33100b7c82d3359a.md`
 - **Feed post Stuart Inskip • 3rd+ Strategic Product Leader delivering 0-to-1 launches and roadmap ownership across consumer loyalty, omnichanne**
   - Source ID: `src_20fc7d22b1b12316e014`
@@ -1678,7 +1678,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_3758bb6824db2606c9b9"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/157-f103686ac0e289f34559.md`
 - **Loop engineering — the practice of designing automated agent workflows instead of prompting manually — is reshaping how developers use Claud**
   - Source ID: `src_4843b283b5fc4e93dd43`
@@ -1691,7 +1691,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_df4fdf7d5750e8f6b68b"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/159-7d4574beb029982da5e6.md`
 - **Feed post Baskar Rao Dandlamudi, MSITM • 3rd+ Azure Solution Architect | Technology Leader | Speaker | Community Builder 5h • Follow Everyon**
   - Source ID: `src_d63f190528c784c0c69a`
@@ -1705,7 +1705,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/160-1d260601253a8ef70dbf.md`
 - **Everyone’s talking about loop engineering and for good reason. As agentic AI systems take on more autonomy, they rely on loops to plan, act,**
   - Source ID: `src_455918111f27640d0bec`
@@ -1718,7 +1718,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/162-28e814138ec6f688474a.md`
 - **Feed post Sagar Mainkar • 3rd+ Co-founder , Catomz | AI + Cybersecurity | Ex-Qualys, SAS | 20+ Yrs Building Products at Scale 5h • Follow Is**
   - Source ID: `src_e151b8195878fb0c3363`
@@ -1732,7 +1732,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/163-3a992220267ea5b33eea.md`
 - **Is Loop Engineering the new meta in agentic AI? Recently, Peter Steinberger (creator of the viral OpenClaw agent, now at OpenAI) and Boris C**
   - Source ID: `src_7c0abe8c3568e8638d27`
@@ -1745,7 +1745,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/165-d1baffb0150f97510a4c.md`
 - **Feed post Kashi KS Kashi KS • 3rd+ Chief AI Officer & Head of AI research 5h • Follow Thiyagarajan Maruthavanan (Rajan) and I started the RK**
   - Source ID: `src_312d3981f2df37664a61`
@@ -1759,7 +1759,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/166-9ea50d7f7015e728e962.md`
 - **Thiyagarajan Maruthavanan (Rajan) and I started the RK on AI Podcast a few months , now approaching 50,000+ views. In our latest episode, we**
   - Source ID: `src_585ecbdb3cc64ac08c13`
@@ -1773,7 +1773,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/168-c73b3af409ff51942bc6.md`
 - **FDE then Agentic engineer and now Loop engineer As an industry we like to invent new roles every few months With Kashi KS on RK on AI https:**
   - Source ID: `src_9062c6183889eb286680`
@@ -1787,7 +1787,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/169-be3cb3ce579bd768dfb3.md`
 - **Feed post Sattar Rasouli • 3rd+ Senior Frontend Engineer 5h • Follow Loop Engineering: The Next Big Shift in How We Work With AI A new idea **
   - Source ID: `src_8ad249146808f1931792`
@@ -1801,7 +1801,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/170-44e71bef7e9dc2a2d735.md`
 - **Loop Engineering: The Next Big Shift in How We Work With AI A new idea is trending in AI right now, and it is called "loop engineering." For**
   - Source ID: `src_1b610a06f1bcba7d81e4`
@@ -1814,7 +1814,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_723d3e39d65a5984ce34"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/172-0fbc6d5be563445b9b8e.md`
 - **Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou**
   - Source ID: `src_4fbd8eeb1aedc3115816`
@@ -1828,7 +1828,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/173-1526b70898cf564fb1cd.md`
 - **Good morning! This week, I'll show you what loop engineering actually is, how it's different from a cron job, the 5 building blocks that mak**
   - Source ID: `src_bcdb4dd4aa7051b62136`
@@ -1841,7 +1841,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_7a96c897532a2de2e86a"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/175-06b1cb46dcc41cd7f403.md`
 - **Feed post Ramasubramanian Meenakshisundaram • 3rd+ Senior Technologist at Infosys 5h • Follow The Rise of "Loop Engineering": As technical l**
   - Source ID: `src_46e50208076678100960`
@@ -1855,7 +1855,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/176-fbeb24bbb27bf22f1de7.md`
 - **The Rise of "Loop Engineering": As technical leaders note, prompt engineering is dying.The value is no longer in finding the perfect combina**
   - Source ID: `src_7851d83ecbbb19f84554`
@@ -1868,7 +1868,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_e615ed1f30a83455c7e2"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/178-ac03810fcc4d3fb56c8d.md`
 - **Feed post Rafael Igual • 3rd+ AI Strategy | AI Business Design | AI Innovation | AI Design Sprint | AI Venture Building | AI Venture Capital**
   - Source ID: `src_08230e306aedbaf3c546`
@@ -1882,7 +1882,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/179-df8c4e394bce5214840c.md`
 - **Feed post Harm van Berkum • 3rd+ Advocaat - VAN BERKUM M&A 35m • Follow I wanted to create a KYC and Engagement onboarding platform for my l**
   - Source ID: `src_ace448a02092ebb9cfa2`
@@ -1896,7 +1896,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/002-03fd19324f363952cedf.md`
 - **I wanted to create a KYC and Engagement onboarding platform for my law firm with open source and a privacy and security first approach. With**
   - Source ID: `src_f8b171560d11a18eb9e9`
@@ -1910,7 +1910,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/004-3dadf8bbd9c857153954.md`
 - **Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 42m • Follow I just trained my Hermes Agent to scrape Google maps leads and find **
   - Source ID: `src_e51268a47390236c18ae`
@@ -1924,7 +1924,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/005-3146e2a1c6bf77d15f35.md`
 - **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 43m • Follow Outpost hosted a dinner in NYC this week with AI lea**
   - Source ID: `src_ba36d5e09bd09a3e75ab`
@@ -1938,7 +1938,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/008-823c5d0a6b2744e848c4.md`
 - **Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an**
   - Source ID: `src_c6d591e540182f0bc8af`
@@ -1952,7 +1952,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/018-9676688d36759772d742.md`
 - **I finally got around to working with the hermes desktop part of ollama (I had to update ollama 0.23.2 -> 0.30.7_1) and the transition was cl**
   - Source ID: `src_2d30b5dde5eb75c292ca`
@@ -1966,7 +1966,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_6cabf554fd3fee480a94"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/020-4b1b9d8f2801a7b0e224.md`
 - **Feed post Benjamin Daulton, Esq. • 3rd+ Enterprise Field Account Executive @ SHI International Corporation 1h • Edited • Follow This month h**
   - Source ID: `src_abde8bc18107c4f53034`
@@ -1980,7 +1980,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/024-8b4f2afaa6972b61e0cf.md`
 - **This month has been all about NVIDIA! This week, I participated in the NVIDIA/SHI Agentic AI Hackathon, where I utilized NemoClaw, NVIDIA He**
   - Source ID: `src_c0db75554eb3040ce618`
@@ -1994,7 +1994,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/026-9a13e0dd2fa618a714e4.md`
 - **Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 1h • Follow Veri**
   - Source ID: `src_08eca94c38023f8dcc94`
@@ -2008,7 +2008,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/027-81002244acac8ee34b9b.md`
 - **Veritas Kanban v5.0 is live. I built Veritas around a simple belief: AI-assisted work needs an operating system, not just a chat window. Onc**
   - Source ID: `src_d0dbb8b7d5715d1de8ce`
@@ -2021,7 +2021,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/029-851e7a6f9f3e23675868.md`
 - **Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 2h • Follow Watched a $200M brand's CFO re**
   - Source ID: `src_e4dc76753e940b65e8b1`
@@ -2035,7 +2035,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/030-0beec142f52f30768c00.md`
 - **Watched a $200M brand's CFO realize their week-long financial close could be a 10-minute job. That was minute 40 of Underground 2.0 in NYC. **
   - Source ID: `src_7572a60e1f44f9af54d7`
@@ -2048,7 +2048,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/032-768fb7292ff31db3b502.md`
 - **Feed post Fernando Santos • 3rd+ Gerente Executivo de Tecnologia, Dados & IA | IA Generativa, Agentes & LLMs, Engenharia de Software e Trans**
   - Source ID: `src_7f5ad8bcdc5fb64b2ff5`
@@ -2062,7 +2062,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/033-3d9e33badd0b26701da9.md`
 - **Que modelos eu uso no meu trabalho? Depois do Fable 5 ficam me perguntando aqui no escritorio qual modelo é o melhor. Resposta honesta: depe**
   - Source ID: `src_bdc51533fbc131001362`
@@ -2075,7 +2075,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/035-41f4b9665c4052fe7684.md`
 - **Feed post Daniel Foley Carter • 3rd+ SEO Specialist with 25+ years experience. Extensive experience in SEO auditing, strategy, execution & t**
   - Source ID: `src_62af6de3ace7e294f8a6`
@@ -2089,7 +2089,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/036-ecf9053711f59c0c5343.md`
 - **💥 WooHoo! It's Live!!!!! 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su**
   - Source ID: `src_e4a2d22378df395f7718`
@@ -2103,7 +2103,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_c80b8679bbda24230dd8"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/038-be0f61d09ca0cdced412.md`
 - **Feed post Yomi Toba • 3rd+ Software Consultant & Tech Entrepreneur 2h • Edited • Follow I built an AI team that plugs into the tools you alr**
   - Source ID: `src_55338c500c90c48e7ad3`
@@ -2117,7 +2117,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/039-1d52c59e7f837304fb2c.md`
 - **I built an AI team that plugs into the tools you already use. The tech borrows a lot of the themes from Hermes and Openclaw, but it's not yo**
   - Source ID: `src_f6182eae694febfa3492`
@@ -2130,7 +2130,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/041-3e2ee4bf047833428e09.md`
 - **Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 2h • Follow L'**
   - Source ID: `src_002d69ec5e597d41ffcc`
@@ -2144,7 +2144,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/045-79a4f0ecfdac75f43102.md`
 - **L'IA vit sa bulle des .com. Et voici ce que les gourous de l'IA ne veulent pas dire. Des formateurs poussent comme des champignons, tous "ex**
   - Source ID: `src_f25826346ce5a7ee6c10`
@@ -2157,7 +2157,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/047-b1f444a72c1fd44379cf.md`
 - **Feed post Illia Zakharov • 3rd+ IT Technician @ Galaxy4Games | Electronics and Telecommunications Graduate 2h • Follow 🎓 A few months ago, I**
   - Source ID: `src_d80e9ce8638b61102d18`
@@ -2171,7 +2171,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/048-54922b4e3c27a33642c1.md`
 - **🎓 A few months ago, I graduated from Poznań University of Technology. My Bachelor's thesis, "Usage of Machine Learning in Application of Gen**
   - Source ID: `src_8afc8f5d8c261cffd723`
@@ -2184,7 +2184,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/050-0f91b6fb67ea39d91fe2.md`
 - **Feed post a e • 3rd+ Picture of me circa 2014 | Aspiring managing director at Instagram | Social Media Manager/Strategist | Short-Form Video**
   - Source ID: `src_a652b491acfe07df6bee`
@@ -2198,7 +2198,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/051-eac5eda86af49fcb67eb.md`
 - **One thing AI has taught me: The difference between an idea and a product is execution. Everyone has ideas. Very few people sit down and try **
   - Source ID: `src_2646eff3c0cb37451394`
@@ -2211,7 +2211,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/053-2af9e6c9c849f8726a4b.md`
 - **Feed post Alexandr Lebedev • 3rd+ Security consultant. Mentor. Facilitator 3h • Edited • Прошло три месяца с момента, как я начал регулярно **
   - Source ID: `src_80d0f3c0483e8dbaab8c`
@@ -2225,7 +2225,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/054-c32f9d3ab19155cac40c.md`
 - **Прошло три месяца с момента, как я начал регулярно использовать собственных ИИ-агентов в рабочих задачах. За это время конфигурация более-ме**
   - Source ID: `src_58afd8dd992eeb4d1343`
@@ -2238,7 +2238,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/056-97265784bbad6ecd0a5e.md`
 - **Отчёт по завершению 15 дней эксплуатации цифрового сотрудника (OpenClaw): 1. Подход Внедрение проводилось по модели найма штатного специалис**
   - Source ID: `src_54c25b69c1d6fde86f16`
@@ -2251,7 +2251,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/057-31319f10186fe1d1c84b.md`
 - **Feed post Quốc Nghi Huỳnh • 3rd+ AI in Banking & Finance | Post-Control, Collateral Valuation & Debt Asset Management | Banking Operations &**
   - Source ID: `src_df0210d45f15e200f034`
@@ -2265,7 +2265,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/061-02e68d844ac034eb685e.md`
 - **Nay nhận dc email của MiMo Xiaomi thông báo : Ảnh đã chính thức phát hành và công khai mã nguồn MiMo Code Chính xách hơn là combo MiMo Code **
   - Source ID: `src_b1ea46fb860925e25a6d`
@@ -2278,7 +2278,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/063-1b92cb7791def6c47133.md`
 - **Feed post Rasmus Lindgren • 3rd+ 🔥 Forfatter, speaker, mentor og far 🔥 Hjælper passionerede selvstændige med at skalere deres forretning onl**
   - Source ID: `src_e036426ad3d5975a9f8c`
@@ -2292,7 +2292,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/067-ef0d90feabdfd0f4732e.md`
 - **Hvorfor jeg skiftede fra OpenClaw til Hermes**
   - Source ID: `src_d300a147bc14bb37fb69`
@@ -2305,7 +2305,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/069-fc13699e8f2525b7e44b.md`
 - **Feed post Maicon Ramos • 3rd+ Web developer for startups and digital agencies 3h • Follow Hoje eu vejo o MultiPost muito além de um simples **
   - Source ID: `src_a8d625629904297d3cfd`
@@ -2319,7 +2319,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/070-4f6e1cd13a9d24a8a3eb.md`
 - **Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era dos agentes de IA, o objetivo não é centralizar tudo em**
   - Source ID: `src_a4776b85a5b6b41c43f4`
@@ -2332,7 +2332,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/072-d6248918df64f799bc58.md`
 - **Feed post Automação Sem Limites 0 followers 3h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era**
   - Source ID: `src_2db59c4ea4892740c99e`
@@ -2346,7 +2346,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/073-e99faf06b8c5842dfb4c.md`
 - **Feed post Yoni Atteia • 3rd+ Automatisation des formalités juridiques | IA & LegalTech | Extension Chrome Guichet Unique 4h • Follow Questio**
   - Source ID: `src_48925f75f70108ae3654`
@@ -2360,7 +2360,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/075-a040f5a0f0293045494c.md`
 - **Feed post Lior Pozin • 3rd+ Bootstrapped AutoDS to 200+ employees → Acquired by Fiverr. Forbes 30under30. Advisor, Speaker and Investor. Vis**
   - Source ID: `src_bf3432ca488b10b68142`
@@ -2374,7 +2374,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/078-488a25ce6facbce09afb.md`
 - **Anthropic is quietly repricing Claude on June 15. Here's how to prepare: Until now, you could wire external agents and tools like OpenClaw d**
   - Source ID: `src_e9612760f5bd921a296a`
@@ -2388,7 +2388,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/080-25e32e91cf9dcd537b4d.md`
 - **Feed post AZAHAR-LABS 46 followers 4h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ**
   - Source ID: `src_435ac72e2187ffc79a3c`
@@ -2402,7 +2402,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/084-ac31111c1e6722b736b1.md`
 - **Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ্ছে: Signup link: https://shorturl.at/YXENG শুধু মনে করি**
   - Source ID: `src_457ad0140457d4fb297a`
@@ -2415,7 +2415,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/086-5ddca526fd2b5f3af150.md`
 - **Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many**
   - Source ID: `src_ec8c8bb2a8b1dbe61dcf`
@@ -2429,7 +2429,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/087-26fd57bc30e241f97d33.md`
 - **This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many hours at networking dinners, I’ve noticed a common pattern: some**
   - Source ID: `src_58a797446cc20413052a`
@@ -2443,7 +2443,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/089-f841067aa02b0ae10c1d.md`
 - **Feed post Srikanth Bhakthan • 3rd+ Data & AI Leader | Adjunct Visit my website 4h • Follow All views are personal. Recursive Self-Improvemen**
   - Source ID: `src_8cb73c19a20487129bc9`
@@ -2457,7 +2457,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/090-dc02150219b789c4af0e.md`
 - **All views are personal. Recursive Self-Improvement Basics: An agent that doesn't just solve the task, it improves the "System" that solves i**
   - Source ID: `src_c057effbdf65b3e389ed`
@@ -2470,7 +2470,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/092-0a2fc9296bb544275aed.md`
 - **Feed post Juan Felipe Rivera González • 3rd+ Senior Backend Engineer @ ACUE | PHP, Go, Python, Javascript 5h • Edited • Follow En mi post an**
   - Source ID: `src_cb704a4f99562055089c`
@@ -2484,7 +2484,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/096-d0ebf6f657bff967395d.md`
 - **En mi post anterior conté que probé el MCP oficial de Alegra. Y ya entiendo mejor cómo está pensado: es de solo lectura y se conecta por OAu**
   - Source ID: `src_500d9be9c33cb0cb1b5f`
@@ -2497,7 +2497,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/098-70fd3dd388f33fd7b10f.md`
 - **Estoy evaluando Alegra para un producto que estoy armando. Y justo vi que lanzaron su MCP. ¡Una excelente noticia! Le abre la puerta a los a**
   - Source ID: `src_d9926c0effc2b99514f1`
@@ -2510,7 +2510,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/099-f0934012ad7325d04403.md`
 - **Feed post Melverick Ng • 3rd+ Build Digital Coworkers to Run ERP & CRM Processes | Agentic AI Expert | Ex-SAP 5h • Follow Is it me or what b**
   - Source ID: `src_784e8998fc53de11fd15`
@@ -2524,7 +2524,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/100-6fdc94ae4be445ac9a92.md`
 - **Is it me or what but my Hermes Agents burned more tokens than my Openclaw?**
   - Source ID: `src_e9febf520acf12e85546`
@@ -2537,7 +2537,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_7708c1c74a2093fabc70"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/102-282b69311f3fcbb9a532.md`
 - **Feed post Dave Cheng • 3rd+ AI & Blockchain Builder | Multi‑Hackathon Winner | Just wanna manage expectations | I want to talk about work | **
   - Source ID: `src_ee1283394316a803d026`
@@ -2551,7 +2551,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/103-44e775e335ea56ac4514.md`
 - **Guess what I’m building? Overmind, Cosine EXO Labs, cognee, Captur Dawn Capital hashtag #Hermes OpenClaw Tailscale hashtag #Whisper FYI, the**
   - Source ID: `src_d46c35baac069f6084ce`
@@ -2565,7 +2565,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/105-845b0b999bb70adecd3d.md`
 - **Feed post Luciano Ricardi Scorsin • 3rd+ Principal Solutions Architect 5h • Follow Por que Intel e AMD começaram a subir suas ações justamen**
   - Source ID: `src_bdf1e5609262443b5019`
@@ -2579,7 +2579,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/106-53768ececa339fd6f9e0.md`
 - **Por que Intel e AMD começaram a subir suas ações justamente no fim de março? IA não é bolha. Pode haver exageros, correções e até uma "infla**
   - Source ID: `src_84a06f7d1e79694b1b29`
@@ -2592,7 +2592,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/108-8e0ec6c955300ddb5cfd.md`
 - **Feed post Andrew Hodges Andrew Hodges • 3rd+ IT Platform Operations and Software Engineer 6h • Edited • Follow OpenClaw broke on every updat**
   - Source ID: `src_df759c2860481975e82d`
@@ -2606,7 +2606,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/109-8ef3be88cd8a60b5d2c8.md`
 - **OpenClaw broke on every update, constant babysitting. Hermes looks powerful, but it's a big rig built to do everything. Phantombot is the op**
   - Source ID: `src_134c79564919366db4e4`
@@ -2619,7 +2619,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/111-fc9ea314243f4fa1d497.md`
 - **Feed post Conor Svensson • 3rd+ Founder at Enscribe building onchain identity infrastructure. Creator of Web3j. Writing about agentic engine**
   - Source ID: `src_a39fe7dfecd5c07bb460`
@@ -2633,7 +2633,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/112-11d3d7a657bcfbbc68c7.md`
 - **Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. If you're only using persona**
   - Source ID: `src_e0fc0899bb808733c790`
@@ -2646,7 +2646,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_d6b6698dba16fe25d694"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/114-dbae97ed2b71b630dfb0.md`
 - **Feed post Jean Luc DI MANNO Jean Luc DI MANNO • 3rd+ Lead of Hyperlab | Consultant & Solution Architect | Payments, Digital Identity, AI 7h **
   - Source ID: `src_5dc195db5efe2d6d5957`
@@ -2660,7 +2660,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/115-5a9c1174db769070b9df.md`
 - **Most “agent observability” approaches I see today fall into three buckets: - Reverse proxy in front of the agent: Capture all prompts/respon**
   - Source ID: `src_18cac7c39af1f0de7afc`
@@ -2674,7 +2674,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/117-85f361ff897c2628f3c9.md`
 - **Feed post Generation AI 183 followers 7h • Follow Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, **
   - Source ID: `src_9f4a806082d7830c6b66`
@@ -2688,7 +2688,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/118-37f2d15acf6968611b5f.md`
 - **Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, wie du dir einen eigenen AI Assistenten einrichtes**
   - Source ID: `src_11e5b0332dd2feced00b`
@@ -2701,7 +2701,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/120-ffae2e682bb66da603c0.md`
 - **Feed post Jon Ander Oribe Sánchez • 3rd+ CTO at Quantum Mads | Top Innovator Company by UpLink & the World Economic Forum | Quantum Computin**
   - Source ID: `src_8f819c997e0800b01189`
@@ -2715,7 +2715,7 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/121-e72d873ace61c0ae33fc.md`
 - **🤖 OpenClaw vs. Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera**
   - Source ID: `src_47eb81009bc23393e291`
@@ -2728,5 +2728,5 @@ Volume is not evidence. Quality and independence matter more than count.
   - Extracted candidate claims: `["claim_cf20967c5c76581b2c4b"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:00:12Z; volume is not evidence; quality and independence matter
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:11:25Z; volume is not evidence; quality and independence matter
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/123-eee6a358aad09d82b2f2.md`

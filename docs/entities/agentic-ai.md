@@ -1,13 +1,13 @@
 # Agentic AI
 
-Last generated: 2026-06-11T23:00:11Z
+Last generated: 2026-06-11T23:11:24Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:00:11Z
+- Last seen: 2026-06-11T23:11:24Z
 - Source count: 8
-- Mention count: 92
+- Mention count: 100
 
 ## Description
 

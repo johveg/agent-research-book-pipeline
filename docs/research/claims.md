@@ -1,6 +1,6 @@
 # Claims
 
-Last generated: 2026-06-11T22:43:39Z
+Last generated: 2026-06-11T23:00:11Z
 
 Claims are explicit editorial records linked to source IDs. No source ID, no claim. No claim, no chapter fact.
 
@@ -33,7 +33,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1111f05996391e4cc312, ent_285e538ff147b2897238, ent_612546d7f1fb0753371c, ent_70a40aaccb8d6690f03e, ent_8cfde6efdfc4ed5ab1f6, ent_947726dd6318753268f3, ent_96a4bc2602655473120f, ent_c93edd772b868a71542b`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -52,7 +52,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_284000d5cd109f96f6dd, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bf4bcedaacc966a99376, ent_c70eca6b0f88f44d81a4, ent_ced86039c0ad6a7c7618, ent_e378432fc68f9b707bd9, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -71,7 +71,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_10182ab855ff772753c0, ent_247610f4dedd4ab7247d, ent_5d72436256ada53828b5, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c857d09db23e6822e360, ent_e52154a106cf7d6aa70c, ent_f66930493ccc8b69a823`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -91,7 +91,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_348a629f5ceed032c3e8, ent_354cbfc814262a7a81d3, ent_3eee4f30151db45a6507, ent_5ab416385ab7ec604e56, ent_8bef3b822c23f2bb0bb8, ent_f8591fb23b8764b1b744`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -110,7 +110,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_13b4b5bd66f5ab3aa5c6, ent_5a8499d47c592e8024d1, ent_6c45cb72a36e63d522aa, ent_badd85a4876d11680bed, ent_cced28c6dc3f99c2396a, ent_f91e99a99ddd042ad5d4`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -129,7 +129,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_48026deffec1f22eb8cd, ent_9d92546b46628b6178b3, ent_e1e626ffff90657c00e0, ent_e938b5fa7d0bc901c263`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -148,7 +148,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1dff0a088f7aa00a9b08, ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_800a613cd38ea2db847e, ent_88b1b707b6e3bbd692a3, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -167,7 +167,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_43908c47c94a6f8ce6ea, ent_4602baf8f2a3e389b310, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a54b783e659befb2d158, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -186,7 +186,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_06e40a2cb80a6351b4cf, ent_16bdef42d351d4ab16c6, ent_2b726fe07b4c50ba2f7c, ent_3c41eea57eef8f06bf9d, ent_51f01dfbe23241a1f41e, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required; hype language present
@@ -205,7 +205,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_310c2511127c6a96d401, ent_3c41eea57eef8f06bf9d, ent_45331b41404b1b1cf3ba, ent_8cfde6efdfc4ed5ab1f6, ent_94fc11d980ea813257a3, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -225,7 +225,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_204e35d9770b04cdd453, ent_5a8499d47c592e8024d1, ent_7c96c59dde081dfca556, ent_8adc5b80553aea743de0, ent_e748f8750672ca8b04b2, ent_f578e9900f395d44a542`
   - Contradiction status: `not_found`
   - Editor note: none
@@ -245,7 +245,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1789384e57081cd6af15, ent_1a59950eea2fc6641dc5, ent_2d87f3d38782aa14e5a6, ent_80a2a90864b052f4ad6c, ent_9b473845f684444f80a2, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -264,7 +264,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_010d93fae88e4eb67933, ent_2d87f3d38782aa14e5a6, ent_3d6db8b7b2d822d72e58, ent_5654d4106d7025c25788, ent_a45305c584bd66ecfe82, ent_d202d375e356b6ec1557`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -283,7 +283,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_0ceb5f4a4b3a0eca3828, ent_2b0dace83331ea86d236, ent_5a8499d47c592e8024d1, ent_5ced1fbd8b6b0f558a5a, ent_db6a92e86b60645c33a1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -302,7 +302,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_06363555054de198a87c, ent_2d87f3d38782aa14e5a6, ent_57bc6da3d456a0ed25a2, ent_7f5d1618e7d28cc7bf32, ent_a5dec4a7e0b29b73dba2`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -322,7 +322,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_07dc9632068f5192bc66, ent_2d87f3d38782aa14e5a6, ent_3a107b660f37e4f46f47, ent_731c1c6a3121bc56b96d, ent_bac0d05abd8c869360ec`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -341,7 +341,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3547cb112ac4489af231, ent_51c2c0f506610909d098, ent_f0e5f53af7e637286fd5, ent_f178f6b7c7c58582d83c`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -360,7 +360,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1fb89a939f36eaf94d79, ent_2d87f3d38782aa14e5a6, ent_7352f353c460e74c7ae2, ent_8cfde6efdfc4ed5ab1f6, ent_dfc1a1888f01d9476764`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -380,7 +380,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_222ddeeebc53d4c7c30a, ent_5a8499d47c592e8024d1, ent_65d68a8137ee9e9d232c, ent_c6e06e1c36b40610acef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -399,7 +399,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_222ddeeebc53d4c7c30a, ent_5a8499d47c592e8024d1, ent_65d68a8137ee9e9d232c, ent_c6e06e1c36b40610acef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -418,7 +418,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_9cf11cbba0ea1cdcafd4, ent_a62ed7b95a2fe9e8759c, ent_ebbafe9c6589fd3856a8`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -437,7 +437,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_714c7b72f45bdacd6c6a, ent_8cfde6efdfc4ed5ab1f6, ent_e03e868e9b6933034431`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -456,7 +456,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_aa889f41fba8b07d96b5, ent_af3f573617907a05d716, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -475,7 +475,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_15ab91581d43450c46f1, ent_8631544d789393aff218, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -494,7 +494,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_3ccbd9105a45d8fcd4a0, ent_5a8499d47c592e8024d1, ent_8f5744fbce05f62ef6b4, ent_d800add19c27d4c450c6`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -513,7 +513,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_254637f72efcddb6a545, ent_5a8499d47c592e8024d1, ent_abbdaa75dd0e0b390646, ent_ebc9e6151f546711f4ee`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -532,7 +532,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_59dbf36d9930a99bfc1e, ent_73b7eca2c41a0d410600, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -551,7 +551,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_5fb6a47e368e12e5d8b1, ent_c78c924af4f5d54a83af, ent_eb1de3bdc45b7bcc6bca`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -570,7 +570,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_3fd4cb7b7bbeb2d4cbfd, ent_5a8499d47c592e8024d1, ent_fbc54c6cdd440b4f83dc`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -589,7 +589,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1cd7b78fa88ce3a8de8f, ent_5a8499d47c592e8024d1, ent_acd26ebac71556ee7c73`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -609,7 +609,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_b9fca9690b1b90562b10, ent_c9022680f888674e2b22`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -629,7 +629,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_8736b77896fe94707622, ent_ed7e1b816ca89cdd8190`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -648,7 +648,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_98650c35cd5ea2afde84, ent_cdc29937887188ad3702`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -667,7 +667,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_151e58a831306903b282, ent_43eae5080424fd266ccd, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -686,7 +686,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_254637f72efcddb6a545, ent_487b91042c7cf27a19e2, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -705,7 +705,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_254637f72efcddb6a545, ent_5a8499d47c592e8024d1, ent_6eba189ab4d7c93840ef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -724,7 +724,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_340d600392818df24133, ent_48b676e2b107da679512`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -743,7 +743,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_b22d1d8fe57525339540, ent_c044215e7b91f66e5050`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -762,7 +762,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_8736b77896fe94707622, ent_ed7e1b816ca89cdd8190`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required; hype language present
@@ -781,7 +781,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_770e607624d689265ca6, ent_e4386b9d3708aab46b84`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -800,7 +800,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3fc4ccfe745870e2c0d9, ent_e9f92a6e6b32661b47dc`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -820,7 +820,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_491ff7733bc7bfa73c79, ent_ab7c250a4017dbdc07aa`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -839,7 +839,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_9831daaaa0a94144fc33`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -858,7 +858,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2cb4c742c0eee8ad4095, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -877,7 +877,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_9602eec8ca1a03bb0860`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -896,7 +896,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1879a6de7d75f6ec190a, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -915,7 +915,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -935,7 +935,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_44575cf5b28512d75644, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -954,7 +954,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_94440d4446c454a826ef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -973,7 +973,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_e9acff1bccde0d17e96b`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -992,7 +992,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_ba78973ddcf98d4e5369`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1011,7 +1011,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1030,7 +1030,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_cb74ac0496cd0c18228d`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1049,7 +1049,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1068,7 +1068,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_3e5634c59390068834ce`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1089,7 +1089,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1111f05996391e4cc312, ent_285e538ff147b2897238, ent_612546d7f1fb0753371c, ent_70a40aaccb8d6690f03e, ent_8cfde6efdfc4ed5ab1f6, ent_947726dd6318753268f3, ent_96a4bc2602655473120f, ent_c93edd772b868a71542b`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1108,7 +1108,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_284000d5cd109f96f6dd, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bf4bcedaacc966a99376, ent_c70eca6b0f88f44d81a4, ent_ced86039c0ad6a7c7618, ent_e378432fc68f9b707bd9, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1127,7 +1127,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_10182ab855ff772753c0, ent_247610f4dedd4ab7247d, ent_5d72436256ada53828b5, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c857d09db23e6822e360, ent_e52154a106cf7d6aa70c, ent_f66930493ccc8b69a823`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1147,7 +1147,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_348a629f5ceed032c3e8, ent_354cbfc814262a7a81d3, ent_3eee4f30151db45a6507, ent_5ab416385ab7ec604e56, ent_8bef3b822c23f2bb0bb8, ent_f8591fb23b8764b1b744`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1166,7 +1166,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_13b4b5bd66f5ab3aa5c6, ent_5a8499d47c592e8024d1, ent_6c45cb72a36e63d522aa, ent_badd85a4876d11680bed, ent_cced28c6dc3f99c2396a, ent_f91e99a99ddd042ad5d4`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1185,7 +1185,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_48026deffec1f22eb8cd, ent_9d92546b46628b6178b3, ent_e1e626ffff90657c00e0, ent_e938b5fa7d0bc901c263`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1204,7 +1204,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1dff0a088f7aa00a9b08, ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_800a613cd38ea2db847e, ent_88b1b707b6e3bbd692a3, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1223,7 +1223,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_43908c47c94a6f8ce6ea, ent_4602baf8f2a3e389b310, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a54b783e659befb2d158, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1242,7 +1242,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_06e40a2cb80a6351b4cf, ent_16bdef42d351d4ab16c6, ent_2b726fe07b4c50ba2f7c, ent_3c41eea57eef8f06bf9d, ent_51f01dfbe23241a1f41e, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required; hype language present
@@ -1261,7 +1261,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_310c2511127c6a96d401, ent_3c41eea57eef8f06bf9d, ent_45331b41404b1b1cf3ba, ent_8cfde6efdfc4ed5ab1f6, ent_94fc11d980ea813257a3, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1281,7 +1281,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_204e35d9770b04cdd453, ent_5a8499d47c592e8024d1, ent_7c96c59dde081dfca556, ent_8adc5b80553aea743de0, ent_e748f8750672ca8b04b2, ent_f578e9900f395d44a542`
   - Contradiction status: `not_found`
   - Editor note: none
@@ -1301,7 +1301,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1789384e57081cd6af15, ent_1a59950eea2fc6641dc5, ent_2d87f3d38782aa14e5a6, ent_80a2a90864b052f4ad6c, ent_9b473845f684444f80a2, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1320,7 +1320,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_010d93fae88e4eb67933, ent_2d87f3d38782aa14e5a6, ent_3d6db8b7b2d822d72e58, ent_5654d4106d7025c25788, ent_a45305c584bd66ecfe82, ent_d202d375e356b6ec1557`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1339,7 +1339,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_0ceb5f4a4b3a0eca3828, ent_2b0dace83331ea86d236, ent_5a8499d47c592e8024d1, ent_5ced1fbd8b6b0f558a5a, ent_db6a92e86b60645c33a1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1358,7 +1358,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_06363555054de198a87c, ent_2d87f3d38782aa14e5a6, ent_57bc6da3d456a0ed25a2, ent_7f5d1618e7d28cc7bf32, ent_a5dec4a7e0b29b73dba2`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1378,7 +1378,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_07dc9632068f5192bc66, ent_2d87f3d38782aa14e5a6, ent_3a107b660f37e4f46f47, ent_731c1c6a3121bc56b96d, ent_bac0d05abd8c869360ec`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1397,7 +1397,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3547cb112ac4489af231, ent_51c2c0f506610909d098, ent_f0e5f53af7e637286fd5, ent_f178f6b7c7c58582d83c`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1416,7 +1416,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1fb89a939f36eaf94d79, ent_2d87f3d38782aa14e5a6, ent_7352f353c460e74c7ae2, ent_8cfde6efdfc4ed5ab1f6, ent_dfc1a1888f01d9476764`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1436,7 +1436,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_222ddeeebc53d4c7c30a, ent_5a8499d47c592e8024d1, ent_65d68a8137ee9e9d232c, ent_c6e06e1c36b40610acef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1455,7 +1455,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_222ddeeebc53d4c7c30a, ent_5a8499d47c592e8024d1, ent_65d68a8137ee9e9d232c, ent_c6e06e1c36b40610acef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1474,7 +1474,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_9cf11cbba0ea1cdcafd4, ent_a62ed7b95a2fe9e8759c, ent_ebbafe9c6589fd3856a8`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1493,7 +1493,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_714c7b72f45bdacd6c6a, ent_8cfde6efdfc4ed5ab1f6, ent_e03e868e9b6933034431`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1512,7 +1512,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_aa889f41fba8b07d96b5, ent_af3f573617907a05d716, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1531,7 +1531,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_15ab91581d43450c46f1, ent_8631544d789393aff218, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1550,7 +1550,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_3ccbd9105a45d8fcd4a0, ent_5a8499d47c592e8024d1, ent_8f5744fbce05f62ef6b4, ent_d800add19c27d4c450c6`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1569,7 +1569,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_254637f72efcddb6a545, ent_5a8499d47c592e8024d1, ent_abbdaa75dd0e0b390646, ent_ebc9e6151f546711f4ee`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1588,7 +1588,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_59dbf36d9930a99bfc1e, ent_73b7eca2c41a0d410600, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1607,7 +1607,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_5fb6a47e368e12e5d8b1, ent_c78c924af4f5d54a83af, ent_eb1de3bdc45b7bcc6bca`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1626,7 +1626,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_3fd4cb7b7bbeb2d4cbfd, ent_5a8499d47c592e8024d1, ent_fbc54c6cdd440b4f83dc`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1645,7 +1645,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1cd7b78fa88ce3a8de8f, ent_5a8499d47c592e8024d1, ent_acd26ebac71556ee7c73`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1665,7 +1665,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_b9fca9690b1b90562b10, ent_c9022680f888674e2b22`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1685,7 +1685,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_8736b77896fe94707622, ent_ed7e1b816ca89cdd8190`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1704,7 +1704,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_98650c35cd5ea2afde84, ent_cdc29937887188ad3702`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1723,7 +1723,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_151e58a831306903b282, ent_43eae5080424fd266ccd, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1742,7 +1742,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_254637f72efcddb6a545, ent_487b91042c7cf27a19e2, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1761,7 +1761,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_254637f72efcddb6a545, ent_5a8499d47c592e8024d1, ent_6eba189ab4d7c93840ef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1780,7 +1780,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_340d600392818df24133, ent_48b676e2b107da679512`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1799,7 +1799,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_b22d1d8fe57525339540, ent_c044215e7b91f66e5050`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1818,7 +1818,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_8736b77896fe94707622, ent_ed7e1b816ca89cdd8190`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required; hype language present
@@ -1837,7 +1837,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_770e607624d689265ca6, ent_e4386b9d3708aab46b84`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1856,7 +1856,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3fc4ccfe745870e2c0d9, ent_e9f92a6e6b32661b47dc`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1876,7 +1876,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_491ff7733bc7bfa73c79, ent_ab7c250a4017dbdc07aa`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1895,7 +1895,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_9831daaaa0a94144fc33`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1914,7 +1914,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2cb4c742c0eee8ad4095, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1933,7 +1933,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_9602eec8ca1a03bb0860`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1952,7 +1952,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_1879a6de7d75f6ec190a, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1971,7 +1971,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -1991,7 +1991,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_44575cf5b28512d75644, ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -2010,7 +2010,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_94440d4446c454a826ef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -2029,7 +2029,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_e9acff1bccde0d17e96b`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -2048,7 +2048,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_ba78973ddcf98d4e5369`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -2067,7 +2067,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -2086,7 +2086,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_cb74ac0496cd0c18228d`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -2105,7 +2105,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:31:15Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -2124,7 +2124,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-11T20:30:52Z`
-  - Last seen: `2026-06-11T22:43:38Z`
+  - Last seen: `2026-06-11T23:00:11Z`
   - Related entities: `ent_3e5634c59390068834ce`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required

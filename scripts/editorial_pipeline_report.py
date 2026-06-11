@@ -20,6 +20,13 @@ from research_common import DOCS, LOGS, RAW, REPORTS, ROOT, connect_db, init_db,
 from editorial_common import ensure_editorial_schema
 
 QUALITY_TIERS = ("A", "B", "C", "D", "E", "unknown")
+QUALITY_USE_RULES = {
+    "A": "may_support_factual_claims",
+    "B": "may_support_specific_factual_claims",
+    "C": "may_support_interpretation_with_caveat",
+    "D": "weak_signal_only",
+    "E": "reject_or_ignore",
+}
 ALLOWED_CLAIM_STATUSES = {"candidate", "needs_review", "supported", "weakly_supported", "contradicted", "rejected", "promoted_to_chapter"}
 ALLOWED_CLAIM_TYPES = {"definition", "observation", "trend", "technical pattern", "risk", "limitation", "example", "contradiction", "interpretation", "open question"}
 PROSE_ALLOWED_STATUSES = {"supported", "weakly_supported", "promoted_to_chapter"}
@@ -34,6 +41,11 @@ def source_quality(row) -> str:
     url=(row["url"] or "").lower()
     pub=(row["publisher"] or "").lower()
     title=(row["title"] or "").lower()
+    archived=(row["archived_path"] or "").lower() if "archived_path" in row.keys() else ""
+    if not url and not title and not archived:
+        return "E"
+    if any(x in url or x in title for x in ["login", "authwall", "sign in", "captcha"]):
+        return "E"
     if st in SOCIAL_TYPES or "linkedin" in st or "authenticated" in vis:
         return "D"
     if not url:
@@ -53,13 +65,26 @@ def source_quality(row) -> str:
     return "C"
 
 
+def text_summary(row) -> str:
+    bits=[row["title"] or "", row["publisher"] or row["author"] or "", row["query"] or ""]
+    return "; ".join([b for b in bits if b])[:700] or "No usable summary metadata available."
+
+
 def ensure_pipeline_schema(con):
     ensure_editorial_schema(con)
     src_cols={r[1] for r in con.execute("PRAGMA table_info(sources)")}
-    if "quality_score" not in src_cols:
-        con.execute("ALTER TABLE sources ADD COLUMN quality_score TEXT DEFAULT 'unknown'")
-    if "quality_notes" not in src_cols:
-        con.execute("ALTER TABLE sources ADD COLUMN quality_notes TEXT")
+    for col, ddl in {
+        "quality_score": "ALTER TABLE sources ADD COLUMN quality_score TEXT DEFAULT 'unknown'",
+        "quality_notes": "ALTER TABLE sources ADD COLUMN quality_notes TEXT",
+        "summary": "ALTER TABLE sources ADD COLUMN summary TEXT",
+        "relevant_entities": "ALTER TABLE sources ADD COLUMN relevant_entities TEXT",
+        "extracted_candidate_claims": "ALTER TABLE sources ADD COLUMN extracted_candidate_claims TEXT",
+        "duplicate_status": "ALTER TABLE sources ADD COLUMN duplicate_status TEXT DEFAULT 'unique'",
+        "privacy_publication_status": "ALTER TABLE sources ADD COLUMN privacy_publication_status TEXT DEFAULT 'publishable_metadata_only'",
+        "publication_notes": "ALTER TABLE sources ADD COLUMN publication_notes TEXT",
+    }.items():
+        if col not in src_cols:
+            con.execute(ddl)
     claim_cols={r[1] for r in con.execute("PRAGMA table_info(claims)")}
     if "editor_notes" not in claim_cols:
         con.execute("ALTER TABLE claims ADD COLUMN editor_notes TEXT")
@@ -143,10 +168,26 @@ def linkedin_blocked(run_id: str, step_results: list[dict]) -> list[str]:
 
 def score_sources(con):
     counts=Counter()
+    now=utc_now()
+    hash_counts={r["content_hash"]: r["c"] for r in con.execute("SELECT content_hash, COUNT(*) c FROM sources WHERE content_hash IS NOT NULL AND content_hash != '' GROUP BY content_hash")}
     for row in con.execute("SELECT * FROM sources"):
         q=source_quality(row)
         counts[q]+=1
-        con.execute("UPDATE sources SET quality_score=?, reliability_tier=?, quality_notes=? WHERE id=?", (q, q, f"auto_scored_{q}", row["id"]))
+        duplicate_status="duplicate_or_repeated" if row["content_hash"] and hash_counts.get(row["content_hash"], 0) > 1 else "unique"
+        privacy_status="human_review" if any(x in ((row["visibility"] or "") + " " + (row["url"] or "") + " " + (row["title"] or "")).lower() for x in ["login", "authenticated", "private", "cookie", "token", "session"]) else "publishable_metadata_only"
+        if q == "E":
+            privacy_status = "reject"
+        entity_ids=[r["entity_id"] for r in con.execute("SELECT entity_id FROM entity_sources WHERE source_id=? LIMIT 20", (row["id"],)).fetchall()]
+        claim_ids=[r["claim_id"] for r in con.execute("SELECT claim_id FROM claim_sources WHERE source_id=? LIMIT 20", (row["id"],)).fetchall()]
+        notes=[f"auto_scored_{q}", QUALITY_USE_RULES.get(q, "unknown_use_rule")]
+        if duplicate_status != "unique": notes.append("duplicate/repeated source material")
+        if privacy_status != "publishable_metadata_only": notes.append(f"privacy/publication status: {privacy_status}")
+        con.execute("""
+            UPDATE sources
+            SET quality_score=?, reliability_tier=?, quality_notes=?, summary=?, relevant_entities=?,
+                extracted_candidate_claims=?, duplicate_status=?, privacy_publication_status=?, publication_notes=?
+            WHERE id=?
+        """, (q, q, "; ".join(notes), text_summary(row), json.dumps(entity_ids, ensure_ascii=False), json.dumps(claim_ids, ensure_ascii=False), duplicate_status, privacy_status, f"scored_at={now}; volume is not evidence; quality and independence matter", row["id"]))
     con.commit()
     return dict(counts)
 
@@ -242,6 +283,67 @@ def detect_duplicates(con):
     for row in con.execute("SELECT lower(claim_text) t, COUNT(*) c FROM claims GROUP BY lower(claim_text) HAVING c>1 ORDER BY c DESC LIMIT 20"):
         repeated.append({"claim_text": row["t"], "count": row["c"]})
     return {"duplicate_sources": dup_sources, "repeated_claims": repeated}
+
+
+def source_quality_output(con):
+    quality_counts={q: 0 for q in ["A", "B", "C", "D", "E"]}
+    quality_counts.update(dict(con.execute("SELECT COALESCE(quality_score,'unknown'), COUNT(*) FROM sources GROUP BY COALESCE(quality_score,'unknown')").fetchall()))
+    rejected=con.execute("SELECT COUNT(*) FROM sources WHERE quality_score='E' OR privacy_publication_status='reject'").fetchone()[0]
+    duplicates=con.execute("SELECT COUNT(*) FROM sources WHERE duplicate_status != 'unique'").fetchone()[0]
+    human_review=[dict(r) for r in con.execute("""
+        SELECT id, title, url, quality_score, privacy_publication_status, quality_notes
+        FROM sources
+        WHERE privacy_publication_status='human_review' OR quality_score='unknown'
+        ORDER BY captured_at DESC LIMIT 20
+    """)]
+    best=[dict(r) for r in con.execute("""
+        SELECT id, title, url, publisher, author, published_at, captured_at, source_type,
+               quality_score, summary, relevant_entities, extracted_candidate_claims,
+               duplicate_status, privacy_publication_status, quality_notes
+        FROM sources
+        WHERE quality_score IN ('A','B') AND duplicate_status='unique'
+        ORDER BY captured_at DESC LIMIT 10
+    """)]
+    weakest=[dict(r) for r in con.execute("""
+        SELECT id, title, url, publisher, author, published_at, captured_at, source_type,
+               quality_score, summary, duplicate_status, privacy_publication_status, quality_notes
+        FROM sources
+        WHERE quality_score IN ('D','E') OR privacy_publication_status!='publishable_metadata_only'
+        ORDER BY CASE quality_score WHEN 'E' THEN 0 WHEN 'D' THEN 1 ELSE 2 END, captured_at DESC LIMIT 10
+    """)]
+    return {
+        "A": quality_counts.get("A", 0),
+        "B": quality_counts.get("B", 0),
+        "C": quality_counts.get("C", 0),
+        "D": quality_counts.get("D", 0),
+        "E": quality_counts.get("E", 0),
+        "rejected_source_count": rejected,
+        "duplicate_source_count": duplicates,
+        "sources_needing_human_review": human_review,
+        "best_new_sources": best,
+        "weakest_noisiest_sources": weakest,
+    }
+
+
+def source_metadata_issues(con):
+    missing=[dict(r) for r in con.execute("""
+        SELECT id, title, url FROM sources
+        WHERE id IS NULL OR id=''
+           OR captured_at IS NULL OR captured_at=''
+           OR source_type IS NULL OR source_type=''
+           OR quality_score IS NULL OR quality_score='unknown'
+           OR summary IS NULL OR summary=''
+           OR relevant_entities IS NULL
+           OR extracted_candidate_claims IS NULL
+           OR duplicate_status IS NULL OR duplicate_status=''
+           OR privacy_publication_status IS NULL OR privacy_publication_status=''
+        LIMIT 20
+    """)]
+    invalid_quality=[dict(r) for r in con.execute("SELECT id, quality_score FROM sources WHERE quality_score NOT IN ('A','B','C','D','E') LIMIT 20")]
+    issues=[]
+    if missing: issues.append({"kind":"missing_required_source_fields", "items": missing})
+    if invalid_quality: issues.append({"kind":"invalid_source_quality", "items": invalid_quality})
+    return issues
 
 
 def detect_contradictions(con):
@@ -345,7 +447,21 @@ def write_md_report(run_id, payload):
     lines=["# Editorial pipeline report", "", f"- Run ID: `{run_id}`", f"- Created: {payload['created_at']}", f"- Final status: `{payload['final_status']}`", ""]
     c=payload["counts"]
     lines += ["## Counts", "", f"- Sources: `{sum(c['source_counts'].values())}` {c['source_counts']}", f"- Entities: `{c['entity_count']}`", f"- Claims: `{sum(c['claim_counts'].values())}` {c['claim_counts']}", f"- Source quality: `{c['source_quality_distribution']}`", ""]
-    lines += ["## Required run output", ""]
+    sq=payload.get("source_quality_output", {})
+    lines += ["## Source quality output", ""]
+    for key in ["A", "B", "C", "D", "E", "rejected_source_count", "duplicate_source_count"]:
+        lines.append(f"- {key}: `{sq.get(key, 0)}`")
+    for key in ["sources_needing_human_review", "best_new_sources", "weakest_noisiest_sources"]:
+        val=sq.get(key, [])
+        lines.append("")
+        lines.append(f"### {key.replace('_',' ').title()}")
+        lines.append("")
+        if not val:
+            lines.append("- None")
+        else:
+            for item in val[:10]:
+                lines.append(f"- `{json.dumps(item, ensure_ascii=False)[:600]}`")
+    lines += ["", "## Required run output", ""]
     for key in ["new_candidate_trends", "claims_promoted", "claims_rejected", "chapter_sections_updated", "editor_warnings"]:
         val=payload.get(key, [])
         lines.append(f"### {key.replace('_',' ').title()}")
@@ -378,6 +494,8 @@ def main():
     with connect_db() as con:
         ensure_pipeline_schema(con)
         quality=score_sources(con)
+        source_quality=source_quality_output(con)
+        source_issues=source_metadata_issues(con)
         note_count=extract_source_notes(con)
         review=review_claims(con)
         dup=detect_duplicates(con)
@@ -396,6 +514,8 @@ def main():
         blocked.append("claim statuses are missing")
     if claim_issues:
         blocked.append("claim metadata issues: " + json.dumps(claim_issues[:3], ensure_ascii=False)[:1000])
+    if source_issues:
+        blocked.append("source metadata issues: " + json.dumps(source_issues[:3], ensure_ascii=False)[:1000])
     # Claims with no sources.
     with connect_db() as con:
         missing_sources=con.execute("SELECT COUNT(*) FROM claims c WHERE NOT EXISTS (SELECT 1 FROM claim_sources cs WHERE cs.claim_id=c.id)").fetchone()[0]
@@ -436,6 +556,8 @@ def main():
         "claims_needing_review": review["claims_needing_review"][:50],
         "claim_metadata_issues": claim_issues,
         "source_quality_distribution": c["source_quality_distribution"],
+        "source_quality_output": source_quality,
+        "source_metadata_issues": source_issues,
         "source_quality_warnings": [f"{quality.get('D',0)} social/weak-signal sources", f"{quality.get('E',0)} low-quality/noisy sources"],
         "duplicates_or_repeated_signals": dup,
         "contradictions": contradictions,

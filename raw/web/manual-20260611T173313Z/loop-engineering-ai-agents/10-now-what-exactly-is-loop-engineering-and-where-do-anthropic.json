@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-06-11T17:33:28Z",
+  "content_hash": "74e86233b0546e85fe79e5385010fe9c5cfb8251da7640dc8cea79c3f12954e1",
+  "content_type": "text/html",
+  "description": "Instead of steering a model one prompt at a time, <strong>you design a system where the agent runs, gets graded against explicit criteria, revises, and repeats until the criteria pass, all without you touching the keyboard</strong>.",
+  "http_status": 200,
+  "markdown_path": "web/manual-20260611T173313Z/loop-engineering-ai-agents/10-now-what-exactly-is-loop-engineering-and-where-do-anthropic.md",
+  "query": "\"loop engineering\" AI agents",
+  "title": "Now what exactly is loop engineering? And where do Anthropic's Fable 5 model and web scraping fit in?",
+  "url": "https://www.zyte.com/blog/now-what-exactly-is-loop-engineering-and-where-do-anthropics-fable-5-model-and-web-scraping-fit-in/"
+}

@@ -1,0 +1,10 @@
+# LinkedIn search result 150
+
+- Query: `"OpenClaw" Hermes`
+- Captured: 2026-06-11T17:36:35Z
+- URL: https://www.linkedin.com/in/richeldokevinp?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFebd6ABSQ5Qt6rs-e40U3CC946jS2I-U5A
+- URN: urn:li:activity:7470751223235862528
+
+## Visible text
+
+Feed post 戴凯文Richeldo Kevin Pasa • 3rd+ Recruitment Specialist at 海钡人力 HireBox Human Resource | Always Hiring Mandarin Speaker. 9h • Follow ‼️We Are Hiring - Information System Supervisor Lark 📍Location: South Jakarta 💼Employment Type: Full-time 📌Job Responsibilities: - Develop Lark multidimensional forms and various efficiency enhancement tools within the Lark ecosystem. - Design and optimize business data structures to support operational needs. - Develop and implement Artificial Intelligence (AI)-based applications to improve workflow efficiency and digital transformation. - Perform Vibe Coding programming to support internal system development and business solutions. - Build, configure, and optimize workflow automation and system integrations. ✅Job Requirements: - Strong knowledge of Lark Development Platform, APIs, multidimensional forms, automation processes, AI, AnyCross, robot configuration, and access permission management. - Proficient in at least one Vibe Coding tool, experienced in document creation using Claude/Agent, and capable of configuring and modifying various skills. - Hands-on experience in configuring and utilizing OpenClaw / Hermes. - Proficient in at least one of the following automation platforms: N8N, Coze, Make, or Dify, including workflow configuration and API integration. - Proven experience in internal company system development or productivity/efficiency tool development. - Experience in the engineering field is an advantage. - Relevant certifications such as Fire Safety Expert Certification, Professional Engineer Certification, Level 1 or Level 2 Construction Certification, or equivalent will be considered a plus. 📩Apply Your CV to : [kevinricheldo1@gmail.com] …more Like Comment Repost Send

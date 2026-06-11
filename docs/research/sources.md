@@ -1,6 +1,730 @@
 # Sources
 
-Last generated: 2026-06-11T17:30:04Z
+Last generated: 2026-06-11T17:56:31Z
 
 This page is generated from the local source database and contains sanitized source metadata only.
 
+- **Feed post TheNextGenTechInsider.com 783 followers 25m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/002-b014c683189fd8759734.md`
+- **Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 28m • Follow For about two years, getting something out of a codin**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/andrewjsauer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAalPL4Bo5EzfqFrXBWcaevVMqcLqsknSiQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/005-5e96596ccae8e96a36c2.md`
+- **Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 33m • Follow "Loop engineering".**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/008-15ceb935b7fbc31d950b.md`
+- **Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/011-d6a2309388baa2809f47.md`
+- **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 50m • Follow Outpost hosted a dinner in NYC this week with AI lea**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/014-8ce5a9e0e5a9f1aa2836.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 26m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/017-07fa2b68fa6a76b7b8a0.md`
+- **Feed post Devesh Paragiri • 3rd+ paragiri.com 54m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some **
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/devesh-paragiri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADXVzqMBo1sn7mA3IolZg9PAdkV3Fv8t9ao
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/019-c18a3a35fe3d20e6a981.md`
+- **Feed post AMC Bridge, Inc. 7,904 followers 1h • Follow As engineering and manufacturing organizations continue to scale, a persistent challe**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/company/amcbridge/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/037-13766f91baa7d0bfbd29.md`
+- **As engineering and manufacturing organizations continue to scale, a persistent challenge is becoming harder to ignore: finding and reusing e**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/039-569faff9d75ac7e93636.md`
+- **Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/garethpjones?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEdStQBQk_Lrsi_If2CDLO2isbaypzOV3A
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/068-a8f722ab4703655c26d8.md`
+- **Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/namrata-ganatra?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHQwzsBIS4Rlx_PDYXyeG3GpALoDGIao-M
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/080-9f0e1bb3146982109c74.md`
+- **Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/company/finrevplus/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/093-8495e9d4f0a761f55efb.md`
+- **Feed post Pawfect Loop Inc. 11 followers 3h • Follow The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your te**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/company/pawfect-loop-inc/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/109-8d6bea9d1fa5157bde74.md`
+- **The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your team spending more time fighting pet fur than caring fo**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/111-76eb3dd20a06e4b38911.md`
+- **Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/linasbeliunas?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABbscnUBlKacJbEN5USrYdfhVdH-ffYINJk
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/130-3091c0f4e9f5abb6d624.md`
+- **Loop Engineering: stop prompting, start lopping! (ES) Ingeniería de contexto era lo ultimo.. luego apareció ingeniería de arneses... ahora t**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/cobusgreyling/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/171-91a97a3e24333586cbe5.md`
+- **Feed post Shivanath Devinarayanan • 3rd+ Chief Digital Labor & Technology Officer at Asymbl | Salesforce MVP Hall of Fame | 180+ AI Agents i**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/shivanathd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAV7jRYBS_ZdxaYHQNRN4RNzIzm2osbp4-A
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/172-43d9fa8f234a060646c6.md`
+- **Loop Engineering for the Agentforce Era.The point is not to make agents busier.The point is to make Salesforce delivery more inspectable, bo**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/174-dbd62ead742df77ea91e.md`
+- **Feed post Nader Slim • 3rd+ Engineering Leader at Loblaw Digital 6h • Boris Cherny, the engineer behind one of the most widely used coding a**
+  - Type: linkedin_search_result; query: `"loop engineer"`; captured: 2026-06-11T17:43:50Z
+  - URL: https://www.linkedin.com/in/naderslim?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABvuGwBCB9c08eqhylGDnynrilfH7c8eOY
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/175-544855bfd5536190e741.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/002-7995cfb7029384c17d0c.md`
+- **Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering,**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/004-54e88de2be7c7a9b21f8.md`
+- **Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 25m • Follow For about two years, getting something out of a codin**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/andrewjsauer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAalPL4Bo5EzfqFrXBWcaevVMqcLqsknSiQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/005-518d606b9bc95ed247a3.md`
+- **For about two years, getting something out of a coding agent meant holding it the whole time. You typed a prompt, read what came back, typed**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/007-d73e252364d8dcc45838.md`
+- **Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/008-9baf8e463ca2976cd23b.md`
+- **Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/011-4b5875f82920e7e66589.md`
+- **There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
+- **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 47m • Follow Outpost hosted a dinner in NYC this week with AI lea**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/014-066d5c04e372ae9e450a.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/017-11d062b78446be7e37a1.md`
+- **Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/018-0fcf39793ffc381af45e.md`
+- **Feed post Devesh Paragiri • 3rd+ paragiri.com 51m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/devesh-paragiri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADXVzqMBo1sn7mA3IolZg9PAdkV3Fv8t9ao
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/019-352d12389acd8f2e50e9.md`
+- **i've spent the past few weeks on the autoresearch paradigm, trying to close some of the systematic gaps in how it's used today. the testbed **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/adithya-srinivasan-16527627a/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/021-02945ecd79656176b9e7.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 59m • F**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/022-d142fc94559b022df371.md`
+- **🚀 The Saudi RDF Giga-Project Arbitrage: Powering the Kingdom’s Smart Infrastructure with Upgraded Alternative Fuels Under the strategic mand**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/024-6b710cc1ecf2750b2574.md`
+- **Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/lakshay-arora-satellite-sentient?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqzywUB_90ZaHpqdzBpE_LCwRhwKcpFk9M
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/025-144e9089624de80d3540.md`
+- **Every team building AI agents goes through the same arc. The model does something magical. Then it hits production. And slowly, things break**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/027-8cc858c8a3b0a8e2829e.md`
+- **Feed post Cristian Camilo Peña Sanchez • 3rd+ Product Engineer · Healthcare platforms across web & mobile · Design systems, DDD, multi-tenan**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/cristiancamilopena?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzUdlEB_d-WoiQhRoT59P5AeRsL3950nzA
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/028-6f6e8933001fe0842121.md`
+- **Prompt Engineer -> Context Engineer -> Loop Engineer -> ¿Qué sigue? 🤔**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/030-a04a8815caddf8b753ed.md`
+- **Feed post Cathartic Computing Club 578 followers 1h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/company/davilagrau/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/031-da1b79830678c0fdd977.md`
+- **The paradigm shift in interacting with coding agents is here: Loop Engineering. Instead of direct prompting, the focus is now on designing s**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/033-52f3f914667566b8c3ae.md`
+- **Feed post Evnek 25,463 followers 1h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/company/evnek/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/034-a87ccd061e5972d1cbfb.md`
+- **Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. Here's how the**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/036-b0c417aaaed0f16416d0.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/037-e2344d4fccd6458970f2.md`
+- **🚀 The Saudi WPC Giga-Project Arbitrage: Engineering Weather-Resistant Biomaterials for Extreme Arid Climates Under the strategic mandates of**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/038-5a1fe77412181cf98508.md`
+- **Feed post Jazzy L. Jazzy L. • 3rd+ Sr. Designer | AI Cloud Infrastructure | AIOps | Agentic Commerce | Correlation UX | HITL Evaluation | Ob**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/jazzyloh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAB0e5IBOqDre2mtxzcIaF5D0VaXKovV0pw
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/039-e33e5e922b9c9b42b801.md`
+- **https://lnkd.in/gXJHvTmu hashtag #agentic hashtag #artificialintelligence**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/041-90edbae12984087bb22e.md`
+- **Feed post Lonnie McRorey • 3rd+ We Replace Nearshore, Offshore & EOR with a Distributed Engineering OS | 0→PR in 14 Days | For CTOs & CIOs V**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/lonnie?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAgt9cBVnY5IaRXpDRyN4ZSzsnA4_x_SeY
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/042-f283a5864e97978d181f.md`
+- **Funny thing. A lot of engineers are spending 8 hours learning how to write a better prompt. Meanwhile the engineer next to them is building **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/044-f92898c1f273efbd01ae.md`
+- **Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. Over the last two **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/045-1948055b4a151f7fb1a3.md`
+- **Feed post Edoardo Oranger • 3rd+ Software Engineer 1h • Follow Negli ultimi anni grazie all’intelligenza artificiale, la figura del software**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/edoardo-oranger?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADxAz3QByQzyfX8gTN1Kzp9EyVAVwKzqy78
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/046-8f7c70d059d267453fcc.md`
+- **Negli ultimi anni grazie all’intelligenza artificiale, la figura del software engineer si è evoluta in questo modo: 1. software engineer 2. **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/048-608b3d852e3318401df4.md`
+- **Feed post Zaid Alazawe • 3rd+ Senior Process Engineer | LNG, Refining, Biodiesel & Renewables | 17+Yrs | PMP® | PSM | Enzymatic & FAME Proce**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/zaid-alazawe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAncK4oBA7n7OFBrDESI51kDDlTVD98VLUk
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/049-73f3d4693ea255d97872.md`
+- **Process Engineering Essentials – A New Series for Engineers 👨🏻‍💻🚀 Process engineering is more than simulations and calculations. It’s about **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/051-1cfdf48b79729ca69ac2.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/052-0150217525705d5a7718.md`
+- **🚀 The Saudi MDF Giga-Project Arbitrage: Upcycling Palm Waste Feedstocks into Structural Biomaterials Under the strategic mandates of Saudi V**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/053-6ab74f32a9440a643d8a.md`
+- **Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 1h • Follow "Loop Engineering" is so hot right now, in**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/denysenkodaniil?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABgfYbMBCBVKVSdQekV5vtH1opRZR-0xnGo
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/054-bc58a29a9bb7801f894c.md`
+- **"Loop Engineering" is so hot right now, instantly reminded me of this classic.**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/056-aab12e31d1d92de0acdd.md`
+- **Feed post Brett Marlin • 3rd+ Founder & Principal at Marliin AI. Senior product practitioners delivered as AI agent infrastructure. 1h • Fol**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/brettmarlin?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACb9r0B5Ibh523GRcuud_kbWXFpGhKlHgk
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/057-18c758ba7957a6316036.md`
+- **phht, i've been loop engineering since rollercoaster tycoon 3. but seriously: buying claude licenses for the whole team is not an ai strateg**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/059-83c202f3d5c23c9d5cc1.md`
+- **Feed post Quinton Wall • 3rd+ Tell your agent I said 👋 1h • Edited • Follow All of a sudden loop engineering has replaced prompt engineering**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/quintonwall?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAB29OABH_M7rEerhxURAtY_iRBJqlMie6M
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/060-43eecf59df5f0ebedc3a.md`
+- **All of a sudden loop engineering has replaced prompt engineering. What is it, and why you should be using /goal as often as possible. https:**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/062-fe2563dff40f74ff3e27.md`
+- **Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 2h • Follow Everyone is suddenly saying "loop engineering." Alm**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/gurudath-sadanandan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAiHXKoB-vLH-4van9Pud0X3dLvr15B81Ik
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/063-9f5d734ae33c3d6feb4b.md`
+- **Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. So here it is, in the time it takes to d**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/065-c0cd1620ac7015fa8576.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/066-b3627c698e7f88c5f34f.md`
+- **🚀 The European MDF Paradigm: Turning Post-Consumer Wood Waste into Premium Circular Panels Standalone wood processing facilities and furnitu**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/067-ee476c44456bcf9505f2.md`
+- **Feed post Dylan Williams • 3rd+ Co-Founder - Spectrum Security Visit my website 2h • Follow If we now have loop engineering, then what’s nex**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/dylan-williams-a2927599?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABTcxoEB-bdAJxUs3Njp_XUBb7LLpsmefes
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/068-f40bf5d6911c7865d4f5.md`
+- **If we now have loop engineering, then what’s next? Environment engineering. Prompt engineering, context engineering, harness engineering, lo**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/sarahxguo/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/070-e60057894ed30f492dc1.md`
+- **Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/garethpjones?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEdStQBQk_Lrsi_If2CDLO2isbaypzOV3A
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/071-d22b4253c15e91dfd9fd.md`
+- **Loop Engineering is the next leap: agents find work, execute, evaluate, and repeat without constant supervision. The secret? Build the evalu**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/073-f213d10bb437a0af4304.md`
+- **Feed post Esmat Nawahda • 3rd+ Co-founder & CTO at Genpire | ex-Check Point, ex-AUI | Building the agentic infrastructure for the next gener**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/esmat-nawahda-6bb250a1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABWSQO8Bu3Oid2gzByUciD8Thq2htAM-6ps
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/074-4e52bd82203a5dbf450b.md`
+- **Loop Engineering: replacing one-shot prompts with a self-correcting cycle. Four phases: Act. The agent generates output. Observe. The system**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/076-d7b973aee355132aa3f9.md`
+- **Feed post Adrien Desbiaux • 3rd+ Applied AI engineer 2h • Follow I am officially becoming a high agency AI Loop Engineer. 2 comments Like Co**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/adriendesbiaux?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAj_cEIB1jqYCZPpi3-L6qjsvqOP1VfaI0E
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/077-6bcb6bc4abeff89ebaba.md`
+- **I am officially becoming a high agency AI Loop Engineer.**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/079-bcd26c704aec730edc84.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/080-eed176669e2cd00cdfb3.md`
+- **🚀 The Saudi Gelatin Giga-Project Arbitrage: Upcycling Halal Leather Streams into Pharma-Grade Biomaterials Under the strategic mandates of S**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/081-ac0a2591f04829b785c6.md`
+- **Feed post Milton Thomas • 3rd+ Architecte IA & Conseiller Stratégique : L’œil anthropologique sur votre technologie | Détecteur de Scams Tec**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/milton-thomas-architecteia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABp_kRwBYo8P3knbKCaJlXKejzEsDyg4nCQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/082-cbc5000dc8ca54885c00.md`
+- **Si vous passez encore vos journées à chercher le "prompt magique" de 50 lignes pour obtenir la réponse parfaite du premier coup, vous avez d**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/084-2600c34267f53625c8e4.md`
+- **Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/namrata-ganatra?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHQwzsBIS4Rlx_PDYXyeG3GpALoDGIao-M
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/085-791a8409cf05de355ac0.md`
+- **Stop prompting AI agents. Start engineering loops. A loop is a small program that prompts an AI agent for you, reads what it produced, decid**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/087-50ea264ef868979450bb.md`
+- **Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/douglas-batista-295458230?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADm7PJEBv_--ElIX2zM31CP14ydWdEYMIIA
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/088-2ecf1233d61cf6196904.md`
+- **IA gera código rápido, mas frequentemente peca na falta de design, documentação e revisão antes do commit. Para mudar essa abordagem, estrut**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/090-2c811f5a7031dcae55d2.md`
+- **Tava insatisfeito com como IA gera código: pula etapas, não documenta, não pensa em design antes de implementar, e às vezes commita sem revi**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/douglas-batista-295458230/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/091-33a39daeeb238bd29954.md`
+- **Feed post Muhammad Adnan • 3rd+ BDE @ Zenveus | LinkedIn Outbound & Growth | Email Marketing | SaaS & AI Automation | Coffee-Fueled Operator**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/himuhammadadnan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADInsXsBaxFRtQPmr3TyQyCb1a0iGSGLW3U
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/092-2cdfe73907625b97dad8.md`
+- **AI is changing how SaaS companies grow. But the real advantage is not just adding AI features. It is building better systems around the enti**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/094-8a75cb237fc13c060129.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/095-8d771208b555abf3573f.md`
+- **🚀 The European Gelatin Premium: Upcycling Cow Leather Scrap into Medical-Grade Assets Standalone leather tanneries across Europe face severe**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/096-4a6c0c11eed8dc39eb16.md`
+- **Feed post Nirmalkumar Sathiamurthi • 3rd+ Senior Engineering Manager | Scaled SaaS to $400M ARR | Led 20+ Engineers | 30x Performance Gains **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/nirmalkumarsathiamurthi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATd5ywBB6ef6dIVT448DkknTeDe5LMcRaE
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/097-4f81484efdeb739a72e4.md`
+- **We've moved fast. Vibe coding → Agentic workflows → Harness engineering → Loop engineering. But here's the question nobody's asking loudly e**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/099-c4017c55be4e384c083a.md`
+- **Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/company/finrevplus/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/100-0ad199d1753e2556739d.md`
+- **Converting world-class engineering capability into an unassailable commercial advantage? Interview from Baker Hughes on their advanced geoth**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/company/bakerhughes/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/102-13396b7335afa1b7b5b1.md`
+- **As the energy system evolves, geothermal stands out as a reliable, scalable source of baseload, lower-carbon power and heat. In this video, **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/103-92767558faf151c7991a.md`
+- **Feed post Edward Chen • 3rd+ Engineering Excellence Leader | AI, Quality Engineering & Developer Productivity | Automation Strategy | ADLC S**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/edward-chen-11382b74?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA_IzN8BIKrE_Q4fS75ceqVpKIj9aUPEEiI
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/104-bb97a7983ab8bf664b0c.md`
+- **最近看到很多人在討論 Loop Engineering . 如果回頭看過去一年 AI Coding 的發展，我反而覺得大家其實是在一路往上抽象。 一開始我們研究怎麼寫 Prompt，後來發現光會下指令不夠，又開始想辦法管理 Context，避免模型每次都像剛報到的新同事。接著進入**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/106-c3f3d5b4ea71aa0bee7d.md`
+- **Feed post Saulius Tautvaisas, PhD Saulius Tautvaisas, PhD • 3rd+ Senior Data Scientist @ Danske Bank | GenAI Technology 3h • Follow "Loop en**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/sautaut?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMpls8BNY7kR9PtRhaJ4Y3yIAV2VjCOvMY
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/107-8f630fc15e60ab671916.md`
+- **"Loop engineering" is a term that has emerged recently. It means designing the system that runs a coding agent, instead of prompting the age**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/109-c98d67376a024dded32f.md`
+- **Feed post Pitchayut Roejanapreecha • 3rd+ Enterprise Architecture | Enterprise Agility | Enterprise Transformation | Agile at Scale 3h • Fol**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/pitchayut-roejanapreecha-242402183?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACtO7tIBkPg2TyAHWoWgZKQfCKvyC6diGj8
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/110-07a0a7527124485e7da6.md`
+- **Enterprise Architecture is entering the Loop Engineering era. For years, EA was built around static artifacts: Capability Maps Target Archit**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/112-d18b315b431a39f58491.md`
+- **Feed post Hyun Kil Shin • 3rd+ AI drug design education gamification 3h • Follow https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/hyun-kil-shin-ai4sd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAvNH6YBwz0_p4jctCwgV0aaQMnKpWw53Vo
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/113-b9149e8bffdcf0b109e0.md`
+- **https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하는 거였는데 말입니다. 매번 프롬프트 다듬고 md에 지시문 추가하고 이제까지 했던 과정 스킬로 만들거나 하네스로 저장 요청했었는데, closed **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/115-0e681f98632386b9fe90.md`
+- **Feed post Mohamed Hany Youns • 3rd+ Software Engineer | Frontend-Focused Full-Stack | GSoC’25 @Chromium | Web Performance & Systems 3h • Fol**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/mohamedhany01?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADEZW4gBzxCx7ePwjan2IEHYw_2X2sC_xZI
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/116-15294ed24bcce1c143c2.md`
+- **فى ظل تخبط الأسواق والاقتصاد الحالى وعدم وجود ملامح واضحة للمستقبل ولو انت متابع الاخبار فى الوقت الحالى فى موضوع ال AI و Agentic Ai هيلاحظ **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/118-de87fc0ab32a1d55d1a8.md`
+- **Feed post Aleksander Stensby • 3rd+ 🚀 Founder @ GritAI Studio | Claude Ambassador | Making AI Accessible & Practical for Everyone Visit my w**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/aleksanderstensby?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA4xYQBaawhoXmKXaupbabFxrVgV3RqRWo
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/119-b61d9b76c0b5861ed371.md`
+- **It's time to be more ambitious! That's Anthropic's own advice for working with Claude Fable 5, launched this week. The first Mythos-class mo**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/121-b14fc305ec0ca22838cd.md`
+- **Feed post Olli-Pekka Heinisuo • 3rd+ Co-founder @ GitHits. Code examples for coding agents and developers, distilled from open source repos.**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/ollip?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAj6s0YBy4cUiSPgaiF4lZUwvB6t4FpREYU
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/122-af27dfddb800407694ce.md`
+- **Loop engineering is all the hype now but have you actually looked into what kind of stuff the LLM does in those loops? It might easily spend**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/124-396609a59af213d8d792.md`
+- **Feed post Aric Crosson Bouwers • 3rd+ Full-stack AI Engineer & natural intrapreneur. Product mindset is my jam. | Lover of coffee, architect**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/aric-crosson-bouwers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAnGDJABSr7TrGKCB_VoF6QQyy375wUyVSc
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/125-e56a8433dc3c4d262d5b.md`
+- **I’ve seen a lot of posts about loop engineering, and they definitely are powerful. They basically unlock your ability to keep contributing v**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/127-4625065c8e11323a8643.md`
+- **Feed post Avinash Tiwari • 3rd+ Human Technologist [ my thoughts ≠ employer’s view ] 4h • Edited • Follow Where are we headed..... Boris Che**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/avinash-tiwari-technologist?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAK_MskBXmzrr3wF7K3fm6uKBlfx5qinpek
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/128-37d469c97ae9c77a7e43.md`
+- **Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/130-372eae5f4dfdc174adda.md`
+- **Feed post Vincent Sipoi • 3rd+ 2x Tech Founder | Systems Architect | Claude, n8n & Smart Agents | Web3 & Blockchain Engineering 4h • Follow **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/vincent-leteipa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACF1Lf0BK_P3b_wZwnE8obnF8545-q2vNi4
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/131-6f31d77d9ed0f9016d80.md`
+- **From Prompt Engineering to Loop Engineering Architecture The 4 Core Components 1. Trigger what starts the loop 2. Actor the AI doing work 3.**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/133-41a47e406d41941e2fd6.md`
+- **Feed post Paloma B. Akerman, PhD • 3rd+ Senior Strategic Advisor & PhD in Hydrology | Digital Twins & Smart Water Expert | Associate Profess**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/paloma-b-akerman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAIhSrsB69S6ajOus56DY0kcoSvxIWHVdSY
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/134-6b0d09c47ed44d7910d5.md`
+- **​🌍💧 Engineering Meets Digital Water: The Future of Advanced Sewer Modelling at Scale! ​Following our recent presentation with Enrique Sorian**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/enriquesorianomartin/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/136-14925f9190903b1863c8.md`
+- **Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/linasbeliunas?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABbscnUBlKacJbEN5USrYdfhVdH-ffYINJk
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/137-3a54e578e238ff2bba3f.md`
+- **This is brilliant! An engineer used Claude Mythos & data from Whoop to find which coworker gives him the most stress 👏 A developer hooked hi**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/139-92676053bf6eed04a377.md`
+- **Feed post Nikhil Kassetty • 3rd+ AI-Powered Architect | Top 50 Global Thought Leader – Agentic AI & FinTech (Thinkers360) | Speaker & Mentor**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/nikhil-kassetty-905928137?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACFrORUBBF3DiisJdFqFZOMEOHOcKgs0UYE
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/140-de36d909aa3a1b0d782c.md`
+- **Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. Design the loop that p**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/142-7ad78a44bee487408048.md`
+- **Feed post KASKTAŞ 7,131 followers 4h • Edited • Follow Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisl**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/company/kasktasas/posts
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/143-448f688f5efceed46721.md`
+- **Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisliğinde Döngüyü Tamamlamak: Tasarım Kabullerinden Doğrul**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/company/geoants-monitoring-systems/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/145-31bf7fc664f29d355eef.md`
+- **Feed post Suresh G. • 3rd+ SSE @Oracle | ex Amazon | ex Microsoft | Best Selling Udemy Instructor | IIT KGP || Heartfulness Meditation Train**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/suresh-g-688608191?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC0eUcgB1h8kqqDXuKgHQM-P0sb4mMy4k-4
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/146-4d0bdf26694802b03cfe.md`
+- **Anthropic and OpenAI engineers are both telling software engineers to write loops. That is not a coincidence. For the last two years, most o**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/148-67a3fc4a482ae415151e.md`
+- **Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/talha-shaikh-a51b99155?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACVfb50BSu4qFXzF-IjEAKPCL8HXn2gYVUo
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/149-76d04b4013d789d82793.md`
+- **Feed post Sean Reed • 3rd+ I design and build multi-agent systems for commercial banks. 5h • Follow Loop Engineering Explained louisbouchard**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/seanreed1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGXRQ4B_ffkVJmoYYk8IN3nGrNqO7zEf1s
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/155-943c33100b7c82d3359a.md`
+- **Feed post Stuart Inskip • 3rd+ Strategic Product Leader delivering 0-to-1 launches and roadmap ownership across consumer loyalty, omnichanne**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/stuartinskip?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABPtbYB2PeN7aqSOYmq74quT4X9DPHEJsw
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/157-f103686ac0e289f34559.md`
+- **Loop engineering — the practice of designing automated agent workflows instead of prompting manually — is reshaping how developers use Claud**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/159-7d4574beb029982da5e6.md`
+- **Feed post Baskar Rao Dandlamudi, MSITM • 3rd+ Azure Solution Architect | Technology Leader | Speaker | Community Builder 5h • Follow Everyon**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/baskarrao-dandlamudi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAII33kBNWsVdLyPiWR3VVqblMkov7m4qoU
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/160-1d260601253a8ef70dbf.md`
+- **Everyone’s talking about loop engineering and for good reason. As agentic AI systems take on more autonomy, they rely on loops to plan, act,**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/162-28e814138ec6f688474a.md`
+- **Feed post Sagar Mainkar • 3rd+ Co-founder , Catomz | AI + Cybersecurity | Ex-Qualys, SAS | 20+ Yrs Building Products at Scale 5h • Follow Is**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/sagarm21?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABA0IAcBuNj0y-hd77RKyrJVboa21Wo26gc
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/163-3a992220267ea5b33eea.md`
+- **Is Loop Engineering the new meta in agentic AI? Recently, Peter Steinberger (creator of the viral OpenClaw agent, now at OpenAI) and Boris C**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/165-d1baffb0150f97510a4c.md`
+- **Feed post Kashi KS Kashi KS • 3rd+ Chief AI Officer & Head of AI research 5h • Follow Thiyagarajan Maruthavanan (Rajan) and I started the RK**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/kashiks?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA5gUuABGMyj1OVXGng_Omaeu-iroprgLNQ
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/166-9ea50d7f7015e728e962.md`
+- **Thiyagarajan Maruthavanan (Rajan) and I started the RK on AI Podcast a few months , now approaching 50,000+ views. In our latest episode, we**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/thiyagarajan/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/168-c73b3af409ff51942bc6.md`
+- **FDE then Agentic engineer and now Loop engineer As an industry we like to invent new roles every few months With Kashi KS on RK on AI https:**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/kashiks/
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/169-be3cb3ce579bd768dfb3.md`
+- **Feed post Sattar Rasouli • 3rd+ Senior Frontend Engineer 5h • Follow Loop Engineering: The Next Big Shift in How We Work With AI A new idea **
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/sattar-rasouli-aa42a0128?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB9dyBwBOlnv7HaJ3IpX56HQsiLZyToPy_4
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/170-44e71bef7e9dc2a2d735.md`
+- **Loop Engineering: The Next Big Shift in How We Work With AI A new idea is trending in AI right now, and it is called "loop engineering." For**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/172-0fbc6d5be563445b9b8e.md`
+- **Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/whats-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC7sr7YBMegMG6WCyx6K1v27-tE3bq686NY
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/173-1526b70898cf564fb1cd.md`
+- **Good morning! This week, I'll show you what loop engineering actually is, how it's different from a cron job, the 5 building blocks that mak**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/175-06b1cb46dcc41cd7f403.md`
+- **Feed post Ramasubramanian Meenakshisundaram • 3rd+ Senior Technologist at Infosys 5h • Follow The Rise of "Loop Engineering": As technical l**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/m-ramasubramanian?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACHQG_sBaWMxqBBxz25wByfkTJi31T3XXdA
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/176-fbeb24bbb27bf22f1de7.md`
+- **The Rise of "Loop Engineering": As technical leaders note, prompt engineering is dying.The value is no longer in finding the perfect combina**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/178-ac03810fcc4d3fb56c8d.md`
+- **Feed post Rafael Igual • 3rd+ AI Strategy | AI Business Design | AI Innovation | AI Design Sprint | AI Venture Building | AI Venture Capital**
+  - Type: linkedin_search_result; query: `"loop engineering"`; captured: 2026-06-11T17:40:35Z
+  - URL: https://www.linkedin.com/in/rafaeligual?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADOsdoBE2QDyg3RG0vf2CARs8OA7oi2OWs
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/179-df8c4e394bce5214840c.md`
+- **Feed post Harm van Berkum • 3rd+ Advocaat - VAN BERKUM M&A 35m • Follow I wanted to create a KYC and Engagement onboarding platform for my l**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/harm-van-berkum?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAD8C30BBrHbOxJHy_QRphinSxgtKsHxXMg
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/002-03fd19324f363952cedf.md`
+- **I wanted to create a KYC and Engagement onboarding platform for my law firm with open source and a privacy and security first approach. With**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/protonprivacy/
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/004-3dadf8bbd9c857153954.md`
+- **Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 42m • Follow I just trained my Hermes Agent to scrape Google maps leads and find **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/005-3146e2a1c6bf77d15f35.md`
+- **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 43m • Follow Outpost hosted a dinner in NYC this week with AI lea**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/008-823c5d0a6b2744e848c4.md`
+- **Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/ryanaquino?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA-JVkBj-Q1qI2gIngNFVdr6cUJBK7Oa_M
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/018-9676688d36759772d742.md`
+- **I finally got around to working with the hermes desktop part of ollama (I had to update ollama 0.23.2 -> 0.30.7_1) and the transition was cl**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/jeffrey-lee-chan/
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/020-4b1b9d8f2801a7b0e224.md`
+- **Feed post Benjamin Daulton, Esq. • 3rd+ Enterprise Field Account Executive @ SHI International Corporation 1h • Edited • Follow This month h**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/benjamin-daulton-esq-2180ab27?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAWH5XQBIAxHSReN7WACL5CSUtoNdgJygZQ
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/024-8b4f2afaa6972b61e0cf.md`
+- **This month has been all about NVIDIA! This week, I participated in the NVIDIA/SHI Agentic AI Hackathon, where I utilized NemoClaw, NVIDIA He**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/nvidia/
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/026-9a13e0dd2fa618a714e4.md`
+- **Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 1h • Follow Veri**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/bradgroux?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADHWFQB-IHEch6TCq4zJrkfEHG1PCdMPVc
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/027-81002244acac8ee34b9b.md`
+- **Veritas Kanban v5.0 is live. I built Veritas around a simple belief: AI-assisted work needs an operating system, not just a chat window. Onc**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/029-851e7a6f9f3e23675868.md`
+- **Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 2h • Follow Watched a $200M brand's CFO re**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/craig-foldes-1b949b96?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABRcdF0BiNBgJ9buQKJLquak_MAOboDAac8
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/030-0beec142f52f30768c00.md`
+- **Watched a $200M brand's CFO realize their week-long financial close could be a 10-minute job. That was minute 40 of Underground 2.0 in NYC. **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/032-768fb7292ff31db3b502.md`
+- **Feed post Fernando Santos • 3rd+ Gerente Executivo de Tecnologia, Dados & IA | IA Generativa, Agentes & LLMs, Engenharia de Software e Trans**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/fernandok-santos?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAkN8EABSnkwMWqvOhXawz2LAHJPKhZ2UzI
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/033-3d9e33badd0b26701da9.md`
+- **Que modelos eu uso no meu trabalho? Depois do Fable 5 ficam me perguntando aqui no escritorio qual modelo é o melhor. Resposta honesta: depe**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/035-41f4b9665c4052fe7684.md`
+- **Feed post Daniel Foley Carter • 3rd+ SEO Specialist with 25+ years experience. Extensive experience in SEO auditing, strategy, execution & t**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/daniel-foley-assertive?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAXsNsUBYWyqVPkglBZEBgbvMTqovBcjEC0
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/036-ecf9053711f59c0c5343.md`
+- **💥 WooHoo! It's Live!!!!! 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/seo-stack/
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/038-be0f61d09ca0cdced412.md`
+- **Feed post Yomi Toba • 3rd+ Software Consultant & Tech Entrepreneur 2h • Edited • Follow I built an AI team that plugs into the tools you alr**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/yomi-toba?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHopiEBu0elf_y4BOL2QoCT2bhiiJRWNVY
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/039-1d52c59e7f837304fb2c.md`
+- **I built an AI team that plugs into the tools you already use. The tech borrows a lot of the themes from Hermes and Openclaw, but it's not yo**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/041-3e2ee4bf047833428e09.md`
+- **Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 2h • Follow L'**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/ahmed-choulak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFi8tVUB1GIQmnPPZvXnJIH6Avvsee6-QO0
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/045-79a4f0ecfdac75f43102.md`
+- **L'IA vit sa bulle des .com. Et voici ce que les gourous de l'IA ne veulent pas dire. Des formateurs poussent comme des champignons, tous "ex**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/047-b1f444a72c1fd44379cf.md`
+- **Feed post Illia Zakharov • 3rd+ IT Technician @ Galaxy4Games | Electronics and Telecommunications Graduate 2h • Follow 🎓 A few months ago, I**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/illiazakharov?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFNd0ToBjoJ7eAWKg0Ub-7qvW_JRK0wNpck
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/048-54922b4e3c27a33642c1.md`
+- **🎓 A few months ago, I graduated from Poznań University of Technology. My Bachelor's thesis, "Usage of Machine Learning in Application of Gen**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/050-0f91b6fb67ea39d91fe2.md`
+- **Feed post a e • 3rd+ Picture of me circa 2014 | Aspiring managing director at Instagram | Social Media Manager/Strategist | Short-Form Video**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/a-e-b36403399?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGHFGpoBWj2vM_K62ZqP4GgIs-TiMpK39es
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/051-eac5eda86af49fcb67eb.md`
+- **One thing AI has taught me: The difference between an idea and a product is execution. Everyone has ideas. Very few people sit down and try **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/053-2af9e6c9c849f8726a4b.md`
+- **Feed post Alexandr Lebedev • 3rd+ Security consultant. Mentor. Facilitator 3h • Edited • Прошло три месяца с момента, как я начал регулярно **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/alexandr-lebedev-38907bb1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABeuU1kB9vjzeXkODidXoL9fhDAolA6MGv4
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/054-c32f9d3ab19155cac40c.md`
+- **Прошло три месяца с момента, как я начал регулярно использовать собственных ИИ-агентов в рабочих задачах. За это время конфигурация более-ме**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/056-97265784bbad6ecd0a5e.md`
+- **Отчёт по завершению 15 дней эксплуатации цифрового сотрудника (OpenClaw): 1. Подход Внедрение проводилось по модели найма штатного специалис**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/057-31319f10186fe1d1c84b.md`
+- **Feed post Quốc Nghi Huỳnh • 3rd+ AI in Banking & Finance | Post-Control, Collateral Valuation & Debt Asset Management | Banking Operations &**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/quocnghihuynh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEAeCpoBtM9SNgivj273Yj_9ILOxay8SlB4
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/061-02e68d844ac034eb685e.md`
+- **Nay nhận dc email của MiMo Xiaomi thông báo : Ảnh đã chính thức phát hành và công khai mã nguồn MiMo Code Chính xách hơn là combo MiMo Code **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/063-1b92cb7791def6c47133.md`
+- **Feed post Rasmus Lindgren • 3rd+ 🔥 Forfatter, speaker, mentor og far 🔥 Hjælper passionerede selvstændige med at skalere deres forretning onl**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/rasmuslindgren?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAD3rMBLhVhijC0hCkfW0ij9yi1_vSm8Bk
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/067-ef0d90feabdfd0f4732e.md`
+- **Hvorfor jeg skiftede fra OpenClaw til Hermes**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/069-fc13699e8f2525b7e44b.md`
+- **Feed post Maicon Ramos • 3rd+ Web developer for startups and digital agencies 3h • Follow Hoje eu vejo o MultiPost muito além de um simples **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/maicon-ramos?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABW-uzwBGuvMZwEncTK6A4JmvNk9xt60ERQ
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/070-4f6e1cd13a9d24a8a3eb.md`
+- **Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era dos agentes de IA, o objetivo não é centralizar tudo em**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/072-d6248918df64f799bc58.md`
+- **Feed post Automação Sem Limites 0 followers 3h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/automacao-sem-limites/posts
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/073-e99faf06b8c5842dfb4c.md`
+- **Feed post Yoni Atteia • 3rd+ Automatisation des formalités juridiques | IA & LegalTech | Extension Chrome Guichet Unique 4h • Follow Questio**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/yoni-atteia-5b82402b7?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEwID1wBTKe_r9It1HXs4UnPIMoj_K8D_G0
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/075-a040f5a0f0293045494c.md`
+- **Feed post Lior Pozin • 3rd+ Bootstrapped AutoDS to 200+ employees → Acquired by Fiverr. Forbes 30under30. Advisor, Speaker and Investor. Vis**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/liorpozin?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB40OpgBZS6sLUW0HAVDA5kJPNsjM71263A
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/078-488a25ce6facbce09afb.md`
+- **Anthropic is quietly repricing Claude on June 15. Here's how to prepare: Until now, you could wire external agents and tools like OpenClaw d**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/anthropicresearch/
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/080-25e32e91cf9dcd537b4d.md`
+- **Feed post AZAHAR-LABS 46 followers 4h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/azaharlabs/posts
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/084-ac31111c1e6722b736b1.md`
+- **Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ্ছে: Signup link: https://shorturl.at/YXENG শুধু মনে করি**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/086-5ddca526fd2b5f3af150.md`
+- **Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/talha-shaikh-a51b99155?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACVfb50BSu4qFXzF-IjEAKPCL8HXn2gYVUo
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/087-26fd57bc30e241f97d33.md`
+- **This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many hours at networking dinners, I’ve noticed a common pattern: some**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/feifanz/
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/089-f841067aa02b0ae10c1d.md`
+- **Feed post Srikanth Bhakthan • 3rd+ Data & AI Leader | Adjunct Visit my website 4h • Follow All views are personal. Recursive Self-Improvemen**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/bhakthan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACNifEBq1NBOzR2i5ICeDh3ehN9BiJCFrw
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/090-dc02150219b789c4af0e.md`
+- **All views are personal. Recursive Self-Improvement Basics: An agent that doesn't just solve the task, it improves the "System" that solves i**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/092-0a2fc9296bb544275aed.md`
+- **Feed post Juan Felipe Rivera González • 3rd+ Senior Backend Engineer @ ACUE | PHP, Go, Python, Javascript 5h • Edited • Follow En mi post an**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/jjuanrivvera99?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACk5_qEB8_xlEjDm2tkwenCyUf4DUeNeTQw
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/096-d0ebf6f657bff967395d.md`
+- **En mi post anterior conté que probé el MCP oficial de Alegra. Y ya entiendo mejor cómo está pensado: es de solo lectura y se conecta por OAu**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/098-70fd3dd388f33fd7b10f.md`
+- **Estoy evaluando Alegra para un producto que estoy armando. Y justo vi que lanzaron su MCP. ¡Una excelente noticia! Le abre la puerta a los a**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/099-f0934012ad7325d04403.md`
+- **Feed post Melverick Ng • 3rd+ Build Digital Coworkers to Run ERP & CRM Processes | Agentic AI Expert | Ex-SAP 5h • Follow Is it me or what b**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/melverick?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPcDFEBVT6_IDQTTk6oaXiRf20TSS73GQY
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/100-6fdc94ae4be445ac9a92.md`
+- **Is it me or what but my Hermes Agents burned more tokens than my Openclaw?**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/102-282b69311f3fcbb9a532.md`
+- **Feed post Dave Cheng • 3rd+ AI & Blockchain Builder | Multi‑Hackathon Winner | Just wanna manage expectations | I want to talk about work | **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/davecheng82?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA5j_R4B90C9XcAaNDt1yS4yHKEKQ5jreb4
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/103-44e775e335ea56ac4514.md`
+- **Guess what I’m building? Overmind, Cosine EXO Labs, cognee, Captur Dawn Capital hashtag #Hermes OpenClaw Tailscale hashtag #Whisper FYI, the**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/over-mind-ai/
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/105-845b0b999bb70adecd3d.md`
+- **Feed post Luciano Ricardi Scorsin • 3rd+ Principal Solutions Architect 5h • Follow Por que Intel e AMD começaram a subir suas ações justamen**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/luciano-ricardi-scorsin-01384718?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAOvE08BZwrFCYSFchwlmeDaH9J5NB2j9K8
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/106-53768ececa339fd6f9e0.md`
+- **Por que Intel e AMD começaram a subir suas ações justamente no fim de março? IA não é bolha. Pode haver exageros, correções e até uma "infla**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/108-8e0ec6c955300ddb5cfd.md`
+- **Feed post Andrew Hodges Andrew Hodges • 3rd+ IT Platform Operations and Software Engineer 6h • Edited • Follow OpenClaw broke on every updat**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/aghodges?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGlM_cBQ8yI8fBCEmCpoZCfvD9RN7Ie_Vw
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/109-8ef3be88cd8a60b5d2c8.md`
+- **OpenClaw broke on every update, constant babysitting. Hermes looks powerful, but it's a big rig built to do everything. Phantombot is the op**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/111-fc9ea314243f4fa1d497.md`
+- **Feed post Conor Svensson • 3rd+ Founder at Enscribe building onchain identity infrastructure. Creator of Web3j. Writing about agentic engine**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/conorsvensson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABvoiABkvkZrybDJQv5BIZQMWubG1FaSeU
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/112-11d3d7a657bcfbbc68c7.md`
+- **Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. If you're only using persona**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/114-dbae97ed2b71b630dfb0.md`
+- **Feed post Jean Luc DI MANNO Jean Luc DI MANNO • 3rd+ Lead of Hyperlab | Consultant & Solution Architect | Payments, Digital Identity, AI 7h **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/jeanlucdimanno?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABBG9B4BlNoMVvHCnso__51AJXHxVc9t0xs
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/115-5a9c1174db769070b9df.md`
+- **Most “agent observability” approaches I see today fall into three buckets: - Reverse proxy in front of the agent: Capture all prompts/respon**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/consult-hyperion/
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/117-85f361ff897c2628f3c9.md`
+- **Feed post Generation AI 183 followers 7h • Follow Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, **
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/company/generation-ai-ev/posts
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/118-37f2d15acf6968611b5f.md`
+- **Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, wie du dir einen eigenen AI Assistenten einrichtes**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/120-ffae2e682bb66da603c0.md`
+- **Feed post Jon Ander Oribe Sánchez • 3rd+ CTO at Quantum Mads | Top Innovator Company by UpLink & the World Economic Forum | Quantum Computin**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - URL: https://www.linkedin.com/in/jon-ander-oribe-sanchez?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABgvSGgBojsk_ncfQXEXQdivWTdqoh6EWsA
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/121-e72d873ace61c0ae33fc.md`
+- **🤖 OpenClaw vs. Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera**
+  - Type: linkedin_search_result; query: `"OpenClaw" Hermes`; captured: 2026-06-11T17:36:35Z
+  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/123-eee6a358aad09d82b2f2.md`

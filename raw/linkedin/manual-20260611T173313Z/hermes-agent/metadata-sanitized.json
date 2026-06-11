@@ -1,0 +1,1458 @@
+{
+  "captured_at": "2026-06-11T17:33:47Z",
+  "items": [
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/001-d804461db0b96b395a62.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_7847d3a28b074560f2d9",
+      "text_hash": "d804461db0b96b395a6298ef74a3fdff29d26bc9d55f3d95d58469208bc559e8",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/002-d307512f469e35743d94.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_bb32b2bbe80c7118185b",
+      "text_hash": "a84ab9fe327764e205399012a6d0fe767fd4f48a78b969bf61a6284b3c26ac0c",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/003-4d2c4eba495444725f69.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_bb32b2bbe80c7118185b",
+      "text_hash": "a84ab9fe327764e205399012a6d0fe767fd4f48a78b969bf61a6284b3c26ac0c",
+      "urn": "urn:li:activity:7470880926420369408"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/outpost-us/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/004-1d3ef104941d87faac83.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f956fc40134c7f3ef6a7",
+      "text_hash": "73e5882123cf873ef1f360e28f3fd962b568634734bba2636cf84913526cca9b",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/005-b47c9ef5dede4b0770e5.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e9aef8d7f41879fbb1a6",
+      "text_hash": "37e7569d58a247eeeaf2301e521afca939e11866b5892c724fdaaaee894b63b2",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/006-e89312762ae2e354f097.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e9aef8d7f41879fbb1a6",
+      "text_hash": "37e7569d58a247eeeaf2301e521afca939e11866b5892c724fdaaaee894b63b2",
+      "urn": "urn:li:activity:7470880948587438080"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/007-bde03c009a14b03c9409.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_7cfeed9a047ddd036325",
+      "text_hash": "bde03c009a14b03c9409c61bd51c9d4f212bbd2e18a0cc726ac9fdf483472f12",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/melissawiringi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAASOUu8BPMa5ewn_NgjcLOIMAnH0lqfy5DE",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/008-2b42b324af84064b39c3.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0e0da08bad35d2ccba8c",
+      "text_hash": "ceb6d80b3abfcbc02a2ee6e3e0476f2c3714a87b1758eaf553911d57a67e58d9",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/melissawiringi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAASOUu8BPMa5ewn_NgjcLOIMAnH0lqfy5DE",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/009-8fb1099c0e71ce3d4511.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0e0da08bad35d2ccba8c",
+      "text_hash": "ceb6d80b3abfcbc02a2ee6e3e0476f2c3714a87b1758eaf553911d57a67e58d9",
+      "urn": "urn:li:activity:7470878084900995072"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/010-7fe7c84d86d5db81b1ba.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_1e7145fd7b27ce874b3e",
+      "text_hash": "7fe7c84d86d5db81b1ba0079721c4208e46f91593d9e00394f84a3cda6709c7c",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/011-a492b91e8de192475384.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f5d41137e8f551015c23",
+      "text_hash": "a492b91e8de192475384154d8e0e81baa0073039c4cf8d787d5d734fca7cae52",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/thenextgentechinsider/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/012-36a626f45398c80e9f50.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_63e196009917174b1245",
+      "text_hash": "ccc96c056b62e822f3f2788a20e364abd8b02d42ed0ac9d1046d74ff01f198ad",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/thenextgentechinsider/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/013-94eb16ee15a478a9f65c.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_63e196009917174b1245",
+      "text_hash": "ccc96c056b62e822f3f2788a20e364abd8b02d42ed0ac9d1046d74ff01f198ad",
+      "urn": "urn:li:activity:7470878120758181888"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/014-85f375a4523e2464da46.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_c7232a04c69e77d8c4c7",
+      "text_hash": "85f375a4523e2464da46265dd53f9c8d7825b7da09e6f9b57c0b3a6c642cafcf",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/divya-chidambaram-20596a388?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAF-J1qUBaTYz_tDXYE1P6ncb3HM435Dez_g",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/015-4b34011a845e60a35e56.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_1609895cd2ed85b2cbbb",
+      "text_hash": "c593a2dbe1bbe80debac3e0b46a356e052451f70e3c50f16446e12a8f0765dbd",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/divya-chidambaram-20596a388?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAF-J1qUBaTYz_tDXYE1P6ncb3HM435Dez_g",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/016-43b3a511a011cd7e0cca.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_1609895cd2ed85b2cbbb",
+      "text_hash": "c593a2dbe1bbe80debac3e0b46a356e052451f70e3c50f16446e12a8f0765dbd",
+      "urn": "urn:li:activity:7470875339507040256"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/017-03a4b185cd5e9cb2a2e2.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_bedf3043d512d7557a84",
+      "text_hash": "03a4b185cd5e9cb2a2e2306a4c81ed73c03aa4745d0cff62c5adf55fc055eed4",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/tumawu-eugene-a864513b0?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGRyEcYBG9KrWH3mjeRbA3nDomgdGciTHu0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/018-41eff61b81f85f1d7750.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_997c5abdf1b711429426",
+      "text_hash": "0e7e7c30f7037d93030c56c4ccf9a311594fe6615acb44da71c9026f7a9ff724",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/tumawu-eugene-a864513b0?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGRyEcYBG9KrWH3mjeRbA3nDomgdGciTHu0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/019-13e1d0e0ca5968b8dee1.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_997c5abdf1b711429426",
+      "text_hash": "0e7e7c30f7037d93030c56c4ccf9a311594fe6615acb44da71c9026f7a9ff724",
+      "urn": "urn:li:activity:7470874966046076928"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/020-15dbbf88ac16af5e307b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_7c6989eb5d3f90045a25",
+      "text_hash": "15dbbf88ac16af5e307bb128dc1fe7589e856dc7055d2c8480fc89c2083afca3",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/tarengine/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/021-48036f225c101bafb0b8.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_df64be7450f0443877f9",
+      "text_hash": "a71cdadc0c0d5a452a6e8c66b870ca68a2de8d623ab5d27f5c8c21e254b36c38",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/tarengine/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/022-c4d3f76adbb1b67e5700.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_df64be7450f0443877f9",
+      "text_hash": "a71cdadc0c0d5a452a6e8c66b870ca68a2de8d623ab5d27f5c8c21e254b36c38",
+      "urn": "urn:li:activity:7470874199184588801"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/023-ed57ef3374aa266dc676.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f8774625defa9bf687cc",
+      "text_hash": "ed57ef3374aa266dc676e123fe4fcf475fa8808e876ce6fe011a29dc04f9751d",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/sebasti%C3%A1n-wagner?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEU3c1cBbkpN1GXliR_tzM20d2lGU4xELms",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/024-ddf3a659a937be5edb08.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_89121e35af7e04b1ceb3",
+      "text_hash": "b2a371e2b683665e9e9b52b2593aa22eca44d03bfa8f96e307e953f23bc310fb",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/sebasti%C3%A1n-wagner?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEU3c1cBbkpN1GXliR_tzM20d2lGU4xELms",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/025-9f2158303a11c25d0dea.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_89121e35af7e04b1ceb3",
+      "text_hash": "b2a371e2b683665e9e9b52b2593aa22eca44d03bfa8f96e307e953f23bc310fb",
+      "urn": "urn:li:activity:7470873890320310272"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/026-3cdddadca09a5f70741c.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_fcb9fe7faec3f7bb7904",
+      "text_hash": "3cdddadca09a5f70741c88f8f14ba9a13ec732fdba7e0b13f60b247b970c1d02",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/zhi-hong-gan-a93a51415?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGmyKc8Br3sI7hweitC-tdzdfzkHIPb4VA8",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/027-394cf002ddf101ccbcbe.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_9297f75f886f32e81e08",
+      "text_hash": "6277db7a634c3fea5b9605a07fa4fb2d48fb0af2b1e076c7d5476ada933a0e78",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/zhi-hong-gan-a93a51415?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGmyKc8Br3sI7hweitC-tdzdfzkHIPb4VA8",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/028-7209522affdb93d749ab.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_9297f75f886f32e81e08",
+      "text_hash": "6277db7a634c3fea5b9605a07fa4fb2d48fb0af2b1e076c7d5476ada933a0e78",
+      "urn": "urn:li:activity:7470872539117019136"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/029-3fea1572462716aeb0d2.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_b06b3c2b98f8d253c429",
+      "text_hash": "3fea1572462716aeb0d2ed13a73cbeb3590647c6ccd8f4d9f7b2c4383a959515",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/vanijya-technology/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/030-e3bd8c8db4852e60fc1a.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6190e1b90a4ae59a5f46",
+      "text_hash": "8699d87256ad376cd117682baaea61a20f9e341a2233c843506501bf34ab8d99",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/vanijya-technology/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/031-19208653769d76c9d5f5.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6190e1b90a4ae59a5f46",
+      "text_hash": "8699d87256ad376cd117682baaea61a20f9e341a2233c843506501bf34ab8d99",
+      "urn": "urn:li:activity:7470872287530012672"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/032-a04aa07f81b2c015e066.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f775cc379aa34e4f08a4",
+      "text_hash": "a04aa07f81b2c015e06689412cac01ed09fbdf6eef4f7df61f48ebf3833a783f",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/paveu-kiszczak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB2X8igBgaHKDeKkQvYxdUsvqRPGf-Y7N6o",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/033-9608057630e5933ed594.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_227afa9328607de214c1",
+      "text_hash": "d5853cd5ce465e8c2f5192b9e0afcde4fd78acc687176cb0031813bebd3111a0",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/paveu-kiszczak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB2X8igBgaHKDeKkQvYxdUsvqRPGf-Y7N6o",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/034-6f52dd7dfe3aac3ce78a.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_227afa9328607de214c1",
+      "text_hash": "d5853cd5ce465e8c2f5192b9e0afcde4fd78acc687176cb0031813bebd3111a0",
+      "urn": "urn:li:activity:7470868893503283200"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/remigiusz-kinas/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/035-119f01ca0665036cbc31.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_483850601bc6561ff7e6",
+      "text_hash": "5facf737afd0d73d5025f38c8b2a20581beb5501e53a3c9334ac9a164a2da413",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/andrew-shutov?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADWXFdIBxczKVwFOrw3qZIgKa0oXqS7CH7Q",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/036-b5376ba68bb096618ef0.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_528bca5183710675ffa4",
+      "text_hash": "0af27ff5c958c64ad59e345b802c66c94f34b581690ac3fa0bdf889755b81c47",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/andrew-shutov?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADWXFdIBxczKVwFOrw3qZIgKa0oXqS7CH7Q",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/037-bc02d4451bbedd52ee2e.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_528bca5183710675ffa4",
+      "text_hash": "0af27ff5c958c64ad59e345b802c66c94f34b581690ac3fa0bdf889755b81c47",
+      "urn": "urn:li:activity:7470867534775271424"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/038-7383be94a9e26c65f5d6.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_4592ab358ac79122391f",
+      "text_hash": "7383be94a9e26c65f5d65b33532a7ac156d050da7a0726381cf1736985cd283f",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/ashishpatel2604?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATOnMIBYFNuqVOB33Dkrrhcd4bGpGp6FIM",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/039-348ba8ca334946076b72.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_b3f0ec5fd859cc31a5dd",
+      "text_hash": "44941b8f859a782ef07f6a12948a01f0916d11a3bb42674f91136d0f7f1628f1",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/ashishpatel2604?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATOnMIBYFNuqVOB33Dkrrhcd4bGpGp6FIM",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/040-ca44975d453138b27241.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_b3f0ec5fd859cc31a5dd",
+      "text_hash": "44941b8f859a782ef07f6a12948a01f0916d11a3bb42674f91136d0f7f1628f1",
+      "urn": "urn:li:activity:7470866497079242753"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/nousresearch/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/041-42a0931e846970977560.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f4388170b23983ab7cdc",
+      "text_hash": "b2429cc89493bd10eeda15c7fd76f618ca52386ea53336f9b04705d4a8aeecaa",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/galih-fajar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACYb_RMBL6Ne6y1flxhhsscj23IpX2XlQ60",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/042-7ed81418f9f52d4fd9bb.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f1ac0932de327269768e",
+      "text_hash": "a16531f2d073c1deb32c8369ccf9804120da9192a298f09182804977eeb565f1",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/galih-fajar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACYb_RMBL6Ne6y1flxhhsscj23IpX2XlQ60",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/043-690dfa80d32a30ea1aed.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f1ac0932de327269768e",
+      "text_hash": "a16531f2d073c1deb32c8369ccf9804120da9192a298f09182804977eeb565f1",
+      "urn": "urn:li:activity:7470866329508511744"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/tencent-cloud/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/044-c8e79b3d52d2b203743e.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_31a3f9b320f06a5ce9c0",
+      "text_hash": "eb00f9d41c4fded981391d3099dac18e4d6406a366f445949b0085664b33a590",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/tomdywanski?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALhj7UB6a8LSXDrCHqKyrTR9rHgxhg6VfI",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/045-51aaf44d76032252e716.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_a00aee5ae1f16cfd361b",
+      "text_hash": "02c8110ae488b73dc43c8db04cdfff3cd4d97058078bb72d662a81405f2f1456",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/tomdywanski?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALhj7UB6a8LSXDrCHqKyrTR9rHgxhg6VfI",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/046-0217528f38b6fce980bd.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_a00aee5ae1f16cfd361b",
+      "text_hash": "02c8110ae488b73dc43c8db04cdfff3cd4d97058078bb72d662a81405f2f1456",
+      "urn": "urn:li:activity:7470863808878604288"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/047-1c295149db93e821b55f.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0139b20c98246ba494e6",
+      "text_hash": "1c295149db93e821b55ff55a2fabdfefbfbb798dbfba128ef1ab594915294c1b",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/nithin-cherukumalli-7a478b21a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADdJyqwBRIwaHC5wZJVnC6a41WR2c_8kzzg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/048-7cff4ca650aaabf766fe.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6ef2ca60aee084261130",
+      "text_hash": "3029519ea10edd6cb07da2c3af2c3b4c5f828a976d17b3e864bbf1ad59c004e5",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/nithin-cherukumalli-7a478b21a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADdJyqwBRIwaHC5wZJVnC6a41WR2c_8kzzg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/049-71e52ca92f56a49c1567.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6ef2ca60aee084261130",
+      "text_hash": "3029519ea10edd6cb07da2c3af2c3b4c5f828a976d17b3e864bbf1ad59c004e5",
+      "urn": "urn:li:activity:7470861786649415680"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/050-5bc6e305fc9b678ba80e.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_b23f50badb3188dfa76f",
+      "text_hash": "5bc6e305fc9b678ba80e927768ac805dc91c3e66fac4151310ca93fde794d276",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/guglielmofonda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADOB7SwBDE2_6uYDyQlzNhdUuFGAmfssTqk",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/051-a225b11821fae89a9d78.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_06027667066f5a731b9b",
+      "text_hash": "96d5f80ddf3dbbfa91efddb7223d3168b7d3cb029e331ccc97df96c1ce291dc6",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/guglielmofonda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADOB7SwBDE2_6uYDyQlzNhdUuFGAmfssTqk",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/052-8be2bd2e14d8f52b2dda.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_06027667066f5a731b9b",
+      "text_hash": "96d5f80ddf3dbbfa91efddb7223d3168b7d3cb029e331ccc97df96c1ce291dc6",
+      "urn": "urn:li:activity:7470861389776224256"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/solo-founders/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/053-4871090bb314c182c16e.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_2301272924963436ac52",
+      "text_hash": "d8ef52deca4be3486bf0627aff4f759bbbfbaeee99a4e0819ed5b94e9126c589",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/yuchenmit?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABSvK4BqdSpSW7totInl_tKqBF67x8zIMA",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/054-063cbff2dea4908bf8e3.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_34fa9ec40540ba6d000b",
+      "text_hash": "52c7c6729fc22db95c25a2ac8fa9682485289fe0d43600a6b0a55ba085cece33",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/yuchenmit?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABSvK4BqdSpSW7totInl_tKqBF67x8zIMA",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/055-772792f0e204feebb022.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_34fa9ec40540ba6d000b",
+      "text_hash": "52c7c6729fc22db95c25a2ac8fa9682485289fe0d43600a6b0a55ba085cece33",
+      "urn": "urn:li:activity:7470857506651734016"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/056-1395bfc7294b200087aa.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_40772f5ddf5d714ec850",
+      "text_hash": "1395bfc7294b200087aa1f1dc669694d68252fb16753270b2fbde491b8463e3e",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/ayush-kumar-984443191?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC0X3bQB9VqhCnTNHzlxqT-1IKxiBVWI9F4",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/057-45711fadfc104f1fdcce.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f10a2c34361c575728e7",
+      "text_hash": "d77539c2c85abd8081f67b5f7467630f7a9b9a9ab7134cd76da3cc713238e62f",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/ayush-kumar-984443191?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC0X3bQB9VqhCnTNHzlxqT-1IKxiBVWI9F4",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/058-049c2864eb45c0b623b3.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f10a2c34361c575728e7",
+      "text_hash": "d77539c2c85abd8081f67b5f7467630f7a9b9a9ab7134cd76da3cc713238e62f",
+      "urn": "urn:li:activity:7470852846825934848"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/059-176cc53dcba43c3d0d33.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_ac95b7603be9a46581e4",
+      "text_hash": "176cc53dcba43c3d0d337528f5b0c65a2895c56401ef41a0e497374beac897f0",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/max-petrusenko-40574b4a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAApuxIUBwcVJTcvxRoVnE4A2MMzW27dOCos",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/060-40d4513777c84ebb0aa5.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e84f7a3dac6359890aa0",
+      "text_hash": "1cbd4d441e601277fcb2a0dec20a50cadbc0b32528b6601ce4647e85f53178d4",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/max-petrusenko-40574b4a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAApuxIUBwcVJTcvxRoVnE4A2MMzW27dOCos",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/061-dad8f9f3bd2c2a551e1c.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e84f7a3dac6359890aa0",
+      "text_hash": "1cbd4d441e601277fcb2a0dec20a50cadbc0b32528b6601ce4647e85f53178d4",
+      "urn": "urn:li:activity:7470852402758246402"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/062-b3ec52feeb947bbefcb9.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_183ea51ead01100ce1cc",
+      "text_hash": "b3ec52feeb947bbefcb9ce83f9f90b23d20f63715d0ecf5dabb0338f7a6a42c2",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/brilian-tafjira-nugraha?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABepYgABrT_7gXSINWLLvWKpyHIURjTAeBA",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/063-81a9f45bee6bc450d229.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6d35c96081ddd229af22",
+      "text_hash": "b76327c9957eac16cb1fe04750b27e95d8332339589785c2f0dc16dde0ea2132",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/brilian-tafjira-nugraha?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABepYgABrT_7gXSINWLLvWKpyHIURjTAeBA",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/064-d4b08d9a1621c0bf4acf.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6d35c96081ddd229af22",
+      "text_hash": "b76327c9957eac16cb1fe04750b27e95d8332339589785c2f0dc16dde0ea2132",
+      "urn": "urn:li:activity:7470850794867576834"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/065-3dd7c3b3257197236a53.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_584d20cc30dcdbfb771c",
+      "text_hash": "3dd7c3b3257197236a53409f1b666574c7f0c988723b5b129896113617aa2265",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/coreystrausman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAwSXvEB2AYb4GqW2f2jUpf778x4Bf9GrZ0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/066-f1e49ce0c97982930fe4.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_66599fe3327ec6f84c0c",
+      "text_hash": "1060c2d89b8c7ad88f965ad6246112d4898b29d3a22e33ffc7181e0d6e59c254",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/coreystrausman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAwSXvEB2AYb4GqW2f2jUpf778x4Bf9GrZ0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/067-2f3667100b8ddfac79d4.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_66599fe3327ec6f84c0c",
+      "text_hash": "1060c2d89b8c7ad88f965ad6246112d4898b29d3a22e33ffc7181e0d6e59c254",
+      "urn": "urn:li:activity:7470850120386015232"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/dineshraj-dhanapathy-25490058/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/068-8ebe8e55e47c045f06b5.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6f3c2eacf2bc5f00acdf",
+      "text_hash": "06ec8d96ac01efa73d97f14f422d2e408c572fb4bd830b1fc1865e32b0a350c2",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/michael-moor?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADIsDfEB094-lgGreBZuK-ssRcOMBixmyLA",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/069-084524889361fbb9de67.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_03c1b805c86d084898fa",
+      "text_hash": "817484db6185a7bf52e0588a5c4fcfa7838de0bda57993c5138f4b4874391e4a",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/michael-moor?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADIsDfEB094-lgGreBZuK-ssRcOMBixmyLA",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/070-9168f3ed12dcf91224aa.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_03c1b805c86d084898fa",
+      "text_hash": "817484db6185a7bf52e0588a5c4fcfa7838de0bda57993c5138f4b4874391e4a",
+      "urn": "urn:li:activity:7470849751819821056"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/xuan-allen-zhao/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/071-2061ec3012b6871a80b9.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_56eac73c9ec558c4f430",
+      "text_hash": "d07e43e3074604f0302575a27f5aee5d364ab282f048c763d2bbf2577af7ee11",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/aamir-kadri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAM9f4MBGPCPAeN-D8M37dV-NcPomqrZuL4",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/072-ec688a9905934fa7f868.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_050ee005868b0641834c",
+      "text_hash": "69c9b0b557704b4d1fd334c17e93a773da035197d9ca9603bab8164e461bf121",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/aamir-kadri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAM9f4MBGPCPAeN-D8M37dV-NcPomqrZuL4",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/073-177db0a9c877dc7a182d.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_050ee005868b0641834c",
+      "text_hash": "69c9b0b557704b4d1fd334c17e93a773da035197d9ca9603bab8164e461bf121",
+      "urn": "urn:li:activity:7470849089199333376"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/nicholasspisak/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/074-aac3a0c8cf8319283c85.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f809ef038fe49d2be65d",
+      "text_hash": "120985fe73e1b15a0072c0bbf37a9c9c171de24eec02a9efc9fc21f60bbbc944",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/thomaswiechert?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADxYE0BXW2SMLx6_b_3ylWYRvmYFITIMQk",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/075-eea59d243bbdf63a6579.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_740f7e065a3b5e58b612",
+      "text_hash": "2557ffb6913670be54bbaea41a5ad37b07821c21570c0b6af29673672cc3095a",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/thomaswiechert?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADxYE0BXW2SMLx6_b_3ylWYRvmYFITIMQk",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/076-44ba3033f809ad2dd82e.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_740f7e065a3b5e58b612",
+      "text_hash": "2557ffb6913670be54bbaea41a5ad37b07821c21570c0b6af29673672cc3095a",
+      "urn": "urn:li:activity:7470847478351818753"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/077-5ed45271dc1e4df5ee31.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0596247e69d3b6cce8d7",
+      "text_hash": "5ed45271dc1e4df5ee316a1fde90968bc89d1d62b2f362dc06976260973a0463",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/ervin-mu%C3%B1oz-ortiz-a547b9b0?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABeckaABkWPBvCL0-g-zMiYU4jgTthFsHeU",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/078-1561f039b63de5dde7c2.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_94d3b26abab1f8c61136",
+      "text_hash": "d9f7831fabca987c82a258354f4773006a0f69923b90c34e0718d776a634be52",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/ervin-mu%C3%B1oz-ortiz-a547b9b0?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABeckaABkWPBvCL0-g-zMiYU4jgTthFsHeU",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/079-3c6ff98fe45adfb5d03c.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_94d3b26abab1f8c61136",
+      "text_hash": "d9f7831fabca987c82a258354f4773006a0f69923b90c34e0718d776a634be52",
+      "urn": "urn:li:activity:7470846191044399104"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/080-d51d0b580fdc03f5f592.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_1848bacfad85b4fd20d9",
+      "text_hash": "d51d0b580fdc03f5f5925f9333a86635a486dbacfde70cc459da1e998fc68043",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/alexhvnsen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACIvgDsBfGDxuCzLrkAQnB27-Qto6kWbw_g",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/081-d3edf99938900a22b1e3.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6daeff2e4ae4cfcfade8",
+      "text_hash": "2e30a0fa5b0308c3016332ed6db032edf3e9819fc9fc753135a4400c4f744a52",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/alexhvnsen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACIvgDsBfGDxuCzLrkAQnB27-Qto6kWbw_g",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/082-987d390329929bb038cb.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6daeff2e4ae4cfcfade8",
+      "text_hash": "2e30a0fa5b0308c3016332ed6db032edf3e9819fc9fc753135a4400c4f744a52",
+      "urn": "urn:li:activity:7470844342262358016"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/083-cd7e6e0c0c2bfe74008a.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f9af5e9c44ccfa8273b8",
+      "text_hash": "cd7e6e0c0c2bfe74008ac836458dbe61219f16f01dea2f3f076908fa61038ea5",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/jasonblack?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAABbiYBZpLTMRibq44gcshk6bWlUx4-J2U",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/084-a1d13b78b085e1a94b74.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0a0017ab41a0ca9731e9",
+      "text_hash": "79b91295a19584bae2c901f5dd781ecf03cb9f935ceb06f7cf1d2dcd696df8b7",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/jasonblack?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAABbiYBZpLTMRibq44gcshk6bWlUx4-J2U",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/085-14379ede61ac27aa271e.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0a0017ab41a0ca9731e9",
+      "text_hash": "79b91295a19584bae2c901f5dd781ecf03cb9f935ceb06f7cf1d2dcd696df8b7",
+      "urn": "urn:li:activity:7470844226151497728"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/086-5b526f3147f93fd8edcb.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_b3a7ff23264a5ffea471",
+      "text_hash": "5b526f3147f93fd8edcbada79f60a97547f43035e2cedaf512bd33c0eda78c3b",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/thenextgentechinsider/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/087-ea799b944cb1d7a04ff0.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_32ced78f788a2f4b0ca7",
+      "text_hash": "25f86a8bafcc270c26e5cc001b50b10e13329d3056f346eee78051bf1296079e",
+      "urn": "urn:li:activity:7470843882499465216"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/088-1bd9c5e04eecfe9c0da0.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_875309d6897ead46165d",
+      "text_hash": "1bd9c5e04eecfe9c0da0b11ff75e3f3fbadd68df1a5e0ec0efb8412239c55ce0",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/milesfeinberg?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAOyXYB6Bp3bV7B-YdxF-TjPbh8_Q8XLk8",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/089-50414a67ecd4a6e67fa2.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_866f1e4008ce7d80c5fe",
+      "text_hash": "8db0d2c2e32658326c68c77b37d08514aed061656e3c756fa73401e139164b4f",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/milesfeinberg?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAOyXYB6Bp3bV7B-YdxF-TjPbh8_Q8XLk8",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/090-a0b49b8634def78c482e.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_866f1e4008ce7d80c5fe",
+      "text_hash": "8db0d2c2e32658326c68c77b37d08514aed061656e3c756fa73401e139164b4f",
+      "urn": "urn:li:activity:7470842112113164288"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/091-eaccdd7df13cb06b0823.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_88575cd1e487f412dce2",
+      "text_hash": "eaccdd7df13cb06b0823e90d225dff85724da367719888674cdc7f0e14ae9609",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/sandeepr33?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMVPUoBI7cgth6bsAeDrcQteCwvhWBOX_w",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/092-a68764292ace7dd2d82e.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_7c90da83292462177c47",
+      "text_hash": "9c54e2508615f86a4a63e3905b4f84c91cffaa8b55d16bd2bb403f1f1c3dde48",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/sandeepr33?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMVPUoBI7cgth6bsAeDrcQteCwvhWBOX_w",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/093-ba9cfb2bd0d209338bb4.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_7c90da83292462177c47",
+      "text_hash": "9c54e2508615f86a4a63e3905b4f84c91cffaa8b55d16bd2bb403f1f1c3dde48",
+      "urn": "urn:li:activity:7470841032163880960"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/094-ca464d979be53a93329a.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_dd8cbc0236a12fe329c5",
+      "text_hash": "ca464d979be53a93329a751c2d0de29e3650f148e0a3d4c2f287e8cdc2a6bce0",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/aldoignatachandra?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACN_U1EBxsz4QZTZ2dH2DUP9bguZNw14Qcc",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/095-6674044eee91d55d34ee.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_ad3b4348753069a09a6f",
+      "text_hash": "b1ec4db3023a397d2567670556ad1b78afc2cf565d79ec0f919005de1563b070",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/aldoignatachandra?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACN_U1EBxsz4QZTZ2dH2DUP9bguZNw14Qcc",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/096-09e22499678660017fd3.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_ad3b4348753069a09a6f",
+      "text_hash": "b1ec4db3023a397d2567670556ad1b78afc2cf565d79ec0f919005de1563b070",
+      "urn": "urn:li:activity:7470837529429188609"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/097-af541d46d2dc2077321d.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_3797d638573bb7907300",
+      "text_hash": "af541d46d2dc2077321d1fb6220e969a7850d2b2412a474c9d920a293090aea2",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/schematical?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGkZwIBxfR6CFHZmsfX1u_MHeYBbvefSVg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/098-be37a8fee3073c08f944.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_68277970039ef6271227",
+      "text_hash": "cde8a5e52633acae2b57bcf0b0e720e26f8713d7bce55fab5153da7de5ffef0f",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/schematical?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGkZwIBxfR6CFHZmsfX1u_MHeYBbvefSVg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/099-169d7593d40e7012b025.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_68277970039ef6271227",
+      "text_hash": "cde8a5e52633acae2b57bcf0b0e720e26f8713d7bce55fab5153da7de5ffef0f",
+      "urn": "urn:li:activity:7470837266735644673"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/100-3754e32235e6ddf191ac.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_55aa24ea585fcc71a73c",
+      "text_hash": "3754e32235e6ddf191ac337bb201f4d32afb004ce487cf56d0917a5891b8a1eb",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/thenextgentechinsider/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/101-f9bdb5a8c1633a69862b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_4b5cfb3d9e8670d257b8",
+      "text_hash": "7b30ad0f7ab652762fe9e7ff3109a6b08eccb16c89bc84373e885a803d431b0a",
+      "urn": "urn:li:activity:7470843953764888576"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/102-d2801bcd908ed5436d1b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_5ccab231a5a86f71a9d1",
+      "text_hash": "d2801bcd908ed5436d1bd241210a3c805f4edf7fb3e1004ec0aa8d63b6c02d2f",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/kevin-khoa-mai-91777842?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAkDJiMBzIEPr3Cw2F8Qk6j5-4kERrkurtg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/103-9748863fbf87385c9d2b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6016895d85619ab4c83c",
+      "text_hash": "82b5d73c879508c2d66c797b2975a8e1977f5f4fd1323694cffe6ef9517ed161",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/kevin-khoa-mai-91777842?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAkDJiMBzIEPr3Cw2F8Qk6j5-4kERrkurtg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/104-2eea823bd21ab3c3f7df.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_6016895d85619ab4c83c",
+      "text_hash": "82b5d73c879508c2d66c797b2975a8e1977f5f4fd1323694cffe6ef9517ed161",
+      "urn": "urn:li:activity:7470836836026830848"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/105-5876a6382ee8dd4dffae.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_8f572a393c1938d1c56b",
+      "text_hash": "5876a6382ee8dd4dffaea724a7949d1c0bff063133f4e4bac8b047396cc423b8",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/cedric-seguela-18b61b226?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADiwRDsB2IXCLa4nD9agOf4A4NJsaqun2g0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/106-8c1423abe729acd777b5.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_2b4c7c27e76bb0336a54",
+      "text_hash": "8fdbaa0382b19de4c150230d927ae602c2046ab44ea45afba5c6da77aa6a6e04",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/cedric-seguela-18b61b226?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADiwRDsB2IXCLa4nD9agOf4A4NJsaqun2g0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/107-61ffebd0ff75b6bacc9d.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_2b4c7c27e76bb0336a54",
+      "text_hash": "8fdbaa0382b19de4c150230d927ae602c2046ab44ea45afba5c6da77aa6a6e04",
+      "urn": "urn:li:activity:7470835501818744833"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/108-7df6d82d7efd325d565b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_a44ec4156681f9f6595b",
+      "text_hash": "7df6d82d7efd325d565bf354d0ae19a330fda75bc972ec097afad3c2b641ec2e",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/109-aab8a46491da0ceac194.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_73ffea1b9c1824bf9c7d",
+      "text_hash": "b18df8b2baf524842bc23b3293397d0fa742f15ac9038982c74f8dc9df9be46d",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/110-3863253e5310527b1aee.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_73ffea1b9c1824bf9c7d",
+      "text_hash": "b18df8b2baf524842bc23b3293397d0fa742f15ac9038982c74f8dc9df9be46d",
+      "urn": "urn:li:activity:7470833993223925761"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/111-b96e610ed47b04410d76.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_dc90704dea68e5e4628e",
+      "text_hash": "b96e610ed47b04410d765489f830ca98bd3c7e9fb9b4abf77623f71302bcf78d",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/jordan-newby-7287873a6?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGNtL1ABqRdQuGN9gyMcYpI2N820snT_kXQ",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/112-94097a7ec0c435d527e3.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_bebbd1e611b5010f192d",
+      "text_hash": "3504aa675fdbc08a637b430fefe9c24044283a250c8c56e45ba87e703171f87c",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/jordan-newby-7287873a6?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGNtL1ABqRdQuGN9gyMcYpI2N820snT_kXQ",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/113-57638b898288fd604fe0.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_bebbd1e611b5010f192d",
+      "text_hash": "3504aa675fdbc08a637b430fefe9c24044283a250c8c56e45ba87e703171f87c",
+      "urn": "urn:li:activity:7470833479195488257"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/114-bc52fc1b0415b237d609.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_f40bb9e713cd23d97309",
+      "text_hash": "bc52fc1b0415b237d609124ca074623fd1967d8aa290b6bbd2de8adcd347e64e",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/danialalias?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACPfdV0B5Azwjm-WhLBv-w1iPct2IKC0FoU",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/115-7d69cf1c441aaa4550bd.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_723487ac12220e3eda80",
+      "text_hash": "6e2c3895496b711dfb02343f64d18311f7b8df8f5dae3100bdb2816eebd9e16f",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/danialalias?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACPfdV0B5Azwjm-WhLBv-w1iPct2IKC0FoU",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/116-c73d21ae30bb6cd6ed95.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_723487ac12220e3eda80",
+      "text_hash": "6e2c3895496b711dfb02343f64d18311f7b8df8f5dae3100bdb2816eebd9e16f",
+      "urn": "urn:li:activity:7470833372353986560"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/117-a090dd09365780fed952.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_7e7d5a495b6eb4eeef79",
+      "text_hash": "a090dd09365780fed952e7b28875571cd0b6ced1fa2392b3267a576607198b0f",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/kaushik-joshi-95653027b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEQ-ZFIBHhRJUtEUhdKnTBdUxHx5KD2IoWg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/118-fbb469a233fbf6777554.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0558fa944445b337adfc",
+      "text_hash": "5905377f75431e6ab23d832b01ed6b6a569123451e15a72f9b12b549e188d448",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/kaushik-joshi-95653027b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEQ-ZFIBHhRJUtEUhdKnTBdUxHx5KD2IoWg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/119-85738780880737cee215.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0558fa944445b337adfc",
+      "text_hash": "5905377f75431e6ab23d832b01ed6b6a569123451e15a72f9b12b549e188d448",
+      "urn": "urn:li:activity:7470833018773954560"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/120-970dc61a570b165e70cc.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_ef61518a679d84d39eb8",
+      "text_hash": "970dc61a570b165e70cc233e831f0062cee6bd17cab2b2dc521873df19b56af0",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/chris-davis-9149563aa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGQqDqAB_-nBV7EwzAbLFjierSioDkrhJ0M",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/121-1db3d2ff2956768b6dee.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_8a37a7051f1f0169b657",
+      "text_hash": "59f9a27d870a94f9e828d29beeac9ff6f6481f1186d7ef1b3275ffb79c69e0b7",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/chris-davis-9149563aa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGQqDqAB_-nBV7EwzAbLFjierSioDkrhJ0M",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/122-ecacee06b1b35de48ac8.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_8a37a7051f1f0169b657",
+      "text_hash": "59f9a27d870a94f9e828d29beeac9ff6f6481f1186d7ef1b3275ffb79c69e0b7",
+      "urn": "urn:li:activity:7470832676011401216"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/123-96e99c3e9704371738ac.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_9176d82dfb767dff5b64",
+      "text_hash": "96e99c3e9704371738acd47dd75e520058b662d5504158a07ea47717c244c4dc",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/kalinga-ai/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/124-c3b93e7d57f9f24414ae.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_2a6ada1e8269c6722be2",
+      "text_hash": "c4cfd1b2b96041618468c5abab3121d388af5f8cde165587f60a23f3b8552c62",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/company/kalinga-ai/posts",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/125-c166b171413ff8912449.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_2a6ada1e8269c6722be2",
+      "text_hash": "c4cfd1b2b96041618468c5abab3121d388af5f8cde165587f60a23f3b8552c62",
+      "urn": "urn:li:activity:7470832213497143296"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/126-431eab5f7dd803e4bcbf.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_0d2ed207c7835dbebb72",
+      "text_hash": "431eab5f7dd803e4bcbfa7d7f017fd98637c85429b207e2de391e62260e81938",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/mohammad-alikhani1991?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAOeCIBtgpkj4J6fyA4Q5l7VCyMbX2Kihg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/127-6ffb3370d832a8ed8c85.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_28ec58275225673fc18f",
+      "text_hash": "fa06bf789cb62183cf6a6c86edd1cbed001dedba285c87ec6a723ef124637d7b",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/mohammad-alikhani1991?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAOeCIBtgpkj4J6fyA4Q5l7VCyMbX2Kihg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/128-bc938630de1d4904de1b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_28ec58275225673fc18f",
+      "text_hash": "fa06bf789cb62183cf6a6c86edd1cbed001dedba285c87ec6a723ef124637d7b",
+      "urn": "urn:li:activity:7470831665825689601"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/yoni-atteia-5b82402b7?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEwID1wBTKe_r9It1HXs4UnPIMoj_K8D_G0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/129-f436769d33cb63117084.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_bb7326ca1afce40032f6",
+      "text_hash": "9629d21827662b7edbbce571d178cc4dede992b9fde955711bf6c5370f032b39",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/yoni-atteia-5b82402b7?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEwID1wBTKe_r9It1HXs4UnPIMoj_K8D_G0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/130-258b4be16c56754adb2a.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_bb7326ca1afce40032f6",
+      "text_hash": "9629d21827662b7edbbce571d178cc4dede992b9fde955711bf6c5370f032b39",
+      "urn": "urn:li:activity:7470831417799802880"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/131-151cb30df8f098a7a953.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e37edbc66be3c8c8688f",
+      "text_hash": "151cb30df8f098a7a953aec0ffc3956ed48b5abaec6e703651ded10b21c47c54",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/guil-meira?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABHB0vUBSKVsGLbYxVRPF1cvbdwxOBYgRRY",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/132-4b4021d74dcd6ab0fe1d.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_c4289924cfbdea6590e7",
+      "text_hash": "e041a054e56adedcee1a0fbb8aae168985e8517cae3491c049328ecd9d369e92",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/guil-meira?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABHB0vUBSKVsGLbYxVRPF1cvbdwxOBYgRRY",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/133-1da41abeb3348d234d45.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_c4289924cfbdea6590e7",
+      "text_hash": "e041a054e56adedcee1a0fbb8aae168985e8517cae3491c049328ecd9d369e92",
+      "urn": "urn:li:activity:7470830739803189248"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/134-20459885543bb9ec5c94.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_51ea56b8792bd57b02ed",
+      "text_hash": "20459885543bb9ec5c943535281add54e2811f59a6c1d59318ce3e01a5e1e342",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/gustavocaetano?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAATv6IB1CL_yyRsINN73DXyuWVIyF67bP0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/135-42f0b1efd72a9eed2211.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_dcf59479caa40d55c296",
+      "text_hash": "2c07ea9c2c28a16676990d526c5257c0b85e2d605fff70896e7e4b5da2ed9d64",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/gustavocaetano?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAATv6IB1CL_yyRsINN73DXyuWVIyF67bP0",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/136-96635b83f6ba65b65de3.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_dcf59479caa40d55c296",
+      "text_hash": "2c07ea9c2c28a16676990d526c5257c0b85e2d605fff70896e7e4b5da2ed9d64",
+      "urn": "urn:li:activity:7470830076339572736"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/137-9777f46a31d99bca74c3.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_a0610c964dde5e7f9269",
+      "text_hash": "9777f46a31d99bca74c329553315dbc9c3183df79d36ccb9951b023d488f7485",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/amitagrawal8cis?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEWgo8BFQTceLqLkQ1F2TRkxg6LUkycbLk",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/138-e069bd3c72b4076cb576.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e97c2930e2a9a76b4c1e",
+      "text_hash": "3709f02a3e12d35b3701f1ddff8b023e578d3de1967185dbf1d09d51bf26ae79",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/amitagrawal8cis?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEWgo8BFQTceLqLkQ1F2TRkxg6LUkycbLk",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/139-58680ba1cbc282f43c50.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e97c2930e2a9a76b4c1e",
+      "text_hash": "3709f02a3e12d35b3701f1ddff8b023e578d3de1967185dbf1d09d51bf26ae79",
+      "urn": "urn:li:activity:7470829898056622081"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/140-8574adb6b153f69d3c2b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_90b1bb80ba3f74afdff1",
+      "text_hash": "8574adb6b153f69d3c2bf0e84caa90f5f1c4e62962d1b35afe6376ee0e05442a",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/chiranjeevgaggar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABw9dscBnBckaHVyKdswag0813HcaJ_eLBk",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/141-cdaa8b917e02d8a6ab44.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_5ee14fbe5565454963c6",
+      "text_hash": "458a1366690a4a9406b5d31725c730fac9bf1d0d49bd4ad4e5c0303ce59ac97c",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/chiranjeevgaggar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABw9dscBnBckaHVyKdswag0813HcaJ_eLBk",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/142-299f4ff5f654f8411488.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_5ee14fbe5565454963c6",
+      "text_hash": "458a1366690a4a9406b5d31725c730fac9bf1d0d49bd4ad4e5c0303ce59ac97c",
+      "urn": "urn:li:activity:7470826089448112129"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/chiranjeevgaggar/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/143-f03c01cdfcfebfcc8b4d.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_5cec6119ce8edbfb9ec3",
+      "text_hash": "9a9df1d3f6c6223fe56d464c1edf221789b0a38ff33dd03c1122a32add86f734",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/drurly?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAF3OMkBiIGR4Tpnd_MbKUK1GhUPx9yXMAg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/144-7785705cff9e0ce8be03.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_a00e38e2a4cfebebdaeb",
+      "text_hash": "932092da151e798793ebdac5e15c64a6c8b1cbbcad8dd59c11783481687a1e1e",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/drurly?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAF3OMkBiIGR4Tpnd_MbKUK1GhUPx9yXMAg",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/145-4bddcd4bba2e8ae756b1.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_a00e38e2a4cfebebdaeb",
+      "text_hash": "932092da151e798793ebdac5e15c64a6c8b1cbbcad8dd59c11783481687a1e1e",
+      "urn": "urn:li:activity:7470821901330997248"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/146-1e63ab421c3e8d37eb2d.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e7b3d74796ec59784a57",
+      "text_hash": "1e63ab421c3e8d37eb2d18101889d96031dda2118cd40b66965974965132d24e",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/rohituttamchandani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt5qoEBRXbapMzKLkbjuYG0cS_7llAmbW4",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/147-da9d89fef64cb316b17b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_876bb22e9aceea0139f9",
+      "text_hash": "ab991b939ed39535b4f3152efb30bf956e70fa9f9d46f4667314ed85360109fb",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/rohituttamchandani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt5qoEBRXbapMzKLkbjuYG0cS_7llAmbW4",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/148-99d862f652c6c71b1152.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_876bb22e9aceea0139f9",
+      "text_hash": "ab991b939ed39535b4f3152efb30bf956e70fa9f9d46f4667314ed85360109fb",
+      "urn": "urn:li:activity:7470821124709306368"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/149-678e8cdaf27291a048b8.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_057f7acab7204b3cdd49",
+      "text_hash": "678e8cdaf27291a048b87f93b8ff503e9c071d77efd07584b3116befb6cb8329",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/mayurakshi-paul-416882207?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADSh59IB1tB_wnVuC1P6WbGjU_HHUx1GsV4",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/150-af507501e2ef834b0b9b.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_640ea7499f8de49c0be0",
+      "text_hash": "cce64135e52f4666d68414c82a1c116208045eb0bffb06efd57f523311271065",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/mayurakshi-paul-416882207?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADSh59IB1tB_wnVuC1P6WbGjU_HHUx1GsV4",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/151-be888b3c57c540567e5a.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_640ea7499f8de49c0be0",
+      "text_hash": "cce64135e52f4666d68414c82a1c116208045eb0bffb06efd57f523311271065",
+      "urn": "urn:li:activity:7470820821016543233"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/152-706dced1fd2dccee2592.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_95232b23db79a56b2e5a",
+      "text_hash": "706dced1fd2dccee2592e0b9c28d353ffed47b79158b8fb65c0e1ded0c0dd679",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/bindusunil?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAKBxWIBKOHbHBHBSTXikh5FmoC69IzbMj8",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/153-626cf0ddc9cde0e0dead.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e830ae6e8f8c6daa794c",
+      "text_hash": "a6a0b19d1230127d3ffa17fa87759ce1e200af41404e36843b141ce5e3f3f693",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/bindusunil?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAKBxWIBKOHbHBHBSTXikh5FmoC69IzbMj8",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/154-e587808c3e94366db7e9.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_e830ae6e8f8c6daa794c",
+      "text_hash": "a6a0b19d1230127d3ffa17fa87759ce1e200af41404e36843b141ce5e3f3f693",
+      "urn": "urn:li:activity:7470816739392520192"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/guruprasanna-marimuthu/",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/155-1b76b834379725e635e9.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_4333dd5472ccef4fb37e",
+      "text_hash": "3706732f46538b640f3b77ec8adce0b5b52afc141b9011128d412bbd60a91125",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/deanfiacco?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAX0xs4BudVJ96C77q2knD5gpr1jzu6Dl0c",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/156-5638ad2fdba4a17461d9.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_387a99a18ec0accc4bf9",
+      "text_hash": "6257b0a5cabf397fd2acac70169f80cda2eb5253b7af3319e73cd469d4bf1b38",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/deanfiacco?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAX0xs4BudVJ96C77q2knD5gpr1jzu6Dl0c",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/157-58e302d2aecff07fd27c.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_387a99a18ec0accc4bf9",
+      "text_hash": "6257b0a5cabf397fd2acac70169f80cda2eb5253b7af3319e73cd469d4bf1b38",
+      "urn": "urn:li:activity:7470814638243385344"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/158-61af7471463e9c6d54ad.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_3076f26a946b0fe18bd4",
+      "text_hash": "61af7471463e9c6d54adfafc5cb97a28661e2526f204495ca6f671b3a58f786c",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/raphaelrishithaddeosawali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD4yYQIBbTVTKbqIX4ofsRDmi1B2xGgP7GU",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/159-5984f97c396cdf89b93c.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_dfc116250d23328c46a5",
+      "text_hash": "afcb558ab37df95ff0ce2499702cc3c300b6a7648403b0994ecd951c8ea24a47",
+      "urn": ""
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "https://www.linkedin.com/in/raphaelrishithaddeosawali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD4yYQIBbTVTKbqIX4ofsRDmi1B2xGgP7GU",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/160-4e6818fa57909a5ab100.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_dfc116250d23328c46a5",
+      "text_hash": "afcb558ab37df95ff0ce2499702cc3c300b6a7648403b0994ecd951c8ea24a47",
+      "urn": "urn:li:activity:7470812346970619904"
+    },
+    {
+      "captured_at": "2026-06-11T17:33:47Z",
+      "href": "",
+      "markdown_path": "linkedin/manual-20260611T173313Z/hermes-agent/161-4b94c886669c0567dab9.md",
+      "query": "\"Hermes Agent\"",
+      "source_id": "src_5b79ced16abf33d04e87",
+      "text_hash": "4b94c886669c0567dab93ebd478cf582654ffb2c374d23a827a8b9c8d0936232",
+      "urn": ""
+    }
+  ],
+  "limitation": "Authenticated LinkedIn search-results page only; posts/profiles/comments were not opened.",
+  "query": "\"Hermes Agent\"",
+  "result_count": 161,
+  "url": "https://www.linkedin.com/search/results/content/?datePosted=%5B%22past-24h%22%5D&keywords=%22Hermes+Agent%22&origin=FACETED_SEARCH&sortBy=%5B%22date_posted%22%5D"
+}

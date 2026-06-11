@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-06-11T17:33:13Z",
+  "content_hash": "00d6649b4225eb52326bde0202e8e17f5ee31fdffce1f10c207468191d777eec",
+  "content_type": "text/html",
+  "description": "Hermes Agent is <strong>an open-source agent framework from Nous Research</strong> that works with any OpenAI-compatible provider — Nous Portal, OpenRouter, Anthropic, GitHub Copilot, z.ai, Kimi, MiniMax, DeepSeek, Hugging Face, Google, or your own self-hosted ...",
+  "http_status": 200,
+  "markdown_path": "web/manual-20260611T173313Z/hermes-agent-nous-research/06-hermes-agent-v0-16-reference-surface-release-desktop-app-adm.md",
+  "query": "\"Hermes Agent\" \"Nous Research\"",
+  "title": "Hermes Agent v0.16 Reference: Surface Release + Desktop App + Admin Panel",
+  "url": "https://blakecrosley.com/guides/hermes"
+}

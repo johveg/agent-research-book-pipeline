@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-06-11T17:33:28Z",
+  "content_hash": "616cbd12604b179e4b211beb4844a0b814053e2d6aa3bb533be71aec7bf5e7e4",
+  "content_type": "text/html",
+  "description": "So is a nightly triage agent that builds on yesterday’s findings in the same thread. So is a monitoring loop that fires every fifteen minutes and escalates only when state changes. The sandbox tweet is not about chat UIs. It is about giving each iteration of the loop a safe place to *work* — which is the prerequisite for unattended operation. Grok and Claude Code are the fastest path for developer loops, loops owned by one engineer, scoped to repos they already work in, with a human nearby.",
+  "http_status": 200,
+  "markdown_path": "web/manual-20260611T173313Z/loop-engineering-ai-agents/07-loop-engineering-playbook-where-loops-live-how-to-run-your-f.md",
+  "query": "\"loop engineering\" AI agents",
+  "title": "Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium",
+  "url": "https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8"
+}

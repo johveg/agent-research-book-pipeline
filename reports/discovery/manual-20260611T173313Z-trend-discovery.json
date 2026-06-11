@@ -1,0 +1,156 @@
+{
+  "candidates": [
+    {
+      "count": 2379,
+      "term": "hashtag",
+      "term_type": "word"
+    },
+    {
+      "count": 1319,
+      "term": "urn",
+      "term_type": "word"
+    },
+    {
+      "count": 918,
+      "term": "search",
+      "term_type": "word"
+    },
+    {
+      "count": 868,
+      "term": "https",
+      "term_type": "word"
+    },
+    {
+      "count": 841,
+      "term": "like",
+      "term_type": "word"
+    },
+    {
+      "count": 823,
+      "term": "text",
+      "term_type": "word"
+    },
+    {
+      "count": 794,
+      "term": "url",
+      "term_type": "word"
+    },
+    {
+      "count": 782,
+      "term": "result",
+      "term_type": "word"
+    },
+    {
+      "count": 751,
+      "term": "query",
+      "term_type": "word"
+    },
+    {
+      "count": 736,
+      "term": "captured",
+      "term_type": "word"
+    },
+    {
+      "count": 734,
+      "term": "captured t17",
+      "term_type": "phrase"
+    },
+    {
+      "count": 734,
+      "term": "t17",
+      "term_type": "word"
+    },
+    {
+      "count": 720,
+      "term": "model",
+      "term_type": "word"
+    },
+    {
+      "count": 701,
+      "term": "visible",
+      "term_type": "word"
+    },
+    {
+      "count": 684,
+      "term": "captured t17 url",
+      "term_type": "phrase"
+    },
+    {
+      "count": 684,
+      "term": "query captured",
+      "term_type": "phrase"
+    },
+    {
+      "count": 684,
+      "term": "query captured t17",
+      "term_type": "phrase"
+    },
+    {
+      "count": 684,
+      "term": "result query",
+      "term_type": "phrase"
+    },
+    {
+      "count": 684,
+      "term": "result query captured",
+      "term_type": "phrase"
+    },
+    {
+      "count": 684,
+      "term": "search result",
+      "term_type": "phrase"
+    },
+    {
+      "count": 684,
+      "term": "search result query",
+      "term_type": "phrase"
+    },
+    {
+      "count": 684,
+      "term": "t17 url",
+      "term_type": "phrase"
+    },
+    {
+      "count": 684,
+      "term": "visible text",
+      "term_type": "phrase"
+    },
+    {
+      "count": 643,
+      "term": "one",
+      "term_type": "word"
+    },
+    {
+      "count": 575,
+      "term": "code",
+      "term_type": "word"
+    },
+    {
+      "count": 573,
+      "term": "claude",
+      "term_type": "word"
+    },
+    {
+      "count": 546,
+      "term": "url https",
+      "term_type": "phrase"
+    },
+    {
+      "count": 545,
+      "term": "post",
+      "term_type": "word"
+    },
+    {
+      "count": 531,
+      "term": "comment",
+      "term_type": "word"
+    },
+    {
+      "count": 521,
+      "term": "view",
+      "term_type": "word"
+    }
+  ],
+  "generated_at": "2026-06-11T17:47:01Z",
+  "run_id": "manual-20260611T173313Z"
+}

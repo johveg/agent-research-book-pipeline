@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-06-11T17:33:43Z",
+  "content_hash": "423b2243e3f6a40ca2fe210ad8e36e9dabf27a19f381d6b9e33c13aecf36d731",
+  "content_type": "text/html",
+  "description": "The key differences: Hermes writes and saves its own skills automatically as a core behavior (OpenClaw&#x27;s skill system centers on a community marketplace); Hermes is more stable across updates (OpenClaw has documented release regressions and ClawHub has had security incidents involving malicious skills); and Hermes runs natively in the Python ecosystem.",
+  "http_status": 200,
+  "markdown_path": "web/manual-20260611T173313Z/hermes-openclaw/08-hermes-webui-hermes-agent-workspaces-guis-hermes-atlas.md",
+  "query": "\"Hermes\" \"OpenClaw\"",
+  "title": "hermes-webui — Hermes Agent Workspaces & GUIs | Hermes Atlas",
+  "url": "https://hermesatlas.com/projects/nesquena/hermes-webui"
+}

@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-06-11T17:33:36Z",
+  "content_hash": "d1cf4e7ff6d3617438c08390ce40760248ce0d03dbc920034132166f8130f90b",
+  "content_type": "text/html",
+  "description": "The agent runs until the goal is met – no prompting required. Loop engineering is said to be <strong>the practice of designing those loops: specifying goals, setting triggers, and building the guardrails that keep them from running forever</strong>.",
+  "http_status": 200,
+  "markdown_path": "web/manual-20260611T173313Z/loop-engineer-ai/05-agentic-loops-from-react-to-loop-engineering-2026-guide.md",
+  "query": "\"loop engineer\" AI",
+  "title": "Agentic Loops: From ReAct to Loop Engineering (2026 Guide)",
+  "url": "https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/"
+}

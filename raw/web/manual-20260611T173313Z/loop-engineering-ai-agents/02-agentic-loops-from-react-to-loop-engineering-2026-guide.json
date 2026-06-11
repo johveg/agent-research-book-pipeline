@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-06-11T17:33:28Z",
+  "content_hash": "d1cf4e7ff6d3617438c08390ce40760248ce0d03dbc920034132166f8130f90b",
+  "content_type": "text/html",
+  "description": "The developers getting ahead now are not writing better prompts. They are learning loop engineering. What is an agentic loop? An agentic loop is <strong>an AI agent running cycle that has a trigger and a verifiable goal</strong>.",
+  "http_status": 200,
+  "markdown_path": "web/manual-20260611T173313Z/loop-engineering-ai-agents/02-agentic-loops-from-react-to-loop-engineering-2026-guide.md",
+  "query": "\"loop engineering\" AI agents",
+  "title": "Agentic Loops: From ReAct to Loop Engineering (2026 Guide)",
+  "url": "https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/"
+}

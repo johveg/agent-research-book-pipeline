@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-06-11T17:33:21Z",
+  "content_hash": "1749fca2661a0304535595cbe01c668ea3e58fee6e1223449c855134528be4b1",
+  "content_type": "text/html",
+  "description": "Hermes Agent: a self-hosted, persistent AI agent built around self-improvement and reusable skills. OpenClaw: <strong>a control-plane-first personal agent built around file-backed identity, explicit memory, and human-authored skills</strong>.",
+  "http_status": 200,
+  "markdown_path": "web/manual-20260611T173313Z/openclaw-hermes/01-ai-101-hermes-vs-openclaw-local-ai-agents-compared.md",
+  "query": "\"OpenClaw\" Hermes",
+  "title": "AI 101:Hermes vs OpenClaw: Local AI Agents Compared",
+  "url": "https://www.turingpost.com/p/hermes"
+}

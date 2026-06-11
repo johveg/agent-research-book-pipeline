@@ -1,0 +1,159 @@
+#!/usr/bin/env python3
+"""Book role publication gate and report.
+
+The Book role checks structure, navigation, formatting, build integrity, link/report reachability,
+unsafe staged files, and publication safety. It does not decide whether claims are true.
+"""
+from __future__ import annotations
+
+import json
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+import yaml
+
+from research_common import DOCS, ROOT
+
+UNSAFE_PATTERNS = re.compile(r"(^|/)(raw|logs|\.var|vector_db|site|\.env|cookies?|tokens?|secrets?|sessions?|browser|profile)(/|$)|\.(sqlite|db|wal|shm)$", re.I)
+CLAIM_REF = re.compile(r"`(claim_[a-f0-9]{20}|src_[a-f0-9]{20})`")
+
+
+def run(cmd: list[str]) -> dict:
+    p = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True)
+    return {"cmd": cmd, "returncode": p.returncode, "stdout": p.stdout, "stderr": p.stderr}
+
+
+def nav_files(nav) -> list[str]:
+    out=[]
+    def walk(x):
+        if isinstance(x, str):
+            out.append(x)
+        elif isinstance(x, list):
+            for item in x: walk(item)
+        elif isinstance(x, dict):
+            for v in x.values(): walk(v)
+    walk(nav)
+    return out
+
+
+def markdown_links(path: Path) -> list[tuple[str, str]]:
+    text=path.read_text(encoding="utf-8", errors="ignore")
+    links=[]
+    for m in re.finditer(r"\[[^\]]+\]\(([^)]+)\)", text):
+        target=m.group(1).strip()
+        if target.startswith(("http://","https://","mailto:","#")):
+            continue
+        if target.startswith("<") and target.endswith(">"):
+            target=target[1:-1]
+        target=target.split("#",1)[0]
+        if not target:
+            continue
+        links.append((str(path.relative_to(ROOT)), target))
+    return links
+
+
+def chapter_has_bad_update(path: Path) -> str | None:
+    text=path.read_text(encoding="utf-8", errors="ignore")
+    if "No supported or high-confidence claims" in text:
+        return None
+    # If a chapter uses bullet claims, require explicit claim/source IDs.
+    claimish=[ln for ln in text.splitlines() if ln.startswith("- ") and not ln.startswith("- [")]
+    if claimish and not CLAIM_REF.search(text):
+        return "chapter has claim-like bullets without claim/source IDs"
+    if "linkedin" in text.lower() and "aggregate signal" not in text.lower() and "claim_" not in text and "src_" not in text:
+        return "chapter mentions LinkedIn/social material without explicit caveat or IDs"
+    return None
+
+
+def main() -> int:
+    errors=[]; warnings=[]
+    files_changed=run(["git","status","--short"])["stdout"].splitlines()
+
+    mkdocs_path=ROOT/"mkdocs.yml"
+    cfg=yaml.safe_load(mkdocs_path.read_text())
+    nav=cfg.get("nav", [])
+    nav_paths=nav_files(nav)
+    nav_missing=[]
+    for rel in nav_paths:
+        if not (DOCS/rel).exists():
+            nav_missing.append(rel)
+    if nav_missing:
+        errors.append("nav points to missing docs pages: " + ", ".join(nav_missing))
+
+    # Required operations docs.
+    for rel in ["operations/book-role-instruction.md", "operations/master-editorial-system.md", "operations/roles.md"]:
+        if not (DOCS/rel).exists():
+            errors.append(f"missing required operations page: {rel}")
+
+    # Internal links.
+    broken=[]
+    for md in DOCS.rglob("*.md"):
+        for src,target in markdown_links(md):
+            resolved=(md.parent/target).resolve()
+            try:
+                resolved.relative_to(DOCS.resolve())
+            except ValueError:
+                broken.append(f"{src} -> outside docs tree: {target}")
+                continue
+            if not resolved.exists():
+                broken.append(f"{src} -> missing: {target}")
+    if broken:
+        errors.append("broken internal links: " + "; ".join(broken[:25]))
+
+    # Report index reachability. It may point to local reports as code text, but reports/index itself must exist.
+    report_index=DOCS/"reports/index.md"
+    if not report_index.exists():
+        errors.append("missing docs/reports/index.md")
+    else:
+        report_text=report_index.read_text(encoding="utf-8", errors="ignore")
+        if "Daily Reports" not in report_text:
+            warnings.append("docs/reports/index.md exists but lacks Daily Reports heading")
+
+    # Chapter placeholders are allowed only when explicitly not ready.
+    for ch in (DOCS/"book").glob("*.md"):
+        text=ch.read_text(encoding="utf-8", errors="ignore")
+        body=[ln.strip() for ln in text.splitlines() if ln.strip() and not ln.startswith("#")]
+        if len(body) < 3 and "not yet ready" not in text.lower() and "No supported or high-confidence claims" not in text:
+            errors.append(f"chapter appears placeholder-only without explicit not-ready marker: {ch.relative_to(DOCS)}")
+        bad=chapter_has_bad_update(ch)
+        if bad:
+            errors.append(f"{ch.relative_to(DOCS)}: {bad}")
+
+    # Unsafe staged/tracked publication paths.
+    staged=run(["git","diff","--cached","--name-only"])["stdout"].splitlines()
+    changed_paths=[line[3:] for line in files_changed if len(line)>=4]
+    unsafe_staged=[p for p in staged if UNSAFE_PATTERNS.search(p) and p != "raw/.gitkeep"]
+    unsafe_changed=[p for p in changed_paths if UNSAFE_PATTERNS.search(p) and p != "raw/.gitkeep"]
+    if unsafe_staged:
+        errors.append("unsafe staged files: " + ", ".join(unsafe_staged[:20]))
+    if unsafe_changed:
+        warnings.append("unsafe-looking changed files not necessarily staged: " + ", ".join(unsafe_changed[:20]))
+    raw_tracked=[p for p in run(["git","ls-files","raw"])["stdout"].splitlines() if p != "raw/.gitkeep"]
+    if raw_tracked:
+        errors.append("raw source captures are tracked: " + ", ".join(raw_tracked[:20]))
+
+    build=run([sys.executable,"-m","mkdocs","build","--strict"])
+    build_result={"returncode": build["returncode"], "stdout_tail": build["stdout"][-2000:], "stderr_tail": build["stderr"][-4000:]}
+    if build["returncode"] != 0:
+        errors.append("mkdocs build --strict failed")
+
+    payload={
+        "role": "Book",
+        "files_changed": files_changed,
+        "navigation_changes": [line for line in run(["git","diff","--","mkdocs.yml"])["stdout"].splitlines() if line.startswith(("+","-")) and not line.startswith(("+++","---"))],
+        "build_result": build_result,
+        "link_report_status": "ok" if not broken and not nav_missing and report_index.exists() else "error",
+        "unsafe_file_check": {"unsafe_staged": unsafe_staged, "raw_tracked": raw_tracked, "unsafe_changed_warnings": unsafe_changed},
+        "publication": "approved" if not errors else "blocked",
+        "errors": errors,
+        "warnings": warnings,
+        "next_required_action": None if not errors else errors[0],
+    }
+    print(json.dumps(payload, indent=2))
+    return 0 if not errors else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -46,6 +46,7 @@ nav:
   - Operations:
       - Runbook: operations/runbook.md
       - Roles: operations/roles.md
+      - Book Role Instruction: operations/book-role-instruction.md
       - Master Editorial System: operations/master-editorial-system.md
       - Data Model: operations/data-model.md
       - Cron: operations/cron.md

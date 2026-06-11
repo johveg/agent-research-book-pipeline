@@ -18,6 +18,7 @@ __pycache__/
 
 # Runtime logs and worker state
 logs/runs/*.log
+logs/runs/*.json
 logs/runs/state/*.state
 logs/runs/state/latest.state
 logs/runs/*.pid
@@ -30,8 +31,7 @@ raw/
 *.sqlite
 *.sqlite3
 *.db
-vector_db/*
-!vector_db/.gitkeep
+vector_db/
 
 # Build output
 site/

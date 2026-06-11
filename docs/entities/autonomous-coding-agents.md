@@ -1,17 +1,17 @@
 # Autonomous Coding Agents
 
-Last generated: 2026-06-11T20:31:15Z
+Last generated: 2026-06-11T21:04:32Z
 
-- Type: `tool`
+- Type: `concept`
 - Confidence: `high`
-- First seen: 2026-06-11T20:30:52Z
-- Last seen: 2026-06-11T20:31:15Z
+- First seen: 2026-06-11T20:34:17Z
+- Last seen: 2026-06-11T21:04:31Z
 - Source count: 3
-- Mention count: 12
+- Mention count: 42
 
 ## Description
 
-Candidate tool entity extracted from 3 source(s).
+Candidate concept entity extracted from 3 source(s).
 
 ## Related claims
 

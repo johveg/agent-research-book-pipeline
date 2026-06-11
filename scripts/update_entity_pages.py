@@ -6,9 +6,10 @@ import argparse
 import json
 
 from research_common import DOCS, connect_db, init_db, slugify, utc_now
-from editorial_common import ensure_editorial_schema
+from editorial_common import ensure_editorial_schema, is_publishable_entity
 
 ENTITY_DIR = DOCS / "entities"
+PROTECTED_ENTITY_PAGES = {"index.md", "companies.md", "people.md", "projects.md", "concepts.md"}
 
 
 def entity_file(entity) -> str:
@@ -27,21 +28,25 @@ def main() -> int:
     init_db()
     now = utc_now()
     ENTITY_DIR.mkdir(parents=True, exist_ok=True)
+    for old in ENTITY_DIR.glob("*.md"):
+        if old.name not in PROTECTED_ENTITY_PAGES:
+            old.unlink()
     generated = []
     with connect_db() as con:
         ensure_editorial_schema(con)
-        entities = con.execute(
+        candidates = con.execute(
             """
             SELECT e.*, COUNT(es.source_id) AS source_count, COALESCE(SUM(es.mention_count),0) AS mention_count
             FROM entities e
             LEFT JOIN entity_sources es ON es.entity_id = e.id
             GROUP BY e.id
-            HAVING source_count > 0
+            HAVING source_count >= 2
             ORDER BY source_count DESC, mention_count DESC, canonical_name ASC
             LIMIT ?
             """,
-            (args.limit,),
+            (min(args.limit * 10, 1000),),
         ).fetchall()
+        entities = [e for e in candidates if is_publishable_entity(e['canonical_name'], e['type'], e['source_count'])][:args.limit]
         index = ["# Entities", "", f"Last generated: {now}", "", "Entities are conservative candidates extracted from collected source metadata and archived text. They require human review before being treated as canonical.", "", "| Entity | Type | Confidence | Source count |", "|---|---:|---:|---:|"]
         for e in entities:
             rel = entity_file(e)

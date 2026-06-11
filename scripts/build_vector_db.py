@@ -29,9 +29,33 @@ def main() -> int:
         if base.exists(): paths.extend(base.rglob('*.md'))
     paths=sorted(set(paths))
     if args.limit: paths=paths[:args.limit]
-    client=chromadb.PersistentClient(path=str(ROOT/'vector_db'))
+    db_path = ROOT/'vector_db'
+    if args.limit and db_path.exists():
+        import shutil
+        shutil.rmtree(db_path)
+    db_path.mkdir(parents=True, exist_ok=True)
+    (db_path / '.gitkeep').touch(exist_ok=True)
+    client=chromadb.PersistentClient(path=str(db_path))
     coll=client.get_or_create_collection('terefohealreboa')
-    model=SentenceTransformer('BAAI/bge-small-en-v1.5', device='cpu')
+    try:
+        model=SentenceTransformer('BAAI/bge-small-en-v1.5', device='cpu')
+        encode = lambda batch: model.encode(batch, normalize_embeddings=True).tolist()
+        embedding_mode = 'sentence_transformers:BAAI/bge-small-en-v1.5'
+    except Exception as e:
+        # Conservative fallback for CI/offline environments: deterministic hash embeddings.
+        # This keeps the pipeline verifiable without inventing semantic search quality.
+        import hashlib, math
+        def encode(batch):
+            vectors=[]
+            for doc in batch:
+                vals=[]
+                for i in range(64):
+                    h=hashlib.sha256((str(i)+doc).encode('utf-8', errors='ignore')).digest()
+                    vals.append((int.from_bytes(h[:4], 'big') / 2**32) - 0.5)
+                norm=math.sqrt(sum(v*v for v in vals)) or 1.0
+                vectors.append([v/norm for v in vals])
+            return vectors
+        embedding_mode = 'hash-fallback:' + type(e).__name__
     ids=[]; docs=[]; metas=[]
     for p in paths:
         txt=p.read_text(errors='ignore')
@@ -40,13 +64,13 @@ def main() -> int:
             cid='md_'+sha256_text(str(p.relative_to(ROOT))+str(idx)+ch)[:32]
             ids.append(cid); docs.append(ch); metas.append({'path':str(p.relative_to(ROOT)), 'chunk':idx, 'source_type':'markdown'})
             if len(ids)>=64:
-                emb=model.encode(docs, normalize_embeddings=True).tolist()
+                emb=encode(docs)
                 coll.upsert(ids=ids, documents=docs, metadatas=metas, embeddings=emb)
                 ids=[]; docs=[]; metas=[]
     if ids:
-        emb=model.encode(docs, normalize_embeddings=True).tolist()
+        emb=encode(docs)
         coll.upsert(ids=ids, documents=docs, metadatas=metas, embeddings=emb)
-    manifest={'built_at':utc_now(),'collection':'terefohealreboa','count':coll.count(),'indexed_markdown_files':len(paths)}
+    manifest={'built_at':utc_now(),'collection':'terefohealreboa','count':coll.count(),'indexed_markdown_files':len(paths),'embedding_mode':embedding_mode}
     write_json(ROOT/'data/chroma_manifest.json', manifest)
     print(json.dumps(manifest, indent=2))
     return 0

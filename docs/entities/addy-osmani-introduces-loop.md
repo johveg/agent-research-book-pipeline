@@ -1,13 +1,13 @@
 # Addy Osmani Introduces Loop
 
-Last generated: 2026-06-11T20:31:15Z
+Last generated: 2026-06-11T21:04:32Z
 
 - Type: `tool`
 - Confidence: `high`
-- First seen: 2026-06-11T20:30:52Z
-- Last seen: 2026-06-11T20:31:15Z
+- First seen: 2026-06-11T20:34:17Z
+- Last seen: 2026-06-11T21:04:31Z
 - Source count: 3
-- Mention count: 6
+- Mention count: 21
 
 ## Description
 

@@ -1,17 +1,17 @@
 # AI Coding Agents
 
-Last generated: 2026-06-11T20:31:15Z
+Last generated: 2026-06-11T21:04:32Z
 
-- Type: `company`
+- Type: `framework`
 - Confidence: `high`
-- First seen: 2026-06-11T20:30:52Z
-- Last seen: 2026-06-11T20:31:15Z
+- First seen: 2026-06-11T20:34:17Z
+- Last seen: 2026-06-11T21:04:31Z
 - Source count: 5
-- Mention count: 8
+- Mention count: 31
 
 ## Description
 
-Candidate company entity extracted from 5 source(s).
+Candidate framework entity extracted from 5 source(s).
 
 ## Related claims
 

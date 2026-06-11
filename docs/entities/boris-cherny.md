@@ -1,17 +1,17 @@
 # Boris Cherny
 
-Last generated: 2026-06-11T20:31:15Z
+Last generated: 2026-06-11T21:04:32Z
 
-- Type: `company`
+- Type: `project`
 - Confidence: `high`
-- First seen: 2026-06-11T20:30:52Z
-- Last seen: 2026-06-11T20:31:15Z
+- First seen: 2026-06-11T20:34:17Z
+- Last seen: 2026-06-11T21:04:31Z
 - Source count: 3
-- Mention count: 5
+- Mention count: 19
 
 ## Description
 
-Candidate company entity extracted from 3 source(s).
+Candidate project entity extracted from 3 source(s).
 
 ## Related claims
 

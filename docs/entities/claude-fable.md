@@ -1,13 +1,13 @@
 # Claude Fable
 
-Last generated: 2026-06-11T20:31:15Z
+Last generated: 2026-06-11T21:04:32Z
 
 - Type: `company`
 - Confidence: `high`
-- First seen: 2026-06-11T20:31:15Z
-- Last seen: 2026-06-11T20:31:15Z
+- First seen: 2026-06-11T20:34:17Z
+- Last seen: 2026-06-11T21:04:31Z
 - Source count: 4
-- Mention count: 5
+- Mention count: 25
 
 ## Description
 

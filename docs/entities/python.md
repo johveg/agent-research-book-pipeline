@@ -1,17 +1,17 @@
 # Python
 
-Last generated: 2026-06-11T20:31:15Z
+Last generated: 2026-06-11T21:04:32Z
 
-- Type: `company`
+- Type: `unknown`
 - Confidence: `high`
-- First seen: 2026-06-11T20:30:52Z
-- Last seen: 2026-06-11T20:31:15Z
+- First seen: 2026-06-11T20:34:17Z
+- Last seen: 2026-06-11T21:04:31Z
 - Source count: 4
-- Mention count: 5
+- Mention count: 22
 
 ## Description
 
-Candidate company entity extracted from 4 source(s).
+Candidate unknown entity extracted from 4 source(s).
 
 ## Related claims
 

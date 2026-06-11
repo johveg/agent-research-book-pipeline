@@ -27,9 +27,22 @@ PLACEHOLDER_BITS = [
 
 
 def tracked_or_staged_raw() -> tuple[list[str], list[str]]:
-    tracked = subprocess.run(["git", "ls-files", "raw"], cwd=ROOT, text=True, capture_output=True).stdout.splitlines()
+    tracked = [
+        p for p in subprocess.run(["git", "ls-files", "raw"], cwd=ROOT, text=True, capture_output=True).stdout.splitlines()
+        if p != "raw/.gitkeep"
+    ]
     status = subprocess.run(["git", "status", "--short"], cwd=ROOT, text=True, capture_output=True).stdout.splitlines()
-    staged_raw = [line for line in status if line[:2].strip() and line[3:].startswith("raw/")]
+    staged_raw = []
+    for line in status:
+        path = line[3:]
+        code = line[:2]
+        if not path.startswith("raw/"):
+            continue
+        # Deletions are allowed when intentionally untracking historical raw captures.
+        # raw/.gitkeep is the only allowed staged raw addition.
+        if code.strip() == "D" or path == "raw/.gitkeep":
+            continue
+        staged_raw.append(line)
     return tracked, staged_raw
 
 

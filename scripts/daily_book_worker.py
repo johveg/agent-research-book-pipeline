@@ -26,6 +26,9 @@ def main() -> int:
     ap.add_argument("run_id", nargs="?", help="Optional explicit run ID")
     ap.add_argument("--manual", action="store_true", help="Run immediately with a manual run ID prefix")
     ap.add_argument("--skip-capture", action="store_true", help="Only run editorial ingestion/update steps on existing sources")
+    ap.add_argument("--skip-vector", action="store_true", help="Skip local vector-index refresh")
+    ap.add_argument("--vector-limit", type=int, default=200, help="Maximum Markdown files to vector-index in this run; 0 means no limit")
+    ap.add_argument("--no-commit", action="store_true", help="Do not commit or push; useful for verification runs")
     args = ap.parse_args()
     run_id = args.run_id or (("manual-" + run_id_now()) if args.manual else run_id_now())
     init_db()
@@ -56,8 +59,12 @@ def main() -> int:
             steps.append(run([PY,'scripts/discover_trends.py','--run-id',run_id,'--json-out',str(trends_json)], log))
             steps.append(run([PY,'scripts/update_book_pages.py','--run-id',run_id], log))
             steps.append(run([PY,'scripts/verify_editorial_ingestion.py'], log))
-            # Build a small incremental local vector index. This is local runtime state and not committed.
-            steps.append(run([PY,'scripts/build_vector_db.py'], log))
+            # Build a bounded local vector index. This is local runtime state and not committed.
+            if not args.skip_vector:
+                vector_cmd = [PY,'scripts/build_vector_db.py']
+                if args.vector_limit:
+                    vector_cmd += ['--limit', str(args.vector_limit)]
+                steps.append(run(vector_cmd, log))
             if any(s['returncode'] not in (0,) for s in steps):
                 status='partial'
             summary_md=REPORTS/'daily'/f'{run_id}.md'
@@ -71,7 +78,10 @@ def main() -> int:
             summary_md.write_text('\n'.join(md)+'\n', encoding='utf-8')
             steps.append(run([PY,'scripts/update_claims_page.py','--run-id',run_id], log))
             steps.append(run([PY,'scripts/synthesize_chapters.py','--run-id',run_id], log))
-            commit=git_commit_push(f'research: daily book update {run_id}', ['docs','reports','data/search_config.json','data/schema.sql','data/chroma_manifest.json','.github','mkdocs.yml','README.md','.gitignore','.env.example','scripts','tests'])
+            if args.no_commit:
+                commit={'status':'skipped','reason':'--no-commit'}
+            else:
+                commit=git_commit_push(f'research: daily book update {run_id}', ['docs','reports','data/search_config.json','data/schema.sql','data/chroma_manifest.json','.github','mkdocs.yml','README.md','.gitignore','.env.example','scripts','tests'])
             write_json(LOGS/'runs'/f'{run_id}-commit.json', commit)
         except Exception as e:
             status='error'; error=type(e).__name__+': '+str(e)

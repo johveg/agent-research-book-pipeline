@@ -17,11 +17,19 @@ GENERIC_TERMS = {
     "share", "repost", "feed", "update", "activity", "profile", "company",
     "content", "metadata", "sanitized", "archive", "daily", "manual", "type",
     "status", "unknown", "none", "open", "questions", "book", "chapter",
+    "the", "and", "for", "from", "this", "that", "these", "those", "then",
+    "here", "what", "you", "your", "all", "one", "every", "everyone", "today",
+    "days", "june", "jun", "visit", "follow", "edited", "multipost", "medium",
+    "critical", "introduction", "building", "engineer", "engineering", "product",
+    "design", "integration", "finance", "healthcare", "university", "speaker",
+    "founder", "co-founder", "ceo", "cto", "phd", "inc", "b2b", "usa", "nyc",
+    "associate", "professor", "software", "senior", "leader", "entrepreneur",
+    "consultant", "developer", "researcher", "student", "engineer",
 }
 
 ENTITY_TYPE_ORDER = ["person", "company", "project", "tool", "concept", "framework", "publication", "unknown"]
 
-ORG_SUFFIXES = ("AI", "Labs", "Research", "Systems", "Technologies", "Technology", "Inc", "Corp", "Corporation", "Company", "Group", "Institute")
+ORG_SUFFIXES = ("Labs", "Research", "Systems", "Technologies", "Technology", "Inc", "Corp", "Corporation", "Company", "Group", "Institute")
 PUBLICATION_WORDS = ("newsletter", "blog", "podcast", "magazine", "report", "paper", "journal")
 FRAMEWORK_WORDS = ("framework", "architecture", "protocol", "standard", "model", "methodology", "pattern")
 TOOL_WORDS = ("tool", "cli", "sdk", "api", "agent", "browser", "runtime", "platform")
@@ -92,9 +100,14 @@ def is_generic_entity(name: str) -> bool:
     low = n.lower()
     if low in GENERIC_TERMS:
         return True
-    if any(part.lower() in GENERIC_TERMS for part in re.split(r"\W+", n) if part):
+    tokens = [p for p in re.split(r"\W+", n) if p]
+    low_tokens = [p.lower() for p in tokens]
+    if low_tokens and low_tokens[0] in GENERIC_TERMS:
+        # Avoid captured UI fragments such as "Follow Hermes Agent" or "This ...".
+        return True
+    if any(part in GENERIC_TERMS for part in low_tokens):
         # Allow meaningful phrases containing AI/agent terms, but block pure structural terms.
-        meaningful = [p for p in re.split(r"\W+", n) if p and p.lower() not in GENERIC_TERMS]
+        meaningful = [p for p in tokens if p.lower() not in GENERIC_TERMS]
         if len(meaningful) == 0:
             return True
     if re.fullmatch(r"[0-9a-f]{8,}", low):
@@ -127,14 +140,16 @@ def classify_entity(name: str, context: str = "") -> str:
     if re.search(r"\b[A-Z][a-z]+\s+[A-Z][a-z]+\b", n) and not any(w.lower() in low for w in ORG_SUFFIXES):
         if not any(w in low for w in ["architecture", "engineering", "framework", "agent"]):
             return "person"
+    if any(w in low for w in FRAMEWORK_WORDS):
+        return "framework" if "framework" in low else "concept"
+    if n.lower() in {"loop engineering", "loop engineer", "context architecture", "memory architecture", "agentic ai", "continual learning", "autonomous coding agents", "ai coding agents"}:
+        return "concept"
+    if any(w in low for w in TOOL_WORDS):
+        return "tool"
     if any(s.lower() in low for s in ORG_SUFFIXES) or re.search(r"\b(inc|corp|ltd|company|startup)\b", low):
         return "company"
     if any(w in low for w in PUBLICATION_WORDS):
         return "publication"
-    if any(w in low for w in FRAMEWORK_WORDS):
-        return "framework" if "framework" in low else "concept"
-    if any(w in low for w in TOOL_WORDS):
-        return "tool"
     if any(w in low for w in PROJECT_WORDS):
         return "project"
     if n.isupper() and 2 <= len(n) <= 8:
@@ -168,6 +183,43 @@ def confidence_from_source_count(source_count: int) -> str:
     if source_count >= 2:
         return "medium"
     return "low"
+
+
+PUBLISH_ENTITY_ALLOWLIST = {
+    "loop engineering", "loop engineer", "hermes agent", "hermes", "openclaw",
+    "nous research", "ai agents", "ai agent", "agentic ai", "ai coding agents",
+    "autonomous coding agents", "continual learning", "context architecture",
+    "memory architecture", "enterprise architecture", "claude code", "claude",
+    "anthropic", "openai", "github", "microsoft", "google", "nvidia", "aws",
+    "mcp", "rag", "langgraph", "xgboost", "hivemind", "outpost",
+    "thenextgentechinsider.com", "python",
+}
+
+
+def is_publishable_entity(name: str, typ: str, source_count: int) -> bool:
+    """Return whether an extracted entity is meaningful enough for a public page."""
+    n = normalize_entity_name(name)
+    low = n.lower()
+    if is_generic_entity(n):
+        return False
+    if low in PUBLISH_ENTITY_ALLOWLIST:
+        return True
+    if source_count < 3:
+        return False
+    if typ == "unknown":
+        return False
+    tokens = [p for p in re.split(r"\W+", n) if p]
+    if len(tokens) == 1 and not (n.isupper() and 2 <= len(n) <= 8):
+        return False
+    if tokens and tokens[0].lower() in GENERIC_TERMS:
+        return False
+    if any(t.lower() in GENERIC_TERMS for t in tokens):
+        return False
+    # Avoid UI/job-title fragments that repeat in LinkedIn result cards.
+    low_words = set(t.lower() for t in tokens)
+    if low_words & {"follow", "hiring", "speaker", "advisor", "author", "available", "creator", "head"}:
+        return False
+    return typ in {"company", "project", "tool", "concept", "framework", "publication", "person"}
 
 
 def md_link(path: str, label: str | None = None) -> str:

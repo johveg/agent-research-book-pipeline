@@ -1,17 +1,17 @@
 # OpenAI
 
-Last generated: 2026-06-11T20:31:15Z
+Last generated: 2026-06-11T21:04:32Z
 
-- Type: `company`
+- Type: `tool`
 - Confidence: `high`
-- First seen: 2026-06-11T20:31:15Z
-- Last seen: 2026-06-11T20:31:15Z
+- First seen: 2026-06-11T20:34:17Z
+- Last seen: 2026-06-11T21:04:31Z
 - Source count: 4
-- Mention count: 4
+- Mention count: 20
 
 ## Description
 
-Candidate company entity extracted from 4 source(s).
+Candidate tool entity extracted from 4 source(s).
 
 ## Related claims
 

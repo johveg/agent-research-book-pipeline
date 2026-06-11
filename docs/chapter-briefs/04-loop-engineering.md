@@ -1,74 +1,89 @@
-# Chapter Brief: 4. Loop Engineering
+# Chapter Brief: What is Loop Engineering?
 
 ## Purpose
 
-Explain loop engineering as a practical systems concept, if the evidence supports the term and pattern.
+Explain loop engineering as a systems discipline for making AI agents useful, observable, verifiable, and recoverable over time.
 
 ## Target reader
 
-Intelligent operators, architects, engineers, builders, and technical leaders trying to understand emerging agent systems without hype.
+Technical operators, architects, builders, AI engineers, platform engineers, and decision-makers evaluating agentic workflows.
 
 ## Main argument
 
-The chapter should argue, cautiously, that a useful concept may be emerging around designing agent loops rather than only writing prompts. The chapter must keep terminology tentative if source support remains weak.
+The important shift is not simply from prompts to agents. The deeper shift is from isolated model interactions to engineered loops that can gather context, act, verify, retry, recover, and escalate.
+
+Loop engineering should be presented as an emerging concept, not as a mature industry standard.
 
 ## Required concepts
 
-- loop engineering
-- loop engineer
-- agent loop
+- prompt engineering
+- agent engineering
+- feedback loops
 - verification
-- monitoring
-- operational design
+- persistent state
+- retry and repair
+- watchdogs
+- human escalation
+- source-grounded research loops
 
 ## Required claims
 
-Use definition, trend, technical pattern, interpretation, risk, and limitation claims with explicit status and source IDs.
+Use only supported or promoted claims about:
+
+- distinction between prompt engineering, agent engineering, and loop engineering
+- need for verification in long-running agent work
+- need for observable state
+- need for escalation boundaries
+- risks of unattended automation
 
 ## Required examples
 
-- A recurring monitoring loop
-- a self-healing watchdog
-- a research-to-book loop, if supported.
+Use examples from the project only if they are described as local implementation examples, not industry-wide proof.
 
 ## Allowed source types
 
-A/B sources may support factual claims. C sources may support interpretation if caveated. D social/search material may only support weak signals or examples when caveated. E sources must not support chapter facts.
+- official documentation
+- technical articles
+- direct project artifacts
+- credible expert commentary
+- curated source notes
 
 ## Excluded source types
 
-Raw LinkedIn/web captures, private/session-visible material, credentials, cookies, logs, E-quality sources, and unsupported repeated social posts. D sources require caveats and cannot establish strong facts.
+Do not use LinkedIn volume alone as proof of adoption.
+
+Do not use generic social media posts as factual evidence unless caveated as weak signals.
 
 ## Open questions
 
-- Which claims have enough A/B support to move from weak signal to supported?
-- What contradictions or limitations should remain visible?
-- What evidence is missing before a stronger chapter argument can be published?
+- Is “loop engineering” becoming a durable term or a temporary label?
+- What practices are genuinely new versus repackaged automation discipline?
+- What level of autonomy is safe for different workflows?
 
 ## What this chapter must not claim
 
-Must not claim loop engineering is an established discipline, consensus term, or widely adopted role unless stronger evidence supports it.
+- Do not claim loop engineering is already an industry standard.
+- Do not claim all organizations are adopting it.
+- Do not claim unattended agents are generally safe.
+- Do not claim LinkedIn activity proves market maturity.
 
 ## Desired tone
 
-Clear, practical, grounded, analytical, readable, skeptical where appropriate, and lightly opinionated only when evidence supports it. Avoid hype and generic AI prose.
+Clear, practical, grounded, skeptical, and useful.
 
 ## Desired length
 
-Medium chapter, approximately 1,200–2,500 words when evidence supports it.
+Short-to-medium chapter with clear subsections.
 
 ## Related entities
 
-- loop engineering
-- loop engineer
-- Hermes Agent
+- Hermes
+- OpenClaw
+- coding agents
+- research agents
+- watchdogs
+- verification loops
 
 ## Publication readiness criteria
 
-- A chapter brief exists before Author work begins.
-- Every factual claim maps to a claim ID and source IDs.
-- Only supported, caveated weakly_supported, or promoted_to_chapter claims are used.
-- The Editor has reviewed claims and chapter output against this brief.
-- Weak evidence is visibly caveated.
-- No raw captures or unsafe/private material are published.
-- MkDocs strict build and Book role gate pass.
+Publish only when at least three supported or promoted claims exist and the Editor approves the chapter diff.

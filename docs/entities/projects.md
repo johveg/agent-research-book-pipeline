@@ -1,3 +1,86 @@
 # Projects
 
-Project notes and related repositories/products will be curated here.
+Last generated: 2026-06-11T21:23:21Z
+
+These entries come from harvested entity records. They are candidates for deeper editorial pages, not final assertions of importance.
+
+- [Hermes Agent](hermes-agent.md) — `tool`; mentions: 2009; sources: 123
+- [OpenClaw](openclaw.md) — `tool`; mentions: 861; sources: 111
+- [Hermes](hermes.md) — `tool`; mentions: 833; sources: 109
+- [AI Agents](ai-agents.md) — `tool`; mentions: 130; sources: 15
+- [Nous Research](nous-research.md) — `tool`; mentions: 119; sources: 17
+- Loop — `tool`; mentions: 69; sources: 9
+- [TheNextGenTechInsider.com](thenextgentechinsider-com.md) — `tool`; mentions: 57; sources: 7
+- [Google](google.md) — `tool`; mentions: 51; sources: 7
+- [Claude Code](claude-code.md) — `tool`; mentions: 37; sources: 5
+- [Anthropic](anthropic.md) — `tool`; mentions: 35; sources: 5
+- [MCP](mcp.md) — `project`; mentions: 28; sources: 4
+- [OpenAI](openai.md) — `tool`; mentions: 28; sources: 4
+- [NVIDIA](nvidia.md) — `tool`; mentions: 28; sources: 3
+- [Claude](claude.md) — `tool`; mentions: 28; sources: 4
+- Agentic AI real memory — `tool`; mentions: 28; sources: 2
+- [Addy Osmani Introduces Loop](addy-osmani-introduces-loop.md) — `tool`; mentions: 27; sources: 3
+- [Boris Cherny](boris-cherny.md) — `project`; mentions: 25; sources: 3
+- [Microsoft](microsoft.md) — `tool`; mentions: 23; sources: 3
+- Harness — `tool`; mentions: 21; sources: 3
+- Let — `tool`; mentions: 21; sources: 3
+- [AWS](aws.md) — `tool`; mentions: 21; sources: 3
+- [RAG](rag.md) — `tool`; mentions: 21; sources: 3
+- Just — `tool`; mentions: 21; sources: 3
+- [trained my Hermes Agent](trained-my-hermes-agent.md) — `tool`; mentions: 21; sources: 3
+- [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 21; sources: 3
+- NousResearch — `tool`; mentions: 21; sources: 3
+- BERT — `tool`; mentions: 18; sources: 2
+- NLP — `tool`; mentions: 18; sources: 2
+- PEFT — `tool`; mentions: 18; sources: 2
+- Addy — `tool`; mentions: 18; sources: 2
+- prompting AI coding agents — `tool`; mentions: 18; sources: 2
+- RAG Pipelines — `tool`; mentions: 18; sources: 2
+- LLM Fine-Tuning — `tool`; mentions: 18; sources: 2
+- [LangGraph](langgraph.md) — `tool`; mentions: 18; sources: 2
+- [XGBoost](xgboost.md) — `tool`; mentions: 18; sources: 2
+- Nishanth Rao — `tool`; mentions: 18; sources: 2
+- interacting with coding agents — `tool`; mentions: 18; sources: 2
+- Namrata Ganatra — `tool`; mentions: 16; sources: 2
+- Research Lead — `tool`; mentions: 16; sources: 2
+- Ex-Twilio — `tool`; mentions: 16; sources: 2
+- coding agent — `tool`; mentions: 16; sources: 2
+- Apple — `tool`; mentions: 16; sources: 2
+- Gareth Paul Jones — `tool`; mentions: 16; sources: 2
+- Tech Executive — `tool`; mentions: 16; sources: 2
+- Stop prompting AI agent — `tool`; mentions: 16; sources: 2
+- AI Platforms — `tool`; mentions: 16; sources: 2
+- Investor — `tool`; mentions: 16; sources: 2
+- Meta — `tool`; mentions: 16; sources: 2
+- Coinbase — `tool`; mentions: 16; sources: 2
+- Clay — `tool`; mentions: 14; sources: 2
+- How Hermes Agent — `tool`; mentions: 14; sources: 1
+- harness engineering — `tool`; mentions: 14; sources: 2
+- Hello from Hermes Agent — `tool`; mentions: 14; sources: 2
+- know Hermes Agent — `tool`; mentions: 14; sources: 2
+- Ex-Deloitte — `tool`; mentions: 14; sources: 2
+- Una — `tool`; mentions: 14; sources: 2
+- YOE — `tool`; mentions: 14; sources: 2
+- Growth — `tool`; mentions: 14; sources: 2
+- Cobus Greyling — `tool`; mentions: 14; sources: 2
+- Local — `tool`; mentions: 14; sources: 2
+- CFO — `tool`; mentions: 14; sources: 2
+- Enthusiast — `tool`; mentions: 14; sources: 2
+- Why — `tool`; mentions: 14; sources: 2
+- Windows — `tool`; mentions: 14; sources: 2
+- Mac — `tool`; mentions: 14; sources: 2
+- Fundador — `tool`; mentions: 14; sources: 2
+- Her — `tool`; mentions: 14; sources: 2
+- Automatisation — `tool`; mentions: 14; sources: 2
+- FDE — `tool`; mentions: 14; sources: 2
+- Java — `tool`; mentions: 14; sources: 2
+- LegalTech — `tool`; mentions: 14; sources: 2
+- SuperChips — `tool`; mentions: 14; sources: 2
+- Advisor — `tool`; mentions: 14; sources: 2
+- has replaced prompt engineering — `tool`; mentions: 14; sources: 2
+- MySql — `tool`; mentions: 14; sources: 2
+- Blockchain Engineering — `tool`; mentions: 14; sources: 1
+- LLM — `tool`; mentions: 14; sources: 2
+- Man — `tool`; mentions: 14; sources: 2
+- Engagement — `tool`; mentions: 14; sources: 2
+- Accenture — `tool`; mentions: 14; sources: 2

@@ -1,13 +1,28 @@
 # Preface
 
-This book tracks practical agent engineering as it develops in public: tools, operating patterns, context architecture, memory architecture, and durable loops.
+This is a living research book about Hermes, OpenClaw, and loop engineering. It is generated from a daily loop that collects public web material and authenticated LinkedIn search-result text, stores source metadata, extracts entities and claims, refreshes local search/vector state, and publishes curated Markdown through GitHub Pages.
 
-## Current evidence status
+## Current corpus
 
-No supported or high-confidence claims have been promoted into this chapter yet. The collector has source material, but v1 editorial policy requires claim records to be supported before narrative synthesis.
+- Sources: **371**
+- Entities: **1106**
+- Claims: **55**
 
-Candidate claim records matching this chapter: 12.
+## Source mix
 
-## Editorial policy
+- `linkedin_search_result`: 338
+- `web`: 33
 
-Last generated: 2026-06-11T21:04:58Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
+## Recent runs
+
+- `fill-harvest-20260611T212057Z` — partial — 2026-06-11T21:20:57Z to 2026-06-11T21:21:34Z
+- `manual-20260611T210431Z` — ok — 2026-06-11T21:04:31Z to 2026-06-11T21:04:58Z
+- `manual-20260611T205356Z` — ok — 2026-06-11T20:53:56Z to 2026-06-11T20:54:22Z
+- `manual-20260611T205246Z` — ok — 2026-06-11T20:52:46Z to 2026-06-11T20:52:47Z
+- `manual-20260611T203115Z` — partial — 2026-06-11T20:31:15Z to 2026-06-11T20:31:19Z
+
+## Reading note
+
+The book separates harvested evidence from polished claims. LinkedIn captures influence aggregate signals and discovery, while public-facing citations should prefer web sources or explicitly promoted professional/public evidence.
+
+Last generated from harvest: 2026-06-11T21:23:21Z.

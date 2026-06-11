@@ -1,3 +1,86 @@
 # Concepts
 
-Concept definitions and relationships will be curated here.
+Last generated: 2026-06-11T21:23:21Z
+
+These entries come from harvested entity records. They are candidates for deeper editorial pages, not final assertions of importance.
+
+- [Loop engineering](loop-engineering.md) — `concept`; mentions: 2724; sources: 136
+- [Hermes Agent](hermes-agent.md) — `tool`; mentions: 2009; sources: 123
+- [OpenClaw](openclaw.md) — `tool`; mentions: 861; sources: 111
+- [Hermes](hermes.md) — `tool`; mentions: 833; sources: 109
+- [AI Agents](ai-agents.md) — `tool`; mentions: 130; sources: 15
+- [Nous Research](nous-research.md) — `tool`; mentions: 119; sources: 17
+- [Outpost](outpost.md) — `unknown`; mentions: 74; sources: 8
+- Loop — `tool`; mentions: 69; sources: 9
+- [Agentic AI](agentic-ai.md) — `concept`; mentions: 60; sources: 8
+- [TheNextGenTechInsider.com](thenextgentechinsider-com.md) — `tool`; mentions: 57; sources: 7
+- [Autonomous Coding Agents](autonomous-coding-agents.md) — `concept`; mentions: 54; sources: 3
+- [Google](google.md) — `tool`; mentions: 51; sources: 7
+- [GitHub](github.md) — `concept`; mentions: 49; sources: 5
+- Al-Azhar University — `unknown`; mentions: 46; sources: 6
+- Debrecen — `unknown`; mentions: 46; sources: 6
+- Rutgers University — `unknown`; mentions: 46; sources: 6
+- Mohamed Amin — `unknown`; mentions: 46; sources: 6
+- Hungary — `unknown`; mentions: 46; sources: 6
+- [AI Coding Agents](ai-coding-agents.md) — `framework`; mentions: 41; sources: 5
+- [Claude Code](claude-code.md) — `tool`; mentions: 37; sources: 5
+- [Anthropic](anthropic.md) — `tool`; mentions: 35; sources: 5
+- Linas — `unknown`; mentions: 32; sources: 2
+- Imtisal Qadir Imtisal Qadir — `unknown`; mentions: 32; sources: 4
+- [Python](python.md) — `unknown`; mentions: 30; sources: 4
+- Fable — `concept`; mentions: 28; sources: 4
+- [MCP](mcp.md) — `project`; mentions: 28; sources: 4
+- [OpenAI](openai.md) — `tool`; mentions: 28; sources: 4
+- [NVIDIA](nvidia.md) — `tool`; mentions: 28; sources: 3
+- [Enterprise Architecture](enterprise-architecture.md) — `concept`; mentions: 28; sources: 2
+- [Claude](claude.md) — `tool`; mentions: 28; sources: 4
+- [AI Agent](ai-agent.md) — `concept`; mentions: 28; sources: 4
+- Agentic AI real memory — `tool`; mentions: 28; sources: 2
+- [Hivemind](hivemind.md) — `framework`; mentions: 27; sources: 3
+- [Continual Learning](continual-learning.md) — `framework`; mentions: 27; sources: 3
+- [Addy Osmani Introduces Loop](addy-osmani-introduces-loop.md) — `tool`; mentions: 27; sources: 3
+- [Boris Cherny](boris-cherny.md) — `project`; mentions: 25; sources: 3
+- [Microsoft](microsoft.md) — `tool`; mentions: 23; sources: 3
+- Fol — `concept`; mentions: 21; sources: 3
+- Harness — `tool`; mentions: 21; sources: 3
+- Let — `tool`; mentions: 21; sources: 3
+- [AWS](aws.md) — `tool`; mentions: 21; sources: 3
+- [Tanagram Lore. Having](tanagram-lore-having.md) — `concept`; mentions: 21; sources: 3
+- [RAG](rag.md) — `tool`; mentions: 21; sources: 3
+- Just — `tool`; mentions: 21; sources: 3
+- [trained my Hermes Agent](trained-my-hermes-agent.md) — `tool`; mentions: 21; sources: 3
+- [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 21; sources: 3
+- NousResearch — `tool`; mentions: 21; sources: 3
+- Scale — `concept`; mentions: 21; sources: 3
+- BERT — `tool`; mentions: 18; sources: 2
+- NLP — `tool`; mentions: 18; sources: 2
+- PEFT — `tool`; mentions: 18; sources: 2
+- Addy — `tool`; mentions: 18; sources: 2
+- prompting AI coding agents — `tool`; mentions: 18; sources: 2
+- RAG Pipelines — `tool`; mentions: 18; sources: 2
+- LLM Fine-Tuning — `tool`; mentions: 18; sources: 2
+- [LangGraph](langgraph.md) — `tool`; mentions: 18; sources: 2
+- Andrew Sauer — `unknown`; mentions: 18; sources: 2
+- Ibon Urrutia — `unknown`; mentions: 18; sources: 2
+- [XGBoost](xgboost.md) — `tool`; mentions: 18; sources: 2
+- Nishanth Rao — `tool`; mentions: 18; sources: 2
+- Human Agency — `unknown`; mentions: 18; sources: 2
+- interacting with coding agents — `tool`; mentions: 18; sources: 2
+- Namrata Ganatra — `tool`; mentions: 16; sources: 2
+- Research Lead — `tool`; mentions: 16; sources: 2
+- Ex-Twilio — `tool`; mentions: 16; sources: 2
+- Scouting FinTech — `unknown`; mentions: 16; sources: 2
+- coding agent — `tool`; mentions: 16; sources: 2
+- Apple — `tool`; mentions: 16; sources: 2
+- Over — `concept`; mentions: 16; sources: 2
+- Gareth Paul Jones — `tool`; mentions: 16; sources: 2
+- Tech Executive — `tool`; mentions: 16; sources: 2
+- Stop prompting AI agent — `tool`; mentions: 16; sources: 2
+- FinRev — `unknown`; mentions: 16; sources: 2
+- AI Platforms — `tool`; mentions: 16; sources: 2
+- Investor — `tool`; mentions: 16; sources: 2
+- AI Startups — `unknown`; mentions: 16; sources: 2
+- Meta — `tool`; mentions: 16; sources: 2
+- Coinbase — `tool`; mentions: 16; sources: 2
+- Clay — `tool`; mentions: 14; sources: 2
+- How Hermes Agent — `tool`; mentions: 14; sources: 1

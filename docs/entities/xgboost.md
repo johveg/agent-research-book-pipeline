@@ -1,13 +1,13 @@
 # XGBoost
 
-Last generated: 2026-06-11T21:04:32Z
+Last generated: 2026-06-11T21:23:20Z
 
 - Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T21:04:31Z
+- Last seen: 2026-06-11T21:23:20Z
 - Source count: 2
-- Mention count: 14
+- Mention count: 18
 
 ## Description
 

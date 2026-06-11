@@ -1,6 +1,6 @@
 # Entities
 
-Last generated: 2026-06-11T21:04:32Z
+Last generated: 2026-06-11T21:23:20Z
 
 Entities are conservative candidates extracted from collected source metadata and archived text. They require human review before being treated as canonical.
 
@@ -28,10 +28,10 @@ Entities are conservative candidates extracted from collected source metadata an
 | [MCP](mcp.md) | project | high | 4 |
 | [OpenAI](openai.md) | tool | high | 4 |
 | [Autonomous Coding Agents](autonomous-coding-agents.md) | concept | high | 3 |
+| [NVIDIA](nvidia.md) | tool | high | 3 |
 | [Addy Osmani Introduces Loop](addy-osmani-introduces-loop.md) | tool | high | 3 |
 | [Continual Learning](continual-learning.md) | framework | high | 3 |
 | [Hivemind](hivemind.md) | framework | high | 3 |
-| [NVIDIA](nvidia.md) | tool | high | 3 |
 | [Boris Cherny](boris-cherny.md) | project | high | 3 |
 | [Microsoft](microsoft.md) | tool | high | 3 |
 | [AWS](aws.md) | tool | high | 3 |

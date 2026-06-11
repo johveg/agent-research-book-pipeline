@@ -1,13 +1,13 @@
 # Outpost
 
-Last generated: 2026-06-11T21:04:32Z
+Last generated: 2026-06-11T21:23:20Z
 
 - Type: `unknown`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T21:04:31Z
+- Last seen: 2026-06-11T21:23:20Z
 - Source count: 8
-- Mention count: 54
+- Mention count: 74
 
 ## Description
 

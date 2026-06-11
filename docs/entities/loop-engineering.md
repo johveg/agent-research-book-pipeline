@@ -1,13 +1,13 @@
 # Loop engineering
 
-Last generated: 2026-06-11T21:04:32Z
+Last generated: 2026-06-11T21:23:20Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T21:04:31Z
+- Last seen: 2026-06-11T21:23:20Z
 - Source count: 136
-- Mention count: 1996
+- Mention count: 2724
 
 ## Description
 
@@ -79,22 +79,20 @@ Candidate concept entity extracted from 136 source(s).
 - `src_e0864997d036665b77f9` — Loop Engineering: Design AI Loops That Ship While You Sleep
   - URL: https://linas.substack.com/p/loop-engineering-complete-guide
   - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/04-loop-engineering-design-ai-loops-that-ship-while-you-sleep.md`
-- `src_bbea13b56217dc6481aa` — Loop Engineering for the Agentforce Era.The point is not to make agents busier.The point is to make Salesforce delivery more inspectable, bo
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/174-dbd62ead742df77ea91e.md`
-- `src_d655e40e10d270563db3` — Loop Engineering: stop prompting, start lopping! (ES) Ingeniería de contexto era lo ultimo.. luego apareció ingeniería de arneses... ahora t
-  - URL: https://www.linkedin.com/in/cobusgreyling/
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/171-91a97a3e24333586cbe5.md`
-- `src_3f9855c77890e7de7133` — Feed post Evnek 25,463 followers 1h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys
-  - URL: https://www.linkedin.com/company/evnek/posts
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/034-a87ccd061e5972d1cbfb.md`
-- `src_5041e58ca7814decf8f5` — There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
-- `src_bec329323b1b96d80c48` — Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O
-  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/002-7995cfb7029384c17d0c.md`
 - `src_14d5206f07305edbab45` — We've moved fast. Vibe coding → Agentic workflows → Harness engineering → Loop engineering. But here's the question nobody's asking loudly e
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/099-c4017c55be4e384c083a.md`
 - `src_358f72ad3225c760e7d8` — Enterprise Architecture is entering the Loop Engineering era. For years, EA was built around static artifacts: Capability Maps Target Archit
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/112-d18b315b431a39f58491.md`
 - `src_4843b283b5fc4e93dd43` — Loop engineering — the practice of designing automated agent workflows instead of prompting manually — is reshaping how developers use Claud
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/159-7d4574beb029982da5e6.md`
+- `src_4ece22e6dadda1dd0ac6` — "Loop engineering" is a term that has emerged recently. It means designing the system that runs a coding agent, instead of prompting the age
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/109-c98d67376a024dded32f.md`
+- `src_6ec2b3fdea5e136677c5` — Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. So here it is, in the time it takes to d
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/065-c0cd1620ac7015fa8576.md`
+- `src_7c0abe8c3568e8638d27` — Is Loop Engineering the new meta in agentic AI? Recently, Peter Steinberger (creator of the viral OpenClaw agent, now at OpenAI) and Boris C
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/165-d1baffb0150f97510a4c.md`
+- `src_8e9c2ef34e47997786bf` — Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 2h • Follow Everyone is suddenly saying "loop engineering." Alm
+  - URL: https://www.linkedin.com/in/gurudath-sadanandan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAiHXKoB-vLH-4van9Pud0X3dLvr15B81Ik
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/063-9f5d734ae33c3d6feb4b.md`
+- `src_a43da2bf7e7a8325ac0f` — Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. Design the loop that p
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/142-7ad78a44bee487408048.md`

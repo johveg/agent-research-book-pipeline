@@ -56,6 +56,7 @@ def main() -> int:
             steps.append(run([PY,'scripts/update_entity_pages.py','--run-id',run_id], log))
             steps.append(run([PY,'scripts/update_claims_page.py','--run-id',run_id], log))
             steps.append(run([PY,'scripts/synthesize_chapters.py','--run-id',run_id], log))
+            steps.append(run([PY,'scripts/fill_book_from_harvest.py'], log))
             steps.append(run([PY,'scripts/discover_trends.py','--run-id',run_id,'--json-out',str(trends_json)], log))
             steps.append(run([PY,'scripts/update_book_pages.py','--run-id',run_id], log))
             steps.append(run([PY,'scripts/verify_editorial_ingestion.py'], log))
@@ -78,6 +79,7 @@ def main() -> int:
             summary_md.write_text('\n'.join(md)+'\n', encoding='utf-8')
             steps.append(run([PY,'scripts/update_claims_page.py','--run-id',run_id], log))
             steps.append(run([PY,'scripts/synthesize_chapters.py','--run-id',run_id], log))
+            steps.append(run([PY,'scripts/fill_book_from_harvest.py'], log))
             if args.no_commit:
                 commit={'status':'skipped','reason':'--no-commit'}
             else:

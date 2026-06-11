@@ -1,6 +1,6 @@
 # Entities
 
-Last generated: 2026-06-11T22:32:27Z
+Last generated: 2026-06-11T22:39:08Z
 
 Entities are conservative candidates extracted from collected source metadata and archived text. They require human review before being treated as canonical.
 

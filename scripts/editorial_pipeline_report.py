@@ -20,6 +20,9 @@ from research_common import DOCS, LOGS, RAW, REPORTS, ROOT, connect_db, init_db,
 from editorial_common import ensure_editorial_schema
 
 QUALITY_TIERS = ("A", "B", "C", "D", "E", "unknown")
+ALLOWED_CLAIM_STATUSES = {"candidate", "needs_review", "supported", "weakly_supported", "contradicted", "rejected", "promoted_to_chapter"}
+ALLOWED_CLAIM_TYPES = {"definition", "observation", "trend", "technical pattern", "risk", "limitation", "example", "contradiction", "interpretation", "open question"}
+PROSE_ALLOWED_STATUSES = {"supported", "weakly_supported", "promoted_to_chapter"}
 HYPE_WORDS = ["revolutionary", "game-changing", "unlock", "unleash", "transformative", "disruptive", "paradigm shift", "next-generation", "groundbreaking", "frictionless", "magical"]
 GENERIC_TREND_BITS = {"https", "http", "urn", "hashtag", "query", "search", "result", "results", "linkedin", "visible", "captured", "source", "sources"}
 SOCIAL_TYPES = {"linkedin_search_result", "social", "post"}
@@ -62,6 +65,12 @@ def ensure_pipeline_schema(con):
         con.execute("ALTER TABLE claims ADD COLUMN editor_notes TEXT")
     if "reviewed_at" not in claim_cols:
         con.execute("ALTER TABLE claims ADD COLUMN reviewed_at TEXT")
+    if "source_quality" not in claim_cols:
+        con.execute("ALTER TABLE claims ADD COLUMN source_quality TEXT DEFAULT 'unknown'")
+    if "contradiction_status" not in claim_cols:
+        con.execute("ALTER TABLE claims ADD COLUMN contradiction_status TEXT DEFAULT 'not_checked'")
+    if "publication_decision" not in claim_cols:
+        con.execute("ALTER TABLE claims ADD COLUMN publication_decision TEXT DEFAULT 'do_not_use'")
     con.execute("""
         CREATE TABLE IF NOT EXISTS source_notes (
           id TEXT PRIMARY KEY,
@@ -161,33 +170,63 @@ def review_claims(con):
     claims=con.execute("""
       SELECT c.*, COUNT(cs.source_id) AS linked_sources,
              SUM(CASE WHEN s.quality_score IN ('A','B') THEN 1 ELSE 0 END) AS strong_sources,
+             SUM(CASE WHEN s.quality_score='C' THEN 1 ELSE 0 END) AS interpretation_sources,
              SUM(CASE WHEN s.quality_score='D' THEN 1 ELSE 0 END) AS social_sources,
-             SUM(CASE WHEN s.quality_score='E' THEN 1 ELSE 0 END) AS low_sources
+             SUM(CASE WHEN s.quality_score='E' THEN 1 ELSE 0 END) AS low_sources,
+             GROUP_CONCAT(DISTINCT s.quality_score) AS source_quality
       FROM claims c
       LEFT JOIN claim_sources cs ON cs.claim_id=c.id
       LEFT JOIN sources s ON s.id=cs.source_id
       GROUP BY c.id
     """).fetchall()
     for c in claims:
-        status=c["status"] or "candidate"
-        linked=c["linked_sources"] or 0; strong=c["strong_sources"] or 0; social=c["social_sources"] or 0; low=c["low_sources"] or 0
+        status=(c["status"] or "candidate").strip()
+        claim_type=(c["claim_type"] or "observation").strip()
+        linked=c["linked_sources"] or 0; strong=c["strong_sources"] or 0; interp=c["interpretation_sources"] or 0; social=c["social_sources"] or 0; low=c["low_sources"] or 0
         text=(c["claim_text"] or "")
         notes=[]
+        if status not in ALLOWED_CLAIM_STATUSES:
+            notes.append(f"invalid status normalized from {status!r} to needs_review")
+            status="needs_review"
+        if claim_type not in ALLOWED_CLAIM_TYPES:
+            notes.append(f"invalid claim type normalized from {claim_type!r} to observation")
+            claim_type="observation"
         if linked == 0:
             status="rejected"; notes.append("rejected: no source IDs")
-        elif strong >= 1 and linked >= 1 and status not in {"promoted_to_chapter", "supported"}:
-            status="needs_review"; notes.append("has A/B support but needs human/editor review before promotion")
+        elif strong >= 1 and linked >= 1 and status in {"candidate"}:
+            status="needs_review"; notes.append("has A/B support but needs Editor review before promotion")
         elif social >= linked and strong == 0:
-            status="weakly_supported"; notes.append("social/search-result evidence only; caveat required")
+            if status in {"candidate", "needs_review", "supported", "promoted_to_chapter"}:
+                status="weakly_supported"
+            notes.append("social/search-result evidence only; caveat required")
         elif low >= linked:
             status="rejected"; notes.append("only low-quality/noisy sources")
         elif status == "candidate":
-            status="needs_review"; notes.append("candidate requires editor review")
+            status="needs_review"; notes.append("candidate requires Editor review")
         if any(w in text.lower() for w in HYPE_WORDS):
             notes.append("hype language present")
             if status in {"supported", "promoted_to_chapter"}: status="needs_review"
-        con.execute("UPDATE claims SET status=?, editor_notes=?, reviewed_at=? WHERE id=?", (status, "; ".join(notes), now, c["id"]))
-        item={"id": c["id"], "text": text, "status": status, "linked_sources": linked, "strong_sources": strong, "social_sources": social, "low_sources": low, "notes": notes}
+        if status == "contradicted" or claim_type == "contradiction":
+            contradiction_status="contradicted"
+        else:
+            contradiction_status="not_found"
+        if status == "promoted_to_chapter":
+            publication_decision="approved_for_chapter"
+        elif status == "supported":
+            publication_decision="allowed_for_author"
+        elif status == "weakly_supported":
+            publication_decision="allowed_with_caveat"
+        elif status == "contradicted":
+            publication_decision="discuss_only_as_contested"
+        else:
+            publication_decision="do_not_use"
+        source_quality=c["source_quality"] or "unknown"
+        con.execute("""
+            UPDATE claims
+            SET status=?, claim_type=?, source_quality=?, contradiction_status=?, publication_decision=?, editor_notes=?, reviewed_at=?
+            WHERE id=?
+        """, (status, claim_type, source_quality, contradiction_status, publication_decision, "; ".join(notes), now, c["id"]))
+        item={"id": c["id"], "text": text, "claim_type": claim_type, "status": status, "linked_sources": linked, "source_quality": source_quality, "strong_sources": strong, "interpretation_sources": interp, "social_sources": social, "low_sources": low, "contradiction_status": contradiction_status, "publication_decision": publication_decision, "notes": notes}
         if status == "promoted_to_chapter": promoted.append(item)
         elif status == "supported": approved.append(item)
         elif status == "rejected": rejected.append(item)
@@ -253,13 +292,36 @@ def trend_decisions(run_id: str, con):
     return decisions
 
 
+def claim_metadata_issues(con):
+    issues=[]
+    invalid_status=[dict(r) for r in con.execute("SELECT id,status FROM claims WHERE status IS NULL OR status NOT IN ('candidate','needs_review','supported','weakly_supported','contradicted','rejected','promoted_to_chapter') LIMIT 20")]
+    invalid_type=[dict(r) for r in con.execute("SELECT id,claim_type FROM claims WHERE claim_type IS NULL OR claim_type NOT IN ('definition','observation','trend','technical pattern','risk','limitation','example','contradiction','interpretation','open question') LIMIT 20")]
+    no_source=[dict(r) for r in con.execute("SELECT id, claim_text FROM claims c WHERE NOT EXISTS (SELECT 1 FROM claim_sources cs WHERE cs.claim_id=c.id) LIMIT 20")]
+    missing_required=[dict(r) for r in con.execute("""
+        SELECT id FROM claims
+        WHERE claim_text IS NULL OR claim_text=''
+           OR claim_type IS NULL OR status IS NULL
+           OR evidence_strength IS NULL
+           OR first_seen_at IS NULL OR last_seen_at IS NULL
+           OR source_quality IS NULL
+           OR contradiction_status IS NULL
+           OR publication_decision IS NULL
+        LIMIT 20
+    """)]
+    if invalid_status: issues.append({"kind":"invalid_status", "items": invalid_status})
+    if invalid_type: issues.append({"kind":"invalid_type", "items": invalid_type})
+    if no_source: issues.append({"kind":"no_source_id", "items": no_source})
+    if missing_required: issues.append({"kind":"missing_required_fields", "items": missing_required})
+    return issues
+
+
 def chapter_update_gate(con):
     errors=[]; warnings=[]; updated=[]
     for p in (DOCS/"book").glob("*.md"):
         text=p.read_text(encoding="utf-8", errors="ignore")
         if any(w in text.lower() for w in HYPE_WORDS):
             errors.append(f"{p.relative_to(DOCS)} contains hype language")
-        if "No supported or high-confidence claims" in text:
+        if "No publishable chapter update is recommended" in text:
             continue
         bullets=[ln for ln in text.splitlines() if ln.startswith("- ")]
         if bullets and not re.search(r"`(claim_[a-f0-9]{20}|src_[a-f0-9]{20})`", text):
@@ -322,6 +384,7 @@ def main():
         contradictions=detect_contradictions(con)
         trends=trend_decisions(args.run_id, con)
         gate=chapter_update_gate(con)
+        claim_issues=claim_metadata_issues(con)
         c=counts(con)
         con.execute("INSERT OR REPLACE INTO editorial_reviews (id, run_id, review_type, status, summary, report_path, created_at) VALUES (?,?,?,?,?,?,?)", ("review_"+sha256_text(args.run_id)[:20], args.run_id, "pipeline", "reviewed", "automated conservative editorial pipeline review", "", now))
         con.commit()
@@ -331,6 +394,8 @@ def main():
         blocked.append("sources captured but no claims extracted")
     if c["claim_counts"].get(None, 0) or c["claim_counts"].get("", 0):
         blocked.append("claim statuses are missing")
+    if claim_issues:
+        blocked.append("claim metadata issues: " + json.dumps(claim_issues[:3], ensure_ascii=False)[:1000])
     # Claims with no sources.
     with connect_db() as con:
         missing_sources=con.execute("SELECT COUNT(*) FROM claims c WHERE NOT EXISTS (SELECT 1 FROM claim_sources cs WHERE cs.claim_id=c.id)").fetchone()[0]
@@ -369,6 +434,7 @@ def main():
         "claims_promoted": review["promoted_claims"],
         "claims_rejected": review["rejected_claims"],
         "claims_needing_review": review["claims_needing_review"][:50],
+        "claim_metadata_issues": claim_issues,
         "source_quality_distribution": c["source_quality_distribution"],
         "source_quality_warnings": [f"{quality.get('D',0)} social/weak-signal sources", f"{quality.get('E',0)} low-quality/noisy sources"],
         "duplicates_or_repeated_signals": dup,

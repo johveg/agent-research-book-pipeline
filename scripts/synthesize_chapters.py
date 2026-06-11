@@ -59,10 +59,9 @@ def find_claims(con, terms: list[str], approved_only: bool = True):
     for t in terms:
         clauses.append("lower(claim_text) LIKE ?")
         params.append(f"%{t.lower()}%")
-    # Authoring is evidence-gated: narrative chapter prose may use only claims
-    # explicitly promoted by the Editor workflow. Supported/high-confidence
-    # records remain research evidence until promoted_to_chapter.
-    status_clause = "status = 'promoted_to_chapter'" if approved_only else "1=1"
+    # Author usage rule: supported claims may be used; weakly_supported claims
+    # may be used only with caveat; promoted_to_chapter claims are Editor-approved.
+    status_clause = "status IN ('supported','weakly_supported','promoted_to_chapter')" if approved_only else "1=1"
     sql = f"""
       SELECT c.*, COUNT(cs.source_id) AS linked_sources
       FROM claims c LEFT JOIN claim_sources cs ON cs.claim_id = c.id
@@ -79,14 +78,15 @@ def find_claims(con, terms: list[str], approved_only: bool = True):
 def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: int, now: str) -> None:
     lines = [f"# {title}", "", intro, "", "## Current evidence status", ""]
     if claims:
-        lines.append("The following points are synthesized only from Editor-promoted claim records:")
+        lines.append("The following points are synthesized only from claim records whose status allows Author use:")
         lines.append("")
         for c in claims:
-            lines.append(f"- {c['claim_text']} (`{c['id']}`, {c['evidence_strength'] or 'weak'} evidence, {c['linked_sources']} source(s))")
+            caveat = "Current evidence suggests: " if c["status"] == "weakly_supported" else ""
+            lines.append(f"- {caveat}{c['claim_text']} (`{c['id']}`, status `{c['status']}`, {c['evidence_strength'] or 'weak'} evidence, {c['linked_sources']} source(s))")
     else:
-        lines.append("No supported or high-confidence claims have been promoted into this chapter yet. The collector has source material, but v1 editorial policy requires claim records to be supported before narrative synthesis.")
+        lines.append("No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.")
         lines.append("")
-        lines.append(f"Candidate claim records matching this chapter: {candidate_count}.")
+        lines.append(f"Claims matching this chapter but not usable in prose: {candidate_count}.")
     lines += ["", "## Editorial policy", "", f"Last generated: {now}. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`."]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

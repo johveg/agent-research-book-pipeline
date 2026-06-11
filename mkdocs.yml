@@ -51,6 +51,7 @@ nav:
       - Editor Role Instruction: operations/editor-role-instruction.md
       - Curator Function Instruction: operations/curator-function-instruction.md
       - Editorial Content Pipeline: operations/editorial-content-pipeline.md
+      - Claim Status Instruction: operations/claim-status-instruction.md
       - Master Editorial System: operations/master-editorial-system.md
       - Data Model: operations/data-model.md
       - Cron: operations/cron.md

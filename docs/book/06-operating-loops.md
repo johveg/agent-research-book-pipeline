@@ -1,22 +1,13 @@
 # 6. Operating Loops in Production
 
-Production loops need operational machinery around the model: schedules, manifests, verification, safe commits, status reports, and non-disruptive watchdogs.
+Production loops need manifests, verification, state files, safe retries, non-destructive watchdogs, and human escalation boundaries.
 
-## What the existing harvest contributes
+## Current evidence status
 
-The current corpus has **8 matching source records** for this topic: **0 public web records** and **8 LinkedIn search-result records**.
-LinkedIn records are used here as aggregate signal, not as individually published citations. This keeps the public book focused on professional/public evidence while avoiding unnecessary publication of social-search snippets.
+No supported or high-confidence claims have been promoted into this chapter yet. The collector has source material, but v1 editorial policy requires claim records to be supported before narrative synthesis.
 
-## Important related entities
+Candidate claim records matching this chapter: 12.
 
-- GeoAnts Monitoring Systems — `company`, mentions: 14, linked sources: 2
+## Editorial policy
 
-## Public-source gap
-
-The current harvest has no public web source records for this topic yet. The topic is visible in social/search signals, but the Editor role should not promote stronger narrative claims until public corroborating sources are added.
-
-## Draft synthesis
-
-At this stage, the book can safely say that this topic appears in the harvested monitoring corpus and is connected to the entities and public sources listed above. Stronger prose should be written after the Editor role reviews source quality, removes false positives, and decides which claims deserve promotion.
-
-Last generated from harvest: 2026-06-11T21:23:21Z.
+Last generated: 2026-06-11T22:15:32Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.

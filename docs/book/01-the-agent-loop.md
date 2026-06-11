@@ -1,27 +1,13 @@
 # 1. The Agent Loop
 
-The central thesis of this book is that useful AI agents are not just prompts. They are loops: systems that repeatedly gather context, act through tools, verify outputs, save state, and report back to people.
+The central pattern is a closed loop: goal, context, action, verification, saved state, report, retry, and escalation.
 
-## The basic loop
+## Current evidence status
 
-1. Define the goal.
-2. Gather current context from files, web, databases, sessions, or messages.
-3. Act through tools or scripts.
-4. Verify the result with explicit checks.
-5. Save durable state outside the model.
-6. Report the result to a human channel.
-7. Retry safe failures and escalate unsafe or ambiguous ones.
+No supported or high-confidence claims have been promoted into this chapter yet. The collector has source material, but v1 editorial policy requires claim records to be supported before narrative synthesis.
 
-## Evidence in this project
+Candidate claim records matching this chapter: 12.
 
-The book loop itself has already processed 371 source records and maintains 1106 entity records and 55 claim records. Its daily collector, status poller, watchdog, database, vector index, Git commits, and GitHub Pages publication are all examples of the loop pattern described here.
+## Editorial policy
 
-## Cross-links
-
-- [Hermes](02-hermes.md)
-- [OpenClaw](03-openclaw.md)
-- [Loop Engineering](04-loop-engineering.md)
-- [Context and Memory Architecture](05-context-memory-architecture.md)
-- [Operating Loops in Production](06-operating-loops.md)
-
-Last generated from harvest: 2026-06-11T21:23:21Z.
+Last generated: 2026-06-11T22:15:32Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.

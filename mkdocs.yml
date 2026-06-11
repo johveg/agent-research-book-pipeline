@@ -49,6 +49,7 @@ nav:
       - Book Role Instruction: operations/book-role-instruction.md
       - Author Role Instruction: operations/author-role-instruction.md
       - Editor Role Instruction: operations/editor-role-instruction.md
+      - Curator Function Instruction: operations/curator-function-instruction.md
       - Master Editorial System: operations/master-editorial-system.md
       - Data Model: operations/data-model.md
       - Cron: operations/cron.md

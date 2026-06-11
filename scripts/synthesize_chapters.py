@@ -53,13 +53,16 @@ CHAPTERS = {
 }
 
 
-def find_claims(con, terms: list[str], supported_only: bool = True):
+def find_claims(con, terms: list[str], approved_only: bool = True):
     clauses = []
     params = []
     for t in terms:
         clauses.append("lower(claim_text) LIKE ?")
         params.append(f"%{t.lower()}%")
-    status_clause = "status = 'supported' OR confidence = 'high' OR evidence_strength = 'strong'" if supported_only else "1=1"
+    # Authoring is evidence-gated: narrative chapter prose may use only claims
+    # explicitly promoted by the Editor workflow. Supported/high-confidence
+    # records remain research evidence until promoted_to_chapter.
+    status_clause = "status = 'promoted_to_chapter'" if approved_only else "1=1"
     sql = f"""
       SELECT c.*, COUNT(cs.source_id) AS linked_sources
       FROM claims c LEFT JOIN claim_sources cs ON cs.claim_id = c.id
@@ -76,7 +79,7 @@ def find_claims(con, terms: list[str], supported_only: bool = True):
 def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: int, now: str) -> None:
     lines = [f"# {title}", "", intro, "", "## Current evidence status", ""]
     if claims:
-        lines.append("The following points are synthesized only from supported or high-confidence claim records:")
+        lines.append("The following points are synthesized only from Editor-promoted claim records:")
         lines.append("")
         for c in claims:
             lines.append(f"- {c['claim_text']} (`{c['id']}`, {c['evidence_strength'] or 'weak'} evidence, {c['linked_sources']} source(s))")
@@ -98,8 +101,8 @@ def main() -> int:
     with connect_db() as con:
         ensure_editorial_schema(con)
         for rel, cfg in CHAPTERS.items():
-            supported = find_claims(con, cfg["terms"], supported_only=True)
-            candidates = find_claims(con, cfg["terms"], supported_only=False)
+            supported = find_claims(con, cfg["terms"], approved_only=True)
+            candidates = find_claims(con, cfg["terms"], approved_only=False)
             out = DOCS / rel
             write_chapter(out, cfg["title"], cfg["intro"], supported, len(candidates), now)
             updated.append(rel)

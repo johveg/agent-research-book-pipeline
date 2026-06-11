@@ -1,6 +1,6 @@
 # Trend Discovery
 
-Last generated: 2026-06-11T22:15:32Z
+Last generated: 2026-06-11T22:32:28Z
 
 Candidate terms are **not automatically promoted** into recurring searches. They are proposed for review.
 

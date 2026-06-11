@@ -1,13 +1,13 @@
 # LangGraph
 
-Last generated: 2026-06-11T21:23:20Z
+Last generated: 2026-06-11T22:32:27Z
 
 - Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T21:23:20Z
+- Last seen: 2026-06-11T22:32:27Z
 - Source count: 2
-- Mention count: 18
+- Mention count: 20
 
 ## Description
 

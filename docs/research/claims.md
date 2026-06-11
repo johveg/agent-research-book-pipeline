@@ -1,6 +1,6 @@
 # Claims
 
-Last generated: 2026-06-11T22:15:32Z
+Last generated: 2026-06-11T22:32:27Z
 
 Claims are explicit editorial records linked to source IDs. Candidate claims are not accepted facts; supported claims require human review or repeated strong evidence.
 

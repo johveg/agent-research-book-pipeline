@@ -23,6 +23,8 @@ CREATE TABLE IF NOT EXISTS sources (
   archived_path TEXT,
   content_hash TEXT,
   reliability_tier TEXT DEFAULT 'unknown',
+  quality_score TEXT DEFAULT 'unknown',
+  quality_notes TEXT,
   visibility TEXT DEFAULT 'public_or_search_result',
   run_id TEXT,
   UNIQUE(url, content_hash)
@@ -52,6 +54,8 @@ CREATE TABLE IF NOT EXISTS claims (
   current_best_understanding TEXT,
   evidence_strength TEXT DEFAULT 'weak',
   source_count INTEGER DEFAULT 0,
+  editor_notes TEXT,
+  reviewed_at TEXT,
   updated_at TEXT
 );
 
@@ -107,4 +111,23 @@ CREATE TABLE IF NOT EXISTS artifacts (
   path TEXT NOT NULL,
   created_at TEXT NOT NULL,
   status TEXT DEFAULT 'ok'
+);
+
+CREATE TABLE IF NOT EXISTS source_notes (
+  id TEXT PRIMARY KEY,
+  source_id TEXT NOT NULL,
+  note TEXT NOT NULL,
+  note_type TEXT DEFAULT 'summary',
+  created_at TEXT NOT NULL,
+  FOREIGN KEY(source_id) REFERENCES sources(id)
+);
+
+CREATE TABLE IF NOT EXISTS editorial_reviews (
+  id TEXT PRIMARY KEY,
+  run_id TEXT NOT NULL,
+  review_type TEXT NOT NULL,
+  status TEXT NOT NULL,
+  summary TEXT,
+  report_path TEXT,
+  created_at TEXT NOT NULL
 );

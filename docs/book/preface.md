@@ -10,4 +10,4 @@ Candidate claim records matching this chapter: 12.
 
 ## Editorial policy
 
-Last generated: 2026-06-11T22:15:32Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
+Last generated: 2026-06-11T22:32:28Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.

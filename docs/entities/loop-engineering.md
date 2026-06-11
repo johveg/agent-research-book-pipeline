@@ -1,13 +1,13 @@
 # Loop engineering
 
-Last generated: 2026-06-11T21:23:20Z
+Last generated: 2026-06-11T22:32:27Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T21:23:20Z
+- Last seen: 2026-06-11T22:32:27Z
 - Source count: 136
-- Mention count: 2724
+- Mention count: 3088
 
 ## Description
 
@@ -43,19 +43,10 @@ Candidate concept entity extracted from 136 source(s).
 - `src_59b180e9625a95a78dc0` — Feed post Cathartic Computing Club 578 followers 1h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.
   - URL: https://www.linkedin.com/company/davilagrau/posts
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/031-da1b79830678c0fdd977.md`
-- `src_41eb746f04a3ea6b0071` — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering,
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/004-54e88de2be7c7a9b21f8.md`
-- `src_b4579afbea1fcf6d2e2d` — Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. Over the last two 
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/045-1948055b4a151f7fb1a3.md`
-- `src_d6b19e77f7b0a7947e07` — The paradigm shift in interacting with coding agents is here: Loop Engineering. Instead of direct prompting, the focus is now on designing s
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/033-52f3f914667566b8c3ae.md`
-- `src_e0171aeaf56dd4cb0cd7` — Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. Here's how the
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/036-b0c417aaaed0f16416d0.md`
-- `src_fccced70af25ad30495a` — Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".
-  - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/008-9baf8e463ca2976cd23b.md`
 - `src_1d386e25cf92c1f02650` — Loop Engineering: replacing one-shot prompts with a self-correcting cycle. Four phases: Act. The agent generates output. Observe. The system
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/076-d7b973aee355132aa3f9.md`
+- `src_41eb746f04a3ea6b0071` — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering,
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/004-54e88de2be7c7a9b21f8.md`
 - `src_45271aaf537ca39870f7` — Loop Engineering is the next leap: agents find work, execute, evaluate, and repeat without constant supervision. The secret? Build the evalu
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/073-f213d10bb437a0af4304.md`
 - `src_46e50208076678100960` — Feed post Ramasubramanian Meenakshisundaram • 3rd+ Senior Technologist at Infosys 5h • Follow The Rise of "Loop Engineering": As technical l
@@ -66,10 +57,19 @@ Candidate concept entity extracted from 136 source(s).
 - `src_8ef64e5b25fcac4e92a7` — Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 1h • Follow "Loop Engineering" is so hot right now, in
   - URL: https://www.linkedin.com/in/denysenkodaniil?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABgfYbMBCBVKVSdQekV5vtH1opRZR-0xnGo
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/054-bc58a29a9bb7801f894c.md`
+- `src_b4579afbea1fcf6d2e2d` — Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. Over the last two 
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/045-1948055b4a151f7fb1a3.md`
 - `src_d5aa7edc8d9b671b6a0b` — "Loop Engineering" is so hot right now, instantly reminded me of this classic.
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/056-aab12e31d1d92de0acdd.md`
+- `src_d6b19e77f7b0a7947e07` — The paradigm shift in interacting with coding agents is here: Loop Engineering. Instead of direct prompting, the focus is now on designing s
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/033-52f3f914667566b8c3ae.md`
+- `src_e0171aeaf56dd4cb0cd7` — Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. Here's how the
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/036-b0c417aaaed0f16416d0.md`
 - `src_f94ea32ae29619aa2c2f` — 最近看到很多人在討論 Loop Engineering . 如果回頭看過去一年 AI Coding 的發展，我反而覺得大家其實是在一路往上抽象。 一開始我們研究怎麼寫 Prompt，後來發現光會下指令不夠，又開始想辦法管理 Context，避免模型每次都像剛報到的新同事。接著進入
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/106-c3f3d5b4ea71aa0bee7d.md`
+- `src_fccced70af25ad30495a` — Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".
+  - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/008-9baf8e463ca2976cd23b.md`
 - `src_095c81dde99ff28d9217` — Loop Engineering: Managing Teams of AI Coding Agents
   - URL: https://www.mattwarren.co/2026/06/loop-engineering/
   - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/05-loop-engineering-managing-teams-of-ai-coding-agents.md`

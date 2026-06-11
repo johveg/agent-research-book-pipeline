@@ -1,13 +1,13 @@
 # Google
 
-Last generated: 2026-06-11T21:23:20Z
+Last generated: 2026-06-11T22:32:27Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T21:23:20Z
+- Last seen: 2026-06-11T22:32:27Z
 - Source count: 7
-- Mention count: 51
+- Mention count: 58
 
 ## Description
 

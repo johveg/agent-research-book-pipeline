@@ -1,0 +1,49 @@
+site_name: Terefo Heal Reboa
+site_description: A living research book about Hermes, OpenClaw, and loop engineering.
+site_url: https://johveg.github.io/terefohealreboa/
+repo_url: https://github.com/johveg/terefohealreboa
+repo_name: johveg/terefohealreboa
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.action.edit
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Book:
+      - Preface: book/preface.md
+      - 1. The Agent Loop: book/01-the-agent-loop.md
+      - 2. Hermes: book/02-hermes.md
+      - 3. OpenClaw: book/03-openclaw.md
+      - 4. Loop Engineering: book/04-loop-engineering.md
+      - 5. Context and Memory Architecture: book/05-context-memory-architecture.md
+      - 6. Operating Loops in Production: book/06-operating-loops.md
+      - Open Questions: book/open-questions.md
+  - Entities:
+      - Companies: entities/companies.md
+      - People: entities/people.md
+      - Projects: entities/projects.md
+      - Concepts: entities/concepts.md
+  - Research:
+      - Sources: research/sources.md
+      - Claims: research/claims.md
+      - Trend Discovery: research/trend-discovery.md
+      - Daily Reports: reports/index.md
+  - Operations:
+      - Runbook: operations/runbook.md
+      - Roles: operations/roles.md
+      - Data Model: operations/data-model.md
+      - Cron: operations/cron.md

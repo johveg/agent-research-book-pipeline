@@ -1,0 +1,40 @@
+# Python/runtime
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+
+# Local credentials/browser/session state
+.var/
+**/browser-profile/
+**/*cookies*
+**/*token*
+**/*secret*
+**/*credential*
+
+# Runtime logs and worker state
+logs/runs/*.log
+logs/runs/state/*.state
+logs/runs/state/latest.state
+logs/runs/*.pid
+
+# Raw/private captures; sanitized metadata/reports may be committed selectively
+raw/authenticated/
+raw/linkedin/**/source.html
+raw/linkedin/**/screenshots/
+raw/web/**/source.html
+raw/web/**/raw-response.json
+
+# Local databases and vector stores
+*.sqlite
+*.sqlite3
+*.db
+vector_db/*
+!vector_db/.gitkeep
+
+# Build output
+site/

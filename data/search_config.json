@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "topic": "Hermes, OpenClaw, loop engineer, and loop engineering",
+  "web_queries": [
+    "\"Hermes Agent\" \"Nous Research\"",
+    "\"OpenClaw\" Hermes",
+    "\"loop engineering\" AI agents",
+    "\"loop engineer\" AI",
+    "\"Hermes\" \"OpenClaw\""
+  ],
+  "linkedin_queries": [
+    "\"Hermes Agent\"",
+    "\"OpenClaw\" Hermes",
+    "\"loop engineering\"",
+    "\"loop engineer\""
+  ],
+  "known_core_terms": [
+    "hermes", "openclaw", "loop engineering", "loop engineer", "agent", "agents", "ai"
+  ],
+  "trend_discovery": {
+    "min_count": 2,
+    "max_terms": 30,
+    "exclude_terms": ["linkedin", "https", "http", "www", "com", "the", "and", "for", "with", "from", "this", "that"]
+  }
+}

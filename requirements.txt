@@ -1,0 +1,5 @@
+mkdocs-material
+pyyaml
+playwright
+chromadb
+sentence-transformers

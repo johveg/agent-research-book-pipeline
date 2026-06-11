@@ -4,17 +4,31 @@ This project uses three practical roles. They can be executed by one Hermes coor
 
 ## Book role → keeps the book usable
 
-The Book role maintains the public reading experience and operational health of the book:
+The Book role should not write the argument. Its job is structural.
 
-- chapter order
-- navigation
+The Book role maintains:
+
+- MkDocs navigation
+- chapter files
 - entity pages
-- source and claim pages
-- GitHub Pages build health
-- broken-link/build hygiene
-- clear separation between public pages and local runtime evidence
+- report indexes
+- broken-link checks
+- build validity
+- consistent formatting
+- approved public content only
 
-The Book role does not invent facts. It keeps the book usable and makes sure source-backed material can be found, read, and audited.
+The Book role is basically the publisher / production editor.
+
+It should ask:
+
+- Does the site build?
+- Are pages in the right place?
+- Are links valid?
+- Are reports reachable?
+- Are chapters consistently structured?
+- Is the book navigable?
+
+It should not decide whether a claim is true.
 
 ## Author role → turns approved evidence into readable argument
 

@@ -34,7 +34,7 @@ def main() -> int:
     daily=sorted((REPORTS/'daily').glob('*.md'), reverse=True)[:100]
     lines=['# Daily Reports','',f'Last generated: {now}','']
     for p in daily:
-        lines.append(f"- [{p.stem}](../../reports/daily/{p.name})")
+        lines.append(f"- **{p.stem}** — local report `{p.relative_to(DOCS.parent)}`")
     (DOCS/'reports/index.md').write_text('\n'.join(lines)+'\n', encoding='utf-8')
     print('updated docs/research and docs/reports pages')
     return 0

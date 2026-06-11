@@ -1,13 +1,13 @@
 # Enterprise Architecture
 
-Last generated: 2026-06-11T23:11:24Z
+Last generated: 2026-06-11T23:19:09Z
 
 - Type: `concept`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:11:24Z
+- Last seen: 2026-06-11T23:19:09Z
 - Source count: 2
-- Mention count: 48
+- Mention count: 60
 
 ## Description
 

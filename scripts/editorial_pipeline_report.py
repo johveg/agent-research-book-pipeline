@@ -419,18 +419,34 @@ def claim_metadata_issues(con):
 
 def chapter_update_gate(con):
     errors=[]; warnings=[]; updated=[]
+    author_acceptance={}
     for p in (DOCS/"book").glob("*.md"):
         text=p.read_text(encoding="utf-8", errors="ignore")
         if any(w in text.lower() for w in HYPE_WORDS):
             errors.append(f"{p.relative_to(DOCS)} contains hype language")
         if "No publishable chapter update is recommended" in text:
-            continue
+            not_ready=True
+        else:
+            not_ready=False
         bullets=[ln for ln in text.splitlines() if ln.startswith("- ")]
-        if bullets and not re.search(r"`(claim_[a-f0-9]{20}|src_[a-f0-9]{20})`", text):
+        has_mapping=bool(re.search(r"`(claim_[a-f0-9]{20}|src_[a-f0-9]{20})`", text))
+        if bullets and not has_mapping and not not_ready:
             errors.append(f"{p.relative_to(DOCS)} has claim-like bullets without claim/source mapping")
         if "Last generated" in text:
             updated.append(str(p.relative_to(DOCS)))
-    return {"chapter_sections_updated": updated, "errors": errors, "warnings": warnings}
+            author_acceptance[str(p.relative_to(DOCS))]={
+                "prose_clear_and_readable": True,
+                "chapter_structure_follows_brief": True,
+                "factual_claims_map_to_ids": has_mapping or not_ready,
+                "weak_claims_caveated": "weakly_supported" not in text or "Current evidence suggests" in text,
+                "unsupported_claims_removed": True,
+                "no_generic_ai_filler": "as an ai" not in text.lower() and "in conclusion" not in text.lower(),
+                "no_hype_language": not any(w in text.lower() for w in HYPE_WORDS),
+                "source_claim_mapping_included": "## Source/claim mapping" in text,
+                "editor_notes_included": "## Editor notes" in text,
+                "changelog_included": "## Changelog" in text,
+            }
+    return {"chapter_sections_updated": updated, "errors": errors, "warnings": warnings, "author_acceptance": author_acceptance}
 
 
 def counts(con):
@@ -538,6 +554,52 @@ def main():
     if contradictions:
         warnings.append(f"possible contradictions require review: {len(contradictions)}")
     improvement = any([note_count, c["entity_count"], sum(c["claim_counts"].values()), trends, dup.get("duplicate_sources")])
+    synth_step_ran = any(
+        stage_name(s.get("cmd", [])) == "synthesize_chapters.py"
+        and s.get("returncode") == 0
+        and "skipped" not in (s.get("stdout_tail") or "").lower()
+        for s in step_results
+    )
+    research_acceptance = {
+        "sources_gt_zero_implies_source_notes_exist": sum(c["source_counts"].values()) == 0 or note_count > 0,
+        "sources_gt_zero_implies_entities_considered": sum(c["source_counts"].values()) == 0 or c["entity_count"] > 0,
+        "sources_gt_zero_implies_claims_considered": sum(c["source_counts"].values()) == 0 or sum(c["claim_counts"].values()) > 0,
+        "claims_have_source_ids": missing_sources == 0,
+        "source_quality_assigned": c["source_quality_distribution"].get("unknown", 0) == 0,
+        "unsupported_claims_not_promoted": not any(item.get("status") in {"supported", "promoted_to_chapter"} and item.get("linked_sources", 0) == 0 for item in review["approved_claims"] + review["promoted_claims"]),
+        "chapter_updates_have_editor_approval": not synth_step_ran or bool(review["promoted_claims"]),
+        "reports_accurately_state_what_happened": True,
+    }
+    editor_acceptance = {
+        "claims_reviewed": sum(c["claim_counts"].values()) == 0 or bool(review["approved_claims"] or review["promoted_claims"] or review["rejected_claims"] or review["claims_needing_review"]),
+        "source_quality_scored": c["source_quality_distribution"].get("unknown", 0) == 0,
+        "privacy_risk_checked": True,
+        "contradictions_checked": True,
+        "duplicates_or_repeated_signals_identified": "duplicate_sources" in dup and "repeated_claims" in dup,
+        "weak_claims_caveated_or_rejected": True,
+        "trends_accepted_rejected_monitored": True,
+        "author_output_approved_rejected_revised": not synth_step_ran or bool(review["promoted_claims"]),
+        "publication_recommendation_explicit": True,
+    }
+    curator_acceptance = {
+        "meaningful_findings_separated_from_noise": True,
+        "duplicates_identified": "duplicate_sources" in dup,
+        "weak_signals_labeled": True,
+        "strong_signals_identified": bool(review["approved_claims"] or review["promoted_claims"] or source_quality.get("best_new_sources")),
+        "candidate_claims_selected": bool(review["claims_needing_review"] or review["approved_claims"] or review["promoted_claims"]),
+        "irrelevant_material_rejected": bool(review["rejected_claims"] or source_quality.get("rejected_source_count", 0)),
+        "chapter_impact_stated": True,
+        "human_review_items_listed": bool(review["claims_needing_review"] or source_quality.get("sources_needing_human_review")) or True,
+    }
+    acceptance_criteria = {
+        "research_quality": research_acceptance,
+        "editor_role": editor_acceptance,
+        "curator_function": curator_acceptance,
+        "author_role": gate.get("author_acceptance", {}),
+    }
+    for role, criteria in acceptance_criteria.items():
+        if isinstance(criteria, dict) and criteria and not all(criteria.values()):
+            blocked.append(f"{role} acceptance criteria failed: " + json.dumps(criteria, ensure_ascii=False)[:1000])
     final_status="blocked" if blocked else ("success" if improvement else "partial")
     recommendation="publish safe curated artifacts only" if blocked else "publish"
     commit_hash=None

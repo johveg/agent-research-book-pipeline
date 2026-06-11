@@ -1,13 +1,13 @@
 # RAG
 
-Last generated: 2026-06-11T23:11:24Z
+Last generated: 2026-06-11T23:19:09Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:11:24Z
+- Last seen: 2026-06-11T23:19:09Z
 - Source count: 3
-- Mention count: 36
+- Mention count: 45
 
 ## Description
 

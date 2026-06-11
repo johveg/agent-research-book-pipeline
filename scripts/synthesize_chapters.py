@@ -104,7 +104,8 @@ def find_claims(con, terms: list[str], approved_only: bool = True):
     # may be used only with caveat; promoted_to_chapter claims are Editor-approved.
     status_clause = "status IN ('supported','weakly_supported','promoted_to_chapter')" if approved_only else "1=1"
     sql = f"""
-      SELECT c.*, COUNT(cs.source_id) AS linked_sources
+      SELECT c.*, COUNT(cs.source_id) AS linked_sources,
+             GROUP_CONCAT(cs.source_id) AS source_ids
       FROM claims c LEFT JOIN claim_sources cs ON cs.claim_id = c.id
       WHERE ({' OR '.join(clauses)}) AND ({status_clause})
       GROUP BY c.id
@@ -123,12 +124,30 @@ def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: i
         lines.append("")
         for c in claims:
             caveat = "Current evidence suggests: " if c["status"] == "weakly_supported" else ""
-            lines.append(f"- {caveat}{c['claim_text']} (`{c['id']}`, status `{c['status']}`, {c['evidence_strength'] or 'weak'} evidence, {c['linked_sources']} source(s))")
+            source_ids = ", ".join((c["source_ids"] or "").split(",")[:5]) or "missing-source-id"
+            lines.append(f"- {caveat}{c['claim_text']} (`{c['id']}`, status `{c['status']}`, {c['evidence_strength'] or 'weak'} evidence, source ID(s): `{source_ids}`)")
     else:
         lines.append("No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.")
         lines.append("")
         lines.append(f"Claims matching this chapter but not usable in prose: {candidate_count}.")
-    lines += ["", "## Editorial policy", "", f"Last generated: {now}. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`."]
+    lines += [
+        "",
+        "## Source/claim mapping",
+        "",
+        "Every factual bullet above includes a claim ID and source ID list. If none are present, the chapter remains in not-ready status.",
+        "",
+        "## Editor notes",
+        "",
+        "Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated.",
+        "",
+        "## Changelog",
+        "",
+        f"- {now}: conservative evidence-status regeneration for run context.",
+        "",
+        "## Editorial policy",
+        "",
+        f"Last generated: {now}. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.",
+    ]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

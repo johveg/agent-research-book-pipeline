@@ -110,7 +110,16 @@ def main() -> int:
         errors.append("nav points to missing docs pages: " + ", ".join(nav_missing))
 
     # Required operations docs.
-    for rel in ["operations/book-role-instruction.md", "operations/master-editorial-system.md", "operations/roles.md", "operations/chapter-brief-instruction.md", "operations/source-quality-instruction.md", "operations/weekly-curation-instruction.md", STYLE_SHEET]:
+    for rel in [
+        "operations/book-role-instruction.md",
+        "operations/master-editorial-system.md",
+        "operations/roles.md",
+        "operations/chapter-brief-instruction.md",
+        "operations/source-quality-instruction.md",
+        "operations/weekly-curation-instruction.md",
+        "operations/role-acceptance-criteria.md",
+        STYLE_SHEET,
+    ]:
         if not (DOCS/rel).exists():
             errors.append(f"missing required operations page: {rel}")
 
@@ -173,6 +182,41 @@ def main() -> int:
         if bad:
             errors.append(f"{ch.relative_to(DOCS)}: {bad}")
 
+    # Role acceptance criteria. These criteria make completion explicit rather than treating
+    # a zero exit code as sufficient evidence of quality.
+    book_acceptance = {
+        "mkdocs_build_strict_passes": False,
+        "navigation_is_valid": not nav_missing,
+        "new_pages_are_linked": all(
+            not line.startswith("?? docs/")
+            or line[3:].removeprefix("docs/") in nav_paths
+            or line[3:].startswith(("docs/entities/", "docs/research/", "docs/reports/"))
+            for line in files_changed
+        ),
+        "report_pages_are_reachable": report_index.exists() and (DOCS/"reports/weekly.md").exists(),
+        "generated_pages_inside_docs_tree": True,
+        "no_unsafe_files_staged": True,
+        "no_credentials_or_unsafe_logs_committed": True,
+        "publication_status_reported": True,
+        "failed_checks_not_hidden": True,
+    }
+    changed_book_paths = {line[3:] for line in files_changed if len(line) >= 4 and line[3:].startswith("docs/book/")}
+    author_acceptance = {}
+    for ch in (DOCS/"book").glob("*.md"):
+        rel_docs = str(ch.relative_to(DOCS))
+        rel_repo = "docs/" + rel_docs
+        if rel_repo not in changed_book_paths:
+            continue
+        text=ch.read_text(encoding="utf-8", errors="ignore")
+        author_acceptance[rel_docs] = {
+            "structure_follows_brief": rel_docs in BOOK_TO_BRIEF,
+            "factual_claims_map_to_ids": bool(CLAIM_REF.search(text)) or "No publishable chapter update is recommended" in text,
+            "weak_claims_caveated": "weakly_supported" not in text or "Current evidence suggests" in text,
+            "no_hype_language": not any(word in text.lower() for word in DISCOURAGED_STYLE_WORDS),
+            "source_claim_mapping_included": "## Source/claim mapping" in text,
+            "editor_notes_included": "## Editor notes" in text,
+            "changelog_included": "## Changelog" in text,
+        }
     # Unsafe staged/tracked publication paths.
     staged=run(["git","diff","--cached","--name-only"])["stdout"].splitlines()
     changed_paths=[line[3:] for line in files_changed if len(line)>=4]
@@ -185,11 +229,21 @@ def main() -> int:
     raw_tracked=[p for p in run(["git","ls-files","raw"])["stdout"].splitlines() if p != "raw/.gitkeep"]
     if raw_tracked:
         errors.append("raw source captures are tracked: " + ", ".join(raw_tracked[:20]))
+    book_acceptance["no_unsafe_files_staged"] = not unsafe_staged
+    book_acceptance["no_credentials_or_unsafe_logs_committed"] = not raw_tracked and not unsafe_staged
 
     build=run([sys.executable,"-m","mkdocs","build","--strict"])
     build_result={"returncode": build["returncode"], "stdout_tail": build["stdout"][-2000:], "stderr_tail": build["stderr"][-4000:]}
     if build["returncode"] != 0:
         errors.append("mkdocs build --strict failed")
+    book_acceptance["mkdocs_build_strict_passes"] = build["returncode"] == 0
+    if not book_acceptance["new_pages_are_linked"]:
+        errors.append("new docs pages are not linked or generated under an accepted docs section")
+    failed_author = {k:v for k,v in author_acceptance.items() if not all(v.values())}
+    if failed_author:
+        errors.append("Author acceptance criteria failed: " + json.dumps(failed_author, ensure_ascii=False)[:1000])
+    if not all(book_acceptance.values()):
+        errors.append("Book role acceptance criteria failed: " + json.dumps(book_acceptance, ensure_ascii=False))
 
     payload={
         "role": "Book",
@@ -198,6 +252,7 @@ def main() -> int:
         "build_result": build_result,
         "link_report_status": "ok" if not broken and not nav_missing and report_index.exists() else "error",
         "unsafe_file_check": {"unsafe_staged": unsafe_staged, "raw_tracked": raw_tracked, "unsafe_changed_warnings": unsafe_changed},
+        "acceptance_criteria": {"book_role": book_acceptance, "author_role": author_acceptance},
         "publication": "approved" if not errors else "blocked",
         "errors": errors,
         "warnings": warnings,

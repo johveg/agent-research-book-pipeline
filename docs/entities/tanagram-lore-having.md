@@ -1,13 +1,13 @@
 # Tanagram Lore. Having
 
-Last generated: 2026-06-11T23:19:09Z
+Last generated: 2026-06-11T23:25:14Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:19:09Z
+- Last seen: 2026-06-11T23:25:14Z
 - Source count: 3
-- Mention count: 45
+- Mention count: 48
 
 ## Description
 

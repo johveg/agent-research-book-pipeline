@@ -1,10 +1,9 @@
 # Daily Reports
 
-Last generated: 2026-06-11T23:19:10Z
+Last generated: 2026-06-11T23:25:15Z
 
 - **weekly-curation-check-20260611T231124Z-daily-guard** — local report `reports/daily/weekly-curation-check-20260611T231124Z-daily-guard.md`
-- **role-acceptance-check-20260611T231824Z** — local report `reports/daily/role-acceptance-check-20260611T231824Z.md`
-- **role-acceptance-check-20260611T231735Z** — local report `reports/daily/role-acceptance-check-20260611T231735Z.md`
+- **role-acceptance-check-20260611T231909Z** — local report `reports/daily/role-acceptance-check-20260611T231909Z.md`
 - **manual-20260611T203115Z** — local report `reports/daily/manual-20260611T203115Z.md`
 - **manual-20260611T173313Z** — local report `reports/daily/manual-20260611T173313Z.md`
 - **fill-harvest-final-20260611T212320Z** — local report `reports/daily/fill-harvest-final-20260611T212320Z.md`

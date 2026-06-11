@@ -118,6 +118,7 @@ def main() -> int:
         "operations/source-quality-instruction.md",
         "operations/weekly-curation-instruction.md",
         "operations/role-acceptance-criteria.md",
+        "operations/do-not-publish-instruction.md",
         STYLE_SHEET,
     ]:
         if not (DOCS/rel).exists():

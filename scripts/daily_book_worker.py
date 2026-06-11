@@ -88,6 +88,23 @@ def build_daily_summary(run_id: str, start: str, status: str, steps: list[dict],
         name = Path(s["cmd"][1] if len(s["cmd"]) > 1 else s["cmd"][0]).name
         md.append(f"- `{name}`: exit {s['returncode']}")
     md += ["", "## Publication recommendation", "", f"- `{editorial.get('publication_recommendation', 'unknown')}`"]
+    bso = editorial.get("blocked_state_output", {})
+    if final_status == "blocked" or bso.get("block_reasons"):
+        md += [
+            "",
+            "## Blocked-state output",
+            "",
+            f"1. Block reason: `{bso.get('block_reasons', editorial.get('blocked_reasons', []))}`",
+            f"2. Affected files: `{bso.get('affected_files', [])}`",
+            f"3. Failed checks: `{bso.get('failed_checks', editorial.get('blocked_reasons', []))}`",
+            f"4. Data collected: `{bso.get('data_collected', bool(source_counts))}`",
+            f"5. Data usable: `{bso.get('data_usable', False)}`",
+            f"6. Safely updated: `{bso.get('safe_updates_allowed', [])}`",
+            f"7. Required next action: `{bso.get('required_next_action', 'review blocked reasons')}`",
+            f"8. Human review required: `{bso.get('human_review_required', False)}`",
+        ]
+        if bso.get("human_review_reasons"):
+            md.append(f"9. Human review reasons: `{bso.get('human_review_reasons')}`")
     if editorial.get("blocked_reasons"):
         md.append("- Blocked reasons:")
         for r in editorial.get("blocked_reasons", []):

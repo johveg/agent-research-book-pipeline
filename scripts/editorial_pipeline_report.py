@@ -446,6 +446,13 @@ def chapter_update_gate(con):
                 "editor_notes_included": "## Editor notes" in text,
                 "changelog_included": "## Changelog" in text,
             }
+        if not_ready:
+            continue
+        lower=text.lower()
+        if "linkedin" in lower and "weak signal" not in lower and "aggregate signal" not in lower and "social/search-result evidence only" not in lower:
+            errors.append(f"{p.relative_to(DOCS)} may treat LinkedIn/social material as proof without caveat")
+        if "placeholder" in lower and "not ready" not in lower and "no publishable chapter update is recommended" not in lower:
+            errors.append(f"{p.relative_to(DOCS)} contains placeholder-only language without explanation")
     return {"chapter_sections_updated": updated, "errors": errors, "warnings": warnings, "author_acceptance": author_acceptance}
 
 
@@ -489,6 +496,22 @@ def write_md_report(run_id, payload):
                 lines.append(f"- `{json.dumps(item, ensure_ascii=False)[:600]}`")
         lines.append("")
     lines += ["## Publication gate", "", f"- Recommendation: `{payload['publication_recommendation']}`"]
+    bso=payload.get("blocked_state_output", {})
+    if payload.get("final_status") == "blocked" or bso.get("block_reasons"):
+        lines += ["", "## Blocked-state output", ""]
+        labels=[
+            ("Block reason", bso.get("block_reasons", [])),
+            ("Affected files", bso.get("affected_files", [])),
+            ("Failed checks", bso.get("failed_checks", [])),
+            ("Data collected", bso.get("data_collected")),
+            ("Data usable", bso.get("data_usable")),
+            ("Safely updated", bso.get("safe_updates_allowed", [])),
+            ("Required next action", bso.get("required_next_action")),
+            ("Human review required", bso.get("human_review_required")),
+            ("Human review reasons", bso.get("human_review_reasons", [])),
+        ]
+        for label, val in labels:
+            lines.append(f"- {label}: `{json.dumps(val, ensure_ascii=False) if isinstance(val, (list, dict, bool)) else val}`")
     if payload.get("blocked_reasons"):
         lines.append("- Blocked reasons:")
         for r in payload["blocked_reasons"]: lines.append(f"  - {r}")
@@ -600,6 +623,66 @@ def main():
     for role, criteria in acceptance_criteria.items():
         if isinstance(criteria, dict) and criteria and not all(criteria.values()):
             blocked.append(f"{role} acceptance criteria failed: " + json.dumps(criteria, ensure_ascii=False)[:1000])
+    source_total=sum(c["source_counts"].values())
+    claim_total=sum(c["claim_counts"].values())
+    d_count=c["source_quality_distribution"].get("D", 0)
+    structural_trends=[t for t in trends if t.get("decision") == "reject" and "boilerplate" in (t.get("reason") or "")]
+    trend_noise_dominated=bool(trends) and len(structural_trends) > max(3, len(trends)//2)
+    editorial_review_ran=True
+    chapter_publication_blockers=[]
+    if claim_total == 0:
+        chapter_publication_blockers.append("claims table is empty")
+    if source_total > 0 and c["entity_count"] == 0:
+        chapter_publication_blockers.append("entities table is empty after sources were captured")
+    if missing_sources:
+        chapter_publication_blockers.append(f"source IDs are missing for {missing_sources} claim(s)")
+    if c["claim_counts"].get(None, 0) or c["claim_counts"].get("", 0):
+        chapter_publication_blockers.append("claims have no statuses")
+    if c["source_quality_distribution"].get("unknown", 0):
+        chapter_publication_blockers.append("source quality is not scored")
+    if not editorial_review_ran:
+        chapter_publication_blockers.append("Editor review did not run")
+    if any(not criteria.get("source_claim_mapping_included", True) for criteria in gate.get("author_acceptance", {}).values()):
+        chapter_publication_blockers.append("Author output lacks source/claim mapping")
+    if any(not criteria.get("no_generic_ai_filler", True) for criteria in gate.get("author_acceptance", {}).values()):
+        chapter_publication_blockers.append("Author output is generic or mostly filler")
+    if gate["errors"]:
+        chapter_publication_blockers.extend(gate["errors"])
+    if source_quality.get("sources_needing_human_review"):
+        chapter_publication_blockers.append("privacy review requires human review for some sources")
+    if unsafe:
+        chapter_publication_blockers.append("unsafe files are staged")
+    if args.book_build_status not in {"ok", "passed", "success", "unknown"}:
+        chapter_publication_blockers.append("MkDocs strict build fails")
+    if li_warnings:
+        chapter_publication_blockers.append("capture appears blocked, polluted, or login-broken")
+    if trend_noise_dominated:
+        chapter_publication_blockers.append("trend discovery is dominated by structural/platform noise")
+    data_collected=source_total > 0
+    data_usable=data_collected and not any(reason in chapter_publication_blockers for reason in ["claims table is empty", "entities table is empty after sources were captured", "source quality is not scored"])
+    safe_updates=["safe status reports", "source index updates", "rejected trend lists", "quality warnings", "operational notes", "editor reports", "no chapter update notes"] if chapter_publication_blockers else []
+    human_review_reasons=[]
+    if li_warnings:
+        human_review_reasons.append("LinkedIn checkpoint/MFA/CAPTCHA or capture issue possible")
+    if source_quality.get("sources_needing_human_review"):
+        human_review_reasons.append("privacy uncertainty")
+    if contradictions:
+        human_review_reasons.append("contradiction involving important book claims may need review")
+    if trend_noise_dominated or any(t.get("decision") == "monitor" for t in trends):
+        human_review_reasons.append("trend promotion with weak evidence")
+    blocked_state_output={
+        "block_reasons": chapter_publication_blockers,
+        "affected_files": gate.get("chapter_sections_updated", []) if chapter_publication_blockers else [],
+        "failed_checks": blocked + chapter_publication_blockers,
+        "data_collected": data_collected,
+        "data_usable": data_usable,
+        "safe_updates_allowed": safe_updates,
+        "required_next_action": "human review or stronger evidence before chapter publication" if human_review_reasons else (chapter_publication_blockers[0] if chapter_publication_blockers else None),
+        "human_review_required": bool(human_review_reasons),
+        "human_review_reasons": human_review_reasons,
+    }
+    if chapter_publication_blockers:
+        blocked.append("chapter publication blocked: " + "; ".join(dict.fromkeys(chapter_publication_blockers[:12])))
     final_status="blocked" if blocked else ("success" if improvement else "partial")
     recommendation="publish safe curated artifacts only" if blocked else "publish"
     commit_hash=None
@@ -626,6 +709,8 @@ def main():
         "chapter_sections_updated": gate["chapter_sections_updated"],
         "editor_warnings": warnings,
         "book_build_status": args.book_build_status,
+        "acceptance_criteria": acceptance_criteria,
+        "blocked_state_output": blocked_state_output,
         "git_commit_hash": commit_hash,
         "publication_recommendation": recommendation,
         "blocked_reasons": blocked,

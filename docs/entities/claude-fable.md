@@ -1,17 +1,17 @@
 # Claude Fable
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
-- Type: `company`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 4
-- Mention count: 80
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 6
+- Mention count: 87
 
 ## Description
 
-Candidate company entity extracted from 4 source(s).
+Candidate tool entity extracted from 6 source(s).
 
 ## Related claims
 
@@ -28,3 +28,8 @@ Candidate company entity extracted from 4 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/084-ac31111c1e6722b736b1.md`
 - `src_45efdb14404d2b02e0f9` — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made 
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/153-a276813cb5da6746739c.md`
+- `src_171038c5bcc4b4db5de8` — Feed post AZAHAR-LABS 47 followers 12h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যা
+  - URL: https://www.linkedin.com/company/azaharlabs/posts
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/142-6ac5adadff6fde907888.md`
+- `src_90200ed4de6a283837c1` — Claude Fable 5 + OpenClaw/Hermes Agent now finds restaurants with weak food photos, rebuilds their best dish into a cinematic reel, and mail
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/017-2b0f56a3b74efc29803d.md`

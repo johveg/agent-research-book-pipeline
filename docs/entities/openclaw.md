@@ -1,28 +1,33 @@
 # OpenClaw
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 111
-- Mention count: 1968
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 190
+- Mention count: 2161
 
 ## Description
 
-Candidate tool entity extracted from 111 source(s).
+Candidate tool entity extracted from 172 source(s).
 
 ## Related claims
 
-- **candidate / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
+- **candidate / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
+- **candidate / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
 - **candidate / weak** — Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera "OpenClaw" Hermes. (`claim_cf20967c5c76581b2c4b`)
 - **candidate / weak** — I finally got around to working with the hermes desktop part of ollama (I had to update ollama 0.23.2 -> 0.30.7_1) and the transition was cl "OpenClaw" Hermes. (`claim_6cabf554fd3fee480a94`)
 - **candidate / weak** — Is it me or what but my Hermes Agents burned more tokens than my Openclaw?. (`claim_7708c1c74a2093fabc70`)
+- **candidate / weak** — It shows up in a team conflicts, when a project is falling apart, "OpenClaw" Hermes. (`claim_4a7314d36f3df82b9f1d`)
+- **candidate / weak** — Odysseus is a fully local workspace that runs on your "OpenClaw" Hermes. (`claim_66cc523ff8143a86679e`)
 - **candidate / weak** — Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. (`claim_d6b6698dba16fe25d694`)
+- **candidate / weak** — The thing about exponential AI improvement, that I didn't expect to totally overwhelm me, at a mammalian level, is how quickly I woul "OpenClaw" Hermes. (`claim_d4f731babfc7bb1a8c94`)
 - **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
 - **candidate / weak** — ‼️We Are Hiring - Information System Supervisor Lark 📍Location: South Jakarta 💼Employment Type: Full-time 📌Job Responsibilities: - Develop L "OpenClaw" Hermes. (`claim_ea9d059407012496c795`)
 - **candidate / weak** — 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su "OpenClaw" Hermes. (`claim_c80b8679bbda24230dd8`)
+- **weakly_supported / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
 
 ## Source references
 

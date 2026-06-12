@@ -1,17 +1,17 @@
 # GitHub
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 5
-- Mention count: 112
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 10
+- Mention count: 122
 
 ## Description
 
-Candidate concept entity extracted from 5 source(s).
+Candidate concept entity extracted from 7 source(s).
 
 ## Related claims
 
@@ -32,3 +32,17 @@ No related claim records yet.
 - `src_b364e090655731640be0` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
   - URL: https://github.com/openclaw/openclaw
   - Archive: `web/manual-20260611T173313Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
+- `src_89933e373b741e71c5c6` — GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub
+  - URL: https://github.com/nesquena/hermes-webui
+  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-openclaw/05-github-nesquena-hermes-webui-hermes-webui-the-best-way-to-us.md`
+- `src_e9bb5a4bcd1c1f9e9744` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
+  - URL: https://github.com/conorbronsdon/avoid-ai-writing
+  - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/05-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`
+- `src_8d4f3b9531fe6368478b` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+- `src_f45b46607537f7566a0c` — Three free open-source AI tools just exploded on GitHub 🤯 One was built by PewDiePie. Odysseus is a fully local workspace that runs on your 
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/057-c050168452ee07f224bc.md`
+- `src_ec29732d035ab6417896` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+  - URL: https://github.com/openclaw/openclaw
+  - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`

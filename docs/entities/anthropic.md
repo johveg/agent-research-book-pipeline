@@ -1,20 +1,22 @@
 # Anthropic
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
-- Type: `tool`
+- Type: `company`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 5
-- Mention count: 80
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 6
+- Mention count: 85
 
 ## Description
 
-Candidate tool entity extracted from 5 source(s).
+Candidate company entity extracted from 5 source(s).
 
 ## Related claims
 
+- **candidate / weak** — "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering "loop engineering". (`claim_0c76b2d0770ff1442eeb`)
+- **candidate / weak** — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation "loop engineering". (`claim_35259524a830a49e0d38`)
 - **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
 
 ## Source references
@@ -31,3 +33,5 @@ Candidate tool entity extracted from 5 source(s).
 - `src_479f9b530c4b5329e0a2` — Now what exactly is loop engineering? And where do Anthropic's Fable 5 model and web scraping fit in?
   - URL: https://www.zyte.com/blog/now-what-exactly-is-loop-engineering-and-where-do-anthropics-fable-5-model-and-web-scraping-fit-in/
   - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/10-now-what-exactly-is-loop-engineering-and-where-do-anthropic.md`
+- `src_f424d9e9811643b6dbfc` — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/088-58a7b6d8973a442d3288.md`

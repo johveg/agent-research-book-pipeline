@@ -1,2732 +1,2747 @@
 # Sources
 
-Last generated: 2026-06-11T23:25:15Z
+Last generated: 2026-06-12T01:19:58Z
 
 This page is generated from the local source database and contains sanitized source metadata only.
 
 Volume is not evidence. Quality and independence matter more than count.
 
-- **Feed post TheNextGenTechInsider.com 783 followers 25m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun**
-  - Source ID: `src_df0c0b5012843691b739`
-  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
-  - Title: Feed post TheNextGenTechInsider.com 783 followers 25m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun
+- **Feed post Wisely Chen • 3rd+ Executive Vice President , NeuroBrain Dynamics Inc. 42m • Edited • Follow Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶**
+  - Source ID: `src_5543df4ee4afcc8f47d5`
+  - URL: https://www.linkedin.com/in/wisely-chen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAyvjJABBA0YJ7IwPcbsZgE46mcXQXdnLZo
+  - Title: Feed post Wisely Chen • 3rd+ Executive Vice President , NeuroBrain Dynamics Inc. 42m • Edited • Follow Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post TheNextGenTechInsider.com 783 followers 25m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun; "loop engineer"
-  - Relevant entities: `["ent_2b726fe07b4c50ba2f7c", "ent_3c41eea57eef8f06bf9d", "ent_51f01dfbe23241a1f41e", "ent_e4c135830397cefec463"]`
+  - Summary: Feed post Wisely Chen • 3rd+ Executive Vice President , NeuroBrain Dynamics Inc. 42m • Edited • Follow Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶; "loop engineer"
+  - Relevant entities: `["ent_26a17d5483ba71f27cfa", "ent_491e00c3dfdb17d663e0", "ent_592bbfb31e3816c12c77"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/002-b014c683189fd8759734.md`
-- **Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 28m • Follow For about two years, getting something out of a codin**
-  - Source ID: `src_08e08e34c45ef3541b1d`
-  - URL: https://www.linkedin.com/in/andrewjsauer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAalPL4Bo5EzfqFrXBWcaevVMqcLqsknSiQ
-  - Title: Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 28m • Follow For about two years, getting something out of a codin
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/002-dc3f83d2f2d311dff4e0.md`
+- **Feed post John M. TenEyck Jr. John M. TenEyck Jr. • 3rd+ Senior Technology Leader 2h • Follow I have spent a lot of time in my career talkin**
+  - Source ID: `src_833bcb0017db9dff257b`
+  - URL: https://www.linkedin.com/in/johnmteneyckjr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA_OvoBATip7G4daXaRNhfjKv0_fEhGybk
+  - Title: Feed post John M. TenEyck Jr. John M. TenEyck Jr. • 3rd+ Senior Technology Leader 2h • Follow I have spent a lot of time in my career talkin
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 28m • Follow For about two years, getting something out of a codin; "loop engineer"
+  - Summary: Feed post John M. TenEyck Jr. John M. TenEyck Jr. • 3rd+ Senior Technology Leader 2h • Follow I have spent a lot of time in my career talkin; "loop engineer"
+  - Relevant entities: `["ent_2a8b8587919a0961b7c2", "ent_3d6dbc5b047acd5418b8"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/033-52a61d1af4db3ffa7e38.md`
+- **Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou**
+  - Source ID: `src_d2efd13cb3186694cd77`
+  - URL: https://www.linkedin.com/in/whats-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC7sr7YBMegMG6WCyx6K1v27-tE3bq686NY
+  - Title: Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou; "loop engineer"
+  - Relevant entities: `["ent_17a6534de6fca09fda70", "ent_214c00914c10d3b9005f", "ent_24e6654bfd1ab85bebb1", "ent_5f16795c54ab7de419ed", "ent_774814b85371cab88a09", "ent_d411633327714b72268a"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/044-94c941e59e1458edd350.md`
+- **Feed post Mihaela-Roxana G. • 3rd+ Microsoft MVP - Developer technologies | Engineering leader | Conference Speaker 4h • Follow Came across **
+  - Source ID: `src_d555cec19513a23f1f2d`
+  - URL: https://www.linkedin.com/in/ghidersam?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA0Z_Q0BSv47INNA57yksJoCcWr-29E2pzA
+  - Title: Feed post Mihaela-Roxana G. • 3rd+ Microsoft MVP - Developer technologies | Engineering leader | Conference Speaker 4h • Follow Came across 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Mihaela-Roxana G. • 3rd+ Microsoft MVP - Developer technologies | Engineering leader | Conference Speaker 4h • Follow Came across ; "loop engineer"
+  - Relevant entities: `["ent_1be897346aa14a667e34", "ent_7fa0dfdc13a6648ada65", "ent_dffa7fa17e9aaf9cd726"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/050-43a3d856548db9d390b4.md`
+- **Feed post Atul Saxenaa • 3rd+ Helping VC-Backed Startups Hire Top AI, Software & Product Talent | Technical Recruiter | US & LATAM Hiring 4h**
+  - Source ID: `src_1328c7c546b0061f02cf`
+  - URL: https://www.linkedin.com/in/atul-saxenaa-3584a0146?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACNPu_QBXGQG0axiR56SfVQgPnS1xj0ifpQ
+  - Title: Feed post Atul Saxenaa • 3rd+ Helping VC-Backed Startups Hire Top AI, Software & Product Talent | Technical Recruiter | US & LATAM Hiring 4h
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Atul Saxenaa • 3rd+ Helping VC-Backed Startups Hire Top AI, Software & Product Talent | Technical Recruiter | US & LATAM Hiring 4h; "loop engineer"
+  - Relevant entities: `["ent_4afe81711d08e120b3c3", "ent_8fe77a729ed8aa7b5a66", "ent_d54f7896b69a0a0b491e", "ent_ff777aebf96e95c33233"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/063-b59d6a62b0b1935b8c6f.md`
+- **Remote work changed the industry. But something interesting is happening. Some of the most ambitious early-stage startups are moving back to**
+  - Source ID: `src_8071d9733001b7e6a139`
+  - Title: Remote work changed the industry. But something interesting is happening. Some of the most ambitious early-stage startups are moving back to
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Remote work changed the industry. But something interesting is happening. Some of the most ambitious early-stage startups are moving back to; "loop engineer"
+  - Relevant entities: `["ent_a6b46dd0d1ae5e86cbc8", "ent_b71199ebd070b36beab7", "ent_cdc29937887188ad3702"]`
+  - Extracted candidate claims: `["claim_00d0cc7024aaddd2adf4"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/065-044ec7dc09d25a834653.md`
+- **Feed post Jonathan Shaw • 3rd+ Principal Software Engineer/Founder - Metamorpho-Sys 7h • Follow Vibe Coding won't work in the long term, hum**
+  - Source ID: `src_9871a3cae9b59f73b27e`
+  - URL: https://www.linkedin.com/in/jonathan-shaw-81604b5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADlYtIBzqHPMW_g_YtVSqR52JHt_OWWBJo
+  - Title: Feed post Jonathan Shaw • 3rd+ Principal Software Engineer/Founder - Metamorpho-Sys 7h • Follow Vibe Coding won't work in the long term, hum
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Jonathan Shaw • 3rd+ Principal Software Engineer/Founder - Metamorpho-Sys 7h • Follow Vibe Coding won't work in the long term, hum; "loop engineer"
+  - Relevant entities: `["ent_3f59b1d7cf707c937634", "ent_efd267c6ad28630cbd08", "ent_fcd12b81cdf90a05d15d"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/114-e2beca54d9faa203b86b.md`
+- **Vibe Coding won't work in the long term, humans will still need to understand the code. The Future is AI Augmented engineering. On it :) AI:**
+  - Source ID: `src_8681ea23ae0145a1f696`
+  - Title: Vibe Coding won't work in the long term, humans will still need to understand the code. The Future is AI Augmented engineering. On it :) AI:
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Vibe Coding won't work in the long term, humans will still need to understand the code. The Future is AI Augmented engineering. On it :) AI:; "loop engineer"
+  - Relevant entities: `["ent_228917c7aad546c0dab6", "ent_2c56afdd8aa6c70c2471", "ent_5435fcc52656fa9c27ae"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/116-ca8f4d6913b386560bfc.md`
+- **Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 8h • Follow For about two years, getting something out of a coding**
+  - Source ID: `src_8cec21902597653771d3`
+  - URL: https://www.linkedin.com/in/andrewjsauer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAalPL4Bo5EzfqFrXBWcaevVMqcLqsknSiQ
+  - Title: Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 8h • Follow For about two years, getting something out of a coding
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 8h • Follow For about two years, getting something out of a coding; "loop engineer"
   - Relevant entities: `["ent_b3c28e4816e379fcf8e6", "ent_e406694b2fe8041d3c14"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/005-5e96596ccae8e96a36c2.md`
-- **Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 33m • Follow "Loop engineering".**
-  - Source ID: `src_cabdb559be67bbc0e0cc`
-  - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
-  - Title: Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 33m • Follow "Loop engineering".
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/125-b0ee053c3a1d9a09ff32.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo**
+  - Source ID: `src_3914aa30640fb7198738`
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 33m • Follow "Loop engineering".; "loop engineer"
-  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_5a8499d47c592e8024d1", "ent_c4c87df77efeb6842fdb"]`
+  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo; "loop engineer"
+  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_aa0db396b7d5266b3919"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/008-15ceb935b7fbc31d950b.md`
-- **Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT**
-  - Source ID: `src_194861917446751632aa`
-  - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
-  - Title: Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT; "loop engineer"
-  - Relevant entities: `["ent_32987c4b7a9fb90e7294", "ent_46fb078d98c2df164f32", "ent_60ec1732ff77892b70d9", "ent_873a1978fb686111ee93", "ent_8cea71350ea805291fc9", "ent_ad3fc2c957602b6377c2", "ent_db748bd3336600841baa", "ent_e08f47bb4dbc2beb15e5", "ent_f0e5f53af7e637286fd5"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/011-d6a2309388baa2809f47.md`
-- **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 50m • Follow Outpost hosted a dinner in NYC this week with AI lea**
-  - Source ID: `src_4ba99190c772bc83c614`
-  - URL: https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg
-  - Title: Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 50m • Follow Outpost hosted a dinner in NYC this week with AI lea
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 50m • Follow Outpost hosted a dinner in NYC this week with AI lea; "loop engineer"
-  - Relevant entities: `["ent_38af221bedab44002102", "ent_7daf48f924f246f48e57"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/014-8ce5a9e0e5a9f1aa2836.md`
-- **Feed post TheNextGenTechInsider.com 783 followers 26m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O**
-  - Source ID: `src_7a8656fa04e1cba1efb2`
-  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
-  - Title: Feed post TheNextGenTechInsider.com 783 followers 26m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post TheNextGenTechInsider.com 783 followers 26m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O; "loop engineer"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_5ced1fbd8b6b0f558a5a", "ent_671c6577d1c62f4ed20b", "ent_db6a92e86b60645c33a1", "ent_e4c135830397cefec463"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/017-07fa2b68fa6a76b7b8a0.md`
-- **Feed post Devesh Paragiri • 3rd+ paragiri.com 54m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some **
-  - Source ID: `src_0099faf480337ab39237`
-  - URL: https://www.linkedin.com/in/devesh-paragiri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADXVzqMBo1sn7mA3IolZg9PAdkV3Fv8t9ao
-  - Title: Feed post Devesh Paragiri • 3rd+ paragiri.com 54m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Devesh Paragiri • 3rd+ paragiri.com 54m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some ; "loop engineer"
-  - Relevant entities: `["ent_54fdceb250cd8683362d"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/019-c18a3a35fe3d20e6a981.md`
-- **Feed post AMC Bridge, Inc. 7,904 followers 1h • Follow As engineering and manufacturing organizations continue to scale, a persistent challe**
-  - Source ID: `src_235baf25b0345b0402a8`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/147-e2ade8e492788abfed3c.md`
+- **Feed post AMC Bridge, Inc. 7,904 followers 9h • Follow As engineering and manufacturing organizations continue to scale, a persistent challe**
+  - Source ID: `src_590dce0a71a8569130b0`
   - URL: https://www.linkedin.com/company/amcbridge/posts
-  - Title: Feed post AMC Bridge, Inc. 7,904 followers 1h • Follow As engineering and manufacturing organizations continue to scale, a persistent challe
+  - Title: Feed post AMC Bridge, Inc. 7,904 followers 9h • Follow As engineering and manufacturing organizations continue to scale, a persistent challe
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post AMC Bridge, Inc. 7,904 followers 1h • Follow As engineering and manufacturing organizations continue to scale, a persistent challe; "loop engineer"
+  - Summary: Feed post AMC Bridge, Inc. 7,904 followers 9h • Follow As engineering and manufacturing organizations continue to scale, a persistent challe; "loop engineer"
   - Relevant entities: `["ent_dd311495db5ff5ba49d7"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/037-13766f91baa7d0bfbd29.md`
-- **As engineering and manufacturing organizations continue to scale, a persistent challenge is becoming harder to ignore: finding and reusing e**
-  - Source ID: `src_e07c7f2aa9c18c1173d4`
-  - Title: As engineering and manufacturing organizations continue to scale, a persistent challenge is becoming harder to ignore: finding and reusing e
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: As engineering and manufacturing organizations continue to scale, a persistent challenge is becoming harder to ignore: finding and reusing e; "loop engineer"
-  - Relevant entities: `["ent_cb74ac0496cd0c18228d"]`
-  - Extracted candidate claims: `["claim_b62b21ae591a60fc46d6"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/039-569faff9d75ac7e93636.md`
-- **Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex**
-  - Source ID: `src_2cb5222822668212bbcc`
-  - URL: https://www.linkedin.com/in/garethpjones?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEdStQBQk_Lrsi_If2CDLO2isbaypzOV3A
-  - Title: Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex; "loop engineer"
-  - Relevant entities: `["ent_189f305ac92159429182", "ent_1cec0c00bfbcbd6c7eba", "ent_3a7bd3e2360a3d29eea4", "ent_5a8499d47c592e8024d1", "ent_61b69b22e9dd594b7867", "ent_bbdefa2950f49882f295", "ent_ca4bd2647e95f6782634"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/068-a8f722ab4703655c26d8.md`
-- **Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent**
-  - Source ID: `src_1df3199c7e95dfdf6420`
-  - URL: https://www.linkedin.com/in/namrata-ganatra?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHQwzsBIS4Rlx_PDYXyeG3GpALoDGIao-M
-  - Title: Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent; "loop engineer"
-  - Relevant entities: `["ent_11931cc5758f7f7653e4", "ent_82fa381ac010fd27af4d", "ent_9fbf261b62c1d7c00db7", "ent_afdd2ff2a78bdcf16e31", "ent_df22016bdd63f3895993", "ent_ea3bd73e2b506e005272", "ent_f80f21938e5248ec70b8"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/080-9f0e1bb3146982109c74.md`
-- **Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage**
-  - Source ID: `src_ec7da3edd7411a047fec`
-  - URL: https://www.linkedin.com/company/finrevplus/posts
-  - Title: Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage; "loop engineer"
-  - Relevant entities: `["ent_c0bf123c5dbc01f4dc28"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/093-8495e9d4f0a761f55efb.md`
-- **Feed post Pawfect Loop Inc. 11 followers 3h • Follow The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your te**
-  - Source ID: `src_c9a7cbd25de5a87a0893`
-  - URL: https://www.linkedin.com/company/pawfect-loop-inc/posts
-  - Title: Feed post Pawfect Loop Inc. 11 followers 3h • Follow The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your te
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Pawfect Loop Inc. 11 followers 3h • Follow The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your te; "loop engineer"
-  - Relevant entities: `["ent_3e5634c59390068834ce", "ent_7b0d121e68284ba8b888"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/109-8d6bea9d1fa5157bde74.md`
-- **The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your team spending more time fighting pet fur than caring fo**
-  - Source ID: `src_61203742a4beebcf45ef`
-  - Title: The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your team spending more time fighting pet fur than caring fo
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: The Silent Overhead: How Synthetic Pet Gear Drives Commercial Cleaning Costs Is your team spending more time fighting pet fur than caring fo; "loop engineer"
-  - Relevant entities: `["ent_3e5634c59390068834ce"]`
-  - Extracted candidate claims: `["claim_79307773dedf003b03e5"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/111-76eb3dd20a06e4b38911.md`
-- **Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi**
-  - Source ID: `src_bdc4613f2ad6c94cb207`
-  - URL: https://www.linkedin.com/in/linasbeliunas?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABbscnUBlKacJbEN5USrYdfhVdH-ffYINJk
-  - Title: Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi; "loop engineer"
-  - Relevant entities: `["ent_1f17a0601107bf507a8e", "ent_3720b1fe33fdb813219e", "ent_e2121f818a437178d812"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/130-3091c0f4e9f5abb6d624.md`
-- **Loop Engineering: stop prompting, start lopping! (ES) Ingeniería de contexto era lo ultimo.. luego apareció ingeniería de arneses... ahora t**
-  - Source ID: `src_d655e40e10d270563db3`
-  - URL: https://www.linkedin.com/in/cobusgreyling/
-  - Title: Loop Engineering: stop prompting, start lopping! (ES) Ingeniería de contexto era lo ultimo.. luego apareció ingeniería de arneses... ahora t
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Loop Engineering: stop prompting, start lopping! (ES) Ingeniería de contexto era lo ultimo.. luego apareció ingeniería de arneses... ahora t; "loop engineer"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/171-91a97a3e24333586cbe5.md`
-- **Feed post Shivanath Devinarayanan • 3rd+ Chief Digital Labor & Technology Officer at Asymbl | Salesforce MVP Hall of Fame | 180+ AI Agents i**
-  - Source ID: `src_b498fdf309bbe197d84c`
-  - URL: https://www.linkedin.com/in/shivanathd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAV7jRYBS_ZdxaYHQNRN4RNzIzm2osbp4-A
-  - Title: Feed post Shivanath Devinarayanan • 3rd+ Chief Digital Labor & Technology Officer at Asymbl | Salesforce MVP Hall of Fame | 180+ AI Agents i
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Shivanath Devinarayanan • 3rd+ Chief Digital Labor & Technology Officer at Asymbl | Salesforce MVP Hall of Fame | 180+ AI Agents i; "loop engineer"
-  - Relevant entities: `["ent_047f99cd2423b31e3f29", "ent_49c37a64fb6b57f34c1f", "ent_65c8164bf679f34b90f8", "ent_9ddc79cf91190d4bbb64", "ent_b4ce4b23fe50330234d0", "ent_bd8f86454f9b38f1684e", "ent_e748f8750672ca8b04b2"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/172-43d9fa8f234a060646c6.md`
-- **Loop Engineering for the Agentforce Era.The point is not to make agents busier.The point is to make Salesforce delivery more inspectable, bo**
-  - Source ID: `src_bbea13b56217dc6481aa`
-  - Title: Loop Engineering for the Agentforce Era.The point is not to make agents busier.The point is to make Salesforce delivery more inspectable, bo
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Loop Engineering for the Agentforce Era.The point is not to make agents busier.The point is to make Salesforce delivery more inspectable, bo; "loop engineer"
-  - Relevant entities: `["ent_3ccbd9105a45d8fcd4a0", "ent_5a8499d47c592e8024d1", "ent_8f5744fbce05f62ef6b4", "ent_d800add19c27d4c450c6"]`
-  - Extracted candidate claims: `["claim_65d6fb05d553a471fdf3"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/174-dbd62ead742df77ea91e.md`
-- **Feed post Nader Slim • 3rd+ Engineering Leader at Loblaw Digital 6h • Boris Cherny, the engineer behind one of the most widely used coding a**
-  - Source ID: `src_33af03839dc87cf0d44b`
-  - URL: https://www.linkedin.com/in/naderslim?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABvuGwBCB9c08eqhylGDnynrilfH7c8eOY
-  - Title: Feed post Nader Slim • 3rd+ Engineering Leader at Loblaw Digital 6h • Boris Cherny, the engineer behind one of the most widely used coding a
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:43:50Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Nader Slim • 3rd+ Engineering Leader at Loblaw Digital 6h • Boris Cherny, the engineer behind one of the most widely used coding a; "loop engineer"
-  - Relevant entities: `["ent_5f82a391c48e7634964e", "ent_61803b5a13991d7a48e4", "ent_d1278d327f58356f9c0e"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/175-544855bfd5536190e741.md`
-- **Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O**
-  - Source ID: `src_bec329323b1b96d80c48`
-  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
-  - Title: Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy O; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_5ced1fbd8b6b0f558a5a", "ent_671c6577d1c62f4ed20b", "ent_db6a92e86b60645c33a1", "ent_e4c135830397cefec463"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/002-7995cfb7029384c17d0c.md`
-- **Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering,**
-  - Source ID: `src_41eb746f04a3ea6b0071`
-  - Title: Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering,
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering,; "loop engineering"
-  - Relevant entities: `["ent_0ceb5f4a4b3a0eca3828", "ent_2b0dace83331ea86d236", "ent_5a8499d47c592e8024d1", "ent_5ced1fbd8b6b0f558a5a", "ent_db6a92e86b60645c33a1"]`
-  - Extracted candidate claims: `["claim_82bfd616fea69cce2d95"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/004-54e88de2be7c7a9b21f8.md`
-- **Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 25m • Follow For about two years, getting something out of a codin**
-  - Source ID: `src_2267eb6a85d64a985258`
-  - URL: https://www.linkedin.com/in/andrewjsauer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAalPL4Bo5EzfqFrXBWcaevVMqcLqsknSiQ
-  - Title: Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 25m • Follow For about two years, getting something out of a codin
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 25m • Follow For about two years, getting something out of a codin; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_b3c28e4816e379fcf8e6", "ent_e406694b2fe8041d3c14"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/005-518d606b9bc95ed247a3.md`
-- **For about two years, getting something out of a coding agent meant holding it the whole time. You typed a prompt, read what came back, typed**
-  - Source ID: `src_6dd1980514dc1aaed786`
-  - Title: For about two years, getting something out of a coding agent meant holding it the whole time. You typed a prompt, read what came back, typed
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: For about two years, getting something out of a coding agent meant holding it the whole time. You typed a prompt, read what came back, typed; "loop engineering"
-  - Relevant entities: `["ent_31a85e22a24a7a4fba06", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/007-d73e252364d8dcc45838.md`
-- **Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".**
-  - Source ID: `src_fccced70af25ad30495a`
-  - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
-  - Title: Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".; "loop engineering"
-  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_5a8499d47c592e8024d1", "ent_c4c87df77efeb6842fdb"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/008-9baf8e463ca2976cd23b.md`
-- **Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT**
-  - Source ID: `src_93f660a204114fc11316`
-  - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
-  - Title: Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT; "loop engineering"
-  - Relevant entities: `["ent_32987c4b7a9fb90e7294", "ent_46fb078d98c2df164f32", "ent_5a8499d47c592e8024d1", "ent_60ec1732ff77892b70d9", "ent_873a1978fb686111ee93", "ent_8cea71350ea805291fc9", "ent_ad3fc2c957602b6377c2", "ent_db748bd3336600841baa", "ent_e08f47bb4dbc2beb15e5", "ent_f0e5f53af7e637286fd5"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/011-4b5875f82920e7e66589.md`
-- **There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth**
-  - Source ID: `src_5041e58ca7814decf8f5`
-  - Title: There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth; "loop engineering"
-  - Relevant entities: `["ent_010077aec054f061c7f6", "ent_5a8499d47c592e8024d1", "ent_a625159d18da57180b72", "ent_d1278d327f58356f9c0e", "ent_e244f187f696561d5fd7", "ent_f0b348fb1255a07f8d38"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
-- **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 47m • Follow Outpost hosted a dinner in NYC this week with AI lea**
-  - Source ID: `src_d7ef46707f234d4abd1b`
-  - URL: https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg
-  - Title: Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 47m • Follow Outpost hosted a dinner in NYC this week with AI lea
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 47m • Follow Outpost hosted a dinner in NYC this week with AI lea; "loop engineering"
-  - Relevant entities: `["ent_38af221bedab44002102", "ent_5a8499d47c592e8024d1", "ent_7daf48f924f246f48e57"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/014-066d5c04e372ae9e450a.md`
-- **Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun**
-  - Source ID: `src_b77d7e5c1188e7c1668c`
-  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
-  - Title: Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post TheNextGenTechInsider.com 783 followers 22m • Follow Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has laun; "loop engineering"
-  - Relevant entities: `["ent_2b726fe07b4c50ba2f7c", "ent_3c41eea57eef8f06bf9d", "ent_51f01dfbe23241a1f41e", "ent_5a8499d47c592e8024d1", "ent_e4c135830397cefec463"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/017-11d062b78446be7e37a1.md`
-- **Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod**
-  - Source ID: `src_196cf6f616a9eee401b7`
-  - Title: Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod; "loop engineering"
-  - Relevant entities: `["ent_06e40a2cb80a6351b4cf", "ent_16bdef42d351d4ab16c6", "ent_2b726fe07b4c50ba2f7c", "ent_3c41eea57eef8f06bf9d", "ent_51f01dfbe23241a1f41e", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `["claim_c86b0732dedc22f8a651"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/018-0fcf39793ffc381af45e.md`
-- **Feed post Devesh Paragiri • 3rd+ paragiri.com 51m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some **
-  - Source ID: `src_ed0132fb20b200bfffb3`
-  - URL: https://www.linkedin.com/in/devesh-paragiri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADXVzqMBo1sn7mA3IolZg9PAdkV3Fv8t9ao
-  - Title: Feed post Devesh Paragiri • 3rd+ paragiri.com 51m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Devesh Paragiri • 3rd+ paragiri.com 51m • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some ; "loop engineering"
-  - Relevant entities: `["ent_54fdceb250cd8683362d", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/019-352d12389acd8f2e50e9.md`
-- **i've spent the past few weeks on the autoresearch paradigm, trying to close some of the systematic gaps in how it's used today. the testbed **
-  - Source ID: `src_a0cdc450328cbbaa6e6d`
-  - URL: https://www.linkedin.com/in/adithya-srinivasan-16527627a/
-  - Title: i've spent the past few weeks on the autoresearch paradigm, trying to close some of the systematic gaps in how it's used today. the testbed 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: i've spent the past few weeks on the autoresearch paradigm, trying to close some of the systematic gaps in how it's used today. the testbed ; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/021-02945ecd79656176b9e7.md`
-- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 59m • F**
-  - Source ID: `src_d97a58701c22069baefd`
-  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
-  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 59m • F
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 59m • F; "loop engineering"
-  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_5a8499d47c592e8024d1", "ent_aa0db396b7d5266b3919"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/022-d142fc94559b022df371.md`
-- **🚀 The Saudi RDF Giga-Project Arbitrage: Powering the Kingdom’s Smart Infrastructure with Upgraded Alternative Fuels Under the strategic mand**
-  - Source ID: `src_2e17918bf9fc6347026b`
-  - Title: 🚀 The Saudi RDF Giga-Project Arbitrage: Powering the Kingdom’s Smart Infrastructure with Upgraded Alternative Fuels Under the strategic mand
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 🚀 The Saudi RDF Giga-Project Arbitrage: Powering the Kingdom’s Smart Infrastructure with Upgraded Alternative Fuels Under the strategic mand; "loop engineering"
-  - Relevant entities: `["ent_0b623f4b3e72434fbaae", "ent_5a8499d47c592e8024d1", "ent_6038ac4d789347a54e09", "ent_b06459597ac2ed8141f0", "ent_ef49daa29ddf68d40b50"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/024-6b710cc1ecf2750b2574.md`
-- **Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac**
-  - Source ID: `src_c6cf3d54e8eb380412df`
-  - URL: https://www.linkedin.com/in/lakshay-arora-satellite-sentient?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqzywUB_90ZaHpqdzBpE_LCwRhwKcpFk9M
-  - Title: Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac; "loop engineering"
-  - Relevant entities: `["ent_11a4a60b518bf24989d4", "ent_2552a9843c49f92bc323", "ent_47caca6b7fbe02d6e611", "ent_4ec7c53222c8a758c722", "ent_56a6eb4c98bef058eee9", "ent_5a8499d47c592e8024d1", "ent_933c9fa3e92f6e11710d", "ent_be92e94aba0be148ec1f", "ent_d277670919a94ba361be"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/025-144e9089624de80d3540.md`
-- **Every team building AI agents goes through the same arc. The model does something magical. Then it hits production. And slowly, things break**
-  - Source ID: `src_cd3658d2d9ce48d6250c`
-  - Title: Every team building AI agents goes through the same arc. The model does something magical. Then it hits production. And slowly, things break
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Every team building AI agents goes through the same arc. The model does something magical. Then it hits production. And slowly, things break; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_981eb2c7712e91d42a5f"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/027-8cc858c8a3b0a8e2829e.md`
-- **Feed post Cristian Camilo Peña Sanchez • 3rd+ Product Engineer · Healthcare platforms across web & mobile · Design systems, DDD, multi-tenan**
-  - Source ID: `src_8137679458f85dcd076d`
-  - URL: https://www.linkedin.com/in/cristiancamilopena?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzUdlEB_d-WoiQhRoT59P5AeRsL3950nzA
-  - Title: Feed post Cristian Camilo Peña Sanchez • 3rd+ Product Engineer · Healthcare platforms across web & mobile · Design systems, DDD, multi-tenan
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Cristian Camilo Peña Sanchez • 3rd+ Product Engineer · Healthcare platforms across web & mobile · Design systems, DDD, multi-tenan; "loop engineering"
-  - Relevant entities: `["ent_319ec3e742d3a04898f9", "ent_3d567369014b8bac1007", "ent_5a8499d47c592e8024d1", "ent_730f75dafd73e047b86a"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/028-6f6e8933001fe0842121.md`
-- **Prompt Engineer -> Context Engineer -> Loop Engineer -> ¿Qué sigue? 🤔**
-  - Source ID: `src_6c8e03d4dca6fa3e3bac`
-  - Title: Prompt Engineer -> Context Engineer -> Loop Engineer -> ¿Qué sigue? 🤔
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Prompt Engineer -> Context Engineer -> Loop Engineer -> ¿Qué sigue? 🤔; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_8cdeba539e96453e14cc", "ent_900b59c87fd5089db7b3", "ent_a832c3984dce73638bbc"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/030-a04a8815caddf8b753ed.md`
-- **Feed post Cathartic Computing Club 578 followers 1h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.**
-  - Source ID: `src_59b180e9625a95a78dc0`
-  - URL: https://www.linkedin.com/company/davilagrau/posts
-  - Title: Feed post Cathartic Computing Club 578 followers 1h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Cathartic Computing Club 578 followers 1h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_81aed7211d7fdd072aed", "ent_ed7e1b816ca89cdd8190"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/031-da1b79830678c0fdd977.md`
-- **The paradigm shift in interacting with coding agents is here: Loop Engineering. Instead of direct prompting, the focus is now on designing s**
-  - Source ID: `src_d6b19e77f7b0a7947e07`
-  - Title: The paradigm shift in interacting with coding agents is here: Loop Engineering. Instead of direct prompting, the focus is now on designing s
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: The paradigm shift in interacting with coding agents is here: Loop Engineering. Instead of direct prompting, the focus is now on designing s; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_8736b77896fe94707622", "ent_ed7e1b816ca89cdd8190"]`
-  - Extracted candidate claims: `["claim_115b4898cd95a01eed6c", "claim_c7640d7d37d3acade845"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/033-52f3f914667566b8c3ae.md`
-- **Feed post Evnek 25,463 followers 1h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys**
-  - Source ID: `src_3f9855c77890e7de7133`
-  - URL: https://www.linkedin.com/company/evnek/posts
-  - Title: Feed post Evnek 25,463 followers 1h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Evnek 25,463 followers 1h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys; "loop engineering"
-  - Relevant entities: `["ent_150d67c7eb4b22c84d57", "ent_5a8499d47c592e8024d1", "ent_6eba189ab4d7c93840ef"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/034-a87ccd061e5972d1cbfb.md`
-- **Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. Here's how the**
-  - Source ID: `src_e0171aeaf56dd4cb0cd7`
-  - Title: Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. Here's how the
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. Here's how the; "loop engineering"
-  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_5a8499d47c592e8024d1", "ent_6eba189ab4d7c93840ef"]`
-  - Extracted candidate claims: `["claim_99a44d43b86eaa5907ba"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/036-b0c417aaaed0f16416d0.md`
-- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
-  - Source ID: `src_154a639a03a5adaa6f45`
-  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
-  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo; "loop engineering"
-  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_5a8499d47c592e8024d1", "ent_aa0db396b7d5266b3919"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/037-e2344d4fccd6458970f2.md`
-- **🚀 The Saudi WPC Giga-Project Arbitrage: Engineering Weather-Resistant Biomaterials for Extreme Arid Climates Under the strategic mandates of**
-  - Source ID: `src_641aefd0d460fa083344`
-  - Title: 🚀 The Saudi WPC Giga-Project Arbitrage: Engineering Weather-Resistant Biomaterials for Extreme Arid Climates Under the strategic mandates of
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 🚀 The Saudi WPC Giga-Project Arbitrage: Engineering Weather-Resistant Biomaterials for Extreme Arid Climates Under the strategic mandates of; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_b937d20f703425246433"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/038-5a1fe77412181cf98508.md`
-- **Feed post Jazzy L. Jazzy L. • 3rd+ Sr. Designer | AI Cloud Infrastructure | AIOps | Agentic Commerce | Correlation UX | HITL Evaluation | Ob**
-  - Source ID: `src_37157037f000cb04e7e0`
-  - URL: https://www.linkedin.com/in/jazzyloh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAB0e5IBOqDre2mtxzcIaF5D0VaXKovV0pw
-  - Title: Feed post Jazzy L. Jazzy L. • 3rd+ Sr. Designer | AI Cloud Infrastructure | AIOps | Agentic Commerce | Correlation UX | HITL Evaluation | Ob
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Jazzy L. Jazzy L. • 3rd+ Sr. Designer | AI Cloud Infrastructure | AIOps | Agentic Commerce | Correlation UX | HITL Evaluation | Ob; "loop engineering"
-  - Relevant entities: `["ent_0f70660d0d30508e4e4f", "ent_3cc31aa69887ececc1e6", "ent_5a8499d47c592e8024d1", "ent_6eb325ed45e56f378131", "ent_cff87b65303260dee5c7", "ent_d272569504fc836606d2", "ent_e99a9137eab364fb02cb", "ent_f4fe95770ad46aa16520"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/039-e33e5e922b9c9b42b801.md`
-- **https://lnkd.in/gXJHvTmu hashtag #agentic hashtag #artificialintelligence**
-  - Source ID: `src_4a6f55653ff6506123e7`
-  - Title: https://lnkd.in/gXJHvTmu hashtag #agentic hashtag #artificialintelligence
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: https://lnkd.in/gXJHvTmu hashtag #agentic hashtag #artificialintelligence; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/041-90edbae12984087bb22e.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/158-582e782233cf318bef8f.md`
 - **Feed post Lonnie McRorey • 3rd+ We Replace Nearshore, Offshore & EOR with a Distributed Engineering OS | 0→PR in 14 Days | For CTOs & CIOs V**
-  - Source ID: `src_cbc7f51eda4bad5c3daf`
+  - Source ID: `src_1939d5ae89f1b5e17b07`
   - URL: https://www.linkedin.com/in/lonnie?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAgt9cBVnY5IaRXpDRyN4ZSzsnA4_x_SeY
   - Title: Feed post Lonnie McRorey • 3rd+ We Replace Nearshore, Offshore & EOR with a Distributed Engineering OS | 0→PR in 14 Days | For CTOs & CIOs V
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Lonnie McRorey • 3rd+ We Replace Nearshore, Offshore & EOR with a Distributed Engineering OS | 0→PR in 14 Days | For CTOs & CIOs V; "loop engineering"
-  - Relevant entities: `["ent_01d4a0fcebc9e5a1a3a8", "ent_15d4cbcf60d9b1f9252e", "ent_445f6905483b3dc7b120", "ent_5a8499d47c592e8024d1", "ent_df80071647156c98ebfd", "ent_e4a46139da2e99e1dd23", "ent_eee89896c1a8faa773b6", "ent_fd9d128e789870d3b4d2"]`
+  - Summary: Feed post Lonnie McRorey • 3rd+ We Replace Nearshore, Offshore & EOR with a Distributed Engineering OS | 0→PR in 14 Days | For CTOs & CIOs V; "loop engineer"
+  - Relevant entities: `["ent_01d4a0fcebc9e5a1a3a8", "ent_15d4cbcf60d9b1f9252e", "ent_445f6905483b3dc7b120", "ent_df80071647156c98ebfd", "ent_e4a46139da2e99e1dd23", "ent_eee89896c1a8faa773b6", "ent_fd9d128e789870d3b4d2"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/042-f283a5864e97978d181f.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/166-f9961067d8bef1a10c6b.md`
 - **Funny thing. A lot of engineers are spending 8 hours learning how to write a better prompt. Meanwhile the engineer next to them is building **
-  - Source ID: `src_9bc98ee031231318454e`
+  - Source ID: `src_6feb2af8134083410e82`
   - Title: Funny thing. A lot of engineers are spending 8 hours learning how to write a better prompt. Meanwhile the engineer next to them is building 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Funny thing. A lot of engineers are spending 8 hours learning how to write a better prompt. Meanwhile the engineer next to them is building ; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_b22d1d8fe57525339540", "ent_c044215e7b91f66e5050"]`
-  - Extracted candidate claims: `["claim_8502d4dc9dc0b0eb83dc"]`
+  - Summary: Funny thing. A lot of engineers are spending 8 hours learning how to write a better prompt. Meanwhile the engineer next to them is building ; "loop engineer"
+  - Relevant entities: `["ent_b22d1d8fe57525339540", "ent_c044215e7b91f66e5050"]`
+  - Extracted candidate claims: `["claim_76583f69b94793fab044"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/044-f92898c1f273efbd01ae.md`
-- **Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. Over the last two **
-  - Source ID: `src_b4579afbea1fcf6d2e2d`
-  - Title: Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. Over the last two 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. Over the last two ; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_5fb6a47e368e12e5d8b1", "ent_c78c924af4f5d54a83af", "ent_eb1de3bdc45b7bcc6bca"]`
-  - Extracted candidate claims: `["claim_3978eea1e495626d9799"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/045-1948055b4a151f7fb1a3.md`
-- **Feed post Edoardo Oranger • 3rd+ Software Engineer 1h • Follow Negli ultimi anni grazie all’intelligenza artificiale, la figura del software**
-  - Source ID: `src_cfdba148777ab9a2333c`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/168-2fd4213d90ef409670db.md`
+- **Feed post Edoardo Oranger • 3rd+ Software Engineer 9h • Follow Negli ultimi anni grazie all’intelligenza artificiale, la figura del software**
+  - Source ID: `src_dc9b942929241d3a12e4`
   - URL: https://www.linkedin.com/in/edoardo-oranger?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADxAz3QByQzyfX8gTN1Kzp9EyVAVwKzqy78
-  - Title: Feed post Edoardo Oranger • 3rd+ Software Engineer 1h • Follow Negli ultimi anni grazie all’intelligenza artificiale, la figura del software
+  - Title: Feed post Edoardo Oranger • 3rd+ Software Engineer 9h • Follow Negli ultimi anni grazie all’intelligenza artificiale, la figura del software
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Edoardo Oranger • 3rd+ Software Engineer 1h • Follow Negli ultimi anni grazie all’intelligenza artificiale, la figura del software; "loop engineering"
-  - Relevant entities: `["ent_0a63a915497bd4962391", "ent_5a8499d47c592e8024d1"]`
+  - Summary: Feed post Edoardo Oranger • 3rd+ Software Engineer 9h • Follow Negli ultimi anni grazie all’intelligenza artificiale, la figura del software; "loop engineer"
+  - Relevant entities: `["ent_0a63a915497bd4962391"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/046-8f7c70d059d267453fcc.md`
-- **Negli ultimi anni grazie all’intelligenza artificiale, la figura del software engineer si è evoluta in questo modo: 1. software engineer 2. **
-  - Source ID: `src_ffc27bf5f2222b9fd41c`
-  - Title: Negli ultimi anni grazie all’intelligenza artificiale, la figura del software engineer si è evoluta in questo modo: 1. software engineer 2. 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Negli ultimi anni grazie all’intelligenza artificiale, la figura del software engineer si è evoluta in questo modo: 1. software engineer 2. ; "loop engineering"
-  - Relevant entities: `["ent_47e46bb63bd5485b2f10", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/048-608b3d852e3318401df4.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/170-8cc76bb5d515a2c22b81.md`
 - **Feed post Zaid Alazawe • 3rd+ Senior Process Engineer | LNG, Refining, Biodiesel & Renewables | 17+Yrs | PMP® | PSM | Enzymatic & FAME Proce**
-  - Source ID: `src_00145a38e52a09bd30c1`
+  - Source ID: `src_f06ce50ca9bab20ef1f2`
   - URL: https://www.linkedin.com/in/zaid-alazawe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAncK4oBA7n7OFBrDESI51kDDlTVD98VLUk
   - Title: Feed post Zaid Alazawe • 3rd+ Senior Process Engineer | LNG, Refining, Biodiesel & Renewables | 17+Yrs | PMP® | PSM | Enzymatic & FAME Proce
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Zaid Alazawe • 3rd+ Senior Process Engineer | LNG, Refining, Biodiesel & Renewables | 17+Yrs | PMP® | PSM | Enzymatic & FAME Proce; "loop engineering"
-  - Relevant entities: `["ent_13d7f5f7370ddd72e70c", "ent_19afe06a9ffe34484f56", "ent_3cf27f7408755a5e12b0", "ent_4fefbfee9cce3043daa7", "ent_5a8499d47c592e8024d1", "ent_7b2952e91329fff26103", "ent_7fdeefcd0605ebf26b96", "ent_8aa3cf9fc1ca745bfbb5", "ent_8c962f45f55170088bbb", "ent_add66c85226070034fc5", "ent_e7cdac783c7865ffb8b7"]`
+  - Summary: Feed post Zaid Alazawe • 3rd+ Senior Process Engineer | LNG, Refining, Biodiesel & Renewables | 17+Yrs | PMP® | PSM | Enzymatic & FAME Proce; "loop engineer"
+  - Relevant entities: `["ent_13d7f5f7370ddd72e70c", "ent_19afe06a9ffe34484f56", "ent_3cf27f7408755a5e12b0", "ent_4fefbfee9cce3043daa7", "ent_7b2952e91329fff26103", "ent_7fdeefcd0605ebf26b96", "ent_8aa3cf9fc1ca745bfbb5", "ent_8c962f45f55170088bbb", "ent_add66c85226070034fc5", "ent_e7cdac783c7865ffb8b7"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/049-73f3d4693ea255d97872.md`
-- **Process Engineering Essentials – A New Series for Engineers 👨🏻‍💻🚀 Process engineering is more than simulations and calculations. It’s about **
-  - Source ID: `src_5ffc286797a568b2ac2c`
-  - Title: Process Engineering Essentials – A New Series for Engineers 👨🏻‍💻🚀 Process engineering is more than simulations and calculations. It’s about 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Process Engineering Essentials – A New Series for Engineers 👨🏻‍💻🚀 Process engineering is more than simulations and calculations. It’s about ; "loop engineering"
-  - Relevant entities: `["ent_19ed40bf62c399b8492e", "ent_5113a2c25d90d92d68ae", "ent_5a8499d47c592e8024d1", "ent_91df9a8e8982259cef0f", "ent_c4fa68f9c3fcf6f0f8e1", "ent_cbd6250151b0af9fe9a4"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/051-1cfdf48b79729ca69ac2.md`
-- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
-  - Source ID: `src_55047ddd2b7f38bdf12c`
-  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
-  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo; "loop engineering"
-  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_5a8499d47c592e8024d1", "ent_aa0db396b7d5266b3919"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/052-0150217525705d5a7718.md`
-- **🚀 The Saudi MDF Giga-Project Arbitrage: Upcycling Palm Waste Feedstocks into Structural Biomaterials Under the strategic mandates of Saudi V**
-  - Source ID: `src_bf1503eca7407a86234e`
-  - Title: 🚀 The Saudi MDF Giga-Project Arbitrage: Upcycling Palm Waste Feedstocks into Structural Biomaterials Under the strategic mandates of Saudi V
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 🚀 The Saudi MDF Giga-Project Arbitrage: Upcycling Palm Waste Feedstocks into Structural Biomaterials Under the strategic mandates of Saudi V; "loop engineering"
-  - Relevant entities: `["ent_0e573fc6912b7166cab6", "ent_1d8f90a1335676044b93", "ent_5a8499d47c592e8024d1", "ent_ed149fce28b15b996301"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/053-6ab74f32a9440a643d8a.md`
-- **Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 1h • Follow "Loop Engineering" is so hot right now, in**
-  - Source ID: `src_8ef64e5b25fcac4e92a7`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/173-6bbd75b679c9749e7d23.md`
+- **Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 9h • Follow "Loop Engineering" is so hot right now, in**
+  - Source ID: `src_90e219af0aee06b6d9ce`
   - URL: https://www.linkedin.com/in/denysenkodaniil?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABgfYbMBCBVKVSdQekV5vtH1opRZR-0xnGo
-  - Title: Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 1h • Follow "Loop Engineering" is so hot right now, in
+  - Title: Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 9h • Follow "Loop Engineering" is so hot right now, in
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 1h • Follow "Loop Engineering" is so hot right now, in; "loop engineering"
+  - Summary: Feed post Daniil Denysenko • 3rd+ Senior Software Engineer (Backend, Golang) | 7+ YOE 9h • Follow "Loop Engineering" is so hot right now, in; "loop engineer"
   - Relevant entities: `["ent_10e08a419e850eba1ebb", "ent_19abb8ea2b95216f55f5", "ent_3bf7adcea0cc59268d6f", "ent_5a8499d47c592e8024d1", "ent_d754ed9f64ac293b1026"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/054-bc58a29a9bb7801f894c.md`
-- **"Loop Engineering" is so hot right now, instantly reminded me of this classic.**
-  - Source ID: `src_d5aa7edc8d9b671b6a0b`
-  - Title: "Loop Engineering" is so hot right now, instantly reminded me of this classic.
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: "Loop Engineering" is so hot right now, instantly reminded me of this classic.; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `["claim_d80d87b3689a8d771f16"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/056-aab12e31d1d92de0acdd.md`
-- **Feed post Brett Marlin • 3rd+ Founder & Principal at Marliin AI. Senior product practitioners delivered as AI agent infrastructure. 1h • Fol**
-  - Source ID: `src_2506bae58d1ed7d34d6c`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/176-e37cfbb9398e4934216b.md`
+- **Feed post Brett Marlin • 3rd+ Founder & Principal at Marliin AI. Senior product practitioners delivered as AI agent infrastructure. 9h • Fol**
+  - Source ID: `src_4ffc224541424191bcae`
   - URL: https://www.linkedin.com/in/brettmarlin?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACb9r0B5Ibh523GRcuud_kbWXFpGhKlHgk
-  - Title: Feed post Brett Marlin • 3rd+ Founder & Principal at Marliin AI. Senior product practitioners delivered as AI agent infrastructure. 1h • Fol
+  - Title: Feed post Brett Marlin • 3rd+ Founder & Principal at Marliin AI. Senior product practitioners delivered as AI agent infrastructure. 9h • Fol
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:16:41Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Brett Marlin • 3rd+ Founder & Principal at Marliin AI. Senior product practitioners delivered as AI agent infrastructure. 1h • Fol; "loop engineering"
-  - Relevant entities: `["ent_00140371c4222173772e", "ent_1553a4f30c5e782fe41f", "ent_2336f379fff1a2ad59fe", "ent_5a8499d47c592e8024d1", "ent_69e03750027e6b1e9f95", "ent_f9aa58218fb2ee4852f3"]`
+  - Summary: Feed post Brett Marlin • 3rd+ Founder & Principal at Marliin AI. Senior product practitioners delivered as AI agent infrastructure. 9h • Fol; "loop engineer"
+  - Relevant entities: `["ent_00140371c4222173772e", "ent_1553a4f30c5e782fe41f", "ent_2336f379fff1a2ad59fe", "ent_69e03750027e6b1e9f95", "ent_f9aa58218fb2ee4852f3"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/057-18c758ba7957a6316036.md`
-- **phht, i've been loop engineering since rollercoaster tycoon 3. but seriously: buying claude licenses for the whole team is not an ai strateg**
-  - Source ID: `src_ab47cd65dcd4c734832f`
-  - Title: phht, i've been loop engineering since rollercoaster tycoon 3. but seriously: buying claude licenses for the whole team is not an ai strateg
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/181-01f9efd47ffa70ae144a.md`
+- **Feed post KYUNGJUN LIM • 3rd+ I am the founder of Freederia.com, where we are changing the paradigm of future technology research through AI**
+  - Source ID: `src_3b5005dce862f17245b0`
+  - URL: https://www.linkedin.com/in/kyungjun-lim-702483128?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB9k0DIBiLWROGFDbBQcWC6RnkoiIeTIEzs
+  - Title: Feed post KYUNGJUN LIM • 3rd+ I am the founder of Freederia.com, where we are changing the paradigm of future technology research through AI
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: phht, i've been loop engineering since rollercoaster tycoon 3. but seriously: buying claude licenses for the whole team is not an ai strateg; "loop engineering"
-  - Relevant entities: `["ent_2cb4c742c0eee8ad4095", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `["claim_fe853f4d14e32dc5ee0b"]`
+  - Summary: Feed post KYUNGJUN LIM • 3rd+ I am the founder of Freederia.com, where we are changing the paradigm of future technology research through AI; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_cd4bdb83cadc4e5852e7", "ent_f56cef391d2e3fe98268"]`
+  - Extracted candidate claims: `["claim_a636ae2aed40e40d5044"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/059-83c202f3d5c23c9d5cc1.md`
-- **Feed post Quinton Wall • 3rd+ Tell your agent I said 👋 1h • Edited • Follow All of a sudden loop engineering has replaced prompt engineering**
-  - Source ID: `src_03e6f9b7b0ca795b560b`
-  - URL: https://www.linkedin.com/in/quintonwall?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAB29OABH_M7rEerhxURAtY_iRBJqlMie6M
-  - Title: Feed post Quinton Wall • 3rd+ Tell your agent I said 👋 1h • Edited • Follow All of a sudden loop engineering has replaced prompt engineering
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/002-b7dbb4709c4f27e8fb87.md`
+- **New Post: Formal Disambiguation Loop for Enzyme Engineering Screen Under Substrate Depletion - Formal Disambiguation Loop for Enzyme Enginee**
+  - Source ID: `src_3677e48060e24baee608`
+  - Title: New Post: Formal Disambiguation Loop for Enzyme Engineering Screen Under Substrate Depletion - Formal Disambiguation Loop for Enzyme Enginee
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Quinton Wall • 3rd+ Tell your agent I said 👋 1h • Edited • Follow All of a sudden loop engineering has replaced prompt engineering; "loop engineering"
-  - Relevant entities: `["ent_3eaba7aa243454858f6f", "ent_3fd4cb7b7bbeb2d4cbfd", "ent_5a8499d47c592e8024d1", "ent_879915cfdc2cb4852ed0", "ent_c5873462a70d955d716c", "ent_fbc54c6cdd440b4f83dc"]`
+  - Summary: New Post: Formal Disambiguation Loop for Enzyme Engineering Screen Under Substrate Depletion - Formal Disambiguation Loop for Enzyme Enginee; "loop engineering"
+  - Relevant entities: `["ent_3c99838f36cc0f7365e2", "ent_3d0ed20a86a7cdca42cb", "ent_489111f65854bf6dd30b", "ent_4fa277e36b714eddea6d", "ent_5a8499d47c592e8024d1", "ent_b09962951983294e7200", "ent_bf2f01d38c83a35ab9ef"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/060-43eecf59df5f0ebedc3a.md`
-- **All of a sudden loop engineering has replaced prompt engineering. What is it, and why you should be using /goal as often as possible. https:**
-  - Source ID: `src_8f12ecc8197d2f838117`
-  - Title: All of a sudden loop engineering has replaced prompt engineering. What is it, and why you should be using /goal as often as possible. https:
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/004-834abc680f39cfcacc0d.md`
+- **Feed post Wisely Chen • 3rd+ Executive Vice President , NeuroBrain Dynamics Inc. 39m • Edited • Follow Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶**
+  - Source ID: `src_26c8fb06304a32f304e1`
+  - URL: https://www.linkedin.com/in/wisely-chen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAyvjJABBA0YJ7IwPcbsZgE46mcXQXdnLZo
+  - Title: Feed post Wisely Chen • 3rd+ Executive Vice President , NeuroBrain Dynamics Inc. 39m • Edited • Follow Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: All of a sudden loop engineering has replaced prompt engineering. What is it, and why you should be using /goal as often as possible. https:; "loop engineering"
-  - Relevant entities: `["ent_3fd4cb7b7bbeb2d4cbfd", "ent_5a8499d47c592e8024d1", "ent_fbc54c6cdd440b4f83dc"]`
-  - Extracted candidate claims: `["claim_44553080825a09530959"]`
+  - Summary: Feed post Wisely Chen • 3rd+ Executive Vice President , NeuroBrain Dynamics Inc. 39m • Edited • Follow Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶; "loop engineering"
+  - Relevant entities: `["ent_26a17d5483ba71f27cfa", "ent_491e00c3dfdb17d663e0", "ent_592bbfb31e3816c12c77", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/062-fe2563dff40f74ff3e27.md`
-- **Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 2h • Follow Everyone is suddenly saying "loop engineering." Alm**
-  - Source ID: `src_8e9c2ef34e47997786bf`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/005-f45c21a36150e56151ed.md`
+- **Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶可夢火紅版，Django 共同創造者 Simon Willison 一天之內讓它連修四個底層 library 的 bug，Mozilla 用它的前身在 Firefox 150 裡抓出 271 個 bug——**
+  - Source ID: `src_4cfcf10edad21d6f46d9`
+  - Title: Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶可夢火紅版，Django 共同創造者 Simon Willison 一天之內讓它連修四個底層 library 的 bug，Mozilla 用它的前身在 Firefox 150 裡抓出 271 個 bug——
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Fable 5 到底強在哪？ 有人讓它一次做出完整的短影片，有人用它打通寶可夢火紅版，Django 共同創造者 Simon Willison 一天之內讓它連修四個底層 library 的 bug，Mozilla 用它的前身在 Firefox 150 裡抓出 271 個 bug——; "loop engineering"
+  - Relevant entities: `["ent_09cf980b5ff304ac11b7", "ent_16e5f60f207a1a007345", "ent_5a8499d47c592e8024d1", "ent_6de4624674ca5f1630b8", "ent_7d8a0838ce8e19b26e45", "ent_9b8f8a7d29275bf79087"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/007-e3d62c9f7213ba1ad68a.md`
+- **Feed post Avishek Saha • 3rd+ Applied AI Engineer | Agentic AI, RAG, and Multimodal Systems 1h • Follow I do not want to be the human cron j**
+  - Source ID: `src_744d8e4f4921ab0ac99f`
+  - URL: https://www.linkedin.com/in/sahaavi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBVy2kBg1ZOr7uJkjjN5nnd1m77Sf4I4AY
+  - Title: Feed post Avishek Saha • 3rd+ Applied AI Engineer | Agentic AI, RAG, and Multimodal Systems 1h • Follow I do not want to be the human cron j
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Avishek Saha • 3rd+ Applied AI Engineer | Agentic AI, RAG, and Multimodal Systems 1h • Follow I do not want to be the human cron j; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_a3e690053061793bb12a", "ent_d8ca1373a1ae2c4521b2", "ent_e53d9c6bab12812e4584", "ent_eb8931ebb759ab5a8566", "ent_f0e5f53af7e637286fd5"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/008-61d22988442b083ad934.md`
+- **I do not want to be the human cron job. The more I use agents, the less interesting the "perfect prompt" question feels. The more useful que**
+  - Source ID: `src_4b15ce15836875f34912`
+  - Title: I do not want to be the human cron job. The more I use agents, the less interesting the "perfect prompt" question feels. The more useful que
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: I do not want to be the human cron job. The more I use agents, the less interesting the "perfect prompt" question feels. The more useful que; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_93b4c83b1909670d0567"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/010-8e8266d9d90321df08cc.md`
+- **Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 1h • Follow Something uncomfortable I've come to believe. Typin**
+  - Source ID: `src_67de34b16c3b47627170`
   - URL: https://www.linkedin.com/in/gurudath-sadanandan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAiHXKoB-vLH-4van9Pud0X3dLvr15B81Ik
-  - Title: Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 2h • Follow Everyone is suddenly saying "loop engineering." Alm
+  - Title: Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 1h • Follow Something uncomfortable I've come to believe. Typin
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 2h • Follow Everyone is suddenly saying "loop engineering." Alm; "loop engineering"
-  - Relevant entities: `["ent_179eb6858858c534ac30", "ent_5a8499d47c592e8024d1", "ent_5d546560c6bf78fc7df8", "ent_df6e6e879a71e1d6c596", "ent_f70da08ab93595f06f16"]`
+  - Summary: Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 1h • Follow Something uncomfortable I've come to believe. Typin; "loop engineering"
+  - Relevant entities: `["ent_179eb6858858c534ac30", "ent_5a8499d47c592e8024d1", "ent_96448aab9d596ae15c44", "ent_df6e6e879a71e1d6c596", "ent_f70da08ab93595f06f16"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/063-9f5d734ae33c3d6feb4b.md`
-- **Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. So here it is, in the time it takes to d**
-  - Source ID: `src_6ec2b3fdea5e136677c5`
-  - Title: Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. So here it is, in the time it takes to d
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/012-255cbad535a6b766997c.md`
+- **Something uncomfortable I've come to believe. Typing prompts into an AI agent and reviewing what comes back is the new junior engineering. I**
+  - Source ID: `src_701f10dcf1b06087b1a9`
+  - Title: Something uncomfortable I've come to believe. Typing prompts into an AI agent and reviewing what comes back is the new junior engineering. I
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. So here it is, in the time it takes to d; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_9602eec8ca1a03bb0860"]`
-  - Extracted candidate claims: `["claim_78b5de70d95c32a72222"]`
+  - Summary: Something uncomfortable I've come to believe. Typing prompts into an AI agent and reviewing what comes back is the new junior engineering. I; "loop engineering"
+  - Relevant entities: `["ent_2d4bb1d26a567d4fe61d", "ent_3fc9b689459d738f8c88", "ent_5a8499d47c592e8024d1", "ent_f8fd8e84e5d029290a7d"]`
+  - Extracted candidate claims: `["claim_04498133bcb64f370816"]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/065-c0cd1620ac7015fa8576.md`
-- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
-  - Source ID: `src_73ab742770943981950c`
-  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
-  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/014-26053a57cd627f7220b8.md`
+- **Feed post Loiane G. • 3rd+ Director of Engineering @ BNY • Java Champion • Google Developer Expert in Angular • Microsoft MVP • Oracle ACE •**
+  - Source ID: `src_b7175bba3dc4c3b8290b`
+  - URL: https://www.linkedin.com/in/loiane?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAG2t-0BH7eGHBAKbBGbLVs16MKEH2ORQnE
+  - Title: Feed post Loiane G. • 3rd+ Director of Engineering @ BNY • Java Champion • Google Developer Expert in Angular • Microsoft MVP • Oracle ACE •
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo; "loop engineering"
-  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_5a8499d47c592e8024d1", "ent_aa0db396b7d5266b3919"]`
+  - Summary: Feed post Loiane G. • 3rd+ Director of Engineering @ BNY • Java Champion • Google Developer Expert in Angular • Microsoft MVP • Oracle ACE •; "loop engineering"
+  - Relevant entities: `["ent_1be897346aa14a667e34", "ent_4a609efdf015c5f581f2", "ent_5a8499d47c592e8024d1", "ent_5af5350366de4360c710", "ent_7c22524758e586ff8c7d", "ent_82432963b7aac6d242c1", "ent_a39f899adb17e2b43435", "ent_ad8490a233217dcf974d", "ent_e2adc6e9af39e57146ef", "ent_ef7d74898c22a4bf0be4"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/066-b3627c698e7f88c5f34f.md`
-- **🚀 The European MDF Paradigm: Turning Post-Consumer Wood Waste into Premium Circular Panels Standalone wood processing facilities and furnitu**
-  - Source ID: `src_5b8251198f2f2a17ba53`
-  - Title: 🚀 The European MDF Paradigm: Turning Post-Consumer Wood Waste into Premium Circular Panels Standalone wood processing facilities and furnitu
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/015-6f2c96c81e77486fa9dc.md`
+- **Looking back at my journey with AI-assisted development, I realize I’ve been through a few distinct milestones: - The "Vibe Coding" Phase (C**
+  - Source ID: `src_21000084ccad62185fa6`
+  - Title: Looking back at my journey with AI-assisted development, I realize I’ve been through a few distinct milestones: - The "Vibe Coding" Phase (C
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 🚀 The European MDF Paradigm: Turning Post-Consumer Wood Waste into Premium Circular Panels Standalone wood processing facilities and furnitu; "loop engineering"
-  - Relevant entities: `["ent_1f37c844024435089601", "ent_5a8499d47c592e8024d1", "ent_c0a3caaec37a0fbad3ad"]`
+  - Summary: Looking back at my journey with AI-assisted development, I realize I’ve been through a few distinct milestones: - The "Vibe Coding" Phase (C; "loop engineering"
+  - Relevant entities: `["ent_02195b8e989603e4dfb4", "ent_14f22c3ccfb754c8a1e6", "ent_2c56afdd8aa6c70c2471", "ent_5a8499d47c592e8024d1", "ent_71bdb49241f17b2ac3c0"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/067-ee476c44456bcf9505f2.md`
-- **Feed post Dylan Williams • 3rd+ Co-Founder - Spectrum Security Visit my website 2h • Follow If we now have loop engineering, then what’s nex**
-  - Source ID: `src_e2de6364ccc0540faa95`
-  - URL: https://www.linkedin.com/in/dylan-williams-a2927599?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABTcxoEB-bdAJxUs3Njp_XUBb7LLpsmefes
-  - Title: Feed post Dylan Williams • 3rd+ Co-Founder - Spectrum Security Visit my website 2h • Follow If we now have loop engineering, then what’s nex
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/017-f58a924a6a5a6016a43e.md`
+- **Feed post Suhnylla Kler • 3rd+ Training Director 1h • Follow "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job **
+  - Source ID: `src_9da43a54cdf655735fdc`
+  - URL: https://www.linkedin.com/in/suhnylla-kler-17312b3?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACNaScB3YcHhw7ZWrJfFRaV3yPgkXUbG8U
+  - Title: Feed post Suhnylla Kler • 3rd+ Training Director 1h • Follow "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Dylan Williams • 3rd+ Co-Founder - Spectrum Security Visit my website 2h • Follow If we now have loop engineering, then what’s nex; "loop engineering"
-  - Relevant entities: `["ent_55f12934b3a3e4a1ce96", "ent_5a8499d47c592e8024d1", "ent_622dc742678ee591a248", "ent_8e29c890dfd545d28e98"]`
+  - Summary: Feed post Suhnylla Kler • 3rd+ Training Director 1h • Follow "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job ; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_68e6d3ac885f64cc456f", "ent_7e8479ce630842ed07e1", "ent_b47d75c22c9544320345", "ent_d1278d327f58356f9c0e", "ent_f7beb5d42c12c9470ec0"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/068-f40bf5d6911c7865d4f5.md`
-- **If we now have loop engineering, then what’s next? Environment engineering. Prompt engineering, context engineering, harness engineering, lo**
-  - Source ID: `src_d19c8f39ecb42fcb43de`
-  - URL: https://www.linkedin.com/in/sarahxguo/
-  - Title: If we now have loop engineering, then what’s next? Environment engineering. Prompt engineering, context engineering, harness engineering, lo
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/018-787b48b968ca4d20f53e.md`
+- **"Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering **
+  - Source ID: `src_c1fd14777568931947ca`
+  - URL: https://www.linkedin.com/company/anthropicresearch/
+  - Title: "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: If we now have loop engineering, then what’s next? Environment engineering. Prompt engineering, context engineering, harness engineering, lo; "loop engineering"
-  - Relevant entities: `["ent_048aea7591dac0aa8db5", "ent_0adcaac0d19ad4930bac", "ent_5a8499d47c592e8024d1", "ent_622dc742678ee591a248", "ent_a2f7c635002aa981cab2", "ent_ba5285161ba6eed0085f", "ent_cf07194ee232eb531e15", "ent_e9acff1bccde0d17e96b"]`
+  - Summary: "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering ; "loop engineering"
+  - Relevant entities: `["ent_4162e845a2d0111f2772", "ent_5a8499d47c592e8024d1", "ent_68e6d3ac885f64cc456f", "ent_a2f7c635002aa981cab2", "ent_d1278d327f58356f9c0e", "ent_e9acff1bccde0d17e96b", "ent_f7beb5d42c12c9470ec0"]`
+  - Extracted candidate claims: `["claim_0c76b2d0770ff1442eeb"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/020-cd9864f23d2744f6478a.md`
+- **Feed post Richard Seroter • 3rd+ Senior Director and Chief Evangelist at Google Cloud 1h • Follow Today's links look at why your AI strategy**
+  - Source ID: `src_cf761446fa5a623c8e41`
+  - URL: https://www.linkedin.com/in/seroter?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAtkocB4eXJSP-mCqn6b-3ri4DeXbzJwys
+  - Title: Feed post Richard Seroter • 3rd+ Senior Director and Chief Evangelist at Google Cloud 1h • Follow Today's links look at why your AI strategy
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Richard Seroter • 3rd+ Senior Director and Chief Evangelist at Google Cloud 1h • Follow Today's links look at why your AI strategy; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_c1f47bc584be8de297e1", "ent_d68e0c9617947029e66e", "ent_d9b1d7819af92e77de64"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/070-e60057894ed30f492dc1.md`
-- **Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex**
-  - Source ID: `src_f1898f6d5dce6bcd1786`
-  - URL: https://www.linkedin.com/in/garethpjones?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEdStQBQk_Lrsi_If2CDLO2isbaypzOV3A
-  - Title: Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/021-aefefe6475cdf0568aab.md`
+- **Today's links look at why your AI strategy has a trust problem, what loop engineering is all about, and why the PaaS market keeps bundling a**
+  - Source ID: `src_4f252e1192e1cfae66c3`
+  - Title: Today's links look at why your AI strategy has a trust problem, what loop engineering is all about, and why the PaaS market keeps bundling a
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex; "loop engineering"
-  - Relevant entities: `["ent_189f305ac92159429182", "ent_1cec0c00bfbcbd6c7eba", "ent_3a7bd3e2360a3d29eea4", "ent_5a8499d47c592e8024d1", "ent_61b69b22e9dd594b7867", "ent_bbdefa2950f49882f295", "ent_ca4bd2647e95f6782634"]`
+  - Summary: Today's links look at why your AI strategy has a trust problem, what loop engineering is all about, and why the PaaS market keeps bundling a; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_e3b3a8e6a5dfdf484a46"]`
+  - Extracted candidate claims: `["claim_f5594ad345b1b79ad42f"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/023-5e771180802857378de8.md`
+- **Feed post 賴士翔 • 3rd+ Interdisciplinary Writer｜Human-AI Operating Systems｜AI-native Publishing & Solo Founder Workflow View my newsletter 2h **
+  - Source ID: `src_e5b6feb9ebfa37183b92`
+  - URL: https://www.linkedin.com/in/kenlai-7a681377?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABBQ-a4BH5VZvst_jA0-4Igv9UHthz3PGoM
+  - Title: Feed post 賴士翔 • 3rd+ Interdisciplinary Writer｜Human-AI Operating Systems｜AI-native Publishing & Solo Founder Workflow View my newsletter 2h 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post 賴士翔 • 3rd+ Interdisciplinary Writer｜Human-AI Operating Systems｜AI-native Publishing & Solo Founder Workflow View my newsletter 2h ; "loop engineering"
+  - Relevant entities: `["ent_4cd3643ea55c8f6480dc", "ent_5a8499d47c592e8024d1", "ent_9660bf9cdd0db16756f5", "ent_df7838bdc11ebc7cb830", "ent_f8732f251247f4627256", "ent_fe950e8f3926e2d5bc79"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/071-d22b4253c15e91dfd9fd.md`
-- **Loop Engineering is the next leap: agents find work, execute, evaluate, and repeat without constant supervision. The secret? Build the evalu**
-  - Source ID: `src_45271aaf537ca39870f7`
-  - Title: Loop Engineering is the next leap: agents find work, execute, evaluate, and repeat without constant supervision. The secret? Build the evalu
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/024-19b384447cb8a7f79a6b.md`
+- **TechOrange 報導了 Loop Engineering 的 AI Agent⁠，揭示了如何將 AI 自治系統與工程流程深度結合。 從 Eliyahoren.com 的視角來看，這不只是技術升級，而是一種 人類與 AI 協作的認知進化： * 多 Agent 協作：AI 不只**
+  - Source ID: `src_2df3c2d1654cd80f5fc7`
+  - Title: TechOrange 報導了 Loop Engineering 的 AI Agent⁠，揭示了如何將 AI 自治系統與工程流程深度結合。 從 Eliyahoren.com 的視角來看，這不只是技術升級，而是一種 人類與 AI 協作的認知進化： * 多 Agent 協作：AI 不只
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Loop Engineering is the next leap: agents find work, execute, evaluate, and repeat without constant supervision. The secret? Build the evalu; "loop engineering"
-  - Relevant entities: `["ent_44575cf5b28512d75644", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `["claim_5fe426bc9f841da6446c"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/073-f213d10bb437a0af4304.md`
-- **Feed post Esmat Nawahda • 3rd+ Co-founder & CTO at Genpire | ex-Check Point, ex-AUI | Building the agentic infrastructure for the next gener**
-  - Source ID: `src_e0f917a77b8f68587320`
-  - URL: https://www.linkedin.com/in/esmat-nawahda-6bb250a1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABWSQO8Bu3Oid2gzByUciD8Thq2htAM-6ps
-  - Title: Feed post Esmat Nawahda • 3rd+ Co-founder & CTO at Genpire | ex-Check Point, ex-AUI | Building the agentic infrastructure for the next gener
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Esmat Nawahda • 3rd+ Co-founder & CTO at Genpire | ex-Check Point, ex-AUI | Building the agentic infrastructure for the next gener; "loop engineering"
-  - Relevant entities: `["ent_2d0a8784faf51210e69e", "ent_5a8499d47c592e8024d1", "ent_c05ee1f75c13a8359221", "ent_db3fef373cb224f4f66d", "ent_fbc01d85de30db209c37"]`
+  - Summary: TechOrange 報導了 Loop Engineering 的 AI Agent⁠，揭示了如何將 AI 自治系統與工程流程深度結合。 從 Eliyahoren.com 的視角來看，這不只是技術升級，而是一種 人類與 AI 協作的認知進化： * 多 Agent 協作：AI 不只; "loop engineering"
+  - Relevant entities: `["ent_30df7f7bc869200d6bb5", "ent_5a8499d47c592e8024d1", "ent_ca701a7ff1b532ce2b75", "ent_d4f0bc5a29de06b510f9", "ent_ee662f0a4316976d226a"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/074-4e52bd82203a5dbf450b.md`
-- **Loop Engineering: replacing one-shot prompts with a self-correcting cycle. Four phases: Act. The agent generates output. Observe. The system**
-  - Source ID: `src_1d386e25cf92c1f02650`
-  - Title: Loop Engineering: replacing one-shot prompts with a self-correcting cycle. Four phases: Act. The agent generates output. Observe. The system
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/026-8d79491bc7dc0f69a3af.md`
+- **Feed post Wael Abd El-Galil • 3rd+ FMS Engineer , Maintenance, Reliability, construction, Safety 2h • Follow The gap between theoretical net**
+  - Source ID: `src_4e703ba92dc460be8be1`
+  - URL: https://www.linkedin.com/in/wael-abd-el-galil-304b791a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAQWmXQB2H1aYTop0GY7gKs5fHcuJWe3Wgw
+  - Title: Feed post Wael Abd El-Galil • 3rd+ FMS Engineer , Maintenance, Reliability, construction, Safety 2h • Follow The gap between theoretical net
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Loop Engineering: replacing one-shot prompts with a self-correcting cycle. Four phases: Act. The agent generates output. Observe. The system; "loop engineering"
-  - Relevant entities: `["ent_04efaf080f5a3e74e1c2", "ent_3adc8652622873169633", "ent_3b4b5d1ead99892f3779", "ent_5a8499d47c592e8024d1"]`
+  - Summary: Feed post Wael Abd El-Galil • 3rd+ FMS Engineer , Maintenance, Reliability, construction, Safety 2h • Follow The gap between theoretical net; "loop engineering"
+  - Relevant entities: `["ent_4543fd6679b52df945c2", "ent_5a8499d47c592e8024d1", "ent_819bb986f4199f141bc4", "ent_856e8bd358ece398c72f", "ent_8589c63b0943a62bfda9", "ent_8a7aec72f1dd4461775b"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/076-d7b973aee355132aa3f9.md`
-- **Feed post Adrien Desbiaux • 3rd+ Applied AI engineer 2h • Follow I am officially becoming a high agency AI Loop Engineer. 2 comments Like Co**
-  - Source ID: `src_abe9abf1c706f220f883`
-  - URL: https://www.linkedin.com/in/adriendesbiaux?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAj_cEIB1jqYCZPpi3-L6qjsvqOP1VfaI0E
-  - Title: Feed post Adrien Desbiaux • 3rd+ Applied AI engineer 2h • Follow I am officially becoming a high agency AI Loop Engineer. 2 comments Like Co
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/027-fa61fe4353a7a2bcc561.md`
+- **The gap between theoretical networking concepts and real-world infrastructure deployment is where most engineering projects lose momentum. F**
+  - Source ID: `src_9a695916edac3f1d1306`
+  - Title: The gap between theoretical networking concepts and real-world infrastructure deployment is where most engineering projects lose momentum. F
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Adrien Desbiaux • 3rd+ Applied AI engineer 2h • Follow I am officially becoming a high agency AI Loop Engineer. 2 comments Like Co; "loop engineering"
-  - Relevant entities: `["ent_4a595792693829f8831d", "ent_59e7344d4f1a62a300bb", "ent_5a8499d47c592e8024d1", "ent_696fcb86b92c83da9d15", "ent_c53424880ac2a5c0a1bc"]`
+  - Summary: The gap between theoretical networking concepts and real-world infrastructure deployment is where most engineering projects lose momentum. F; "loop engineering"
+  - Relevant entities: `["ent_4635e775e3a1357fa62f", "ent_5a8499d47c592e8024d1"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/077-6bcb6bc4abeff89ebaba.md`
-- **I am officially becoming a high agency AI Loop Engineer.**
-  - Source ID: `src_12ee00d806eca0600392`
-  - Title: I am officially becoming a high agency AI Loop Engineer.
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/029-e036987db7465ed622a2.md`
+- **Feed post Bruno Antoniassi • 3rd+ AI Automation Architect | From Diagnosis to Deployment | Founder @ ClaunX 2h • Follow Pedi pra minha IA se**
+  - Source ID: `src_56bf53e7217bb8521922`
+  - URL: https://www.linkedin.com/in/bruno-antoniassi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADHgZUUBw7FXHZSsx4De23Dni_dUu0SZPhc
+  - Title: Feed post Bruno Antoniassi • 3rd+ AI Automation Architect | From Diagnosis to Deployment | Founder @ ClaunX 2h • Follow Pedi pra minha IA se
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: I am officially becoming a high agency AI Loop Engineer.; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_696fcb86b92c83da9d15", "ent_c53424880ac2a5c0a1bc"]`
+  - Summary: Feed post Bruno Antoniassi • 3rd+ AI Automation Architect | From Diagnosis to Deployment | Founder @ ClaunX 2h • Follow Pedi pra minha IA se; "loop engineering"
+  - Relevant entities: `["ent_420d7e4de0fdbf257d0e", "ent_5a8499d47c592e8024d1", "ent_6d3f69a5fe790b988a65", "ent_aee50b18a03c89e4883a", "ent_f1a81218d4ab2cf2a8df"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/079-bcd26c704aec730edc84.md`
-- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
-  - Source ID: `src_591c73dcf4ae08f772eb`
-  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
-  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/030-5614125db4253b72ff41.md`
+- **Pedi pra minha IA se auto-aprimorar. Ela recusou. E estava certa. (olha que convencida) Essa semana montei um sistema de instruções pro Clau**
+  - Source ID: `src_1334968578c843ff0d5c`
+  - Title: Pedi pra minha IA se auto-aprimorar. Ela recusou. E estava certa. (olha que convencida) Essa semana montei um sistema de instruções pro Clau
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo; "loop engineering"
-  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_5a8499d47c592e8024d1", "ent_aa0db396b7d5266b3919"]`
+  - Summary: Pedi pra minha IA se auto-aprimorar. Ela recusou. E estava certa. (olha que convencida) Essa semana montei um sistema de instruções pro Clau; "loop engineering"
+  - Relevant entities: `["ent_36db8f86330ccafea3c3", "ent_4229506ae76df4ccf9c9", "ent_5a8499d47c592e8024d1", "ent_73950d9acf672365ad26", "ent_d73b0baa6905b0e4f456"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/080-eed176669e2cd00cdfb3.md`
-- **🚀 The Saudi Gelatin Giga-Project Arbitrage: Upcycling Halal Leather Streams into Pharma-Grade Biomaterials Under the strategic mandates of S**
-  - Source ID: `src_f14dd1adefcf99f67e8e`
-  - Title: 🚀 The Saudi Gelatin Giga-Project Arbitrage: Upcycling Halal Leather Streams into Pharma-Grade Biomaterials Under the strategic mandates of S
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/032-49919af3f672bf6609d9.md`
+- **Feed post Marshall Hendricks Marshall Hendricks • 3rd+ Solutions Architect | Systems Engineer | Forward Deployed Engineer | project manager **
+  - Source ID: `src_a419e4698871aa44bc06`
+  - URL: https://www.linkedin.com/in/marshall-hendricks-595a06?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAmI8EBoJqGgRGmTvXHG6EWU5wwRhxFcXY
+  - Title: Feed post Marshall Hendricks Marshall Hendricks • 3rd+ Solutions Architect | Systems Engineer | Forward Deployed Engineer | project manager 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 🚀 The Saudi Gelatin Giga-Project Arbitrage: Upcycling Halal Leather Streams into Pharma-Grade Biomaterials Under the strategic mandates of S; "loop engineering"
-  - Relevant entities: `["ent_294e19e9fafb7bf5a2a0", "ent_468a6a0d323f9bec26dc", "ent_5a8499d47c592e8024d1"]`
+  - Summary: Feed post Marshall Hendricks Marshall Hendricks • 3rd+ Solutions Architect | Systems Engineer | Forward Deployed Engineer | project manager ; "loop engineering"
+  - Relevant entities: `["ent_2924e9e1fb2411078c97", "ent_5a8499d47c592e8024d1", "ent_6b89f39ca50cfe8c6d9e", "ent_b01510af5f34e18a88bd", "ent_eab60bd51f9d2dc934fc"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/081-ac0a2591f04829b785c6.md`
-- **Feed post Milton Thomas • 3rd+ Architecte IA & Conseiller Stratégique : L’œil anthropologique sur votre technologie | Détecteur de Scams Tec**
-  - Source ID: `src_e9cec6de6cde88277dd1`
-  - URL: https://www.linkedin.com/in/milton-thomas-architecteia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABp_kRwBYo8P3knbKCaJlXKejzEsDyg4nCQ
-  - Title: Feed post Milton Thomas • 3rd+ Architecte IA & Conseiller Stratégique : L’œil anthropologique sur votre technologie | Détecteur de Scams Tec
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/033-2acce0e428e9ffd4cf5b.md`
+- **Loop Engineering Is the Next Prompt Engineering TL;DR Prompt engineering optimized what we ask an LLM. Workflow engineering optimized when w**
+  - Source ID: `src_415b05329d7e69e3f77c`
+  - Title: Loop Engineering Is the Next Prompt Engineering TL;DR Prompt engineering optimized what we ask an LLM. Workflow engineering optimized when w
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Milton Thomas • 3rd+ Architecte IA & Conseiller Stratégique : L’œil anthropologique sur votre technologie | Détecteur de Scams Tec; "loop engineering"
-  - Relevant entities: `["ent_35969fac6f6c7dc3722a", "ent_46f19129bb7391ebeed1", "ent_4acffcc60a6b504ce79d", "ent_5066219d8c7142ab0041", "ent_5a8499d47c592e8024d1"]`
+  - Summary: Loop Engineering Is the Next Prompt Engineering TL;DR Prompt engineering optimized what we ask an LLM. Workflow engineering optimized when w; "loop engineering"
+  - Relevant entities: `["ent_02339a8bd70efafb0057", "ent_12aac20831933a647e78", "ent_1f03bb5f0ca82ef59ff3", "ent_5a8499d47c592e8024d1", "ent_77662d61cef6a9498ad0", "ent_cf07194ee232eb531e15", "ent_f7892928fe0fd85ee6f8"]`
+  - Extracted candidate claims: `["claim_ade705e8f9dc68ddee75"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/035-7db608a160a5b0f6944c.md`
+- **Feed post SkyCadEda Private Limited 94 followers 2h • Follow AI-generated models are useful only when verification owns the loop. Semiconduc**
+  - Source ID: `src_26d271361d2422ecaad7`
+  - URL: https://www.linkedin.com/company/skycadeda/posts
+  - Title: Feed post SkyCadEda Private Limited 94 followers 2h • Follow AI-generated models are useful only when verification owns the loop. Semiconduc
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post SkyCadEda Private Limited 94 followers 2h • Follow AI-generated models are useful only when verification owns the loop. Semiconduc; "loop engineering"
+  - Relevant entities: `["ent_1ad2ddd7e9666a10604f", "ent_35939081ba0fa8339310", "ent_5a8499d47c592e8024d1", "ent_eb10957906bb46ed1941"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/082-cbc5000dc8ca54885c00.md`
-- **Si vous passez encore vos journées à chercher le "prompt magique" de 50 lignes pour obtenir la réponse parfaite du premier coup, vous avez d**
-  - Source ID: `src_9c06bccff652d7408881`
-  - Title: Si vous passez encore vos journées à chercher le "prompt magique" de 50 lignes pour obtenir la réponse parfaite du premier coup, vous avez d
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/036-9da3417ff4227add9952.md`
+- **AI-generated models are useful only when verification owns the loop. Semiconductor Engineering asks if AI can create missing models. The pra**
+  - Source ID: `src_6d78755154ac023c8e4e`
+  - Title: AI-generated models are useful only when verification owns the loop. Semiconductor Engineering asks if AI can create missing models. The pra
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Si vous passez encore vos journées à chercher le "prompt magique" de 50 lignes pour obtenir la réponse parfaite du premier coup, vous avez d; "loop engineering"
+  - Summary: AI-generated models are useful only when verification owns the loop. Semiconductor Engineering asks if AI can create missing models. The pra; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_746d1113c358e1c93874", "ent_b7611cbda56c5b1268c2", "ent_eb10957906bb46ed1941"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/038-77ddd48763c2396362b1.md`
+- **Feed post John M. TenEyck Jr. John M. TenEyck Jr. • 3rd+ Senior Technology Leader 2h • Follow I have spent a lot of time in my career talkin**
+  - Source ID: `src_447ee4618af62d22a4dc`
+  - URL: https://www.linkedin.com/in/johnmteneyckjr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA_OvoBATip7G4daXaRNhfjKv0_fEhGybk
+  - Title: Feed post John M. TenEyck Jr. John M. TenEyck Jr. • 3rd+ Senior Technology Leader 2h • Follow I have spent a lot of time in my career talkin
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post John M. TenEyck Jr. John M. TenEyck Jr. • 3rd+ Senior Technology Leader 2h • Follow I have spent a lot of time in my career talkin; "loop engineering"
+  - Relevant entities: `["ent_2a8b8587919a0961b7c2", "ent_3d6dbc5b047acd5418b8", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/039-b14f5964a82e29b41b6c.md`
+- **I have spent a lot of time in my career talking to people about work, leadership, technology, and what it means to show up when things are h**
+  - Source ID: `src_5d1fb2a330f434c0029b`
+  - URL: https://www.linkedin.com/in/joe-robles-20252148/
+  - Title: I have spent a lot of time in my career talking to people about work, leadership, technology, and what it means to show up when things are h
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: I have spent a lot of time in my career talking to people about work, leadership, technology, and what it means to show up when things are h; "loop engineering"
   - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `["claim_91fb102701273e064a2f"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/041-8cb3b52c5018b5038256.md`
+- **Feed post Mauricio Mercado • 3rd+ Senior Backend Engineer | Event-Driven Architecture & Microservices | 15+ Years Scaling Systems for 1M+ Da**
+  - Source ID: `src_6a789e61e2cf79e434b7`
+  - URL: https://www.linkedin.com/in/mauromercado?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAYgiZsBNPfA3oz7fRPbCG6jwwhBaqSKaxo
+  - Title: Feed post Mauricio Mercado • 3rd+ Senior Backend Engineer | Event-Driven Architecture & Microservices | 15+ Years Scaling Systems for 1M+ Da
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Mauricio Mercado • 3rd+ Senior Backend Engineer | Event-Driven Architecture & Microservices | 15+ Years Scaling Systems for 1M+ Da; "loop engineering"
+  - Relevant entities: `["ent_1cd12e39c228a125e9fe", "ent_5a8499d47c592e8024d1", "ent_60a872f76d541bec6397", "ent_9662d85150fcd3414cff", "ent_f0866650b14dc61422e1"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/084-2600c34267f53625c8e4.md`
-- **Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent**
-  - Source ID: `src_dabe1f21d66b5c81825e`
-  - URL: https://www.linkedin.com/in/namrata-ganatra?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHQwzsBIS4Rlx_PDYXyeG3GpALoDGIao-M
-  - Title: Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/042-423c810b337c01e43d86.md`
+- **The "token-maxing" era is officially dead (personally I never really understood why this was a thing), and your company’s AI budget is likel**
+  - Source ID: `src_531f1d3b00ff795d7d3e`
+  - Title: The "token-maxing" era is officially dead (personally I never really understood why this was a thing), and your company’s AI budget is likel
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Namrata Ganatra • 3rd+ Entrepreneur & Tech Executive | ex-Meta, Coinbase, Microsoft | Investor 2h • Follow Stop prompting AI agent; "loop engineering"
-  - Relevant entities: `["ent_11931cc5758f7f7653e4", "ent_5a8499d47c592e8024d1", "ent_82fa381ac010fd27af4d", "ent_9fbf261b62c1d7c00db7", "ent_afdd2ff2a78bdcf16e31", "ent_df22016bdd63f3895993", "ent_ea3bd73e2b506e005272", "ent_f80f21938e5248ec70b8"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/085-791a8409cf05de355ac0.md`
-- **Stop prompting AI agents. Start engineering loops. A loop is a small program that prompts an AI agent for you, reads what it produced, decid**
-  - Source ID: `src_a45643df73fd7508537b`
-  - Title: Stop prompting AI agents. Start engineering loops. A loop is a small program that prompts an AI agent for you, reads what it produced, decid
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Stop prompting AI agents. Start engineering loops. A loop is a small program that prompts an AI agent for you, reads what it produced, decid; "loop engineering"
-  - Relevant entities: `["ent_13b4b5bd66f5ab3aa5c6", "ent_5a8499d47c592e8024d1", "ent_6c45cb72a36e63d522aa", "ent_badd85a4876d11680bed", "ent_cced28c6dc3f99c2396a", "ent_f91e99a99ddd042ad5d4"]`
-  - Extracted candidate claims: `["claim_ddcb28eb301b363c351a"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/087-50ea264ef868979450bb.md`
-- **Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera **
-  - Source ID: `src_6dcc4ca70392d35f0253`
-  - URL: https://www.linkedin.com/in/douglas-batista-295458230?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADm7PJEBv_--ElIX2zM31CP14ydWdEYMIIA
-  - Title: Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera ; "loop engineering"
-  - Relevant entities: `["ent_0d857f8cf2d76abb4437", "ent_11a4a60b518bf24989d4", "ent_275976081ce1abf67779", "ent_38a0963a6364b09ad867", "ent_430005175c4c7810996d", "ent_4f2c7959f8b83734e8f5", "ent_5a8499d47c592e8024d1", "ent_969545dde1584d882275", "ent_9c3c0544259a604e43fb"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/088-2ecf1233d61cf6196904.md`
-- **IA gera código rápido, mas frequentemente peca na falta de design, documentação e revisão antes do commit. Para mudar essa abordagem, estrut**
-  - Source ID: `src_7de35d8856d9efa30129`
-  - Title: IA gera código rápido, mas frequentemente peca na falta de design, documentação e revisão antes do commit. Para mudar essa abordagem, estrut
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: IA gera código rápido, mas frequentemente peca na falta de design, documentação e revisão antes do commit. Para mudar essa abordagem, estrut; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_a1453f380fa9f1a08e84"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/090-2c811f5a7031dcae55d2.md`
-- **Tava insatisfeito com como IA gera código: pula etapas, não documenta, não pensa em design antes de implementar, e às vezes commita sem revi**
-  - Source ID: `src_634a6637b12c5831dfd6`
-  - URL: https://www.linkedin.com/in/douglas-batista-295458230/
-  - Title: Tava insatisfeito com como IA gera código: pula etapas, não documenta, não pensa em design antes de implementar, e às vezes commita sem revi
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Tava insatisfeito com como IA gera código: pula etapas, não documenta, não pensa em design antes de implementar, e às vezes commita sem revi; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_7a09820f154feae351ec"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/091-33a39daeeb238bd29954.md`
-- **Feed post Muhammad Adnan • 3rd+ BDE @ Zenveus | LinkedIn Outbound & Growth | Email Marketing | SaaS & AI Automation | Coffee-Fueled Operator**
-  - Source ID: `src_db513a029e6b9351b583`
-  - URL: https://www.linkedin.com/in/himuhammadadnan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADInsXsBaxFRtQPmr3TyQyCb1a0iGSGLW3U
-  - Title: Feed post Muhammad Adnan • 3rd+ BDE @ Zenveus | LinkedIn Outbound & Growth | Email Marketing | SaaS & AI Automation | Coffee-Fueled Operator
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Muhammad Adnan • 3rd+ BDE @ Zenveus | LinkedIn Outbound & Growth | Email Marketing | SaaS & AI Automation | Coffee-Fueled Operator; "loop engineering"
-  - Relevant entities: `["ent_19c64195eb8f22c39b4b", "ent_310316c853f829409351", "ent_5a8499d47c592e8024d1", "ent_7155d5791e307447119c", "ent_98650c35cd5ea2afde84", "ent_c3fb8fd7e1ba63e73ff2", "ent_c6cd4839d8741953facc", "ent_d8db2a6369f8cf204939", "ent_fe237498239efcc0e977"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/092-2cdfe73907625b97dad8.md`
-- **AI is changing how SaaS companies grow. But the real advantage is not just adding AI features. It is building better systems around the enti**
-  - Source ID: `src_4f399dde5c84a687e7af`
-  - Title: AI is changing how SaaS companies grow. But the real advantage is not just adding AI features. It is building better systems around the enti
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: AI is changing how SaaS companies grow. But the real advantage is not just adding AI features. It is building better systems around the enti; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_98650c35cd5ea2afde84", "ent_cdc29937887188ad3702"]`
-  - Extracted candidate claims: `["claim_e3b28135bcb28d4ef2aa"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/094-8a75cb237fc13c060129.md`
-- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo**
-  - Source ID: `src_894ae79eb4f739f98a48`
-  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
-  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 1h • Fo; "loop engineering"
-  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_5a8499d47c592e8024d1", "ent_aa0db396b7d5266b3919"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/095-8d771208b555abf3573f.md`
-- **🚀 The European Gelatin Premium: Upcycling Cow Leather Scrap into Medical-Grade Assets Standalone leather tanneries across Europe face severe**
-  - Source ID: `src_9c49e00ffc65153ff3cf`
-  - Title: 🚀 The European Gelatin Premium: Upcycling Cow Leather Scrap into Medical-Grade Assets Standalone leather tanneries across Europe face severe
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 🚀 The European Gelatin Premium: Upcycling Cow Leather Scrap into Medical-Grade Assets Standalone leather tanneries across Europe face severe; "loop engineering"
-  - Relevant entities: `["ent_495a995c00ee5c49c910", "ent_5a8499d47c592e8024d1", "ent_67ae57f196dc3d0ba95d", "ent_b11f203e8e6ce90d0ab5"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/096-4a6c0c11eed8dc39eb16.md`
-- **Feed post Nirmalkumar Sathiamurthi • 3rd+ Senior Engineering Manager | Scaled SaaS to $400M ARR | Led 20+ Engineers | 30x Performance Gains **
-  - Source ID: `src_f598a07d0baed0022154`
-  - URL: https://www.linkedin.com/in/nirmalkumarsathiamurthi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATd5ywBB6ef6dIVT448DkknTeDe5LMcRaE
-  - Title: Feed post Nirmalkumar Sathiamurthi • 3rd+ Senior Engineering Manager | Scaled SaaS to $400M ARR | Led 20+ Engineers | 30x Performance Gains 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Nirmalkumar Sathiamurthi • 3rd+ Senior Engineering Manager | Scaled SaaS to $400M ARR | Led 20+ Engineers | 30x Performance Gains ; "loop engineering"
-  - Relevant entities: `["ent_021f8ffac9f9a70fd346", "ent_2e6839f29b1ea4ae7bed", "ent_5a8499d47c592e8024d1", "ent_63c69a180a7937176ce1", "ent_91df9a8e8982259cef0f", "ent_a9821b10f6bc026565b9", "ent_c1cda599c017f3ff75a9"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/097-4f81484efdeb739a72e4.md`
-- **We've moved fast. Vibe coding → Agentic workflows → Harness engineering → Loop engineering. But here's the question nobody's asking loudly e**
-  - Source ID: `src_14d5206f07305edbab45`
-  - Title: We've moved fast. Vibe coding → Agentic workflows → Harness engineering → Loop engineering. But here's the question nobody's asking loudly e
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: We've moved fast. Vibe coding → Agentic workflows → Harness engineering → Loop engineering. But here's the question nobody's asking loudly e; "loop engineering"
-  - Relevant entities: `["ent_0adcaac0d19ad4930bac", "ent_254637f72efcddb6a545", "ent_49f756463ad9dcfb9b6a", "ent_5a8499d47c592e8024d1", "ent_8368ec5f1a1537874699", "ent_c247e9808f5e81b86fef", "ent_cdc29937887188ad3702"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/099-c4017c55be4e384c083a.md`
-- **Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage**
-  - Source ID: `src_e57c9f9405f1d7479c72`
-  - URL: https://www.linkedin.com/company/finrevplus/posts
-  - Title: Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post FinRev+ 312 followers 2h • Edited • Follow Converting world-class engineering capability into an unassailable commercial advantage; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_c0bf123c5dbc01f4dc28"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/100-0ad199d1753e2556739d.md`
-- **Converting world-class engineering capability into an unassailable commercial advantage? Interview from Baker Hughes on their advanced geoth**
-  - Source ID: `src_d1940b923ec5314259f8`
-  - URL: https://www.linkedin.com/company/bakerhughes/
-  - Title: Converting world-class engineering capability into an unassailable commercial advantage? Interview from Baker Hughes on their advanced geoth
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Converting world-class engineering capability into an unassailable commercial advantage? Interview from Baker Hughes on their advanced geoth; "loop engineering"
-  - Relevant entities: `["ent_02540942346fdfbf21a9", "ent_3e13e313a65387eb3794", "ent_53c056c6af397f1d434b", "ent_5a8499d47c592e8024d1", "ent_ff5d991aaa370a4e5911"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/102-13396b7335afa1b7b5b1.md`
-- **As the energy system evolves, geothermal stands out as a reliable, scalable source of baseload, lower-carbon power and heat. In this video, **
-  - Source ID: `src_10358a46b2b76be55e09`
-  - Title: As the energy system evolves, geothermal stands out as a reliable, scalable source of baseload, lower-carbon power and heat. In this video, 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: As the energy system evolves, geothermal stands out as a reliable, scalable source of baseload, lower-carbon power and heat. In this video, ; "loop engineering"
+  - Summary: The "token-maxing" era is officially dead (personally I never really understood why this was a thing), and your company’s AI budget is likel; "loop engineering"
   - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `["claim_d1e43f5d3f78bb36c866"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/044-04eed56727df5bd584fe.md`
+- **Feed post Bruno Antoniassi • 3rd+ AI Automation Architect | From Diagnosis to Deployment | Founder @ ClaunX 2h • Follow I asked my AI to kee**
+  - Source ID: `src_1fa6caefee3516fefb65`
+  - URL: https://www.linkedin.com/in/bruno-antoniassi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADHgZUUBw7FXHZSsx4De23Dni_dUu0SZPhc
+  - Title: Feed post Bruno Antoniassi • 3rd+ AI Automation Architect | From Diagnosis to Deployment | Founder @ ClaunX 2h • Follow I asked my AI to kee
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Bruno Antoniassi • 3rd+ AI Automation Architect | From Diagnosis to Deployment | Founder @ ClaunX 2h • Follow I asked my AI to kee; "loop engineering"
+  - Relevant entities: `["ent_420d7e4de0fdbf257d0e", "ent_5a8499d47c592e8024d1", "ent_6d3f69a5fe790b988a65", "ent_aee50b18a03c89e4883a", "ent_f1a81218d4ab2cf2a8df"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/103-92767558faf151c7991a.md`
-- **Feed post Edward Chen • 3rd+ Engineering Excellence Leader | AI, Quality Engineering & Developer Productivity | Automation Strategy | ADLC S**
-  - Source ID: `src_3c4b4db3e530fe43e085`
-  - URL: https://www.linkedin.com/in/edward-chen-11382b74?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA_IzN8BIKrE_Q4fS75ceqVpKIj9aUPEEiI
-  - Title: Feed post Edward Chen • 3rd+ Engineering Excellence Leader | AI, Quality Engineering & Developer Productivity | Automation Strategy | ADLC S
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/045-78f057c76e1324bf9164.md`
+- **I asked my AI to keep improving itself. It refused. It was right. This week I built an instruction system for Claude based on Loop Engineeri**
+  - Source ID: `src_136972744c8b3999bcb1`
+  - Title: I asked my AI to keep improving itself. It refused. It was right. This week I built an instruction system for Claude based on Loop Engineeri
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Edward Chen • 3rd+ Engineering Excellence Leader | AI, Quality Engineering & Developer Productivity | Automation Strategy | ADLC S; "loop engineering"
-  - Relevant entities: `["ent_2a5050030737a07853be", "ent_2ac65d5e123d3bf513e8", "ent_5a8499d47c592e8024d1", "ent_c13a6f6ee82f763ebc45", "ent_c566c86717dde14e10ce"]`
+  - Summary: I asked my AI to keep improving itself. It refused. It was right. This week I built an instruction system for Claude based on Loop Engineeri; "loop engineering"
+  - Relevant entities: `["ent_2b36332f969b13d174d0", "ent_3342a9099a3de9dd1a18", "ent_5a8499d47c592e8024d1", "ent_c857d09db23e6822e360"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/104-bb97a7983ab8bf664b0c.md`
-- **最近看到很多人在討論 Loop Engineering . 如果回頭看過去一年 AI Coding 的發展，我反而覺得大家其實是在一路往上抽象。 一開始我們研究怎麼寫 Prompt，後來發現光會下指令不夠，又開始想辦法管理 Context，避免模型每次都像剛報到的新同事。接著進入**
-  - Source ID: `src_f94ea32ae29619aa2c2f`
-  - Title: 最近看到很多人在討論 Loop Engineering . 如果回頭看過去一年 AI Coding 的發展，我反而覺得大家其實是在一路往上抽象。 一開始我們研究怎麼寫 Prompt，後來發現光會下指令不夠，又開始想辦法管理 Context，避免模型每次都像剛報到的新同事。接著進入
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/046-a77d66d5160599b679dc.md`
+- **Feed post Daniel Ihenacho • 3rd+ Stamp 1G 📄 | AI & ML Data Scientist 🧑‍💻 | Data Analyst 📊| Cloud & MLOps Engineer 🤖| LLM & NLP Specialist 🔠|**
+  - Source ID: `src_dc5252eb784bb187ded9`
+  - URL: https://www.linkedin.com/in/daniel-ihenacho-637467223?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADgheMsBhliqOiWzMQCs2pi9jfojo2pW168
+  - Title: Feed post Daniel Ihenacho • 3rd+ Stamp 1G 📄 | AI & ML Data Scientist 🧑‍💻 | Data Analyst 📊| Cloud & MLOps Engineer 🤖| LLM & NLP Specialist 🔠|
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 最近看到很多人在討論 Loop Engineering . 如果回頭看過去一年 AI Coding 的發展，我反而覺得大家其實是在一路往上抽象。 一開始我們研究怎麼寫 Prompt，後來發現光會下指令不夠，又開始想辦法管理 Context，避免模型每次都像剛報到的新同事。接著進入; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_cf07194ee232eb531e15", "ent_d3c12f063948e982b0f8", "ent_ea7792a26f405e2ae9c6"]`
+  - Summary: Feed post Daniel Ihenacho • 3rd+ Stamp 1G 📄 | AI & ML Data Scientist 🧑‍💻 | Data Analyst 📊| Cloud & MLOps Engineer 🤖| LLM & NLP Specialist 🔠|; "loop engineering"
+  - Relevant entities: `["ent_058651a416ff2d2c3f5c", "ent_102904059dad706a17b6", "ent_22c009485a6d8f139582", "ent_33cf9b9f9b3d18e1e985", "ent_487b91042c7cf27a19e2", "ent_56681010b753e1abe52c", "ent_5a8499d47c592e8024d1", "ent_7b3daecb151d55a6907a", "ent_e0afcdbf6ad4adf566c5"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/106-c3f3d5b4ea71aa0bee7d.md`
-- **Feed post Saulius Tautvaisas, PhD Saulius Tautvaisas, PhD • 3rd+ Senior Data Scientist @ Danske Bank | GenAI Technology 3h • Follow "Loop en**
-  - Source ID: `src_9c87bdb62665675d6a1b`
-  - URL: https://www.linkedin.com/in/sautaut?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMpls8BNY7kR9PtRhaJ4Y3yIAV2VjCOvMY
-  - Title: Feed post Saulius Tautvaisas, PhD Saulius Tautvaisas, PhD • 3rd+ Senior Data Scientist @ Danske Bank | GenAI Technology 3h • Follow "Loop en
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/047-82f4bc2ac52ecbb55278.md`
+- **It’s fascinating to see how quickly the AI field continues to evolve. Over the past few years, we’ve witnessed several paradigm shifts: 🔹 Tr**
+  - Source ID: `src_a028494ab3d9ff15d287`
+  - Title: It’s fascinating to see how quickly the AI field continues to evolve. Over the past few years, we’ve witnessed several paradigm shifts: 🔹 Tr
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Saulius Tautvaisas, PhD Saulius Tautvaisas, PhD • 3rd+ Senior Data Scientist @ Danske Bank | GenAI Technology 3h • Follow "Loop en; "loop engineering"
-  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_3968a8182246e29111e4", "ent_3b6f91d298259f887653", "ent_4ac3a7297f09a2e6644d", "ent_5a8499d47c592e8024d1"]`
+  - Summary: It’s fascinating to see how quickly the AI field continues to evolve. Over the past few years, we’ve witnessed several paradigm shifts: 🔹 Tr; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_5fb6a47e368e12e5d8b1"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/107-8f630fc15e60ab671916.md`
-- **"Loop engineering" is a term that has emerged recently. It means designing the system that runs a coding agent, instead of prompting the age**
-  - Source ID: `src_4ece22e6dadda1dd0ac6`
-  - Title: "Loop engineering" is a term that has emerged recently. It means designing the system that runs a coding agent, instead of prompting the age
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/049-3f63532cc46414ef1be7.md`
+- **Feed post Joel Humberto Gómez Paredes • 3rd+ Arquitecto de software en Lazo 3h • Edited • Follow El sábado 20 de junio 14:00 MX y 15:00 CO v**
+  - Source ID: `src_33301a63201db1a46dee`
+  - URL: https://www.linkedin.com/in/joelhumberto?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAApsC2gBbikHelx5QMdcv4Ajhvi0CZP7ius
+  - Title: Feed post Joel Humberto Gómez Paredes • 3rd+ Arquitecto de software en Lazo 3h • Edited • Follow El sábado 20 de junio 14:00 MX y 15:00 CO v
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: "Loop engineering" is a term that has emerged recently. It means designing the system that runs a coding agent, instead of prompting the age; "loop engineering"
-  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_31a85e22a24a7a4fba06", "ent_5a8499d47c592e8024d1"]`
+  - Summary: Feed post Joel Humberto Gómez Paredes • 3rd+ Arquitecto de software en Lazo 3h • Edited • Follow El sábado 20 de junio 14:00 MX y 15:00 CO v; "loop engineering"
+  - Relevant entities: `["ent_236fd6993a064f9dc658", "ent_5a8499d47c592e8024d1", "ent_6fa161ec52605e14635c", "ent_b8e773e522e1c532817c", "ent_fcfd3ebc250c5fa0477f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/109-c98d67376a024dded32f.md`
-- **Feed post Pitchayut Roejanapreecha • 3rd+ Enterprise Architecture | Enterprise Agility | Enterprise Transformation | Agile at Scale 3h • Fol**
-  - Source ID: `src_0c07cb7db30a2f21cecc`
-  - URL: https://www.linkedin.com/in/pitchayut-roejanapreecha-242402183?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACtO7tIBkPg2TyAHWoWgZKQfCKvyC6diGj8
-  - Title: Feed post Pitchayut Roejanapreecha • 3rd+ Enterprise Architecture | Enterprise Agility | Enterprise Transformation | Agile at Scale 3h • Fol
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/050-2bbe3fa0c75713ed110b.md`
+- **El sábado 20 de junio 14:00 MX y 15:00 CO voy a estar hablando sobre loop engineering, fable y otras cosas de la vida XD Ya se la saben, si **
+  - Source ID: `src_9f7163778fa99bd002eb`
+  - Title: El sábado 20 de junio 14:00 MX y 15:00 CO voy a estar hablando sobre loop engineering, fable y otras cosas de la vida XD Ya se la saben, si 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Pitchayut Roejanapreecha • 3rd+ Enterprise Architecture | Enterprise Agility | Enterprise Transformation | Agile at Scale 3h • Fol; "loop engineering"
-  - Relevant entities: `["ent_052ff38befb367b06353", "ent_2336f379fff1a2ad59fe", "ent_5a8499d47c592e8024d1", "ent_6ed8f64a24f55eb1281e", "ent_79b18b614294243b0243", "ent_ae0e74c0a84528f229d0", "ent_c6e06e1c36b40610acef", "ent_f469802a31447f90d6a0"]`
+  - Summary: El sábado 20 de junio 14:00 MX y 15:00 CO voy a estar hablando sobre loop engineering, fable y otras cosas de la vida XD Ya se la saben, si ; "loop engineering"
+  - Relevant entities: `["ent_1df7099568b3d4f644ff", "ent_5a8499d47c592e8024d1"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/110-07a0a7527124485e7da6.md`
-- **Enterprise Architecture is entering the Loop Engineering era. For years, EA was built around static artifacts: Capability Maps Target Archit**
-  - Source ID: `src_358f72ad3225c760e7d8`
-  - Title: Enterprise Architecture is entering the Loop Engineering era. For years, EA was built around static artifacts: Capability Maps Target Archit
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Enterprise Architecture is entering the Loop Engineering era. For years, EA was built around static artifacts: Capability Maps Target Archit; "loop engineering"
-  - Relevant entities: `["ent_222ddeeebc53d4c7c30a", "ent_5a8499d47c592e8024d1", "ent_65d68a8137ee9e9d232c", "ent_c6e06e1c36b40610acef"]`
-  - Extracted candidate claims: `["claim_18d2cb81ce2a907f0b84", "claim_95f6c85087cb4ae65419"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/112-d18b315b431a39f58491.md`
-- **Feed post Hyun Kil Shin • 3rd+ AI drug design education gamification 3h • Follow https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하**
-  - Source ID: `src_3651b0e7c06943121a04`
-  - URL: https://www.linkedin.com/in/hyun-kil-shin-ai4sd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAvNH6YBwz0_p4jctCwgV0aaQMnKpWw53Vo
-  - Title: Feed post Hyun Kil Shin • 3rd+ AI drug design education gamification 3h • Follow https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Hyun Kil Shin • 3rd+ AI drug design education gamification 3h • Follow https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하; "loop engineering"
-  - Relevant entities: `["ent_26bca60c0433f6f5dd1a", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/113-b9149e8bffdcf0b109e0.md`
-- **https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하는 거였는데 말입니다. 매번 프롬프트 다듬고 md에 지시문 추가하고 이제까지 했던 과정 스킬로 만들거나 하네스로 저장 요청했었는데, closed **
-  - Source ID: `src_00522c21d6d6bf94c66a`
-  - Title: https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하는 거였는데 말입니다. 매번 프롬프트 다듬고 md에 지시문 추가하고 이제까지 했던 과정 스킬로 만들거나 하네스로 저장 요청했었는데, closed 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: https://lnkd.in/gRexk2Dy 저에게는 역대급 강의였습니다. 이렇게 사용하는게 제대로 사용하는 거였는데 말입니다. 매번 프롬프트 다듬고 md에 지시문 추가하고 이제까지 했던 과정 스킬로 만들거나 하네스로 저장 요청했었는데, closed ; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/115-0e681f98632386b9fe90.md`
-- **Feed post Mohamed Hany Youns • 3rd+ Software Engineer | Frontend-Focused Full-Stack | GSoC’25 @Chromium | Web Performance & Systems 3h • Fol**
-  - Source ID: `src_ff8afc7c338b128fedfc`
-  - URL: https://www.linkedin.com/in/mohamedhany01?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADEZW4gBzxCx7ePwjan2IEHYw_2X2sC_xZI
-  - Title: Feed post Mohamed Hany Youns • 3rd+ Software Engineer | Frontend-Focused Full-Stack | GSoC’25 @Chromium | Web Performance & Systems 3h • Fol
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Mohamed Hany Youns • 3rd+ Software Engineer | Frontend-Focused Full-Stack | GSoC’25 @Chromium | Web Performance & Systems 3h • Fol; "loop engineering"
-  - Relevant entities: `["ent_0df3ada1e725f274c20d", "ent_18ffe7b00c82f7cda390", "ent_1fa8bd58eae0cba17d68", "ent_2336f379fff1a2ad59fe", "ent_47bd5d461647b3b4458d", "ent_5a8499d47c592e8024d1", "ent_ddf8d310d21693308b1e", "ent_f338f4c08c4eb9a62331"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/116-15294ed24bcce1c143c2.md`
-- **فى ظل تخبط الأسواق والاقتصاد الحالى وعدم وجود ملامح واضحة للمستقبل ولو انت متابع الاخبار فى الوقت الحالى فى موضوع ال AI و Agentic Ai هيلاحظ **
-  - Source ID: `src_45f24e5f767e3e33d933`
-  - Title: فى ظل تخبط الأسواق والاقتصاد الحالى وعدم وجود ملامح واضحة للمستقبل ولو انت متابع الاخبار فى الوقت الحالى فى موضوع ال AI و Agentic Ai هيلاحظ 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: فى ظل تخبط الأسواق والاقتصاد الحالى وعدم وجود ملامح واضحة للمستقبل ولو انت متابع الاخبار فى الوقت الحالى فى موضوع ال AI و Agentic Ai هيلاحظ ; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_f0e5f53af7e637286fd5"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/118-de87fc0ab32a1d55d1a8.md`
-- **Feed post Aleksander Stensby • 3rd+ 🚀 Founder @ GritAI Studio | Claude Ambassador | Making AI Accessible & Practical for Everyone Visit my w**
-  - Source ID: `src_34ad352ee2cdf107e2c6`
-  - URL: https://www.linkedin.com/in/aleksanderstensby?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA4xYQBaawhoXmKXaupbabFxrVgV3RqRWo
-  - Title: Feed post Aleksander Stensby • 3rd+ 🚀 Founder @ GritAI Studio | Claude Ambassador | Making AI Accessible & Practical for Everyone Visit my w
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Aleksander Stensby • 3rd+ 🚀 Founder @ GritAI Studio | Claude Ambassador | Making AI Accessible & Practical for Everyone Visit my w; "loop engineering"
-  - Relevant entities: `["ent_2e57a032cdd10dec9769", "ent_47d99d8df66611eb9634", "ent_5a8499d47c592e8024d1", "ent_915013ce681b93eba6c3", "ent_aa621b86fd7998f8ec9f", "ent_e9b2f2f542d18cdd7af3"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/119-b61d9b76c0b5861ed371.md`
-- **It's time to be more ambitious! That's Anthropic's own advice for working with Claude Fable 5, launched this week. The first Mythos-class mo**
-  - Source ID: `src_00be58448b668123927e`
-  - Title: It's time to be more ambitious! That's Anthropic's own advice for working with Claude Fable 5, launched this week. The first Mythos-class mo
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: It's time to be more ambitious! That's Anthropic's own advice for working with Claude Fable 5, launched this week. The first Mythos-class mo; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_95805b5e0e5f06b4a91c", "ent_c70eca6b0f88f44d81a4", "ent_ced86039c0ad6a7c7618"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/121-b14fc305ec0ca22838cd.md`
-- **Feed post Olli-Pekka Heinisuo • 3rd+ Co-founder @ GitHits. Code examples for coding agents and developers, distilled from open source repos.**
-  - Source ID: `src_6890f1b854213ea33104`
-  - URL: https://www.linkedin.com/in/ollip?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAj6s0YBy4cUiSPgaiF4lZUwvB6t4FpREYU
-  - Title: Feed post Olli-Pekka Heinisuo • 3rd+ Co-founder @ GitHits. Code examples for coding agents and developers, distilled from open source repos.
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Olli-Pekka Heinisuo • 3rd+ Co-founder @ GitHits. Code examples for coding agents and developers, distilled from open source repos.; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_5fc02a8e57b480599582", "ent_da9f21732aedcde6b498", "ent_f05fcddaa51edfb827b6"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/122-af27dfddb800407694ce.md`
-- **Loop engineering is all the hype now but have you actually looked into what kind of stuff the LLM does in those loops? It might easily spend**
-  - Source ID: `src_e99a32967bee75ffa2a3`
-  - Title: Loop engineering is all the hype now but have you actually looked into what kind of stuff the LLM does in those loops? It might easily spend
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Loop engineering is all the hype now but have you actually looked into what kind of stuff the LLM does in those loops? It might easily spend; "loop engineering"
-  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_487b91042c7cf27a19e2", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `["claim_2311b109d80f8a43b0ec"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/124-396609a59af213d8d792.md`
-- **Feed post Aric Crosson Bouwers • 3rd+ Full-stack AI Engineer & natural intrapreneur. Product mindset is my jam. | Lover of coffee, architect**
-  - Source ID: `src_411524d3ea58632f86c5`
-  - URL: https://www.linkedin.com/in/aric-crosson-bouwers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAnGDJABSr7TrGKCB_VoF6QQyy375wUyVSc
-  - Title: Feed post Aric Crosson Bouwers • 3rd+ Full-stack AI Engineer & natural intrapreneur. Product mindset is my jam. | Lover of coffee, architect
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Aric Crosson Bouwers • 3rd+ Full-stack AI Engineer & natural intrapreneur. Product mindset is my jam. | Lover of coffee, architect; "loop engineering"
-  - Relevant entities: `["ent_05184ea3e58d5f608624", "ent_16a2dd3a872593902a1e", "ent_5a8499d47c592e8024d1", "ent_c33c08632dd5083900e2"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/125-e56a8433dc3c4d262d5b.md`
-- **I’ve seen a lot of posts about loop engineering, and they definitely are powerful. They basically unlock your ability to keep contributing v**
-  - Source ID: `src_41f88cf3f524177b3d40`
-  - Title: I’ve seen a lot of posts about loop engineering, and they definitely are powerful. They basically unlock your ability to keep contributing v
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: I’ve seen a lot of posts about loop engineering, and they definitely are powerful. They basically unlock your ability to keep contributing v; "loop engineering"
-  - Relevant entities: `["ent_151e58a831306903b282", "ent_43eae5080424fd266ccd", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `["claim_6407b3c3730ab2c3a53d"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/127-4625065c8e11323a8643.md`
-- **Feed post Avinash Tiwari • 3rd+ Human Technologist [ my thoughts ≠ employer’s view ] 4h • Edited • Follow Where are we headed..... Boris Che**
-  - Source ID: `src_bf96326c9f90fe6dac0a`
-  - URL: https://www.linkedin.com/in/avinash-tiwari-technologist?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAK_MskBXmzrr3wF7K3fm6uKBlfx5qinpek
-  - Title: Feed post Avinash Tiwari • 3rd+ Human Technologist [ my thoughts ≠ employer’s view ] 4h • Edited • Follow Where are we headed..... Boris Che
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Avinash Tiwari • 3rd+ Human Technologist [ my thoughts ≠ employer’s view ] 4h • Edited • Follow Where are we headed..... Boris Che; "loop engineering"
-  - Relevant entities: `["ent_21e0ce7afe506a96fc35", "ent_360b8878c8e6fc7335df", "ent_5a8499d47c592e8024d1", "ent_b4a376d91ec12fb48dd2"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/128-37d469c97ae9c77a7e43.md`
-- **Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create**
-  - Source ID: `src_04119334ec1ee2a928e1`
-  - Title: Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_a625159d18da57180b72", "ent_b48111c10c65fc119368", "ent_bc6bfd848ebd7819c9a8", "ent_d1278d327f58356f9c0e"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/130-372eae5f4dfdc174adda.md`
-- **Feed post Vincent Sipoi • 3rd+ 2x Tech Founder | Systems Architect | Claude, n8n & Smart Agents | Web3 & Blockchain Engineering 4h • Follow **
-  - Source ID: `src_18f7ba367007937d7200`
-  - URL: https://www.linkedin.com/in/vincent-leteipa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACF1Lf0BK_P3b_wZwnE8obnF8545-q2vNi4
-  - Title: Feed post Vincent Sipoi • 3rd+ 2x Tech Founder | Systems Architect | Claude, n8n & Smart Agents | Web3 & Blockchain Engineering 4h • Follow 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Vincent Sipoi • 3rd+ 2x Tech Founder | Systems Architect | Claude, n8n & Smart Agents | Web3 & Blockchain Engineering 4h • Follow ; "loop engineering"
-  - Relevant entities: `["ent_4602cccaeea7520c78c0", "ent_5a8499d47c592e8024d1", "ent_625156f57198e126f833", "ent_7a06376be5130c7b6831", "ent_a0636392b8ed214f998e", "ent_a25a32cdefeb8d31eea1", "ent_c857d09db23e6822e360", "ent_cfaf7107052e06194f7e"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/131-6f31d77d9ed0f9016d80.md`
-- **From Prompt Engineering to Loop Engineering Architecture The 4 Core Components 1. Trigger what starts the loop 2. Actor the AI doing work 3.**
-  - Source ID: `src_8d15780646dfabab8bc0`
-  - Title: From Prompt Engineering to Loop Engineering Architecture The 4 Core Components 1. Trigger what starts the loop 2. Actor the AI doing work 3.
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: From Prompt Engineering to Loop Engineering Architecture The 4 Core Components 1. Trigger what starts the loop 2. Actor the AI doing work 3.; "loop engineering"
-  - Relevant entities: `["ent_472f65666f5f0959c93a", "ent_50c9c4aeb40b5b206b6d", "ent_5166db149f3dfc13c6b3", "ent_5a8499d47c592e8024d1", "ent_683259feabbf5eb39895", "ent_75c908356caceec70885", "ent_9d0eb0533af1366bc321"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/133-41a47e406d41941e2fd6.md`
-- **Feed post Paloma B. Akerman, PhD • 3rd+ Senior Strategic Advisor & PhD in Hydrology | Digital Twins & Smart Water Expert | Associate Profess**
-  - Source ID: `src_2c2c7c159786cfd3ca0b`
-  - URL: https://www.linkedin.com/in/paloma-b-akerman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAIhSrsB69S6ajOus56DY0kcoSvxIWHVdSY
-  - Title: Feed post Paloma B. Akerman, PhD • 3rd+ Senior Strategic Advisor & PhD in Hydrology | Digital Twins & Smart Water Expert | Associate Profess
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Paloma B. Akerman, PhD • 3rd+ Senior Strategic Advisor & PhD in Hydrology | Digital Twins & Smart Water Expert | Associate Profess; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_87fd908dc640c1001d91", "ent_8a511756178686764840", "ent_a139eb3f6f87958702d5", "ent_b63efa8140909fef9d96"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/134-6b0d09c47ed44d7910d5.md`
-- **​🌍💧 Engineering Meets Digital Water: The Future of Advanced Sewer Modelling at Scale! ​Following our recent presentation with Enrique Sorian**
-  - Source ID: `src_6c80e6ce84c0c762ab72`
-  - URL: https://www.linkedin.com/in/enriquesorianomartin/
-  - Title: ​🌍💧 Engineering Meets Digital Water: The Future of Advanced Sewer Modelling at Scale! ​Following our recent presentation with Enrique Sorian
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: ​🌍💧 Engineering Meets Digital Water: The Future of Advanced Sewer Modelling at Scale! ​Following our recent presentation with Enrique Sorian; "loop engineering"
-  - Relevant entities: `["ent_49b7f49cf85e0356749a", "ent_5a8499d47c592e8024d1", "ent_8d0288f434f2ff12a3dd", "ent_c9a1f35f63c33a6370c6", "ent_f469802a31447f90d6a0"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/136-14925f9190903b1863c8.md`
-- **Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi**
-  - Source ID: `src_87db5f9f4398d78f8cd4`
-  - URL: https://www.linkedin.com/in/linasbeliunas?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABbscnUBlKacJbEN5USrYdfhVdH-ffYINJk
-  - Title: Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Linas Beliūnas Linas Beliūnas • 3rd+ 🔔linas.substack.com🔔 Daily Intelligence on Finance & AI | Scouting FinTech & AI Startups 🦄 Vi; "loop engineering"
-  - Relevant entities: `["ent_1f17a0601107bf507a8e", "ent_3720b1fe33fdb813219e", "ent_5a8499d47c592e8024d1", "ent_e2121f818a437178d812"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/137-3a54e578e238ff2bba3f.md`
-- **This is brilliant! An engineer used Claude Mythos & data from Whoop to find which coworker gives him the most stress 👏 A developer hooked hi**
-  - Source ID: `src_5130c8e9582e51e17cb9`
-  - Title: This is brilliant! An engineer used Claude Mythos & data from Whoop to find which coworker gives him the most stress 👏 A developer hooked hi
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: This is brilliant! An engineer used Claude Mythos & data from Whoop to find which coworker gives him the most stress 👏 A developer hooked hi; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_eae200a59d45e610fed7", "ent_f4e12479bd37d7e5e548"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/139-92676053bf6eed04a377.md`
-- **Feed post Nikhil Kassetty • 3rd+ AI-Powered Architect | Top 50 Global Thought Leader – Agentic AI & FinTech (Thinkers360) | Speaker & Mentor**
-  - Source ID: `src_d60d2af1d430843ee916`
-  - URL: https://www.linkedin.com/in/nikhil-kassetty-905928137?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACFrORUBBF3DiisJdFqFZOMEOHOcKgs0UYE
-  - Title: Feed post Nikhil Kassetty • 3rd+ AI-Powered Architect | Top 50 Global Thought Leader – Agentic AI & FinTech (Thinkers360) | Speaker & Mentor
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Nikhil Kassetty • 3rd+ AI-Powered Architect | Top 50 Global Thought Leader – Agentic AI & FinTech (Thinkers360) | Speaker & Mentor; "loop engineering"
-  - Relevant entities: `["ent_110599ccb008c6746985", "ent_28720365c5e7476a011e", "ent_360c8c93c51b3157a0e0", "ent_475b5acdd9561eb6399a", "ent_5a8499d47c592e8024d1", "ent_5db3db93323a09d15281", "ent_b971c60e46dcf80e604a", "ent_d9d771df57e86d113220", "ent_f0e5f53af7e637286fd5"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/140-de36d909aa3a1b0d782c.md`
-- **Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. Design the loop that p**
-  - Source ID: `src_a43da2bf7e7a8325ac0f`
-  - Title: Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. Design the loop that p
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. Design the loop that p; "loop engineering"
-  - Relevant entities: `["ent_1879a6de7d75f6ec190a", "ent_5a8499d47c592e8024d1"]`
-  - Extracted candidate claims: `["claim_1e6da5e353cab67ed16c"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/142-7ad78a44bee487408048.md`
-- **Feed post KASKTAŞ 7,131 followers 4h • Edited • Follow Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisl**
-  - Source ID: `src_54950c06feda0988f147`
-  - URL: https://www.linkedin.com/company/kasktasas/posts
-  - Title: Feed post KASKTAŞ 7,131 followers 4h • Edited • Follow Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisl
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post KASKTAŞ 7,131 followers 4h • Edited • Follow Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisl; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_6c7c828411a2e1041b80", "ent_f61089f5774ad26cae56"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/143-448f688f5efceed46721.md`
-- **Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisliğinde Döngüyü Tamamlamak: Tasarım Kabullerinden Doğrul**
-  - Source ID: `src_a37f1d2093e758bdeb7b`
-  - URL: https://www.linkedin.com/company/geoants-monitoring-systems/
-  - Title: Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisliğinde Döngüyü Tamamlamak: Tasarım Kabullerinden Doğrul
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Kasktaş olarak, GeoAnts Monitoring Systems tarafından düzenlenen “Geoteknik Mühendisliğinde Döngüyü Tamamlamak: Tasarım Kabullerinden Doğrul; "loop engineering"
-  - Relevant entities: `["ent_3660c46c0e9f19d5f0c9", "ent_5a8499d47c592e8024d1", "ent_6c7c828411a2e1041b80", "ent_cc4f0f886c03fc06bcac", "ent_f61089f5774ad26cae56"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/145-31bf7fc664f29d355eef.md`
-- **Feed post Suresh G. • 3rd+ SSE @Oracle | ex Amazon | ex Microsoft | Best Selling Udemy Instructor | IIT KGP || Heartfulness Meditation Train**
-  - Source ID: `src_8ddabb2aab6231f5c861`
-  - URL: https://www.linkedin.com/in/suresh-g-688608191?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC0eUcgB1h8kqqDXuKgHQM-P0sb4mMy4k-4
-  - Title: Feed post Suresh G. • 3rd+ SSE @Oracle | ex Amazon | ex Microsoft | Best Selling Udemy Instructor | IIT KGP || Heartfulness Meditation Train
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Suresh G. • 3rd+ SSE @Oracle | ex Amazon | ex Microsoft | Best Selling Udemy Instructor | IIT KGP || Heartfulness Meditation Train; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_6c324a8a106f68676431", "ent_9202af6ce925b26ae6b2", "ent_95f8eec53c2ba1c08d1a", "ent_9fbf261b62c1d7c00db7", "ent_af022a0bb13aaff7af1d", "ent_cbc62794911ff31b2864", "ent_f0b6dcddf38bea48f48a", "ent_fe3811fe21af748f53a0"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/146-4d0bdf26694802b03cfe.md`
-- **Anthropic and OpenAI engineers are both telling software engineers to write loops. That is not a coincidence. For the last two years, most o**
-  - Source ID: `src_2dfcfc1259b8af274abd`
-  - Title: Anthropic and OpenAI engineers are both telling software engineers to write loops. That is not a coincidence. For the last two years, most o
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Anthropic and OpenAI engineers are both telling software engineers to write loops. That is not a coincidence. For the last two years, most o; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_7d3194f79e645c42e439", "ent_c70eca6b0f88f44d81a4"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/148-67a3fc4a482ae415151e.md`
-- **Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many**
-  - Source ID: `src_c1d6a2ce72949bf5cc64`
-  - URL: https://www.linkedin.com/in/talha-shaikh-a51b99155?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACVfb50BSu4qFXzF-IjEAKPCL8HXn2gYVUo
-  - Title: Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many; "loop engineering"
-  - Relevant entities: `["ent_2a3f781b9215588cd877", "ent_5a8499d47c592e8024d1", "ent_7daf48f924f246f48e57", "ent_93ddf48b97c0c53e5900"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/149-76d04b4013d789d82793.md`
-- **Feed post Sean Reed • 3rd+ I design and build multi-agent systems for commercial banks. 5h • Follow Loop Engineering Explained louisbouchard**
-  - Source ID: `src_a946c1fb4e962bd502ae`
-  - URL: https://www.linkedin.com/in/seanreed1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGXRQ4B_ffkVJmoYYk8IN3nGrNqO7zEf1s
-  - Title: Feed post Sean Reed • 3rd+ I design and build multi-agent systems for commercial banks. 5h • Follow Loop Engineering Explained louisbouchard
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Sean Reed • 3rd+ I design and build multi-agent systems for commercial banks. 5h • Follow Loop Engineering Explained louisbouchard; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_a201710c04f83c809082"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/155-943c33100b7c82d3359a.md`
-- **Feed post Stuart Inskip • 3rd+ Strategic Product Leader delivering 0-to-1 launches and roadmap ownership across consumer loyalty, omnichanne**
-  - Source ID: `src_20fc7d22b1b12316e014`
-  - URL: https://www.linkedin.com/in/stuartinskip?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABPtbYB2PeN7aqSOYmq74quT4X9DPHEJsw
-  - Title: Feed post Stuart Inskip • 3rd+ Strategic Product Leader delivering 0-to-1 launches and roadmap ownership across consumer loyalty, omnichanne
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Stuart Inskip • 3rd+ Strategic Product Leader delivering 0-to-1 launches and roadmap ownership across consumer loyalty, omnichanne; "loop engineering"
-  - Relevant entities: `["ent_1cd7b78fa88ce3a8de8f", "ent_5a8499d47c592e8024d1", "ent_acd26ebac71556ee7c73"]`
-  - Extracted candidate claims: `["claim_3758bb6824db2606c9b9"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/157-f103686ac0e289f34559.md`
-- **Loop engineering — the practice of designing automated agent workflows instead of prompting manually — is reshaping how developers use Claud**
-  - Source ID: `src_4843b283b5fc4e93dd43`
-  - Title: Loop engineering — the practice of designing automated agent workflows instead of prompting manually — is reshaping how developers use Claud
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Loop engineering — the practice of designing automated agent workflows instead of prompting manually — is reshaping how developers use Claud; "loop engineering"
-  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_5a8499d47c592e8024d1", "ent_abbdaa75dd0e0b390646", "ent_ebc9e6151f546711f4ee"]`
-  - Extracted candidate claims: `["claim_df4fdf7d5750e8f6b68b"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/159-7d4574beb029982da5e6.md`
-- **Feed post Baskar Rao Dandlamudi, MSITM • 3rd+ Azure Solution Architect | Technology Leader | Speaker | Community Builder 5h • Follow Everyon**
-  - Source ID: `src_d63f190528c784c0c69a`
-  - URL: https://www.linkedin.com/in/baskarrao-dandlamudi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAII33kBNWsVdLyPiWR3VVqblMkov7m4qoU
-  - Title: Feed post Baskar Rao Dandlamudi, MSITM • 3rd+ Azure Solution Architect | Technology Leader | Speaker | Community Builder 5h • Follow Everyon
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Baskar Rao Dandlamudi, MSITM • 3rd+ Azure Solution Architect | Technology Leader | Speaker | Community Builder 5h • Follow Everyon; "loop engineering"
-  - Relevant entities: `["ent_121b92cdca3ba0a64a8a", "ent_5a8499d47c592e8024d1", "ent_bd9c8a8400ad7c345584", "ent_d6c2ca8598d58c4af075", "ent_f673d8a0f0e4006f5dd9"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/160-1d260601253a8ef70dbf.md`
-- **Everyone’s talking about loop engineering and for good reason. As agentic AI systems take on more autonomy, they rely on loops to plan, act,**
-  - Source ID: `src_455918111f27640d0bec`
-  - Title: Everyone’s talking about loop engineering and for good reason. As agentic AI systems take on more autonomy, they rely on loops to plan, act,
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Everyone’s talking about loop engineering and for good reason. As agentic AI systems take on more autonomy, they rely on loops to plan, act,; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_bbca9e76c6fd4e90c2a0"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/162-28e814138ec6f688474a.md`
-- **Feed post Sagar Mainkar • 3rd+ Co-founder , Catomz | AI + Cybersecurity | Ex-Qualys, SAS | 20+ Yrs Building Products at Scale 5h • Follow Is**
-  - Source ID: `src_e151b8195878fb0c3363`
-  - URL: https://www.linkedin.com/in/sagarm21?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABA0IAcBuNj0y-hd77RKyrJVboa21Wo26gc
-  - Title: Feed post Sagar Mainkar • 3rd+ Co-founder , Catomz | AI + Cybersecurity | Ex-Qualys, SAS | 20+ Yrs Building Products at Scale 5h • Follow Is
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Sagar Mainkar • 3rd+ Co-founder , Catomz | AI + Cybersecurity | Ex-Qualys, SAS | 20+ Yrs Building Products at Scale 5h • Follow Is; "loop engineering"
-  - Relevant entities: `["ent_15d9f6519b5315551b02", "ent_2a1d1c62a3e11f78f799", "ent_5a8499d47c592e8024d1", "ent_5c89ff5371c16a976503", "ent_64a1e1972b663b35a8c0", "ent_7a759c41ec3bbbda77b6", "ent_96166e27af5a3c431ffa", "ent_f469802a31447f90d6a0"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/163-3a992220267ea5b33eea.md`
-- **Is Loop Engineering the new meta in agentic AI? Recently, Peter Steinberger (creator of the viral OpenClaw agent, now at OpenAI) and Boris C**
-  - Source ID: `src_7c0abe8c3568e8638d27`
-  - Title: Is Loop Engineering the new meta in agentic AI? Recently, Peter Steinberger (creator of the viral OpenClaw agent, now at OpenAI) and Boris C
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Is Loop Engineering the new meta in agentic AI? Recently, Peter Steinberger (creator of the viral OpenClaw agent, now at OpenAI) and Boris C; "loop engineering"
-  - Relevant entities: `["ent_0df89317e02535902d11", "ent_59f7a3dd09de1e02b89a", "ent_5a8499d47c592e8024d1", "ent_7d3194f79e645c42e439", "ent_818b7ae03dbfe8d5e683", "ent_96a4bc2602655473120f", "ent_d2cc8276b27e73edc0ce"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/165-d1baffb0150f97510a4c.md`
-- **Feed post Kashi KS Kashi KS • 3rd+ Chief AI Officer & Head of AI research 5h • Follow Thiyagarajan Maruthavanan (Rajan) and I started the RK**
-  - Source ID: `src_312d3981f2df37664a61`
-  - URL: https://www.linkedin.com/in/kashiks?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA5gUuABGMyj1OVXGng_Omaeu-iroprgLNQ
-  - Title: Feed post Kashi KS Kashi KS • 3rd+ Chief AI Officer & Head of AI research 5h • Follow Thiyagarajan Maruthavanan (Rajan) and I started the RK
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Kashi KS Kashi KS • 3rd+ Chief AI Officer & Head of AI research 5h • Follow Thiyagarajan Maruthavanan (Rajan) and I started the RK; "loop engineering"
-  - Relevant entities: `["ent_37d723aa09a04f367d1c", "ent_5a8499d47c592e8024d1", "ent_9589282b496fbe1c9e17", "ent_9f2e6d33a3717ee82635", "ent_c7887da7b4094eccbb39"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/166-9ea50d7f7015e728e962.md`
-- **Thiyagarajan Maruthavanan (Rajan) and I started the RK on AI Podcast a few months , now approaching 50,000+ views. In our latest episode, we**
-  - Source ID: `src_585ecbdb3cc64ac08c13`
-  - URL: https://www.linkedin.com/in/thiyagarajan/
-  - Title: Thiyagarajan Maruthavanan (Rajan) and I started the RK on AI Podcast a few months , now approaching 50,000+ views. In our latest episode, we
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Thiyagarajan Maruthavanan (Rajan) and I started the RK on AI Podcast a few months , now approaching 50,000+ views. In our latest episode, we; "loop engineering"
-  - Relevant entities: `["ent_37d723aa09a04f367d1c", "ent_5a8499d47c592e8024d1", "ent_612d5575ded5197bb6da", "ent_6cb67407b438d84adeaa"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/168-c73b3af409ff51942bc6.md`
-- **FDE then Agentic engineer and now Loop engineer As an industry we like to invent new roles every few months With Kashi KS on RK on AI https:**
-  - Source ID: `src_9062c6183889eb286680`
-  - URL: https://www.linkedin.com/in/kashiks/
-  - Title: FDE then Agentic engineer and now Loop engineer As an industry we like to invent new roles every few months With Kashi KS on RK on AI https:
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: FDE then Agentic engineer and now Loop engineer As an industry we like to invent new roles every few months With Kashi KS on RK on AI https:; "loop engineering"
-  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_36d88e6006ad295efcc9", "ent_5a8499d47c592e8024d1", "ent_bbced1c92f05fcb725ab", "ent_c247e9808f5e81b86fef"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/169-be3cb3ce579bd768dfb3.md`
-- **Feed post Sattar Rasouli • 3rd+ Senior Frontend Engineer 5h • Follow Loop Engineering: The Next Big Shift in How We Work With AI A new idea **
-  - Source ID: `src_8ad249146808f1931792`
-  - URL: https://www.linkedin.com/in/sattar-rasouli-aa42a0128?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB9dyBwBOlnv7HaJ3IpX56HQsiLZyToPy_4
-  - Title: Feed post Sattar Rasouli • 3rd+ Senior Frontend Engineer 5h • Follow Loop Engineering: The Next Big Shift in How We Work With AI A new idea 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Sattar Rasouli • 3rd+ Senior Frontend Engineer 5h • Follow Loop Engineering: The Next Big Shift in How We Work With AI A new idea ; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_94440d4446c454a826ef", "ent_b05fab178a3107fca5f0"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/170-44e71bef7e9dc2a2d735.md`
-- **Loop Engineering: The Next Big Shift in How We Work With AI A new idea is trending in AI right now, and it is called "loop engineering." For**
-  - Source ID: `src_1b610a06f1bcba7d81e4`
-  - Title: Loop Engineering: The Next Big Shift in How We Work With AI A new idea is trending in AI right now, and it is called "loop engineering." For
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Loop Engineering: The Next Big Shift in How We Work With AI A new idea is trending in AI right now, and it is called "loop engineering." For; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_94440d4446c454a826ef"]`
-  - Extracted candidate claims: `["claim_723d3e39d65a5984ce34"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/172-0fbc6d5be563445b9b8e.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/052-fb1adf00e882440da4aa.md`
 - **Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou**
-  - Source ID: `src_4fbd8eeb1aedc3115816`
+  - Source ID: `src_4d5f563ee529d017f53d`
   - URL: https://www.linkedin.com/in/whats-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC7sr7YBMegMG6WCyx6K1v27-tE3bq686NY
   - Title: Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou; "loop engineering"
   - Relevant entities: `["ent_17a6534de6fca09fda70", "ent_214c00914c10d3b9005f", "ent_24e6654bfd1ab85bebb1", "ent_5a8499d47c592e8024d1", "ent_5f16795c54ab7de419ed", "ent_774814b85371cab88a09", "ent_d411633327714b72268a"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/173-1526b70898cf564fb1cd.md`
-- **Good morning! This week, I'll show you what loop engineering actually is, how it's different from a cron job, the 5 building blocks that mak**
-  - Source ID: `src_bcdb4dd4aa7051b62136`
-  - Title: Good morning! This week, I'll show you what loop engineering actually is, how it's different from a cron job, the 5 building blocks that mak
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/053-bc4babc36e96604b3f29.md`
+- **Loop engineering is everywhere right now. Instead of you prompting the agent, checking what broke, and telling it to go again, you build a s**
+  - Source ID: `src_5f8ca9da1eb9dee34b8d`
+  - Title: Loop engineering is everywhere right now. Instead of you prompting the agent, checking what broke, and telling it to go again, you build a s
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Good morning! This week, I'll show you what loop engineering actually is, how it's different from a cron job, the 5 building blocks that mak; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_770e607624d689265ca6", "ent_e4386b9d3708aab46b84"]`
-  - Extracted candidate claims: `["claim_7a96c897532a2de2e86a"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/175-06b1cb46dcc41cd7f403.md`
-- **Feed post Ramasubramanian Meenakshisundaram • 3rd+ Senior Technologist at Infosys 5h • Follow The Rise of "Loop Engineering": As technical l**
-  - Source ID: `src_46e50208076678100960`
-  - URL: https://www.linkedin.com/in/m-ramasubramanian?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACHQG_sBaWMxqBBxz25wByfkTJi31T3XXdA
-  - Title: Feed post Ramasubramanian Meenakshisundaram • 3rd+ Senior Technologist at Infosys 5h • Follow The Rise of "Loop Engineering": As technical l
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Ramasubramanian Meenakshisundaram • 3rd+ Senior Technologist at Infosys 5h • Follow The Rise of "Loop Engineering": As technical l; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_ab877737b6081bd1adaf", "ent_f8681b018d12277e0e0a"]`
+  - Summary: Loop engineering is everywhere right now. Instead of you prompting the agent, checking what broke, and telling it to go again, you build a s; "loop engineering"
+  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_5a8499d47c592e8024d1", "ent_99262a0284ae7670f20f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/176-fbeb24bbb27bf22f1de7.md`
-- **The Rise of "Loop Engineering": As technical leaders note, prompt engineering is dying.The value is no longer in finding the perfect combina**
-  - Source ID: `src_7851d83ecbbb19f84554`
-  - Title: The Rise of "Loop Engineering": As technical leaders note, prompt engineering is dying.The value is no longer in finding the perfect combina
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/055-1b8864618a9deb02c2c9.md`
+- **Feed post Prince Gupta • 3rd+ AI Engineer @ Tata Communications Ltd | Building AI Agents that Actually Work 3h • Follow "Stop prompting codi**
+  - Source ID: `src_412d5b8677db766f0456`
+  - URL: https://www.linkedin.com/in/princegupta1301?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADnExDABHa6JDNUNoYVKjqil-FPrgMVn9wI
+  - Title: Feed post Prince Gupta • 3rd+ AI Engineer @ Tata Communications Ltd | Building AI Agents that Actually Work 3h • Follow "Stop prompting codi
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: The Rise of "Loop Engineering": As technical leaders note, prompt engineering is dying.The value is no longer in finding the perfect combina; "loop engineering"
-  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_e9acff1bccde0d17e96b"]`
-  - Extracted candidate claims: `["claim_e615ed1f30a83455c7e2"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/178-ac03810fcc4d3fb56c8d.md`
-- **Feed post Rafael Igual • 3rd+ AI Strategy | AI Business Design | AI Innovation | AI Design Sprint | AI Venture Building | AI Venture Capital**
-  - Source ID: `src_08230e306aedbaf3c546`
-  - URL: https://www.linkedin.com/in/rafaeligual?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADOsdoBE2QDyg3RG0vf2CARs8OA7oi2OWs
-  - Title: Feed post Rafael Igual • 3rd+ AI Strategy | AI Business Design | AI Innovation | AI Design Sprint | AI Venture Building | AI Venture Capital
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:40:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Rafael Igual • 3rd+ AI Strategy | AI Business Design | AI Innovation | AI Design Sprint | AI Venture Building | AI Venture Capital; "loop engineering"
-  - Relevant entities: `["ent_1e3b7f0765ee08e8d92f", "ent_50a64ca3fb6819c56eb4", "ent_5a8499d47c592e8024d1", "ent_8bb094be7214943a18f9", "ent_c704b204b4b6107619d5", "ent_f21658787e9dcbd9c676", "ent_f56d6ac46bbb849b8f50", "ent_fe87194d4b1ee286344a"]`
+  - Summary: Feed post Prince Gupta • 3rd+ AI Engineer @ Tata Communications Ltd | Building AI Agents that Actually Work 3h • Follow "Stop prompting codi; "loop engineering"
+  - Relevant entities: `["ent_0469fdd34f5087b4eb18", "ent_5a8499d47c592e8024d1", "ent_5e472ee7f3127aaf0b23", "ent_6c45cb72a36e63d522aa", "ent_7ca9dd7316ae2b50fc67", "ent_e3250c5c85e1ad112f06"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/179-df8c4e394bce5214840c.md`
-- **Feed post Harm van Berkum • 3rd+ Advocaat - VAN BERKUM M&A 35m • Follow I wanted to create a KYC and Engagement onboarding platform for my l**
-  - Source ID: `src_ace448a02092ebb9cfa2`
-  - URL: https://www.linkedin.com/in/harm-van-berkum?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAD8C30BBrHbOxJHy_QRphinSxgtKsHxXMg
-  - Title: Feed post Harm van Berkum • 3rd+ Advocaat - VAN BERKUM M&A 35m • Follow I wanted to create a KYC and Engagement onboarding platform for my l
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/056-c56319a24084775340b9.md`
+- **"Stop prompting coding agents. Start designing loops." Peter Steinberger dropped a truth bomb. Most devs are still: Prompt → Wait → Read dif**
+  - Source ID: `src_7054f576e3a303de3167`
+  - Title: "Stop prompting coding agents. Start designing loops." Peter Steinberger dropped a truth bomb. Most devs are still: Prompt → Wait → Read dif
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Harm van Berkum • 3rd+ Advocaat - VAN BERKUM M&A 35m • Follow I wanted to create a KYC and Engagement onboarding platform for my l; "OpenClaw" Hermes
-  - Relevant entities: `["ent_3ad9b961825b4e96c74d", "ent_495b93a386a436dc7ba0", "ent_755ad4392aa37efb0682", "ent_84a9ceb1ee3a8b0dc509", "ent_8cfde6efdfc4ed5ab1f6", "ent_8e8f99bcd12c5f61c207", "ent_96a4bc2602655473120f", "ent_af3ce03f6874c53162b7"]`
+  - Summary: "Stop prompting coding agents. Start designing loops." Peter Steinberger dropped a truth bomb. Most devs are still: Prompt → Wait → Read dif; "loop engineering"
+  - Relevant entities: `["ent_0a95c511ed8b271ea56a", "ent_24ea913efda289dc1b17", "ent_3316348dbadfb7b11c7c", "ent_5a8499d47c592e8024d1", "ent_6c45cb72a36e63d522aa", "ent_716ecabb45ac6a88a049", "ent_818b7ae03dbfe8d5e683", "ent_cced28c6dc3f99c2396a", "ent_cf07194ee232eb531e15"]`
+  - Extracted candidate claims: `["claim_5e9f3fc7d112328c4e00"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/058-c65f5e0d92eaf245fe08.md`
+- **Feed post Mihaela-Roxana G. • 3rd+ Microsoft MVP - Developer technologies | Engineering leader | Conference Speaker 3h • Follow Came across **
+  - Source ID: `src_2292aaa4eba46e100956`
+  - URL: https://www.linkedin.com/in/ghidersam?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA0Z_Q0BSv47INNA57yksJoCcWr-29E2pzA
+  - Title: Feed post Mihaela-Roxana G. • 3rd+ Microsoft MVP - Developer technologies | Engineering leader | Conference Speaker 3h • Follow Came across 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Mihaela-Roxana G. • 3rd+ Microsoft MVP - Developer technologies | Engineering leader | Conference Speaker 3h • Follow Came across ; "loop engineering"
+  - Relevant entities: `["ent_1be897346aa14a667e34", "ent_5a8499d47c592e8024d1", "ent_7fa0dfdc13a6648ada65", "ent_dffa7fa17e9aaf9cd726"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/002-03fd19324f363952cedf.md`
-- **I wanted to create a KYC and Engagement onboarding platform for my law firm with open source and a privacy and security first approach. With**
-  - Source ID: `src_f8b171560d11a18eb9e9`
-  - URL: https://www.linkedin.com/company/protonprivacy/
-  - Title: I wanted to create a KYC and Engagement onboarding platform for my law firm with open source and a privacy and security first approach. With
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/059-2442cc96873c2b8468ba.md`
+- **Came across this take on a concept called "loop engineering", the idea that you shouldn't be prompting coding agents anymore but design the **
+  - Source ID: `src_ac5f3c245e167facd6e5`
+  - Title: Came across this take on a concept called "loop engineering", the idea that you shouldn't be prompting coding agents anymore but design the 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: I wanted to create a KYC and Engagement onboarding platform for my law firm with open source and a privacy and security first approach. With; "OpenClaw" Hermes
-  - Relevant entities: `["ent_0695b563acde461fc2f8", "ent_495b93a386a436dc7ba0", "ent_84a9ceb1ee3a8b0dc509", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Summary: Came across this take on a concept called "loop engineering", the idea that you shouldn't be prompting coding agents anymore but design the ; "loop engineering"
+  - Relevant entities: `["ent_24f7b8a8a0d846ca37c4", "ent_5a8499d47c592e8024d1", "ent_76806e2c372db5358a57"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/004-3dadf8bbd9c857153954.md`
-- **Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 42m • Follow I just trained my Hermes Agent to scrape Google maps leads and find **
-  - Source ID: `src_e51268a47390236c18ae`
-  - URL: https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg
-  - Title: Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 42m • Follow I just trained my Hermes Agent to scrape Google maps leads and find 
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/061-5856d094aae5cf1b2b71.md`
+- **Loop engineering is replacing yourself as the person who prompts the agent. You design the system that does it instead. My latest free deep **
+  - Source ID: `src_25b712a6d89ab4160e09`
+  - Title: Loop engineering is replacing yourself as the person who prompts the agent. You design the system that does it instead. My latest free deep 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 42m • Follow I just trained my Hermes Agent to scrape Google maps leads and find ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_2d87f3d38782aa14e5a6", "ent_63da8d59dde10e180002", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b30cbab276bb375d54e5", "ent_bbdefa2950f49882f295"]`
+  - Summary: Loop engineering is replacing yourself as the person who prompts the agent. You design the system that does it instead. My latest free deep ; "loop engineering"
+  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_5a8499d47c592e8024d1", "ent_6f455b468758e8b6f51a"]`
+  - Extracted candidate claims: `["claim_3f376e90d85f3d9c3631"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/062-ee44337cdbdc75f9f094.md`
+- **Feed post Anthony Mittelmark • 3rd+ Chief Technology Officer | AI Strategy and Transformation | Advisor | Keynote Speaker | Board Advisor 4h**
+  - Source ID: `src_a150ddcb9dd4b66ada81`
+  - URL: https://www.linkedin.com/in/anthonymittelmark?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZNNDwBfeb8TM6wAUHYTPOY1n7MJc8Hv5A
+  - Title: Feed post Anthony Mittelmark • 3rd+ Chief Technology Officer | AI Strategy and Transformation | Advisor | Keynote Speaker | Board Advisor 4h
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Anthony Mittelmark • 3rd+ Chief Technology Officer | AI Strategy and Transformation | Advisor | Keynote Speaker | Board Advisor 4h; "loop engineering"
+  - Relevant entities: `["ent_3ec7e6111cd62b68099d", "ent_488fe31e2233a42f0830", "ent_4b7e172afd07683e8e12", "ent_50a64ca3fb6819c56eb4", "ent_5655354d5b3568a14b80", "ent_5a8499d47c592e8024d1", "ent_a24f1541e4a84a05e831", "ent_a7c201f7796692b962b9"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/005-3146e2a1c6bf77d15f35.md`
-- **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 43m • Follow Outpost hosted a dinner in NYC this week with AI lea**
-  - Source ID: `src_ba36d5e09bd09a3e75ab`
-  - URL: https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg
-  - Title: Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 43m • Follow Outpost hosted a dinner in NYC this week with AI lea
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/063-14ff943c703819100714.md`
+- **You drive meaningful objectives by creating loops which improve based on their goal. https://lnkd.in/dGXZVTXD**
+  - Source ID: `src_383cfaa173dcfc6bd2e5`
+  - Title: You drive meaningful objectives by creating loops which improve based on their goal. https://lnkd.in/dGXZVTXD
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 43m • Follow Outpost hosted a dinner in NYC this week with AI lea; "OpenClaw" Hermes
-  - Relevant entities: `["ent_38af221bedab44002102", "ent_7daf48f924f246f48e57", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Summary: You drive meaningful objectives by creating loops which improve based on their goal. https://lnkd.in/dGXZVTXD; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/008-823c5d0a6b2744e848c4.md`
-- **Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an**
-  - Source ID: `src_c6d591e540182f0bc8af`
-  - URL: https://www.linkedin.com/in/ryanaquino?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA-JVkBj-Q1qI2gIngNFVdr6cUJBK7Oa_M
-  - Title: Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/065-de747973c957f60ee8f4.md`
+- **Feed post Abdelfatah Bourouies • 3rd+ AI Forward Deployed Engineer | Designing, Building & Deploying AI Systems for Enterprise Operations | **
+  - Source ID: `src_4b0bb4c584f90f699986`
+  - URL: https://www.linkedin.com/in/abdelfatahbourouies?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABC3weEBt5VcTGngAwKhGcpz_PUcrquVp0Q
+  - Title: Feed post Abdelfatah Bourouies • 3rd+ AI Forward Deployed Engineer | Designing, Building & Deploying AI Systems for Enterprise Operations | 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an; "OpenClaw" Hermes
-  - Relevant entities: `["ent_41145eecd813e1fc48e7", "ent_4237547c4e74e20b3212", "ent_4d748ebd71af03a7c325", "ent_54a04eee9cf8090ad9d2", "ent_5addf899e08f35c18d13", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b6ace714b83da0c9ea0e", "ent_bbdefa2950f49882f295"]`
+  - Summary: Feed post Abdelfatah Bourouies • 3rd+ AI Forward Deployed Engineer | Designing, Building & Deploying AI Systems for Enterprise Operations | ; "loop engineering"
+  - Relevant entities: `["ent_19a6a9dc4d3816ae4dc4", "ent_2fe8eb9eabe6f94bf494", "ent_4bebb261bbfda8f5cf65", "ent_53fb6117447354ece8a1", "ent_5a8499d47c592e8024d1", "ent_db5f25daf91a499f5b15"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/018-9676688d36759772d742.md`
-- **I finally got around to working with the hermes desktop part of ollama (I had to update ollama 0.23.2 -> 0.30.7_1) and the transition was cl**
-  - Source ID: `src_2d30b5dde5eb75c292ca`
-  - URL: https://www.linkedin.com/in/jeffrey-lee-chan/
-  - Title: I finally got around to working with the hermes desktop part of ollama (I had to update ollama 0.23.2 -> 0.30.7_1) and the transition was cl
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/066-d14aae070720d7ab6e8f.md`
+- **Discover Loop Engineering where you should not be prompting coding agents anymore. You should be designing loops that prompt your agents. Th**
+  - Source ID: `src_5a9573898e4f37b9dcee`
+  - Title: Discover Loop Engineering where you should not be prompting coding agents anymore. You should be designing loops that prompt your agents. Th
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: I finally got around to working with the hermes desktop part of ollama (I had to update ollama 0.23.2 -> 0.30.7_1) and the transition was cl; "OpenClaw" Hermes
-  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
-  - Extracted candidate claims: `["claim_6cabf554fd3fee480a94"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/020-4b1b9d8f2801a7b0e224.md`
-- **Feed post Benjamin Daulton, Esq. • 3rd+ Enterprise Field Account Executive @ SHI International Corporation 1h • Edited • Follow This month h**
-  - Source ID: `src_abde8bc18107c4f53034`
-  - URL: https://www.linkedin.com/in/benjamin-daulton-esq-2180ab27?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAWH5XQBIAxHSReN7WACL5CSUtoNdgJygZQ
-  - Title: Feed post Benjamin Daulton, Esq. • 3rd+ Enterprise Field Account Executive @ SHI International Corporation 1h • Edited • Follow This month h
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Benjamin Daulton, Esq. • 3rd+ Enterprise Field Account Executive @ SHI International Corporation 1h • Edited • Follow This month h; "OpenClaw" Hermes
-  - Relevant entities: `["ent_0916c913b356a22d7c88", "ent_19f4e1e13b881404c379", "ent_318840554e9971c1fba7", "ent_4d7a911553566a648c77", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Summary: Discover Loop Engineering where you should not be prompting coding agents anymore. You should be designing loops that prompt your agents. Th; "loop engineering"
+  - Relevant entities: `["ent_24f7b8a8a0d846ca37c4", "ent_497a5d79334c852c82f5", "ent_5a8499d47c592e8024d1"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/024-8b4f2afaa6972b61e0cf.md`
-- **This month has been all about NVIDIA! This week, I participated in the NVIDIA/SHI Agentic AI Hackathon, where I utilized NemoClaw, NVIDIA He**
-  - Source ID: `src_c0db75554eb3040ce618`
-  - URL: https://www.linkedin.com/company/nvidia/
-  - Title: This month has been all about NVIDIA! This week, I participated in the NVIDIA/SHI Agentic AI Hackathon, where I utilized NemoClaw, NVIDIA He
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/068-6c4bab3356731b7c1488.md`
+- **Feed post Jon Ingi Ingimundarson Jon Ingi Ingimundarson • 3rd+ CTO and Strategy at Ljósleiðarinn 4h • Follow Tonight I ran multiple Claude C**
+  - Source ID: `src_888ad805e840b9b5902f`
+  - URL: https://www.linkedin.com/in/joningi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAATAwBKzRfL9Mf6xl1WZxInXuPuJH1pDs
+  - Title: Feed post Jon Ingi Ingimundarson Jon Ingi Ingimundarson • 3rd+ CTO and Strategy at Ljósleiðarinn 4h • Follow Tonight I ran multiple Claude C
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: This month has been all about NVIDIA! This week, I participated in the NVIDIA/SHI Agentic AI Hackathon, where I utilized NemoClaw, NVIDIA He; "OpenClaw" Hermes
-  - Relevant entities: `["ent_13f954d76f48363bb585", "ent_684f8ba415d03982499f", "ent_8cfde6efdfc4ed5ab1f6", "ent_8d4321d9363208023863", "ent_96a4bc2602655473120f", "ent_d8bb48ff1a4e85339185"]`
+  - Summary: Feed post Jon Ingi Ingimundarson Jon Ingi Ingimundarson • 3rd+ CTO and Strategy at Ljósleiðarinn 4h • Follow Tonight I ran multiple Claude C; "loop engineering"
+  - Relevant entities: `["ent_1cd578e865a7442404ab", "ent_5a8499d47c592e8024d1", "ent_73dff70e25ad51ca765a", "ent_c857d09db23e6822e360", "ent_c878aea7703dea3b42bf"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/026-9a13e0dd2fa618a714e4.md`
-- **Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 1h • Follow Veri**
-  - Source ID: `src_08eca94c38023f8dcc94`
-  - URL: https://www.linkedin.com/in/bradgroux?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADHWFQB-IHEch6TCq4zJrkfEHG1PCdMPVc
-  - Title: Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 1h • Follow Veri
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/069-ba313021787612170d13.md`
+- **Tonight I ran multiple Claude Code Fable 5 sessions against real personal work. Not one prompt. Not a demo. Not a toy benchmark. Multiple co**
+  - Source ID: `src_7e85defa0a50b4306f35`
+  - Title: Tonight I ran multiple Claude Code Fable 5 sessions against real personal work. Not one prompt. Not a demo. Not a toy benchmark. Multiple co
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 1h • Follow Veri; "OpenClaw" Hermes
-  - Relevant entities: `["ent_4740ae6347b0172c0125", "ent_7062c6f2674f424f543d", "ent_75afd26dbc44fda45d3a", "ent_7c4e8592aa2d06f34b0e", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a6536984ff35d5323c48", "ent_cce9878820b562f102cb"]`
+  - Summary: Tonight I ran multiple Claude Code Fable 5 sessions against real personal work. Not one prompt. Not a demo. Not a toy benchmark. Multiple co; "loop engineering"
+  - Relevant entities: `["ent_1206a7e5e9aa08000f13", "ent_254bb97b57f12e1608fe", "ent_2769fc20451b51737baa", "ent_3f8a7e66329a6d6c92ac", "ent_5a8499d47c592e8024d1"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/027-81002244acac8ee34b9b.md`
-- **Veritas Kanban v5.0 is live. I built Veritas around a simple belief: AI-assisted work needs an operating system, not just a chat window. Onc**
-  - Source ID: `src_d0dbb8b7d5715d1de8ce`
-  - Title: Veritas Kanban v5.0 is live. I built Veritas around a simple belief: AI-assisted work needs an operating system, not just a chat window. Onc
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/071-d5445d200191ff76e113.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 4h • Follow MIT Study Identifies Loop Engineering as Key Driver of AI Agent Risk 📌 As AI d**
+  - Source ID: `src_9bfe3b85c204291b6fc9`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 4h • Follow MIT Study Identifies Loop Engineering as Key Driver of AI Agent Risk 📌 As AI d
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Veritas Kanban v5.0 is live. I built Veritas around a simple belief: AI-assisted work needs an operating system, not just a chat window. Onc; "OpenClaw" Hermes
-  - Relevant entities: `["ent_28e6f59d4d92211460a8", "ent_71bdb49241f17b2ac3c0", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b068c5093aed09a10a97", "ent_d61c56fa704c109b9904"]`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 4h • Follow MIT Study Identifies Loop Engineering as Key Driver of AI Agent Risk 📌 As AI d; "loop engineering"
+  - Relevant entities: `["ent_2c116a9105a88be18b2f", "ent_5a8499d47c592e8024d1", "ent_c815100822be2590e5f5", "ent_dcad6536f34b96dd66e0", "ent_e4c135830397cefec463", "ent_f36449ff5f6113f37c36"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/029-851e7a6f9f3e23675868.md`
-- **Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 2h • Follow Watched a $200M brand's CFO re**
-  - Source ID: `src_e4dc76753e940b65e8b1`
-  - URL: https://www.linkedin.com/in/craig-foldes-1b949b96?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABRcdF0BiNBgJ9buQKJLquak_MAOboDAac8
-  - Title: Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 2h • Follow Watched a $200M brand's CFO re
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/072-01790e518d71e2234c4a.md`
+- **MIT Study Identifies Loop Engineering as Key Driver of AI Agent Risk 📌 As AI development shifts from manual prompting to loop engineering, d**
+  - Source ID: `src_fb3b2e27c1823191924c`
+  - Title: MIT Study Identifies Loop Engineering as Key Driver of AI Agent Risk 📌 As AI development shifts from manual prompting to loop engineering, d
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 2h • Follow Watched a $200M brand's CFO re; "OpenClaw" Hermes
-  - Relevant entities: `["ent_27c11549dc97364cc2b0", "ent_506a771c79cc6f59b986", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ab7c250a4017dbdc07aa", "ent_dc49949a782b342bd2ea", "ent_e50442dc82c63704fb12"]`
+  - Summary: MIT Study Identifies Loop Engineering as Key Driver of AI Agent Risk 📌 As AI development shifts from manual prompting to loop engineering, d; "loop engineering"
+  - Relevant entities: `["ent_0ece643d059e4f97b9fc", "ent_2c116a9105a88be18b2f", "ent_5a8499d47c592e8024d1", "ent_c815100822be2590e5f5", "ent_dcad6536f34b96dd66e0", "ent_f36449ff5f6113f37c36"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/030-0beec142f52f30768c00.md`
-- **Watched a $200M brand's CFO realize their week-long financial close could be a 10-minute job. That was minute 40 of Underground 2.0 in NYC. **
-  - Source ID: `src_7572a60e1f44f9af54d7`
-  - Title: Watched a $200M brand's CFO realize their week-long financial close could be a 10-minute job. That was minute 40 of Underground 2.0 in NYC. 
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/074-33d49031bcfbc597cef6.md`
+- **Feed post Wesley Pasfield • 3rd+ AI Deployment Engineer at OpenAI 4h • Follow I will be speaking Databricks Data & AI Summit: https://lnkd.i**
+  - Source ID: `src_698ebee8fe4353958abf`
+  - URL: https://www.linkedin.com/in/wesley-pasfield-82202315?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMHStoBhep0wMT3OtrnCOt-X2x9mkTNaVc
+  - Title: Feed post Wesley Pasfield • 3rd+ AI Deployment Engineer at OpenAI 4h • Follow I will be speaking Databricks Data & AI Summit: https://lnkd.i
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Watched a $200M brand's CFO realize their week-long financial close could be a 10-minute job. That was minute 40 of Underground 2.0 in NYC. ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_27c11549dc97364cc2b0", "ent_80adc17f4177175afa07", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_be74175cb7637f1dfec6"]`
+  - Summary: Feed post Wesley Pasfield • 3rd+ AI Deployment Engineer at OpenAI 4h • Follow I will be speaking Databricks Data & AI Summit: https://lnkd.i; "loop engineering"
+  - Relevant entities: `["ent_42980dc6255b65f7eaae", "ent_5a8499d47c592e8024d1", "ent_7d3194f79e645c42e439", "ent_abe91cbcf4f52e6999c2", "ent_b18ac73f10a37bf88f53", "ent_b4b20116e2a779a7c54f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/032-768fb7292ff31db3b502.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/075-c86b510fd0b315ffdf47.md`
+- **I will be speaking Databricks Data & AI Summit: https://lnkd.in/gwvvSH2Q I’m excited to catch up with old colleagues and talk about loop eng**
+  - Source ID: `src_538e501f72cc4ce22294`
+  - Title: I will be speaking Databricks Data & AI Summit: https://lnkd.in/gwvvSH2Q I’m excited to catch up with old colleagues and talk about loop eng
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: I will be speaking Databricks Data & AI Summit: https://lnkd.in/gwvvSH2Q I’m excited to catch up with old colleagues and talk about loop eng; "loop engineering"
+  - Relevant entities: `["ent_42980dc6255b65f7eaae", "ent_5a8499d47c592e8024d1", "ent_abe91cbcf4f52e6999c2"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/077-3fc0da1183ce0d270834.md`
+- **Feed post Kay .P Kay .P • 3rd+ AI Training & Evaluation Specialist | Ex-xAI | B2B Marketing Strategy, GTM, Multimodal Content & AI-Powered G**
+  - Source ID: `src_7c5c826eb3963aeb6754`
+  - URL: https://www.linkedin.com/in/kaysinha?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAzyUDUBw1k7MHguguLcTTY0btn1eBHNONs
+  - Title: Feed post Kay .P Kay .P • 3rd+ AI Training & Evaluation Specialist | Ex-xAI | B2B Marketing Strategy, GTM, Multimodal Content & AI-Powered G
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Kay .P Kay .P • 3rd+ AI Training & Evaluation Specialist | Ex-xAI | B2B Marketing Strategy, GTM, Multimodal Content & AI-Powered G; "loop engineering"
+  - Relevant entities: `["ent_45779bc98fc51729fc67", "ent_55210c00982daff74c7a", "ent_5a8499d47c592e8024d1", "ent_6910a07fad78822faee4", "ent_8ecdc5f78c59ff0dcde5", "ent_9e00521370f53fe0ec98", "ent_cb93b9e2a8713d622ec3", "ent_fc4c281e99159e302809"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/078-f2d65750ef022fcf9417.md`
+- **Moving Beyond Code: The Reality of Building Frontier AI 🧠 When we talk about the future of AI governance, it is easy to look at it through a**
+  - Source ID: `src_79986e8a83b6e9c6aa6c`
+  - Title: Moving Beyond Code: The Reality of Building Frontier AI 🧠 When we talk about the future of AI governance, it is easy to look at it through a
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Moving Beyond Code: The Reality of Building Frontier AI 🧠 When we talk about the future of AI governance, it is easy to look at it through a; "loop engineering"
+  - Relevant entities: `["ent_15eaa75240aed625be3e", "ent_279ca3ae2fae7b8049e5", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `["claim_44625d1873606a1f102f"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/080-a9f0b097f001468091d0.md`
+- **Feed post KLPD Global 360 followers 5h • Follow In controls engineering, "hunting" is a relationship killer. 💔 When your temperature loops k**
+  - Source ID: `src_3f0edd24251a94fad8d4`
+  - URL: https://www.linkedin.com/company/klpdglobal/posts
+  - Title: Feed post KLPD Global 360 followers 5h • Follow In controls engineering, "hunting" is a relationship killer. 💔 When your temperature loops k
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post KLPD Global 360 followers 5h • Follow In controls engineering, "hunting" is a relationship killer. 💔 When your temperature loops k; "loop engineering"
+  - Relevant entities: `["ent_0ad8e3e489fed78a4712", "ent_15eaa75240aed625be3e", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/081-d72b436d0631d6bacec5.md`
+- **In controls engineering, "hunting" is a relationship killer. 💔 When your temperature loops keep oscillating, everyone pays the price: actuat**
+  - Source ID: `src_2e3c11e66a43e3f2f563`
+  - Title: In controls engineering, "hunting" is a relationship killer. 💔 When your temperature loops keep oscillating, everyone pays the price: actuat
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: In controls engineering, "hunting" is a relationship killer. 💔 When your temperature loops keep oscillating, everyone pays the price: actuat; "loop engineering"
+  - Relevant entities: `["ent_15eaa75240aed625be3e", "ent_5a8499d47c592e8024d1", "ent_dde381323e0fb0ffca9d"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/083-f39e2bc10e46f31e80f9.md`
+- **Feed post Abhishek kumar • 3rd+ Senior Software Engineer at Coforge -​> Ex- IBM, Infosys 5h • Follow Loop Engineering: The Shift in AI Devel**
+  - Source ID: `src_1406fe473aa56f71e350`
+  - URL: https://www.linkedin.com/in/abhishek-kumar-cusat-cse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzGw34BvA9b9YTsw9di49BF3MWudC7ZUSM
+  - Title: Feed post Abhishek kumar • 3rd+ Senior Software Engineer at Coforge -​> Ex- IBM, Infosys 5h • Follow Loop Engineering: The Shift in AI Devel
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Abhishek kumar • 3rd+ Senior Software Engineer at Coforge -​> Ex- IBM, Infosys 5h • Follow Loop Engineering: The Shift in AI Devel; "loop engineering"
+  - Relevant entities: `["ent_42b5bf6a3fa51849bc05", "ent_5a8499d47c592e8024d1", "ent_ab877737b6081bd1adaf", "ent_b676492232057031190c", "ent_b68947799e21d045ae92", "ent_d67200d6eadbdbeb8f70"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/084-3e1b4f81cd2e659f0cfa.md`
+- **Loop Engineering: The Shift in AI Development from Prompts to Systems We are moving from prompt engineering → agent engineering → loop engin**
+  - Source ID: `src_12e0438f1cda492fa5f8`
+  - Title: Loop Engineering: The Shift in AI Development from Prompts to Systems We are moving from prompt engineering → agent engineering → loop engin
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Loop Engineering: The Shift in AI Development from Prompts to Systems We are moving from prompt engineering → agent engineering → loop engin; "loop engineering"
+  - Relevant entities: `["ent_4d73ca9b7df5ad2750d5", "ent_5a8499d47c592e8024d1", "ent_7a56224a799c7eb01d94", "ent_a351276d27aac1682200", "ent_d6c3be479db610232b89", "ent_eb7526362ee7678cb565"]`
+  - Extracted candidate claims: `["claim_41839dd8dcf4380b8c14"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/086-95a11db1c21febbb37c1.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 4h • Follow Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthrop**
+  - Source ID: `src_d0c104a3c829408ad27c`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 4h • Follow Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthrop
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 4h • Follow Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthrop; "loop engineering"
+  - Relevant entities: `["ent_09cf980b5ff304ac11b7", "ent_3fc0e5c4c484797a0035", "ent_5a8499d47c592e8024d1", "ent_943b0933662d5f667544", "ent_a0561fd649cdb6baa784", "ent_e4c135830397cefec463"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/087-43fbd451cb91f14241bf.md`
+- **Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation**
+  - Source ID: `src_f424d9e9811643b6dbfc`
+  - Title: Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation; "loop engineering"
+  - Relevant entities: `["ent_09cf980b5ff304ac11b7", "ent_3fc0e5c4c484797a0035", "ent_5a8499d47c592e8024d1", "ent_8287fd31dca12f879d88", "ent_c70eca6b0f88f44d81a4"]`
+  - Extracted candidate claims: `["claim_35259524a830a49e0d38"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/088-58a7b6d8973a442d3288.md`
+- **Feed post Nikhilesh KVD • 3rd+ CEO, RunI Enterprises | Founder of the World’s 1st AI powered Consulting platform, ShivHit.ai | Co-Founder, E**
+  - Source ID: `src_ceabc87927fe39cb0f63`
+  - URL: https://www.linkedin.com/in/nikhileshkvd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABlF-sBNGCNaBEHyakRMySfmKh6wxNXHks
+  - Title: Feed post Nikhilesh KVD • 3rd+ CEO, RunI Enterprises | Founder of the World’s 1st AI powered Consulting platform, ShivHit.ai | Co-Founder, E
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Nikhilesh KVD • 3rd+ CEO, RunI Enterprises | Founder of the World’s 1st AI powered Consulting platform, ShivHit.ai | Co-Founder, E; "loop engineering"
+  - Relevant entities: `["ent_486ea46224d1bb4fb680", "ent_5a8499d47c592e8024d1", "ent_7242dfd44b1ebef4fa2a", "ent_ad84dae264afbea951c3", "ent_ea0866fb09c19dd3ca2c", "ent_f32cff049f0c8bcb134d"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/089-86dad60d059c13dad2b8.md`
+- **🔥🔥🔥The Watershed Moment for Global Outsourcing Has Arrived. Are you ready for AI-Native Operations? ⚡️⚡️⚡️​The latest TechCrunch report on O**
+  - Source ID: `src_9cf89e14d08019c66fee`
+  - URL: https://www.linkedin.com/in/kasranejatian/
+  - Title: 🔥🔥🔥The Watershed Moment for Global Outsourcing Has Arrived. Are you ready for AI-Native Operations? ⚡️⚡️⚡️​The latest TechCrunch report on O
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: 🔥🔥🔥The Watershed Moment for Global Outsourcing Has Arrived. Are you ready for AI-Native Operations? ⚡️⚡️⚡️​The latest TechCrunch report on O; "loop engineering"
+  - Relevant entities: `["ent_4b372807a36cc9ca617a", "ent_5a8499d47c592e8024d1", "ent_5bf2a470ee1e3ead11f1", "ent_ed736d5839634119dbcb"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/091-fd847aab0f54d817cf62.md`
+- **Feed post Fuat Beşer • 3rd+ Co-Founder & CTO, AI Business School 5h • Follow New trend in AI: loop engineering. It’s the discipline of desig**
+  - Source ID: `src_b0b876f885efcaf552f9`
+  - URL: https://www.linkedin.com/in/fuatbeser?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACJGCjkBWO7u2ctSl-F4kMHQRD83cvJcdKU
+  - Title: Feed post Fuat Beşer • 3rd+ Co-Founder & CTO, AI Business School 5h • Follow New trend in AI: loop engineering. It’s the discipline of desig
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Fuat Beşer • 3rd+ Co-Founder & CTO, AI Business School 5h • Follow New trend in AI: loop engineering. It’s the discipline of desig; "loop engineering"
+  - Relevant entities: `["ent_0f2983d52dfd0922258d", "ent_5a8499d47c592e8024d1", "ent_6494ade241290600b840"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/092-edb78e2cf45f0f477017.md`
+- **New trend in AI: loop engineering. It’s the discipline of designing the feedback cycle between human and model/agent to maximize cumulative **
+  - Source ID: `src_9bcee83c20522d53e057`
+  - Title: New trend in AI: loop engineering. It’s the discipline of designing the feedback cycle between human and model/agent to maximize cumulative 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: New trend in AI: loop engineering. It’s the discipline of designing the feedback cycle between human and model/agent to maximize cumulative ; "loop engineering"
+  - Relevant entities: `["ent_11507a0e2f5e69d5dfa4", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/094-6fabdc2e61c42a5b0876.md`
+- **Feed post Jeffrey Lee-Chan • 3rd+ Head of Vibe Coding @ Snap Inc. ex Google + AI Focus View my services 5h • Follow There a lot of bad artic**
+  - Source ID: `src_d6e68c0ef305c00645a8`
+  - URL: https://www.linkedin.com/in/jeffrey-lee-chan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAApu80oB0TlwBVwm5PJ3FsyOunWR4DSWoH4
+  - Title: Feed post Jeffrey Lee-Chan • 3rd+ Head of Vibe Coding @ Snap Inc. ex Google + AI Focus View my services 5h • Follow There a lot of bad artic
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Jeffrey Lee-Chan • 3rd+ Head of Vibe Coding @ Snap Inc. ex Google + AI Focus View my services 5h • Follow There a lot of bad artic; "loop engineering"
+  - Relevant entities: `["ent_0008eb9565c7ac2c5817", "ent_2c56afdd8aa6c70c2471", "ent_36792669c74edbb2ac47", "ent_5a8499d47c592e8024d1", "ent_9f2e6d33a3717ee82635", "ent_bbdefa2950f49882f295", "ent_fb9eb20eb851a9074fcd"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/095-b449dd819454c9fa1620.md`
+- **There a lot of bad articles about loop engineering. This one got 1M views maybe because it was a troll post?!? Anyway just use /goal or /loo**
+  - Source ID: `src_f29f49dd0e29330d2944`
+  - Title: There a lot of bad articles about loop engineering. This one got 1M views maybe because it was a troll post?!? Anyway just use /goal or /loo
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: There a lot of bad articles about loop engineering. This one got 1M views maybe because it was a troll post?!? Anyway just use /goal or /loo; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_97519f7c288b3602aae0", "ent_b832bd3aa8e8e07bc306", "ent_e244f187f696561d5fd7"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/097-a1c987339072db3a30c0.md`
+- **Feed post Riccardo Trocca • 3rd+ Engineering Manager at Unisys, DWS 5h • Follow New day and new AI post. As usual the stream of AI news is o**
+  - Source ID: `src_e597256e5479281e8859`
+  - URL: https://www.linkedin.com/in/riccardo-trocca-2744975?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAD2CbgByf46VnSkDpJ-ugulbPc0n9KSgDw
+  - Title: Feed post Riccardo Trocca • 3rd+ Engineering Manager at Unisys, DWS 5h • Follow New day and new AI post. As usual the stream of AI news is o
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Riccardo Trocca • 3rd+ Engineering Manager at Unisys, DWS 5h • Follow New day and new AI post. As usual the stream of AI news is o; "loop engineering"
+  - Relevant entities: `["ent_2e9ec14f8404f75ddedd", "ent_5a8499d47c592e8024d1", "ent_615903e53c325be7d7ce", "ent_be0fc4a57d5d6f686598"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/098-9d6d5e730abc310fc71c.md`
+- **New day and new AI post. As usual the stream of AI news is overwhelming, but here something that stood out for me: - suddenly a new term is **
+  - Source ID: `src_3291ca69ece828da4a1b`
+  - Title: New day and new AI post. As usual the stream of AI news is overwhelming, but here something that stood out for me: - suddenly a new term is 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: New day and new AI post. As usual the stream of AI news is overwhelming, but here something that stood out for me: - suddenly a new term is ; "loop engineering"
+  - Relevant entities: `["ent_11507a0e2f5e69d5dfa4", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `["claim_f72d85377bdee2134ec9"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/100-47a61bb9516997c08b95.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 4h • Follow AI Industry Shifts Toward Loop Engineering and Agentic Development Architectur**
+  - Source ID: `src_aab8113144e86c699b89`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 4h • Follow AI Industry Shifts Toward Loop Engineering and Agentic Development Architectur
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 4h • Follow AI Industry Shifts Toward Loop Engineering and Agentic Development Architectur; "loop engineering"
+  - Relevant entities: `["ent_3b2d9776c3cba5554810", "ent_5a8499d47c592e8024d1", "ent_aeaf294261c063b28fa7", "ent_e4c135830397cefec463"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/101-ff2b60c3d84a6fb8c3ce.md`
+- **AI Industry Shifts Toward Loop Engineering and Agentic Development Architectures 📌 The AI landscape is pivoting from manual prompting to loo**
+  - Source ID: `src_d1f942d81f7e8cf9bb18`
+  - Title: AI Industry Shifts Toward Loop Engineering and Agentic Development Architectures 📌 The AI landscape is pivoting from manual prompting to loo
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: AI Industry Shifts Toward Loop Engineering and Agentic Development Architectures 📌 The AI landscape is pivoting from manual prompting to loo; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_aeaf294261c063b28fa7", "ent_e9b4392e7accf08eab5e", "ent_fea7a33c01959a9982eb"]`
+  - Extracted candidate claims: `["claim_195590e66b871a4a2388"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/102-5b4b15329bab8a369765.md`
+- **Feed post Samuel Morgan-Tyghe • 3rd+ Software Builder at Vega | Building AltOS 5h • Follow Harness engineering is nearly a solved problem. L**
+  - Source ID: `src_30384bf9d22ec807415e`
+  - URL: https://www.linkedin.com/in/samuel-morgan-tyghe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACjo4O0BVW92E-LPTA_CMhkyFc7uPnUnIVY
+  - Title: Feed post Samuel Morgan-Tyghe • 3rd+ Software Builder at Vega | Building AltOS 5h • Follow Harness engineering is nearly a solved problem. L
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Samuel Morgan-Tyghe • 3rd+ Software Builder at Vega | Building AltOS 5h • Follow Harness engineering is nearly a solved problem. L; "loop engineering"
+  - Relevant entities: `["ent_313ce7d71787960e3bb5", "ent_5a8499d47c592e8024d1", "ent_e301bbd295a32b6ca7be"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/103-75ef25ece3038ba6b108.md`
+- **Harness engineering is nearly a solved problem. Loop engineering is the part nobody's named yet. The harness is the plumbing around the mode**
+  - Source ID: `src_ad64a93f6d9a5c0910d3`
+  - Title: Harness engineering is nearly a solved problem. Loop engineering is the part nobody's named yet. The harness is the plumbing around the mode
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Harness engineering is nearly a solved problem. Loop engineering is the part nobody's named yet. The harness is the plumbing around the mode; "loop engineering"
+  - Relevant entities: `["ent_0adcaac0d19ad4930bac", "ent_254637f72efcddb6a545", "ent_49f756463ad9dcfb9b6a", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `["claim_575a25c64241641a51d4"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/105-d133ac062866bf9244d6.md`
+- **Feed post Mário Mineiro • 3rd+ Founder | C-Suite AI Partner | Agentic Systems Builder | Full-Stack AI Builder | AI Systems Architect | Enter**
+  - Source ID: `src_8e7c2a0450fac29dd2e8`
+  - URL: https://www.linkedin.com/in/mario-mineiro-data?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAu1U2YBaITOUMe5w_p3iJWxpCYaKVdBj40
+  - Title: Feed post Mário Mineiro • 3rd+ Founder | C-Suite AI Partner | Agentic Systems Builder | Full-Stack AI Builder | AI Systems Architect | Enter
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Mário Mineiro • 3rd+ Founder | C-Suite AI Partner | Agentic Systems Builder | Full-Stack AI Builder | AI Systems Architect | Enter; "loop engineering"
+  - Relevant entities: `["ent_1c5bb2134d63b8e7ed80", "ent_4d1453b5e7c88d5d7a13", "ent_5a8499d47c592e8024d1", "ent_5fd736538d3e9f822a56", "ent_76681f8b0f63bb856117", "ent_843293c09249456d6fbf", "ent_e08d706b3e4ce964b632"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/106-ccef3da3c102ae484216.md`
+- **𝗙𝗲𝗮𝘁𝘂𝗿𝗲 𝗶𝗻. 𝗩𝗲𝗿𝗶𝗳𝗶𝗲𝗱 𝗰𝗼𝗱𝗲 𝗼𝘂𝘁. I'm in love with feature-driven development. My feature kit runs on one rule: one feature = one file. Intent,**
+  - Source ID: `src_acfb190a08de40392ca5`
+  - Title: 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 𝗶𝗻. 𝗩𝗲𝗿𝗶𝗳𝗶𝗲𝗱 𝗰𝗼𝗱𝗲 𝗼𝘂𝘁. I'm in love with feature-driven development. My feature kit runs on one rule: one feature = one file. Intent,
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 𝗶𝗻. 𝗩𝗲𝗿𝗶𝗳𝗶𝗲𝗱 𝗰𝗼𝗱𝗲 𝗼𝘂𝘁. I'm in love with feature-driven development. My feature kit runs on one rule: one feature = one file. Intent,; "loop engineering"
+  - Relevant entities: `["ent_282bcbc3f0a34a8a4ac6", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/108-eb873a53e2c7d9185118.md`
+- **Feed post Vimal Madhavan • 3rd+ Fullstack Engineer (AI) | 15+ years | UAE Golden Visa Holder 6h • Edited • Follow My thought process is that**
+  - Source ID: `src_01717364358f5d8f2840`
+  - URL: https://www.linkedin.com/in/vimalmadhavan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAOuTPoB3yygms68m600kFLM3bYGAVNo1MI
+  - Title: Feed post Vimal Madhavan • 3rd+ Fullstack Engineer (AI) | 15+ years | UAE Golden Visa Holder 6h • Edited • Follow My thought process is that
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Vimal Madhavan • 3rd+ Fullstack Engineer (AI) | 15+ years | UAE Golden Visa Holder 6h • Edited • Follow My thought process is that; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_742e9e46016f0cae01af", "ent_a1714e9cca0ccc34ef2b", "ent_d8e92e6c21c22bb38310"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/109-d988204c7440d73495f4.md`
+- **My thought process is that AI only accelerates development efficiently if you move away from simple "open-loop" chat (prompting and manually**
+  - Source ID: `src_65d5b4d93a226277ad4d`
+  - URL: https://www.linkedin.com/company/amazon-web-services/
+  - Title: My thought process is that AI only accelerates development efficiently if you move away from simple "open-loop" chat (prompting and manually
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: My thought process is that AI only accelerates development efficiently if you move away from simple "open-loop" chat (prompting and manually; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `["claim_7b1de35c6f2b8856404f"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/111-a2140545c327b7a61517.md`
+- **Feed post Victor Arias • 3rd+ DS Senior Engineer at Mercado Libre 6h • Follow Waiting for the article on the “Complete Path to Loop Engineer**
+  - Source ID: `src_22cca88b287e65191190`
+  - URL: https://www.linkedin.com/in/viarisv?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACQ6ihsBrR-4FUAvoNGwqaPQAPxWpwPBcps
+  - Title: Feed post Victor Arias • 3rd+ DS Senior Engineer at Mercado Libre 6h • Follow Waiting for the article on the “Complete Path to Loop Engineer
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Victor Arias • 3rd+ DS Senior Engineer at Mercado Libre 6h • Follow Waiting for the article on the “Complete Path to Loop Engineer; "loop engineering"
+  - Relevant entities: `["ent_236f2722582c02a5bc4e", "ent_5a8499d47c592e8024d1", "ent_81bd7c7852dbd993ba1d", "ent_a832c3984dce73638bbc"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/112-8b0c17c85bcc4ac8d9ad.md`
+- **Waiting for the article on the “Complete Path to Loop Engineer”… damn, every new title feels like another hit to the meaning of the word Eng**
+  - Source ID: `src_9baeb8a29d98f77873ec`
+  - Title: Waiting for the article on the “Complete Path to Loop Engineer”… damn, every new title feels like another hit to the meaning of the word Eng
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Waiting for the article on the “Complete Path to Loop Engineer”… damn, every new title feels like another hit to the meaning of the word Eng; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_80cfa3e7f28dde4df644", "ent_82fe032bd9337b5dfb99", "ent_a832c3984dce73638bbc"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/114-f22d1a540cca49a652bf.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 4h • Follow Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software dev**
+  - Source ID: `src_b76ad9e69ec532e4e6fe`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 4h • Follow Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software dev
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 4h • Follow Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software dev; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_a1e328bb4b29d329f14c", "ent_d8b2d1ebb1e31138e559", "ent_e4c135830397cefec463"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/115-1cdd853af640242b1361.md`
+- **Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software development is undergoing a paradigm shift as developers move fro**
+  - Source ID: `src_84bd6dbe622735334b64`
+  - Title: Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software development is undergoing a paradigm shift as developers move fro
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software development is undergoing a paradigm shift as developers move fro; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_836950597e9627057136", "ent_a1e328bb4b29d329f14c", "ent_d8b2d1ebb1e31138e559"]`
+  - Extracted candidate claims: `["claim_08b20402ee60da372924"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/116-df652c469878f7dca56d.md`
+- **Feed post Jack Jones • 3rd+ CTO · CIO · VP Engineering | AI Innovator | Turning Strategy Into Scalable Platforms 7h • Follow Addy Osmani wro**
+  - Source ID: `src_bad031c8dc6a9ee87a58`
+  - URL: https://www.linkedin.com/in/jackjones?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACmlqQB8AIFHxWy9kSfcOUboKi0taM40cw
+  - Title: Feed post Jack Jones • 3rd+ CTO · CIO · VP Engineering | AI Innovator | Turning Strategy Into Scalable Platforms 7h • Follow Addy Osmani wro
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Jack Jones • 3rd+ CTO · CIO · VP Engineering | AI Innovator | Turning Strategy Into Scalable Platforms 7h • Follow Addy Osmani wro; "loop engineering"
+  - Relevant entities: `["ent_14e197fbf023ad6ce37b", "ent_2ad445b6b715c2634c26", "ent_4832f32d5aabfd027805", "ent_5a8499d47c592e8024d1", "ent_cb6bfbfb9716470531ee", "ent_f426270d320bcbc6f970"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/117-346b44655d739682808f.md`
+- **Addy Osmani wrote this week on what he calls "loop engineering," the shift from prompting coding agents turn by turn to designing systems th**
+  - Source ID: `src_7669848ac70324a3f4fd`
+  - Title: Addy Osmani wrote this week on what he calls "loop engineering," the shift from prompting coding agents turn by turn to designing systems th
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Addy Osmani wrote this week on what he calls "loop engineering," the shift from prompting coding agents turn by turn to designing systems th; "loop engineering"
+  - Relevant entities: `["ent_2b0dace83331ea86d236", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/119-2f4f6b6342f688264a55.md`
+- **Feed post Sitam Meur • 3rd+ AI Engineer @Daily Dose of Data Science | Former AI/ML Studio Publisher @Lightning AI | GSoC Contributor @RUXAIL**
+  - Source ID: `src_a499eeba12e09872501e`
+  - URL: https://www.linkedin.com/in/sitammeur?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADgsufsB-mCRjnmz2uxBWlk559Kdyv_YUhA
+  - Title: Feed post Sitam Meur • 3rd+ AI Engineer @Daily Dose of Data Science | Former AI/ML Studio Publisher @Lightning AI | GSoC Contributor @RUXAIL
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Sitam Meur • 3rd+ AI Engineer @Daily Dose of Data Science | Former AI/ML Studio Publisher @Lightning AI | GSoC Contributor @RUXAIL; "loop engineering"
+  - Relevant entities: `["ent_17af8a2337d1703581ad", "ent_26c5d9a20805872aa0a8", "ent_26f9935f4a1ed68e1f0c", "ent_2b30858bfd143cb0a268", "ent_5a8499d47c592e8024d1", "ent_7ca9dd7316ae2b50fc67", "ent_939fe34aff1d4f213020", "ent_a9857dba11cdfcb3b6f0", "ent_aa90a6f241121093f02b"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/120-18d60bf6ca57756cc084.md`
+- **"I do not prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops." That line is from Boris Cherny, head of**
+  - Source ID: `src_8897ca8d35c6bf69de6d`
+  - URL: https://www.linkedin.com/in/bcherny/
+  - Title: "I do not prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops." That line is from Boris Cherny, head of
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: "I do not prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops." That line is from Boris Cherny, head of; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_c6975a2b0410bcf074c0", "ent_c857d09db23e6822e360", "ent_d1278d327f58356f9c0e"]`
+  - Extracted candidate claims: `["claim_49570dbf867b7755957b"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/122-fe678d8667a2ddece8f0.md`
+- **Feed post Zhen Han • 3rd+ Building next-gen AI product | Ex-Google, Meta 7h • Follow My loop engineering in practice: No custom pipeline. No**
+  - Source ID: `src_7ad0a85ab878e6dfabdf`
+  - URL: https://www.linkedin.com/in/zhen-han?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABq2RL0BHCu2WmnAkxqfVO1sQd09-cFxpv8
+  - Title: Feed post Zhen Han • 3rd+ Building next-gen AI product | Ex-Google, Meta 7h • Follow My loop engineering in practice: No custom pipeline. No
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Zhen Han • 3rd+ Building next-gen AI product | Ex-Google, Meta 7h • Follow My loop engineering in practice: No custom pipeline. No; "loop engineering"
+  - Relevant entities: `["ent_45fd79e04724fed04347", "ent_5a8499d47c592e8024d1", "ent_ea3bd73e2b506e005272", "ent_ec1aba9ff482c8748fb0"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/123-d2ad2ac8b750333c587c.md`
+- **My loop engineering in practice: No custom pipeline. No fragile hard-coded agent loop. I set this up on Vokal in about 2 minutes: one Ops ag**
+  - Source ID: `src_ccdcd48e5bcfe09b369e`
+  - Title: My loop engineering in practice: No custom pipeline. No fragile hard-coded agent loop. I set this up on Vokal in about 2 minutes: one Ops ag
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: My loop engineering in practice: No custom pipeline. No fragile hard-coded agent loop. I set this up on Vokal in about 2 minutes: one Ops ag; "loop engineering"
+  - Relevant entities: `["ent_0807dcc3510b8b3c67e6", "ent_5a8499d47c592e8024d1", "ent_7ba9c5f45050b6af090c", "ent_a92c36e66a25ee99ff86", "ent_ee158e59dc35d395ce11"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/125-643e081c19e59c42767b.md`
+- **Feed post Halidh Barakathulla • 3rd+ Student at University of Birmingham | IIT-M | Harvard 7h • Follow Visited Renishaw Global Headquarters **
+  - Source ID: `src_642885efe89115f64695`
+  - URL: https://www.linkedin.com/in/halidhb?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEnA2_AB2023N_kXSchWJAl9d-f6Va7kUX4
+  - Title: Feed post Halidh Barakathulla • 3rd+ Student at University of Birmingham | IIT-M | Harvard 7h • Follow Visited Renishaw Global Headquarters 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Halidh Barakathulla • 3rd+ Student at University of Birmingham | IIT-M | Harvard 7h • Follow Visited Renishaw Global Headquarters ; "loop engineering"
+  - Relevant entities: `["ent_4727010b0ff5d76ebd6b", "ent_5a8499d47c592e8024d1", "ent_66123f95d3ed53ff1e57", "ent_7973007e0f7971d07117", "ent_eae3b14ca9e2778378de"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/126-e0bb100934a546eb2ac0.md`
+- **Visited Renishaw Global Headquarters in Wotton-under-Edge and StoneHouse, Gloucestershire and gained a fascinating insight into one of the w**
+  - Source ID: `src_f6e998f05cc08e3d37aa`
+  - URL: https://www.linkedin.com/company/renishaw/
+  - Title: Visited Renishaw Global Headquarters in Wotton-under-Edge and StoneHouse, Gloucestershire and gained a fascinating insight into one of the w
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Visited Renishaw Global Headquarters in Wotton-under-Edge and StoneHouse, Gloucestershire and gained a fascinating insight into one of the w; "loop engineering"
+  - Relevant entities: `["ent_213ef6db30ede29172ec", "ent_5665377cdc5a80af77ef", "ent_5a8499d47c592e8024d1", "ent_d1746d56db36c37cae31", "ent_ff0ef7390102c58bc53d"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/128-d5bff8efdb3e412e3f11.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 5h • Follow SapienX Launches AgentOS for Advanced Multi-Agent Orchestration and Control 📌 **
+  - Source ID: `src_07321b97c469c2b9154d`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow SapienX Launches AgentOS for Advanced Multi-Agent Orchestration and Control 📌 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow SapienX Launches AgentOS for Advanced Multi-Agent Orchestration and Control 📌 ; "loop engineering"
+  - Relevant entities: `["ent_0fcd568a5cb9bdb4677b", "ent_5a8499d47c592e8024d1", "ent_dd947dfaa3e71d806fa1", "ent_e4c135830397cefec463"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/129-ce5570ad89b808f1f7f2.md`
+- **SapienX Launches AgentOS for Advanced Multi-Agent Orchestration and Control 📌 SapienX has unveiled AgentOS, a powerful centralized dashboard**
+  - Source ID: `src_ab0fb0741008d2dc828b`
+  - Title: SapienX Launches AgentOS for Advanced Multi-Agent Orchestration and Control 📌 SapienX has unveiled AgentOS, a powerful centralized dashboard
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: SapienX Launches AgentOS for Advanced Multi-Agent Orchestration and Control 📌 SapienX has unveiled AgentOS, a powerful centralized dashboard; "loop engineering"
+  - Relevant entities: `["ent_0a393b563861023ef155", "ent_0fcd568a5cb9bdb4677b", "ent_5a8499d47c592e8024d1", "ent_5b72ba9448008bb7da5d", "ent_8ef692ab3468097e4741", "ent_dd947dfaa3e71d806fa1"]`
+  - Extracted candidate claims: `["claim_9171a2f69c391a5ade38"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/130-a84ab76b266e21561882.md`
+- **Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 7h • Follow For about two years, getting something out of a coding**
+  - Source ID: `src_4cdf548f30d5298ca265`
+  - URL: https://www.linkedin.com/in/andrewjsauer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAalPL4Bo5EzfqFrXBWcaevVMqcLqsknSiQ
+  - Title: Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 7h • Follow For about two years, getting something out of a coding
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Andrew Sauer • 3rd+ Senior AI Software Engineer at Human Agency 7h • Follow For about two years, getting something out of a coding; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_b3c28e4816e379fcf8e6", "ent_e406694b2fe8041d3c14"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/131-7c370406a6fde8206e46.md`
+- **Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 8h • Follow "Loop engineering". **
+  - Source ID: `src_e5c75a55ef46fba3107c`
+  - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
+  - Title: Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 8h • Follow "Loop engineering". 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 8h • Follow "Loop engineering". ; "loop engineering"
+  - Relevant entities: `["ent_254637f72efcddb6a545", "ent_5a8499d47c592e8024d1", "ent_c4c87df77efeb6842fdb"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/134-9af8f4ec75146bc2ece3.md`
+- **Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT**
+  - Source ID: `src_6850e5e5cde5d2e6712e`
+  - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
+  - Title: Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT; "loop engineering"
+  - Relevant entities: `["ent_32987c4b7a9fb90e7294", "ent_46fb078d98c2df164f32", "ent_5a8499d47c592e8024d1", "ent_60ec1732ff77892b70d9", "ent_873a1978fb686111ee93", "ent_8cea71350ea805291fc9", "ent_ad3fc2c957602b6377c2", "ent_db748bd3336600841baa", "ent_e08f47bb4dbc2beb15e5", "ent_f0e5f53af7e637286fd5"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/136-b86fd56dc8aba192cfc9.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 5h • Follow OrchestraML Automates ML Pipelines Using Multi-Agent Orchestration 📌 Orchestra**
+  - Source ID: `src_2d7c10ed5e7ca8a2bb34`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow OrchestraML Automates ML Pipelines Using Multi-Agent Orchestration 📌 Orchestra
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow OrchestraML Automates ML Pipelines Using Multi-Agent Orchestration 📌 Orchestra; "loop engineering"
+  - Relevant entities: `["ent_2d357fc3d505fbf2965a", "ent_5a8499d47c592e8024d1", "ent_613ad991bf2b5079e818", "ent_e4c135830397cefec463"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/142-2aae30f2d0c19c208306.md`
+- **OrchestraML Automates ML Pipelines Using Multi-Agent Orchestration 📌 OrchestraML is revolutionizing machine learning by introducing a multi-**
+  - Source ID: `src_059497a54ee7966eed69`
+  - Title: OrchestraML Automates ML Pipelines Using Multi-Agent Orchestration 📌 OrchestraML is revolutionizing machine learning by introducing a multi-
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: OrchestraML Automates ML Pipelines Using Multi-Agent Orchestration 📌 OrchestraML is revolutionizing machine learning by introducing a multi-; "loop engineering"
+  - Relevant entities: `["ent_27b8e332c062d23bb13f", "ent_5a8499d47c592e8024d1", "ent_6499e3f6ab6aa656ff78", "ent_9becdc5c5489229d4ba1"]`
+  - Extracted candidate claims: `["claim_c884d69c9970ea2179fa"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/143-baaa069a587d83b3ed9e.md`
+- **Feed post Devesh Paragiri • 3rd+ paragiri.com 8h • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some o**
+  - Source ID: `src_cd995ca86a2443f37cbb`
+  - URL: https://www.linkedin.com/in/devesh-paragiri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADXVzqMBo1sn7mA3IolZg9PAdkV3Fv8t9ao
+  - Title: Feed post Devesh Paragiri • 3rd+ paragiri.com 8h • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some o
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Devesh Paragiri • 3rd+ paragiri.com 8h • Follow i've spent the past few weeks on the autoresearch paradigm, trying to close some o; "loop engineering"
+  - Relevant entities: `["ent_54fdceb250cd8683362d", "ent_5a8499d47c592e8024d1"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/144-1b310a4acea83e99d32c.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo**
+  - Source ID: `src_174b4c7c58c99f38dadc`
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo; "loop engineering"
+  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_5a8499d47c592e8024d1", "ent_aa0db396b7d5266b3919"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/147-38f25e79fed62f694aa3.md`
+- **Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac**
+  - Source ID: `src_a179d5f5450cc4990cca`
+  - URL: https://www.linkedin.com/in/lakshay-arora-satellite-sentient?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqzywUB_90ZaHpqdzBpE_LCwRhwKcpFk9M
+  - Title: Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac; "loop engineering"
+  - Relevant entities: `["ent_11a4a60b518bf24989d4", "ent_2552a9843c49f92bc323", "ent_47caca6b7fbe02d6e611", "ent_4ec7c53222c8a758c722", "ent_56a6eb4c98bef058eee9", "ent_5a8499d47c592e8024d1", "ent_933c9fa3e92f6e11710d", "ent_be92e94aba0be148ec1f", "ent_d277670919a94ba361be"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/150-742949b0b08381e1f907.md`
+- **Feed post Cristian Camilo Peña Sanchez • 3rd+ Product Engineer · Healthcare platforms across web & mobile · Design systems, DDD, multi-tenan**
+  - Source ID: `src_646c8f6a2b710d63386b`
+  - URL: https://www.linkedin.com/in/cristiancamilopena?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzUdlEB_d-WoiQhRoT59P5AeRsL3950nzA
+  - Title: Feed post Cristian Camilo Peña Sanchez • 3rd+ Product Engineer · Healthcare platforms across web & mobile · Design systems, DDD, multi-tenan
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Cristian Camilo Peña Sanchez • 3rd+ Product Engineer · Healthcare platforms across web & mobile · Design systems, DDD, multi-tenan; "loop engineering"
+  - Relevant entities: `["ent_319ec3e742d3a04898f9", "ent_3d567369014b8bac1007", "ent_5a8499d47c592e8024d1", "ent_730f75dafd73e047b86a"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/153-c7c52d8e33e7c9275efd.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI la**
+  - Source ID: `src_afd55614bfd8d96dd005`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI la
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI la; "loop engineering"
+  - Relevant entities: `["ent_3b362705151c6bde87d7", "ent_5a8499d47c592e8024d1", "ent_e4c135830397cefec463", "ent_fd9b4a9171771745a1ae"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/156-6669840cd314b56a7623.md`
+- **Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI landscape is shifting from manual prompting to loop engineering,**
+  - Source ID: `src_2ad5cbea74df67ec3e44`
+  - Title: Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI landscape is shifting from manual prompting to loop engineering,
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI landscape is shifting from manual prompting to loop engineering,; "loop engineering"
+  - Relevant entities: `["ent_3b362705151c6bde87d7", "ent_5a8499d47c592e8024d1", "ent_836950597e9627057136", "ent_fd9b4a9171771745a1ae"]`
+  - Extracted candidate claims: `["claim_bb9214728e7a7d9589c9"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/157-aa30d3fbb35aa5e48922.md`
+- **Feed post Cathartic Computing Club 579 followers 8h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.**
+  - Source ID: `src_d2298e7cb1be503f0b3d`
+  - URL: https://www.linkedin.com/company/davilagrau/posts
+  - Title: Feed post Cathartic Computing Club 579 followers 8h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Cathartic Computing Club 579 followers 8h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_81aed7211d7fdd072aed", "ent_ed7e1b816ca89cdd8190"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/158-cbd73e48aa9f02ccd0f7.md`
+- **Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo**
+  - Source ID: `src_375592235272d336f801`
+  - URL: https://www.linkedin.com/in/mohamed-amin-6315b36a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA6ursUBDUp8HCEYm1S4IdvsAcVxGtjuPRQ
+  - Title: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Mohamed Amin • 3rd+ Associate Professor at Al-Azhar University , Rutgers University, USA, University of Debrecen, Hungary. 8h • Fo; "loop engineering"
+  - Relevant entities: `["ent_1518df9dc45d7696a8d1", "ent_1c70bf80ab0a871c4ee1", "ent_33a58a66974db1122537", "ent_388356dcf4e5a73f7f32", "ent_5a8499d47c592e8024d1", "ent_aa0db396b7d5266b3919"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/161-f26057bd2e1f90b963e8.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering and Autonomous Agentic Workflows Redefine 2026 Software Devel**
+  - Source ID: `src_ee15c96bdff6b350ea50`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering and Autonomous Agentic Workflows Redefine 2026 Software Devel
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering and Autonomous Agentic Workflows Redefine 2026 Software Devel; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_a283d59fb4abcee951cf", "ent_e4c135830397cefec463"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/163-74903331cd688825e820.md`
+- **Loop Engineering and Autonomous Agentic Workflows Redefine 2026 Software Development 📌 Software development is undergoing a radical shift as**
+  - Source ID: `src_41988abc73687484d9e2`
+  - Title: Loop Engineering and Autonomous Agentic Workflows Redefine 2026 Software Development 📌 Software development is undergoing a radical shift as
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Loop Engineering and Autonomous Agentic Workflows Redefine 2026 Software Development 📌 Software development is undergoing a radical shift as; "loop engineering"
+  - Relevant entities: `["ent_5a8499d47c592e8024d1", "ent_a283d59fb4abcee951cf"]`
+  - Extracted candidate claims: `["claim_91b20b88df709f39e1f3"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/164-d6783f91466000fad5b4.md`
+- **Feed post Evnek 25,464 followers 8h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys**
+  - Source ID: `src_74661ad3c9f1e752a1dc`
+  - URL: https://www.linkedin.com/company/evnek/posts
+  - Title: Feed post Evnek 25,464 followers 8h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Evnek 25,464 followers 8h • Follow Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the sys; "loop engineering"
+  - Relevant entities: `["ent_150d67c7eb4b22c84d57", "ent_5a8499d47c592e8024d1", "ent_6eba189ab4d7c93840ef"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/165-0bade3053db7ef2e4028.md`
+- **Feed post Jazzy L. Jazzy L. • 3rd+ Sr. Designer | AI Cloud Infrastructure | AIOps | Agentic Commerce | Correlation UX | HITL Evaluation | Ob**
+  - Source ID: `src_6caddbe907925eeeba09`
+  - URL: https://www.linkedin.com/in/jazzyloh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAB0e5IBOqDre2mtxzcIaF5D0VaXKovV0pw
+  - Title: Feed post Jazzy L. Jazzy L. • 3rd+ Sr. Designer | AI Cloud Infrastructure | AIOps | Agentic Commerce | Correlation UX | HITL Evaluation | Ob
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Jazzy L. Jazzy L. • 3rd+ Sr. Designer | AI Cloud Infrastructure | AIOps | Agentic Commerce | Correlation UX | HITL Evaluation | Ob; "loop engineering"
+  - Relevant entities: `["ent_0f70660d0d30508e4e4f", "ent_3cc31aa69887ececc1e6", "ent_5a8499d47c592e8024d1", "ent_6eb325ed45e56f378131", "ent_cff87b65303260dee5c7", "ent_d272569504fc836606d2", "ent_e99a9137eab364fb02cb", "ent_f4fe95770ad46aa16520"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/168-c2302c28d68a79360cd3.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering Emerges to Enhance AI Coding Agent Performance 📌 The era of m**
+  - Source ID: `src_ff302e12cc1bd8086424`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering Emerges to Enhance AI Coding Agent Performance 📌 The era of m
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 5h • Follow Loop Engineering Emerges to Enhance AI Coding Agent Performance 📌 The era of m; "loop engineering"
+  - Relevant entities: `["ent_43bd303de2d854aa7b5f", "ent_5a8499d47c592e8024d1", "ent_61df85bac0f5127461d2", "ent_e4c135830397cefec463"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/171-1f886561217788f343b4.md`
+- **Loop Engineering Emerges to Enhance AI Coding Agent Performance 📌 The era of manual prompting is giving way to loop engineering, a transform**
+  - Source ID: `src_2467ef333e66c9ebce9e`
+  - Title: Loop Engineering Emerges to Enhance AI Coding Agent Performance 📌 The era of manual prompting is giving way to loop engineering, a transform
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Loop Engineering Emerges to Enhance AI Coding Agent Performance 📌 The era of manual prompting is giving way to loop engineering, a transform; "loop engineering"
+  - Relevant entities: `["ent_43bd303de2d854aa7b5f", "ent_5a8499d47c592e8024d1", "ent_61df85bac0f5127461d2", "ent_836950597e9627057136", "ent_c4f42282a8496e3ab098"]`
+  - Extracted candidate claims: `["claim_37ddbea0c86cce175f1e"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/172-6784cb781f8bf16e901c.md`
+- **MAY 30 The LinkedIn Team sent the following messages at 4:59 PM View The LinkedIn’s profile The LinkedIn Team 4:59 PM Welcome to LinkedIn! H**
+  - Source ID: `src_2512af108e5f30f71a5c`
+  - Title: MAY 30 The LinkedIn Team sent the following messages at 4:59 PM View The LinkedIn’s profile The LinkedIn Team 4:59 PM Welcome to LinkedIn! H
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:13:29Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: MAY 30 The LinkedIn Team sent the following messages at 4:59 PM View The LinkedIn’s profile The LinkedIn Team 4:59 PM Welcome to LinkedIn! H; "loop engineering"
+  - Relevant entities: `["ent_280d44ab1e9f79b5cce2", "ent_5a8499d47c592e8024d1", "ent_c10c69d12b6f78d8a791", "ent_ee4d988c65de860fabbf"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/173-490f1b76963c8c095b1a.md`
+- **Feed post Risjad Reviansyah • 3rd+ SE @ Astra Tech Botim | Builder in Fintech & Crypto spaces 1h • Follow The World Cup is started. 48 teams**
+  - Source ID: `src_07697dee07ef02191486`
+  - URL: https://www.linkedin.com/in/risjad-reviansyah-50476612a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB_KxVQBZ9W5dGG7lIRKSG6m0Y1-CRQe8b8
+  - Title: Feed post Risjad Reviansyah • 3rd+ SE @ Astra Tech Botim | Builder in Fintech & Crypto spaces 1h • Follow The World Cup is started. 48 teams
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Risjad Reviansyah • 3rd+ SE @ Astra Tech Botim | Builder in Fintech & Crypto spaces 1h • Follow The World Cup is started. 48 teams; "OpenClaw" Hermes
+  - Relevant entities: `["ent_110599ccb008c6746985", "ent_49de0cd43e5b0819f4c0", "ent_7ab6049c25d8fb7bb781", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_da2f073e06f78938166f", "ent_df6b07176a9b17cc4c9a"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/002-492acf8bdcf541bfe568.md`
+- **The World Cup is started. 48 teams, 104 matches, half of them at 3am my time. I built wc2026-agent, an open skill you hand to your AI agent **
+  - Source ID: `src_5c277fdaf27873b57ba0`
+  - Title: The World Cup is started. 48 teams, 104 matches, half of them at 3am my time. I built wc2026-agent, an open skill you hand to your AI agent 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: The World Cup is started. 48 teams, 104 matches, half of them at 3am my time. I built wc2026-agent, an open skill you hand to your AI agent ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_8e3800939c236bd49f13", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/004-c5cf376ec173b5adb6d2.md`
+- **Feed post Lionel Sim • 3rd+ Founder @ The AI Capitol, Author of The AI Agent Revolution | Building OpenClaw & Hermes AI SG Communities | Tik**
+  - Source ID: `src_cde89b0526475594dca7`
+  - URL: https://www.linkedin.com/in/lionelshen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAImR9sB_wG-Icc9DcCHQ4mHH4--4Pe-zCQ
+  - Title: Feed post Lionel Sim • 3rd+ Founder @ The AI Capitol, Author of The AI Agent Revolution | Building OpenClaw & Hermes AI SG Communities | Tik
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Lionel Sim • 3rd+ Founder @ The AI Capitol, Author of The AI Agent Revolution | Building OpenClaw & Hermes AI SG Communities | Tik; "OpenClaw" Hermes
+  - Relevant entities: `["ent_2039e5e5d45b2a826fb1", "ent_5d4b979db987fdaa5ab9", "ent_636485868971eac5aca3", "ent_8170fd8a2310fe7aabab", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_fcc83b32553560391541"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/005-9dd639a9a25021945329.md`
+- **Most AI agent meetups talk about what’s coming. This one already has 200+ builders signed up to show what’s running. On July 9, The AI Capit**
+  - Source ID: `src_3ab48d29ad064b828dcb`
+  - URL: https://www.linkedin.com/company/theaicapitol/
+  - Title: Most AI agent meetups talk about what’s coming. This one already has 200+ builders signed up to show what’s running. On July 9, The AI Capit
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Most AI agent meetups talk about what’s coming. This one already has 200+ builders signed up to show what’s running. On July 9, The AI Capit; "OpenClaw" Hermes
+  - Relevant entities: `["ent_05c7dbac14dc2bf3e8a0", "ent_7f13578091b9713a213a", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ab7c250a4017dbdc07aa"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/007-01e449ecfcf79c029098.md`
+- **Feed post Brian Graf • 3rd+ Senior Manager, DevRel @ NetApp Instaclustr 3h • Follow I've been spending a lot of time in Hermes and it's quit**
+  - Source ID: `src_ff263852b273ee4087d2`
+  - URL: https://www.linkedin.com/in/thebriangraf?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAARhlqwBL3yyAMnx0Nf87z_RBuoWjRFlpA0
+  - Title: Feed post Brian Graf • 3rd+ Senior Manager, DevRel @ NetApp Instaclustr 3h • Follow I've been spending a lot of time in Hermes and it's quit
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Brian Graf • 3rd+ Senior Manager, DevRel @ NetApp Instaclustr 3h • Follow I've been spending a lot of time in Hermes and it's quit; "OpenClaw" Hermes
+  - Relevant entities: `["ent_59d66b078505d6a8d04b", "ent_8cfde6efdfc4ed5ab1f6", "ent_90cdcf1ebc63c82600a4", "ent_96a4bc2602655473120f", "ent_dd1181a5d67fd16436e9"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/008-e882d9cb8673d63bf7a8.md`
+- **I've been spending a lot of time in Hermes and it's quite impressive. Enough so that I've moved away from OpenClaw entirely. One of the thin**
+  - Source ID: `src_741fdd5b1929a5a8b4d3`
+  - Title: I've been spending a lot of time in Hermes and it's quite impressive. Enough so that I've moved away from OpenClaw entirely. One of the thin
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: I've been spending a lot of time in Hermes and it's quite impressive. Enough so that I've moved away from OpenClaw entirely. One of the thin; "OpenClaw" Hermes
+  - Relevant entities: `["ent_6f6465f9dd0685853e76", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/010-e2acb519465cfc37ae26.md`
+- **Feed post Willem Malloy • 3rd+ I simplify complex automation challenges 3h • Follow If you’ve wondered how people actually get started runni**
+  - Source ID: `src_5ed28c4e7e10215280bb`
+  - URL: https://www.linkedin.com/in/willem-malloy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAf8PKEBQVV3YQbjyNedYreb2TgWmJC67Jc
+  - Title: Feed post Willem Malloy • 3rd+ I simplify complex automation challenges 3h • Follow If you’ve wondered how people actually get started runni
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Willem Malloy • 3rd+ I simplify complex automation challenges 3h • Follow If you’ve wondered how people actually get started runni; "OpenClaw" Hermes
+  - Relevant entities: `["ent_0fd27fab50458b556843", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/012-a4ae4e31f0d9a160b03d.md`
+- **If you’ve wondered how people actually get started running AI on their own computers, here’s how it works and all fits together (Local AI 10**
+  - Source ID: `src_65a64ad5e5abb2ddb6f7`
+  - Title: If you’ve wondered how people actually get started running AI on their own computers, here’s how it works and all fits together (Local AI 10
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: If you’ve wondered how people actually get started running AI on their own computers, here’s how it works and all fits together (Local AI 10; "OpenClaw" Hermes
+  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ce253829b2dcb22ed557"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/014-e27e87cd8e122d39e8d0.md`
+- **Feed post Shahzar Rayyan 🔴 • 3rd+ Helping CEOs achieve 4X revenue scale through AI Automation & Full Stack Ecosystems | $1M Revenue Generate**
+  - Source ID: `src_da4797e65e1d04964c81`
+  - URL: https://www.linkedin.com/in/shahzarrayyan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADsYmcUB4ov9NYDUv_zrWPIIvTHEXysWIGU
+  - Title: Feed post Shahzar Rayyan 🔴 • 3rd+ Helping CEOs achieve 4X revenue scale through AI Automation & Full Stack Ecosystems | $1M Revenue Generate
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Shahzar Rayyan 🔴 • 3rd+ Helping CEOs achieve 4X revenue scale through AI Automation & Full Stack Ecosystems | $1M Revenue Generate; "OpenClaw" Hermes
+  - Relevant entities: `["ent_0aaa15b6fb73bd413936", "ent_8cfde6efdfc4ed5ab1f6", "ent_940cf5d759ed29503b5f", "ent_96a4bc2602655473120f", "ent_97d2de8671d26aa201ab", "ent_c2ccff369869cf67ddd3", "ent_c3fb8fd7e1ba63e73ff2"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/015-5ac3076c5bffb1ba141d.md`
+- **Claude Fable 5 + OpenClaw/Hermes Agent now finds restaurants with weak food photos, rebuilds their best dish into a cinematic reel, and mail**
+  - Source ID: `src_90200ed4de6a283837c1`
+  - Title: Claude Fable 5 + OpenClaw/Hermes Agent now finds restaurants with weak food photos, rebuilds their best dish into a cinematic reel, and mail
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Claude Fable 5 + OpenClaw/Hermes Agent now finds restaurants with weak food photos, rebuilds their best dish into a cinematic reel, and mail; "OpenClaw" Hermes
+  - Relevant entities: `["ent_2d87f3d38782aa14e5a6", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ced86039c0ad6a7c7618"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/017-2b0f56a3b74efc29803d.md`
+- **Feed post Adil Islam • 3rd+ LinkedIn is dead, just email me 4h • Follow Fable. the thing about exponential AI improvement, that I didn't exp**
+  - Source ID: `src_1a41dd90e2354afd777b`
+  - URL: https://www.linkedin.com/in/adil-islam-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAbIaXoBqKiDe1_iBQeUiLHYZn8QV7124BU
+  - Title: Feed post Adil Islam • 3rd+ LinkedIn is dead, just email me 4h • Follow Fable. the thing about exponential AI improvement, that I didn't exp
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Adil Islam • 3rd+ LinkedIn is dead, just email me 4h • Follow Fable. the thing about exponential AI improvement, that I didn't exp; "OpenClaw" Hermes
+  - Relevant entities: `["ent_856bd6d0930d261aed47", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/018-a87bce858e4405a8a74b.md`
+- **Fable. the thing about exponential AI improvement, that I didn't expect to totally overwhelm me, at a mammalian level, is how quickly I woul**
+  - Source ID: `src_ff548fccc5d03849e3d5`
+  - URL: https://www.linkedin.com/company/nousresearch/
+  - Title: Fable. the thing about exponential AI improvement, that I didn't expect to totally overwhelm me, at a mammalian level, is how quickly I woul
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Fable. the thing about exponential AI improvement, that I didn't expect to totally overwhelm me, at a mammalian level, is how quickly I woul; "OpenClaw" Hermes
+  - Relevant entities: `["ent_09cf980b5ff304ac11b7", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `["claim_d4f731babfc7bb1a8c94"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/020-f3a4646126d0f94895dc.md`
+- **Feed post Ari Bagaev • 3rd+ I design and ship products. 10 yrs of marketing taught me what works. 4h • Follow Autonomous AI agents have a ho**
+  - Source ID: `src_3833f0947d73dfce058f`
+  - URL: https://www.linkedin.com/in/aribagaev?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACkBU8cBV568DIE5shvJun7VE1j6efwKRAU
+  - Title: Feed post Ari Bagaev • 3rd+ I design and ship products. 10 yrs of marketing taught me what works. 4h • Follow Autonomous AI agents have a ho
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Ari Bagaev • 3rd+ I design and ship products. 10 yrs of marketing taught me what works. 4h • Follow Autonomous AI agents have a ho; "OpenClaw" Hermes
+  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b016bbaa163db564b4a3", "ent_e8cd2a9304c0439e490d"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/021-5f3b97d9a6da638d1899.md`
+- **Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. I am personally deciding which one to build on for my own work, so inste**
+  - Source ID: `src_268646733f48bec081a2`
+  - Title: Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. I am personally deciding which one to build on for my own work, so inste
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. I am personally deciding which one to build on for my own work, so inste; "OpenClaw" Hermes
+  - Relevant entities: `["ent_1fe10d13302b7e351cc5", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b016bbaa163db564b4a3"]`
+  - Extracted candidate claims: `["claim_5ac0ab17327f70b7cd10"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/023-d96055cc2f0dff7dd8a3.md`
+- **Feed post Jai Kumar Meena • 3rd+ Co-Founder & CTO @ lvl360 | Space I’m coming | Founder of CVC | Building Space Robotics Cognitive Intellige**
+  - Source ID: `src_5f57fecdeacc4ac7d355`
+  - URL: https://www.linkedin.com/in/jai-kumar-meena-431b80213?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADYZvmUBDpDukierxJ4bHf4DTgt4cdh-snI
+  - Title: Feed post Jai Kumar Meena • 3rd+ Co-Founder & CTO @ lvl360 | Space I’m coming | Founder of CVC | Building Space Robotics Cognitive Intellige
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Jai Kumar Meena • 3rd+ Co-Founder & CTO @ lvl360 | Space I’m coming | Founder of CVC | Building Space Robotics Cognitive Intellige; "OpenClaw" Hermes
+  - Relevant entities: `["ent_14e51a4c8ec0b3b31d10", "ent_3f49dbbfe051cb20cc03", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_fc55356d1e70c3e4bd2b"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/024-017a070cf451de5baa4a.md`
+- **Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn**
+  - Source ID: `src_7c138ed755684e992664`
+  - URL: https://www.linkedin.com/company/claude-code/
+  - Title: Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn; "OpenClaw" Hermes
+  - Relevant entities: `["ent_1e142e6277b12b7e1110", "ent_46a4eebd20d881ecfc0e", "ent_57de4cf40144bdf7d000", "ent_58296240bd5ced020692", "ent_7d3194f79e645c42e439", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a625159d18da57180b72", "ent_ae59b93d3305f8f10931", "ent_e5af0b6a29349417d514"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/026-4bdef0f146d734380888.md`
+- **Feed post Arash Joobandi • 3rd+ SWE / Content Creator 5h • Follow Hermes Agent: Day 2 Made with Restream. Livestream on 30+ platforms at onc**
+  - Source ID: `src_9f4bfa65d713b9830127`
+  - URL: https://www.linkedin.com/in/techfren?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB6yG2sBRsdIRuqJ_HQEf1p-H39Tk8YOO3c
+  - Title: Feed post Arash Joobandi • 3rd+ SWE / Content Creator 5h • Follow Hermes Agent: Day 2 Made with Restream. Livestream on 30+ platforms at onc
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Arash Joobandi • 3rd+ SWE / Content Creator 5h • Follow Hermes Agent: Day 2 Made with Restream. Livestream on 30+ platforms at onc; "OpenClaw" Hermes
+  - Relevant entities: `["ent_645c0bdce39226ea2274", "ent_8a7518bcd34e5f49c133", "ent_8cfde6efdfc4ed5ab1f6", "ent_944c27e5b97ab7793e4b", "ent_96a4bc2602655473120f", "ent_ea0890697a77af0a2e05", "ent_f89a364b479fe5aef78b"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/027-f000bf1a654827775a67.md`
+- **Hermes Agent: Day 2 Made with Restream. Livestream on 30+ platforms at once via https://restream.io In this stream I’m setting up Hermes Des**
+  - Source ID: `src_c3f96205dfb336d0ab7c`
+  - Title: Hermes Agent: Day 2 Made with Restream. Livestream on 30+ platforms at once via https://restream.io In this stream I’m setting up Hermes Des
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Hermes Agent: Day 2 Made with Restream. Livestream on 30+ platforms at once via https://restream.io In this stream I’m setting up Hermes Des; "OpenClaw" Hermes
+  - Relevant entities: `["ent_0b8c294c52c48595f1c4", "ent_2d87f3d38782aa14e5a6", "ent_8cfde6efdfc4ed5ab1f6", "ent_944c27e5b97ab7793e4b", "ent_96a4bc2602655473120f", "ent_ea0890697a77af0a2e05", "ent_f89a364b479fe5aef78b"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/029-f8a76ba956b9945ca96c.md`
+- **Feed post Bhavesh Pabnani • 3rd+ Amazon • Sabre • Puma • CJBS • IIM Ranchi • Deakin • IIT Kharagpur 6h • Follow Introducing Humungousaur, a **
+  - Source ID: `src_83535cde3a58fc1dd062`
+  - URL: https://www.linkedin.com/in/bhavesh-pabnani-97a033250?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD3wzK4BsGlS4hliQz-ubwAOSRz-bltlrpo
+  - Title: Feed post Bhavesh Pabnani • 3rd+ Amazon • Sabre • Puma • CJBS • IIM Ranchi • Deakin • IIT Kharagpur 6h • Follow Introducing Humungousaur, a 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Bhavesh Pabnani • 3rd+ Amazon • Sabre • Puma • CJBS • IIM Ranchi • Deakin • IIT Kharagpur 6h • Follow Introducing Humungousaur, a ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_0cf17797d0671ef802ea", "ent_1b69560f238275315117", "ent_2f9f80f66e37b1e5f395", "ent_7905a6a503f0a1961462", "ent_86505085bb4773d538be", "ent_8b8635c9a70aaf8ec0a1", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ace3e5f024e340557466", "ent_cbc62794911ff31b2864"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/030-c94edd44efe9df40f892.md`
+- **Introducing Humungousaur, a local-first, cognition-driven desktop agent. And inside it, Janus: a named agent that stays active even when you**
+  - Source ID: `src_0465f7fddd42d47a0d52`
+  - Title: Introducing Humungousaur, a local-first, cognition-driven desktop agent. And inside it, Janus: a named agent that stays active even when you
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Introducing Humungousaur, a local-first, cognition-driven desktop agent. And inside it, Janus: a named agent that stays active even when you; "OpenClaw" Hermes
+  - Relevant entities: `["ent_0c1360fac824635b3286", "ent_1046e2ad21604e05c566", "ent_79cde059841a6e4c36f0", "ent_850ca8e0ec3f2106b6a2", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/032-7397870be749eb78b6f5.md`
+- **Feed post Dylan Hulser • 3rd+ VP of Retail Media at Kevel 6h • Edited • Follow A few months ago when OpenClaw was taking off, James Avery, T**
+  - Source ID: `src_bf5a965ae55c4b03cc25`
+  - URL: https://www.linkedin.com/in/dylanhulser?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAINNZAB7s5qzRswARdq3ywMk1kQS_MRQOI
+  - Title: Feed post Dylan Hulser • 3rd+ VP of Retail Media at Kevel 6h • Edited • Follow A few months ago when OpenClaw was taking off, James Avery, T
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Dylan Hulser • 3rd+ VP of Retail Media at Kevel 6h • Edited • Follow A few months ago when OpenClaw was taking off, James Avery, T; "OpenClaw" Hermes
+  - Relevant entities: `["ent_7f819f49ba5d1494b604", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a43a338fcbf2a8e11b0f", "ent_b8a40aee517123fd91f8", "ent_dcd33421e5199856c9ff"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/033-7267457de024e1dfde45.md`
+- **A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi**
+  - Source ID: `src_29e3aa1eafc7a6221083`
+  - URL: https://www.linkedin.com/in/averyj/
+  - Title: A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi; "OpenClaw" Hermes
+  - Relevant entities: `["ent_39a059e26b51a327f0fd", "ent_7f819f49ba5d1494b604", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_fe480fdeeb5cca52c1ea"]`
+  - Extracted candidate claims: `["claim_ee8923d5d9047dc28a53"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/035-4d2c75b688c9b6f88cd0.md`
+- **AI agents aren't just writing code anymore. They're running retail media networks. We gave an AI team a fictional grocer and a real ad serve**
+  - Source ID: `src_ad8dcffd70b02955bf0e`
+  - URL: https://www.linkedin.com/in/dylanhulser/
+  - Title: AI agents aren't just writing code anymore. They're running retail media networks. We gave an AI team a fictional grocer and a real ad serve
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: AI agents aren't just writing code anymore. They're running retail media networks. We gave an AI team a fictional grocer and a real ad serve; "OpenClaw" Hermes
+  - Relevant entities: `["ent_151e58a831306903b282", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_e748f8750672ca8b04b2"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/036-22f3d28855ae7ad3c860.md`
 - **Feed post Fernando Santos • 3rd+ Gerente Executivo de Tecnologia, Dados & IA | IA Generativa, Agentes & LLMs, Engenharia de Software e Trans**
-  - Source ID: `src_7f5ad8bcdc5fb64b2ff5`
+  - Source ID: `src_a612f4b0991d01f3456b`
   - URL: https://www.linkedin.com/in/fernandok-santos?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAkN8EABSnkwMWqvOhXawz2LAHJPKhZ2UzI
   - Title: Feed post Fernando Santos • 3rd+ Gerente Executivo de Tecnologia, Dados & IA | IA Generativa, Agentes & LLMs, Engenharia de Software e Trans
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Feed post Fernando Santos • 3rd+ Gerente Executivo de Tecnologia, Dados & IA | IA Generativa, Agentes & LLMs, Engenharia de Software e Trans; "OpenClaw" Hermes
   - Relevant entities: `["ent_0df9dc6159ca756a1d7e", "ent_1e48b6a9e45837ea3258", "ent_21209597f685c8bef83d", "ent_61c1c5928e123456b299", "ent_82da49ee984b8f3bcee2", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ba17267664315c6fe93d", "ent_c01de6e714a2da5bb6b5", "ent_cbd31fe312a05a4718b4", "ent_de2187af3fb011708ca4"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/033-3d9e33badd0b26701da9.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/037-7db04df48df3d2ba6114.md`
 - **Que modelos eu uso no meu trabalho? Depois do Fable 5 ficam me perguntando aqui no escritorio qual modelo é o melhor. Resposta honesta: depe**
-  - Source ID: `src_bdc51533fbc131001362`
+  - Source ID: `src_f7e804a0c340086868b2`
   - Title: Que modelos eu uso no meu trabalho? Depois do Fable 5 ficam me perguntando aqui no escritorio qual modelo é o melhor. Resposta honesta: depe
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Que modelos eu uso no meu trabalho? Depois do Fable 5 ficam me perguntando aqui no escritorio qual modelo é o melhor. Resposta honesta: depe; "OpenClaw" Hermes
   - Relevant entities: `["ent_09cf980b5ff304ac11b7", "ent_218fb45a491064354ee0", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c57b7501cd843672550c", "ent_cd0c5e431e281c111398"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/035-41f4b9665c4052fe7684.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/039-2a4615fc181eaac26114.md`
+- **Feed post Florian Kohlhase • 3rd+ B. Sc. Data Science and AI at Dirk Rossmann GmbH - Webdesign/-developement 6h • Follow Problem-solving is **
+  - Source ID: `src_d1be5e586a0ab9daa1f6`
+  - URL: https://www.linkedin.com/in/florian-kohlhase-034161263?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAECg6OgBp9lzKXhFuGkyq3CHPjRFb0aRVC8
+  - Title: Feed post Florian Kohlhase • 3rd+ B. Sc. Data Science and AI at Dirk Rossmann GmbH - Webdesign/-developement 6h • Follow Problem-solving is 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Florian Kohlhase • 3rd+ B. Sc. Data Science and AI at Dirk Rossmann GmbH - Webdesign/-developement 6h • Follow Problem-solving is ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_112c6ceb841aa67afef3", "ent_17e48c69d117c9aaf36d", "ent_3a3e29ef87277f014afe", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_f70fa6ea6ad8b89ab7c0"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/040-306e96ccd9dea3810dac.md`
+- **Problem-solving is hard to train directly. It doesn't live in one domain. It shows up in a team conflicts, when a project is falling apart, **
+  - Source ID: `src_5696cb1f5cebbbb6f92f`
+  - Title: Problem-solving is hard to train directly. It doesn't live in one domain. It shows up in a team conflicts, when a project is falling apart, 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Problem-solving is hard to train directly. It doesn't live in one domain. It shows up in a team conflicts, when a project is falling apart, ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_fc7b1f52a6a335543a38"]`
+  - Extracted candidate claims: `["claim_4a7314d36f3df82b9f1d"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/042-05559331f2da59052fd9.md`
+- **Feed post Devashish M. • 3rd+ Senior Director of Engineering at Esper 7h • Edited • Follow Had a great time presenting last week at the Dev **
+  - Source ID: `src_1970d39a7379fa54bf3f`
+  - URL: https://www.linkedin.com/in/devashishm?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAO04uYBv4GGG_VRKmWunE3rzmnWwMH32_U
+  - Title: Feed post Devashish M. • 3rd+ Senior Director of Engineering at Esper 7h • Edited • Follow Had a great time presenting last week at the Dev 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Devashish M. • 3rd+ Senior Director of Engineering at Esper 7h • Edited • Follow Had a great time presenting last week at the Dev ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_187ca579fbfdd0ab6060", "ent_3a047a95310059a082e7", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ef260e9aa3c673af240d"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/043-8c3a74c2a670519c9b58.md`
+- **Had a great time presenting last week at the Dev Tools Meetup by AI Tinkerers. I demoed 4 agents autonomously managing an entire software pr**
+  - Source ID: `src_7827e09bbd09e3f12f92`
+  - URL: https://www.linkedin.com/company/ai-tinkerers/
+  - Title: Had a great time presenting last week at the Dev Tools Meetup by AI Tinkerers. I demoed 4 agents autonomously managing an entire software pr
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Had a great time presenting last week at the Dev Tools Meetup by AI Tinkerers. I demoed 4 agents autonomously managing an entire software pr; "OpenClaw" Hermes
+  - Relevant entities: `["ent_0c0da43bf7ac322edf46", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_dbce31ff209c1c0b066d", "ent_e02a753f0c060173d1fa"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/045-6c757fe59d5eb7b938d4.md`
+- **Feed post Max Petrusenko • 3rd+ AI Systems Engineer @ U.S. Department of the Treasury | Evals, Agent Harnesses & Self-Improving Loops 7h • F**
+  - Source ID: `src_d702e40c3e491a6e3e47`
+  - URL: https://www.linkedin.com/in/max-petrusenko-40574b4a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAApuxIUBwcVJTcvxRoVnE4A2MMzW27dOCos
+  - Title: Feed post Max Petrusenko • 3rd+ AI Systems Engineer @ U.S. Department of the Treasury | Evals, Agent Harnesses & Self-Improving Loops 7h • F
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Max Petrusenko • 3rd+ AI Systems Engineer @ U.S. Department of the Treasury | Evals, Agent Harnesses & Self-Improving Loops 7h • F; "OpenClaw" Hermes
+  - Relevant entities: `["ent_081654cb6a9c142ff991", "ent_21549188b3dfc49d0065", "ent_66fa9f9d3186b9c13a66", "ent_811b31161ed6d1637d9c", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_96b269123e177f25c8ba", "ent_b8df302e82c7dfed2bc3", "ent_ca251637292ec45d5f5d"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/046-687d2c234692d1edd74c.md`
+- **Nessie pulls your context, memory, and history from ChatGPT, Perplexity, and Gemini, syncing it across all your tools—including OpenClaw/Her**
+  - Source ID: `src_9e924dfb5c7302574e5f`
+  - Title: Nessie pulls your context, memory, and history from ChatGPT, Perplexity, and Gemini, syncing it across all your tools—including OpenClaw/Her
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Nessie pulls your context, memory, and history from ChatGPT, Perplexity, and Gemini, syncing it across all your tools—including OpenClaw/Her; "OpenClaw" Hermes
+  - Relevant entities: `["ent_354cbfc814262a7a81d3", "ent_45d780f82c9247fc1142", "ent_5d72436256ada53828b5", "ent_60965168ce762e949600", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c449d24aefb5f25a907f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/048-029e348c303c28fbf799.md`
+- **Feed post Travis Bogard 🎙️ • 3rd+ Founder & CEO | Helping Leaders Ditch Meetings and Scale their communication | New Category Creator 7h • F**
+  - Source ID: `src_eaaa029ce0cd68262faa`
+  - URL: https://www.linkedin.com/in/travisbogard?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAAFNwBhGqaTmt9WpXEw2PxNuj-aUheupE
+  - Title: Feed post Travis Bogard 🎙️ • 3rd+ Founder & CEO | Helping Leaders Ditch Meetings and Scale their communication | New Category Creator 7h • F
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Travis Bogard 🎙️ • 3rd+ Founder & CEO | Helping Leaders Ditch Meetings and Scale their communication | New Category Creator 7h • F; "OpenClaw" Hermes
+  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_963d84c9d0d51e57a4b0", "ent_96a4bc2602655473120f", "ent_99796c407341c071c5f1", "ent_bc8192c72d6926074904", "ent_f469802a31447f90d6a0"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/049-f4ed337ffae9d70fc1ff.md`
+- **I have Claude Code on speed dial. Not metaphorically. I literally hit Option + 5 on my Mac from any screen, speak, and it's off working. I j**
+  - Source ID: `src_97124de0aea7369bc95d`
+  - URL: https://www.linkedin.com/company/carbonvoice/
+  - Title: I have Claude Code on speed dial. Not metaphorically. I literally hit Option + 5 on my Mac from any screen, speak, and it's off working. I j
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: I have Claude Code on speed dial. Not metaphorically. I literally hit Option + 5 on my Mac from any screen, speak, and it's off working. I j; "OpenClaw" Hermes
+  - Relevant entities: `["ent_254bb97b57f12e1608fe", "ent_348a629f5ceed032c3e8", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a11a75e0feeecc1a9eff", "ent_a625159d18da57180b72"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/051-1477677d244132e049ad.md`
+- **Feed post Nirant Kasliwal • 3rd+ We help teams ship reliable AI agents | ex-Qdrant, Samsung Research 7h • Follow 1/ 2 Patterns need to work **
+  - Source ID: `src_b0e094a02baf7f4d0d51`
+  - URL: https://www.linkedin.com/in/nirant?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAvVrGQB_XLgVRbfDswY_8chTqWfhvAgjRE
+  - Title: Feed post Nirant Kasliwal • 3rd+ We help teams ship reliable AI agents | ex-Qdrant, Samsung Research 7h • Follow 1/ 2 Patterns need to work 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Nirant Kasliwal • 3rd+ We help teams ship reliable AI agents | ex-Qdrant, Samsung Research 7h • Follow 1/ 2 Patterns need to work ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_1554c4e086b184e18787", "ent_7c02a78c27107f680cbe", "ent_8cfde6efdfc4ed5ab1f6", "ent_8e76ead2f471c15a92f5", "ent_96a4bc2602655473120f", "ent_cfc35d18e7332fde265d", "ent_d2dd523556cf3fed3746"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/052-34e445004f83d651b2d0.md`
+- **1/ 2 Patterns need to work to improve team coordination and save time and $: 1. Agent Impersonating Human e.g. Openclaw, Hermes agent 2. Age**
+  - Source ID: `src_45b69c04c14c6ba0e6d9`
+  - Title: 1/ 2 Patterns need to work to improve team coordination and save time and $: 1. Agent Impersonating Human e.g. Openclaw, Hermes agent 2. Age
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: 1/ 2 Patterns need to work to improve team coordination and save time and $: 1. Agent Impersonating Human e.g. Openclaw, Hermes agent 2. Age; "OpenClaw" Hermes
+  - Relevant entities: `["ent_013f54400c82da080377", "ent_1554c4e086b184e18787", "ent_2d87f3d38782aa14e5a6", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_fba1b00f736b74289088"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/054-2ec7246fd21931c1240e.md`
+- **Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit **
+  - Source ID: `src_1a87f1a3e1ae25731a95`
+  - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
+  - Title: Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_075f4ab854e2a33c8ac1", "ent_30f50f7fa4fa466a1386", "ent_5822500a63476ba5f6d7", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a598e28b68556a859df8", "ent_be720cd18fe58ebf86b0", "ent_e04eb29020eaa961e99d"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/055-a8a88606c8bc788fc42f.md`
+- **Three free open-source AI tools just exploded on GitHub 🤯 One was built by PewDiePie. Odysseus is a fully local workspace that runs on your **
+  - Source ID: `src_f45b46607537f7566a0c`
+  - Title: Three free open-source AI tools just exploded on GitHub 🤯 One was built by PewDiePie. Odysseus is a fully local workspace that runs on your 
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Three free open-source AI tools just exploded on GitHub 🤯 One was built by PewDiePie. Odysseus is a fully local workspace that runs on your ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_736df824481ffa744b9d", "ent_8b5b9db0c13db24256c8", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c0b0109d9439de57fe3c"]`
+  - Extracted candidate claims: `["claim_66cc523ff8143a86679e"]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/057-c050168452ee07f224bc.md`
+- **Feed post Jeremy Robb • 3rd+ Founder | Creator of the Wayfinder AI Learning Management Platform | Improve Time-To-Value | ex-ServiceNow | ex**
+  - Source ID: `src_4f6c289d1a703014c8bd`
+  - URL: https://www.linkedin.com/in/jrobb?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAELmeMBtqGxtffZDclO04pi1SiO2UUUWgU
+  - Title: Feed post Jeremy Robb • 3rd+ Founder | Creator of the Wayfinder AI Learning Management Platform | Improve Time-To-Value | ex-ServiceNow | ex
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Jeremy Robb • 3rd+ Founder | Creator of the Wayfinder AI Learning Management Platform | Improve Time-To-Value | ex-ServiceNow | ex; "OpenClaw" Hermes
+  - Relevant entities: `["ent_2b7f18b1072bd524e9ae", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a3a067fe071a459441fd", "ent_b5738c169b693bee89e1", "ent_b7a2c86f83da1cd6027e", "ent_bc6bfd848ebd7819c9a8"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/058-1858e055f91dd912ca0e.md`
+- **Day 2 of playing with VisionOS 27, and thinking about the new Siri (still haven't gotten it, but patiently on the waiting list). As I work w**
+  - Source ID: `src_c47290c9740d295d6e94`
+  - Title: Day 2 of playing with VisionOS 27, and thinking about the new Siri (still haven't gotten it, but patiently on the waiting list). As I work w
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Day 2 of playing with VisionOS 27, and thinking about the new Siri (still haven't gotten it, but patiently on the waiting list). As I work w; "OpenClaw" Hermes
+  - Relevant entities: `["ent_81ed341348bed14c507f", "ent_8cfde6efdfc4ed5ab1f6", "ent_944c27e5b97ab7793e4b", "ent_96a4bc2602655473120f", "ent_c5c6f0b98ec5c4b6f5f7"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/060-01e3ed5b35eb9a40f2b2.md`
+- **Feed post Harm van Berkum • 3rd+ Advocaat - VAN BERKUM M&A 8h • Follow I wanted to create a KYC and Engagement onboarding platform for my la**
+  - Source ID: `src_91cca9a0196c4c925be4`
+  - URL: https://www.linkedin.com/in/harm-van-berkum?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAD8C30BBrHbOxJHy_QRphinSxgtKsHxXMg
+  - Title: Feed post Harm van Berkum • 3rd+ Advocaat - VAN BERKUM M&A 8h • Follow I wanted to create a KYC and Engagement onboarding platform for my la
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Harm van Berkum • 3rd+ Advocaat - VAN BERKUM M&A 8h • Follow I wanted to create a KYC and Engagement onboarding platform for my la; "OpenClaw" Hermes
+  - Relevant entities: `["ent_3ad9b961825b4e96c74d", "ent_495b93a386a436dc7ba0", "ent_755ad4392aa37efb0682", "ent_84a9ceb1ee3a8b0dc509", "ent_8cfde6efdfc4ed5ab1f6", "ent_8e8f99bcd12c5f61c207", "ent_96a4bc2602655473120f", "ent_af3ce03f6874c53162b7"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/061-6613c3c078a93a233213.md`
+- **Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 8h • Follow Outpost hosted a dinner in NYC this week with AI lead**
+  - Source ID: `src_b86db5c5cdf766482cbd`
+  - URL: https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg
+  - Title: Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 8h • Follow Outpost hosted a dinner in NYC this week with AI lead
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 8h • Follow Outpost hosted a dinner in NYC this week with AI lead; "OpenClaw" Hermes
+  - Relevant entities: `["ent_38af221bedab44002102", "ent_7daf48f924f246f48e57", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/064-ef7d0a2780b40f6c2c84.md`
+- **Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 8h • Follow I just trained my Hermes Agent to scrape Google maps leads and find o**
+  - Source ID: `src_8df81083c2fdfed109a2`
+  - URL: https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg
+  - Title: Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 8h • Follow I just trained my Hermes Agent to scrape Google maps leads and find o
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 8h • Follow I just trained my Hermes Agent to scrape Google maps leads and find o; "OpenClaw" Hermes
+  - Relevant entities: `["ent_2d87f3d38782aa14e5a6", "ent_63da8d59dde10e180002", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b30cbab276bb375d54e5", "ent_bbdefa2950f49882f295"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/067-5702370ef17c40a3567c.md`
+- **Feed post Divya Chidambaram • 3rd+ AI & ML Enthusiast | IBM WTX | Data Mapping | Data Migration | Making Complex Tech Simple | Sharing Insig**
+  - Source ID: `src_6321a554a02c84282598`
+  - URL: https://www.linkedin.com/in/divya-chidambaram-20596a388?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAF-J1qUBaTYz_tDXYE1P6ncb3HM435Dez_g
+  - Title: Feed post Divya Chidambaram • 3rd+ AI & ML Enthusiast | IBM WTX | Data Mapping | Data Migration | Making Complex Tech Simple | Sharing Insig
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Divya Chidambaram • 3rd+ AI & ML Enthusiast | IBM WTX | Data Mapping | Data Migration | Making Complex Tech Simple | Sharing Insig; "OpenClaw" Hermes
+  - Relevant entities: `["ent_171e773361bd605cbde5", "ent_29b54aac9e16810b4036", "ent_50ad1d11a5cc13692ef8", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_bd6fc71792fbf1b6e715", "ent_de00b4e95d0d7064a9b3", "ent_f0c216dc955d26a08985", "ent_f48f1a1da181f7ab84c7"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/070-8d3978f50daa4aa80d23.md`
+- **Feed post Andrew Shutov • 3rd+ Systems & Network Administrator 9h • Follow NVIDIA Renames Integrated Graphic Chips as SuperChips! Let's take**
+  - Source ID: `src_c12844565d3c4f1fbd4c`
+  - URL: https://www.linkedin.com/in/andrew-shutov?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADWXFdIBxczKVwFOrw3qZIgKa0oXqS7CH7Q
+  - Title: Feed post Andrew Shutov • 3rd+ Systems & Network Administrator 9h • Follow NVIDIA Renames Integrated Graphic Chips as SuperChips! Let's take
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Andrew Shutov • 3rd+ Systems & Network Administrator 9h • Follow NVIDIA Renames Integrated Graphic Chips as SuperChips! Let's take; "OpenClaw" Hermes
+  - Relevant entities: `["ent_3d6db8b7b2d822d72e58", "ent_5654d4106d7025c25788", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b1ed34de00f1ce2816fc", "ent_d9705d8ee25f3f783a0c", "ent_e6293d48393c93b268fd", "ent_f338f4c08c4eb9a62331"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/073-26a29e00f22e8797450b.md`
+- **Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an**
+  - Source ID: `src_15acc6495f92a93f78f5`
+  - URL: https://www.linkedin.com/in/ryanaquino?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA-JVkBj-Q1qI2gIngNFVdr6cUJBK7Oa_M
+  - Title: Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an; "OpenClaw" Hermes
+  - Relevant entities: `["ent_41145eecd813e1fc48e7", "ent_4237547c4e74e20b3212", "ent_4d748ebd71af03a7c325", "ent_54a04eee9cf8090ad9d2", "ent_5addf899e08f35c18d13", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b6ace714b83da0c9ea0e", "ent_bbdefa2950f49882f295"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/076-588c6b864cb5bbc62765.md`
+- **Feed post Galih Fajar Fitra Ady • 3rd+ Software Engineer @ GoPay | Building kangfoto.id 9h • Follow I didn't know Hermes Agent + Tencent Clo**
+  - Source ID: `src_e3404b022acfbc477cc3`
+  - URL: https://www.linkedin.com/in/galih-fajar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACYb_RMBL6Ne6y1flxhhsscj23IpX2XlQ60
+  - Title: Feed post Galih Fajar Fitra Ady • 3rd+ Software Engineer @ GoPay | Building kangfoto.id 9h • Follow I didn't know Hermes Agent + Tencent Clo
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Galih Fajar Fitra Ady • 3rd+ Software Engineer @ GoPay | Building kangfoto.id 9h • Follow I didn't know Hermes Agent + Tencent Clo; "OpenClaw" Hermes
+  - Relevant entities: `["ent_13bb4cfd2d79c9f89f88", "ent_29817c3725860275c26d", "ent_2d87f3d38782aa14e5a6", "ent_3a5bbdf3a1ee635c0a69", "ent_7c620baa773530eb6305", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/079-d8341611ee24f5dfbae1.md`
+- **Feed post Benjamin Daulton, Esq. • 3rd+ Enterprise Field Account Executive @ SHI International Corporation 9h • Edited • Follow This month h**
+  - Source ID: `src_2273b8a17cdd54c2be96`
+  - URL: https://www.linkedin.com/in/benjamin-daulton-esq-2180ab27?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAWH5XQBIAxHSReN7WACL5CSUtoNdgJygZQ
+  - Title: Feed post Benjamin Daulton, Esq. • 3rd+ Enterprise Field Account Executive @ SHI International Corporation 9h • Edited • Follow This month h
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Benjamin Daulton, Esq. • 3rd+ Enterprise Field Account Executive @ SHI International Corporation 9h • Edited • Follow This month h; "OpenClaw" Hermes
+  - Relevant entities: `["ent_0916c913b356a22d7c88", "ent_19f4e1e13b881404c379", "ent_318840554e9971c1fba7", "ent_4d7a911553566a648c77", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/082-cad8666b59a594446e9e.md`
+- **Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 9h • Follow Veri**
+  - Source ID: `src_d2aa56b312f16491f8cb`
+  - URL: https://www.linkedin.com/in/bradgroux?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADHWFQB-IHEch6TCq4zJrkfEHG1PCdMPVc
+  - Title: Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 9h • Follow Veri
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 9h • Follow Veri; "OpenClaw" Hermes
+  - Relevant entities: `["ent_4740ae6347b0172c0125", "ent_7062c6f2674f424f543d", "ent_75afd26dbc44fda45d3a", "ent_7c4e8592aa2d06f34b0e", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a6536984ff35d5323c48", "ent_cce9878820b562f102cb"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/085-dee32b007fb04d82f194.md`
+- **Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 9h • Follow Watched a $200M brand's CFO re**
+  - Source ID: `src_7a795c2025f6c5160230`
+  - URL: https://www.linkedin.com/in/craig-foldes-1b949b96?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABRcdF0BiNBgJ9buQKJLquak_MAOboDAac8
+  - Title: Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 9h • Follow Watched a $200M brand's CFO re
+  - Author/organization: unknown
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
+  - Source type: `linkedin_search_result`; quality score: `D`
+  - Summary: Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 9h • Follow Watched a $200M brand's CFO re; "OpenClaw" Hermes
+  - Relevant entities: `["ent_27c11549dc97364cc2b0", "ent_506a771c79cc6f59b986", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ab7c250a4017dbdc07aa", "ent_dc49949a782b342bd2ea", "ent_e50442dc82c63704fb12"]`
+  - Extracted candidate claims: `[]`
+  - Duplicate status: `unique`
+  - Privacy/publication status: `human_review`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/088-f07c76e952482aea3458.md`
 - **Feed post Daniel Foley Carter • 3rd+ SEO Specialist with 25+ years experience. Extensive experience in SEO auditing, strategy, execution & t**
-  - Source ID: `src_62af6de3ace7e294f8a6`
+  - Source ID: `src_a29c6e5f845836a88524`
   - URL: https://www.linkedin.com/in/daniel-foley-assertive?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAXsNsUBYWyqVPkglBZEBgbvMTqovBcjEC0
   - Title: Feed post Daniel Foley Carter • 3rd+ SEO Specialist with 25+ years experience. Extensive experience in SEO auditing, strategy, execution & t
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Feed post Daniel Foley Carter • 3rd+ SEO Specialist with 25+ years experience. Extensive experience in SEO auditing, strategy, execution & t; "OpenClaw" Hermes
   - Relevant entities: `["ent_30f50f7fa4fa466a1386", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_9e9ef157670b0cfd8a42", "ent_9f160e486d1d1a6c336a", "ent_f650f0ba845b1781270a"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/036-ecf9053711f59c0c5343.md`
-- **💥 WooHoo! It's Live!!!!! 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su**
-  - Source ID: `src_e4a2d22378df395f7718`
-  - URL: https://www.linkedin.com/company/seo-stack/
-  - Title: 💥 WooHoo! It's Live!!!!! 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 💥 WooHoo! It's Live!!!!! 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su; "OpenClaw" Hermes
-  - Relevant entities: `["ent_10182ab855ff772753c0", "ent_247610f4dedd4ab7247d", "ent_5d72436256ada53828b5", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c857d09db23e6822e360", "ent_e52154a106cf7d6aa70c", "ent_f66930493ccc8b69a823"]`
-  - Extracted candidate claims: `["claim_c80b8679bbda24230dd8"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/038-be0f61d09ca0cdced412.md`
-- **Feed post Yomi Toba • 3rd+ Software Consultant & Tech Entrepreneur 2h • Edited • Follow I built an AI team that plugs into the tools you alr**
-  - Source ID: `src_55338c500c90c48e7ad3`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/091-f57883f03f9bfa97e3a1.md`
+- **Feed post Yomi Toba • 3rd+ Software Consultant & Tech Entrepreneur 10h • Edited • Follow I built an AI team that plugs into the tools you al**
+  - Source ID: `src_4a5e3e4cb2beb819109e`
   - URL: https://www.linkedin.com/in/yomi-toba?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHopiEBu0elf_y4BOL2QoCT2bhiiJRWNVY
-  - Title: Feed post Yomi Toba • 3rd+ Software Consultant & Tech Entrepreneur 2h • Edited • Follow I built an AI team that plugs into the tools you alr
+  - Title: Feed post Yomi Toba • 3rd+ Software Consultant & Tech Entrepreneur 10h • Edited • Follow I built an AI team that plugs into the tools you al
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Yomi Toba • 3rd+ Software Consultant & Tech Entrepreneur 2h • Edited • Follow I built an AI team that plugs into the tools you alr; "OpenClaw" Hermes
+  - Summary: Feed post Yomi Toba • 3rd+ Software Consultant & Tech Entrepreneur 10h • Edited • Follow I built an AI team that plugs into the tools you al; "OpenClaw" Hermes
   - Relevant entities: `["ent_64c683e9ff23a488f764", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c3664881510c3a2791ea"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/039-1d52c59e7f837304fb2c.md`
-- **I built an AI team that plugs into the tools you already use. The tech borrows a lot of the themes from Hermes and Openclaw, but it's not yo**
-  - Source ID: `src_f6182eae694febfa3492`
-  - Title: I built an AI team that plugs into the tools you already use. The tech borrows a lot of the themes from Hermes and Openclaw, but it's not yo
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/094-ddb22e7bfe4e5a5eba93.md`
+- **Feed post Brilian Tafjira Nugraha • 3rd+ Get the job done with AI on edge devices 10h • Follow Hermes Agent has a Windows desktop app! Man, **
+  - Source ID: `src_0579f8fcfd0030c3a339`
+  - URL: https://www.linkedin.com/in/brilian-tafjira-nugraha?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABepYgABrT_7gXSINWLLvWKpyHIURjTAeBA
+  - Title: Feed post Brilian Tafjira Nugraha • 3rd+ Get the job done with AI on edge devices 10h • Follow Hermes Agent has a Windows desktop app! Man, 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: I built an AI team that plugs into the tools you already use. The tech borrows a lot of the themes from Hermes and Openclaw, but it's not yo; "OpenClaw" Hermes
-  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Summary: Feed post Brilian Tafjira Nugraha • 3rd+ Get the job done with AI on edge devices 10h • Follow Hermes Agent has a Windows desktop app! Man, ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_2998b3232d29e8dc5a78", "ent_340d600392818df24133", "ent_48b676e2b107da679512", "ent_5741c4cfbaedec66e176", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/041-3e2ee4bf047833428e09.md`
-- **Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 2h • Follow L'**
-  - Source ID: `src_002d69ec5e597d41ffcc`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/097-08e1cc21ffabb2494be6.md`
+- **Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 10h • Follow L**
+  - Source ID: `src_9cd9db17d9fbfcd74a4d`
   - URL: https://www.linkedin.com/in/ahmed-choulak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFi8tVUB1GIQmnPPZvXnJIH6Avvsee6-QO0
-  - Title: Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 2h • Follow L'
+  - Title: Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 10h • Follow L
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 2h • Follow L'; "OpenClaw" Hermes
+  - Summary: Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 10h • Follow L; "OpenClaw" Hermes
   - Relevant entities: `["ent_0694414cba3ca937c5f8", "ent_2c04410d922c25b5fcc6", "ent_3c55c04d8248d3b78c3a", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/045-79a4f0ecfdac75f43102.md`
-- **L'IA vit sa bulle des .com. Et voici ce que les gourous de l'IA ne veulent pas dire. Des formateurs poussent comme des champignons, tous "ex**
-  - Source ID: `src_f25826346ce5a7ee6c10`
-  - Title: L'IA vit sa bulle des .com. Et voici ce que les gourous de l'IA ne veulent pas dire. Des formateurs poussent comme des champignons, tous "ex
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: L'IA vit sa bulle des .com. Et voici ce que les gourous de l'IA ne veulent pas dire. Des formateurs poussent comme des champignons, tous "ex; "OpenClaw" Hermes
-  - Relevant entities: `["ent_7b24c1ad239d4a6b2c73", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/047-b1f444a72c1fd44379cf.md`
-- **Feed post Illia Zakharov • 3rd+ IT Technician @ Galaxy4Games | Electronics and Telecommunications Graduate 2h • Follow 🎓 A few months ago, I**
-  - Source ID: `src_d80e9ce8638b61102d18`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/100-6561117a1940ef2d25c1.md`
+- **Feed post Illia Zakharov • 3rd+ IT Technician @ Galaxy4Games | Electronics and Telecommunications Graduate 10h • Follow 🎓 A few months ago, **
+  - Source ID: `src_3dd2c9df11e1222dd889`
   - URL: https://www.linkedin.com/in/illiazakharov?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFNd0ToBjoJ7eAWKg0Ub-7qvW_JRK0wNpck
-  - Title: Feed post Illia Zakharov • 3rd+ IT Technician @ Galaxy4Games | Electronics and Telecommunications Graduate 2h • Follow 🎓 A few months ago, I
+  - Title: Feed post Illia Zakharov • 3rd+ IT Technician @ Galaxy4Games | Electronics and Telecommunications Graduate 10h • Follow 🎓 A few months ago, 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Illia Zakharov • 3rd+ IT Technician @ Galaxy4Games | Electronics and Telecommunications Graduate 2h • Follow 🎓 A few months ago, I; "OpenClaw" Hermes
+  - Summary: Feed post Illia Zakharov • 3rd+ IT Technician @ Galaxy4Games | Electronics and Telecommunications Graduate 10h • Follow 🎓 A few months ago, ; "OpenClaw" Hermes
   - Relevant entities: `["ent_0a274f674ab8508807e1", "ent_29ba9d9cef5a66461116", "ent_7b3d62665eab7d8b104b", "ent_7e5d3cea783be0bc3a1f", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a848a87fec458f1f61a3"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/048-54922b4e3c27a33642c1.md`
-- **🎓 A few months ago, I graduated from Poznań University of Technology. My Bachelor's thesis, "Usage of Machine Learning in Application of Gen**
-  - Source ID: `src_8afc8f5d8c261cffd723`
-  - Title: 🎓 A few months ago, I graduated from Poznań University of Technology. My Bachelor's thesis, "Usage of Machine Learning in Application of Gen
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 🎓 A few months ago, I graduated from Poznań University of Technology. My Bachelor's thesis, "Usage of Machine Learning in Application of Gen; "OpenClaw" Hermes
-  - Relevant entities: `["ent_0a4e4c29432ecb01b95f", "ent_11361dd567809cef20ab", "ent_1fe289205936c3fdb611", "ent_3b6a765ede676559e0f2", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_dcaa8e5ecb8d70ad4ede"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/050-0f91b6fb67ea39d91fe2.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/103-06e3ec544db908bed220.md`
 - **Feed post a e • 3rd+ Picture of me circa 2014 | Aspiring managing director at Instagram | Social Media Manager/Strategist | Short-Form Video**
-  - Source ID: `src_a652b491acfe07df6bee`
+  - Source ID: `src_6cd253257d0c30a6d7ba`
   - URL: https://www.linkedin.com/in/a-e-b36403399?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGHFGpoBWj2vM_K62ZqP4GgIs-TiMpK39es
   - Title: Feed post a e • 3rd+ Picture of me circa 2014 | Aspiring managing director at Instagram | Social Media Manager/Strategist | Short-Form Video
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Feed post a e • 3rd+ Picture of me circa 2014 | Aspiring managing director at Instagram | Social Media Manager/Strategist | Short-Form Video; "OpenClaw" Hermes
   - Relevant entities: `["ent_2cea274d0bedc39ec4ab", "ent_5ede56738376a8c53a7c", "ent_6c7f19236112ea673026", "ent_7b8df44e6e0b7b816083", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ce79dfdc4daeb240ec52", "ent_d2ecd21211478622de24"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/051-eac5eda86af49fcb67eb.md`
-- **One thing AI has taught me: The difference between an idea and a product is execution. Everyone has ideas. Very few people sit down and try **
-  - Source ID: `src_2646eff3c0cb37451394`
-  - Title: One thing AI has taught me: The difference between an idea and a product is execution. Everyone has ideas. Very few people sit down and try 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: One thing AI has taught me: The difference between an idea and a product is execution. Everyone has ideas. Very few people sit down and try ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_4c6a4839f83d20d276e7", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/053-2af9e6c9c849f8726a4b.md`
-- **Feed post Alexandr Lebedev • 3rd+ Security consultant. Mentor. Facilitator 3h • Edited • Прошло три месяца с момента, как я начал регулярно **
-  - Source ID: `src_80d0f3c0483e8dbaab8c`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/106-084938937c616b51dc5e.md`
+- **Feed post Alexandr Lebedev • 3rd+ Security consultant. Mentor. Facilitator 10h • Edited • Прошло три месяца с момента, как я начал регулярно**
+  - Source ID: `src_96136e4c120d2853a3cc`
   - URL: https://www.linkedin.com/in/alexandr-lebedev-38907bb1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABeuU1kB9vjzeXkODidXoL9fhDAolA6MGv4
-  - Title: Feed post Alexandr Lebedev • 3rd+ Security consultant. Mentor. Facilitator 3h • Edited • Прошло три месяца с момента, как я начал регулярно 
+  - Title: Feed post Alexandr Lebedev • 3rd+ Security consultant. Mentor. Facilitator 10h • Edited • Прошло три месяца с момента, как я начал регулярно
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Alexandr Lebedev • 3rd+ Security consultant. Mentor. Facilitator 3h • Edited • Прошло три месяца с момента, как я начал регулярно ; "OpenClaw" Hermes
+  - Summary: Feed post Alexandr Lebedev • 3rd+ Security consultant. Mentor. Facilitator 10h • Edited • Прошло три месяца с момента, как я начал регулярно; "OpenClaw" Hermes
   - Relevant entities: `["ent_5d2d3ceb7abe55234427", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b2291f9a4121dad64c6d", "ent_e193a5b9ce432d73029f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/054-c32f9d3ab19155cac40c.md`
-- **Прошло три месяца с момента, как я начал регулярно использовать собственных ИИ-агентов в рабочих задачах. За это время конфигурация более-ме**
-  - Source ID: `src_58afd8dd992eeb4d1343`
-  - Title: Прошло три месяца с момента, как я начал регулярно использовать собственных ИИ-агентов в рабочих задачах. За это время конфигурация более-ме
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/109-20ed72637526bd997495.md`
+- **Feed post TheNextGenTechInsider.com 783 followers 10h • Follow Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Rese**
+  - Source ID: `src_ddfd34fef878fc585235`
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Title: Feed post TheNextGenTechInsider.com 783 followers 10h • Follow Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Rese
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Прошло три месяца с момента, как я начал регулярно использовать собственных ИИ-агентов в рабочих задачах. За это время конфигурация более-ме; "OpenClaw" Hermes
-  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Summary: Feed post TheNextGenTechInsider.com 783 followers 10h • Follow Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Rese; "OpenClaw" Hermes
+  - Relevant entities: `["ent_800a613cd38ea2db847e", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_e4c135830397cefec463", "ent_e7de3b50e1684b210fc3"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/056-97265784bbad6ecd0a5e.md`
-- **Отчёт по завершению 15 дней эксплуатации цифрового сотрудника (OpenClaw): 1. Подход Внедрение проводилось по модели найма штатного специалис**
-  - Source ID: `src_54c25b69c1d6fde86f16`
-  - Title: Отчёт по завершению 15 дней эксплуатации цифрового сотрудника (OpenClaw): 1. Подход Внедрение проводилось по модели найма штатного специалис
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Отчёт по завершению 15 дней эксплуатации цифрового сотрудника (OpenClaw): 1. Подход Внедрение проводилось по модели найма штатного специалис; "OpenClaw" Hermes
-  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/057-31319f10186fe1d1c84b.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/113-318a022c78e217287a67.md`
 - **Feed post Quốc Nghi Huỳnh • 3rd+ AI in Banking & Finance | Post-Control, Collateral Valuation & Debt Asset Management | Banking Operations &**
-  - Source ID: `src_df0210d45f15e200f034`
+  - Source ID: `src_45dbbabae7dff8897b07`
   - URL: https://www.linkedin.com/in/quocnghihuynh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEAeCpoBtM9SNgivj273Yj_9ILOxay8SlB4
   - Title: Feed post Quốc Nghi Huỳnh • 3rd+ AI in Banking & Finance | Post-Control, Collateral Valuation & Debt Asset Management | Banking Operations &
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Feed post Quốc Nghi Huỳnh • 3rd+ AI in Banking & Finance | Post-Control, Collateral Valuation & Debt Asset Management | Banking Operations &; "OpenClaw" Hermes
   - Relevant entities: `["ent_02ebe5f3c9930b55e4ff", "ent_2d4299014a3b5b829899", "ent_68ba9b33ad38d5d4587d", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_bed622c72ddf016b32c9", "ent_c8c30ae87ca9d493ccc9"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/061-02e68d844ac034eb685e.md`
-- **Nay nhận dc email của MiMo Xiaomi thông báo : Ảnh đã chính thức phát hành và công khai mã nguồn MiMo Code Chính xách hơn là combo MiMo Code **
-  - Source ID: `src_b1ea46fb860925e25a6d`
-  - Title: Nay nhận dc email của MiMo Xiaomi thông báo : Ảnh đã chính thức phát hành và công khai mã nguồn MiMo Code Chính xách hơn là combo MiMo Code 
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/116-644bac315176b7418ca9.md`
+- **Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow **
+  - Source ID: `src_a7a979a2be6b689ca786`
+  - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
+  - Title: Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Nay nhận dc email của MiMo Xiaomi thông báo : Ảnh đã chính thức phát hành và công khai mã nguồn MiMo Code Chính xách hơn là combo MiMo Code ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_4a64585238a3b3ca5b8e", "ent_8cfde6efdfc4ed5ab1f6", "ent_8dcabd1433d79088705c", "ent_96a4bc2602655473120f", "ent_d3ed65a0047382c8900b"]`
+  - Summary: Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow ; "OpenClaw" Hermes
+  - Relevant entities: `["ent_10182ab855ff772753c0", "ent_11a4a60b518bf24989d4", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a14ff2b9fabd45234840", "ent_c22fdc3b3e486334de3e", "ent_e748f8750672ca8b04b2", "ent_ffe04f3d725d3fa3de0d"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/063-1b92cb7791def6c47133.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
 - **Feed post Rasmus Lindgren • 3rd+ 🔥 Forfatter, speaker, mentor og far 🔥 Hjælper passionerede selvstændige med at skalere deres forretning onl**
-  - Source ID: `src_e036426ad3d5975a9f8c`
+  - Source ID: `src_c44672eee54a3c94ef0d`
   - URL: https://www.linkedin.com/in/rasmuslindgren?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAD3rMBLhVhijC0hCkfW0ij9yi1_vSm8Bk
   - Title: Feed post Rasmus Lindgren • 3rd+ 🔥 Forfatter, speaker, mentor og far 🔥 Hjælper passionerede selvstændige med at skalere deres forretning onl
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Feed post Rasmus Lindgren • 3rd+ 🔥 Forfatter, speaker, mentor og far 🔥 Hjælper passionerede selvstændige med at skalere deres forretning onl; "OpenClaw" Hermes
   - Relevant entities: `["ent_089280f4ebb1422e88fc", "ent_2fbfed9e111703e34e06", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/067-ef0d90feabdfd0f4732e.md`
-- **Hvorfor jeg skiftede fra OpenClaw til Hermes**
-  - Source ID: `src_d300a147bc14bb37fb69`
-  - Title: Hvorfor jeg skiftede fra OpenClaw til Hermes
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/122-a56485d9b868522b0c6e.md`
+- **Feed post Automação Sem Limites 0 followers 11h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na er**
+  - Source ID: `src_9a20443401e48d44809a`
+  - URL: https://www.linkedin.com/company/automacao-sem-limites/posts
+  - Title: Feed post Automação Sem Limites 0 followers 11h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na er
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Hvorfor jeg skiftede fra OpenClaw til Hermes; "OpenClaw" Hermes
-  - Relevant entities: `["ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c46d71f4494de6ba5217"]`
+  - Summary: Feed post Automação Sem Limites 0 followers 11h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na er; "OpenClaw" Hermes
+  - Relevant entities: `["ent_282d1f921625512e0552", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/069-fc13699e8f2525b7e44b.md`
-- **Feed post Maicon Ramos • 3rd+ Web developer for startups and digital agencies 3h • Follow Hoje eu vejo o MultiPost muito além de um simples **
-  - Source ID: `src_a8d625629904297d3cfd`
-  - URL: https://www.linkedin.com/in/maicon-ramos?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABW-uzwBGuvMZwEncTK6A4JmvNk9xt60ERQ
-  - Title: Feed post Maicon Ramos • 3rd+ Web developer for startups and digital agencies 3h • Follow Hoje eu vejo o MultiPost muito além de um simples 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Maicon Ramos • 3rd+ Web developer for startups and digital agencies 3h • Follow Hoje eu vejo o MultiPost muito além de um simples ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_356fa29641b23a7d0d9f", "ent_4b5e57f6eb2f42b9039b", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/070-4f6e1cd13a9d24a8a3eb.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/125-910bbdbd4bb3f2253838.md`
 - **Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era dos agentes de IA, o objetivo não é centralizar tudo em**
-  - Source ID: `src_a4776b85a5b6b41c43f4`
+  - Source ID: `src_76df829e676ab2e23a11`
   - Title: Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era dos agentes de IA, o objetivo não é centralizar tudo em
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era dos agentes de IA, o objetivo não é centralizar tudo em; "OpenClaw" Hermes
   - Relevant entities: `["ent_48056d9165f39678198b", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/072-d6248918df64f799bc58.md`
-- **Feed post Automação Sem Limites 0 followers 3h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era**
-  - Source ID: `src_2db59c4ea4892740c99e`
-  - URL: https://www.linkedin.com/company/automacao-sem-limites/posts
-  - Title: Feed post Automação Sem Limites 0 followers 3h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/127-1aa7fd3c03438107a607.md`
+- **Feed post Maicon Ramos • 3rd+ Web developer for startups and digital agencies 11h • Follow Hoje eu vejo o MultiPost muito além de um simples**
+  - Source ID: `src_fd34f0e8bd47993f520a`
+  - URL: https://www.linkedin.com/in/maicon-ramos?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABW-uzwBGuvMZwEncTK6A4JmvNk9xt60ERQ
+  - Title: Feed post Maicon Ramos • 3rd+ Web developer for startups and digital agencies 11h • Follow Hoje eu vejo o MultiPost muito além de um simples
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Automação Sem Limites 0 followers 3h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era; "OpenClaw" Hermes
-  - Relevant entities: `["ent_282d1f921625512e0552", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Summary: Feed post Maicon Ramos • 3rd+ Web developer for startups and digital agencies 11h • Follow Hoje eu vejo o MultiPost muito além de um simples; "OpenClaw" Hermes
+  - Relevant entities: `["ent_356fa29641b23a7d0d9f", "ent_4b5e57f6eb2f42b9039b", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/073-e99faf06b8c5842dfb4c.md`
-- **Feed post Yoni Atteia • 3rd+ Automatisation des formalités juridiques | IA & LegalTech | Extension Chrome Guichet Unique 4h • Follow Questio**
-  - Source ID: `src_48925f75f70108ae3654`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/128-52c027d6808de0fb4158.md`
+- **Feed post Yoni Atteia • 3rd+ Automatisation des formalités juridiques | IA & LegalTech | Extension Chrome Guichet Unique 11h • Follow Questi**
+  - Source ID: `src_cf3bd2875eb8b99902b5`
   - URL: https://www.linkedin.com/in/yoni-atteia-5b82402b7?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEwID1wBTKe_r9It1HXs4UnPIMoj_K8D_G0
-  - Title: Feed post Yoni Atteia • 3rd+ Automatisation des formalités juridiques | IA & LegalTech | Extension Chrome Guichet Unique 4h • Follow Questio
+  - Title: Feed post Yoni Atteia • 3rd+ Automatisation des formalités juridiques | IA & LegalTech | Extension Chrome Guichet Unique 11h • Follow Questi
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Yoni Atteia • 3rd+ Automatisation des formalités juridiques | IA & LegalTech | Extension Chrome Guichet Unique 4h • Follow Questio; "OpenClaw" Hermes
+  - Summary: Feed post Yoni Atteia • 3rd+ Automatisation des formalités juridiques | IA & LegalTech | Extension Chrome Guichet Unique 11h • Follow Questi; "OpenClaw" Hermes
   - Relevant entities: `["ent_36ae7d8d13605a650a8a", "ent_3b0c75b8896ea99139a4", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_e58b2fdb4740bd45e2a7", "ent_f530b2f374fcf0fff2ea"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/075-a040f5a0f0293045494c.md`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/130-9240d2c9b9bc39e6b2c4.md`
 - **Feed post Lior Pozin • 3rd+ Bootstrapped AutoDS to 200+ employees → Acquired by Fiverr. Forbes 30under30. Advisor, Speaker and Investor. Vis**
-  - Source ID: `src_bf3432ca488b10b68142`
+  - Source ID: `src_de339201fa1e47a862a7`
   - URL: https://www.linkedin.com/in/liorpozin?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB40OpgBZS6sLUW0HAVDA5kJPNsjM71263A
   - Title: Feed post Lior Pozin • 3rd+ Bootstrapped AutoDS to 200+ employees → Acquired by Fiverr. Forbes 30under30. Advisor, Speaker and Investor. Vis
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
   - Summary: Feed post Lior Pozin • 3rd+ Bootstrapped AutoDS to 200+ employees → Acquired by Fiverr. Forbes 30under30. Advisor, Speaker and Investor. Vis; "OpenClaw" Hermes
   - Relevant entities: `["ent_35aca00882a6e5af9f88", "ent_3ec7e6111cd62b68099d", "ent_6f9d354b1768884960ac", "ent_7bcde334bfa6108f0f9d", "ent_8cfde6efdfc4ed5ab1f6", "ent_8ef8f6c63542187d939c", "ent_96a4bc2602655473120f", "ent_e3fbdf883b9f8582351a"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/078-488a25ce6facbce09afb.md`
-- **Anthropic is quietly repricing Claude on June 15. Here's how to prepare: Until now, you could wire external agents and tools like OpenClaw d**
-  - Source ID: `src_e9612760f5bd921a296a`
-  - URL: https://www.linkedin.com/company/anthropicresearch/
-  - Title: Anthropic is quietly repricing Claude on June 15. Here's how to prepare: Until now, you could wire external agents and tools like OpenClaw d
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/133-ac26a712cf358ad34495.md`
+- **Feed post Dru Riley • 3rd+ Founder at TrendsVC and HeadsUp.bot 12h • Follow The AI Employee market splits in two. Rented AI Employees. • Sie**
+  - Source ID: `src_be0e5bfc306342dce54b`
+  - URL: https://www.linkedin.com/in/drurly?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAF3OMkBiIGR4Tpnd_MbKUK1GhUPx9yXMAg
+  - Title: Feed post Dru Riley • 3rd+ Founder at TrendsVC and HeadsUp.bot 12h • Follow The AI Employee market splits in two. Rented AI Employees. • Sie
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Anthropic is quietly repricing Claude on June 15. Here's how to prepare: Until now, you could wire external agents and tools like OpenClaw d; "OpenClaw" Hermes
-  - Relevant entities: `["ent_2e3200de84b9cada8390", "ent_3a767869459c1eada3b5", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c70eca6b0f88f44d81a4", "ent_c857d09db23e6822e360"]`
+  - Summary: Feed post Dru Riley • 3rd+ Founder at TrendsVC and HeadsUp.bot 12h • Follow The AI Employee market splits in two. Rented AI Employees. • Sie; "OpenClaw" Hermes
+  - Relevant entities: `["ent_3736a6b83c35aa5d29a6", "ent_6cad6e3a8f61e986eb91", "ent_70f0b8e6e13410a68525", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_f1f62743287ee43ad0b2", "ent_f79a1e81e553012e6c51"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/080-25e32e91cf9dcd537b4d.md`
-- **Feed post AZAHAR-LABS 46 followers 4h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ**
-  - Source ID: `src_435ac72e2187ffc79a3c`
-  - URL: https://www.linkedin.com/company/azaharlabs/posts
-  - Title: Feed post AZAHAR-LABS 46 followers 4h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post AZAHAR-LABS 46 followers 4h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_7ec0ef3370754c19e8e3", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ce65fa41b16c33ff4964", "ent_ced86039c0ad6a7c7618", "ent_ddd9818abacfde7afed6"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/084-ac31111c1e6722b736b1.md`
-- **Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ্ছে: Signup link: https://shorturl.at/YXENG শুধু মনে করি**
-  - Source ID: `src_457ad0140457d4fb297a`
-  - Title: Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ্ছে: Signup link: https://shorturl.at/YXENG শুধু মনে করি
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যাচ্ছে: Signup link: https://shorturl.at/YXENG শুধু মনে করি; "OpenClaw" Hermes
-  - Relevant entities: `["ent_7c8718bdc78be44bf7f3", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ce65fa41b16c33ff4964", "ent_ced86039c0ad6a7c7618", "ent_ddd9818abacfde7afed6"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/086-5ddca526fd2b5f3af150.md`
-- **Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many**
-  - Source ID: `src_ec8c8bb2a8b1dbe61dcf`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/136-3aa1c491431c97b9893d.md`
+- **Feed post Talha Shaikh • 3rd+ CEO @ Outpost 12h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent man**
+  - Source ID: `src_7e97a9d77cd82a22bcf8`
   - URL: https://www.linkedin.com/in/talha-shaikh-a51b99155?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACVfb50BSu4qFXzF-IjEAKPCL8HXn2gYVUo
-  - Title: Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many
+  - Title: Feed post Talha Shaikh • 3rd+ CEO @ Outpost 12h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent man
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Talha Shaikh • 3rd+ CEO @ Outpost 4h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many; "OpenClaw" Hermes
+  - Summary: Feed post Talha Shaikh • 3rd+ CEO @ Outpost 12h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent man; "OpenClaw" Hermes
   - Relevant entities: `["ent_2a3f781b9215588cd877", "ent_7daf48f924f246f48e57", "ent_8cfde6efdfc4ed5ab1f6", "ent_93ddf48b97c0c53e5900", "ent_96a4bc2602655473120f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/087-26fd57bc30e241f97d33.md`
-- **This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many hours at networking dinners, I’ve noticed a common pattern: some**
-  - Source ID: `src_58a797446cc20413052a`
-  - URL: https://www.linkedin.com/in/feifanz/
-  - Title: This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many hours at networking dinners, I’ve noticed a common pattern: some
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/139-54a2f9cd83458c8bd944.md`
+- **Feed post AZAHAR-LABS 47 followers 12h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যা**
+  - Source ID: `src_171038c5bcc4b4db5de8`
+  - URL: https://www.linkedin.com/company/azaharlabs/posts
+  - Title: Feed post AZAHAR-LABS 47 followers 12h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যা
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent many hours at networking dinners, I’ve noticed a common pattern: some; "OpenClaw" Hermes
-  - Relevant entities: `["ent_7daf48f924f246f48e57", "ent_8cfde6efdfc4ed5ab1f6", "ent_93ddf48b97c0c53e5900", "ent_96a4bc2602655473120f"]`
+  - Summary: Feed post AZAHAR-LABS 47 followers 12h • Edited • Follow Claude Fable 5 এখন Viktor-এ Available! 🚀 Claude Fable 5 এখন Viktor-এ ব্যবহার করা যা; "OpenClaw" Hermes
+  - Relevant entities: `["ent_7ec0ef3370754c19e8e3", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ce65fa41b16c33ff4964", "ent_ced86039c0ad6a7c7618", "ent_ddd9818abacfde7afed6"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/089-f841067aa02b0ae10c1d.md`
-- **Feed post Srikanth Bhakthan • 3rd+ Data & AI Leader | Adjunct Visit my website 4h • Follow All views are personal. Recursive Self-Improvemen**
-  - Source ID: `src_8cb73c19a20487129bc9`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/142-6ac5adadff6fde907888.md`
+- **Feed post Srikanth Bhakthan • 3rd+ Data & AI Leader | Adjunct Visit my website 12h • Follow All views are personal. Recursive Self-Improveme**
+  - Source ID: `src_f09565adcd1430ef3aaf`
   - URL: https://www.linkedin.com/in/bhakthan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACNifEBq1NBOzR2i5ICeDh3ehN9BiJCFrw
-  - Title: Feed post Srikanth Bhakthan • 3rd+ Data & AI Leader | Adjunct Visit my website 4h • Follow All views are personal. Recursive Self-Improvemen
+  - Title: Feed post Srikanth Bhakthan • 3rd+ Data & AI Leader | Adjunct Visit my website 12h • Follow All views are personal. Recursive Self-Improveme
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Srikanth Bhakthan • 3rd+ Data & AI Leader | Adjunct Visit my website 4h • Follow All views are personal. Recursive Self-Improvemen; "OpenClaw" Hermes
-  - Relevant entities: `["ent_3a6eb0790f39ac87c94f", "ent_53050c1d80102f7861df", "ent_6601cb997f2acaeeb6c2", "ent_7bd6739689681e8cfe10", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_e0856749b050d4997792"]`
+  - Summary: Feed post Srikanth Bhakthan • 3rd+ Data & AI Leader | Adjunct Visit my website 12h • Follow All views are personal. Recursive Self-Improveme; "OpenClaw" Hermes
+  - Relevant entities: `["ent_3a6706b95c9344948ba2", "ent_3a6eb0790f39ac87c94f", "ent_53050c1d80102f7861df", "ent_6601cb997f2acaeeb6c2", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_e0856749b050d4997792"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/090-dc02150219b789c4af0e.md`
-- **All views are personal. Recursive Self-Improvement Basics: An agent that doesn't just solve the task, it improves the "System" that solves i**
-  - Source ID: `src_c057effbdf65b3e389ed`
-  - Title: All views are personal. Recursive Self-Improvement Basics: An agent that doesn't just solve the task, it improves the "System" that solves i
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/145-8769ab0427a9f2d970f0.md`
+- **Feed post Bindu Sunil Bindu Sunil • 3rd+ Chief AI Officer 12h • Follow The AI agent isn't waiting for you in a browser tab anymore. OpenClaw**
+  - Source ID: `src_89858a5dcde64bd87305`
+  - URL: https://www.linkedin.com/in/bindusunil?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAKBxWIBKOHbHBHBSTXikh5FmoC69IzbMj8
+  - Title: Feed post Bindu Sunil Bindu Sunil • 3rd+ Chief AI Officer 12h • Follow The AI agent isn't waiting for you in a browser tab anymore. OpenClaw
   - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
+  - Date: unknown; capture date: 2026-06-12T01:10:56Z
   - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: All views are personal. Recursive Self-Improvement Basics: An agent that doesn't just solve the task, it improves the "System" that solves i; "OpenClaw" Hermes
-  - Relevant entities: `["ent_4bf05de4e9f655425268", "ent_647936ec3e40783d8d86", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_bbc5e661e106c6dcd8dc"]`
+  - Summary: Feed post Bindu Sunil Bindu Sunil • 3rd+ Chief AI Officer 12h • Follow The AI agent isn't waiting for you in a browser tab anymore. OpenClaw; "OpenClaw" Hermes
+  - Relevant entities: `["ent_04417fffd1749d50b2c6", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c7887da7b4094eccbb39"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
   - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/092-0a2fc9296bb544275aed.md`
-- **Feed post Juan Felipe Rivera González • 3rd+ Senior Backend Engineer @ ACUE | PHP, Go, Python, Javascript 5h • Edited • Follow En mi post an**
-  - Source ID: `src_cb704a4f99562055089c`
-  - URL: https://www.linkedin.com/in/jjuanrivvera99?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACk5_qEB8_xlEjDm2tkwenCyUf4DUeNeTQw
-  - Title: Feed post Juan Felipe Rivera González • 3rd+ Senior Backend Engineer @ ACUE | PHP, Go, Python, Javascript 5h • Edited • Follow En mi post an
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Juan Felipe Rivera González • 3rd+ Senior Backend Engineer @ ACUE | PHP, Go, Python, Javascript 5h • Edited • Follow En mi post an; "OpenClaw" Hermes
-  - Relevant entities: `["ent_11a4a60b518bf24989d4", "ent_12a5d18ee896e59954bd", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_ad8d6fa323a0724d3489", "ent_decee5ee4deab94fc809", "ent_eda71746c01c3f465ffd"]`
+- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/148-c41188a4f227188aa001.md`
+- **GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub**
+  - Source ID: `src_89933e373b741e71c5c6`
+  - URL: https://github.com/nesquena/hermes-webui
+  - Title: GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub
+  - Author/organization: github.com
+  - Date: unknown; capture date: 2026-06-12T01:10:38Z
+  - Source type: `web`; quality score: `A`
+  - Summary: GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub; github.com; "Hermes" "OpenClaw"
+  - Relevant entities: `["ent_2d87f3d38782aa14e5a6", "ent_4ef8a37f1705a5b6f776", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_c0b0109d9439de57fe3c", "ent_ca8342a2684d3fd3aa22"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/096-d0ebf6f657bff967395d.md`
-- **En mi post anterior conté que probé el MCP oficial de Alegra. Y ya entiendo mejor cómo está pensado: es de solo lectura y se conecta por OAu**
-  - Source ID: `src_500d9be9c33cb0cb1b5f`
-  - Title: En mi post anterior conté que probé el MCP oficial de Alegra. Y ya entiendo mejor cómo está pensado: es de solo lectura y se conecta por OAu
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: En mi post anterior conté que probé el MCP oficial de Alegra. Y ya entiendo mejor cómo está pensado: es de solo lectura y se conecta por OAu; "OpenClaw" Hermes
-  - Relevant entities: `["ent_10182ab855ff772753c0", "ent_46eb43644e2bcda62da7", "ent_4f10e4054bbf45d65536", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Privacy/publication status: `publishable_metadata_only`
+- Notes: auto_scored_A; may_support_factual_claims scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-openclaw/05-github-nesquena-hermes-webui-hermes-webui-the-best-way-to-us.md`
+- **Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI**
+  - Source ID: `src_c6b80c86cd5637ddd0b8`
+  - URL: https://blog.gopenai.com/designing-a-new-personal-ai-agent-from-scratch-not-openclaw-not-hermes-fermix-eae401a52e6f?gi=fc115768ff4e
+  - Title: Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI
+  - Author/organization: blog.gopenai.com
+  - Date: unknown; capture date: 2026-06-12T01:10:38Z
+  - Source type: `web`; quality score: `A`
+  - Summary: Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI; blog.gopenai.com; "Hermes" "OpenClaw"
+  - Relevant entities: `["ent_19a6a9dc4d3816ae4dc4", "ent_5085e729b89057ad8fd9", "ent_5a9cb6b54ea56d52a698", "ent_74bcd171c919dc5774a7", "ent_8b08b8676756be92106e", "ent_8c2d83849d232b2bfbab", "ent_8cfde6efdfc4ed5ab1f6", "ent_8f1c5f694ea9844402d1", "ent_96a4bc2602655473120f", "ent_a465700e68b70bedcffa", "ent_b9d385c3b1388e100d2b"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/098-70fd3dd388f33fd7b10f.md`
-- **Estoy evaluando Alegra para un producto que estoy armando. Y justo vi que lanzaron su MCP. ¡Una excelente noticia! Le abre la puerta a los a**
-  - Source ID: `src_d9926c0effc2b99514f1`
-  - Title: Estoy evaluando Alegra para un producto que estoy armando. Y justo vi que lanzaron su MCP. ¡Una excelente noticia! Le abre la puerta a los a
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Estoy evaluando Alegra para un producto que estoy armando. Y justo vi que lanzaron su MCP. ¡Una excelente noticia! Le abre la puerta a los a; "OpenClaw" Hermes
-  - Relevant entities: `["ent_10182ab855ff772753c0", "ent_161f0e5ed45f6d514dc2", "ent_44ceae1acc5c2233c405", "ent_4f10e4054bbf45d65536", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
+  - Privacy/publication status: `publishable_metadata_only`
+- Notes: auto_scored_A; may_support_factual_claims scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-openclaw/08-designing-a-new-personal-ai-agent-from-scratch-not-openclaw.md`
+- **How to Install Hermes Desktop: A Practical Setup Guide | Stormap**
+  - Source ID: `src_2ffa2de062be6f155b16`
+  - URL: https://stormap.ai/post/how-to-install-hermes-desktop
+  - Title: How to Install Hermes Desktop: A Practical Setup Guide | Stormap
+  - Author/organization: stormap.ai
+  - Date: unknown; capture date: 2026-06-12T01:10:38Z
+  - Source type: `web`; quality score: `B`
+  - Summary: How to Install Hermes Desktop: A Practical Setup Guide | Stormap; stormap.ai; "Hermes" "OpenClaw"
+  - Relevant entities: `["ent_1faff788a3eefa129250", "ent_5df5806e9113b43611cb", "ent_8044aae1f86875d993f2", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a5629c06f24600686b2f"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/099-f0934012ad7325d04403.md`
-- **Feed post Melverick Ng • 3rd+ Build Digital Coworkers to Run ERP & CRM Processes | Agentic AI Expert | Ex-SAP 5h • Follow Is it me or what b**
-  - Source ID: `src_784e8998fc53de11fd15`
-  - URL: https://www.linkedin.com/in/melverick?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPcDFEBVT6_IDQTTk6oaXiRf20TSS73GQY
-  - Title: Feed post Melverick Ng • 3rd+ Build Digital Coworkers to Run ERP & CRM Processes | Agentic AI Expert | Ex-SAP 5h • Follow Is it me or what b
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Melverick Ng • 3rd+ Build Digital Coworkers to Run ERP & CRM Processes | Agentic AI Expert | Ex-SAP 5h • Follow Is it me or what b; "OpenClaw" Hermes
-  - Relevant entities: `["ent_616ee1011baf7cc5d965", "ent_80336c05447b6660a26c", "ent_8ce2c41049c924ee7176", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a1eecdb724cc85074369", "ent_a4c3c7d0e58180173b70", "ent_b20f09543cd40f65e8e4"]`
+  - Privacy/publication status: `publishable_metadata_only`
+- Notes: auto_scored_B; may_support_specific_factual_claims scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-openclaw/09-how-to-install-hermes-desktop-a-practical-setup-guide-storma.md`
+- **Loop Engineering: The Skill That Lets AI Build, Ship, and Improve Without You – DualMedia Innovation News**
+  - Source ID: `src_6d9bbe753258be666bae`
+  - URL: https://www.dualmedia.com/claude-code-vs-codex/
+  - Title: Loop Engineering: The Skill That Lets AI Build, Ship, and Improve Without You – DualMedia Innovation News
+  - Author/organization: www.dualmedia.com
+  - Date: unknown; capture date: 2026-06-12T01:10:35Z
+  - Source type: `web`; quality score: `C`
+  - Summary: Loop Engineering: The Skill That Lets AI Build, Ship, and Improve Without You – DualMedia Innovation News; www.dualmedia.com; "loop engineer" AI
+  - Relevant entities: `["ent_44575cf5b28512d75644", "ent_461bdf602aae9ac22a35", "ent_4805425a4e2bf7b727c7", "ent_5a8499d47c592e8024d1", "ent_e5d5b971139eefeb36d6"]`
   - Extracted candidate claims: `[]`
   - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/100-6fdc94ae4be445ac9a92.md`
-- **Is it me or what but my Hermes Agents burned more tokens than my Openclaw?**
-  - Source ID: `src_e9febf520acf12e85546`
-  - Title: Is it me or what but my Hermes Agents burned more tokens than my Openclaw?
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Is it me or what but my Hermes Agents burned more tokens than my Openclaw?; "OpenClaw" Hermes
-  - Relevant entities: `["ent_15ab91581d43450c46f1", "ent_8631544d789393aff218", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
-  - Extracted candidate claims: `["claim_7708c1c74a2093fabc70"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/102-282b69311f3fcbb9a532.md`
-- **Feed post Dave Cheng • 3rd+ AI & Blockchain Builder | Multi‑Hackathon Winner | Just wanna manage expectations | I want to talk about work | **
-  - Source ID: `src_ee1283394316a803d026`
-  - URL: https://www.linkedin.com/in/davecheng82?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA5j_R4B90C9XcAaNDt1yS4yHKEKQ5jreb4
-  - Title: Feed post Dave Cheng • 3rd+ AI & Blockchain Builder | Multi‑Hackathon Winner | Just wanna manage expectations | I want to talk about work | 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Dave Cheng • 3rd+ AI & Blockchain Builder | Multi‑Hackathon Winner | Just wanna manage expectations | I want to talk about work | ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_4bd77cffb0da8cbda839", "ent_4bdb7f93c4853fab26c0", "ent_5c9726ad9f40dbb5173f", "ent_78705db6b2a847f87d6f", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_b2c66dfd45dd07f58d22"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/103-44e775e335ea56ac4514.md`
-- **Guess what I’m building? Overmind, Cosine EXO Labs, cognee, Captur Dawn Capital hashtag #Hermes OpenClaw Tailscale hashtag #Whisper FYI, the**
-  - Source ID: `src_d46c35baac069f6084ce`
-  - URL: https://www.linkedin.com/company/over-mind-ai/
-  - Title: Guess what I’m building? Overmind, Cosine EXO Labs, cognee, Captur Dawn Capital hashtag #Hermes OpenClaw Tailscale hashtag #Whisper FYI, the
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Guess what I’m building? Overmind, Cosine EXO Labs, cognee, Captur Dawn Capital hashtag #Hermes OpenClaw Tailscale hashtag #Whisper FYI, the; "OpenClaw" Hermes
-  - Relevant entities: `["ent_5916838dc9fedfdac256", "ent_6eac18a52add1699a86f", "ent_76d0992632189bb05879", "ent_78531685ee5c59b7eb02", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_f1abe1b083d12d181ae1", "ent_f24de2670f9b246b5b9a"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/105-845b0b999bb70adecd3d.md`
-- **Feed post Luciano Ricardi Scorsin • 3rd+ Principal Solutions Architect 5h • Follow Por que Intel e AMD começaram a subir suas ações justamen**
-  - Source ID: `src_bdf1e5609262443b5019`
-  - URL: https://www.linkedin.com/in/luciano-ricardi-scorsin-01384718?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAOvE08BZwrFCYSFchwlmeDaH9J5NB2j9K8
-  - Title: Feed post Luciano Ricardi Scorsin • 3rd+ Principal Solutions Architect 5h • Follow Por que Intel e AMD começaram a subir suas ações justamen
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Luciano Ricardi Scorsin • 3rd+ Principal Solutions Architect 5h • Follow Por que Intel e AMD começaram a subir suas ações justamen; "OpenClaw" Hermes
-  - Relevant entities: `["ent_240389f4b730bad41f21", "ent_458648141661c2f7296f", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_96eebba49dbbf422d245", "ent_d7b27185e6c018d0a160"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/106-53768ececa339fd6f9e0.md`
-- **Por que Intel e AMD começaram a subir suas ações justamente no fim de março? IA não é bolha. Pode haver exageros, correções e até uma "infla**
-  - Source ID: `src_84a06f7d1e79694b1b29`
-  - Title: Por que Intel e AMD começaram a subir suas ações justamente no fim de março? IA não é bolha. Pode haver exageros, correções e até uma "infla
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Por que Intel e AMD começaram a subir suas ações justamente no fim de março? IA não é bolha. Pode haver exageros, correções e até uma "infla; "OpenClaw" Hermes
-  - Relevant entities: `["ent_240389f4b730bad41f21", "ent_3ea6bc47a6277afef178", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_96eebba49dbbf422d245", "ent_db692143c30e204a5c8d"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/108-8e0ec6c955300ddb5cfd.md`
-- **Feed post Andrew Hodges Andrew Hodges • 3rd+ IT Platform Operations and Software Engineer 6h • Edited • Follow OpenClaw broke on every updat**
-  - Source ID: `src_df759c2860481975e82d`
-  - URL: https://www.linkedin.com/in/aghodges?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGlM_cBQ8yI8fBCEmCpoZCfvD9RN7Ie_Vw
-  - Title: Feed post Andrew Hodges Andrew Hodges • 3rd+ IT Platform Operations and Software Engineer 6h • Edited • Follow OpenClaw broke on every updat
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Andrew Hodges Andrew Hodges • 3rd+ IT Platform Operations and Software Engineer 6h • Edited • Follow OpenClaw broke on every updat; "OpenClaw" Hermes
-  - Relevant entities: `["ent_3b4a49b213e5e0b3b51f", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_cca354692928d723fc68"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/109-8ef3be88cd8a60b5d2c8.md`
-- **OpenClaw broke on every update, constant babysitting. Hermes looks powerful, but it's a big rig built to do everything. Phantombot is the op**
-  - Source ID: `src_134c79564919366db4e4`
-  - Title: OpenClaw broke on every update, constant babysitting. Hermes looks powerful, but it's a big rig built to do everything. Phantombot is the op
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: OpenClaw broke on every update, constant babysitting. Hermes looks powerful, but it's a big rig built to do everything. Phantombot is the op; "OpenClaw" Hermes
-  - Relevant entities: `["ent_5c12dcb2106f1ba344c7", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/111-fc9ea314243f4fa1d497.md`
-- **Feed post Conor Svensson • 3rd+ Founder at Enscribe building onchain identity infrastructure. Creator of Web3j. Writing about agentic engine**
-  - Source ID: `src_a39fe7dfecd5c07bb460`
-  - URL: https://www.linkedin.com/in/conorsvensson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABvoiABkvkZrybDJQv5BIZQMWubG1FaSeU
-  - Title: Feed post Conor Svensson • 3rd+ Founder at Enscribe building onchain identity infrastructure. Creator of Web3j. Writing about agentic engine
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Conor Svensson • 3rd+ Founder at Enscribe building onchain identity infrastructure. Creator of Web3j. Writing about agentic engine; "OpenClaw" Hermes
-  - Relevant entities: `["ent_077f8d0433467842e0da", "ent_74c14052e6fd2ba7145b", "ent_870a07f7e02cda17e3c0", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_bc6bfd848ebd7819c9a8"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/112-11d3d7a657bcfbbc68c7.md`
-- **Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. If you're only using persona**
-  - Source ID: `src_e0fc0899bb808733c790`
-  - Title: Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. If you're only using persona
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. If you're only using persona; "OpenClaw" Hermes
-  - Relevant entities: `["ent_59dbf36d9930a99bfc1e", "ent_73b7eca2c41a0d410600", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f"]`
-  - Extracted candidate claims: `["claim_d6b6698dba16fe25d694"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/114-dbae97ed2b71b630dfb0.md`
-- **Feed post Jean Luc DI MANNO Jean Luc DI MANNO • 3rd+ Lead of Hyperlab | Consultant & Solution Architect | Payments, Digital Identity, AI 7h **
-  - Source ID: `src_5dc195db5efe2d6d5957`
-  - URL: https://www.linkedin.com/in/jeanlucdimanno?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABBG9B4BlNoMVvHCnso__51AJXHxVc9t0xs
-  - Title: Feed post Jean Luc DI MANNO Jean Luc DI MANNO • 3rd+ Lead of Hyperlab | Consultant & Solution Architect | Payments, Digital Identity, AI 7h 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Jean Luc DI MANNO Jean Luc DI MANNO • 3rd+ Lead of Hyperlab | Consultant & Solution Architect | Payments, Digital Identity, AI 7h ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_1cab8ad5562df53cfa81", "ent_6b5cdbab5b5593caf165", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_9e1cab8dcfc7180d9eff", "ent_c5693502e3aaa328ad2a", "ent_cf04c9df6efe26ea891c", "ent_df384ae97c77ad300162", "ent_e3456bc1f4d270f4a979"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/115-5a9c1174db769070b9df.md`
-- **Most “agent observability” approaches I see today fall into three buckets: - Reverse proxy in front of the agent: Capture all prompts/respon**
-  - Source ID: `src_18cac7c39af1f0de7afc`
-  - URL: https://www.linkedin.com/company/consult-hyperion/
-  - Title: Most “agent observability” approaches I see today fall into three buckets: - Reverse proxy in front of the agent: Capture all prompts/respon
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Most “agent observability” approaches I see today fall into three buckets: - Reverse proxy in front of the agent: Capture all prompts/respon; "OpenClaw" Hermes
-  - Relevant entities: `["ent_24ea913efda289dc1b17", "ent_460ee6aa3a80359181b7", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_acedab9f3063de2d516b", "ent_b2d7f24e833051d5fc29"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/117-85f361ff897c2628f3c9.md`
-- **Feed post Generation AI 183 followers 7h • Follow Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, **
-  - Source ID: `src_9f4a806082d7830c6b66`
-  - URL: https://www.linkedin.com/company/generation-ai-ev/posts
-  - Title: Feed post Generation AI 183 followers 7h • Follow Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, 
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Generation AI 183 followers 7h • Follow Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, ; "OpenClaw" Hermes
-  - Relevant entities: `["ent_4f2b7dd64efce4f71640", "ent_8cfde6efdfc4ed5ab1f6", "ent_91b2b730cbea216fb67b", "ent_96a4bc2602655473120f", "ent_999da4de4d657b8e65d5", "ent_a690ffcdd1cb18212d87", "ent_cffd9db7349490658ea5"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/118-37f2d15acf6968611b5f.md`
-- **Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, wie du dir einen eigenen AI Assistenten einrichtes**
-  - Source ID: `src_11e5b0332dd2feced00b`
-  - Title: Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, wie du dir einen eigenen AI Assistenten einrichtes
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, wie du dir einen eigenen AI Assistenten einrichtes; "OpenClaw" Hermes
-  - Relevant entities: `["ent_2d60afc48aa4cdf58868", "ent_37464907b09fda64bf5d", "ent_4f2b7dd64efce4f71640", "ent_8cfde6efdfc4ed5ab1f6", "ent_91b2b730cbea216fb67b", "ent_96a4bc2602655473120f", "ent_999da4de4d657b8e65d5", "ent_a690ffcdd1cb18212d87"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/120-ffae2e682bb66da603c0.md`
-- **Feed post Jon Ander Oribe Sánchez • 3rd+ CTO at Quantum Mads | Top Innovator Company by UpLink & the World Economic Forum | Quantum Computin**
-  - Source ID: `src_8f819c997e0800b01189`
-  - URL: https://www.linkedin.com/in/jon-ander-oribe-sanchez?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABgvSGgBojsk_ncfQXEXQdivWTdqoh6EWsA
-  - Title: Feed post Jon Ander Oribe Sánchez • 3rd+ CTO at Quantum Mads | Top Innovator Company by UpLink & the World Economic Forum | Quantum Computin
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: Feed post Jon Ander Oribe Sánchez • 3rd+ CTO at Quantum Mads | Top Innovator Company by UpLink & the World Economic Forum | Quantum Computin; "OpenClaw" Hermes
-  - Relevant entities: `["ent_3356fdb0b6f295f2ff6a", "ent_3a5cf92a195f7c3a0d4f", "ent_685dc1f7331721c121a8", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a981cdadfc764c6a93ac", "ent_c2fa26d57cd69ed4cf86", "ent_d8f7937c1791964039ab"]`
-  - Extracted candidate claims: `[]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/121-e72d873ace61c0ae33fc.md`
-- **🤖 OpenClaw vs. Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera**
-  - Source ID: `src_47eb81009bc23393e291`
-  - Title: 🤖 OpenClaw vs. Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera
-  - Author/organization: unknown
-  - Date: unknown; capture date: 2026-06-11T17:36:35Z
-  - Source type: `linkedin_search_result`; quality score: `D`
-  - Summary: 🤖 OpenClaw vs. Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera; "OpenClaw" Hermes
-  - Relevant entities: `["ent_43908c47c94a6f8ce6ea", "ent_4602baf8f2a3e389b310", "ent_8cfde6efdfc4ed5ab1f6", "ent_96a4bc2602655473120f", "ent_a54b783e659befb2d158", "ent_ee662f0a4316976d226a"]`
-  - Extracted candidate claims: `["claim_cf20967c5c76581b2c4b"]`
-  - Duplicate status: `unique`
-  - Privacy/publication status: `human_review`
-- Notes: auto_scored_D; weak_signal_only; privacy/publication status: human_review scored_at=2026-06-11T23:25:15Z; volume is not evidence; quality and independence matter
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/123-eee6a358aad09d82b2f2.md`
+  - Privacy/publication status: `publishable_metadata_only`
+- Notes: auto_scored_C; may_support_interpretation_with_caveat scored_at=2026-06-12T01:19:57Z; volume is not evidence; quality and independence matter
+  - Archive: `web/do-not-publish-check-20260611T232514Z/loop-engineer-ai/02-loop-engineering-the-skill-that-lets-ai-build-ship-and-impro.md`

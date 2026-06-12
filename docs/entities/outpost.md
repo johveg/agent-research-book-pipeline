@@ -1,17 +1,17 @@
 # Outpost
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
 - Type: `unknown`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 8
-- Mention count: 164
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 10
+- Mention count: 177
 
 ## Description
 
-Candidate unknown entity extracted from 8 source(s).
+Candidate unknown entity extracted from 10 source(s).
 
 ## Related claims
 
@@ -43,3 +43,9 @@ No related claim records yet.
 - `src_f956fc40134c7f3ef6a7` — Outpost hosted a dinner in NYC this week with AI leaders from around the world. Just builders comparing notes over dinner. Here is what stuc
   - URL: https://www.linkedin.com/company/outpost-us/
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/004-1d3ef104941d87faac83.md`
+- `src_7e97a9d77cd82a22bcf8` — Feed post Talha Shaikh • 3rd+ CEO @ Outpost 12h • Edited • Follow This week, Outpost co-hosted a dinner with Tanagram Lore. Having spent man
+  - URL: https://www.linkedin.com/in/talha-shaikh-a51b99155?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACVfb50BSu4qFXzF-IjEAKPCL8HXn2gYVUo
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/139-54a2f9cd83458c8bd944.md`
+- `src_b86db5c5cdf766482cbd` — Feed post Imtisal Qadir Imtisal Qadir • 3rd+ Co-Founder and CEO at Outpost 8h • Follow Outpost hosted a dinner in NYC this week with AI lead
+  - URL: https://www.linkedin.com/in/imtisalq?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYHv0EBHh5ERDAP11TMq9nVOOLBDYLmUwg
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/064-ef7d0a2780b40f6c2c84.md`

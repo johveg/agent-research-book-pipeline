@@ -1,22 +1,24 @@
-# AI Agents
+# AI agents
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 15
-- Mention count: 292
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 18
+- Mention count: 301
 
 ## Description
 
-Candidate tool entity extracted from 15 source(s).
+Candidate tool entity extracted from 6 source(s).
 
 ## Related claims
 
-- **candidate / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
-- **candidate / weak** — 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`)
+- **candidate / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
+- **candidate / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
+- **needs_review / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
+- **weakly_supported / weak** — 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`)
 
 ## Source references
 
@@ -64,3 +66,12 @@ Candidate tool entity extracted from 15 source(s).
 - `src_e0864997d036665b77f9` — Loop Engineering: Design AI Loops That Ship While You Sleep
   - URL: https://linas.substack.com/p/loop-engineering-complete-guide
   - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/04-loop-engineering-design-ai-loops-that-ship-while-you-sleep.md`
+- `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
+  - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
+- `src_ad8dcffd70b02955bf0e` — AI agents aren't just writing code anymore. They're running retail media networks. We gave an AI team a fictional grocer and a real ad serve
+  - URL: https://www.linkedin.com/in/dylanhulser/
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/036-22f3d28855ae7ad3c860.md`
+- `src_6a445b5a6f1383ad52ed` — What the Hell Is Loop Engineering? - by Martin
+  - URL: https://biasedread.com/p/what-the-hell-is-loop-engineering
+  - Archive: `web/do-not-publish-check-20260611T232514Z/loop-engineering-ai-agents/01-what-the-hell-is-loop-engineering-by-martin.md`

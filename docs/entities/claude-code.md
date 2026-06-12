@@ -1,17 +1,17 @@
 # Claude Code
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
-- Type: `tool`
+- Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 5
-- Mention count: 82
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 9
+- Mention count: 89
 
 ## Description
 
-Candidate tool entity extracted from 5 source(s).
+Candidate concept entity extracted from 7 source(s).
 
 ## Related claims
 
@@ -30,3 +30,15 @@ No related claim records yet.
 - `src_2931d4430c4d9716fe8f` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
   - URL: https://github.com/conorbronsdon/avoid-ai-writing
   - Archive: `web/manual-20260611T173313Z/openclaw-hermes/04-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`
+- `src_7c138ed755684e992664` — Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn
+  - URL: https://www.linkedin.com/company/claude-code/
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/026-4bdef0f146d734380888.md`
+- `src_97124de0aea7369bc95d` — I have Claude Code on speed dial. Not metaphorically. I literally hit Option + 5 on my Mac from any screen, speak, and it's off working. I j
+  - URL: https://www.linkedin.com/company/carbonvoice/
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/051-1477677d244132e049ad.md`
+- `src_5be68a06bd6ad423e2bd` — 24/7 自主代理環境實作指南：OpenClaw、Hermes Agent、Claude Code 與 Codex CLI - Tenten AI
+  - URL: https://university.tenten.co/t/24-7-openclaw-hermes-agent-claude-code-codex-cli/2292
+  - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/09-24-7-openclaw-hermes-agent-claude-code-codex-cli-tenten-ai.md`
+- `src_e9bb5a4bcd1c1f9e9744` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
+  - URL: https://github.com/conorbronsdon/avoid-ai-writing
+  - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/05-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`

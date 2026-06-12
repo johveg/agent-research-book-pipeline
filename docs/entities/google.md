@@ -1,17 +1,17 @@
 # Google
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 7
-- Mention count: 114
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 10
+- Mention count: 124
 
 ## Description
 
-Candidate tool entity extracted from 7 source(s).
+Candidate tool entity extracted from 10 source(s).
 
 ## Related claims
 
@@ -38,3 +38,12 @@ No related claim records yet.
 - `src_e9aef8d7f41879fbb1a6` — Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 40m • Follow I just trained my Hermes Agent to scrape Google maps leads and find 
   - URL: https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/005-b47c9ef5dede4b0770e5.md`
+- `src_d6e68c0ef305c00645a8` — Feed post Jeffrey Lee-Chan • 3rd+ Head of Vibe Coding @ Snap Inc. ex Google + AI Focus View my services 5h • Follow There a lot of bad artic
+  - URL: https://www.linkedin.com/in/jeffrey-lee-chan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAApu80oB0TlwBVwm5PJ3FsyOunWR4DSWoH4
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/095-b449dd819454c9fa1620.md`
+- `src_15acc6495f92a93f78f5` — Feed post Ryan Aquino • 3rd+ Elite Test Engineering | ex-Shell Recharge | ex-Google | ex-Symantec | ex-Accenture; Certified Generative AI an
+  - URL: https://www.linkedin.com/in/ryanaquino?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA-JVkBj-Q1qI2gIngNFVdr6cUJBK7Oa_M
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/076-588c6b864cb5bbc62765.md`
+- `src_8df81083c2fdfed109a2` — Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 8h • Follow I just trained my Hermes Agent to scrape Google maps leads and find o
+  - URL: https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/067-5702370ef17c40a3567c.md`

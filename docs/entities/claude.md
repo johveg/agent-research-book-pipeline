@@ -1,17 +1,17 @@
 # Claude
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
-- Type: `tool`
+- Type: `project`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 4
-- Mention count: 64
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 8
+- Mention count: 72
 
 ## Description
 
-Candidate tool entity extracted from 4 source(s).
+Candidate project entity extracted from 8 source(s).
 
 ## Related claims
 
@@ -32,3 +32,14 @@ Candidate tool entity extracted from 4 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/080-25e32e91cf9dcd537b4d.md`
 - `src_0596247e69d3b6cce8d7` — My AI costs have quintupled in less than a year. And I suspect that was just the beginning. Earlier this year, my $20 hashtag #Claude subscr
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/077-5ed45271dc1e4df5ee31.md`
+- `src_136972744c8b3999bcb1` — I asked my AI to keep improving itself. It refused. It was right. This week I built an instruction system for Claude based on Loop Engineeri
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/046-a77d66d5160599b679dc.md`
+- `src_888ad805e840b9b5902f` — Feed post Jon Ingi Ingimundarson Jon Ingi Ingimundarson • 3rd+ CTO and Strategy at Ljósleiðarinn 4h • Follow Tonight I ran multiple Claude C
+  - URL: https://www.linkedin.com/in/joningi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAATAwBKzRfL9Mf6xl1WZxInXuPuJH1pDs
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/069-ba313021787612170d13.md`
+- `src_8897ca8d35c6bf69de6d` — "I do not prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops." That line is from Boris Cherny, head of
+  - URL: https://www.linkedin.com/in/bcherny/
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/122-fe678d8667a2ddece8f0.md`
+- `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
+  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`

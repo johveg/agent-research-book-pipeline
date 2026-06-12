@@ -1,21 +1,21 @@
 # Agentic AI
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 8
-- Mention count: 132
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 10
+- Mention count: 138
 
 ## Description
 
-Candidate concept entity extracted from 8 source(s).
+Candidate concept entity extracted from 6 source(s).
 
 ## Related claims
 
-No related claim records yet.
+- **candidate / weak** — Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI landscape is shifting from manual prompting to loop engineering, "loop engineering". (`claim_bb9214728e7a7d9589c9`)
 
 ## Source references
 
@@ -39,3 +39,9 @@ No related claim records yet.
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/098-be37a8fee3073c08f944.md`
 - `src_88575cd1e487f412dce2` — Rip off my home Agentic AI setup. I could have built it on AWS for $400/month. Instead I chose an $80 Raspberry Pi and open source, and I'd 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/091-eaccdd7df13cb06b0823.md`
+- `src_6850e5e5cde5d2e6712e` — Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
+  - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/136-b86fd56dc8aba192cfc9.md`
+- `src_744d8e4f4921ab0ac99f` — Feed post Avishek Saha • 3rd+ Applied AI Engineer | Agentic AI, RAG, and Multimodal Systems 1h • Follow I do not want to be the human cron j
+  - URL: https://www.linkedin.com/in/sahaavi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBVy2kBg1ZOr7uJkjjN5nnd1m77Sf4I4AY
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/008-61d22988442b083ad934.md`

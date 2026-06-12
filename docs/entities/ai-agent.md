@@ -1,13 +1,13 @@
 # AI Agent
 
-Last generated: 2026-06-11T23:25:14Z
+Last generated: 2026-06-12T01:19:57Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-11T23:25:14Z
-- Source count: 4
-- Mention count: 64
+- Last seen: 2026-06-12T01:19:56Z
+- Source count: 6
+- Mention count: 69
 
 ## Description
 
@@ -15,14 +15,17 @@ Candidate concept entity extracted from 4 source(s).
 
 ## Related claims
 
+- **candidate / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
 - **candidate / weak** — A loop is a small program that prompts an AI agent for you, reads what it produced, decid "loop engineering". (`claim_ddcb28eb301b363c351a`)
+- **candidate / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
 - **candidate / weak** — Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera "OpenClaw" Hermes. (`claim_cf20967c5c76581b2c4b`)
-- **candidate / weak** — How Hermes Agent with Grok Is Helping Me Hermes isn’t just another chatbot – it’s a self-improving autonomous AI agent designed for complex, "Hermes Agent". (`claim_a4809681aa20fc11a666`)
-- **candidate / weak** — I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. (`claim_8102ca088ac0086dba7e`)
-- **candidate / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
-- **candidate / weak** — See how an AI Agent like Hermes Agent helps develop a residen "Hermes Agent". (`claim_c26ed4521238b4efd634`)
 - **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
-- **candidate / weak** — 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`)
+- **candidate / weak** — Typing prompts into an AI agent and reviewing what comes back is the new junior engineering. (`claim_04498133bcb64f370816`)
+- **needs_review / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
+- **weakly_supported / weak** — How Hermes Agent with Grok Is Helping Me Hermes isn’t just another chatbot – it’s a self-improving autonomous AI agent designed for complex, "Hermes Agent". (`claim_a4809681aa20fc11a666`)
+- **weakly_supported / weak** — I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. (`claim_8102ca088ac0086dba7e`)
+- **weakly_supported / weak** — See how an AI Agent like Hermes Agent helps develop a residen "Hermes Agent". (`claim_c26ed4521238b4efd634`)
+- **weakly_supported / weak** — 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`)
 
 ## Source references
 
@@ -34,3 +37,8 @@ Candidate concept entity extracted from 4 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/086-5b526f3147f93fd8edcb.md`
 - `src_f9af5e9c44ccfa8273b8` — FREE AI WORKSHOP TONIGHT! I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. I use it to 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/083-cd7e6e0c0c2bfe74008a.md`
+- `src_2df3c2d1654cd80f5fc7` — TechOrange 報導了 Loop Engineering 的 AI Agent⁠，揭示了如何將 AI 自治系統與工程流程深度結合。 從 Eliyahoren.com 的視角來看，這不只是技術升級，而是一種 人類與 AI 協作的認知進化： * 多 Agent 協作：AI 不只
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/026-8d79491bc7dc0f69a3af.md`
+- `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
+  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`

@@ -1,23 +1,23 @@
 # Claude
 
-Last generated: 2026-06-12T01:19:57Z
+Last generated: 2026-06-12T12:56:20Z
 
 - Type: `project`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T01:19:56Z
+- Last seen: 2026-06-12T12:56:20Z
 - Source count: 8
-- Mention count: 72
+- Mention count: 87
 
 ## Description
 
-Candidate project entity extracted from 8 source(s).
+Candidate project entity extracted from 1 source(s).
 
 ## Related claims
 
-- **candidate / weak** — But seriously: buying claude licenses for the whole team is not an ai strateg "loop engineering". (`claim_fe853f4d14e32dc5ee0b`)
-- **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
-- **candidate / weak** — 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su "OpenClaw" Hermes. (`claim_c80b8679bbda24230dd8`)
+- **weakly_supported / weak** — But seriously: buying claude licenses for the whole team is not an ai strateg "loop engineering". (`claim_fe853f4d14e32dc5ee0b`)
+- **weakly_supported / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
+- **weakly_supported / weak** — 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su "OpenClaw" Hermes. (`claim_c80b8679bbda24230dd8`)
 
 ## Source references
 

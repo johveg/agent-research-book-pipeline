@@ -15,9 +15,10 @@ from pathlib import Path
 import yaml
 
 from research_common import DOCS, ROOT
+from citation_common import scan_publication_citation_issues
 
 UNSAFE_PATTERNS = re.compile(r"(^|/)(raw|logs|\.var|vector_db|site|\.env|cookies?|tokens?|secrets?|sessions?|browser|profile)(/|$)|\.(sqlite|db|wal|shm)$", re.I)
-CLAIM_REF = re.compile(r"`(claim_[a-f0-9]{20}|src_[a-f0-9]{20})`")
+RAW_INTERNAL_REF = re.compile(r"(?<![A-Za-z0-9_])(claim_[a-f0-9]{20}|src_[a-f0-9]{20})(?![A-Za-z0-9_])")
 BOOK_TO_BRIEF = {
     "book/preface.md": "chapter-briefs/preface.md",
     "book/01-the-agent-loop.md": "chapter-briefs/01-the-agent-loop.md",
@@ -85,12 +86,12 @@ def chapter_has_bad_update(path: Path) -> str | None:
     text=path.read_text(encoding="utf-8", errors="ignore")
     if "No supported or high-confidence claims" in text:
         return None
-    # If a chapter uses bullet claims, require explicit claim/source IDs.
-    claimish=[ln for ln in text.splitlines() if ln.startswith("- ") and not ln.startswith("- [")]
-    if claimish and not CLAIM_REF.search(text):
-        return "chapter has claim-like bullets without claim/source IDs"
-    if "linkedin" in text.lower() and "aggregate signal" not in text.lower() and "claim_" not in text and "src_" not in text:
-        return "chapter mentions LinkedIn/social material without explicit caveat or IDs"
+    if RAW_INTERNAL_REF.search(text) or "{{cite:" in text:
+        return "chapter exposes unresolved internal source/claim identifiers instead of numbered citations"
+    if "[unresolved citation]" in text:
+        return "chapter contains unresolved citation marker"
+    if "linkedin" in text.lower() and "aggregate signal" not in text.lower() and "weak" not in text.lower():
+        return "chapter mentions LinkedIn/social material without explicit weak-signal caveat"
     return None
 
 
@@ -183,6 +184,10 @@ def main() -> int:
         if bad:
             errors.append(f"{ch.relative_to(DOCS)}: {bad}")
 
+    citation_gate = scan_publication_citation_issues(DOCS / "book")
+    if citation_gate["status"] != "ok":
+        errors.append("book citation gate failed: " + json.dumps(citation_gate, ensure_ascii=False)[:1000])
+
     # Role acceptance criteria. These criteria make completion explicit rather than treating
     # a zero exit code as sufficient evidence of quality.
     book_acceptance = {
@@ -200,6 +205,7 @@ def main() -> int:
         "no_credentials_or_unsafe_logs_committed": True,
         "publication_status_reported": True,
         "failed_checks_not_hidden": True,
+        "no_raw_internal_citation_ids": citation_gate["status"] == "ok",
     }
     changed_book_paths = {line[3:] for line in files_changed if len(line) >= 4 and line[3:].startswith("docs/book/")}
     author_acceptance = {}
@@ -211,12 +217,13 @@ def main() -> int:
         text=ch.read_text(encoding="utf-8", errors="ignore")
         author_acceptance[rel_docs] = {
             "structure_follows_brief": rel_docs in BOOK_TO_BRIEF,
-            "factual_claims_map_to_ids": bool(CLAIM_REF.search(text)) or "No publishable chapter update is recommended" in text,
+            "factual_claims_have_numbered_citations": bool(re.search(r"\[[0-9]+\]", text)) or "No publishable chapter update is recommended" in text,
             "weak_claims_caveated": "weakly_supported" not in text or "Current evidence suggests" in text,
             "no_hype_language": not any(word in text.lower() for word in DISCOURAGED_STYLE_WORDS),
             "source_claim_mapping_included": "## Source/claim mapping" in text,
             "editor_notes_included": "## Editor notes" in text,
             "changelog_included": "## Changelog" in text,
+            "raw_internal_ids_absent": not RAW_INTERNAL_REF.search(text) and "{{cite:" not in text and "[unresolved citation]" not in text,
         }
     # Unsafe staged/tracked publication paths.
     staged=run(["git","diff","--cached","--name-only"])["stdout"].splitlines()
@@ -253,6 +260,7 @@ def main() -> int:
         "build_result": build_result,
         "link_report_status": "ok" if not broken and not nav_missing and report_index.exists() else "error",
         "unsafe_file_check": {"unsafe_staged": unsafe_staged, "raw_tracked": raw_tracked, "unsafe_changed_warnings": unsafe_changed},
+        "citation_gate": citation_gate,
         "acceptance_criteria": {"book_role": book_acceptance, "author_role": author_acceptance},
         "publication": "approved" if not errors else "blocked",
         "errors": errors,

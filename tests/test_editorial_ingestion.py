@@ -41,9 +41,16 @@ def test_extract_claims_populates_candidate_claims_with_sources():
 
 
 def test_generated_editorial_pages_are_populated():
-    for script in ["update_entity_pages.py", "update_claims_page.py", "synthesize_chapters.py"]:
-        result = run_script(script, "--run-id", "test-editorial")
+    for script in ["update_entity_pages.py", "update_claims_page.py", "synthesize_chapters.py", "export_source_registry.py"]:
+        args = ("--run-id", "test-editorial") if script not in {"export_source_registry.py"} else ()
+        result = run_script(script, *args)
         assert result.returncode == 0, result.stderr + result.stdout
+    result = run_script("resolve_book_citations.py")
+    # Some origins may be blocked for publication, but the resolver must still
+    # remove raw internal IDs/tokens from public book pages before the gate runs.
+    assert result.returncode in (0, 2), result.stderr + result.stdout
+    verify = run_script("verify_book_citations.py")
+    assert verify.returncode == 0, verify.stderr + verify.stdout
     entity_index = ROOT / "docs" / "entities" / "index.md"
     claims_page = ROOT / "docs" / "research" / "claims.md"
     assert entity_index.exists()

@@ -1,13 +1,13 @@
 # Autonomous Coding Agents
 
-Last generated: 2026-06-12T01:19:57Z
+Last generated: 2026-06-12T12:56:20Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T01:19:56Z
+- Last seen: 2026-06-12T10:12:39Z
 - Source count: 3
-- Mention count: 114
+- Mention count: 120
 
 ## Description
 
@@ -15,7 +15,7 @@ Candidate concept entity extracted from 3 source(s).
 
 ## Related claims
 
-- **candidate / weak** — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering, "loop engineering". (`claim_82bfd616fea69cce2d95`)
+- **weakly_supported / weak** — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering, "loop engineering". (`claim_82bfd616fea69cce2d95`)
 
 ## Source references
 

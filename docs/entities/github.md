@@ -1,13 +1,13 @@
 # GitHub
 
-Last generated: 2026-06-12T01:19:57Z
+Last generated: 2026-06-12T12:56:20Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T01:19:56Z
+- Last seen: 2026-06-12T10:12:39Z
 - Source count: 10
-- Mention count: 122
+- Mention count: 132
 
 ## Description
 

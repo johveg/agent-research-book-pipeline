@@ -1,68 +1,13 @@
 # Companies
 
-Last generated: 2026-06-11T21:23:21Z
+Last generated: 2026-06-12T12:56:20Z
 
-These entries come from harvested entity records. They are candidates for deeper editorial pages, not final assertions of importance.
+These entries come from harvested entity records. Linked entries have generated review pages; unlinked entries are candidates or weak/noisy fragments and are not treated as canonical public entities.
 
-- [Claude Fable](claude-fable.md) — `company`; mentions: 35; sources: 4
-- Viktor — `company`; mentions: 28; sources: 2
-- How Synthetic Pet Gear Drives — `company`; mentions: 18; sources: 2
-- Devesh Paragiri — `company`; mentions: 18; sources: 2
-- AMD — `company`; mentions: 14; sources: 2
-- Rajan — `company`; mentions: 14; sources: 2
-- GeoAnts Monitoring Systems — `company`; mentions: 14; sources: 2
-- Intel — `company`; mentions: 14; sources: 2
-- SaaS — `company`; mentions: 14; sources: 2
-- Head — `company`; mentions: 14; sources: 2
-- Available — `company`; mentions: 14; sources: 2
-- Geoteknik — `company`; mentions: 14; sources: 2
-- Pawfect Loop Inc — `company`; mentions: 9; sources: 1
-- AMC Bridge — `company`; mentions: 9; sources: 1
-- Benjamin Daulton — `company`; mentions: 7; sources: 1
-- Usage — `company`; mentions: 7; sources: 1
-- Web Performance — `company`; mentions: 7; sources: 1
-- Technology. My Bachelor — `company`; mentions: 7; sources: 1
-- AI Master — `company`; mentions: 7; sources: 1
-- MSITM — `company`; mentions: 7; sources: 1
-- Gurudath Sadanandan — `company`; mentions: 7; sources: 1
-- GSoC — `company`; mentions: 7; sources: 1
-- Esq — `company`; mentions: 7; sources: 1
-- Frontend-Focused Full-Stack — `company`; mentions: 7; sources: 1
-- Application — `company`; mentions: 7; sources: 1
-- New Zealand — `company`; mentions: 7; sources: 1
-- ve been loop engineering — `company`; mentions: 7; sources: 1
-- Enterprise Field Account Executive — `company`; mentions: 7; sources: 1
-- Top Innovator Company — `company`; mentions: 7; sources: 1
-- Kabullerinden — `company`; mentions: 7; sources: 1
-- Saulius Tautvaisas — `company`; mentions: 7; sources: 1
-- World Economic Forum — `company`; mentions: 7; sources: 1
-- Gen — `company`; mentions: 7; sources: 1
-- Danske Bank — `company`; mentions: 7; sources: 1
-- Principal Solutions Architect — `company`; mentions: 7; sources: 1
-- Mohamed Hany Youns — `company`; mentions: 7; sources: 1
-- Human Resource Consultant — `company`; mentions: 7; sources: 1
-- GenAI Technology — `company`; mentions: 7; sources: 1
-- SHI International Corporation — `company`; mentions: 7; sources: 1
-- Alm — `company`; mentions: 7; sources: 1
-- Factory Automation — `company`; mentions: 7; sources: 1
-- Web Developer — `company`; mentions: 7; sources: 1
-- Quantum Computin — `company`; mentions: 7; sources: 1
-- AZAHAR-LABS — `company`; mentions: 7; sources: 1
-- Icel Firmansyah — `company`; mentions: 7; sources: 1
-- Leo Zhang — `company`; mentions: 7; sources: 1
-- Kashi KS Kashi KS — `company`; mentions: 7; sources: 1
-- Quantum Mads — `company`; mentions: 7; sources: 1
-- Technology Leader — `company`; mentions: 7; sources: 1
-- Technology Information — `company`; mentions: 7; sources: 1
-- UpLink — `company`; mentions: 7; sources: 1
-- Tamamlamak — `company`; mentions: 7; sources: 1
-- Junior Network Administrator — `company`; mentions: 7; sources: 1
-- Azure Solution Architect — `company`; mentions: 7; sources: 1
-- Luciano Ricardi Scorsin — `company`; mentions: 7; sources: 1
-- Jon Ander Oribe — `company`; mentions: 7; sources: 1
-- Machine Learning — `company`; mentions: 7; sources: 1
-- Chromium — `company`; mentions: 7; sources: 1
-- AI Researcher — `company`; mentions: 7; sources: 1
-- Baskar Rao Dandlamudi — `company`; mentions: 7; sources: 1
-- Educator — `company`; mentions: 7; sources: 1
-- Enterprise Systems — `company`; mentions: 7; sources: 1
+- [Anthropic](anthropic.md) — `company`; mentions: 90; sources: 6
+- Advisor — `company`; mentions: 38; sources: 4
+- Viktor — `company`; mentions: 76; sources: 3
+- [AI-assisted](ai-assisted.md) — `company`; mentions: 43; sources: 3
+- [Devesh Paragiri](devesh-paragiri.md) — `company`; mentions: 42; sources: 3
+- Available — `company`; mentions: 38; sources: 3
+- Head — `company`; mentions: 38; sources: 3

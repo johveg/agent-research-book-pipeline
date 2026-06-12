@@ -1,13 +1,13 @@
 # AWS
 
-Last generated: 2026-06-12T01:19:57Z
+Last generated: 2026-06-12T12:56:20Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T01:19:56Z
+- Last seen: 2026-06-12T10:12:39Z
 - Source count: 3
-- Mention count: 49
+- Mention count: 50
 
 ## Description
 
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
-- **candidate / weak** — ☀️ June is here, and so is the latest AWS Community Builders Spotlight ☀️ This week we're celebrating not one but TWO featured builders with "Hermes Agent". (`claim_7cd52375ed82316c34e1`)
+- **weakly_supported / weak** — ☀️ June is here, and so is the latest AWS Community Builders Spotlight ☀️ This week we're celebrating not one but TWO featured builders with "Hermes Agent". (`claim_7cd52375ed82316c34e1`)
 
 ## Source references
 

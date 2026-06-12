@@ -1,13 +1,13 @@
 # interacting with coding agents
 
-Last generated: 2026-06-12T01:19:57Z
+Last generated: 2026-06-12T12:56:20Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T01:19:56Z
+- Last seen: 2026-06-12T10:12:39Z
 - Source count: 3
-- Mention count: 39
+- Mention count: 42
 
 ## Description
 
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 3 source(s).
 
 ## Related claims
 
-- **candidate / weak** — The paradigm shift in interacting with coding agents is here: Loop Engineering. (`claim_c7640d7d37d3acade845`)
+- **weakly_supported / weak** — The paradigm shift in interacting with coding agents is here: Loop Engineering. (`claim_c7640d7d37d3acade845`)
 
 ## Source references
 

@@ -1,22 +1,22 @@
 # LLM
 
-Last generated: 2026-06-12T01:19:57Z
+Last generated: 2026-06-12T12:56:20Z
 
 - Type: `tool`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T01:19:56Z
+- Last seen: 2026-06-12T12:56:20Z
 - Source count: 3
-- Mention count: 35
+- Mention count: 45
 
 ## Description
 
-Candidate tool entity extracted from 3 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
 - **candidate / weak** — Loop Engineering Is the Next Prompt Engineering TL;DR Prompt engineering optimized what we ask an LLM. (`claim_ade705e8f9dc68ddee75`)
-- **candidate / weak** — Loop engineering is all the hype now but have you actually looked into what kind of stuff the LLM does in those loops?. (`claim_2311b109d80f8a43b0ec`)
+- **weakly_supported / weak** — Loop engineering is all the hype now but have you actually looked into what kind of stuff the LLM does in those loops?. (`claim_2311b109d80f8a43b0ec`)
 
 ## Source references
 

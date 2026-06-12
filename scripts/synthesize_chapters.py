@@ -107,14 +107,24 @@ def find_claims(con, terms: list[str], approved_only: bool = True):
       SELECT c.*, COUNT(cs.source_id) AS linked_sources,
              GROUP_CONCAT(cs.source_id) AS source_ids
       FROM claims c LEFT JOIN claim_sources cs ON cs.claim_id = c.id
+      LEFT JOIN sources s ON s.id = cs.source_id
       WHERE ({' OR '.join(clauses)}) AND ({status_clause})
       GROUP BY c.id
+      HAVING (? = 0) OR SUM(CASE
+          WHEN COALESCE(s.privacy_publication_status,'') != 'human_review'
+           AND COALESCE(s.title,'') != ''
+          THEN 1 ELSE 0 END) > 0
       ORDER BY CASE c.status WHEN 'supported' THEN 0 ELSE 1 END,
                CASE c.evidence_strength WHEN 'strong' THEN 0 WHEN 'moderate' THEN 1 ELSE 2 END,
                linked_sources DESC
       LIMIT 12
     """
-    return con.execute(sql, params).fetchall()
+    return con.execute(sql, [*params, 1 if approved_only else 0]).fetchall()
+
+
+def citation_tokens(source_ids: str | None, limit: int = 5) -> str:
+    ids = [sid.strip() for sid in (source_ids or "").split(",") if sid.strip()]
+    return " ".join(f"{{{{cite:{sid}}}}}" for sid in ids[:limit])
 
 
 def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: int, now: str) -> None:
@@ -124,8 +134,10 @@ def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: i
         lines.append("")
         for c in claims:
             caveat = "Current evidence suggests: " if c["status"] == "weakly_supported" else ""
-            source_ids = ", ".join((c["source_ids"] or "").split(",")[:5]) or "missing-source-id"
-            lines.append(f"- {caveat}{c['claim_text']} (`{c['id']}`, status `{c['status']}`, {c['evidence_strength'] or 'weak'} evidence, source ID(s): `{source_ids}`)")
+            cites = citation_tokens(c["source_ids"])
+            if not cites:
+                cites = "[unresolved citation]"
+            lines.append(f"- {caveat}{c['claim_text']} {cites} (status `{c['status']}`, {c['evidence_strength'] or 'weak'} evidence)")
     else:
         lines.append("No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.")
         lines.append("")
@@ -134,7 +146,7 @@ def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: i
         "",
         "## Source/claim mapping",
         "",
-        "Every factual bullet above includes a claim ID and source ID list. If none are present, the chapter remains in not-ready status.",
+        "Every factual bullet above is generated with structured citation tokens and must resolve to numbered references before publication. If any token cannot resolve to canonical source metadata, the chapter remains in not-ready status.",
         "",
         "## Editor notes",
         "",

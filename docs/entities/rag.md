@@ -1,17 +1,17 @@
 # RAG
 
-Last generated: 2026-06-12T01:19:57Z
+Last generated: 2026-06-12T12:56:20Z
 
 - Type: `tool`
-- Confidence: `medium`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T01:19:56Z
+- Last seen: 2026-06-12T12:56:20Z
 - Source count: 4
-- Mention count: 50
+- Mention count: 59
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 

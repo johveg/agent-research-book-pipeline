@@ -20,6 +20,27 @@ def source_label(row) -> str:
     return row["title"] or row["url"] or row["id"]
 
 
+def link_if_generated(name: str, generated_slugs: set[str]) -> str:
+    slug = slugify(name, 70)
+    if slug in generated_slugs:
+        return f"[{name}]({slug}.md)"
+    return name
+
+
+def write_category_page(path, title: str, rows, generated_slugs: set[str], now: str) -> None:
+    lines = [
+        f"# {title}",
+        "",
+        f"Last generated: {now}",
+        "",
+        "These entries come from harvested entity records. Linked entries have generated review pages; unlinked entries are candidates or weak/noisy fragments and are not treated as canonical public entities.",
+        "",
+    ]
+    for e in rows:
+        lines.append(f"- {link_if_generated(e['canonical_name'], generated_slugs)} — `{e['type']}`; mentions: {e['mention_count']}; sources: {e['source_count']}")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", default="manual")
@@ -47,6 +68,7 @@ def main() -> int:
             (min(args.limit * 10, 1000),),
         ).fetchall()
         entities = [e for e in candidates if is_publishable_entity(e['canonical_name'], e['type'], e['source_count'])][:args.limit]
+        generated_slugs = {slugify(e['canonical_name'], 70) for e in entities}
         index = ["# Entities", "", f"Last generated: {now}", "", "Entities are conservative candidates extracted from collected source metadata and archived text. They require human review before being treated as canonical.", "", "| Entity | Type | Confidence | Source count |", "|---|---:|---:|---:|"]
         for e in entities:
             rel = entity_file(e)
@@ -100,7 +122,22 @@ def main() -> int:
             out = DOCS / rel
             out.write_text("\n".join(lines) + "\n", encoding="utf-8")
             generated.append(str(out))
-    (ENTITY_DIR / "index.md").write_text("\n".join(index) + "\n", encoding="utf-8")
+        (ENTITY_DIR / "index.md").write_text("\n".join(index) + "\n", encoding="utf-8")
+        category_rows = con.execute(
+            """
+            SELECT e.*, COUNT(es.source_id) AS source_count, COALESCE(SUM(es.mention_count),0) AS mention_count
+            FROM entities e
+            LEFT JOIN entity_sources es ON es.entity_id = e.id
+            GROUP BY e.id
+            HAVING source_count >= 2
+            ORDER BY source_count DESC, mention_count DESC, canonical_name ASC
+            LIMIT 120
+            """
+        ).fetchall()
+        write_category_page(ENTITY_DIR / "concepts.md", "Concepts", [e for e in category_rows if e['type'] in {'concept','framework','unknown'}], generated_slugs, now)
+        write_category_page(ENTITY_DIR / "projects.md", "Projects", [e for e in category_rows if e['type'] in {'project','tool','framework'}], generated_slugs, now)
+        write_category_page(ENTITY_DIR / "people.md", "People", [e for e in category_rows if e['type'] == 'person'], generated_slugs, now)
+        write_category_page(ENTITY_DIR / "companies.md", "Companies", [e for e in category_rows if e['type'] in {'company','publication'}], generated_slugs, now)
     print(json.dumps({"status": "ok", "entities": len(generated), "index": str(ENTITY_DIR / "index.md")}, indent=2))
     return 0
 

@@ -167,6 +167,7 @@ def main() -> int:
             steps.append(run([PY, "scripts/discover_trends.py", "--run-id", run_id, "--json-out", str(trends_json)], log))
             steps.append(run([PY, "scripts/update_entity_pages.py", "--run-id", run_id], log))
             steps.append(run([PY, "scripts/update_claims_page.py", "--run-id", run_id], log))
+            steps.append(run([PY, "scripts/export_source_registry.py"], log))
             steps_path = write_steps(run_id, steps)
 
             # Curator + Editor gate before Authoring. Exit 2 means blocked publication; it is handled, not fatal.
@@ -183,8 +184,17 @@ def main() -> int:
                 # Author writes only from approved/caveated claims after weekly curation or explicit Editor approval.
                 steps.append(run([PY, "scripts/synthesize_chapters.py", "--run-id", run_id], log))
 
+            # Publication normalization: Author output may contain structured citation tokens,
+            # but public book pages must contain numbered references only.
+            citation_report = LOGS / "runs" / f"{run_id}-citations.json"
+            citation_step = run([PY, "scripts/resolve_book_citations.py", "--json-out", str(citation_report)], log)
+            steps.append(citation_step)
+            if citation_step["returncode"] != 0:
+                status = "blocked"
+
             steps.append(run([PY, "scripts/update_book_pages.py", "--run-id", run_id], log))
             steps.append(run([PY, "scripts/verify_editorial_ingestion.py"], log))
+            steps.append(run([PY, "scripts/verify_book_citations.py"], log))
 
             # Book role gate builds the site and checks links/unsafe paths. Use local MkDocs venv if available.
             book_gate = run([MKDOCS_PY, "scripts/book_role_report.py"], log)
@@ -198,7 +208,7 @@ def main() -> int:
             ep_final = run([PY, "scripts/editorial_pipeline_report.py", "--run-id", run_id, "--step-results", str(steps_path), "--book-build-status", build_status, "--json-out", str(editorial_json)], log)
             steps.append(ep_final)
             editorial = load_json(editorial_json, editorial)
-            if editorial.get("final_status") == "blocked":
+            if editorial.get("final_status") == "blocked" or status == "blocked":
                 status = "blocked"
             elif any(s["returncode"] not in (0,) for s in steps if Path(s["cmd"][1] if len(s["cmd"]) > 1 else s["cmd"][0]).name not in {"editorial_pipeline_report.py"}):
                 status = "partial"
@@ -217,7 +227,7 @@ def main() -> int:
                 # If blocked, this commit is still allowed to publish safe status/research/report updates, not new Author chapter prose.
                 commit = git_commit_push(
                     f"research: daily book pipeline update {run_id}",
-                    ["docs", "reports", "data/search_config.json", "data/schema.sql", "data/chroma_manifest.json", ".github", "mkdocs.yml", "README.md", ".gitignore", ".env.example", "scripts", "tests"],
+                    ["docs", "reports", "data/search_config.json", "data/schema.sql", "data/chroma_manifest.json", "data/source_registry.json", ".github", "mkdocs.yml", "README.md", ".gitignore", ".env.example", "scripts", "tests"],
                 )
             write_json(commit_json, commit)
             # Regenerate summary after commit so the run output contains the commit hash when available.

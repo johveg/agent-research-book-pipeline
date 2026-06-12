@@ -1,40 +1,40 @@
 # Loop Engineering
 
-Last generated: 2026-06-12T01:19:57Z
+Last generated: 2026-06-12T12:56:20Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T01:19:56Z
+- Last seen: 2026-06-12T12:56:20Z
 - Source count: 248
-- Mention count: 6602
+- Mention count: 7729
 
 ## Description
 
-Candidate concept entity extracted from 236 source(s).
+Candidate concept entity extracted from 34 source(s).
 
 ## Related claims
 
 - **candidate / weak** — "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering "loop engineering". (`claim_0c76b2d0770ff1442eeb`)
-- **candidate / weak** — "Loop Engineering" is so hot right now, instantly reminded me of this classic. (`claim_d80d87b3689a8d771f16`)
-- **candidate / weak** — A loop is a small program that prompts an AI agent for you, reads what it produced, decid "loop engineering". (`claim_ddcb28eb301b363c351a`)
-- **candidate / weak** — AI Industry Shifts Toward Loop Engineering and Agentic Development Architectures 📌 The AI landscape is pivoting from manual prompting to loo "loop engineering". (`claim_195590e66b871a4a2388`)
-- **candidate / weak** — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering, "loop engineering". (`claim_82bfd616fea69cce2d95`)
-- **candidate / weak** — All of a sudden loop engineering has replaced prompt engineering. (`claim_44553080825a09530959`)
-- **candidate / weak** — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation "loop engineering". (`claim_35259524a830a49e0d38`)
-- **candidate / weak** — As usual the stream of AI news is overwhelming, but here something that stood out for me: - suddenly a new term is "loop engineering". (`claim_f72d85377bdee2134ec9`)
-- **candidate / weak** — But seriously: buying claude licenses for the whole team is not an ai strateg "loop engineering". (`claim_fe853f4d14e32dc5ee0b`)
-- **candidate / weak** — Enterprise Architecture is entering the Loop Engineering era. (`claim_18d2cb81ce2a907f0b84`)
-- **candidate / weak** — Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. (`claim_78b5de70d95c32a72222`)
-- **candidate / weak** — Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. (`claim_1e6da5e353cab67ed16c`)
 - **candidate / weak** — Feed post KYUNGJUN LIM • 3rd+ I am the founder of Freederia.com, where we are changing the paradigm of future technology research through AI "loop engineering". (`claim_a636ae2aed40e40d5044`)
-- **candidate / weak** — Feed post Stuart Inskip • 3rd+ Strategic Product Leader delivering 0-to-1 launches and roadmap ownership across consumer loyalty, omnichanne "loop engineering". (`claim_3758bb6824db2606c9b9`)
-- **candidate / weak** — For years, EA was built around static artifacts: Capability Maps Target Archit "loop engineering". (`claim_95f6c85087cb4ae65419`)
-- **candidate / weak** — Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod "loop engineering". (`claim_c86b0732dedc22f8a651`)
 - **candidate / weak** — I have spent a lot of time in my career talking to people about work, leadership, technology, and what it means to show up when things are h "loop engineering". (`claim_91fb102701273e064a2f`)
-- **candidate / weak** — Instead of direct prompting, the focus is now on designing s "loop engineering". (`claim_115b4898cd95a01eed6c`)
-- **candidate / weak** — It is building better systems around the enti "loop engineering". (`claim_e3b28135bcb28d4ef2aa`)
-- **candidate / weak** — I’ve seen a lot of posts about loop engineering, and they definitely are powerful. (`claim_6407b3c3730ab2c3a53d`)
+- **candidate / weak** — Loop Engineering Is the Next Prompt Engineering TL;DR Prompt engineering optimized what we ask an LLM. (`claim_ade705e8f9dc68ddee75`)
+- **candidate / weak** — The "token-maxing" era is officially dead (personally I never really understood why this was a thing), and your company’s AI budget is likel "loop engineering". (`claim_d1e43f5d3f78bb36c866`)
+- **candidate / weak** — Today's links look at why your AI strategy has a trust problem, what loop engineering is all about, and why the PaaS market keeps bundling a "loop engineering". (`claim_f5594ad345b1b79ad42f`)
+- **needs_review / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
+- **weakly_supported / weak** — "Loop Engineering" is so hot right now, instantly reminded me of this classic. (`claim_d80d87b3689a8d771f16`)
+- **weakly_supported / weak** — A loop is a small program that prompts an AI agent for you, reads what it produced, decid "loop engineering". (`claim_ddcb28eb301b363c351a`)
+- **weakly_supported / weak** — AI Industry Shifts Toward Loop Engineering and Agentic Development Architectures 📌 The AI landscape is pivoting from manual prompting to loo "loop engineering". (`claim_195590e66b871a4a2388`)
+- **weakly_supported / weak** — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering, "loop engineering". (`claim_82bfd616fea69cce2d95`)
+- **weakly_supported / weak** — All of a sudden loop engineering has replaced prompt engineering. (`claim_44553080825a09530959`)
+- **weakly_supported / weak** — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation "loop engineering". (`claim_35259524a830a49e0d38`)
+- **weakly_supported / weak** — As usual the stream of AI news is overwhelming, but here something that stood out for me: - suddenly a new term is "loop engineering". (`claim_f72d85377bdee2134ec9`)
+- **weakly_supported / weak** — But seriously: buying claude licenses for the whole team is not an ai strateg "loop engineering". (`claim_fe853f4d14e32dc5ee0b`)
+- **weakly_supported / weak** — Enterprise Architecture is entering the Loop Engineering era. (`claim_18d2cb81ce2a907f0b84`)
+- **weakly_supported / weak** — Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. (`claim_78b5de70d95c32a72222`)
+- **weakly_supported / weak** — Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. (`claim_1e6da5e353cab67ed16c`)
+- **weakly_supported / weak** — Feed post Stuart Inskip • 3rd+ Strategic Product Leader delivering 0-to-1 launches and roadmap ownership across consumer loyalty, omnichanne "loop engineering". (`claim_3758bb6824db2606c9b9`)
+- **weakly_supported / weak** — For years, EA was built around static artifacts: Capability Maps Target Archit "loop engineering". (`claim_95f6c85087cb4ae65419`)
 
 ## Source references
 
@@ -59,15 +59,6 @@ Candidate concept entity extracted from 236 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/056-aab12e31d1d92de0acdd.md`
 - `src_f94ea32ae29619aa2c2f` — 最近看到很多人在討論 Loop Engineering . 如果回頭看過去一年 AI Coding 的發展，我反而覺得大家其實是在一路往上抽象。 一開始我們研究怎麼寫 Prompt，後來發現光會下指令不夠，又開始想辦法管理 Context，避免模型每次都像剛報到的新同事。接著進入
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/106-c3f3d5b4ea71aa0bee7d.md`
-- `src_095c81dde99ff28d9217` — Loop Engineering: Managing Teams of AI Coding Agents
-  - URL: https://www.mattwarren.co/2026/06/loop-engineering/
-  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/05-loop-engineering-managing-teams-of-ai-coding-agents.md`
-- `src_d187c2ef70e627274ce1` — Loop Engineering
-  - URL: https://www.evnekquest.com/post/loop-engineering
-  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/06-loop-engineering.md`
-- `src_e0864997d036665b77f9` — Loop Engineering: Design AI Loops That Ship While You Sleep
-  - URL: https://linas.substack.com/p/loop-engineering-complete-guide
-  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/04-loop-engineering-design-ai-loops-that-ship-while-you-sleep.md`
 - `src_41eb746f04a3ea6b0071` — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering,
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/004-54e88de2be7c7a9b21f8.md`
 - `src_b4579afbea1fcf6d2e2d` — Today we are releasing our Introduction to Meta Agent Loop Engineering course free to the software engineering community. Over the last two 
@@ -79,6 +70,15 @@ Candidate concept entity extracted from 236 source(s).
 - `src_fccced70af25ad30495a` — Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".
   - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/008-9baf8e463ca2976cd23b.md`
+- `src_095c81dde99ff28d9217` — Loop Engineering: Managing Teams of AI Coding Agents
+  - URL: https://www.mattwarren.co/2026/06/loop-engineering/
+  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/05-loop-engineering-managing-teams-of-ai-coding-agents.md`
+- `src_d187c2ef70e627274ce1` — Loop Engineering
+  - URL: https://www.evnekquest.com/post/loop-engineering
+  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/06-loop-engineering.md`
+- `src_e0864997d036665b77f9` — Loop Engineering: Design AI Loops That Ship While You Sleep
+  - URL: https://linas.substack.com/p/loop-engineering-complete-guide
+  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/04-loop-engineering-design-ai-loops-that-ship-while-you-sleep.md`
 - `src_14d5206f07305edbab45` — We've moved fast. Vibe coding → Agentic workflows → Harness engineering → Loop engineering. But here's the question nobody's asking loudly e
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/099-c4017c55be4e384c083a.md`
 - `src_358f72ad3225c760e7d8` — Enterprise Architecture is entering the Loop Engineering era. For years, EA was built around static artifacts: Capability Maps Target Archit

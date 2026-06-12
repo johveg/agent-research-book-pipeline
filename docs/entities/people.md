@@ -1,84 +1,15 @@
 # People
 
-Last generated: 2026-06-11T21:23:21Z
+Last generated: 2026-06-12T12:56:20Z
 
-These entries come from harvested entity records. They are candidates for deeper editorial pages, not final assertions of importance.
+These entries come from harvested entity records. Linked entries have generated review pages; unlinked entries are candidates or weak/noisy fragments and are not treated as canonical public entities.
 
-- [HireBox Human Resource](hirebox-human-resource.md) — `person`; mentions: 28; sources: 4
-- Always Hiring Mandarin Speaker — `person`; mentions: 21; sources: 3
-- Recruitment At — `person`; mentions: 14; sources: 2
-- Recruitment Specialist — `person`; mentions: 14; sources: 2
-- Builder Session — `person`; mentions: 14; sources: 2
-- Mandarin Speaker — `person`; mentions: 7; sources: 1
-- Debt Asset Management — `person`; mentions: 7; sources: 1
-- Ahmed Choulak — `person`; mentions: 7; sources: 1
-- Rasmus Lindgren — `person`; mentions: 7; sources: 1
-- Illia Zakharov — `person`; mentions: 7; sources: 1
-- Employment Type — `person`; mentions: 7; sources: 1
-- Docker Captain — `person`; mentions: 7; sources: 1
-- OpenClaw Never Had — `person`; mentions: 7; sources: 1
-- Jean Luc DI MANNO Jean — `person`; mentions: 7; sources: 1
-- E-Commerce Shops — `person`; mentions: 7; sources: 1
-- MetaMask Hands Over — `person`; mentions: 7; sources: 1
-- Rohit Ghumare — `person`; mentions: 7; sources: 1
-- Recruitment Consultant — `person`; mentions: 7; sources: 1
-- Sem Limites — `person`; mentions: 7; sources: 1
-- Job Responsibilities — `person`; mentions: 7; sources: 1
-- Collateral Valuation — `person`; mentions: 7; sources: 1
-- Maicon Ramos — `person`; mentions: 7; sources: 1
-- Toni Wistauder — `person`; mentions: 7; sources: 1
-- Lior Pozin — `person`; mentions: 7; sources: 1
-- Andrew Hodges Andrew Hodges — `person`; mentions: 7; sources: 1
-- Bagas Faris Maulana — `person`; mentions: 7; sources: 1
-- AI Employees Platform — `person`; mentions: 7; sources: 1
-- CNCF Marketing Chair — `person`; mentions: 7; sources: 1
-- Blockchain Builder — `person`; mentions: 7; sources: 1
-- Was Global Head — `person`; mentions: 7; sources: 1
-- Srikanth Bhakthan — `person`; mentions: 7; sources: 1
-- Dave Cheng — `person`; mentions: 7; sources: 1
-- Crypto Revolution — `person`; mentions: 7; sources: 1
-- Yomi Toba — `person`; mentions: 7; sources: 1
-- Amelia Diah Parwati — `person`; mentions: 7; sources: 1
-- Automation Architect — `person`; mentions: 7; sources: 1
-- Transforming Busine — `person`; mentions: 7; sources: 1
-- Think Big Podcast — `person`; mentions: 7; sources: 1
-- Information System Supervisor Lark — `person`; mentions: 7; sources: 1
-- Start Small — `person`; mentions: 7; sources: 1
-- Hackathon Winner — `person`; mentions: 7; sources: 1
-- Weniger Arbeit — `person`; mentions: 7; sources: 1
-- Hermes Use Cases — `person`; mentions: 7; sources: 1
-- Telecommunications Graduate — `person`; mentions: 7; sources: 1
-- Social Media Manager — `person`; mentions: 7; sources: 1
-- Recursive Self-Improvemen — `person`; mentions: 7; sources: 1
-- Brad Groux — `person`; mentions: 7; sources: 1
-- Ilya Kananykin — `person`; mentions: 7; sources: 1
-- Stefan Trbojevic — `person`; mentions: 7; sources: 1
-- Krishna Kumar — `person`; mentions: 7; sources: 1
-- Amit Ben Dror — `person`; mentions: 7; sources: 1
-- Muhammad Des Amri — `person`; mentions: 7; sources: 1
-- Digital Identity — `person`; mentions: 7; sources: 1
-- Digital Meld — `person`; mentions: 7; sources: 1
-- Google Pixel — `person`; mentions: 7; sources: 1
-- Banking Operations — `person`; mentions: 7; sources: 1
-- Tech Entrepreneur — `person`; mentions: 7; sources: 1
-- Justin Clark-Casey — `person`; mentions: 7; sources: 1
-- Solution Architect — `person`; mentions: 7; sources: 1
-- South Jakarta — `person`; mentions: 7; sources: 1
-- Platform Operations — `person`; mentions: 7; sources: 1
-- OpenClaw Microsoft Maintainer — `person`; mentions: 7; sources: 1
-- Are Hiring — `person`; mentions: 7; sources: 1
-- Short-Form Video — `person`; mentions: 7; sources: 1
-- Veritas Kanban — `person`; mentions: 7; sources: 1
-- Google Cloud — `person`; mentions: 7; sources: 1
-- Any OS. Any Platform. The — `person`; mentions: 7; sources: 1
-- Juan Felipe Rivera — `person`; mentions: 7; sources: 1
-- Adjunct Visit — `person`; mentions: 7; sources: 1
-- Alexandr Lebedev — `person`; mentions: 7; sources: 1
-- Talent Acquisition — `person`; mentions: 7; sources: 1
-- Craig Foldes — `person`; mentions: 7; sources: 1
-- Forward Deployed Engineer — `person`; mentions: 7; sources: 1
-- Outbound Infrastructure Architect. We — `person`; mentions: 7; sources: 1
-- Gunadarma University — `person`; mentions: 7; sources: 1
-- Daniel Foley Carter — `person`; mentions: 7; sources: 1
-- Natalia Triamanda Bela Monica — `person`; mentions: 7; sources: 1
-- Kevin Pasa — `person`; mentions: 7; sources: 1
+- Al-Azhar University — `person`; mentions: 125; sources: 9
+- [Mohamed Amin](mohamed-amin.md) — `person`; mentions: 125; sources: 9
+- Rutgers University — `person`; mentions: 125; sources: 9
+- [HireBox Human Resource](hirebox-human-resource.md) — `person`; mentions: 72; sources: 4
+- [Andrew Sauer](andrew-sauer.md) — `person`; mentions: 51; sources: 4
+- [Human Agency](human-agency.md) — `person`; mentions: 51; sources: 4
+- Always Hiring Mandarin Speaker — `person`; mentions: 54; sources: 3
+- [Extension Chrome Guichet Unique](extension-chrome-guichet-unique.md) — `person`; mentions: 36; sources: 3
+- [Yoni Atteia](yoni-atteia.md) — `person`; mentions: 36; sources: 3

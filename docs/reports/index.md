@@ -1,6 +1,6 @@
 # Daily Reports
 
-Last generated: 2026-06-12T01:19:58Z
+Last generated: 2026-06-12T13:27:04Z
 
 - **weekly-curation-check-20260611T231124Z-daily-guard** — local report `reports/daily/weekly-curation-check-20260611T231124Z-daily-guard.md`
 - **role-acceptance-check-20260611T231909Z** — local report `reports/daily/role-acceptance-check-20260611T231909Z.md`

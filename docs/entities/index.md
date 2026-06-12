@@ -1,6 +1,6 @@
 # Entities
 
-Last generated: 2026-06-12T12:56:20Z
+Last generated: 2026-06-12T13:27:24Z
 
 Entities are conservative candidates extracted from collected source metadata and archived text. They require human review before being treated as canonical.
 
@@ -21,8 +21,8 @@ Entities are conservative candidates extracted from collected source metadata an
 | [Claude Code](claude-code.md) | concept | high | 9 |
 | [Claude](claude.md) | project | low | 8 |
 | [Claude Fable](claude-fable.md) | tool | high | 6 |
-| [Anthropic](anthropic.md) | company | high | 6 |
 | [AI Agent](ai-agent.md) | tool | low | 6 |
+| [Anthropic](anthropic.md) | company | high | 6 |
 | [Python](python.md) | tool | high | 6 |
 | [OpenAI](openai.md) | tool | high | 6 |
 | [AI Coding Agents](ai-coding-agents.md) | framework | high | 5 |

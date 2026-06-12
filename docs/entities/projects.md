@@ -1,6 +1,6 @@
 # Projects
 
-Last generated: 2026-06-12T12:56:20Z
+Last generated: 2026-06-12T13:27:24Z
 
 These entries come from harvested entity records. Linked entries have generated review pages; unlinked entries are candidates or weak/noisy fragments and are not treated as canonical public entities.
 
@@ -10,15 +10,15 @@ These entries come from harvested entity records. Linked entries have generated 
 - [TheNextGenTechInsider.com](thenextgentechinsider-com.md) — `tool`; mentions: 150; sources: 17
 - Loop — `tool`; mentions: 176; sources: 13
 - [Google](google.md) — `tool`; mentions: 134; sources: 10
-- [Claude](claude.md) — `project`; mentions: 87; sources: 8
+- [Claude](claude.md) — `project`; mentions: 88; sources: 8
 - [Claude Fable](claude-fable.md) — `tool`; mentions: 94; sources: 6
-- [AI Agent](ai-agent.md) — `tool`; mentions: 88; sources: 6
+- [AI Agent](ai-agent.md) — `tool`; mentions: 90; sources: 6
 - [Python](python.md) — `tool`; mentions: 76; sources: 6
 - [OpenAI](openai.md) — `tool`; mentions: 74; sources: 6
 - [AI Coding Agents](ai-coding-agents.md) — `framework`; mentions: 94; sources: 5
 - [MCP](mcp.md) — `tool`; mentions: 72; sources: 5
-- Fol — `tool`; mentions: 63; sources: 4
-- [RAG](rag.md) — `tool`; mentions: 59; sources: 4
+- Fol — `tool`; mentions: 64; sources: 4
+- [RAG](rag.md) — `tool`; mentions: 60; sources: 4
 - Let — `tool`; mentions: 56; sources: 4
 - [trained my Hermes Agent](trained-my-hermes-agent.md) — `tool`; mentions: 56; sources: 4
 - Harness — `tool`; mentions: 52; sources: 4
@@ -33,11 +33,11 @@ These entries come from harvested entity records. Linked entries have generated 
 - Just — `tool`; mentions: 54; sources: 3
 - [AWS](aws.md) — `tool`; mentions: 50; sources: 3
 - [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 48; sources: 3
-- Agent — `tool`; mentions: 45; sources: 3
-- But — `project`; mentions: 45; sources: 3
-- [LLM](llm.md) — `tool`; mentions: 45; sources: 3
-- Principal — `tool`; mentions: 43; sources: 3
-- [YOE](yoe.md) — `tool`; mentions: 43; sources: 3
+- Agent — `tool`; mentions: 46; sources: 3
+- But — `project`; mentions: 46; sources: 3
+- [LLM](llm.md) — `tool`; mentions: 46; sources: 3
+- Principal — `tool`; mentions: 44; sources: 3
+- [YOE](yoe.md) — `tool`; mentions: 44; sources: 3
 - [BERT](bert.md) — `tool`; mentions: 42; sources: 3
 - [LLM Fine-Tuning](llm-fine-tuning.md) — `tool`; mentions: 42; sources: 3
 - [LangGraph](langgraph.md) — `tool`; mentions: 42; sources: 3
@@ -72,4 +72,3 @@ These entries come from harvested entity records. Linked entries have generated 
 - [High-Performance Alternative](high-performance-alternative.md) — `tool`; mentions: 34; sources: 3
 - [SEO](seo.md) — `tool`; mentions: 24; sources: 3
 - Build — `tool`; mentions: 22; sources: 3
-- Stop — `tool`; mentions: 22; sources: 3

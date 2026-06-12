@@ -1,6 +1,6 @@
 # OpenClaw
 
-Last generated: 2026-06-12T12:56:20Z
+Last generated: 2026-06-12T13:27:24Z
 
 - Type: `tool`
 - Confidence: `high`
@@ -15,6 +15,7 @@ Candidate tool entity extracted from 172 source(s).
 
 ## Related claims
 
+- **supported / moderate** — OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms. (`claim_30a3512e03d11f97d551`)
 - **weakly_supported / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
 - **weakly_supported / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
 - **weakly_supported / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
@@ -24,6 +25,7 @@ Candidate tool entity extracted from 172 source(s).
 - **weakly_supported / weak** — It shows up in a team conflicts, when a project is falling apart, "OpenClaw" Hermes. (`claim_4a7314d36f3df82b9f1d`)
 - **weakly_supported / weak** — Odysseus is a fully local workspace that runs on your "OpenClaw" Hermes. (`claim_66cc523ff8143a86679e`)
 - **weakly_supported / weak** — Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. (`claim_d6b6698dba16fe25d694`)
+- **weakly_supported / weak** — The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption. (`claim_e78f4a9e460847251f42`)
 - **weakly_supported / weak** — The thing about exponential AI improvement, that I didn't expect to totally overwhelm me, at a mammalian level, is how quickly I woul "OpenClaw" Hermes. (`claim_d4f731babfc7bb1a8c94`)
 - **weakly_supported / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
 - **weakly_supported / weak** — ‼️We Are Hiring - Information System Supervisor Lark 📍Location: South Jakarta 💼Employment Type: Full-time 📌Job Responsibilities: - Develop L "OpenClaw" Hermes. (`claim_ea9d059407012496c795`)

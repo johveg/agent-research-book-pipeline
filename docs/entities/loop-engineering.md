@@ -1,13 +1,13 @@
 # Loop Engineering
 
-Last generated: 2026-06-12T12:56:20Z
+Last generated: 2026-06-12T13:27:24Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T12:56:20Z
+- Last seen: 2026-06-12T13:27:23Z
 - Source count: 248
-- Mention count: 7729
+- Mention count: 7804
 
 ## Description
 
@@ -22,6 +22,8 @@ Candidate concept entity extracted from 34 source(s).
 - **candidate / weak** — The "token-maxing" era is officially dead (personally I never really understood why this was a thing), and your company’s AI budget is likel "loop engineering". (`claim_d1e43f5d3f78bb36c866`)
 - **candidate / weak** — Today's links look at why your AI strategy has a trust problem, what loop engineering is all about, and why the PaaS market keeps bundling a "loop engineering". (`claim_f5594ad345b1b79ad42f`)
 - **needs_review / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
+- **supported / moderate** — Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. (`claim_e67bacfc44dd5bc6f2a0`)
+- **weakly_supported / moderate** — Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition. (`claim_e7d6ee3688838c30894a`)
 - **weakly_supported / weak** — "Loop Engineering" is so hot right now, instantly reminded me of this classic. (`claim_d80d87b3689a8d771f16`)
 - **weakly_supported / weak** — A loop is a small program that prompts an AI agent for you, reads what it produced, decid "loop engineering". (`claim_ddcb28eb301b363c351a`)
 - **weakly_supported / weak** — AI Industry Shifts Toward Loop Engineering and Agentic Development Architectures 📌 The AI landscape is pivoting from manual prompting to loo "loop engineering". (`claim_195590e66b871a4a2388`)
@@ -33,8 +35,6 @@ Candidate concept entity extracted from 34 source(s).
 - **weakly_supported / weak** — Enterprise Architecture is entering the Loop Engineering era. (`claim_18d2cb81ce2a907f0b84`)
 - **weakly_supported / weak** — Everyone is suddenly saying "loop engineering." Almost nobody can tell you what a loop actually is. (`claim_78b5de70d95c32a72222`)
 - **weakly_supported / weak** — Everyone is suddenly talking about "loop engineering." The idea: stop prompting your coding agent one step at a time. (`claim_1e6da5e353cab67ed16c`)
-- **weakly_supported / weak** — Feed post Stuart Inskip • 3rd+ Strategic Product Leader delivering 0-to-1 launches and roadmap ownership across consumer loyalty, omnichanne "loop engineering". (`claim_3758bb6824db2606c9b9`)
-- **weakly_supported / weak** — For years, EA was built around static artifacts: Capability Maps Target Archit "loop engineering". (`claim_95f6c85087cb4ae65419`)
 
 ## Source references
 

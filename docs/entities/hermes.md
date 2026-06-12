@@ -1,6 +1,6 @@
 # Hermes
 
-Last generated: 2026-06-12T12:56:20Z
+Last generated: 2026-06-12T13:27:24Z
 
 - Type: `tool`
 - Confidence: `high`
@@ -16,6 +16,8 @@ Candidate tool entity extracted from 173 source(s).
 ## Related claims
 
 - **needs_review / weak** — Hermes Agent Launches Web-Based Profile Builder for Visual Agent Configuration | KuCoin "Hermes Agent" "Nous Research" www.kucoin.com. (`claim_aed2919b026ac52951d2`)
+- **supported / strong** — Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows. (`claim_72e49a3ef27673e17171`)
+- **supported / moderate** — The captured Hermes documentation includes concrete guides, which makes official docs and repository material safer citation authority than social summaries. (`claim_61b4ff290ac61c113365`)
 - **weakly_supported / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
 - **weakly_supported / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
 - **weakly_supported / weak** — Hermes Agent Evolves into Autonomous Orchestration Platform with Desktop Integration 📌 Nous Research has transformed the Hermes Agent from a "Hermes Agent". (`claim_6ce2be9b18d13ecc9932`)
@@ -33,8 +35,6 @@ Candidate tool entity extracted from 173 source(s).
 - **weakly_supported / weak** — It shows up in a team conflicts, when a project is falling apart, "OpenClaw" Hermes. (`claim_4a7314d36f3df82b9f1d`)
 - **weakly_supported / weak** — Last week, when I was digging in deep with Hermes Agent, and one of the things that intrigued me "Hermes Agent". (`claim_b21a2d3bdc8f81b12220`)
 - **weakly_supported / weak** — Man, if you tell me 1-2 years ago that I only need 2 clicks (first one is for download, second to in "Hermes Agent". (`claim_696f1adf4a0ad2a5e9a2`)
-- **weakly_supported / weak** — Odysseus is a fully local workspace that runs on your "OpenClaw" Hermes. (`claim_66cc523ff8143a86679e`)
-- **weakly_supported / weak** — One is for setting up hashtag #Hermesagent and the other using Hermes as a second brain usi "Hermes Agent". (`claim_e575ab19cf0b02737887`)
 
 ## Source references
 

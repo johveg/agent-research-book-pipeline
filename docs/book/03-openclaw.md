@@ -4,9 +4,10 @@ This chapter tracks public signals around OpenClaw and adjacent agentic coding/o
 
 ## Current evidence status
 
-No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.
+The following points are synthesized only from claim records whose status allows Author use:
 
-Claims matching this chapter but not usable in prose: 12.
+- OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms. [1] [2] (status `supported`, moderate evidence)
+- Current evidence suggests: The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption. [1] (status `weakly_supported`, weak evidence)
 
 ## Source/claim mapping
 
@@ -18,8 +19,13 @@ Generated Author output requires Editor approval before publication as narrative
 
 ## Changelog
 
-- 2026-06-12T12:56:20Z: conservative evidence-status regeneration for run context.
+- 2026-06-12T13:27:24Z: conservative evidence-status regeneration for run context.
 
 ## Editorial policy
 
-Last generated: 2026-06-12T12:56:20Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
+Last generated: 2026-06-12T13:27:24Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
+
+## References
+
+[1] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-11T17:33:21Z, https://github.com/openclaw/openclaw, quality A.
+[2] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-12T01:10:27Z, https://github.com/openclaw/openclaw, quality A.

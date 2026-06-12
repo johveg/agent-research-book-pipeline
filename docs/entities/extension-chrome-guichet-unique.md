@@ -1,6 +1,6 @@
 # Extension Chrome Guichet Unique
 
-Last generated: 2026-06-12T12:56:20Z
+Last generated: 2026-06-12T13:27:24Z
 
 - Type: `person`
 - Confidence: `medium`

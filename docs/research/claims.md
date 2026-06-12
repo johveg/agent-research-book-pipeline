@@ -1,6 +1,6 @@
 # Claims
 
-Last generated: 2026-06-12T12:56:20Z
+Last generated: 2026-06-12T13:27:24Z
 
 Claims are explicit editorial records linked to source IDs. No source ID, no claim. No claim, no chapter fact.
 
@@ -12,18 +12,290 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
 
 ## Summary
 
-- Total claims shown: 86
+- Total claims shown: 97
 - candidate: 9
 - needs_review: 2
-- supported: 0
-- weakly_supported: 75
+- supported: 6
+- weakly_supported: 80
 - contradicted: 0
 - rejected: 0
 - promoted_to_chapter: 0
 
+## Supported claims
+
+### Evidence strength: strong
+
+- **Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows.**
+  - Claim ID: `claim_72e49a3ef27673e17171`
+  - Claim type: `observation`
+  - Status: `supported`
+  - Source count: `13`
+  - Evidence strength: `strong`
+  - Source quality: `A/B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_460dfdcd58cf34bab98a, ent_6896191a14f6c66534ba, ent_bdf6dd1be6dada91b64c, ent_c0b0109d9439de57fe3c, ent_d63939c95e48b215354b, ent_5a831ea67cf5cf8703b0`
+  - Contradiction status: `not_checked`
+  - Editor note: Official repository/README and Hermes Atlas source; no social claims used.
+  - Publication decision: `approved_for_author_use`
+  - Current best understanding: Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows.
+  - Source IDs:
+    - `src_8d4f3b9531fe6368478b` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+      - Quality: `A`
+      - URL: https://github.com/nousresearch/hermes-agent
+      - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+    - `src_45d026189270d1762fad` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
+      - Quality: `A`
+      - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
+      - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
+    - `src_946462d4856d38e27d2c` — hermes-agent/README.md at main · NousResearch/hermes-agent
+      - Quality: `A`
+      - URL: https://github.com/NousResearch/hermes-agent/blob/main/README.md
+      - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/02-hermes-agent-readme-md-at-main-nousresearch-hermes-agent.md`
+
+### Evidence strength: moderate
+
+- **Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation.**
+  - Claim ID: `claim_e67bacfc44dd5bc6f2a0`
+  - Claim type: `definition`
+  - Status: `supported`
+  - Source count: `9`
+  - Evidence strength: `moderate`
+  - Source quality: `B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_21d5d5a61524738c6a10, ent_5a8499d47c592e8024d1, ent_7d8fb759631436715e51, ent_c7335a4733ffccc2a7da, ent_83ca68be6227af2feb15, ent_ae2328efd52d65f6c593, ent_e748f8750672ca8b04b2`
+  - Contradiction status: `not_checked`
+  - Editor note: Synthesizes the strongest public loop-engineering cluster into a book-specific definition.
+  - Publication decision: `approved_for_author_use`
+  - Current best understanding: Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation.
+  - Source IDs:
+    - `src_384bcc1123ee303676b1` — Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium
+      - Quality: `B`
+      - URL: https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8
+      - Archive: `web/manual-20260611T173313Z/loop-engineer-ai/01-loop-engineering-playbook-where-loops-live-how-to-run-your-f.md`
+    - `src_7387e00f4d0e7dbf7fee` — Loop Engineering Playbook
+      - Quality: `B`
+      - URL: https://cobusgreyling.substack.com/p/loop-engineering-playbook
+      - Archive: `web/manual-20260611T173313Z/loop-engineer-ai/06-loop-engineering-playbook.md`
+    - `src_80c8c50e6406c7e7fc95` — Agentic Loops: From ReAct to Loop Engineering (2026 Guide)
+      - Quality: `B`
+      - URL: https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/02-agentic-loops-from-react-to-loop-engineering-2026-guide.md`
+
+- **The captured Hermes documentation includes concrete guides, which makes official docs and repository material safer citation authority than social summaries.**
+  - Claim ID: `claim_61b4ff290ac61c113365`
+  - Claim type: `example`
+  - Status: `supported`
+  - Source count: `9`
+  - Evidence strength: `moderate`
+  - Source quality: `A/B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_29ff8063ab076d7cb2ae, ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_3f20163fd70e64f1b17f, ent_425ed264c86619b9975b, ent_5a831ea67cf5cf8703b0, ent_d63939c95e48b215354b`
+  - Contradiction status: `not_checked`
+  - Editor note: Editor-approved source-origin claim about the corpus, not a product capability expansion.
+  - Publication decision: `approved_for_author_use`
+  - Current best understanding: The captured Hermes documentation includes concrete guides, which makes official docs and repository material safer citation authority than social summaries.
+  - Source IDs:
+    - `src_5de659c63abf9db0dff3` — Run Nemotron 3 Ultra free in Hermes Agent | Hermes Agent
+      - Quality: `A`
+      - URL: https://hermes-agent.nousresearch.com/docs/guides/run-nemotron-3-ultra-free
+      - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/05-run-nemotron-3-ultra-free-in-hermes-agent-hermes-agent.md`
+    - `src_946462d4856d38e27d2c` — hermes-agent/README.md at main · NousResearch/hermes-agent
+      - Quality: `A`
+      - URL: https://github.com/NousResearch/hermes-agent/blob/main/README.md
+      - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/02-hermes-agent-readme-md-at-main-nousresearch-hermes-agent.md`
+
+- **OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms.**
+  - Claim ID: `claim_30a3512e03d11f97d551`
+  - Claim type: `observation`
+  - Status: `supported`
+  - Source count: `8`
+  - Evidence strength: `moderate`
+  - Source quality: `A/B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c0b0109d9439de57fe3c, ent_dbfb925b0e0636e18b26`
+  - Contradiction status: `not_checked`
+  - Editor note: Official GitHub metadata only; no comparative claims against Hermes.
+  - Publication decision: `approved_for_author_use`
+  - Current best understanding: OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms.
+  - Source IDs:
+    - `src_ec29732d035ab6417896` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+      - Quality: `A`
+      - URL: https://github.com/openclaw/openclaw
+      - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
+    - `src_b364e090655731640be0` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+      - Quality: `A`
+      - URL: https://github.com/openclaw/openclaw
+      - Archive: `web/manual-20260611T173313Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
+
+- **A useful loop-engineering chapter can therefore focus on loop boundaries, observability, evaluation, and safe handoff instead of claiming that prompts have disappeared.**
+  - Claim ID: `claim_4715acf2970eb237142a`
+  - Claim type: `technical pattern`
+  - Status: `supported`
+  - Source count: `7`
+  - Evidence strength: `moderate`
+  - Source quality: `B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_5a8499d47c592e8024d1, ent_65e84ce1e7085cfcc9a7, ent_e748f8750672ca8b04b2, ent_83ca68be6227af2feb15, ent_ae2328efd52d65f6c593`
+  - Contradiction status: `not_checked`
+  - Editor note: Editor-approved book framing derived from public loop articles.
+  - Publication decision: `approved_for_author_use`
+  - Current best understanding: A useful loop-engineering chapter can therefore focus on loop boundaries, observability, evaluation, and safe handoff instead of claiming that prompts have disappeared.
+  - Source IDs:
+    - `src_3eb174da3717ef674f19` — Loop Engineering Explained Visually - by The Cloud Girl
+      - Quality: `B`
+      - URL: https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/09-loop-engineering-explained-visually-by-the-cloud-girl.md`
+    - `src_80c8c50e6406c7e7fc95` — Agentic Loops: From ReAct to Loop Engineering (2026 Guide)
+      - Quality: `B`
+      - URL: https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/02-agentic-loops-from-react-to-loop-engineering-2026-guide.md`
+
+- **An agentic loop can be framed as a repeated AI-agent cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange.**
+  - Claim ID: `claim_e70e457fe86070a8fd37`
+  - Claim type: `definition`
+  - Status: `supported`
+  - Source count: `7`
+  - Evidence strength: `moderate`
+  - Source quality: `B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_5a8499d47c592e8024d1, ent_65e84ce1e7085cfcc9a7, ent_e748f8750672ca8b04b2, ent_83ca68be6227af2feb15, ent_ae2328efd52d65f6c593`
+  - Contradiction status: `not_checked`
+  - Editor note: Curator selected public web articles that explicitly discuss agentic loops and loop engineering; Editor limits this to a framing claim, not a universal definition.
+  - Publication decision: `approved_for_author_use`
+  - Current best understanding: An agentic loop can be framed as a repeated AI-agent cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange.
+  - Source IDs:
+    - `src_3eb174da3717ef674f19` — Loop Engineering Explained Visually - by The Cloud Girl
+      - Quality: `B`
+      - URL: https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/09-loop-engineering-explained-visually-by-the-cloud-girl.md`
+    - `src_80c8c50e6406c7e7fc95` — Agentic Loops: From ReAct to Loop Engineering (2026 Guide)
+      - Quality: `B`
+      - URL: https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/02-agentic-loops-from-react-to-loop-engineering-2026-guide.md`
+
 ## Weakly Supported claims
 
+### Evidence strength: moderate
+
+- **Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition.**
+  - Claim ID: `claim_e7d6ee3688838c30894a`
+  - Claim type: `trend`
+  - Status: `weakly_supported`
+  - Source count: `18`
+  - Evidence strength: `moderate`
+  - Source quality: `B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_21d5d5a61524738c6a10, ent_5a8499d47c592e8024d1, ent_7d8fb759631436715e51, ent_65e84ce1e7085cfcc9a7, ent_e748f8750672ca8b04b2, ent_83ca68be6227af2feb15, ent_ae2328efd52d65f6c593, ent_135b9c27e99724e86c66`
+  - Contradiction status: `not_checked`
+  - Editor note: Caveated trend claim; avoids hype and avoids LinkedIn as authority.
+  - Publication decision: `use_with_caveat`
+  - Current best understanding: Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition.
+  - Source IDs:
+    - `src_384bcc1123ee303676b1` — Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium
+      - Quality: `B`
+      - URL: https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8
+      - Archive: `web/manual-20260611T173313Z/loop-engineer-ai/01-loop-engineering-playbook-where-loops-live-how-to-run-your-f.md`
+    - `src_3eb174da3717ef674f19` — Loop Engineering Explained Visually - by The Cloud Girl
+      - Quality: `B`
+      - URL: https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/09-loop-engineering-explained-visually-by-the-cloud-girl.md`
+    - `src_80c8c50e6406c7e7fc95` — Agentic Loops: From ReAct to Loop Engineering (2026 Guide)
+      - Quality: `B`
+      - URL: https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/02-agentic-loops-from-react-to-loop-engineering-2026-guide.md`
+    - `src_916fb39c4634f0adc248` — From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium
+      - Quality: `B`
+      - URL: https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/08-from-prompt-engineering-to-loop-engineering-why-the-agent-er.md`
+
+- **For production use, the available loop-engineering material points toward operational concerns: checks, monitoring, repeated execution, and explicit boundaries around autonomous work.**
+  - Claim ID: `claim_b5388c22f8bd29e69cab`
+  - Claim type: `technical pattern`
+  - Status: `weakly_supported`
+  - Source count: `15`
+  - Evidence strength: `moderate`
+  - Source quality: `B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_21d5d5a61524738c6a10, ent_5a8499d47c592e8024d1, ent_7d8fb759631436715e51, ent_83ca68be6227af2feb15, ent_ae2328efd52d65f6c593, ent_e748f8750672ca8b04b2, ent_135b9c27e99724e86c66, ent_2be23c585f15e5fd3279`
+  - Contradiction status: `not_checked`
+  - Editor note: Caveated operations framing from public loop-engineering articles; needs deeper ops/evals sources later.
+  - Publication decision: `use_with_caveat`
+  - Current best understanding: For production use, the available loop-engineering material points toward operational concerns: checks, monitoring, repeated execution, and explicit boundaries around autonomous work.
+  - Source IDs:
+    - `src_384bcc1123ee303676b1` — Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium
+      - Quality: `B`
+      - URL: https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8
+      - Archive: `web/manual-20260611T173313Z/loop-engineer-ai/01-loop-engineering-playbook-where-loops-live-how-to-run-your-f.md`
+    - `src_80c8c50e6406c7e7fc95` — Agentic Loops: From ReAct to Loop Engineering (2026 Guide)
+      - Quality: `B`
+      - URL: https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/02-agentic-loops-from-react-to-loop-engineering-2026-guide.md`
+    - `src_916fb39c4634f0adc248` — From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium
+      - Quality: `B`
+      - URL: https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/08-from-prompt-engineering-to-loop-engineering-why-the-agent-er.md`
+
+- **Current loop-engineering commentary often contrasts one-off prompting with systems that repeatedly plan, execute, evaluate, and adjust work.**
+  - Claim ID: `claim_30635eb08d3229343f7a`
+  - Claim type: `technical pattern`
+  - Status: `weakly_supported`
+  - Source count: `9`
+  - Evidence strength: `moderate`
+  - Source quality: `B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_21d5d5a61524738c6a10, ent_5a8499d47c592e8024d1, ent_7d8fb759631436715e51, ent_c7335a4733ffccc2a7da, ent_83ca68be6227af2feb15, ent_ae2328efd52d65f6c593, ent_e748f8750672ca8b04b2`
+  - Contradiction status: `not_checked`
+  - Editor note: Supported by commentary cluster; phrase remains caveated as current commentary.
+  - Publication decision: `use_with_caveat`
+  - Current best understanding: Current loop-engineering commentary often contrasts one-off prompting with systems that repeatedly plan, execute, evaluate, and adjust work.
+  - Source IDs:
+    - `src_384bcc1123ee303676b1` — Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium
+      - Quality: `B`
+      - URL: https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8
+      - Archive: `web/manual-20260611T173313Z/loop-engineer-ai/01-loop-engineering-playbook-where-loops-live-how-to-run-your-f.md`
+    - `src_7387e00f4d0e7dbf7fee` — Loop Engineering Playbook
+      - Quality: `B`
+      - URL: https://cobusgreyling.substack.com/p/loop-engineering-playbook
+      - Archive: `web/manual-20260611T173313Z/loop-engineer-ai/06-loop-engineering-playbook.md`
+    - `src_80c8c50e6406c7e7fc95` — Agentic Loops: From ReAct to Loop Engineering (2026 Guide)
+      - Quality: `B`
+      - URL: https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/
+      - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/02-agentic-loops-from-react-to-loop-engineering-2026-guide.md`
+
 ### Evidence strength: weak
+
+- **The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources.**
+  - Claim ID: `claim_dd8623e9077b66a8ce0f`
+  - Claim type: `technical pattern`
+  - Status: `weakly_supported`
+  - Source count: `12`
+  - Evidence strength: `weak`
+  - Source quality: `A/B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_460dfdcd58cf34bab98a, ent_6896191a14f6c66534ba, ent_bdf6dd1be6dada91b64c, ent_18661e0d5aa5eab5107d, ent_54400eb8ba08d8fe7992, ent_6d4d6ce55de3341604aa`
+  - Contradiction status: `not_checked`
+  - Editor note: Caveated because one source is Hermes-related and one is a general agent-memory tutorial.
+  - Publication decision: `use_with_caveat`
+  - Current best understanding: The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources.
+  - Source IDs:
+    - `src_bebe03beb8a33c199ce8` — How to Set Up GBrain: A Simple Tutorial for AI Agent Memory
+      - Quality: `B`
+      - URL: https://www.teknoding.com/2026/06/how-to-set-up-gbrain-simple-tutorial.html
+      - Archive: `web/manual-20260611T173313Z/openclaw-hermes/06-how-to-set-up-gbrain-a-simple-tutorial-for-ai-agent-memory.md`
+    - `src_45d026189270d1762fad` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
+      - Quality: `A`
+      - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
+      - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
 
 - **‼️We Are Hiring - Information System Supervisor Lark 📍Location: South Jakarta 💼Employment Type: Full-time 📌Job Responsibilities: - Develop L "OpenClaw" Hermes.**
   - Claim ID: `claim_ea9d059407012496c795`
@@ -771,6 +1043,26 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_e0fc0899bb808733c790` — Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. If you're only using persona
       - Quality: `D`
       - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/114-dbae97ed2b71b630dfb0.md`
+
+- **The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption.**
+  - Claim ID: `claim_e78f4a9e460847251f42`
+  - Claim type: `limitation`
+  - Status: `weakly_supported`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `A/B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c0b0109d9439de57fe3c, ent_dbfb925b0e0636e18b26`
+  - Contradiction status: `not_checked`
+  - Editor note: Editor caveat based on available source mix and blocked social/comparison snippets.
+  - Publication decision: `use_with_caveat`
+  - Current best understanding: The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption.
+  - Source IDs:
+    - `src_b364e090655731640be0` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+      - Quality: `A`
+      - URL: https://github.com/openclaw/openclaw
+      - Archive: `web/manual-20260611T173313Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
 
 - **The harness is the plumbing around the mode "loop engineering".**
   - Claim ID: `claim_575a25c64241641a51d4`
@@ -1464,6 +1756,30 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
 
 ### Evidence strength: unknown
 
+- **The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources.**
+  - Claim ID: `claim_dd8623e9077b66a8ce0f`
+  - Claim type: `technical pattern`
+  - Status: `weakly_supported`
+  - Source count: `12`
+  - Evidence strength: `weak`
+  - Source quality: `A/B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3eee4f30151db45a6507, ent_460dfdcd58cf34bab98a, ent_6896191a14f6c66534ba, ent_bdf6dd1be6dada91b64c, ent_18661e0d5aa5eab5107d, ent_54400eb8ba08d8fe7992, ent_6d4d6ce55de3341604aa`
+  - Contradiction status: `not_checked`
+  - Editor note: Caveated because one source is Hermes-related and one is a general agent-memory tutorial.
+  - Publication decision: `use_with_caveat`
+  - Current best understanding: The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources.
+  - Source IDs:
+    - `src_bebe03beb8a33c199ce8` — How to Set Up GBrain: A Simple Tutorial for AI Agent Memory
+      - Quality: `B`
+      - URL: https://www.teknoding.com/2026/06/how-to-set-up-gbrain-simple-tutorial.html
+      - Archive: `web/manual-20260611T173313Z/openclaw-hermes/06-how-to-set-up-gbrain-a-simple-tutorial-for-ai-agent-memory.md`
+    - `src_45d026189270d1762fad` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
+      - Quality: `A`
+      - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
+      - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
+
 - **‼️We Are Hiring - Information System Supervisor Lark 📍Location: South Jakarta 💼Employment Type: Full-time 📌Job Responsibilities: - Develop L "OpenClaw" Hermes.**
   - Claim ID: `claim_ea9d059407012496c795`
   - Claim type: `observation`
@@ -2210,6 +2526,26 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_e0fc0899bb808733c790` — Starting with the rise of OpenClaw and Hermes earlier this year, the adoption of shared agents is accelerating. If you're only using persona
       - Quality: `D`
       - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/114-dbae97ed2b71b630dfb0.md`
+
+- **The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption.**
+  - Claim ID: `claim_e78f4a9e460847251f42`
+  - Claim type: `limitation`
+  - Status: `weakly_supported`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `A/B`
+  - First seen: `2026-06-12T13:27:03Z`
+  - Last seen: `2026-06-12T13:27:03Z`
+  - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c0b0109d9439de57fe3c, ent_dbfb925b0e0636e18b26`
+  - Contradiction status: `not_checked`
+  - Editor note: Editor caveat based on available source mix and blocked social/comparison snippets.
+  - Publication decision: `use_with_caveat`
+  - Current best understanding: The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption.
+  - Source IDs:
+    - `src_b364e090655731640be0` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+      - Quality: `A`
+      - URL: https://github.com/openclaw/openclaw
+      - Archive: `web/manual-20260611T173313Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
 
 - **The harness is the plumbing around the mode "loop engineering".**
   - Claim ID: `claim_575a25c64241641a51d4`
@@ -2999,7 +3335,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_4162e845a2d0111f2772, ent_5a8499d47c592e8024d1, ent_68e6d3ac885f64cc456f, ent_a2f7c635002aa981cab2, ent_d1278d327f58356f9c0e, ent_e9acff1bccde0d17e96b, ent_f7beb5d42c12c9470ec0`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3019,7 +3355,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_02339a8bd70efafb0057, ent_12aac20831933a647e78, ent_1f03bb5f0ca82ef59ff3, ent_5a8499d47c592e8024d1, ent_77662d61cef6a9498ad0, ent_cf07194ee232eb531e15, ent_f7892928fe0fd85ee6f8`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3038,7 +3374,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_2d4bb1d26a567d4fe61d, ent_3fc9b689459d738f8c88, ent_5a8499d47c592e8024d1, ent_f8fd8e84e5d029290a7d`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3057,7 +3393,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_cd4bdb83cadc4e5852e7, ent_f56cef391d2e3fe98268`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3077,7 +3413,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_a6b46dd0d1ae5e86cbc8, ent_b71199ebd070b36beab7, ent_cdc29937887188ad3702`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3096,7 +3432,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_b22d1d8fe57525339540, ent_c044215e7b91f66e5050`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3115,7 +3451,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_e3b3a8e6a5dfdf484a46`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3134,7 +3470,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3154,7 +3490,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3175,7 +3511,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_4162e845a2d0111f2772, ent_5a8499d47c592e8024d1, ent_68e6d3ac885f64cc456f, ent_a2f7c635002aa981cab2, ent_d1278d327f58356f9c0e, ent_e9acff1bccde0d17e96b, ent_f7beb5d42c12c9470ec0`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3195,7 +3531,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_02339a8bd70efafb0057, ent_12aac20831933a647e78, ent_1f03bb5f0ca82ef59ff3, ent_5a8499d47c592e8024d1, ent_77662d61cef6a9498ad0, ent_cf07194ee232eb531e15, ent_f7892928fe0fd85ee6f8`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3214,7 +3550,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_2d4bb1d26a567d4fe61d, ent_3fc9b689459d738f8c88, ent_5a8499d47c592e8024d1, ent_f8fd8e84e5d029290a7d`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3233,7 +3569,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_cd4bdb83cadc4e5852e7, ent_f56cef391d2e3fe98268`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3253,7 +3589,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_a6b46dd0d1ae5e86cbc8, ent_b71199ebd070b36beab7, ent_cdc29937887188ad3702`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3272,7 +3608,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_b22d1d8fe57525339540, ent_c044215e7b91f66e5050`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3291,7 +3627,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_e3b3a8e6a5dfdf484a46`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3310,7 +3646,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required
@@ -3330,7 +3666,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-12T01:19:56Z`
-  - Last seen: `2026-06-12T12:56:20Z`
+  - Last seen: `2026-06-12T13:27:24Z`
   - Related entities: `ent_5a8499d47c592e8024d1`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; caveat required

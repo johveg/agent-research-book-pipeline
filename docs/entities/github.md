@@ -1,6 +1,6 @@
 # GitHub
 
-Last generated: 2026-06-12T12:56:20Z
+Last generated: 2026-06-12T13:27:24Z
 
 - Type: `concept`
 - Confidence: `high`
@@ -15,7 +15,7 @@ Candidate concept entity extracted from 7 source(s).
 
 ## Related claims
 
-No related claim records yet.
+- **supported / moderate** — OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms. (`claim_30a3512e03d11f97d551`)
 
 ## Source references
 

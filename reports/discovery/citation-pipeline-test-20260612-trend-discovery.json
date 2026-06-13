@@ -1,156 +1,186 @@
 {
   "candidates": [
     {
-      "count": 2505,
-      "term": "hashtag",
+      "count": 491,
+      "doc_count": 465,
+      "term": "send",
       "term_type": "word"
     },
     {
-      "count": 1275,
-      "term": "urn",
+      "count": 473,
+      "doc_count": 437,
+      "term": "repost",
+      "term_type": "word"
+    },
+    {
+      "count": 437,
+      "doc_count": 437,
+      "term": "repost send",
+      "term_type": "phrase"
+    },
+    {
+      "count": 387,
+      "doc_count": 387,
+      "term": "afsd",
+      "term_type": "word"
+    },
+    {
+      "count": 387,
+      "doc_count": 387,
+      "term": "ali afsd",
+      "term_type": "phrase"
+    },
+    {
+      "count": 395,
+      "doc_count": 262,
+      "term": "just",
+      "term_type": "word"
+    },
+    {
+      "count": 443,
+      "doc_count": 248,
+      "term": "image",
+      "term_type": "word"
+    },
+    {
+      "count": 452,
+      "doc_count": 226,
+      "term": "view",
+      "term_type": "word"
+    },
+    {
+      "count": 236,
+      "doc_count": 225,
+      "term": "activity",
+      "term_type": "word"
+    },
+    {
+      "count": 412,
+      "doc_count": 221,
+      "term": "larger",
+      "term_type": "word"
+    },
+    {
+      "count": 404,
+      "doc_count": 217,
+      "term": "activate",
       "term_type": "word"
     },
     {
       "count": 855,
+      "doc_count": 216,
       "term": "claude",
       "term_type": "word"
     },
     {
-      "count": 832,
-      "term": "https",
-      "term_type": "word"
-    },
-    {
-      "count": 814,
-      "term": "model",
-      "term_type": "word"
-    },
-    {
-      "count": 805,
-      "term": "search",
-      "term_type": "word"
-    },
-    {
-      "count": 766,
-      "term": "text",
-      "term_type": "word"
-    },
-    {
-      "count": 724,
-      "term": "url",
-      "term_type": "word"
-    },
-    {
-      "count": 713,
-      "term": "query",
-      "term_type": "word"
-    },
-    {
-      "count": 708,
-      "term": "like",
-      "term_type": "word"
-    },
-    {
-      "count": 703,
-      "term": "captured",
-      "term_type": "word"
-    },
-    {
-      "count": 703,
-      "term": "captured t01",
+      "count": 400,
+      "doc_count": 213,
+      "term": "activate view",
       "term_type": "phrase"
     },
     {
-      "count": 703,
-      "term": "t01",
-      "term_type": "word"
-    },
-    {
-      "count": 700,
-      "term": "result",
-      "term_type": "word"
-    },
-    {
-      "count": 684,
-      "term": "visible",
-      "term_type": "word"
-    },
-    {
-      "count": 668,
-      "term": "captured t01 url",
+      "count": 400,
+      "doc_count": 213,
+      "term": "activate view larger",
       "term_type": "phrase"
     },
     {
-      "count": 668,
-      "term": "query captured",
+      "count": 400,
+      "doc_count": 213,
+      "term": "larger image",
       "term_type": "phrase"
     },
     {
-      "count": 668,
-      "term": "query captured t01",
+      "count": 400,
+      "doc_count": 213,
+      "term": "view larger",
       "term_type": "phrase"
     },
     {
-      "count": 668,
-      "term": "result query",
+      "count": 400,
+      "doc_count": 213,
+      "term": "view larger image",
       "term_type": "phrase"
-    },
-    {
-      "count": 668,
-      "term": "result query captured",
-      "term_type": "phrase"
-    },
-    {
-      "count": 668,
-      "term": "search result",
-      "term_type": "phrase"
-    },
-    {
-      "count": 668,
-      "term": "search result query",
-      "term_type": "phrase"
-    },
-    {
-      "count": 668,
-      "term": "t01 url",
-      "term_type": "phrase"
-    },
-    {
-      "count": 668,
-      "term": "visible text",
-      "term_type": "phrase"
-    },
-    {
-      "count": 578,
-      "term": "skills",
-      "term_type": "word"
     },
     {
       "count": 563,
+      "doc_count": 212,
       "term": "code",
       "term_type": "word"
     },
     {
-      "count": 555,
-      "term": "models",
+      "count": 464,
+      "doc_count": 210,
+      "term": "every",
       "term_type": "word"
     },
     {
-      "count": 542,
-      "term": "one",
+      "count": 273,
+      "doc_count": 199,
+      "term": "lnkd.in",
       "term_type": "word"
     },
     {
-      "count": 526,
-      "term": "comment",
+      "count": 271,
+      "doc_count": 185,
+      "term": "building",
       "term_type": "word"
     },
     {
-      "count": 505,
-      "term": "url https",
+      "count": 358,
+      "doc_count": 184,
+      "term": "work",
+      "term_type": "word"
+    },
+    {
+      "count": 325,
+      "doc_count": 183,
+      "term": "loops",
+      "term_type": "word"
+    },
+    {
+      "count": 260,
+      "doc_count": 181,
+      "term": "real",
+      "term_type": "word"
+    },
+    {
+      "count": 294,
+      "doc_count": 170,
+      "term": "through",
+      "term_type": "word"
+    },
+    {
+      "count": 287,
+      "doc_count": 168,
+      "term": "full",
+      "term_type": "word"
+    },
+    {
+      "count": 163,
+      "doc_count": 163,
+      "term": "image repost",
       "term_type": "phrase"
+    },
+    {
+      "count": 163,
+      "doc_count": 163,
+      "term": "larger image repost",
+      "term_type": "phrase"
+    },
+    {
+      "count": 214,
+      "doc_count": 161,
+      "term": "still",
+      "term_type": "word"
+    },
+    {
+      "count": 182,
+      "doc_count": 159,
+      "term": "here",
+      "term_type": "word"
     }
   ],
-  "generated_at": "2026-06-13T01:27:14Z",
+  "generated_at": "2026-06-13T07:47:15Z",
   "run_id": "citation-pipeline-test-20260612"
 }

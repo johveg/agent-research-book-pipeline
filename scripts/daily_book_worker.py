@@ -224,10 +224,14 @@ def main() -> int:
             if args.no_commit:
                 commit = {"status": "skipped", "reason": "--no-commit"}
             else:
-                # If blocked, this commit is still allowed to publish safe status/research/report updates, not new Author chapter prose.
+                # If blocked, commit only safe status/research/report/tooling updates.
+                # Never stage docs/book chapter prose while the Editor gate is blocked.
+                safe_paths = ["reports", "data/search_config.json", "data/schema.sql", "data/chroma_manifest.json", "data/source_registry.json", ".github", "mkdocs.yml", "README.md", ".gitignore", ".env.example", "scripts", "tests", "docs/research", "docs/entities", "docs/reports", "docs/operations"]
+                if status != "blocked":
+                    safe_paths.append("docs/book")
                 commit = git_commit_push(
                     f"research: daily book pipeline update {run_id}",
-                    ["docs", "reports", "data/search_config.json", "data/schema.sql", "data/chroma_manifest.json", "data/source_registry.json", ".github", "mkdocs.yml", "README.md", ".gitignore", ".env.example", "scripts", "tests"],
+                    safe_paths,
                 )
             write_json(commit_json, commit)
             # Regenerate summary after commit so the run output contains the commit hash when available.

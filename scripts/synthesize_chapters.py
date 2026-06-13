@@ -113,6 +113,7 @@ def find_claims(con, terms: list[str], approved_only: bool = True):
       HAVING (? = 0) OR SUM(CASE
           WHEN COALESCE(s.privacy_publication_status,'') != 'human_review'
            AND COALESCE(s.title,'') != ''
+           AND COALESCE(s.source_type,'') NOT IN ('linkedin_search_result','social','post')
           THEN 1 ELSE 0 END) > 0
       ORDER BY CASE c.status WHEN 'supported' THEN 0 ELSE 1 END,
                CASE c.evidence_strength WHEN 'strong' THEN 0 WHEN 'moderate' THEN 1 ELSE 2 END,
@@ -129,15 +130,17 @@ def citation_tokens(source_ids: str | None, limit: int = 5) -> str:
 
 def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: int, now: str) -> None:
     lines = [f"# {title}", "", intro, "", "## Current evidence status", ""]
+    mapped=[]
     if claims:
         lines.append("The following points are synthesized only from claim records whose status allows Author use:")
         lines.append("")
-        for c in claims:
+        for idx, c in enumerate(claims, start=1):
             caveat = "Current evidence suggests: " if c["status"] == "weakly_supported" else ""
             cites = citation_tokens(c["source_ids"])
             if not cites:
                 cites = "[unresolved citation]"
             lines.append(f"- {caveat}{c['claim_text']} {cites} (status `{c['status']}`, {c['evidence_strength'] or 'weak'} evidence)")
+            mapped.append((idx, c, cites))
     else:
         lines.append("No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.")
         lines.append("")
@@ -146,11 +149,20 @@ def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: i
         "",
         "## Source/claim mapping",
         "",
-        "Every factual bullet above is generated with structured citation tokens and must resolve to numbered references before publication. If any token cannot resolve to canonical source metadata, the chapter remains in not-ready status.",
+        "Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.",
         "",
+    ]
+    if mapped:
+        for idx, c, cites in mapped:
+            claim_kind = "caveated weak claim" if c["status"] == "weakly_supported" else "supported claim"
+            lines.append(f"- Bullet {idx} maps to {claim_kind}: “{c['claim_text']}”; source tokens: {cites}.")
+        lines.append("")
+    else:
+        lines += ["- No factual bullets were published for this chapter update.", ""]
+    lines += [
         "## Editor notes",
         "",
-        "Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated.",
+        "Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.",
         "",
         "## Changelog",
         "",
@@ -158,7 +170,7 @@ def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: i
         "",
         "## Editorial policy",
         "",
-        f"Last generated: {now}. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.",
+        f"Last generated: {now}. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.",
     ]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

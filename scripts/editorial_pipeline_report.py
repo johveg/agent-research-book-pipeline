@@ -31,7 +31,12 @@ ALLOWED_CLAIM_STATUSES = {"candidate", "needs_review", "supported", "weakly_supp
 ALLOWED_CLAIM_TYPES = {"definition", "observation", "trend", "technical pattern", "risk", "limitation", "example", "contradiction", "interpretation", "open question"}
 PROSE_ALLOWED_STATUSES = {"supported", "weakly_supported", "promoted_to_chapter"}
 HYPE_WORDS = ["revolutionary", "game-changing", "unlock", "unleash", "transformative", "disruptive", "paradigm shift", "next-generation", "groundbreaking", "frictionless", "magical"]
-GENERIC_TREND_BITS = {"https", "http", "urn", "hashtag", "query", "search", "result", "results", "linkedin", "visible", "captured", "source", "sources"}
+GENERIC_TREND_BITS = {
+    "https", "http", "www", "com", "urn", "hashtag", "query", "search", "result", "results",
+    "linkedin", "visible", "captured", "source", "sources", "text", "url", "href", "profile",
+    "miniprofileurn", "feed", "post", "follow", "followers", "comment", "like", "share",
+    "captured t01", "t01", "markdown", "metadata", "archive", "captured_at", "published_at",
+}
 SOCIAL_TYPES = {"linkedin_search_result", "social", "post"}
 
 
@@ -237,9 +242,13 @@ def review_claims(con):
         elif strong >= 1 and linked >= 1 and status in {"candidate"}:
             status="needs_review"; notes.append("has A/B support but needs Editor review before promotion")
         elif social >= linked and strong == 0:
-            if status in {"candidate", "needs_review", "supported", "promoted_to_chapter"}:
-                status="weakly_supported"
-            notes.append("social/search-result evidence only; caveat required")
+            # LinkedIn/social/search-result material is discovery signal only.
+            # It may help a curator decide what to investigate next, but it is
+            # not independent confirmation and must not become Author-usable
+            # prose unless stronger non-social sources support the same claim.
+            if status in {"supported", "weakly_supported", "promoted_to_chapter"}:
+                status="needs_review"
+            notes.append("social/search-result evidence only; discovery signal only; not independent confirmation")
         elif low >= linked:
             status="rejected"; notes.append("only low-quality/noisy sources")
         elif status == "candidate":
@@ -379,10 +388,11 @@ def trend_decisions(run_id: str, con):
         term=(c.get("term") or "").strip()
         low=term.lower()
         count=c.get("count", 0)
-        if not term or low in GENERIC_TREND_BITS or any(part in GENERIC_TREND_BITS for part in re.split(r"\W+", low)):
+        parts=[part for part in re.split(r"\W+", low) if part]
+        if not term or low in GENERIC_TREND_BITS or any(part in GENERIC_TREND_BITS for part in parts):
             decision="reject"; reason="generic/platform boilerplate"
-        elif count < 3:
-            decision="monitor"; reason="weak signal"
+        elif count < 3 or int(c.get("doc_count") or 0) < 2:
+            decision="monitor"; reason="weak signal; needs repeated evidence across sources"
         elif len(term.split()) == 1 and low in {"agent", "agents", "ai", "automation", "workflow", "engineering"}:
             decision="reject"; reason="too broad"
         else:
@@ -417,6 +427,14 @@ def claim_metadata_issues(con):
     return issues
 
 
+def _section(text: str, heading: str) -> str:
+    marker=f"## {heading}"
+    if marker not in text:
+        return ""
+    tail=text.split(marker, 1)[1]
+    return re.split(r"\n## ", tail, maxsplit=1)[0]
+
+
 def chapter_update_gate(con):
     errors=[]; warnings=[]; updated=[]
     author_acceptance={}
@@ -428,8 +446,14 @@ def chapter_update_gate(con):
             not_ready=True
         else:
             not_ready=False
-        bullets=[ln for ln in text.splitlines() if ln.startswith("- ")]
-        has_mapping=bool(re.search(r"`(claim_[a-f0-9]{20}|src_[a-f0-9]{20})`", text))
+        evidence_section=_section(text, "Current evidence status")
+        bullets=[ln for ln in evidence_section.splitlines() if ln.startswith("- ")]
+        mapping_section=_section(text, "Source/claim mapping")
+        has_legacy_mapping=bool(re.search(r"`(claim_[a-f0-9]{20}|src_[a-f0-9]{20})`", text))
+        bullet_count=len(bullets)
+        mapped_bullets=len(set(re.findall(r"Bullet\s+(\d+)\s+maps", mapping_section)))
+        cited_bullets=sum(1 for ln in bullets if re.search(r"\[\d+\]", ln) and "status `" in ln)
+        has_mapping=has_legacy_mapping or (bullet_count > 0 and mapped_bullets >= bullet_count and cited_bullets == bullet_count)
         if bullets and not has_mapping and not not_ready:
             errors.append(f"{p.relative_to(DOCS)} has claim-like bullets without claim/source mapping")
         if "Last generated" in text:
@@ -442,14 +466,14 @@ def chapter_update_gate(con):
                 "unsupported_claims_removed": True,
                 "no_generic_ai_filler": "as an ai" not in text.lower() and "in conclusion" not in text.lower(),
                 "no_hype_language": not any(w in text.lower() for w in HYPE_WORDS),
-                "source_claim_mapping_included": "## Source/claim mapping" in text,
+                "source_claim_mapping_included": has_mapping or not_ready,
                 "editor_notes_included": "## Editor notes" in text,
                 "changelog_included": "## Changelog" in text,
             }
         if not_ready:
             continue
         lower=text.lower()
-        if "linkedin" in lower and "weak signal" not in lower and "aggregate signal" not in lower and "social/search-result evidence only" not in lower:
+        if "linkedin" in lower and "weak signal" not in lower and "discovery signal" not in lower and "aggregate signal" not in lower and "social/search-result evidence only" not in lower:
             errors.append(f"{p.relative_to(DOCS)} may treat LinkedIn/social material as proof without caveat")
         if "placeholder" in lower and "not ready" not in lower and "no publishable chapter update is recommended" not in lower:
             errors.append(f"{p.relative_to(DOCS)} contains placeholder-only language without explanation")

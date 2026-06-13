@@ -240,7 +240,7 @@ def main() -> int:
     book_acceptance["no_unsafe_files_staged"] = not unsafe_staged
     book_acceptance["no_credentials_or_unsafe_logs_committed"] = not raw_tracked and not unsafe_staged
 
-    build=run([sys.executable,"-m","mkdocs","build","--strict"])
+    build=run(["mkdocs","build","--strict"])
     build_result={"returncode": build["returncode"], "stdout_tail": build["stdout"][-2000:], "stderr_tail": build["stderr"][-4000:]}
     if build["returncode"] != 0:
         errors.append("mkdocs build --strict failed")

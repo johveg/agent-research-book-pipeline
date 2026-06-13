@@ -6,20 +6,22 @@ This page records unresolved questions and weak signals that need more evidence.
 
 No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.
 
-Claims matching this chapter but not usable in prose: 1.
+Claims matching this chapter but not usable in prose: 2.
 
 ## Source/claim mapping
 
-Every factual bullet above is generated with structured citation tokens and must resolve to numbered references before publication. If any token cannot resolve to canonical source metadata, the chapter remains in not-ready status.
+Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.
+
+- No factual bullets were published for this chapter update.
 
 ## Editor notes
 
-Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated.
+Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.
 
 ## Changelog
 
-- 2026-06-12T13:27:24Z: conservative evidence-status regeneration for run context.
+- 2026-06-13T09:57:40Z: conservative evidence-status regeneration for run context.
 
 ## Editorial policy
 
-Last generated: 2026-06-12T13:27:24Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
+Last generated: 2026-06-13T09:57:40Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.

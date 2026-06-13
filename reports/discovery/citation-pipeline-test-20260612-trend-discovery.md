@@ -1,41 +1,41 @@
 # Trend discovery
 
 - Run: `citation-pipeline-test-20260612`
-- Generated: 2026-06-13T01:27:14Z
+- Generated: 2026-06-13T07:47:15Z
 
 ## Candidate terms/phrases
 
-- **hashtag** — 2505 mentions (word)
-- **urn** — 1275 mentions (word)
-- **claude** — 855 mentions (word)
-- **https** — 832 mentions (word)
-- **model** — 814 mentions (word)
-- **search** — 805 mentions (word)
-- **text** — 766 mentions (word)
-- **url** — 724 mentions (word)
-- **query** — 713 mentions (word)
-- **like** — 708 mentions (word)
-- **captured** — 703 mentions (word)
-- **captured t01** — 703 mentions (phrase)
-- **t01** — 703 mentions (word)
-- **result** — 700 mentions (word)
-- **visible** — 684 mentions (word)
-- **captured t01 url** — 668 mentions (phrase)
-- **query captured** — 668 mentions (phrase)
-- **query captured t01** — 668 mentions (phrase)
-- **result query** — 668 mentions (phrase)
-- **result query captured** — 668 mentions (phrase)
-- **search result** — 668 mentions (phrase)
-- **search result query** — 668 mentions (phrase)
-- **t01 url** — 668 mentions (phrase)
-- **visible text** — 668 mentions (phrase)
-- **skills** — 578 mentions (word)
-- **code** — 563 mentions (word)
-- **models** — 555 mentions (word)
-- **one** — 542 mentions (word)
-- **comment** — 526 mentions (word)
-- **url https** — 505 mentions (phrase)
+- **send** — 491 mentions across 465 sources (word)
+- **repost** — 473 mentions across 437 sources (word)
+- **repost send** — 437 mentions across 437 sources (phrase)
+- **afsd** — 387 mentions across 387 sources (word)
+- **ali afsd** — 387 mentions across 387 sources (phrase)
+- **just** — 395 mentions across 262 sources (word)
+- **image** — 443 mentions across 248 sources (word)
+- **view** — 452 mentions across 226 sources (word)
+- **activity** — 236 mentions across 225 sources (word)
+- **larger** — 412 mentions across 221 sources (word)
+- **activate** — 404 mentions across 217 sources (word)
+- **claude** — 855 mentions across 216 sources (word)
+- **activate view** — 400 mentions across 213 sources (phrase)
+- **activate view larger** — 400 mentions across 213 sources (phrase)
+- **larger image** — 400 mentions across 213 sources (phrase)
+- **view larger** — 400 mentions across 213 sources (phrase)
+- **view larger image** — 400 mentions across 213 sources (phrase)
+- **code** — 563 mentions across 212 sources (word)
+- **every** — 464 mentions across 210 sources (word)
+- **lnkd.in** — 273 mentions across 199 sources (word)
+- **building** — 271 mentions across 185 sources (word)
+- **work** — 358 mentions across 184 sources (word)
+- **loops** — 325 mentions across 183 sources (word)
+- **real** — 260 mentions across 181 sources (word)
+- **through** — 294 mentions across 170 sources (word)
+- **full** — 287 mentions across 168 sources (word)
+- **image repost** — 163 mentions across 163 sources (phrase)
+- **larger image repost** — 163 mentions across 163 sources (phrase)
+- **still** — 214 mentions across 161 sources (word)
+- **here** — 182 mentions across 159 sources (word)
 
 ## Use
 
-These are candidates for human review before adding new recurring search terms.
+These are candidates for human review before adding new recurring search terms. LinkedIn/social captures are discovery signal only, not independent confirmation.

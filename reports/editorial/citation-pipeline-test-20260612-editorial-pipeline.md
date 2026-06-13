@@ -1,14 +1,14 @@
 # Editorial pipeline report
 
 - Run ID: `citation-pipeline-test-20260612`
-- Created: 2026-06-13T01:27:20Z
+- Created: 2026-06-13T07:52:25Z
 - Final status: `blocked`
 
 ## Counts
 
 - Sources: `945` {'linkedin_search_result': 868, 'web': 77}
 - Entities: `2332`
-- Claims: `146` {'needs_review': 2, 'supported': 6, 'weakly_supported': 138}
+- Claims: `146` {'needs_review': 135, 'supported': 6, 'weakly_supported': 5}
 - Source quality: `{'A': 17, 'B': 11, 'C': 45, 'D': 868, 'E': 4}`
 
 ## Source quality output
@@ -64,36 +64,36 @@
 
 ### New Candidate Trends
 
-- `{"term": "hashtag", "count": 2505, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "urn", "count": 1275, "decision": "reject", "reason": "generic/platform boilerplate"}`
+- `{"term": "send", "count": 491, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "repost", "count": 473, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "repost send", "count": 437, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "afsd", "count": 387, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "ali afsd", "count": 387, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "just", "count": 395, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "image", "count": 443, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "view", "count": 452, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "activity", "count": 236, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "larger", "count": 412, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "activate", "count": 404, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
 - `{"term": "claude", "count": 855, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "https", "count": 832, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "model", "count": 814, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "search", "count": 805, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "text", "count": 766, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "url", "count": 724, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "query", "count": 713, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "like", "count": 708, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "captured", "count": 703, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "captured t01", "count": 703, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "t01", "count": 703, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "result", "count": 700, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "visible", "count": 684, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "captured t01 url", "count": 668, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "query captured", "count": 668, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "query captured t01", "count": 668, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "result query", "count": 668, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "result query captured", "count": 668, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "search result", "count": 668, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "search result query", "count": 668, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "t01 url", "count": 668, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "visible text", "count": 668, "decision": "reject", "reason": "generic/platform boilerplate"}`
-- `{"term": "skills", "count": 578, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "activate view", "count": 400, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "activate view larger", "count": 400, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "larger image", "count": 400, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "view larger", "count": 400, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "view larger image", "count": 400, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
 - `{"term": "code", "count": 563, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "models", "count": 555, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "one", "count": 542, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "comment", "count": 526, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
-- `{"term": "url https", "count": 505, "decision": "reject", "reason": "generic/platform boilerplate"}`
+- `{"term": "every", "count": 464, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "lnkd.in", "count": 273, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "building", "count": 271, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "work", "count": 358, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "loops", "count": 325, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "real", "count": 260, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "through", "count": 294, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "full", "count": 287, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "image repost", "count": 163, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "larger image repost", "count": 163, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "still", "count": 214, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
+- `{"term": "here", "count": 182, "decision": "monitor", "reason": "candidate trend requires curator/editor review"}`
 
 ### Claims Promoted
 
@@ -124,9 +124,9 @@
 
 ## Blocked-state output
 
-- Block reason: `["book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping", "book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat", "book/03-openclaw.md has claim-like bullets without claim/source mapping", "book/03-openclaw.md may treat LinkedIn/social material as proof without caveat", "book/04-loop-engineering.md has claim-like bullets without claim/source mapping", "book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat", "book/06-operating-loops.md has claim-like bullets without claim/source mapping", "book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat", "book/preface.md has claim-like bullets without claim/source mapping", "book/preface.md may treat LinkedIn/social material as proof without caveat", "book/01-the-agent-loop.md has claim-like bullets without claim/source mapping", "book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat", "book/02-hermes.md has claim-like bullets without claim/source mapping", "book/02-hermes.md may treat LinkedIn/social material as proof without caveat", "privacy review requires human review for some sources", "trend discovery is dominated by structural/platform noise"]`
+- Block reason: `["privacy review requires human review for some sources"]`
 - Affected files: `["book/05-context-memory-architecture.md", "book/03-openclaw.md", "book/04-loop-engineering.md", "book/06-operating-loops.md", "book/preface.md", "book/01-the-agent-loop.md", "book/open-questions.md", "book/02-hermes.md"]`
-- Failed checks: `["book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping", "book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat", "book/03-openclaw.md has claim-like bullets without claim/source mapping", "book/03-openclaw.md may treat LinkedIn/social material as proof without caveat", "book/04-loop-engineering.md has claim-like bullets without claim/source mapping", "book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat", "book/06-operating-loops.md has claim-like bullets without claim/source mapping", "book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat", "book/preface.md has claim-like bullets without claim/source mapping", "book/preface.md may treat LinkedIn/social material as proof without caveat", "book/01-the-agent-loop.md has claim-like bullets without claim/source mapping", "book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat", "book/02-hermes.md has claim-like bullets without claim/source mapping", "book/02-hermes.md may treat LinkedIn/social material as proof without caveat", "book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping", "book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat", "book/03-openclaw.md has claim-like bullets without claim/source mapping", "book/03-openclaw.md may treat LinkedIn/social material as proof without caveat", "book/04-loop-engineering.md has claim-like bullets without claim/source mapping", "book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat", "book/06-operating-loops.md has claim-like bullets without claim/source mapping", "book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat", "book/preface.md has claim-like bullets without claim/source mapping", "book/preface.md may treat LinkedIn/social material as proof without caveat", "book/01-the-agent-loop.md has claim-like bullets without claim/source mapping", "book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat", "book/02-hermes.md has claim-like bullets without claim/source mapping", "book/02-hermes.md may treat LinkedIn/social material as proof without caveat", "privacy review requires human review for some sources", "trend discovery is dominated by structural/platform noise"]`
+- Failed checks: `["privacy review requires human review for some sources"]`
 - Data collected: `true`
 - Data usable: `true`
 - Safely updated: `["safe status reports", "source index updates", "rejected trend lists", "quality warnings", "operational notes", "editor reports", "no chapter update notes"]`
@@ -134,18 +134,4 @@
 - Human review required: `true`
 - Human review reasons: `["privacy uncertainty", "trend promotion with weak evidence"]`
 - Blocked reasons:
-  - book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping
-  - book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat
-  - book/03-openclaw.md has claim-like bullets without claim/source mapping
-  - book/03-openclaw.md may treat LinkedIn/social material as proof without caveat
-  - book/04-loop-engineering.md has claim-like bullets without claim/source mapping
-  - book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat
-  - book/06-operating-loops.md has claim-like bullets without claim/source mapping
-  - book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat
-  - book/preface.md has claim-like bullets without claim/source mapping
-  - book/preface.md may treat LinkedIn/social material as proof without caveat
-  - book/01-the-agent-loop.md has claim-like bullets without claim/source mapping
-  - book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat
-  - book/02-hermes.md has claim-like bullets without claim/source mapping
-  - book/02-hermes.md may treat LinkedIn/social material as proof without caveat
-  - chapter publication blocked: book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping; book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat; book/03-openclaw.md has claim-like bullets without claim/source mapping; book/03-openclaw.md may treat LinkedIn/social material as proof without caveat; book/04-loop-engineering.md has claim-like bullets without claim/source mapping; book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat; book/06-operating-loops.md has claim-like bullets without claim/source mapping; book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat; book/preface.md has claim-like bullets without claim/source mapping; book/preface.md may treat LinkedIn/social material as proof without caveat; book/01-the-agent-loop.md has claim-like bullets without claim/source mapping; book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat
+  - chapter publication blocked: privacy review requires human review for some sources

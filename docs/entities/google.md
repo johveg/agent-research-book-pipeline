@@ -1,17 +1,17 @@
 # Google
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T10:12:39Z
-- Source count: 10
-- Mention count: 134
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 13
+- Mention count: 138
 
 ## Description
 
-Candidate tool entity extracted from 10 source(s).
+Candidate tool entity extracted from 4 source(s).
 
 ## Related claims
 
@@ -47,3 +47,11 @@ No related claim records yet.
 - `src_8df81083c2fdfed109a2` — Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 8h • Follow I just trained my Hermes Agent to scrape Google maps leads and find o
   - URL: https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/067-5702370ef17c40a3567c.md`
+- `src_8b9e0a15a0742267d32b` — Feed post Adalbert De La Cruz • 3rd+ AI Product Strategist @ Google | Founder of Clara | Teaching 1,500+ Builders How to Go From Idea to Pro
+  - URL: https://www.linkedin.com/in/addelacr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAoMDtsBdro3merp0FscWN2eD25Cd_urBpE
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/173-dd47b5c365c9b3044d66.md`
+- `src_47669204bff98f19f527` — The fact that Hermes agent ranks higher on Google than the brand lol
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/128-49b252e09d2e45b83ec9.md`
+- `src_6f10b21c549fe06ed7fc` — Feed post Marcus Motill • 3rd+ Measuring Agents @ Google 1h • Follow my hermes agent is suing my neighbor. well, at least the developer tryi
+  - URL: https://www.linkedin.com/in/marcus-motill?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-33wUBpvkaa9a0CN9mZ86P5ywAflEn6R8
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/008-b620d5e55c32923da175.md`

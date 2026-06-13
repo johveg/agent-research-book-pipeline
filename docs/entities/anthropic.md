@@ -1,22 +1,22 @@
 # Anthropic
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
-- Type: `company`
+- Type: `unknown`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T10:12:39Z
-- Source count: 6
-- Mention count: 90
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 10
+- Mention count: 95
 
 ## Description
 
-Candidate company entity extracted from 5 source(s).
+Candidate unknown entity extracted from 5 source(s).
 
 ## Related claims
 
 - **candidate / weak** — "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering "loop engineering". (`claim_0c76b2d0770ff1442eeb`)
-- **weakly_supported / weak** — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation "loop engineering". (`claim_35259524a830a49e0d38`)
+- **candidate / weak** — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation "loop engineering". (`claim_35259524a830a49e0d38`)
 - **weakly_supported / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
 
 ## Source references
@@ -35,3 +35,11 @@ Candidate company entity extracted from 5 source(s).
   - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/10-now-what-exactly-is-loop-engineering-and-where-do-anthropic.md`
 - `src_f424d9e9811643b6dbfc` — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/088-58a7b6d8973a442d3288.md`
+- `src_11d20b15535a0b4d864c` — Let's see how are doing the new "good practices" promoted by Anthropic. I repeat "loop engineering", REALLY? You are betting "all in" after 
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/160-e010d4db38dd8dde4b83.md`
+- `src_8570f66e01b3c57f01cb` — Loop Engineering El creador de Claude Code ya no escribe prompts. Escribe loops. Boris Cherny, Head de Claude Code en Anthropic, lo dijo en 
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/145-722ab4bb5b65b4bac2ee.md`
+- `src_f11b0e92bb361c5e92b8` — Yesterday I explained loop engineering. Today, how I actually use it. Unlike the guys at Anthropic, I don't have infinite tokens. So I start
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/099-22cbb697cf4b1f4b0dd1.md`
+- `src_59d1758fcdf8fd22b6dd` — Anthropic’s Fable 5 / Mythos 5 release is a good reminder that model quality is only one variable. If you’re running agents like Hermes or O
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/125-437f7950826d8c92118d.md`

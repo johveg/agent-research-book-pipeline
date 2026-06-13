@@ -1,20 +1,23 @@
 # Nous Research
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
-- Type: `concept`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T10:12:39Z
-- Source count: 24
-- Mention count: 296
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 35
+- Mention count: 309
 
 ## Description
 
-Candidate concept entity extracted from 10 source(s).
+Candidate tool entity extracted from 11 source(s).
 
 ## Related claims
 
+- **candidate / weak** — Nous Research Launches Profile Builder for Hermes Agent 📌 Nous Research has revolutionized autonomous agent management with the launch of it "Hermes Agent". (`claim_d0c46e65dfbd3fb43717`)
+- **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
+- **candidate / weak** — What have I learned running 3 weeks with Hermes — the open-source agent from Nous Research. (`claim_1427b569c785af09370d`)
 - **needs_review / weak** — Hermes Agent Launches Web-Based Profile Builder for Visual Agent Configuration | KuCoin "Hermes Agent" "Nous Research" www.kucoin.com. (`claim_aed2919b026ac52951d2`)
 - **supported / strong** — Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows. (`claim_72e49a3ef27673e17171`)
 - **weakly_supported / weak** — Hermes Agent Evolves into Autonomous Orchestration Platform with Desktop Integration 📌 Nous Research has transformed the Hermes Agent from a "Hermes Agent". (`claim_6ce2be9b18d13ecc9932`)
@@ -76,6 +79,12 @@ Candidate concept entity extracted from 10 source(s).
 - `src_88e660cc2efbedfe2eeb` — Hermes Desktop: Ứng Dụng Desktop Native Cho AI Agent Tự Cải Tiến Từ Nous Research
   - URL: https://viblo.asia/p/hermes-desktop-ung-dung-desktop-native-cho-ai-agent-tu-cai-tien-tu-nous-research-37Lde6ORVov
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/08-hermes-desktop-ng-d-ng-desktop-native-cho-ai-agent-t-c-i-ti.md`
+- `src_32abd01c395c0366839e` — Hermes Desktop: Ứng Dụng Desktop Native Cho AI Agent Tự Cải Tiến Từ Nous Research
+  - URL: https://viblo.asia/p/hermes-desktop-ung-dung-desktop-native-cho-ai-agent-tu-cai-tien-tu-nous-research-37Lde6ORVov
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/08-hermes-desktop-ng-d-ng-desktop-native-cho-ai-agent-t-c-i-ti.md`
+- `src_b43e34b50bff1120ef72` — Nous Research · GitHub
+  - URL: https://github.com/nousresearch
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/03-nous-research-github.md`
 - `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
@@ -88,6 +97,3 @@ Candidate concept entity extracted from 10 source(s).
 - `src_ecf01d6bf3d22d79b032` — Hermes Agent Launches Web-Based Profile Builder for Visual Agent Configuration | KuCoin
   - URL: https://www.kucoin.com/news/flash/hermes-agent-launches-web-based-profile-builder-for-visual-agent-configuration
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/06-hermes-agent-launches-web-based-profile-builder-for-visual-a.md`
-- `src_f78048d8111b9dec3400` — Nous Research Ships Hermes Agent Profile Builder: Identity, Model, Skills, and MCP Servers in One Dashboard Flow - MarkTechPost
-  - URL: https://www.marktechpost.com/2026/06/11/nous-research-ships-hermes-agent-profile-builder-identity-model-skills-and-mcp-servers-in-one-dashboard-flow/
-  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/03-nous-research-ships-hermes-agent-profile-builder-identity-mo.md`

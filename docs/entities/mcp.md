@@ -1,17 +1,17 @@
 # MCP
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
-- Type: `tool`
-- Confidence: `high`
+- Type: `concept`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T10:12:39Z
-- Source count: 5
-- Mention count: 72
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 6
+- Mention count: 73
 
 ## Description
 
-Candidate tool entity extracted from 4 source(s).
+Candidate concept entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -32,3 +32,6 @@ Candidate tool entity extracted from 4 source(s).
 - `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
   - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
+- `src_26695538ad2c983064c1` — Crazy News: We just launched the most powerful ImagineArt MCP in Claude. Every other creative MCP gives you one model. We just gave your age
+  - URL: https://www.linkedin.com/company/imagineartai/
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-e93c1b6c13602cc4a3b0.md`

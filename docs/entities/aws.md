@@ -1,13 +1,13 @@
 # AWS
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T10:12:39Z
-- Source count: 3
-- Mention count: 50
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 4
+- Mention count: 51
 
 ## Description
 
@@ -27,3 +27,6 @@ Candidate tool entity extracted from 1 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/098-be37a8fee3073c08f944.md`
 - `src_88575cd1e487f412dce2` — Rip off my home Agentic AI setup. I could have built it on AWS for $400/month. Instead I chose an $80 Raspberry Pi and open source, and I'd 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/091-eaccdd7df13cb06b0823.md`
+- `src_14f0f32f65c557000df0` — Feed post Sergio Cabeza de Vaca Montero • 3rd+ AI Product Engineer: Agentic Workflows & Engineering Harnesses | AWS - Azure - Terraform 12h 
+  - URL: https://www.linkedin.com/in/sergio-cvm?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACanMfkBUkpsZ61drZyHU0YjJS6MDiqdgK4
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/179-3f4931b6001532f7f914.md`

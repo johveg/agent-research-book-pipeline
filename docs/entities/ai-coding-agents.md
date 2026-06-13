@@ -1,6 +1,6 @@
 # AI Coding Agents
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
 - Type: `framework`
 - Confidence: `high`
@@ -15,8 +15,8 @@ Candidate framework entity extracted from 4 source(s).
 
 ## Related claims
 
+- **candidate / weak** — Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software development is undergoing a paradigm shift as developers move fro "loop engineering". (`claim_08b20402ee60da372924`)
 - **weakly_supported / weak** — Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod "loop engineering". (`claim_c86b0732dedc22f8a651`)
-- **weakly_supported / weak** — Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software development is undergoing a paradigm shift as developers move fro "loop engineering". (`claim_08b20402ee60da372924`)
 - **weakly_supported / weak** — Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. (`claim_99a44d43b86eaa5907ba`)
 
 ## Source references

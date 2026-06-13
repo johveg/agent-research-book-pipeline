@@ -24,8 +24,3 @@ Generated Author output requires Editor approval before publication as narrative
 ## Editorial policy
 
 Last generated: 2026-06-12T13:27:24Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
-
-## References
-
-[1] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-11T17:33:21Z, https://github.com/openclaw/openclaw, quality A.
-[2] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-12T01:10:27Z, https://github.com/openclaw/openclaw, quality A.

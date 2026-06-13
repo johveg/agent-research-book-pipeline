@@ -1,20 +1,22 @@
 # Claude
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
-- Type: `project`
-- Confidence: `low`
+- Type: `framework`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T13:27:23Z
-- Source count: 8
-- Mention count: 88
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 12
+- Mention count: 95
 
 ## Description
 
-Candidate project entity extracted from 1 source(s).
+Candidate framework entity extracted from 7 source(s).
 
 ## Related claims
 
+- **candidate / weak** — The past 4 months of Claude Code / OpenClaw / Hermes hype train have been full of "agent products" that are really just prompts. (`claim_131df14aef5622e97ec3`)
+- **candidate / weak** — When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic "loop engineering". (`claim_4e36acee44718cc794a3`)
 - **weakly_supported / weak** — But seriously: buying claude licenses for the whole team is not an ai strateg "loop engineering". (`claim_fe853f4d14e32dc5ee0b`)
 - **weakly_supported / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
 - **weakly_supported / weak** — 💥 SEO Stack now has MCP functionality so you can hook up Claude, chatGPT, Gemini as well as any other stack that su "OpenClaw" Hermes. (`claim_c80b8679bbda24230dd8`)
@@ -43,3 +45,13 @@ Candidate project entity extracted from 1 source(s).
 - `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
+- `src_10d25b1b20f79399234b` — Feed post Mariano Silla Franco • 3rd+ Ex-Coordinador de Publicidad en LA RAZON 10h • Edited • Follow Loop Engineering El creador de Claude C
+  - URL: https://www.linkedin.com/in/mariano-silla-franco-21313b3a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAg06m8Bnm_0IzNI7JDe7zt5oSX3uOHmDPA
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/143-36a2980afc24e9d5aed9.md`
+- `src_3f5c2b2ebba0a79d97d7` — Câu chuyện của OpenClaw hay Hermes! Tui có được nghe về Claude mua gói 20$ thì được xài trợ lý AI cá nhân đọc viết file nhma mắc quá nên thô
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/140-7da2a16a8014287023e1.md`
+- `src_a4ddac79553579be42a2` — Want to run — and grow — a fleet of Claude agents? Most people reach for an orchestration framework: OpenClaw, Hermes, the Agent SDK. They a
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/096-a9c95488012398ff26b6.md`
+- `src_fac04ea2d7503ffa1675` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/05-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`

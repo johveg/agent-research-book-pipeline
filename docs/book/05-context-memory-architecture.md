@@ -24,11 +24,3 @@ Generated Author output requires Editor approval before publication as narrative
 ## Editorial policy
 
 Last generated: 2026-06-12T13:27:24Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
-
-## References
-
-[1] “Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium”, cobusgreyling.medium.com, 2026-06-11T17:33:36Z, https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8, quality B.
-[2] “Loop Engineering Playbook”, cobusgreyling.substack.com, 2026-06-11T17:33:36Z, https://cobusgreyling.substack.com/p/loop-engineering-playbook, quality B.
-[3] “Agentic Loops: From ReAct to Loop Engineering (2026 Guide)”, datasciencedojo.com, 2026-06-11T17:33:28Z, https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/, quality B.
-[4] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent, quality A.
-[5] “How to Set Up GBrain: A Simple Tutorial for AI Agent Memory”, www.teknoding.com, 2026-06-11T17:33:21Z, https://www.teknoding.com/2026/06/how-to-set-up-gbrain-simple-tutorial.html, quality B.

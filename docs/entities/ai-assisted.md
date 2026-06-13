@@ -1,17 +1,17 @@
 # AI-assisted
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
 - Type: `company`
-- Confidence: `low`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T13:27:23Z
-- Source count: 3
-- Mention count: 44
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 4
+- Mention count: 46
 
 ## Description
 
-Candidate company entity extracted from 1 source(s).
+Candidate company entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -26,3 +26,5 @@ No related claim records yet.
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/092-a68764292ace7dd2d82e.md`
 - `src_21000084ccad62185fa6` — Looking back at my journey with AI-assisted development, I realize I’ve been through a few distinct milestones: - The "Vibe Coding" Phase (C
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/017-f58a924a6a5a6016a43e.md`
+- `src_a8365473eee76a481932` — The vocabulary of AI-assisted software development keeps evolving. The newest addition to the list is Loop Engineering. We’ve gone from Vibe
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/151-18d8b1bb141c04fe2d2e.md`

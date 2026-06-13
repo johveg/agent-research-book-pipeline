@@ -24,10 +24,3 @@ Generated Author output requires Editor approval before publication as narrative
 ## Editorial policy
 
 Last generated: 2026-06-12T13:27:24Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
-
-## References
-
-[1] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent, quality A.
-[2] “GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub”, github.com, 2026-06-12T01:10:01Z, https://github.com/nousresearch/hermes-agent, quality A.
-[3] “hermes-agent/README.md at main · NousResearch/hermes-agent”, github.com, 2026-06-11T17:33:13Z, https://github.com/NousResearch/hermes-agent/blob/main/README.md, quality A.
-[4] “Run Nemotron 3 Ultra free in Hermes Agent | Hermes Agent”, hermes-agent.nousresearch.com, 2026-06-11T17:33:13Z, https://hermes-agent.nousresearch.com/docs/guides/run-nemotron-3-ultra-free, quality A.

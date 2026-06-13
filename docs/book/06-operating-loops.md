@@ -30,15 +30,3 @@ Generated Author output requires Editor approval before publication as narrative
 ## Editorial policy
 
 Last generated: 2026-06-12T13:27:24Z. This chapter is not synthesized directly from raw LinkedIn/web captures; it only uses claim records from `docs/research/claims.md`.
-
-## References
-
-[1] “Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium”, cobusgreyling.medium.com, 2026-06-11T17:33:36Z, https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8, quality B.
-[2] “Loop Engineering Playbook”, cobusgreyling.substack.com, 2026-06-11T17:33:36Z, https://cobusgreyling.substack.com/p/loop-engineering-playbook, quality B.
-[3] “Agentic Loops: From ReAct to Loop Engineering (2026 Guide)”, datasciencedojo.com, 2026-06-11T17:33:28Z, https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/, quality B.
-[4] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-11T17:33:21Z, https://github.com/openclaw/openclaw, quality A.
-[5] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-12T01:10:27Z, https://github.com/openclaw/openclaw, quality A.
-[6] “Loop Engineering Explained Visually - by The Cloud Girl”, priyankavergadia.substack.com, 2026-06-11T17:33:28Z, https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually, quality B.
-[7] “From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium”, medium.com, 2026-06-11T17:33:28Z, https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d, quality B.
-[8] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent, quality A.
-[9] “How to Set Up GBrain: A Simple Tutorial for AI Agent Memory”, www.teknoding.com, 2026-06-11T17:33:21Z, https://www.teknoding.com/2026/06/how-to-set-up-gbrain-simple-tutorial.html, quality B.

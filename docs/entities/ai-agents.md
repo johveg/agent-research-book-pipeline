@@ -1,23 +1,27 @@
 # AI agents
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T10:12:39Z
-- Source count: 18
-- Mention count: 310
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 27
+- Mention count: 323
 
 ## Description
 
-Candidate tool entity extracted from 6 source(s).
+Candidate tool entity extracted from 9 source(s).
 
 ## Related claims
 
+- **candidate / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
+- **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
+- **candidate / weak** — Loved the conversations after my talk: "The Invisible Army: How AI Agents Became the Attack Surface Nobody Is Watchin "Hermes Agent". (`claim_5587c736a27e9103cb7b`)
+- **candidate / weak** — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). (`claim_0985fd2ad07e14723e29`)
+- **candidate / weak** — The next shift is AI agents working together like a real business team — planning, executing, rem "OpenClaw" Hermes. (`claim_d5429b52beb19fb06fcf`)
 - **needs_review / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
 - **weakly_supported / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
-- **weakly_supported / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
 - **weakly_supported / weak** — 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`)
 
 ## Source references
@@ -69,9 +73,29 @@ Candidate tool entity extracted from 6 source(s).
 - `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
   - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
+- `src_2b43772bb3f0902946cd` — Feed post Melissa Wiringi • 3rd+ AI Agents and automations with a strategic focus | Marketing Operations | Process Improvement | Social Medi
+  - URL: https://www.linkedin.com/in/melissawiringi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAASOUu8BPMa5ewn_NgjcLOIMAnH0lqfy5DE
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/123-df98598dd802d933c425.md`
+- `src_72113aed17f406df697f` — Feed post Ty Shane • 3rd+ Founder @ ClawRevOps | OpenClaws from C‑Suite to Onboarding | AI Agents that Replace or Supercharge 6‑Figure Roles
+  - URL: https://www.linkedin.com/in/ty-shane?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADNhqA4BTHUJSabimDdBSLOVDJV31beA1oc
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/075-acfd98ed21df151f42a9.md`
+- `src_33ff32e1ccdcd53ce3e7` — Moonshot AI's Kimi Work Brings 300 AI Agents to Your Desktop
+  - URL: https://tech.yahoo.com/ai/meta-ai/articles/moonshot-ais-kimi-brings-300-184057169.html
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/10-moonshot-ai-s-kimi-work-brings-300-ai-agents-to-your-desktop.md`
+- `src_86851647329643071894` — Moonshot AI's Kimi Work Brings 300 AI Agents to Your Desktop - Decrypt
+  - URL: https://decrypt.co/370954/moonshot-ai-kimi-work-300-agents-desktop
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/08-moonshot-ai-s-kimi-work-brings-300-ai-agents-to-your-desktop.md`
 - `src_ad8dcffd70b02955bf0e` — AI agents aren't just writing code anymore. They're running retail media networks. We gave an AI team a fictional grocer and a real ad serve
   - URL: https://www.linkedin.com/in/dylanhulser/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/036-22f3d28855ae7ad3c860.md`
 - `src_6a445b5a6f1383ad52ed` — What the Hell Is Loop Engineering? - by Martin
   - URL: https://biasedread.com/p/what-the-hell-is-loop-engineering
   - Archive: `web/do-not-publish-check-20260611T232514Z/loop-engineering-ai-agents/01-what-the-hell-is-loop-engineering-by-martin.md`
+- `src_7f87577545c681c4a62f` — Your bottleneck is no longer how fast your team can code. AI agents now generate working software overnight. The constraint has moved to two
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/102-4637a12beb58f1da1a6c.md`
+- `src_281c0584cfa61d256fbb` — Loop Engineering - more autonomous development - Feature Requests - Cursor - Community Forum
+  - URL: https://forum.cursor.com/t/loop-engineering-more-autonomous-development/163082
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/04-loop-engineering-more-autonomous-development-feature-request.md`
+- `src_41fe30e26e582ea172ef` — Loop Engineering: How AI Agent Loops Ship Production Software in Weeks
+  - URL: https://www.addwebsolution.com/blog/loop-engineering-ai-agent-loops-production-software
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/03-loop-engineering-how-ai-agent-loops-ship-production-software.md`

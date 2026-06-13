@@ -1,74 +1,64 @@
 # Projects
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
 These entries come from harvested entity records. Linked entries have generated review pages; unlinked entries are candidates or weak/noisy fragments and are not treated as canonical public entities.
 
-- [OpenClaw](openclaw.md) — `tool`; mentions: 2354; sources: 190
-- [Hermes](hermes.md) — `tool`; mentions: 2278; sources: 188
-- [AI agents](ai-agents.md) — `tool`; mentions: 310; sources: 18
-- [TheNextGenTechInsider.com](thenextgentechinsider-com.md) — `tool`; mentions: 150; sources: 17
-- Loop — `tool`; mentions: 176; sources: 13
-- [Google](google.md) — `tool`; mentions: 134; sources: 10
-- [Claude](claude.md) — `project`; mentions: 88; sources: 8
-- [Claude Fable](claude-fable.md) — `tool`; mentions: 94; sources: 6
-- [AI Agent](ai-agent.md) — `tool`; mentions: 90; sources: 6
-- [Python](python.md) — `tool`; mentions: 76; sources: 6
-- [OpenAI](openai.md) — `tool`; mentions: 74; sources: 6
+- [OpenClaw](openclaw.md) — `tool`; mentions: 2487; sources: 289
+- [Hermes](hermes.md) — `tool`; mentions: 2405; sources: 287
+- [Hermes Agent](hermes-agent.md) — `tool`; mentions: 5188; sources: 261
+- [Nous Research](nous-research.md) — `tool`; mentions: 309; sources: 35
+- [AI agents](ai-agents.md) — `tool`; mentions: 323; sources: 27
+- Loop — `tool`; mentions: 185; sources: 18
+- [TheNextGenTechInsider.com](thenextgentechinsider-com.md) — `tool`; mentions: 160; sources: 18
+- [GitHub](github.md) — `tool`; mentions: 137; sources: 15
+- [Google](google.md) — `tool`; mentions: 138; sources: 13
+- [Claude](claude.md) — `framework`; mentions: 95; sources: 12
+- Most — `framework`; mentions: 48; sources: 12
+- [AI agent](ai-agent.md) — `tool`; mentions: 98; sources: 11
+- Head — `tool`; mentions: 45; sources: 9
+- YouTube — `tool`; mentions: 53; sources: 8
+- Data — `tool`; mentions: 26; sources: 8
+- But — `tool`; mentions: 51; sources: 7
+- [Claude Fable](claude-fable.md) — `tool`; mentions: 95; sources: 6
+- [OpenAI](openai.md) — `tool`; mentions: 76; sources: 6
+- [NVIDIA](nvidia.md) — `tool`; mentions: 73; sources: 6
+- LLMs — `tool`; mentions: 39; sources: 6
 - [AI Coding Agents](ai-coding-agents.md) — `framework`; mentions: 94; sources: 5
-- [MCP](mcp.md) — `tool`; mentions: 72; sources: 5
-- Fol — `tool`; mentions: 64; sources: 4
-- [RAG](rag.md) — `tool`; mentions: 60; sources: 4
-- Let — `tool`; mentions: 56; sources: 4
+- [RAG](rag.md) — `tool`; mentions: 62; sources: 5
+- Scale — `project`; mentions: 57; sources: 5
+- [Most AI](most-ai.md) — `tool`; mentions: 40; sources: 5
+- Cloud — `tool`; mentions: 32; sources: 5
+- Stop — `tool`; mentions: 26; sources: 5
+- Build — `tool`; mentions: 24; sources: 5
+- They — `tool`; mentions: 23; sources: 5
+- How — `tool`; mentions: 22; sources: 5
+- Now — `project`; mentions: 20; sources: 5
+- Fol — `tool`; mentions: 65; sources: 4
 - [trained my Hermes Agent](trained-my-hermes-agent.md) — `tool`; mentions: 56; sources: 4
-- Harness — `tool`; mentions: 52; sources: 4
 - NousResearch — `tool`; mentions: 52; sources: 4
-- [Most AI](most-ai.md) — `tool`; mentions: 38; sources: 4
+- [AWS](aws.md) — `tool`; mentions: 51; sources: 4
+- Over — `tool`; mentions: 50; sources: 4
+- [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 49; sources: 4
+- Agent — `tool`; mentions: 48; sources: 4
+- harness engineering — `tool`; mentions: 40; sources: 4
+- AI Systems Engineer — `tool`; mentions: 39; sources: 4
+- Creator — `tool`; mentions: 39; sources: 4
+- [FDE](fde.md) — `tool`; mentions: 38; sources: 4
+- [single workflow](single-workflow.md) — `tool`; mentions: 34; sources: 4
+- Phase — `tool`; mentions: 29; sources: 4
 - Day — `tool`; mentions: 24; sources: 4
-- [NVIDIA](nvidia.md) — `tool`; mentions: 70; sources: 3
+- [AI Strategy](ai-strategy.md) — `tool`; mentions: 23; sources: 4
+- Instead — `tool`; mentions: 21; sources: 4
+- [VPS](vps.md) — `tool`; mentions: 20; sources: 4
+- [GTM](gtm.md) — `tool`; mentions: 6; sources: 4
 - [Addy Osmani Introduces Loop](addy-osmani-introduces-loop.md) — `tool`; mentions: 60; sources: 3
 - [Continual Learning](continual-learning.md) — `framework`; mentions: 60; sources: 3
 - [Hivemind](hivemind.md) — `framework`; mentions: 60; sources: 3
 - [Microsoft](microsoft.md) — `tool`; mentions: 56; sources: 3
-- Just — `tool`; mentions: 54; sources: 3
-- [AWS](aws.md) — `tool`; mentions: 50; sources: 3
-- [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 48; sources: 3
-- Agent — `tool`; mentions: 46; sources: 3
-- But — `project`; mentions: 46; sources: 3
-- [LLM](llm.md) — `tool`; mentions: 46; sources: 3
-- Principal — `tool`; mentions: 44; sources: 3
-- [YOE](yoe.md) — `tool`; mentions: 44; sources: 3
-- [BERT](bert.md) — `tool`; mentions: 42; sources: 3
-- [LLM Fine-Tuning](llm-fine-tuning.md) — `tool`; mentions: 42; sources: 3
-- [LangGraph](langgraph.md) — `tool`; mentions: 42; sources: 3
-- [NLP](nlp.md) — `tool`; mentions: 42; sources: 3
-- [Nishanth Rao](nishanth-rao.md) — `tool`; mentions: 42; sources: 3
-- [PEFT](peft.md) — `tool`; mentions: 42; sources: 3
-- [RAG Pipelines](rag-pipelines.md) — `tool`; mentions: 42; sources: 3
-- [XGBoost](xgboost.md) — `tool`; mentions: 42; sources: 3
-- [interacting with coding agents](interacting-with-coding-agents.md) — `tool`; mentions: 42; sources: 3
-- [prompting AI coding agents](prompting-ai-coding-agents.md) — `tool`; mentions: 42; sources: 3
-- Meta — `tool`; mentions: 40; sources: 3
-- AI Systems Engineer — `tool`; mentions: 38; sources: 3
-- [Bennett Black](bennett-black.md) — `tool`; mentions: 38; sources: 3
-- [CFO](cfo.md) — `tool`; mentions: 38; sources: 3
-- Creator — `tool`; mentions: 38; sources: 3
-- Engagement — `tool`; mentions: 38; sources: 3
-- Enthusiast — `tool`; mentions: 38; sources: 3
-- Harness engineering — `tool`; mentions: 38; sources: 3
-- [KYC](kyc.md) — `tool`; mentions: 38; sources: 3
-- Mac — `tool`; mentions: 38; sources: 3
-- Man — `tool`; mentions: 38; sources: 3
-- Strategist — `tool`; mentions: 38; sources: 3
-- SuperChips — `tool`; mentions: 38; sources: 3
-- Systems — `tool`; mentions: 38; sources: 3
-- Windows — `tool`; mentions: 38; sources: 3
-- [know Hermes Agent](know-hermes-agent.md) — `tool`; mentions: 38; sources: 3
-- Author — `tool`; mentions: 36; sources: 3
-- [Chief AI Officer](chief-ai-officer.md) — `tool`; mentions: 36; sources: 3
-- Her — `tool`; mentions: 36; sources: 3
-- LLMs — `tool`; mentions: 36; sources: 3
-- Strategy — `tool`; mentions: 36; sources: 3
-- [High-Performance Alternative](high-performance-alternative.md) — `tool`; mentions: 34; sources: 3
-- [SEO](seo.md) — `tool`; mentions: 24; sources: 3
-- Build — `tool`; mentions: 22; sources: 3
+- Principal — `tool`; mentions: 45; sources: 3
+- [YOE](yoe.md) — `tool`; mentions: 45; sources: 3
+- [BERT](bert.md) — `tool`; mentions: 43; sources: 3
+- [LLM Fine-Tuning](llm-fine-tuning.md) — `tool`; mentions: 43; sources: 3
+- [LangGraph](langgraph.md) — `tool`; mentions: 43; sources: 3
+- [NLP](nlp.md) — `tool`; mentions: 43; sources: 3

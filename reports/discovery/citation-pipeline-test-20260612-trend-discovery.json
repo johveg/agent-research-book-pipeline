@@ -1,0 +1,156 @@
+{
+  "candidates": [
+    {
+      "count": 2505,
+      "term": "hashtag",
+      "term_type": "word"
+    },
+    {
+      "count": 1275,
+      "term": "urn",
+      "term_type": "word"
+    },
+    {
+      "count": 855,
+      "term": "claude",
+      "term_type": "word"
+    },
+    {
+      "count": 832,
+      "term": "https",
+      "term_type": "word"
+    },
+    {
+      "count": 814,
+      "term": "model",
+      "term_type": "word"
+    },
+    {
+      "count": 805,
+      "term": "search",
+      "term_type": "word"
+    },
+    {
+      "count": 766,
+      "term": "text",
+      "term_type": "word"
+    },
+    {
+      "count": 724,
+      "term": "url",
+      "term_type": "word"
+    },
+    {
+      "count": 713,
+      "term": "query",
+      "term_type": "word"
+    },
+    {
+      "count": 708,
+      "term": "like",
+      "term_type": "word"
+    },
+    {
+      "count": 703,
+      "term": "captured",
+      "term_type": "word"
+    },
+    {
+      "count": 703,
+      "term": "captured t01",
+      "term_type": "phrase"
+    },
+    {
+      "count": 703,
+      "term": "t01",
+      "term_type": "word"
+    },
+    {
+      "count": 700,
+      "term": "result",
+      "term_type": "word"
+    },
+    {
+      "count": 684,
+      "term": "visible",
+      "term_type": "word"
+    },
+    {
+      "count": 668,
+      "term": "captured t01 url",
+      "term_type": "phrase"
+    },
+    {
+      "count": 668,
+      "term": "query captured",
+      "term_type": "phrase"
+    },
+    {
+      "count": 668,
+      "term": "query captured t01",
+      "term_type": "phrase"
+    },
+    {
+      "count": 668,
+      "term": "result query",
+      "term_type": "phrase"
+    },
+    {
+      "count": 668,
+      "term": "result query captured",
+      "term_type": "phrase"
+    },
+    {
+      "count": 668,
+      "term": "search result",
+      "term_type": "phrase"
+    },
+    {
+      "count": 668,
+      "term": "search result query",
+      "term_type": "phrase"
+    },
+    {
+      "count": 668,
+      "term": "t01 url",
+      "term_type": "phrase"
+    },
+    {
+      "count": 668,
+      "term": "visible text",
+      "term_type": "phrase"
+    },
+    {
+      "count": 578,
+      "term": "skills",
+      "term_type": "word"
+    },
+    {
+      "count": 563,
+      "term": "code",
+      "term_type": "word"
+    },
+    {
+      "count": 555,
+      "term": "models",
+      "term_type": "word"
+    },
+    {
+      "count": 542,
+      "term": "one",
+      "term_type": "word"
+    },
+    {
+      "count": 526,
+      "term": "comment",
+      "term_type": "word"
+    },
+    {
+      "count": 505,
+      "term": "url https",
+      "term_type": "phrase"
+    }
+  ],
+  "generated_at": "2026-06-13T01:27:14Z",
+  "run_id": "citation-pipeline-test-20260612"
+}

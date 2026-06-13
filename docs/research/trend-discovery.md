@@ -1,39 +1,40 @@
 # Trend Discovery
 
-Last generated: 2026-06-12T13:27:04Z
+Last generated: 2026-06-13T01:27:16Z
 
 Candidate terms are **not automatically promoted** into recurring searches. They are proposed for review.
 
-- **hashtag** — 1519 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **urn** — 962 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **https** — 717 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **search** — 635 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **text** — 597 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **like** — 556 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **url** — 556 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **claude** — 555 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **query** — 550 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **captured** — 539 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **captured t01** — 539 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **t01** — 539 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **result** — 528 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **visible** — 524 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **model** — 521 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **code** — 516 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **captured t01 url** — 505 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **query captured** — 505 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **query captured t01** — 505 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **result query** — 505 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **result query captured** — 505 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **search result** — 505 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **search result query** — 505 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **t01 url** — 505 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **visible text** — 505 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **comment** — 400 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **one** — 400 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
+- **hashtag** — 2505 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **urn** — 1275 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **claude** — 855 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **https** — 832 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **model** — 814 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **search** — 805 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **text** — 766 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **url** — 724 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **query** — 713 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **like** — 708 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **captured** — 703 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **captured t01** — 703 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **t01** — 703 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **result** — 700 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **visible** — 684 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **captured t01 url** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **query captured** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **query captured t01** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **result query** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **result query captured** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **search result** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **search result query** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **t01 url** — 668 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **visible text** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
+- **skills** — 578 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **code** — 563 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **models** — 555 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **one** — 542 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **comment** — 526 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **url https** — 505 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
 - **post** — 393 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
-- **url https** — 392 mentions; status: `reject`; run: `do-not-publish-check-20260611T232514Z`
-- **skills** — 387 mentions; status: `monitor`; run: `do-not-publish-check-20260611T232514Z`
 - **captured t17** — 734 mentions; status: `candidate`; run: `manual-20260611T173313Z`
 - **t17** — 734 mentions; status: `candidate`; run: `manual-20260611T173313Z`
 - **captured t17 url** — 684 mentions; status: `candidate`; run: `manual-20260611T173313Z`

@@ -1,13 +1,13 @@
 # Claude Code
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T10:12:39Z
-- Source count: 9
-- Mention count: 96
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 15
+- Mention count: 104
 
 ## Description
 
@@ -15,7 +15,8 @@ Candidate concept entity extracted from 7 source(s).
 
 ## Related claims
 
-No related claim records yet.
+- **candidate / weak** — The past 4 months of Claude Code / OpenClaw / Hermes hype train have been full of "agent products" that are really just prompts. (`claim_131df14aef5622e97ec3`)
+- **candidate / weak** — When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic "loop engineering". (`claim_4e36acee44718cc794a3`)
 
 ## Source references
 
@@ -33,6 +34,8 @@ No related claim records yet.
 - `src_7c138ed755684e992664` — Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn
   - URL: https://www.linkedin.com/company/claude-code/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/026-4bdef0f146d734380888.md`
+- `src_8570f66e01b3c57f01cb` — Loop Engineering El creador de Claude Code ya no escribe prompts. Escribe loops. Boris Cherny, Head de Claude Code en Anthropic, lo dijo en 
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/145-722ab4bb5b65b4bac2ee.md`
 - `src_97124de0aea7369bc95d` — I have Claude Code on speed dial. Not metaphorically. I literally hit Option + 5 on my Mac from any screen, speak, and it's off working. I j
   - URL: https://www.linkedin.com/company/carbonvoice/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/051-1477677d244132e049ad.md`
@@ -42,3 +45,15 @@ No related claim records yet.
 - `src_e9bb5a4bcd1c1f9e9744` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
   - URL: https://github.com/conorbronsdon/avoid-ai-writing
   - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/05-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`
+- `src_194bba4cc6272e8114b6` — Feed post Gui Dávid • 3rd+ head of AI @ beconfident 5h • Follow When the Claude Code codebase leaked around a month ago, it revealed somethi
+  - URL: https://www.linkedin.com/in/guid%C3%A1vid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACEsR88BSFv1Ig95gw2NawB7MAtJQRBmeys
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/046-5c6be0ead6375b4e196e.md`
+- `src_6bcc323bb2ed1a074793` — "Stop prompting your AI agents." That sentence went around the feed this week. The engineer who built Claude Code says it plainly: he doesn'
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/154-a07c9a56da13935419cd.md`
+- `src_7413a772ac28f94137a4` — When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/048-f09c30a3407533d4518e.md`
+- `src_871582dceea43c6672d6` — The past 4 months of Claude Code / OpenClaw / Hermes hype train have been full of "agent products" that are really just prompts. A markdown 
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-97fcd06c1306592ac29d.md`
+- `src_666f6694d37d9a520e89` — Best AI Agents in 2026: What Actually Fits OpenClaw, Hermes, Codex, and Claude Code | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/best-ai-agents-2026
+  - Archive: `web/citation-pipeline-test-20260612/hermes-openclaw/05-best-ai-agents-in-2026-what-actually-fits-openclaw-hermes-co.md`

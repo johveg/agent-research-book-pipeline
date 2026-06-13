@@ -1,17 +1,17 @@
 # NVIDIA
 
-Last generated: 2026-06-12T13:27:24Z
+Last generated: 2026-06-13T01:27:14Z
 
 - Type: `tool`
-- Confidence: `medium`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-12T10:12:39Z
-- Source count: 3
-- Mention count: 70
+- Last seen: 2026-06-13T01:27:13Z
+- Source count: 6
+- Mention count: 73
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate tool entity extracted from 3 source(s).
 
 ## Related claims
 
@@ -28,3 +28,11 @@ No related claim records yet.
 - `src_0a0017ab41a0ca9731e9` — Feed post Jason Black • 3rd+ Content marketing at NVIDIA. 3h • Follow Turn a multi-step process into a single workflow, powered by NVIDIA RT
   - URL: https://www.linkedin.com/in/jasonblack?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAABbiYBZpLTMRibq44gcshk6bWlUx4-J2U
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/084-a1d13b78b085e1a94b74.md`
+- `src_493680d2704233180d12` — NVIDIA amplia a IA local baseada em agentes Os agentes pessoais estão se popularizando rapidamente, com projetos de código aberto como OpenC
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/067-5987cdee5ab17ea84b46.md`
+- `src_2800699832e778aafa04` — Feed post NVIDIA 5,517,182 followers 4h • Follow Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Re
+  - URL: https://www.linkedin.com/company/nvidia/posts
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/069-6875082db11b71bd7c1e.md`
+- `src_58210564ddbcd2cc502b` — Turn a multi-step process into a single workflow, powered by NVIDIA hashtag #RTXSpark. See how an hashtag #AI Agent like Hermes Agent helps 
+  - URL: https://www.linkedin.com/company/nvidia/
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/007-9f3fd455c6c0880b1696.md`

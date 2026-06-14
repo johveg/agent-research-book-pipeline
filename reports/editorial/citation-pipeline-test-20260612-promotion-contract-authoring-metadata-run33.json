@@ -1,0 +1,276 @@
+{
+  "applied_config_additions": {
+    "automated_dispositions": [],
+    "states": [],
+    "transitions": []
+  },
+  "bridge": null,
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_count_after": 181,
+  "claims_count_before": 181,
+  "claims_inserted": 0,
+  "config_update_needed": false,
+  "config_updated": false,
+  "disposition_count_after": 18,
+  "disposition_count_before": 18,
+  "editorial_reviews_count_after": 10,
+  "editorial_reviews_count_before": 10,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "excluded_metadata_preflight_count": 0,
+  "excluded_metadata_preflights": [],
+  "failed_contract_checks": [],
+  "generated_at": "2026-06-14T16:47:00Z",
+  "human_in_loop_dependency_added": false,
+  "input_paths": {
+    "metadata_report": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json",
+    "preflight_report": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-preflight-run31.json",
+    "sqlite_db": ".var/book.sqlite",
+    "state_machine_config": "config/closed_loop_state_machine.json",
+    "supporting_inputs": [
+      "reports/editorial/citation-pipeline-test-20260612-author-draft-canary-v2-redteam-run29.json",
+      "reports/editorial/citation-pipeline-test-20260612-author-draft-canary-v2-run28.json",
+      "reports/editorial/citation-pipeline-test-20260612-rebuilt-author-input-preflight-run27.json",
+      "reports/editorial/citation-pipeline-test-20260612-author-draft-input-rebuild-run26.json",
+      "reports/editorial/citation-pipeline-test-20260612-author-draft-canary-redteam-run25.json",
+      "reports/editorial/citation-pipeline-test-20260612-author-draft-canary-run24.json",
+      "reports/editorial/citation-pipeline-test-20260612-author-draft-input-preflight-run23.json",
+      "reports/editorial/citation-pipeline-test-20260612-author-draft-input-run22b.json",
+      "reports/editorial/citation-pipeline-test-20260612-closed-loop-state-machine-run22a.json",
+      "config/reasoning_models.json"
+    ]
+  },
+  "llm_used": false,
+  "mode": "update_closed_loop_promotion_contract",
+  "model": null,
+  "model_profile": null,
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run33.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run33.md"
+  },
+  "promotion_contract_candidate_count": 1,
+  "promotion_contract_candidates": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "automated_disposition": "caveat_only",
+      "chapter_update_allowed": false,
+      "contract_candidate_id": "contract_run32_authoring_metadata_4e8554045cfaf827bc68bcc5",
+      "current_state": "constrained_authoring_metadata_preflight_passed",
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "failed_guards": [],
+      "hard_invariants_preserved": true,
+      "human_in_loop_dependency_added": false,
+      "limitations": [
+        "This is a report-only promotion-contract control object.",
+        "It does not approve authoring, publication, claim insertion, or docs/book updates.",
+        "Future constrained_authoring_context_candidate transition is reserved for a later run.",
+        "The evidence remains narrow, singleton-derived, and caveat-only."
+      ],
+      "metadata_id": "metadata_run30_constrained_authoring_4e8554045cfaf827bc68bcc5",
+      "metadata_report_path": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json",
+      "preflight_report_path": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-preflight-run31.json",
+      "promotion_contract_decision": "promotion_contract_already_satisfied",
+      "proposed_next_state": "authoring_metadata_promotion_contract_ready",
+      "publication_approved": false,
+      "recommended_next_stage": "build_constrained_authoring_context_candidate",
+      "required_dispositions": [
+        "caveat_only",
+        "metadata_preflight_passed",
+        "ready_for_promotion_contract_update",
+        "update_closed_loop_promotion_contract_for_authoring_metadata",
+        "safe_reports_only",
+        "needs_more_sources",
+        "needs_better_authoring_metadata",
+        "source_context_unclear",
+        "exclude_from_pipeline",
+        "contradiction_review_required"
+      ],
+      "required_states": [
+        "constrained_authoring_metadata_candidate",
+        "constrained_authoring_metadata_preflight_passed",
+        "authoring_metadata_promotion_contract_ready",
+        "constrained_authoring_context_candidate",
+        "safe_reports_only",
+        "needs_more_sources",
+        "needs_better_authoring_metadata",
+        "source_context_unclear",
+        "exclude_from_pipeline",
+        "contradiction_review_required",
+        "blocked_for_publication_by_policy"
+      ],
+      "required_transitions": [
+        {
+          "from_state": "constrained_authoring_metadata_candidate",
+          "to_state": "constrained_authoring_metadata_preflight_passed",
+          "transition_type": "current_or_past_stage"
+        },
+        {
+          "from_state": "constrained_authoring_metadata_preflight_passed",
+          "to_state": "authoring_metadata_promotion_contract_ready",
+          "transition_type": "future_run_only"
+        },
+        {
+          "from_state": "authoring_metadata_promotion_contract_ready",
+          "to_state": "constrained_authoring_context_candidate",
+          "transition_type": "future_run_only"
+        }
+      ],
+      "residual_risk": "Downstream stages could overpromote tooling-adjacency metadata into dependency or operating-environment language if later gates strip the mandatory caveat.",
+      "satisfied_guards": [
+        "metadata_type_constrained_authoring_metadata_candidate",
+        "metadata_decision_metadata_candidate_created",
+        "metadata_use_caveat_only",
+        "required_caveat_exists",
+        "do_not_say_exists",
+        "unsupported_inferences_exist",
+        "promotion_blockers_exist",
+        "provenance_paths_exist",
+        "advisory_only_true",
+        "author_allowed_false",
+        "publication_approved_false",
+        "eligible_for_claim_insertion_false",
+        "eligible_for_authoring_false",
+        "eligible_for_publication_false",
+        "chapter_update_allowed_false",
+        "preflight_decision_metadata_preflight_passed",
+        "metadata_readiness_ready_for_promotion_contract_update",
+        "closed_loop_disposition_caveat_only",
+        "recommended_next_stage_update_contract",
+        "advisory_only_true",
+        "author_allowed_false",
+        "publication_approved_false",
+        "eligible_for_claim_insertion_false",
+        "eligible_for_authoring_false",
+        "eligible_for_publication_false",
+        "chapter_update_allowed_false"
+      ],
+      "transition_decision": "already_represented_in_contract"
+    }
+  ],
+  "promotion_contract_decision_counts": {
+    "promotion_contract_already_satisfied": 1
+  },
+  "proposed_config_additions": {
+    "automated_dispositions": [],
+    "states": [],
+    "transitions": []
+  },
+  "provider": null,
+  "recommended_next_stage_counts": {
+    "build_constrained_authoring_context_candidate": 1
+  },
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "author_allowed": false,
+    "blocked_editorial_state_dominates_chapter_mutation": true,
+    "chapter_ready_prose_created": false,
+    "chapter_update_allowed": false,
+    "claims_inserted": false,
+    "daily_worker_modified": false,
+    "deterministic_contract_work": true,
+    "docs_book_modified": false,
+    "editorial_reviews_inserted": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "gpt55_advisory_is_human_or_editor_approval": false,
+    "metadata_persisted_to_db": false,
+    "new_author_prose_created": false,
+    "publication_approved": false,
+    "raw_content_stored": false,
+    "report_only": true,
+    "required_production_human_stop_added": false,
+    "schema_modified": false,
+    "source_notes_written": false,
+    "source_registry_promoted": false,
+    "weak_local_fallback_refused": true
+  },
+  "selected_metadata_preflight_count": 1,
+  "selected_metadata_preflights": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "caveat_integrity_assessment": "Caveat integrity is adequate for a controlled metadata stage: the required narrow framing is present, repeated, and reinforced by negative boundaries against runtime-dependency, operating-environment, web-access, phone-access, and claim-insertion interpretations.",
+      "chapter_update_allowed": false,
+      "closed_loop_disposition": "caveat_only",
+      "do_not_say": [
+        "Do not say Hermes is a runtime dependency of OpenClaw.",
+        "Do not say Hermes is the general operating environment for OpenClaw.",
+        "Do not say OpenClaw requires Hermes for web or phone access.",
+        "Do not generalize beyond migration/setup/import tooling contexts unless additional sources support it.",
+        "Do not use this material as a factual claim without the caveat.",
+        "Do not use this material for chapter prose before later author/red-team gates pass."
+      ],
+      "do_not_say_compliance_assessment": "The metadata preserves all hard do-not-say constraints and does not authorize any forbidden inference; it explicitly blocks conversion of tooling adjacency into dependency, operating-environment, access, chapter-prose, or publication claims.",
+      "draft_canary_id": "draft_canary_run28_caveat_only_v2_cluster_4e8554045cfaf827bc68bcc5",
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "evidence_use_assessment": "Evidence use is correctly limited to narrow metadata-level factual atoms about OpenClaw documentation summaries naming Hermes in migration and setup tooling contexts, with explicit denial of broader dependency, runtime, access, or operating-environment support.",
+      "limitations": [
+        "Evidence remains narrow and singleton-based.",
+        "The material is caveat-only and advisory.",
+        "The metadata cannot be used as chapter prose, publishable wording, or claim insertion support.",
+        "The cited source identifiers and review artifacts must be checked again before any later factual use.",
+        "The canary was assessed as improved but still thin.",
+        "Target chapter placement remains suggested only, not assigned or approved."
+      ],
+      "metadata_containment_assessment": "The selected object is substantially contained as metadata: it consists of identifiers, caveats, allowed and forbidden intent constraints, provenance paths, evidence-bound atoms, blockers, and risk notes. The quoted canary text is present only as labeled report-only canary material and must not be promoted into prose.",
+      "metadata_id": "metadata_run30_constrained_authoring_4e8554045cfaf827bc68bcc5",
+      "metadata_readiness": "ready_for_promotion_contract_update",
+      "metadata_type": "constrained_authoring_metadata_candidate",
+      "metadata_use": "caveat_only",
+      "preflight_decision": "metadata_preflight_passed",
+      "prior_draft_input_id": "draft_input_run22b_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "promotion_blockers": [
+        "No authoring approval has been granted.",
+        "No publication approval has been granted.",
+        "No claim insertion is allowed.",
+        "No chapter update is allowed.",
+        "Evidence remains singleton/narrow and caveat-only.",
+        "Later gates must prevent prose-promotion from tooling adjacency into dependency or operating-environment claims.",
+        "Any later use must preserve the mandatory caveat and re-check upstream source/review artifacts."
+      ],
+      "provenance_assessment": "Provenance is sufficient for a controlled metadata/promotion-contract stage because it retains source, note, manifest, cluster, packet, rebuilt input, canary, red-team, candidate source, and review identifiers, plus report paths; it is not sufficient as resolved citation support for authoring or publication.",
+      "publication_approved": false,
+      "rebuilt_input_id": "rebuilt_input_run26_enriched_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "recommended_next_stage": "update_closed_loop_promotion_contract_for_authoring_metadata",
+      "required_caveats": [
+        "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources."
+      ],
+      "residual_risk": "Low if retained as advisory caveat-only planning metadata; moderate if later review treats tooling adjacency as dependency; high if used to support runtime, access, or operating-environment claims.",
+      "residual_risk_assessment": "Residual risk is controlled at the metadata/preflight layer because the object repeatedly blocks authoring and unsupported inferences, but downstream prose-promotion risk remains material if a later stage strips the caveat or treats the canary wording as chapter-ready text.",
+      "unsupported_inferences": [
+        "Hermes is a runtime dependency of OpenClaw.",
+        "Hermes is the general operating environment for OpenClaw.",
+        "OpenClaw requires Hermes for web or phone access.",
+        "Migration/setup/import tooling adjacency proves architectural dependency.",
+        "The canary is publishable or chapter-ready.",
+        "The canary can be inserted as a claim without later gates."
+      ],
+      "usefulness_as_metadata_assessment": "The metadata is useful for a constrained promotion-contract update because it preserves narrow evidence boundaries, provenance, caveats, blockers, and negative constraints; it remains too narrow for authoring, publication, or claim insertion."
+    }
+  ],
+  "source_notes_count_after": 365,
+  "source_notes_count_before": 365,
+  "source_status_changed": false,
+  "state_count_after": 28,
+  "state_count_before": 28,
+  "transition_count_after": 13,
+  "transition_count_before": 13,
+  "transition_decision_counts": {
+    "already_represented_in_contract": 1
+  },
+  "weak_local_fallback_refused": true
+}

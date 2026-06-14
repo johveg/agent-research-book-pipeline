@@ -1,0 +1,54 @@
+{
+  "allowed_changed_paths": [
+    "reports/architecture/run35-protected-mutation-guard-evidence-map-20260614.md",
+    "reports/editorial/citation-pipeline-test-20260612-protected-mutation-guard-run35.json",
+    "reports/editorial/citation-pipeline-test-20260612-protected-mutation-guard-run35.md",
+    "scripts/protected_mutation_guard.py",
+    "tests/test_protected_mutation_guard.py"
+  ],
+  "changed_paths": [
+    "reports/architecture/run35-protected-mutation-guard-evidence-map-20260614.md",
+    "reports/editorial/citation-pipeline-test-20260612-protected-mutation-guard-run35.json",
+    "reports/editorial/citation-pipeline-test-20260612-protected-mutation-guard-run35.md",
+    "scripts/protected_mutation_guard.py",
+    "tests/test_protected_mutation_guard.py"
+  ],
+  "daily_worker_changed": false,
+  "db_delta": {},
+  "docs_book_changed": false,
+  "docs_claims_changed": false,
+  "docs_entities_changed": false,
+  "failed_checks": [],
+  "generated_at": "2026-06-14T18:25:30Z",
+  "hard_flags_changed": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "human_in_loop_dependency_added": false,
+  "ok": true,
+  "profile": "control_plane_code_only",
+  "protected_path_delta": {
+    ".var/book.sqlite": false,
+    "data/schema.sql": false,
+    "data/source_registry.json": false,
+    "docs/book": false,
+    "docs/entities": false,
+    "docs/research/claims.md": false,
+    "raw": false,
+    "scripts/daily_book_worker.py": false
+  },
+  "raw_changed": false,
+  "recommendation": "proceed_with_profile_scope",
+  "schema_changed": false,
+  "scope_validation": {
+    "failed_checks": [],
+    "ok": true
+  },
+  "source_registry_changed": false,
+  "status_hash_delta": {},
+  "unexpected_changed_paths": []
+}

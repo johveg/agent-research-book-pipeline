@@ -1,0 +1,340 @@
+{
+  "assumptions": [
+    "The evidence provided is accurate and reflects the current repository state after Run 32.",
+    "No additional unmentioned production scheduler, queue, observability, or rollback system exists outside the inspected evidence.",
+    "The strategic target is a future closed-loop production system with no routine human-in-the-loop, while allowing exceptional operational escalation outside the normal path.",
+    "GPT-5.5 is permitted only as advisory machine review and must not be treated as human/editor approval.",
+    "Run 33 is intended to be the next controlled step and is expected to use --write-config only against config/closed_loop_state_machine.json.",
+    "The current safe baseline is report-only behavior plus tightly scoped config evolution, not unattended metadata, authoring, or publication.",
+    "The daily worker is the primary integration point that must eventually be governed by the state machine before production use."
+  ],
+  "checklist": [
+    {
+      "category": "control-plane/state machine",
+      "evidence": "21 states, 10 transitions, 14 dispositions; authoring-metadata contract not yet written.",
+      "priority": "P0",
+      "required_action": "Run 33 config write and then generalize a reusable transition engine.",
+      "status": "partial"
+    },
+    {
+      "category": "safety invariants",
+      "evidence": "Hard invariants keep authoring/publication/chapter/GPT-human approval/weak fallback false.",
+      "priority": "P0",
+      "required_action": "Keep invariants mandatory in every contract and test.",
+      "status": "pass"
+    },
+    {
+      "category": "closed-loop dispositions",
+      "evidence": "Automated dispositions exist, but not all production uncertainty/failure classes are modeled.",
+      "priority": "P0",
+      "required_action": "Add provider, retry, drift, rollback, and operational escalation dispositions.",
+      "status": "partial"
+    },
+    {
+      "category": "model reasoning",
+      "evidence": "GPT-5.5 via copilot/hermes_cli strict JSON, no weak/local fallback; this report used it successfully.",
+      "priority": "P0",
+      "required_action": "Add production health checks, schema versioning, and failure routing.",
+      "status": "pass"
+    },
+    {
+      "category": "data/provenance",
+      "evidence": "Reports preserve provenance paths and protected hashes; evidence validator is not centralized.",
+      "priority": "P0",
+      "required_action": "Create evidence_contract_validator and artifact registry.",
+      "status": "partial"
+    },
+    {
+      "category": "DB/status mutation",
+      "evidence": "Run 16 controlled source_notes write; current task inspected DB read-only; daily worker can still write runs and other data paths.",
+      "priority": "P0",
+      "required_action": "Centralize DB write contracts with transactions, idempotency keys, and rollback.",
+      "status": "partial"
+    },
+    {
+      "category": "artifact safety",
+      "evidence": "Protected snapshots exist in Run 32 script; no global artifact lifecycle/guard.",
+      "priority": "P0",
+      "required_action": "Add protected_mutation_guard and retention/immutability policy.",
+      "status": "partial"
+    },
+    {
+      "category": "docs/book safety",
+      "evidence": "Blocked daily gate prevents docs/book update in blocked paths; canary prose stayed report-only.",
+      "priority": "P0",
+      "required_action": "Keep docs/book disabled until publication gate is designed/tested/authorized.",
+      "status": "partial"
+    },
+    {
+      "category": "testing",
+      "evidence": "Large stage-specific pytest growth; limited evidence of cross-stage crash/retry/mutation-firewall tests.",
+      "priority": "P1",
+      "required_action": "Add contract, integration, property, crash, scheduler, and mutation tests.",
+      "status": "partial"
+    },
+    {
+      "category": "observability",
+      "evidence": "Reports/logs exist, but no metrics, alerts, SLOs, dashboards, queue depth, or stuck-run detection.",
+      "priority": "P1",
+      "required_action": "Design structured telemetry and alerting before unattended production.",
+      "status": "fail"
+    },
+    {
+      "category": "performance",
+      "evidence": "Runs 15-32 are slowed by bespoke scripts, new tests per micro-stage, and heavy verification.",
+      "priority": "P1",
+      "required_action": "Add reduced verification profiles and reusable runners.",
+      "status": "partial"
+    },
+    {
+      "category": "operations",
+      "evidence": "No durable scheduler/queue/retry/dead-letter/incident workflow evidenced.",
+      "priority": "P0",
+      "required_action": "Build scheduler adapter, event ledger, retry/dead-letter and operational escalation states.",
+      "status": "fail"
+    },
+    {
+      "category": "rollback",
+      "evidence": "Hashes/snapshots exist but no transactional rollback/quarantine proof.",
+      "priority": "P0",
+      "required_action": "Implement rollback/quarantine contracts and tests before writes.",
+      "status": "fail"
+    },
+    {
+      "category": "security",
+      "evidence": "Bridge redacts some stderr and workspace check rejects unsafe tracked paths; no full secrets/raw/log retention audit.",
+      "priority": "P1",
+      "required_action": "Perform security/secrets/raw isolation audit and define redaction/permission policy.",
+      "status": "unknown"
+    },
+    {
+      "category": "no-human-in-loop design",
+      "evidence": "human_review_required forbidden; role terms remain; exceptional human escalation not fully modeled.",
+      "priority": "P0",
+      "required_action": "Rename/contractualize machine-review semantics and model exceptional operational escalation outside normal path.",
+      "status": "partial"
+    }
+  ],
+  "confidence": "high",
+  "current_latest_run": {
+    "key_state": {
+      "config_update_needed": true,
+      "config_updated": false,
+      "disposition_count": "14 -> 14",
+      "human_in_loop_dependency_added": false,
+      "recommended_next_stage": "run_config_write_promotion_contract_update",
+      "state_count": "21 -> 21",
+      "transition_count": "10 -> 10"
+    },
+    "run": "Run 32",
+    "title": "Report-only closed-loop promotion-contract update/test for authoring metadata"
+  },
+  "evidence_paths": [
+    "git status --short",
+    "config/closed_loop_state_machine.json",
+    "config/reasoning_models.json",
+    "scripts/daily_book_worker.py",
+    "scripts/closed_loop_state_machine.py",
+    "scripts/update_closed_loop_promotion_contract.py",
+    "scripts/hermes_high_reasoning_json.py",
+    "scripts/verify_book_workspace.py",
+    "scripts/verify_editorial_roles.py",
+    "scripts/verify_book_citations.py",
+    "reports/architecture/closed-loop-pipeline-handoff-memory-20260614.md",
+    "reports/architecture/closed-loop-pipeline-handoff-memory-20260614.json",
+    "reports/architecture/run15-source-support-rereview-evidence-map-20260614.md",
+    "reports/architecture/run16-persist-source-support-rereview-notes-evidence-map-20260614.md",
+    "reports/architecture/run17-downstream-eligibility-manifest-evidence-map-20260614.md",
+    "reports/architecture/run18-research-object-clustering-evidence-map-20260614.md",
+    "reports/architecture/run19-cluster-quality-gate-evidence-map-20260614.md",
+    "reports/architecture/run20-narrative-packet-candidates-evidence-map-20260614.md",
+    "reports/architecture/run21-packet-redteam-gate-evidence-map-20260614.md",
+    "reports/architecture/run22a-closed-loop-state-machine-evidence-map-20260614.md",
+    "reports/architecture/run22b-author-draft-input-evidence-map-20260614.md",
+    "reports/architecture/run23-author-draft-input-preflight-evidence-map-20260614.md",
+    "reports/architecture/run24-author-draft-canary-evidence-map-20260614.md",
+    "reports/architecture/run25-author-draft-canary-redteam-evidence-map-20260614.md",
+    "reports/architecture/run26-author-draft-input-rebuild-evidence-map-20260614.md",
+    "reports/architecture/run27-rebuilt-author-input-preflight-evidence-map-20260614.md",
+    "reports/architecture/run28-author-draft-canary-v2-evidence-map-20260614.md",
+    "reports/architecture/run29-author-draft-canary-v2-redteam-evidence-map-20260614.md",
+    "reports/architecture/run30-constrained-authoring-metadata-evidence-map-20260614.md",
+    "reports/architecture/run31-constrained-authoring-metadata-preflight-evidence-map-20260614.md",
+    "reports/architecture/run32-promotion-contract-authoring-metadata-evidence-map-20260614.md",
+    "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run32.json",
+    "tests/test_update_closed_loop_promotion_contract.py",
+    "tests/test_closed_loop_state_machine.py",
+    "tests/test_daily_book_worker_blocked_gate.py",
+    "tests/test_model_profiles.py",
+    "tests/test_hermes_high_reasoning_json.py"
+  ],
+  "generated_at": "2026-06-14T16:34:25Z",
+  "gpt55": {
+    "bridge": "hermes_cli",
+    "elapsed_seconds": 89.625,
+    "llm_used": true,
+    "model": "gpt-5.5",
+    "profile": "closed_loop_editorial",
+    "prompt_hash": "6c13c4cc709334514f21bf92342c338d551419d7bb3bac956b8aa84e975b0e36",
+    "provider": "copilot",
+    "stdout_hash": "9cbabcd3ed0daa9e959b251c95f4797ece2bd4074062e1624c3461f152b63d95",
+    "stdout_json_valid": true,
+    "strict_json_required": true,
+    "used": true,
+    "weak_local_fallback_refused": true
+  },
+  "major_strengths": [
+    "The repository starts from a clean git status, which supports controlled run accounting and drift detection.",
+    "The closed_loop_editorial reasoning profile is strict: provider is limited to copilot, model is gpt-5.5, strict JSON is required, weak fallback is disabled, and local fallback is disabled.",
+    "scripts/hermes_high_reasoning_json.py performs useful machine-review hygiene by rejecting non-copilot providers, parsing stdout with json.loads, and recording command shape, stdout hash, prompt hash, and elapsed time.",
+    "The state machine already encodes important safety invariants, including that GPT-5.5 advisory output is not human/editor approval and that authoring/publication/chapter mutation are false until explicit gates.",
+    "Run 32 preserved report-only behavior: no DB/status/source_registry/raw/docs/book/schema/daily-worker changes, all authoring/publication/claim/chapter flags false, and the next stage was explicitly scoped to config writing.",
+    "scripts/update_closed_loop_promotion_contract.py has a promising --write-config path with protected snapshots, read-only DB snapshots, no-human-loop dependency guard, duplicate validation, and explicit write scope limited to config.",
+    "The test suite has expanded across source support review, persistence audit, clustering, narrative packets, redteam gates, state machine tests, author draft preflight/canary, constrained metadata, promotion contract, model profiles, high-reasoning bridge, and daily-worker blocked gates.",
+    "Read-only DB counts and protected hashes have been captured, which supports evidence-based reporting and mutation auditing.",
+    "The run history shows a generally conservative pattern: many report-only GPT-5.5 stages, one controlled source_notes-only persistence run, and no uncontrolled book/document publication mutation."
+  ],
+  "no_human_in_loop_gaps": [
+    "The system correctly forbids adding human-review-required dependencies in config, but it has not yet replaced routine human judgment with a complete machine-governed escalation model.",
+    "Exceptional human operational escalation is not clearly separated from normal-path machine decisions. Production needs explicit states such as blocked_for_operational_escalation without implying editorial approval.",
+    "Role language in scripts/daily_book_worker.py and human-readable role instruction docs still uses terms such as Editor review, Author synthesize, and Book role publish. This can be acceptable as internal labels only if production semantics explicitly state these are machine roles, not human approval.",
+    "There is not yet a demonstrated policy for resolving contradictions, low-confidence sources, unsafe claims, provider unavailability, schema drift, or raw-data ambiguity without routine human intervention.",
+    "The current pipeline has many report-only advisory stages, but no complete autonomous decision ladder from collection through quarantine, metadata persistence, authoring eligibility, publication blocking, and rollback.",
+    "No-human-in-loop production requires deterministic machine gates that are more conservative than human review. The repository is moving in that direction, but the gates are not yet integrated end-to-end.",
+    "The system needs explicit proof that GPT-5.5 output can only narrow or block pipeline eligibility unless a deterministic policy allows metadata persistence. It must not be able to grant publication readiness by language alone.",
+    "Human-readable reports should not become implicit approvals. The current invariant report_files_imply_persistence=false is good, but production must enforce this across all write paths."
+  ],
+  "p0_gaps": [
+    "State machine is not yet the authoritative source of truth for the daily worker or all mutation paths.",
+    "Run 33 config-write promotion contract has not yet been applied; authoring-metadata states/dispositions/transitions are still absent from config.",
+    "No centralized protected_mutation_guard enforces write scopes before execution across DB, source registry, raw, docs, schema, daily worker, and git.",
+    "No durable queue, retry budget, dead-letter, lease, duplicate suppression, or crash-resume model exists for unattended operation.",
+    "No production rollback/quarantine contract exists for partial DB/config/filesystem/git mutations.",
+    "Daily worker can still perform broad capture/extract/update/report/commit behaviors outside the closed-loop state-machine engine.",
+    "GPT-5.5/provider failure handling is fail-closed for the bridge but lacks production health checks, retry rules, and outage dispositions.",
+    "Publication and chapter-update gates remain conceptual/future and must stay disabled."
+  ],
+  "p1_gaps": [
+    "Observability is report-centric rather than metrics/alerts/SLO/stuck-run centric.",
+    "Audit trail is strong per report but not yet unified into an event ledger linking input hashes, config versions, prompts, outputs, dispositions, mutations, and verification.",
+    "Test strategy is fragmented by micro-stage and lacks enough cross-stage, property, crash-recovery, scheduler, and mutation-firewall tests.",
+    "Config management lacks production versioning, migration/diff gates, rollback, and environment separation.",
+    "Security/secrets/raw-isolation review is incomplete for prompts, logs, provider credentials, raw captures, and artifact permissions.",
+    "DB migration discipline needs schema version checks, rollback, migration tests, and compatibility gates.",
+    "Run-time performance and verification profiles are not tuned for production cadence."
+  ],
+  "p2_gaps": [
+    "Report retention, artifact lifecycle, compaction, indexing, and immutability policy are not defined.",
+    "Context-reset handoff memory exists but should become structured and automatically generated/compacted.",
+    "Scheduler reporting could be improved with artifact growth monitoring and lifecycle summaries.",
+    "Naming/role terminology needs cleanup to reduce ambiguity, while preserving useful machine-role boundaries."
+  ],
+  "production_architecture_components": [
+    "closed_loop_transition_engine: reusable state/guard evaluator used by every stage, not a Run-21-specific classifier.",
+    "promotion_contract_engine: maps states/dispositions to allowed inputs, required evidence, allowed mutations, forbidden mutations, and next states.",
+    "disposition_router: automatically routes uncertainty to safe_reports_only, needs_more_sources, source_context_unclear, contradiction_review_required, exclude_from_pipeline, or operational_escalation without normal human stops.",
+    "protected_mutation_guard: preflight and postflight guard with path/DB/table/column allowlists, expected deltas, protected hashes, and hard failure on unexpected changes.",
+    "evidence_contract_validator: validates provenance paths, citation support, caveats, do-not-say constraints, input hashes, and source-quality requirements.",
+    "model_reasoning_gateway: wraps GPT-5.5 strict JSON calls with profile validation, health checks, timeout handling, schema validation, prompt/output hashes, and no weak/local fallback.",
+    "scheduler/orchestrator adapter: daily/cron/worker integration that submits jobs to the transition engine rather than directly deciding mutations.",
+    "state/event ledger: append-only event store for run IDs, job IDs, config hashes, input hashes, decisions, dispositions, transitions, mutations, verification, and rollback/quarantine records.",
+    "retry/dead-letter handling: bounded retries by failure class, idempotency keys, leases, duplicate suppression, dead-letter queue, and operator-visible incident states.",
+    "observability/metrics: structured logs, metrics, alerts, stuck-run detection, provider health, queue depth, artifact growth, mutation counts, and SLO/error-budget reporting.",
+    "policy pack / safety invariants: versioned rules for no raw-to-prose, no advisory-as-approval, no weak fallback, no docs/book mutation, and blocked-state dominance.",
+    "dry-run and write-mode separation: report-only default, explicit write scopes, deterministic config writes, and separate production-write approval contracts.",
+    "report retention and compaction: immutable critical evidence plus compacted summaries and searchable artifact registry.",
+    "context-reset handoff memory: structured handoffs automatically generated from ledger state, not manually reconstituted from narrative reports."
+  ],
+  "protected_change_claim": {
+    "db_changed": false,
+    "docs_book_changed": false,
+    "notes": "This analysis wrote only the required reports under reports/architecture; final verification should confirm.",
+    "protected_files_changed_by_this_analysis": false
+  },
+  "protected_paths_checked": [
+    "data/source_registry.json",
+    "raw/",
+    "docs/book/",
+    "docs/entities/",
+    "docs/research/claims.md",
+    "data/schema.sql",
+    "scripts/daily_book_worker.py",
+    ".var/book.sqlite"
+  ],
+  "recommended_runs": [
+    {
+      "must_not_do": [
+        "No DB/status/source_registry/raw/docs/book/docs/entities/schema/daily-worker changes.",
+        "No human_review_required normal stop.",
+        "No authoring/publication/claim/chapter approvals.",
+        "No commit unless explicitly instructed."
+      ],
+      "purpose": "Apply Run 32 proposed authoring-metadata states/dispositions/transitions with --write-config and prove second run is a no-op.",
+      "run": "Run 33",
+      "title": "Idempotent config-write promotion-contract update",
+      "why_needed": "Current config still lacks the promotion contract needed for the next metadata stage."
+    },
+    {
+      "must_not_do": [
+        "Do not integrate into daily worker yet.",
+        "Do not mutate production DB or docs/book.",
+        "Do not weaken blocked/safe_reports_only paths."
+      ],
+      "purpose": "Consolidate Run-specific transition validation into a generic contract-driven transition engine design/implementation plan or test-fixture-only refactor.",
+      "run": "Run 34",
+      "title": "Reusable closed-loop transition engine",
+      "why_needed": "Stage-specific scripts are too slow and drift-prone for production."
+    },
+    {
+      "must_not_do": [
+        "Do not allow broad writes.",
+        "Do not run full publication verification as a default for tiny config/report runs.",
+        "Do not dirty protected artifacts."
+      ],
+      "purpose": "Design or introduce a centralized guard plus fast verification profiles for config/report-only runs.",
+      "run": "Run 35",
+      "title": "Protected mutation guard and reduced verification profiles",
+      "why_needed": "Current verification is heavy and partly after-the-fact; protected writes need preflight enforcement."
+    },
+    {
+      "must_not_do": [
+        "Do not enable unattended mutation path.",
+        "Do not use --allow-chapter-updates.",
+        "Do not commit/push from the worker."
+      ],
+      "purpose": "Map daily worker and scheduler write surfaces to state-machine authority before any integration.",
+      "run": "Run 36",
+      "title": "Scheduler/daily worker integration preflight",
+      "why_needed": "daily_book_worker.py is the production risk center and is not yet governed by the control-plane contract."
+    },
+    {
+      "must_not_do": [
+        "Do not implement autonomous writes before the model is tested.",
+        "Do not hide provider/model failures with weak fallback.",
+        "Do not treat retry success as evidence approval."
+      ],
+      "purpose": "Specify state/event ledger, idempotency keys, retry budgets, dead-letter states, and crash recovery.",
+      "run": "Run 37",
+      "title": "Event ledger / idempotency / retry model",
+      "why_needed": "Unattended production requires durable recovery and deduplication rather than manual run steering."
+    }
+  ],
+  "risks": [
+    "Distributed authority risk: multiple scripts may encode overlapping safety decisions, allowing one path to bypass another path's constraints.",
+    "False-readiness risk: report-only success can create confidence without proving behavior under real writes, crashes, retries, scheduler restarts, or provider failures.",
+    "Semantic approval risk: role language such as Editor, Author, and Book could be misread as human approval unless strictly defined as machine roles with no approval authority.",
+    "Provider dependency risk: copilot/gpt-5.5 outage, latency, malformed JSON, or unexpected behavior could stall or corrupt an unattended process without robust failure handling.",
+    "Mutation drift risk: protected files may change through an unguarded path if write authorization is not centralized before execution.",
+    "Duplicate-run risk: scheduled or retried jobs could create duplicate states, duplicate notes, duplicate reports, or conflicting DB writes without global idempotency keys.",
+    "Partial-failure risk: filesystem, DB, config, and git side effects could diverge if a run fails mid-execution.",
+    "Audit incompleteness risk: without unified lineage, later investigation may not reconstruct which config, prompt, model response, disposition, and mutation caused a state.",
+    "Publication leakage risk: canary text or draft inputs could accidentally become persistent prose or publication material if boundaries are not enforced.",
+    "Security risk: prompts, outputs, raw files, reports, logs, and provider credentials may expose sensitive data unless explicitly audited and controlled.",
+    "Operational opacity risk: without metrics and alerts, unattended failures may silently accumulate stale queues, blocked states, artifact growth, or missed updates.",
+    "Test-fragmentation risk: many stage-specific tests may miss cross-stage invariants and production integration failures."
+  ],
+  "verdict": "production-ready for report-only mode only",
+  "working_tree_start": {
+    "git_status_short": ""
+  }
+}

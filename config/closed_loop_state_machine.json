@@ -1,183 +1,582 @@
 {
-  "schema_version": "1.0",
-  "name": "terefo_heal_reboa_closed_loop_state_machine",
-  "states": [
-    "raw_discovery_signal",
-    "source_card_draft",
-    "semantic_object_draft",
-    "source_support_reviewed",
-    "corroboration_needed",
-    "source_context_unclear",
-    "review_note_persisted",
-    "downstream_manifest_eligible",
-    "caveat_only_cluster_candidate",
-    "support_cluster_candidate",
-    "cluster_quality_reviewed",
-    "caveat_only_packet_candidate",
-    "packet_redteam_reviewed",
-    "draft_input_candidate",
-    "author_draft_candidate",
-    "draft_redteam_reviewed",
-    "chapter_update_candidate",
-    "safe_reports_only",
-    "excluded_from_pipeline",
-    "contradiction_review_required",
-    "blocked_for_publication_by_policy"
-  ],
   "automated_dispositions": [
     "auto_quarantine",
-    "discovery_only",
-    "needs_more_sources",
-    "caveat_only",
-    "exclude_from_pipeline",
-    "contradiction_review_required",
-    "safe_reports_only",
-    "eligible_for_review_note_persistence",
-    "eligible_for_clustering",
-    "caveat_only_cluster_candidate",
-    "eligible_for_packet_candidate",
-    "caveat_only_author_input_ready",
     "blocked_for_publication_by_policy",
-    "source_context_unclear"
+    "caveat_only",
+    "caveat_only_author_input_ready",
+    "caveat_only_cluster_candidate",
+    "contradiction_review_required",
+    "discovery_only",
+    "eligible_for_clustering",
+    "eligible_for_packet_candidate",
+    "eligible_for_review_note_persistence",
+    "exclude_from_pipeline",
+    "metadata_preflight_passed",
+    "needs_better_authoring_metadata",
+    "needs_more_sources",
+    "ready_for_promotion_contract_update",
+    "safe_reports_only",
+    "source_context_unclear",
+    "update_closed_loop_promotion_contract_for_authoring_metadata"
   ],
   "hard_invariants": {
     "author_allowed_until_explicit_authoring_gate": false,
-    "publication_approved_until_explicit_publication_gate": false,
-    "eligible_for_publication_until_publication_gate": false,
-    "chapter_update_allowed_until_chapter_update_integration_gate": false,
-    "gpt55_advisory_is_human_or_editor_approval": false,
-    "report_files_imply_persistence": false,
-    "persistence_implies_authoring": false,
-    "packets_imply_prose": false,
-    "draft_input_readiness_implies_authoring_approval": false,
     "author_draft_implies_publication": false,
     "blocked_editorial_state_allows_chapter_mutation": false,
+    "chapter_update_allowed_until_chapter_update_integration_gate": false,
+    "draft_input_readiness_implies_authoring_approval": false,
+    "eligible_for_publication_until_publication_gate": false,
+    "gpt55_advisory_is_human_or_editor_approval": false,
+    "packets_imply_prose": false,
+    "persistence_implies_authoring": false,
+    "publication_approved_until_explicit_publication_gate": false,
+    "report_files_imply_persistence": false,
     "weak_or_local_fallback_allowed_for_safety_critical_editorial_reasoning": false
   },
+  "name": "terefo_heal_reboa_closed_loop_state_machine",
+  "schema_version": "1.0",
+  "states": [
+    "author_draft_candidate",
+    "authoring_metadata_promotion_contract_ready",
+    "blocked_for_publication_by_policy",
+    "caveat_only_cluster_candidate",
+    "caveat_only_packet_candidate",
+    "chapter_update_candidate",
+    "cluster_quality_reviewed",
+    "constrained_authoring_context_candidate",
+    "constrained_authoring_metadata_candidate",
+    "constrained_authoring_metadata_preflight_passed",
+    "contradiction_review_required",
+    "corroboration_needed",
+    "downstream_manifest_eligible",
+    "draft_input_candidate",
+    "draft_redteam_reviewed",
+    "exclude_from_pipeline",
+    "excluded_from_pipeline",
+    "needs_better_authoring_metadata",
+    "needs_more_sources",
+    "packet_redteam_reviewed",
+    "raw_discovery_signal",
+    "review_note_persisted",
+    "safe_reports_only",
+    "semantic_object_draft",
+    "source_card_draft",
+    "source_context_unclear",
+    "source_support_reviewed",
+    "support_cluster_candidate"
+  ],
   "transitions": [
     {
-      "from_state": "source_support_reviewed",
-      "to_state": "review_note_persisted",
-      "transition_type": "current_or_past_stage",
-      "guards": [
-        {"name": "advisory_only_true", "field": "advisory_only", "equals": true},
-        {"name": "author_allowed_false", "field": "author_allowed", "equals": false},
-        {"name": "publication_approved_false", "field": "publication_approved", "equals": false},
-        {"name": "recommended_next_stage_review_note_persistence", "field": "recommended_next_stage", "in": ["eligible_for_review_note_persistence"]},
-        {"name": "support_decision_supported_or_partial", "field": "support_decision", "in": ["supported", "partially_supported"]},
-        {"name": "corroboration_decision_corroborated_or_partial", "field": "corroboration_decision", "in": ["corroborated", "partially_corroborated"]},
-        {"name": "no_contradiction", "field": "contradiction", "equals": false},
-        {"name": "no_do_not_use", "field": "do_not_use", "equals": false}
-      ]
+      "from_state": "any",
+      "guards_any": [
+        {
+          "equals": true,
+          "field": "contradiction_unresolved",
+          "name": "contradiction_unresolved"
+        },
+        {
+          "equals": true,
+          "field": "do_not_use",
+          "name": "do_not_use"
+        },
+        {
+          "equals": true,
+          "field": "unsupported",
+          "name": "unsupported"
+        },
+        {
+          "equals": true,
+          "field": "unsafe_source",
+          "name": "unsafe_source"
+        },
+        {
+          "equals": true,
+          "field": "raw_capture_dependency",
+          "name": "raw_capture_dependency"
+        },
+        {
+          "equals": true,
+          "field": "missing_required_safety_flags",
+          "name": "missing_required_safety_flags"
+        }
+      ],
+      "to_state": "excluded_from_pipeline",
+      "transition_type": "safety_route"
     },
     {
-      "from_state": "review_note_persisted",
-      "to_state": "downstream_manifest_eligible",
-      "transition_type": "current_or_past_stage",
-      "guards": [
-        {"name": "source_note_exists", "field": "source_note_exists", "equals": true},
-        {"name": "note_type_allowed", "field": "note_type", "in": ["source_support_rereview_draft"]},
-        {"name": "provenance_complete", "field": "provenance_complete", "equals": true},
-        {"name": "author_allowed_false", "field": "author_allowed", "equals": false},
-        {"name": "publication_approved_false", "field": "publication_approved", "equals": false}
-      ]
+      "from_state": "any",
+      "guards_any": [
+        {
+          "equals": true,
+          "field": "evidence_too_narrow",
+          "name": "evidence_too_narrow"
+        },
+        {
+          "equals": true,
+          "field": "source_context_unclear",
+          "name": "source_context_unclear"
+        },
+        {
+          "equals": true,
+          "field": "privacy_risk",
+          "name": "privacy_risk"
+        },
+        {
+          "equals": true,
+          "field": "weak_support",
+          "name": "weak_support"
+        },
+        {
+          "equals": true,
+          "field": "blocked_editorial_state",
+          "name": "blocked_editorial_state"
+        },
+        {
+          "equals": true,
+          "field": "missing_provenance",
+          "name": "missing_provenance"
+        },
+        {
+          "equals": true,
+          "field": "failed_validation",
+          "name": "failed_validation"
+        }
+      ],
+      "to_state": "safe_reports_only",
+      "transition_type": "safety_route"
     },
     {
-      "from_state": "downstream_manifest_eligible",
-      "to_state": "caveat_only_cluster_candidate",
-      "transition_type": "current_or_past_stage",
+      "allowed_future_run": "dedicated_draft_redteam_run",
+      "from_state": "author_draft_candidate",
       "guards": [
-        {"name": "downstream_manifest_decision_caveat_only_cluster_candidate", "field": "downstream_manifest_decision", "equals": "caveat_only_cluster_candidate"},
-        {"name": "eligible_for_claim_insertion_false", "field": "eligible_for_claim_insertion", "equals": false},
-        {"name": "eligible_for_authoring_false", "field": "eligible_for_authoring", "equals": false},
-        {"name": "eligible_for_publication_false", "field": "eligible_for_publication", "equals": false}
-      ]
+        {
+          "equals": true,
+          "field": "dedicated_draft_redteam_run_completed",
+          "name": "dedicated_draft_redteam_run_completed"
+        }
+      ],
+      "to_state": "draft_redteam_reviewed",
+      "transition_type": "future_run_only"
+    },
+    {
+      "allowed_future_run": "build_constrained_authoring_context_candidate",
+      "from_state": "authoring_metadata_promotion_contract_ready",
+      "guards": [
+        {
+          "equals": true,
+          "field": "later_run_builds_context_metadata",
+          "name": "later_run_builds_context_metadata"
+        },
+        {
+          "equals": false,
+          "field": "author_allowed",
+          "name": "authoring_approval_not_implied"
+        },
+        {
+          "equals": false,
+          "field": "publication_approved",
+          "name": "publication_approval_not_implied"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_claim_insertion",
+          "name": "claim_insertion_not_implied"
+        },
+        {
+          "equals": false,
+          "field": "chapter_update_allowed",
+          "name": "docs_book_update_not_implied"
+        }
+      ],
+      "to_state": "constrained_authoring_context_candidate",
+      "transition_type": "future_run_only"
     },
     {
       "from_state": "caveat_only_cluster_candidate",
+      "guards": [
+        {
+          "equals": "caveat_only_packet_candidate_ready",
+          "field": "quality_gate_decision",
+          "name": "quality_gate_caveat_only_packet_candidate_ready"
+        },
+        {
+          "equals": true,
+          "field": "required_caveat_exists",
+          "name": "required_caveat_exists"
+        },
+        {
+          "equals": true,
+          "field": "do_not_say_exists",
+          "name": "do_not_say_exists"
+        },
+        {
+          "equals": false,
+          "field": "author_allowed",
+          "name": "author_allowed_false"
+        },
+        {
+          "equals": false,
+          "field": "publication_approved",
+          "name": "publication_approved_false"
+        }
+      ],
       "to_state": "caveat_only_packet_candidate",
-      "transition_type": "current_or_past_stage",
-      "guards": [
-        {"name": "quality_gate_caveat_only_packet_candidate_ready", "field": "quality_gate_decision", "equals": "caveat_only_packet_candidate_ready"},
-        {"name": "required_caveat_exists", "field": "required_caveat_exists", "equals": true},
-        {"name": "do_not_say_exists", "field": "do_not_say_exists", "equals": true},
-        {"name": "author_allowed_false", "field": "author_allowed", "equals": false},
-        {"name": "publication_approved_false", "field": "publication_approved", "equals": false}
-      ]
+      "transition_type": "current_or_past_stage"
     },
     {
-      "from_state": "caveat_only_packet_candidate",
-      "to_state": "draft_input_candidate",
-      "transition_type": "future_run_only",
       "allowed_future_run": "build_caveat_only_author_draft_input",
+      "from_state": "caveat_only_packet_candidate",
       "guards": [
-        {"name": "redteam_decision_caveat_only_author_input_ready", "field": "redteam_decision", "equals": "caveat_only_author_input_ready"},
-        {"name": "author_allowed_false", "field": "author_allowed", "equals": false},
-        {"name": "publication_approved_false", "field": "publication_approved", "equals": false},
-        {"name": "eligible_for_authoring_false", "field": "eligible_for_authoring", "equals": false},
-        {"name": "eligible_for_publication_false", "field": "eligible_for_publication", "equals": false},
-        {"name": "chapter_update_allowed_false", "field": "chapter_update_allowed", "equals": false}
-      ]
+        {
+          "equals": "caveat_only_author_input_ready",
+          "field": "redteam_decision",
+          "name": "redteam_decision_caveat_only_author_input_ready"
+        },
+        {
+          "equals": false,
+          "field": "author_allowed",
+          "name": "author_allowed_false"
+        },
+        {
+          "equals": false,
+          "field": "publication_approved",
+          "name": "publication_approved_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_authoring",
+          "name": "eligible_for_authoring_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_publication",
+          "name": "eligible_for_publication_false"
+        },
+        {
+          "equals": false,
+          "field": "chapter_update_allowed",
+          "name": "chapter_update_allowed_false"
+        }
+      ],
+      "to_state": "draft_input_candidate",
+      "transition_type": "future_run_only"
     },
     {
-      "from_state": "draft_input_candidate",
-      "to_state": "author_draft_candidate",
-      "transition_type": "future_run_only",
+      "from_state": "constrained_authoring_metadata_candidate",
+      "guards": [
+        {
+          "equals": "constrained_authoring_metadata_candidate",
+          "field": "metadata_type",
+          "name": "metadata_type_constrained_authoring_metadata_candidate"
+        },
+        {
+          "equals": "metadata_candidate_created",
+          "field": "metadata_decision",
+          "name": "metadata_decision_metadata_candidate_created"
+        },
+        {
+          "equals": "caveat_only",
+          "field": "metadata_use",
+          "name": "metadata_use_caveat_only"
+        },
+        {
+          "equals": true,
+          "field": "required_caveat_exists",
+          "name": "required_caveat_exists"
+        },
+        {
+          "equals": true,
+          "field": "do_not_say_exists",
+          "name": "do_not_say_exists"
+        },
+        {
+          "equals": true,
+          "field": "unsupported_inferences_exist",
+          "name": "unsupported_inferences_exist"
+        },
+        {
+          "equals": true,
+          "field": "promotion_blockers_exist",
+          "name": "promotion_blockers_exist"
+        },
+        {
+          "equals": true,
+          "field": "provenance_paths_exist",
+          "name": "provenance_paths_exist"
+        },
+        {
+          "equals": true,
+          "field": "advisory_only",
+          "name": "advisory_only_true"
+        },
+        {
+          "equals": false,
+          "field": "author_allowed",
+          "name": "author_allowed_false"
+        },
+        {
+          "equals": false,
+          "field": "publication_approved",
+          "name": "publication_approved_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_claim_insertion",
+          "name": "eligible_for_claim_insertion_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_authoring",
+          "name": "eligible_for_authoring_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_publication",
+          "name": "eligible_for_publication_false"
+        },
+        {
+          "equals": false,
+          "field": "chapter_update_allowed",
+          "name": "chapter_update_allowed_false"
+        }
+      ],
+      "to_state": "constrained_authoring_metadata_preflight_passed",
+      "transition_type": "current_or_past_stage"
+    },
+    {
+      "allowed_future_run": "update_closed_loop_promotion_contract_for_authoring_metadata",
+      "from_state": "constrained_authoring_metadata_preflight_passed",
+      "guards": [
+        {
+          "equals": "metadata_preflight_passed",
+          "field": "preflight_decision",
+          "name": "preflight_decision_metadata_preflight_passed"
+        },
+        {
+          "equals": "ready_for_promotion_contract_update",
+          "field": "metadata_readiness",
+          "name": "metadata_readiness_ready_for_promotion_contract_update"
+        },
+        {
+          "equals": "caveat_only",
+          "field": "closed_loop_disposition",
+          "name": "closed_loop_disposition_caveat_only"
+        },
+        {
+          "equals": "update_closed_loop_promotion_contract_for_authoring_metadata",
+          "field": "recommended_next_stage",
+          "name": "recommended_next_stage_update_contract"
+        },
+        {
+          "equals": true,
+          "field": "advisory_only",
+          "name": "advisory_only_true"
+        },
+        {
+          "equals": false,
+          "field": "author_allowed",
+          "name": "author_allowed_false"
+        },
+        {
+          "equals": false,
+          "field": "publication_approved",
+          "name": "publication_approved_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_claim_insertion",
+          "name": "eligible_for_claim_insertion_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_authoring",
+          "name": "eligible_for_authoring_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_publication",
+          "name": "eligible_for_publication_false"
+        },
+        {
+          "equals": false,
+          "field": "chapter_update_allowed",
+          "name": "chapter_update_allowed_false"
+        }
+      ],
+      "to_state": "authoring_metadata_promotion_contract_ready",
+      "transition_type": "future_run_only"
+    },
+    {
+      "from_state": "downstream_manifest_eligible",
+      "guards": [
+        {
+          "equals": "caveat_only_cluster_candidate",
+          "field": "downstream_manifest_decision",
+          "name": "downstream_manifest_decision_caveat_only_cluster_candidate"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_claim_insertion",
+          "name": "eligible_for_claim_insertion_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_authoring",
+          "name": "eligible_for_authoring_false"
+        },
+        {
+          "equals": false,
+          "field": "eligible_for_publication",
+          "name": "eligible_for_publication_false"
+        }
+      ],
+      "to_state": "caveat_only_cluster_candidate",
+      "transition_type": "current_or_past_stage"
+    },
+    {
       "allowed_future_run": "dedicated_author_draft_run",
+      "from_state": "draft_input_candidate",
       "guards": [
-        {"name": "dedicated_author_draft_run_completed", "field": "dedicated_author_draft_run_completed", "equals": true},
-        {"name": "authoring_gate_explicit", "field": "authoring_gate_explicit", "equals": true}
-      ]
+        {
+          "equals": true,
+          "field": "dedicated_author_draft_run_completed",
+          "name": "dedicated_author_draft_run_completed"
+        },
+        {
+          "equals": true,
+          "field": "authoring_gate_explicit",
+          "name": "authoring_gate_explicit"
+        }
+      ],
+      "to_state": "author_draft_candidate",
+      "transition_type": "future_run_only"
     },
     {
-      "from_state": "author_draft_candidate",
-      "to_state": "draft_redteam_reviewed",
-      "transition_type": "future_run_only",
-      "allowed_future_run": "dedicated_draft_redteam_run",
-      "guards": [
-        {"name": "dedicated_draft_redteam_run_completed", "field": "dedicated_draft_redteam_run_completed", "equals": true}
-      ]
-    },
-    {
-      "from_state": "draft_redteam_reviewed",
-      "to_state": "chapter_update_candidate",
-      "transition_type": "future_run_only",
       "allowed_future_run": "future_chapter_update_integration_gate",
+      "from_state": "draft_redteam_reviewed",
       "guards": [
-        {"name": "all_citations_resolved", "field": "all_citations_resolved", "equals": true},
-        {"name": "no_unsupported_claims", "field": "no_unsupported_claims", "equals": true},
-        {"name": "no_unsafe_privacy_or_material_risk", "field": "no_unsafe_privacy_or_material_risk", "equals": true},
-        {"name": "no_raw_or_social_only_unsupported_factual_prose", "field": "no_raw_or_social_only_unsupported_factual_prose", "equals": true},
-        {"name": "authoring_allowed_by_gate", "field": "authoring_allowed_by_gate", "equals": true},
-        {"name": "publication_separately_gated", "field": "publication_separately_gated", "equals": true}
-      ]
+        {
+          "equals": true,
+          "field": "all_citations_resolved",
+          "name": "all_citations_resolved"
+        },
+        {
+          "equals": true,
+          "field": "no_unsupported_claims",
+          "name": "no_unsupported_claims"
+        },
+        {
+          "equals": true,
+          "field": "no_unsafe_privacy_or_material_risk",
+          "name": "no_unsafe_privacy_or_material_risk"
+        },
+        {
+          "equals": true,
+          "field": "no_raw_or_social_only_unsupported_factual_prose",
+          "name": "no_raw_or_social_only_unsupported_factual_prose"
+        },
+        {
+          "equals": true,
+          "field": "authoring_allowed_by_gate",
+          "name": "authoring_allowed_by_gate"
+        },
+        {
+          "equals": true,
+          "field": "publication_separately_gated",
+          "name": "publication_separately_gated"
+        }
+      ],
+      "to_state": "chapter_update_candidate",
+      "transition_type": "future_run_only"
     },
     {
-      "from_state": "any",
-      "to_state": "safe_reports_only",
-      "transition_type": "safety_route",
-      "guards_any": [
-        {"name": "evidence_too_narrow", "field": "evidence_too_narrow", "equals": true},
-        {"name": "source_context_unclear", "field": "source_context_unclear", "equals": true},
-        {"name": "privacy_risk", "field": "privacy_risk", "equals": true},
-        {"name": "weak_support", "field": "weak_support", "equals": true},
-        {"name": "blocked_editorial_state", "field": "blocked_editorial_state", "equals": true},
-        {"name": "missing_provenance", "field": "missing_provenance", "equals": true},
-        {"name": "failed_validation", "field": "failed_validation", "equals": true}
-      ]
+      "from_state": "review_note_persisted",
+      "guards": [
+        {
+          "equals": true,
+          "field": "source_note_exists",
+          "name": "source_note_exists"
+        },
+        {
+          "field": "note_type",
+          "in": [
+            "source_support_rereview_draft"
+          ],
+          "name": "note_type_allowed"
+        },
+        {
+          "equals": true,
+          "field": "provenance_complete",
+          "name": "provenance_complete"
+        },
+        {
+          "equals": false,
+          "field": "author_allowed",
+          "name": "author_allowed_false"
+        },
+        {
+          "equals": false,
+          "field": "publication_approved",
+          "name": "publication_approved_false"
+        }
+      ],
+      "to_state": "downstream_manifest_eligible",
+      "transition_type": "current_or_past_stage"
     },
     {
-      "from_state": "any",
-      "to_state": "excluded_from_pipeline",
-      "transition_type": "safety_route",
-      "guards_any": [
-        {"name": "contradiction_unresolved", "field": "contradiction_unresolved", "equals": true},
-        {"name": "do_not_use", "field": "do_not_use", "equals": true},
-        {"name": "unsupported", "field": "unsupported", "equals": true},
-        {"name": "unsafe_source", "field": "unsafe_source", "equals": true},
-        {"name": "raw_capture_dependency", "field": "raw_capture_dependency", "equals": true},
-        {"name": "missing_required_safety_flags", "field": "missing_required_safety_flags", "equals": true}
-      ]
+      "from_state": "source_support_reviewed",
+      "guards": [
+        {
+          "equals": true,
+          "field": "advisory_only",
+          "name": "advisory_only_true"
+        },
+        {
+          "equals": false,
+          "field": "author_allowed",
+          "name": "author_allowed_false"
+        },
+        {
+          "equals": false,
+          "field": "publication_approved",
+          "name": "publication_approved_false"
+        },
+        {
+          "field": "recommended_next_stage",
+          "in": [
+            "eligible_for_review_note_persistence"
+          ],
+          "name": "recommended_next_stage_review_note_persistence"
+        },
+        {
+          "field": "support_decision",
+          "in": [
+            "supported",
+            "partially_supported"
+          ],
+          "name": "support_decision_supported_or_partial"
+        },
+        {
+          "field": "corroboration_decision",
+          "in": [
+            "corroborated",
+            "partially_corroborated"
+          ],
+          "name": "corroboration_decision_corroborated_or_partial"
+        },
+        {
+          "equals": false,
+          "field": "contradiction",
+          "name": "no_contradiction"
+        },
+        {
+          "equals": false,
+          "field": "do_not_use",
+          "name": "no_do_not_use"
+        }
+      ],
+      "to_state": "review_note_persisted",
+      "transition_type": "current_or_past_stage"
     }
   ]
 }

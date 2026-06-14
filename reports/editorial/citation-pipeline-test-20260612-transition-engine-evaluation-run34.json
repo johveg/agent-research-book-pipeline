@@ -1,0 +1,51 @@
+{
+  "allowed_future_run": "update_closed_loop_promotion_contract_for_authoring_metadata",
+  "author_allowed": false,
+  "automated_disposition": "caveat_only",
+  "chapter_update_allowed": false,
+  "config_validation": {
+    "disposition_count": 18,
+    "errors": [],
+    "human_in_loop_dependency_added": false,
+    "ok": true,
+    "state_count": 28,
+    "transition_count": 13
+  },
+  "current_state": "constrained_authoring_metadata_preflight_passed",
+  "eligible_for_authoring": false,
+  "eligible_for_claim_insertion": false,
+  "eligible_for_publication": false,
+  "failed_guards": [],
+  "generated_at": "2026-06-14T17:17:17Z",
+  "hard_invariants_preserved": true,
+  "human_in_loop_dependency_added": false,
+  "input_paths": {
+    "input_report": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-preflight-run31.json",
+    "state_machine_config": "config/closed_loop_state_machine.json"
+  },
+  "llm_used": false,
+  "mode": "closed_loop_transition_engine",
+  "ok": true,
+  "output_paths": {
+    "json": "/home/hermoine/terefohealreboa/reports/editorial/citation-pipeline-test-20260612-transition-engine-evaluation-run34.json",
+    "markdown": "/home/hermoine/terefohealreboa/reports/editorial/citation-pipeline-test-20260612-transition-engine-evaluation-run34.md"
+  },
+  "proposed_next_state": "authoring_metadata_promotion_contract_ready",
+  "publication_approved": false,
+  "report_only": true,
+  "satisfied_guards": [
+    "preflight_decision_metadata_preflight_passed",
+    "metadata_readiness_ready_for_promotion_contract_update",
+    "closed_loop_disposition_caveat_only",
+    "recommended_next_stage_update_contract",
+    "advisory_only_true",
+    "author_allowed_false",
+    "publication_approved_false",
+    "eligible_for_claim_insertion_false",
+    "eligible_for_authoring_false",
+    "eligible_for_publication_false",
+    "chapter_update_allowed_false"
+  ],
+  "transition_decision": "transition_allowed",
+  "transition_type": "future_run_only"
+}

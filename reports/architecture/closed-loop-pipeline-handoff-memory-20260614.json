@@ -1,0 +1,817 @@
+{
+  "branch": "main",
+  "current_artifacts": {
+    "handoff_created": [
+      "reports/architecture/closed-loop-pipeline-handoff-memory-20260614.md",
+      "reports/architecture/closed-loop-pipeline-handoff-memory-20260614.json"
+    ],
+    "important_configs": [
+      "config/closed_loop_state_machine.json",
+      "config/reasoning_models.json"
+    ],
+    "important_scripts_latest": [
+      "scripts/update_closed_loop_promotion_contract.py",
+      "scripts/llm_constrained_authoring_metadata_preflight.py",
+      "scripts/build_constrained_authoring_metadata.py",
+      "scripts/llm_author_draft_canary_v2_redteam.py",
+      "scripts/llm_author_draft_canary_v2.py",
+      "scripts/llm_rebuilt_author_input_preflight.py",
+      "scripts/llm_rebuild_author_draft_input.py",
+      "scripts/llm_author_draft_canary_redteam.py",
+      "scripts/llm_author_draft_canary.py",
+      "scripts/closed_loop_state_machine.py",
+      "scripts/hermes_high_reasoning_json.py"
+    ],
+    "run32_created": [
+      "scripts/update_closed_loop_promotion_contract.py",
+      "tests/test_update_closed_loop_promotion_contract.py",
+      "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run32.json",
+      "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run32.md",
+      "reports/architecture/run32-promotion-contract-authoring-metadata-evidence-map-20260614.md"
+    ]
+  },
+  "current_counts": {
+    "closed_loop_state_machine": {
+      "automated_dispositions": 14,
+      "states": 21,
+      "transitions": 10
+    },
+    "db": {
+      "claims": 181,
+      "editorial_reviews": 10,
+      "source_notes": 365
+    },
+    "run32": {
+      "disposition_count_after": 14,
+      "disposition_count_before": 14,
+      "excluded_metadata_preflight_count": 0,
+      "promotion_contract_candidate_count": 1,
+      "selected_metadata_preflight_count": 1,
+      "state_count_after": 21,
+      "state_count_before": 21,
+      "transition_count_after": 10,
+      "transition_count_before": 10
+    }
+  },
+  "current_date": "2026-06-14",
+  "current_decisions": {
+    "all_author_publication_claim_chapter_flags_false": true,
+    "promotion_contract_decision_counts": {
+      "config_update_needed": 1
+    },
+    "recommended_next_stage_counts": {
+      "run_config_write_promotion_contract_update": 1
+    },
+    "run32_config_update_needed": true,
+    "run32_config_updated": false,
+    "run32_human_in_loop_dependency_added": false,
+    "transition_decision_counts": {
+      "allowed_for_future_promotion_contract_update": 1
+    }
+  },
+  "generated_at": "2026-06-14T16:22:47Z",
+  "hard_invariants": [
+    "GPT-5.5/GPT advisory output is high-reasoning machine output, never human/editor approval.",
+    "No human-in-the-loop is introduced as a normal/required production dependency; routine uncertainty routes through automated dispositions.",
+    "Weak/local fallback is forbidden for safety-critical editorial reasoning.",
+    "No raw-capture-to-prose path is allowed.",
+    "No source/claim/editorial DB mutation unless an explicit future machine gate permits it.",
+    "No docs/book mutation unless an explicit future publication/chapter gate permits it.",
+    "No claim insertion unless an explicit future claim-insertion gate permits it.",
+    "Blocked editorial state dominates all chapter mutation paths.",
+    "author_allowed, publication_approved, eligible_for_claim_insertion, eligible_for_authoring, eligible_for_publication, and chapter_update_allowed remain false unless an explicit future promotion gate changes them."
+  ],
+  "head": "f79f9af",
+  "latest_run": "Run 32",
+  "latest_run_title": "Report-only closed-loop promotion-contract update/test for authoring metadata",
+  "next_actions": [
+    {
+      "requirements": [
+        "use --write-config",
+        "update only config/closed_loop_state_machine.json",
+        "deterministic/idempotent",
+        "run twice to prove no duplicates",
+        "no DB/status/source_registry/raw/docs/book/schema/daily-worker changes",
+        "no prose or approval flags",
+        "no human_review_required production dependency"
+      ],
+      "run": "33",
+      "title": "explicit config-write promotion-contract update"
+    },
+    {
+      "requirements": [
+        "factor common validators",
+        "contract-driven transitions",
+        "shared protected-mutation verifier"
+      ],
+      "run": "34",
+      "title": "consolidate reusable closed-loop transition/promotion engine"
+    },
+    {
+      "requirements": [
+        "cadence policy",
+        "verification tiers",
+        "scheduler/observability/failure-recovery design"
+      ],
+      "run": "35",
+      "title": "production-readiness gap closure plan"
+    },
+    {
+      "requirements": [
+        "closed-loop unattended operation with machine-checkable gates"
+      ],
+      "run": "later",
+      "title": "scheduler integration, observability, failure recovery, idempotent queues, contract-driven execution, controlled authoring-context candidate"
+    }
+  ],
+  "next_recommended_run": "Run 33 explicit config-write promotion-contract update using --write-config",
+  "no_human_in_loop_policy": {
+    "allowed_escalation_metadata_optional": true,
+    "human_review_required_terminal_state_for_routine_uncertainty": false,
+    "normal_routing": "automated dispositions such as caveat_only, safe_reports_only, needs_more_sources, needs_better_authoring_metadata, source_context_unclear, exclude_from_pipeline, contradiction_review_required, blocked_for_publication_by_policy",
+    "routine_production_dependency_allowed": false
+  },
+  "open_risks": [
+    "Config update proposed by Run 32 is not yet applied; current config lacks authoring-metadata promotion states/dispositions/transitions.",
+    "Runs 15–32 artifacts appear uncommitted before this handoff unless the final checkpoint commit includes them.",
+    "Pipeline has many bespoke scripts and needs consolidation before unattended production.",
+    "Verification commands regenerate protected generated artifacts that must be restored.",
+    "Downstream prose-promotion risk remains if later gates strip caveats or overclaim Hermes/OpenClaw relationship."
+  ],
+  "pipeline_architecture": [
+    {
+      "stage": "raw/source registry",
+      "summary": "Inputs remain source and capture artifacts; raw captures must not flow directly to prose."
+    },
+    {
+      "stage": "source cards",
+      "summary": "Source-card draft/report stages summarize possible source material without publication approval."
+    },
+    {
+      "stage": "semantic objects",
+      "summary": "Semantic object drafts extract bounded entities/relations from source material."
+    },
+    {
+      "stage": "source support/corroboration",
+      "summary": "GPT-5.5 and deterministic checks review whether source material supports bounded claims and whether corroboration is needed."
+    },
+    {
+      "stage": "persisted source notes",
+      "summary": "Run 16 persisted one source_notes row after a controlled review path; persistence still did not imply authoring or publication."
+    },
+    {
+      "stage": "downstream eligibility manifest",
+      "summary": "Run 17 created report-only eligibility routing from persisted review notes."
+    },
+    {
+      "stage": "clusters",
+      "summary": "Run 18 grouped research objects into candidate clusters."
+    },
+    {
+      "stage": "cluster quality gate",
+      "summary": "Run 19 reviewed cluster quality and retained caveat-only constraints."
+    },
+    {
+      "stage": "narrative packet candidate",
+      "summary": "Run 20 built report-only packet candidates, not prose."
+    },
+    {
+      "stage": "packet red-team",
+      "summary": "Run 21 red-teamed packet candidates and routed only caveat-only author-input readiness."
+    },
+    {
+      "stage": "state-machine/control-plane",
+      "summary": "Run 22A introduced closed-loop state-machine vocabulary and hard invariants."
+    },
+    {
+      "stage": "author-draft input",
+      "summary": "Run 22B built metadata-only draft input candidates."
+    },
+    {
+      "stage": "author-draft input preflight",
+      "summary": "Run 23 GPT-5.5 preflighted draft-input readiness for a controlled canary."
+    },
+    {
+      "stage": "draft canary",
+      "summary": "Run 24 generated report-only canary text, not chapter prose."
+    },
+    {
+      "stage": "canary red-team",
+      "summary": "Run 25 found the first canary safe but not useful."
+    },
+    {
+      "stage": "enriched input rebuild",
+      "summary": "Run 26 rebuilt/enriched author-draft input rather than expanding prose."
+    },
+    {
+      "stage": "rebuilt input preflight",
+      "summary": "Run 27 preflighted rebuilt input for a second controlled canary."
+    },
+    {
+      "stage": "canary v2",
+      "summary": "Run 28 generated a second constrained report-only caveat-only canary."
+    },
+    {
+      "stage": "canary v2 red-team",
+      "summary": "Run 29 judged canary v2 safe and improved but still thin."
+    },
+    {
+      "stage": "constrained authoring metadata",
+      "summary": "Run 30 packaged the canary and provenance into deterministic metadata only."
+    },
+    {
+      "stage": "metadata preflight",
+      "summary": "Run 31 GPT-5.5 judged metadata safe/useful as metadata only for promotion-contract work."
+    },
+    {
+      "stage": "promotion-contract update/test",
+      "summary": "Run 32 created a report-only plan showing config update is needed; config was not changed."
+    }
+  ],
+  "production_readiness_gaps": [
+    "Run cadence is too slow for production unattended operation.",
+    "Too many bespoke scripts per state transition; needs consolidation.",
+    "Full pytest/MkDocs on every tiny metadata step is heavy; need reduced vs full verification policy.",
+    "Verification dirties generated protected artifacts and then restores them.",
+    "Need reusable transition engine.",
+    "Need reusable protected-mutation verifier.",
+    "Need reusable closed-loop run summary/report writer.",
+    "Need promotion-contract engine instead of hand-coded per-run checks.",
+    "Need scheduler/orchestrator integration.",
+    "Need observability and audit trail for unattended operation.",
+    "Need failure recovery/idempotency strategy.",
+    "Need bounded retries and model/provider health rules.",
+    "Need automated dispositions everywhere instead of human stops."
+  ],
+  "project": "Terefo Heal Reboa / Hermes closed-loop editorial pipeline",
+  "protected_paths": [
+    ".var/book.sqlite",
+    "data/source_registry.json",
+    "raw/",
+    "docs/book/",
+    "docs/entities/",
+    "docs/research/claims.md",
+    "data/schema.sql",
+    "scripts/daily_book_worker.py"
+  ],
+  "reasoning_model_policy": {
+    "allow_local_fallback": false,
+    "allow_weak_fallback": false,
+    "allowed_dispositions": [
+      "auto_quarantine",
+      "discovery_only",
+      "needs_more_sources",
+      "caveat_only",
+      "exclude_from_pipeline",
+      "contradiction_review_required",
+      "safe_reports_only",
+      "eligible_for_review_note_persistence",
+      "blocked_for_publication_by_policy",
+      "source_context_unclear"
+    ],
+    "bridge": "hermes_cli",
+    "model": "gpt-5.5",
+    "provider": "copilot",
+    "reasoning_effort": "high",
+    "strict_json_required": true,
+    "task_class": "closed_loop_editorial_disposition"
+  },
+  "repo_path": "/home/hermoine/terefohealreboa",
+  "run32_report": "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run32.json",
+  "run_summaries": [
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "dry-run advisory baseline; no persistence",
+      "main_files_created": [
+        "reports/editorial/*llm-reasoning-dry-run.json",
+        "reports/architecture/run1-llm-reasoning-dry-run-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "source-card and semantic-object exploration",
+      "objective": "Initial LLM/reasoning dry-run and evidence-map baseline for advisory-only pipeline work.",
+      "run": "1",
+      "safety_conclusion": "Report-only; no claims/prose/status publication effects."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "candidate selection report produced",
+      "main_files_created": [
+        "reports/editorial/*reasoning-candidate-selection.json"
+      ],
+      "next_stage_recommendation": "source-card drafts",
+      "objective": "Reasoning candidate selection/report-only triage for candidate material.",
+      "run": "2",
+      "safety_conclusion": "No publication or DB mutation."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": "mixed/optional high-reasoning variants exist",
+      "key_decision_counts": "source-card reports created; no authoring approval",
+      "main_files_created": [
+        "reports/editorial/*source-card-drafts*.json",
+        "reports/architecture/run3-source-card-persistence-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "semantic object extraction",
+      "objective": "Source-card draft/persistence evidence-map work.",
+      "run": "3",
+      "safety_conclusion": "Source cards did not become source-registry promotion or prose."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": "mixed; high-reasoning variants exist",
+      "key_decision_counts": "semantic object drafts created",
+      "main_files_created": [
+        "reports/editorial/*semantic-object-drafts*.json",
+        "reports/architecture/run4-semantic-object-extraction-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "high-reasoning bridge and quality gate",
+      "objective": "Semantic-object extraction/reporting.",
+      "run": "4",
+      "safety_conclusion": "Extracted objects stayed advisory."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "high-reasoning bridge validated for advisory JSON use",
+      "main_files_created": [
+        "scripts/hermes_high_reasoning_json.py",
+        "reports/editorial/*high-reasoning-canary.json",
+        "reports/architecture/run5-high-reasoning-bridge-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "quality-gate correction",
+      "objective": "High-reasoning bridge/canary for strict GPT-5.5 JSON work.",
+      "run": "5",
+      "safety_conclusion": "Bridge records hashes/metadata; no weak/local fallback intended."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": "some quality-gate variants used GPT-5.5",
+      "key_decision_counts": "quality gate report-only correction",
+      "main_files_created": [
+        "reports/architecture/run6-quality-gate-correction-evidence-map-20260614.md",
+        "reports/editorial/*quality-gate*.json"
+      ],
+      "next_stage_recommendation": "better source regeneration",
+      "objective": "Quality-gate correction for safer editorial validation.",
+      "run": "6",
+      "safety_conclusion": "No claim insertion or chapter update."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "better source artifacts and quality-gate reports",
+      "main_files_created": [
+        "reports/architecture/run7-better-source-regeneration-evidence-map-20260614.md",
+        "reports/editorial/*run7*.json"
+      ],
+      "next_stage_recommendation": "editor-review packet",
+      "objective": "Better source regeneration and high-reasoning source/semantic quality gate variants.",
+      "run": "7",
+      "safety_conclusion": "Advisory reports only."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "editor-review packet produced",
+      "main_files_created": [
+        "reports/editorial/citation-pipeline-test-20260612-editor-review-packet-run8.json"
+      ],
+      "next_stage_recommendation": "filing/novelty evaluation",
+      "objective": "Editor-review packet construction.",
+      "run": "8",
+      "safety_conclusion": "No human/editor approval encoded; packet was review artifact."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "novelty/filing evaluation report",
+      "main_files_created": [
+        "reports/editorial/citation-pipeline-test-20260612-filing-novelty-evaluation-run9.json"
+      ],
+      "next_stage_recommendation": "source-support review",
+      "objective": "Filing/novelty evaluation using high-reasoning review.",
+      "run": "9",
+      "safety_conclusion": "No DB/prose/status mutation."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "source-support review report",
+      "main_files_created": [
+        "reports/editorial/citation-pipeline-test-20260612-source-support-review-run10.json"
+      ],
+      "next_stage_recommendation": "persist reasoning review notes only under explicit gate",
+      "objective": "Source-support review for bounded claims/source relationships.",
+      "run": "10",
+      "safety_conclusion": "Review did not itself insert claims or approve publication."
+    },
+    {
+      "db_changed": "controlled note persistence earlier in pipeline",
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "reasoning review note persistence report",
+      "main_files_created": [
+        "reports/editorial/citation-pipeline-test-20260612-persisted-review-notes-run11.json"
+      ],
+      "next_stage_recommendation": "corroboration research",
+      "objective": "Persist reasoning review notes under controlled conditions.",
+      "run": "11",
+      "safety_conclusion": "Persistence did not imply authoring/publication."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "corroboration research report-only",
+      "main_files_created": [
+        "reports/editorial/citation-pipeline-test-20260612-corroboration-research-run12.json"
+      ],
+      "next_stage_recommendation": "candidate source collection",
+      "objective": "Corroboration research for source support gaps.",
+      "run": "12",
+      "safety_conclusion": "Research output stayed advisory."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "candidate sources collected",
+      "main_files_created": [
+        "reports/editorial/citation-pipeline-test-20260612-corroboration-source-collection-run13.json"
+      ],
+      "next_stage_recommendation": "candidate source import/validation",
+      "objective": "Corroboration source collection/report-only candidate gathering.",
+      "run": "13",
+      "safety_conclusion": "Collection did not validate support or publish."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "curated candidate-source JSON populated; no claims/editorial_reviews/source registry writes",
+      "main_files_created": [
+        "reports/editorial/*corroboration-source-import-run14.json",
+        "reports/editorial/*curated-candidate-sources-run14*.json"
+      ],
+      "next_stage_recommendation": "Run 15 GPT-5.5 source-support re-review using accepted curated candidate sources",
+      "objective": "Candidate-source import/validation and curated candidate-source population; Run 14A validation/import rerun and verification passed.",
+      "run": "14A-14C",
+      "safety_conclusion": "No source/claim/editorial statuses changed; no raw captures; no schema/daily worker/book changes."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "blocked editorial state made authoritative before chapter synthesis/update; commit f79f9af exists for hotfix",
+      "main_files_created": [
+        "tests/test_daily_book_worker_blocked_gate.py",
+        "reports/architecture/run14d-closed-loop-editorial-gate-correction-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "Run 15 source-support re-review",
+      "objective": "Closed-loop editorial gate correction and blocked-run control-flow guard after nightly chapter mutation breach.",
+      "run": "14D",
+      "safety_conclusion": "Blocked state now skips synthesize/update and prevents docs/book commit path."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "source_support_rereview report-only; caveat-only support retained",
+      "main_files_created": [
+        "scripts/llm_source_support_rereview.py",
+        "tests/test_llm_source_support_rereview.py",
+        "reports/editorial/*source-support-rereview-run15.json",
+        "reports/architecture/run15-source-support-rereview-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "model-profile routing and persistence audit",
+      "objective": "GPT-5.5 source-support re-review over accepted curated candidate sources.",
+      "run": "15",
+      "safety_conclusion": "No weak/local fallback; no protected writes."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "closed_loop_editorial profile = copilot/gpt-5.5/hermes_cli strict JSON no weak/local fallback",
+      "main_files_created": [
+        "config/reasoning_models.json",
+        "scripts/model_profiles.py",
+        "tests/test_model_profiles.py",
+        "reports/architecture/run15b-model-profile-routing-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "persist selected source support rereview notes",
+      "objective": "Central model/profile routing for safety-critical reasoning.",
+      "run": "15B",
+      "safety_conclusion": "Fail-closed profile validation."
+    },
+    {
+      "db_changed": true,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "exactly one source_notes row inserted: note_a30056d3f19faa7deb0c9dbc; source_notes total later 365",
+      "main_files_created": [
+        "scripts/persist_source_support_rereview_notes.py",
+        "tests/test_persist_source_support_rereview_notes.py",
+        "reports/editorial/*persisted-source-support-rereview-notes-run16.json",
+        "reports/architecture/run16-persist-source-support-rereview-notes-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "downstream eligibility manifest",
+      "objective": "Persist source-support rereview notes under controlled gate.",
+      "run": "16",
+      "safety_conclusion": "No claims/editorial_reviews/status/book/schema/source_registry/raw changes."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "manifest eligibility for caveat-only cluster path",
+      "main_files_created": [
+        "scripts/audit_persisted_rereview_notes.py",
+        "tests/test_audit_persisted_rereview_notes.py",
+        "reports/editorial/*downstream-eligibility-manifest-run17.json",
+        "reports/architecture/run17-downstream-eligibility-manifest-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "research-object clustering",
+      "objective": "Downstream eligibility manifest from persisted rereview notes.",
+      "run": "17",
+      "safety_conclusion": "Report-only; no new persistence."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "cluster_4e8554045cfaf827bc68bcc5 created as singleton/narrow candidate",
+      "main_files_created": [
+        "scripts/llm_cluster_research_objects.py",
+        "tests/test_llm_cluster_research_objects.py",
+        "reports/editorial/*research-object-clusters-run18.json",
+        "reports/architecture/run18-research-object-clustering-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "cluster quality gate",
+      "objective": "Research-object clustering.",
+      "run": "18",
+      "safety_conclusion": "No packets/prose/claims/status changes."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "one caveat-only packet candidate readiness path",
+      "main_files_created": [
+        "scripts/llm_cluster_quality_gate.py",
+        "tests/test_llm_cluster_quality_gate.py",
+        "reports/editorial/*cluster-quality-gate-run19.json",
+        "reports/architecture/run19-cluster-quality-gate-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "narrative packet candidates",
+      "objective": "Cluster quality gate.",
+      "run": "19",
+      "safety_conclusion": "Advisory caveat-only; no approvals."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "one caveat-only packet candidate; fail-closed schema tightened after first issue",
+      "main_files_created": [
+        "scripts/llm_build_narrative_packets.py",
+        "tests/test_llm_build_narrative_packets.py",
+        "reports/editorial/*narrative-packet-candidates-run20.json",
+        "reports/architecture/run20-narrative-packet-candidates-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "packet red-team gate",
+      "objective": "Build narrative packet candidates.",
+      "run": "20",
+      "safety_conclusion": "Packet candidate was not prose or publication approval."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "decision caveat_only_author_input_ready for one packet",
+      "main_files_created": [
+        "scripts/llm_packet_redteam_gate.py",
+        "tests/test_llm_packet_redteam_gate.py",
+        "reports/editorial/*packet-redteam-gate-run21.json",
+        "reports/architecture/run21-packet-redteam-gate-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "state-machine/control-plane and draft-input candidate",
+      "objective": "Packet red-team gate.",
+      "run": "21",
+      "safety_conclusion": "Approval flags stayed false."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "state machine introduced 21 states, 10 transitions, 14 dispositions in current config before Run 33",
+      "main_files_created": [
+        "config/closed_loop_state_machine.json",
+        "scripts/closed_loop_state_machine.py",
+        "tests/test_closed_loop_state_machine.py",
+        "reports/editorial/*closed-loop-state-machine-run22a.json",
+        "reports/architecture/run22a-closed-loop-state-machine-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "author draft input candidate",
+      "objective": "Closed-loop state-machine/control-plane report.",
+      "run": "22A",
+      "safety_conclusion": "Hard invariants encoded; GPT output not human/editor approval."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "one draft_input_candidate/draft_input_run22b_* created as metadata only",
+      "main_files_created": [
+        "scripts/build_author_draft_input.py",
+        "tests/test_build_author_draft_input.py",
+        "reports/editorial/*author-draft-input-run22b.json",
+        "reports/architecture/run22b-author-draft-input-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "author-draft input preflight",
+      "objective": "Build author-draft input metadata candidate.",
+      "run": "22B",
+      "safety_conclusion": "No author prose; all approval flags false."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "draft_input_canary_ready for one input",
+      "main_files_created": [
+        "scripts/llm_author_draft_input_preflight.py",
+        "tests/test_llm_author_draft_input_preflight.py",
+        "reports/editorial/*author-draft-input-preflight-run23.json",
+        "reports/architecture/run23-author-draft-input-preflight-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "controlled report-only author-draft canary",
+      "objective": "GPT-5.5 author-draft input preflight.",
+      "run": "23",
+      "safety_conclusion": "Positive preflight meant canary only, not author/publication approval."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "one caveat-only canary created after fail-closed schema tightening",
+      "main_files_created": [
+        "scripts/llm_author_draft_canary.py",
+        "tests/test_llm_author_draft_canary.py",
+        "reports/editorial/*author-draft-canary-run24.json",
+        "reports/architecture/run24-author-draft-canary-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "canary red-team",
+      "objective": "Controlled report-only caveat-only author-draft canary.",
+      "run": "24",
+      "safety_conclusion": "Canary text remained inside report artifact; not chapter prose."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "one Run 24 canary judged safe_but_not_useful",
+      "main_files_created": [
+        "scripts/llm_author_draft_canary_redteam.py",
+        "tests/test_llm_author_draft_canary_redteam.py",
+        "reports/editorial/*author-draft-canary-redteam-run25.json",
+        "reports/architecture/run25-author-draft-canary-redteam-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "rebuild_author_draft_input",
+      "objective": "Author-draft canary red-team/usefulness review.",
+      "run": "25",
+      "safety_conclusion": "Safety separated from usefulness; no promotion to prose."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "one rebuilt_input_run26_enriched_caveat_only_* created; DB counts unchanged",
+      "main_files_created": [
+        "scripts/llm_rebuild_author_draft_input.py",
+        "tests/test_llm_rebuild_author_draft_input.py",
+        "reports/editorial/*author-draft-input-rebuild-run26.json",
+        "reports/architecture/run26-author-draft-input-rebuild-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "rebuilt input preflight",
+      "objective": "Rebuild/enrich author-draft input instead of expanding prose.",
+      "run": "26",
+      "safety_conclusion": "Metadata/input enrichment only; no author/chapter text."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "one rebuilt_input_canary_ready; recommended second controlled canary",
+      "main_files_created": [
+        "scripts/llm_rebuilt_author_input_preflight.py",
+        "tests/test_llm_rebuilt_author_input_preflight.py",
+        "reports/editorial/*rebuilt-author-input-preflight-run27.json",
+        "reports/architecture/run27-rebuilt-author-input-preflight-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "second caveat-only canary v2",
+      "objective": "Rebuilt author input preflight.",
+      "run": "27",
+      "safety_conclusion": "No protected writes; flags false."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "one draft_canary_run28_caveat_only_v2_* created; word_count 66",
+      "main_files_created": [
+        "scripts/llm_author_draft_canary_v2.py",
+        "tests/test_llm_author_draft_canary_v2.py",
+        "reports/editorial/*author-draft-canary-v2-run28.json",
+        "reports/architecture/run28-author-draft-canary-v2-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "canary v2 red-team",
+      "objective": "Second controlled report-only caveat-only author-draft canary v2.",
+      "run": "28",
+      "safety_conclusion": "Report-only canary; no docs/book/DB/status changes."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "draft_canary_v2_passed=1; usefulness improved_but_still_thin=1",
+      "main_files_created": [
+        "scripts/llm_author_draft_canary_v2_redteam.py",
+        "tests/test_llm_author_draft_canary_v2_redteam.py",
+        "reports/editorial/*author-draft-canary-v2-redteam-run29.json",
+        "reports/architecture/run29-author-draft-canary-v2-redteam-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "build_constrained_authoring_metadata_candidate",
+      "objective": "Canary v2 red-team, containment, and usefulness review.",
+      "run": "29",
+      "safety_conclusion": "Safe for constrained metadata stage only."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "selected_redteam_count=1; metadata_candidate_count=1; metadata_use caveat_only=1",
+      "main_files_created": [
+        "scripts/build_constrained_authoring_metadata.py",
+        "tests/test_build_constrained_authoring_metadata.py",
+        "reports/editorial/*constrained-authoring-metadata-run30.json",
+        "reports/architecture/run30-constrained-authoring-metadata-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "metadata preflight/red-team",
+      "objective": "Deterministic constrained authoring-metadata candidate packaging.",
+      "run": "30",
+      "safety_conclusion": "Structured metadata only; no new prose or persistence."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": true,
+      "key_decision_counts": "selected=1 reviewed=1 excluded=0; metadata_preflight_passed=1; ready_for_promotion_contract_update=1; caveat_only=1",
+      "main_files_created": [
+        "scripts/llm_constrained_authoring_metadata_preflight.py",
+        "tests/test_llm_constrained_authoring_metadata_preflight.py",
+        "reports/editorial/*constrained-authoring-metadata-preflight-run31.json",
+        "reports/architecture/run31-constrained-authoring-metadata-preflight-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "update_closed_loop_promotion_contract_for_authoring_metadata",
+      "objective": "GPT-5.5 constrained authoring-metadata preflight/red-team gate.",
+      "run": "31",
+      "safety_conclusion": "Safe/useful as metadata only; all flags false."
+    },
+    {
+      "db_changed": false,
+      "docs_book_changed": false,
+      "gpt55_used": false,
+      "key_decision_counts": "selected_metadata_preflight_count=1; promotion_contract_candidate_count=1; excluded=0; config_update_needed=true; config_updated=false; human_in_loop_dependency_added=false",
+      "main_files_created": [
+        "scripts/update_closed_loop_promotion_contract.py",
+        "tests/test_update_closed_loop_promotion_contract.py",
+        "reports/editorial/*promotion-contract-authoring-metadata-run32.json",
+        "reports/architecture/run32-promotion-contract-authoring-metadata-evidence-map-20260614.md"
+      ],
+      "next_stage_recommendation": "Run 33 explicit config-write promotion-contract update using --write-config",
+      "objective": "Report-only closed-loop promotion-contract update/test for authoring metadata.",
+      "run": "32",
+      "safety_conclusion": "Control-plane report only; no config/protected/DB/status changes; flags false."
+    }
+  ],
+  "strategic_target": "closed-loop production with no routine human-in-the-loop; routine uncertainty is handled by automated dispositions and promotion contracts, not required human review dependencies.",
+  "target_operating_mode": "closed-loop production, no routine human-in-the-loop",
+  "uncommitted_artifacts": true,
+  "uncommitted_categories": {
+    "config": 1,
+    "reports": 62,
+    "scripts": 21,
+    "tests": 20
+  }
+}

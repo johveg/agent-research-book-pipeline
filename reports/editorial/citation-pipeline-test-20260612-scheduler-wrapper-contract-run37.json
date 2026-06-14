@@ -1,0 +1,277 @@
+{
+  "after_snapshot_path": "/tmp/run37-after.json",
+  "before_snapshot_path": "/tmp/run37-before.json",
+  "bridge": null,
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_inserted": 0,
+  "commit_allowed": false,
+  "commit_block_reasons": [
+    "report_only_contract_blocks_commit"
+  ],
+  "daily_worker_change_blocked": true,
+  "daily_worker_command_contract": {
+    "argv": [
+      "python3",
+      "scripts/daily_book_worker.py",
+      "citation-pipeline-test-20260612",
+      "--skip-capture",
+      "--no-commit",
+      "--skip-vector"
+    ],
+    "blocks_capture": true,
+    "blocks_commit": true,
+    "blocks_docs_book_mutation": true,
+    "blocks_docs_entities_claims_mutation": true,
+    "blocks_entity_claim_extraction": true,
+    "blocks_push": true,
+    "blocks_schema_change": true,
+    "blocks_source_registry_mutation": true,
+    "command_string": "python3 scripts/daily_book_worker.py citation-pipeline-test-20260612 --skip-capture --no-commit --skip-vector",
+    "execution_enabled": false,
+    "execution_refusal_reasons": [
+      "current_daily_worker_lacks_no_entity_claim_extraction_flag",
+      "current_daily_worker_lacks_no_docs_entities_claims_page_flag",
+      "current_daily_worker_lacks_no_source_registry_export_flag",
+      "current_daily_worker_writes_runs_table_metadata",
+      "run37_is_report_only_contract"
+    ],
+    "execution_requested": false,
+    "notes": [
+      "Run 37 does not execute this command.",
+      "--skip-capture prevents raw capture; --no-commit prevents commit/push; omission of --allow-chapter-updates blocks docs/book chapter updates.",
+      "Execution remains refused because the current daily worker has no flags to disable extraction, docs/entities or claims page updates, source-registry export, and runs-table metadata writes."
+    ],
+    "would_execute": false
+  },
+  "daily_worker_command_would_execute": false,
+  "daily_worker_write_surfaces_still_blocked": [
+    "capture_scripts",
+    "entity_and_claim_extraction",
+    "docs_entities_and_claims_pages",
+    "source_registry_export",
+    "chapter_publication_path",
+    "git_commit_push",
+    "runs_table_update"
+  ],
+  "db_write_surfaces_blocked": true,
+  "disposition": "safe_reports_only",
+  "docs_book_write_blocked": true,
+  "dry_run": true,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "execution_enabled": false,
+  "execution_performed": false,
+  "generated_at": "2026-06-14T20:30:56Z",
+  "human_in_loop_dependency_added": false,
+  "inspected_paths": {
+    "config/closed_loop_state_machine.json": {
+      "bytes": 17081,
+      "exists": true
+    },
+    "reports/editorial/citation-pipeline-test-20260612-daily-worker-closed-loop-preflight-run36.json": {
+      "bytes": 16350,
+      "exists": true
+    },
+    "scripts/closed_loop_transition_engine.py": {
+      "bytes": 21794,
+      "exists": true
+    },
+    "scripts/daily_book_worker.py": {
+      "bytes": 17971,
+      "exists": true
+    },
+    "scripts/protected_mutation_guard.py": {
+      "bytes": 18527,
+      "exists": true
+    }
+  },
+  "llm_used": false,
+  "missing_before_unattended_execution": [
+    "daily worker mode split or flags that can disable extraction/entity/docs/source-registry side effects",
+    "transition-engine evaluation wired before any mutation path",
+    "mutation-guard compare wired before commit/push",
+    "future explicit gates for source-note, claim, docs/book, and publication profiles",
+    "machine-only safety reports proving no human-review production dependency"
+  ],
+  "mode": "report_only_daily",
+  "model": null,
+  "model_profile": null,
+  "mutation_guard_path": "scripts/protected_mutation_guard.py",
+  "mutation_guard_report_path": "reports/editorial/citation-pipeline-test-20260612-mutation-guard-run37.json",
+  "mutation_guard_strategy": [
+    "take before snapshot at scheduler wrapper start",
+    "execute only a profile-approved safe command after future gates exist",
+    "take after snapshot after worker exits",
+    "compare before/after using selected verification profile",
+    "block commit/push on guard failure, unexpected protected paths, DB/status deltas, hard flags, human-in-loop dependency, diff-check failure, or secrets"
+  ],
+  "preflight_report_path": "reports/editorial/citation-pipeline-test-20260612-daily-worker-closed-loop-preflight-run36.json",
+  "preflight_write_surfaces": [
+    {
+      "evidence": [
+        "state_path.write_text",
+        "latest.write_text",
+        "full_log.open"
+      ],
+      "location": "logs/runs/state/*.state and logs/runs/*.log",
+      "risk": "operational_state_only",
+      "surface": "run_state_files",
+      "verification_profile": "report_only"
+    },
+    {
+      "evidence": [
+        "build_daily_summary",
+        "summary_md.write_text"
+      ],
+      "location": "reports/daily/{run_id}.md",
+      "risk": "report_artifact",
+      "surface": "daily_summary_report",
+      "verification_profile": "report_only"
+    },
+    {
+      "evidence": [
+        "write_steps",
+        "write_json(commit_json, commit)"
+      ],
+      "location": "logs/runs/{run_id}-steps.json, logs/runs/{run_id}-commit.json",
+      "risk": "operational_report_artifact",
+      "surface": "step_and_commit_json_reports",
+      "verification_profile": "report_only"
+    },
+    {
+      "evidence": [
+        "scripts/capture_linkedin_daily.py",
+        "scripts/capture_web_daily.py"
+      ],
+      "location": "capture_web_daily.py and capture_linkedin_daily.py outputs",
+      "risk": "may_write_raw_or_logs_and_update_source_metadata_depending_on_called_scripts",
+      "surface": "capture_scripts",
+      "verification_profile": "report_only_until_safe_collection_profile_exists"
+    },
+    {
+      "evidence": [
+        "scripts/extract_claims.py",
+        "scripts/extract_entities.py"
+      ],
+      "location": ".var/book.sqlite and derived docs",
+      "risk": "may_insert_or_update entities, claims, source-derived records, or statuses depending on called scripts",
+      "surface": "entity_and_claim_extraction",
+      "verification_profile": "future_db_write_profile_required_before_unattended"
+    },
+    {
+      "evidence": [
+        "scripts/update_claims_page.py",
+        "scripts/update_entity_pages.py"
+      ],
+      "location": "docs/entities/ and docs/research/claims.md",
+      "risk": "protected_docs_mutation_not_book_chapter_prose_but still protected path in guard",
+      "surface": "docs_entities_and_claims_pages",
+      "verification_profile": "future_docs_entities_claims_profile_needed"
+    },
+    {
+      "evidence": [
+        "scripts/export_source_registry.py"
+      ],
+      "location": "data/source_registry.json",
+      "risk": "source_registry protected path mutation",
+      "surface": "source_registry_export",
+      "verification_profile": "future_source_registry_write_profile_needed"
+    },
+    {
+      "evidence": [
+        "scripts/editorial_pipeline_report.py"
+      ],
+      "location": "logs/runs/{run_id}-editorial-pipeline.json and reports",
+      "risk": "gate/report generation; must not insert editorial_reviews in unattended mode without future profile",
+      "surface": "editorial_pipeline_reports",
+      "verification_profile": "report_only"
+    },
+    {
+      "evidence": [
+        "scripts/resolve_book_citations.py",
+        "scripts/synthesize_chapters.py",
+        "scripts/update_book_pages.py"
+      ],
+      "location": "docs/book via synthesize_chapters, resolve_book_citations, update_book_pages",
+      "risk": "docs_book chapter mutation when --allow-chapter-updates and editorial gate allow",
+      "surface": "chapter_publication_path",
+      "verification_profile": "docs_book_write_disabled_until_future_gates"
+    },
+    {
+      "evidence": [
+        "scripts/book_role_report.py"
+      ],
+      "location": "site/build reports and vector_db/chroma artifacts",
+      "risk": "generated verification/index artifacts; must be excluded from protected publication writes unless explicitly scoped",
+      "surface": "book_role_and_vector_build",
+      "verification_profile": "report_only_or_future_index_profile"
+    },
+    {
+      "evidence": [
+        "git_commit_push",
+        "safe_paths"
+      ],
+      "location": "git index, commits, remote push",
+      "risk": "commits/pushes broad safe_paths; docs/book included when status is not blocked",
+      "surface": "git_commit_push",
+      "verification_profile": "full_publication_gate_disabled_until_future_gates_for_publication_commits"
+    },
+    {
+      "evidence": [
+        "INSERT OR REPLACE INTO runs",
+        "connect_db",
+        "con.commit"
+      ],
+      "location": ".var/book.sqlite:runs",
+      "risk": "DB mutation even for daily operational metadata",
+      "surface": "runs_table_update",
+      "verification_profile": "future_runs_metadata_profile_or_report_only_wrapper_needed"
+    }
+  ],
+  "profile_mapping": {
+    "disposition": "safe_reports_only",
+    "fail_closed": false,
+    "future_disabled": false,
+    "mode": "report_only_daily",
+    "ok": true,
+    "profile": "report_only",
+    "reason": "mapped"
+  },
+  "protected_write_surfaces_blocked": true,
+  "provider": null,
+  "push_allowed": false,
+  "push_block_reasons": [
+    "report_only_contract_blocks_push"
+  ],
+  "raw_capture_write_blocked": true,
+  "recommendation_for_run38": "Add a report-only scheduler wrapper dry-run that invokes the protected mutation guard snapshot/compare subprocesses itself while still not executing daily_book_worker.py.",
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "dry_run": true,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "gpt55_advisory_is_machine_reasoning_not_human_approval": true,
+    "no_author_prose": true,
+    "no_chapter_prose": true,
+    "no_unattended_production_writes_enabled": true,
+    "publication_approved": false,
+    "report_only": true
+  },
+  "schema_change_blocked": true,
+  "selected_verification_profile": "report_only",
+  "source_registry_write_blocked": true,
+  "source_status_changed": false,
+  "state_machine_config_path": "config/closed_loop_state_machine.json",
+  "transition_engine_path": "scripts/closed_loop_transition_engine.py"
+}

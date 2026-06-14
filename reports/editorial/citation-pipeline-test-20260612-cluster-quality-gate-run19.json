@@ -1,0 +1,193 @@
+{
+  "bridge": "hermes_cli",
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_count_after": 181,
+  "claims_count_before": 181,
+  "claims_inserted": 0,
+  "closed_loop_disposition_counts": {
+    "caveat_only": 1
+  },
+  "cluster_reviews": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "caveat_integrity_assessment": "The caveat is integral to any downstream use and must remain narrow: the reviewed material only supports that OpenClaw documentation names Hermes in migration/setup tooling contexts, not that Hermes is a runtime dependency or general operating environment.",
+      "closed_loop_disposition": "caveat_only",
+      "cluster_id": "cluster_4e8554045cfaf827bc68bcc5",
+      "cluster_type": "caveat_only_support_cluster",
+      "cluster_use": "caveat_only",
+      "do_not_say": [
+        "Hermes is a runtime dependency of OpenClaw.",
+        "Hermes is the general operating environment for OpenClaw.",
+        "OpenClaw requires Hermes for execution.",
+        "The documentation proves broad Hermes Agent runtime integration."
+      ],
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "evidence_strength_assessment": "Evidence strength is limited and partial. The cluster is supported only as a narrow documentation-context caveat from one downstream-eligible persisted rereview note, with candidate sources indicating migration/setup references rather than runtime or dependency status.",
+      "limitations": [
+        "Singleton cluster based on one downstream-eligible persisted rereview note.",
+        "Sources are documentation summaries for migration and setup only.",
+        "The evidence does not establish execution-environment status, dependency requirements, or general Hermes Agent runtime integration.",
+        "Not suitable for chapter prose, claim insertion, publication, or narrative packet creation."
+      ],
+      "packet_readiness": "ready_for_caveat_only_packet",
+      "packet_readiness_assessment": "Ready only as a caveat-only packet candidate preserving the stated limitations and prohibitions. It is not ready as a normal context packet, claim packet, narrative packet, or publication-ready item.",
+      "publication_approved": false,
+      "quality_gate_decision": "caveat_only_packet_candidate_ready",
+      "recommended_next_stage": "build_caveat_only_packet_candidate",
+      "required_caveats": [
+        "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources.",
+        "Maintain advisory-only status.",
+        "Do not use for authoring, claim insertion, publication, chapter prose, or editorial review insertion."
+      ],
+      "residual_risk": "Residual risk is low to moderate if the cluster remains caveat-only and advisory; risk becomes high if the caveat is converted into a broader dependency, runtime, or operating-environment claim.",
+      "safety_assessment": "Safe only for reports or caveat-only packet candidate handling. It must not be promoted to claim insertion, authoring, publication, chapter prose, editorial review insertion, or narrative packet creation.",
+      "singleton_cluster": true,
+      "traceability_assessment": "Traceability is adequate for caveat-only handling because the cluster provides source_review_ids, note_ids, manifest_item_ids, candidate_source_ids, source_ids, and provenance paths to Run 15 and Run 16 reports. Traceability is not sufficient for broader claims beyond the stated caveat."
+    }
+  ],
+  "editorial_reviews_count_after": 10,
+  "editorial_reviews_count_before": 10,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "excluded_cluster_count": 1,
+  "excluded_clusters": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "closed_loop_disposition": "source_context_unclear",
+      "downstream_manifest_decision": "source_context_unclear",
+      "excluded_reason": "upstream_excluded_from_manifest",
+      "exclusion_decision": "source_context_unclear",
+      "item_id": "corrob_item_6e923bab58a413137532",
+      "publication_approved": false,
+      "skip_reason": "needs_editor_review",
+      "source_review_id": "source_review_12c73455aa1816e5df8c"
+    }
+  ],
+  "failed_quality_checks": [],
+  "generated_at": "2026-06-14T08:01:13Z",
+  "input_paths": {
+    "cluster_report": "reports/editorial/citation-pipeline-test-20260612-research-object-clusters-run18.json",
+    "sqlite_db": ".var/book.sqlite"
+  },
+  "llm_metadata": {
+    "command_shape": "timeout 300 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+    "elapsed_seconds": 29.043,
+    "exit_code": 0,
+    "ok": true,
+    "prompt_hash": "e5aa755a541ce011e1e14de18b1adffe1c2be8c69117d8e9af35df95f26cd1d0",
+    "stdout_hash": "3b97fc79889555694aff6f82ce0048201ba0d3e17128984a67f5c5cd87982e5b",
+    "stdout_json_valid": true,
+    "timed_out": false
+  },
+  "llm_used": true,
+  "mode": "llm_cluster_quality_gate",
+  "model": "gpt-5.5",
+  "model_profile": "closed_loop_editorial",
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-cluster-quality-gate-run19.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-cluster-quality-gate-run19.md"
+  },
+  "packet_readiness_counts": {
+    "ready_for_caveat_only_packet": 1
+  },
+  "provider": "copilot",
+  "quality_gate_decision_counts": {
+    "caveat_only_packet_candidate_ready": 1
+  },
+  "reasoning_status": "high_reasoning_used",
+  "recommended_next_stage_counts": {
+    "build_caveat_only_packet_candidate": 1
+  },
+  "report_only": true,
+  "reviewed_cluster_count": 1,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "chapter_prose_generated": false,
+    "claims_inserted": false,
+    "clusters_persisted": false,
+    "editorial_reviews_inserted": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "gpt55_is_human_or_editor_approval": false,
+    "narrative_packets_created": false,
+    "publication_approved": false,
+    "raw_content_stored": false,
+    "source_notes_written": false,
+    "source_registry_promoted": false
+  },
+  "selected_cluster_count": 1,
+  "selected_clusters": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_source_ids": [
+        "cand_20e9401eaf1118d440d3e64b",
+        "cand_6fcbc84f35207ab87be6a1d7"
+      ],
+      "caveat_required": true,
+      "caveat_text": "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources.",
+      "cluster_decision": "caveat_only_cluster_candidate",
+      "cluster_id": "cluster_4e8554045cfaf827bc68bcc5",
+      "cluster_summary": "Singleton caveat-only cluster candidate derived from one downstream-eligible persisted rereview note.",
+      "cluster_thesis_or_caveat": "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources.",
+      "cluster_type": "caveat_only_support_cluster",
+      "cluster_use": "caveat_only",
+      "corroboration_decisions": [
+        "partially_corroborated"
+      ],
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "evidence_use_decisions": [
+        "eligible_for_filing_later_after_corroboration"
+      ],
+      "excluded_from_claiming_reason": "This Run 18 cluster is organizational/advisory only, not a claim, not narrative packet material, and not author/publication approval.",
+      "limitations": "Sources are documentation summaries for migration and setup only. They do not prove execution-environment status, dependency requirements, or general Hermes Agent runtime integration.",
+      "manifest_item_ids": [
+        "manifest_2901cc01a0bc7a2252b35183"
+      ],
+      "note_ids": [
+        "note_a30056d3f19faa7deb0c9dbc"
+      ],
+      "provenance_paths": [
+        {
+          "persisted_note_provenance": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+          "run15_report": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+          "run16_report": "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.json"
+        }
+      ],
+      "publication_approved": false,
+      "residual_risk": "Low to moderate risk if preserved as a narrow review note; higher risk if expanded into a broad environment or dependency claim.",
+      "singleton_cluster": true,
+      "source_ids": [
+        "src_6d7b6d80cda4e784877d"
+      ],
+      "source_review_ids": [
+        "source_review_5baf68d86960f91b97ac"
+      ],
+      "support_decisions": [
+        "partially_supported"
+      ],
+      "title": "Caveat-only Hermes/OpenClaw support context"
+    }
+  ],
+  "source_notes_count_after": 365,
+  "source_notes_count_before": 365,
+  "source_status_changed": false,
+  "strict_json_required": true,
+  "weak_local_fallback_refused": true
+}

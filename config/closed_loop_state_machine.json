@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "name": "terefo_heal_reboa_closed_loop_state_machine",
+  "states": [
+    "raw_discovery_signal",
+    "source_card_draft",
+    "semantic_object_draft",
+    "source_support_reviewed",
+    "corroboration_needed",
+    "source_context_unclear",
+    "review_note_persisted",
+    "downstream_manifest_eligible",
+    "caveat_only_cluster_candidate",
+    "support_cluster_candidate",
+    "cluster_quality_reviewed",
+    "caveat_only_packet_candidate",
+    "packet_redteam_reviewed",
+    "draft_input_candidate",
+    "author_draft_candidate",
+    "draft_redteam_reviewed",
+    "chapter_update_candidate",
+    "safe_reports_only",
+    "excluded_from_pipeline",
+    "contradiction_review_required",
+    "blocked_for_publication_by_policy"
+  ],
+  "automated_dispositions": [
+    "auto_quarantine",
+    "discovery_only",
+    "needs_more_sources",
+    "caveat_only",
+    "exclude_from_pipeline",
+    "contradiction_review_required",
+    "safe_reports_only",
+    "eligible_for_review_note_persistence",
+    "eligible_for_clustering",
+    "caveat_only_cluster_candidate",
+    "eligible_for_packet_candidate",
+    "caveat_only_author_input_ready",
+    "blocked_for_publication_by_policy",
+    "source_context_unclear"
+  ],
+  "hard_invariants": {
+    "author_allowed_until_explicit_authoring_gate": false,
+    "publication_approved_until_explicit_publication_gate": false,
+    "eligible_for_publication_until_publication_gate": false,
+    "chapter_update_allowed_until_chapter_update_integration_gate": false,
+    "gpt55_advisory_is_human_or_editor_approval": false,
+    "report_files_imply_persistence": false,
+    "persistence_implies_authoring": false,
+    "packets_imply_prose": false,
+    "draft_input_readiness_implies_authoring_approval": false,
+    "author_draft_implies_publication": false,
+    "blocked_editorial_state_allows_chapter_mutation": false,
+    "weak_or_local_fallback_allowed_for_safety_critical_editorial_reasoning": false
+  },
+  "transitions": [
+    {
+      "from_state": "source_support_reviewed",
+      "to_state": "review_note_persisted",
+      "transition_type": "current_or_past_stage",
+      "guards": [
+        {"name": "advisory_only_true", "field": "advisory_only", "equals": true},
+        {"name": "author_allowed_false", "field": "author_allowed", "equals": false},
+        {"name": "publication_approved_false", "field": "publication_approved", "equals": false},
+        {"name": "recommended_next_stage_review_note_persistence", "field": "recommended_next_stage", "in": ["eligible_for_review_note_persistence"]},
+        {"name": "support_decision_supported_or_partial", "field": "support_decision", "in": ["supported", "partially_supported"]},
+        {"name": "corroboration_decision_corroborated_or_partial", "field": "corroboration_decision", "in": ["corroborated", "partially_corroborated"]},
+        {"name": "no_contradiction", "field": "contradiction", "equals": false},
+        {"name": "no_do_not_use", "field": "do_not_use", "equals": false}
+      ]
+    },
+    {
+      "from_state": "review_note_persisted",
+      "to_state": "downstream_manifest_eligible",
+      "transition_type": "current_or_past_stage",
+      "guards": [
+        {"name": "source_note_exists", "field": "source_note_exists", "equals": true},
+        {"name": "note_type_allowed", "field": "note_type", "in": ["source_support_rereview_draft"]},
+        {"name": "provenance_complete", "field": "provenance_complete", "equals": true},
+        {"name": "author_allowed_false", "field": "author_allowed", "equals": false},
+        {"name": "publication_approved_false", "field": "publication_approved", "equals": false}
+      ]
+    },
+    {
+      "from_state": "downstream_manifest_eligible",
+      "to_state": "caveat_only_cluster_candidate",
+      "transition_type": "current_or_past_stage",
+      "guards": [
+        {"name": "downstream_manifest_decision_caveat_only_cluster_candidate", "field": "downstream_manifest_decision", "equals": "caveat_only_cluster_candidate"},
+        {"name": "eligible_for_claim_insertion_false", "field": "eligible_for_claim_insertion", "equals": false},
+        {"name": "eligible_for_authoring_false", "field": "eligible_for_authoring", "equals": false},
+        {"name": "eligible_for_publication_false", "field": "eligible_for_publication", "equals": false}
+      ]
+    },
+    {
+      "from_state": "caveat_only_cluster_candidate",
+      "to_state": "caveat_only_packet_candidate",
+      "transition_type": "current_or_past_stage",
+      "guards": [
+        {"name": "quality_gate_caveat_only_packet_candidate_ready", "field": "quality_gate_decision", "equals": "caveat_only_packet_candidate_ready"},
+        {"name": "required_caveat_exists", "field": "required_caveat_exists", "equals": true},
+        {"name": "do_not_say_exists", "field": "do_not_say_exists", "equals": true},
+        {"name": "author_allowed_false", "field": "author_allowed", "equals": false},
+        {"name": "publication_approved_false", "field": "publication_approved", "equals": false}
+      ]
+    },
+    {
+      "from_state": "caveat_only_packet_candidate",
+      "to_state": "draft_input_candidate",
+      "transition_type": "future_run_only",
+      "allowed_future_run": "build_caveat_only_author_draft_input",
+      "guards": [
+        {"name": "redteam_decision_caveat_only_author_input_ready", "field": "redteam_decision", "equals": "caveat_only_author_input_ready"},
+        {"name": "author_allowed_false", "field": "author_allowed", "equals": false},
+        {"name": "publication_approved_false", "field": "publication_approved", "equals": false},
+        {"name": "eligible_for_authoring_false", "field": "eligible_for_authoring", "equals": false},
+        {"name": "eligible_for_publication_false", "field": "eligible_for_publication", "equals": false},
+        {"name": "chapter_update_allowed_false", "field": "chapter_update_allowed", "equals": false}
+      ]
+    },
+    {
+      "from_state": "draft_input_candidate",
+      "to_state": "author_draft_candidate",
+      "transition_type": "future_run_only",
+      "allowed_future_run": "dedicated_author_draft_run",
+      "guards": [
+        {"name": "dedicated_author_draft_run_completed", "field": "dedicated_author_draft_run_completed", "equals": true},
+        {"name": "authoring_gate_explicit", "field": "authoring_gate_explicit", "equals": true}
+      ]
+    },
+    {
+      "from_state": "author_draft_candidate",
+      "to_state": "draft_redteam_reviewed",
+      "transition_type": "future_run_only",
+      "allowed_future_run": "dedicated_draft_redteam_run",
+      "guards": [
+        {"name": "dedicated_draft_redteam_run_completed", "field": "dedicated_draft_redteam_run_completed", "equals": true}
+      ]
+    },
+    {
+      "from_state": "draft_redteam_reviewed",
+      "to_state": "chapter_update_candidate",
+      "transition_type": "future_run_only",
+      "allowed_future_run": "future_chapter_update_integration_gate",
+      "guards": [
+        {"name": "all_citations_resolved", "field": "all_citations_resolved", "equals": true},
+        {"name": "no_unsupported_claims", "field": "no_unsupported_claims", "equals": true},
+        {"name": "no_unsafe_privacy_or_material_risk", "field": "no_unsafe_privacy_or_material_risk", "equals": true},
+        {"name": "no_raw_or_social_only_unsupported_factual_prose", "field": "no_raw_or_social_only_unsupported_factual_prose", "equals": true},
+        {"name": "authoring_allowed_by_gate", "field": "authoring_allowed_by_gate", "equals": true},
+        {"name": "publication_separately_gated", "field": "publication_separately_gated", "equals": true}
+      ]
+    },
+    {
+      "from_state": "any",
+      "to_state": "safe_reports_only",
+      "transition_type": "safety_route",
+      "guards_any": [
+        {"name": "evidence_too_narrow", "field": "evidence_too_narrow", "equals": true},
+        {"name": "source_context_unclear", "field": "source_context_unclear", "equals": true},
+        {"name": "privacy_risk", "field": "privacy_risk", "equals": true},
+        {"name": "weak_support", "field": "weak_support", "equals": true},
+        {"name": "blocked_editorial_state", "field": "blocked_editorial_state", "equals": true},
+        {"name": "missing_provenance", "field": "missing_provenance", "equals": true},
+        {"name": "failed_validation", "field": "failed_validation", "equals": true}
+      ]
+    },
+    {
+      "from_state": "any",
+      "to_state": "excluded_from_pipeline",
+      "transition_type": "safety_route",
+      "guards_any": [
+        {"name": "contradiction_unresolved", "field": "contradiction_unresolved", "equals": true},
+        {"name": "do_not_use", "field": "do_not_use", "equals": true},
+        {"name": "unsupported", "field": "unsupported", "equals": true},
+        {"name": "unsafe_source", "field": "unsafe_source", "equals": true},
+        {"name": "raw_capture_dependency", "field": "raw_capture_dependency", "equals": true},
+        {"name": "missing_required_safety_flags", "field": "missing_required_safety_flags", "equals": true}
+      ]
+    }
+  ]
+}

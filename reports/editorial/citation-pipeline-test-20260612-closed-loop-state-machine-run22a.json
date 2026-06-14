@@ -1,0 +1,141 @@
+{
+  "allowed_for_future_run_count": 1,
+  "blocked_count": 0,
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_count_after": 181,
+  "claims_count_before": 181,
+  "claims_inserted": 0,
+  "current_object_count": 1,
+  "dispositions_count": 14,
+  "editorial_reviews_count_after": 10,
+  "editorial_reviews_count_before": 10,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "generated_at": "2026-06-14T09:09:45Z",
+  "hard_invariants": {
+    "author_allowed_until_explicit_authoring_gate": false,
+    "author_draft_implies_publication": false,
+    "blocked_editorial_state_allows_chapter_mutation": false,
+    "chapter_update_allowed_until_chapter_update_integration_gate": false,
+    "draft_input_readiness_implies_authoring_approval": false,
+    "eligible_for_publication_until_publication_gate": false,
+    "gpt55_advisory_is_human_or_editor_approval": false,
+    "packets_imply_prose": false,
+    "persistence_implies_authoring": false,
+    "publication_approved_until_explicit_publication_gate": false,
+    "report_files_imply_persistence": false,
+    "weak_or_local_fallback_allowed_for_safety_critical_editorial_reasoning": false
+  },
+  "input_paths": {
+    "packet_redteam_report": "reports/editorial/citation-pipeline-test-20260612-packet-redteam-gate-run21.json",
+    "sqlite_db": ".var/book.sqlite"
+  },
+  "mode": "closed_loop_state_machine",
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-closed-loop-state-machine-run22a.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-closed-loop-state-machine-run22a.md"
+  },
+  "proposed_next_state_counts": {
+    "draft_input_candidate": 1
+  },
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "chapter_prose_generated": false,
+    "chapter_update_allowed": false,
+    "claims_inserted": false,
+    "daily_worker_modified": false,
+    "docs_book_modified": false,
+    "editorial_reviews_inserted": false,
+    "eligible_for_authoring": false,
+    "eligible_for_publication": false,
+    "gpt55_advisory_is_human_or_editor_approval": false,
+    "publication_approved": false,
+    "raw_content_stored": false,
+    "report_only": true,
+    "schema_modified": false,
+    "source_notes_written": false,
+    "source_registry_promoted": false
+  },
+  "source_notes_count_after": 365,
+  "source_notes_count_before": 365,
+  "source_status_changed": false,
+  "state_machine_config_path": "config/closed_loop_state_machine.json",
+  "states_count": 21,
+  "transition_decision_counts": {
+    "allowed_for_future_run": 1
+  },
+  "transition_manifest": [
+    {
+      "advisory_only": true,
+      "allowed_future_run": "build_caveat_only_author_draft_input",
+      "author_allowed": false,
+      "automated_disposition": "caveat_only_author_input_ready",
+      "chapter_update_allowed": false,
+      "current_state": "packet_redteam_reviewed",
+      "eligible_for_authoring": false,
+      "eligible_for_publication": false,
+      "failed_guards": [],
+      "hard_invariants_preserved": {
+        "author_allowed_until_explicit_authoring_gate": true,
+        "author_draft_implies_publication": true,
+        "blocked_editorial_state_allows_chapter_mutation": true,
+        "chapter_update_allowed_until_chapter_update_integration_gate": true,
+        "draft_input_readiness_implies_authoring_approval": true,
+        "eligible_for_publication_until_publication_gate": true,
+        "gpt55_advisory_is_human_or_editor_approval": true,
+        "packets_imply_prose": true,
+        "persistence_implies_authoring": true,
+        "publication_approved_until_explicit_publication_gate": true,
+        "report_files_imply_persistence": true,
+        "weak_or_local_fallback_allowed_for_safety_critical_editorial_reasoning": true
+      },
+      "limitations": [
+        "Singleton cluster based on one downstream-eligible persisted rereview note.",
+        "Sources are documentation summaries for migration and setup only.",
+        "The evidence does not establish execution-environment status, dependency requirements, or general Hermes Agent runtime integration.",
+        "Not suitable for chapter prose, claim insertion, publication, or narrative packet creation.",
+        "Corroboration is only partial, so any later use must remain caveat-only and must cite the persisted rereview note, source review, manifest item, candidate source identifiers, and Run 15/Run 16 provenance paths."
+      ],
+      "object_id": "packet_run20_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "object_type": "narrative_packet_candidate",
+      "proposed_next_state": "draft_input_candidate",
+      "provenance_paths": [
+        {
+          "persisted_note_provenance": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+          "run15_report": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+          "run16_report": "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.json"
+        }
+      ],
+      "publication_approved": false,
+      "required_guards": [
+        "redteam_decision_caveat_only_author_input_ready",
+        "author_allowed_false",
+        "publication_approved_false",
+        "eligible_for_authoring_false",
+        "eligible_for_publication_false",
+        "chapter_update_allowed_false"
+      ],
+      "residual_risk": "Low to moderate if the packet remains advisory caveat-only planning material with the required caveat preserved exactly or more conservatively. High if later transformed into a broader dependency, runtime, access, or operating-environment claim.",
+      "satisfied_guards": [
+        "redteam_decision_caveat_only_author_input_ready",
+        "author_allowed_false",
+        "publication_approved_false",
+        "eligible_for_authoring_false",
+        "eligible_for_publication_false",
+        "chapter_update_allowed_false"
+      ],
+      "transition_decision": "allowed_for_future_run"
+    }
+  ],
+  "transitions_count": 10
+}

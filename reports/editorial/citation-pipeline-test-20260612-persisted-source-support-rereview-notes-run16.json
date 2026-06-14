@@ -1,0 +1,142 @@
+{
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_inserted": 0,
+  "closed_loop_disposition_counts": {
+    "eligible_for_review_note_persistence": 1,
+    "source_context_unclear": 1
+  },
+  "conflicted_notes_count": 0,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "eligible_items": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "closed_loop_disposition": "eligible_for_review_note_persistence",
+      "corroboration_decision": "partially_corroborated",
+      "evidence_use_decision": "eligible_for_filing_later_after_corroboration",
+      "item_id": "corrob_item_4039b66b55f0c200763a",
+      "note_hash": "df24f85b320829bf695abec804506747ddb943c24437fcb078a54ae02f236fb6",
+      "note_id": "note_a30056d3f19faa7deb0c9dbc",
+      "note_type": "source_support_rereview_draft",
+      "original_source_id": "src_6d7b6d80cda4e784877d",
+      "persistence_result": "existing_identical",
+      "publication_approved": false,
+      "recommended_next_stage": "eligible_for_review_note_persistence",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "support_decision": "partially_supported"
+    }
+  ],
+  "eligible_items_count": 1,
+  "existing_notes_count": 1,
+  "failed_notes_count": 0,
+  "generated_at": "2026-06-14T06:55:48Z",
+  "input_paths": {
+    "source_support_rereview_report": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json"
+  },
+  "inserted_notes_count": 0,
+  "mode": "persist_source_support_rereview_notes",
+  "note_type": "source_support_rereview_draft",
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.md"
+  },
+  "persisted_items": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "closed_loop_disposition": "eligible_for_review_note_persistence",
+      "corroboration_decision": "partially_corroborated",
+      "evidence_use_decision": "eligible_for_filing_later_after_corroboration",
+      "item_id": "corrob_item_4039b66b55f0c200763a",
+      "note_hash": "df24f85b320829bf695abec804506747ddb943c24437fcb078a54ae02f236fb6",
+      "note_id": "note_a30056d3f19faa7deb0c9dbc",
+      "note_type": "source_support_rereview_draft",
+      "original_source_id": "src_6d7b6d80cda4e784877d",
+      "persistence_result": "existing_identical",
+      "publication_approved": false,
+      "recommended_next_stage": "eligible_for_review_note_persistence",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "support_decision": "partially_supported"
+    }
+  ],
+  "report_only": false,
+  "reviewed_items_count": 2,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "chapter_prose_generated": false,
+    "claim_inserted": false,
+    "editorial_review_inserted": false,
+    "narrative_packets_created": false,
+    "publication_approved": false,
+    "raw_content_stored": false,
+    "source_notes_only": true,
+    "source_registry_promoted": false
+  },
+  "skipped_items": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "closed_loop_disposition": "source_context_unclear",
+      "corroboration_decision": "partially_corroborated",
+      "evidence_use_decision": "eligible_as_caveat_only_after_corroboration",
+      "item_id": "corrob_item_6e923bab58a413137532",
+      "publication_approved": false,
+      "recommended_next_stage": "needs_editor_review",
+      "skip_reason": "needs_editor_review",
+      "source_review_id": "source_review_12c73455aa1816e5df8c",
+      "support_decision": "partially_supported"
+    }
+  ],
+  "skipped_items_count": 1,
+  "skipped_reason_counts": {
+    "needs_editor_review": 1
+  },
+  "source_notes_count_after": 365,
+  "source_notes_count_before": 365,
+  "source_notes_schema_found": [
+    {
+      "name": "id",
+      "notnull": 0,
+      "pk": 1,
+      "type": "TEXT"
+    },
+    {
+      "name": "source_id",
+      "notnull": 1,
+      "pk": 0,
+      "type": "TEXT"
+    },
+    {
+      "name": "note",
+      "notnull": 1,
+      "pk": 0,
+      "type": "TEXT"
+    },
+    {
+      "name": "note_type",
+      "notnull": 0,
+      "pk": 0,
+      "type": "TEXT"
+    },
+    {
+      "name": "created_at",
+      "notnull": 1,
+      "pk": 0,
+      "type": "TEXT"
+    }
+  ],
+  "source_status_changed": false,
+  "source_support_rereview_draft_count_after": 1,
+  "source_support_rereview_draft_count_before": 1,
+  "write_source_notes": true
+}

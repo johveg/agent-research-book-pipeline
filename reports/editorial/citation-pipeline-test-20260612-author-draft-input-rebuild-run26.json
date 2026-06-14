@@ -1,0 +1,441 @@
+{
+  "bridge": "hermes_cli",
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_count_after": 181,
+  "claims_count_before": 181,
+  "claims_inserted": 0,
+  "editorial_reviews_count_after": 10,
+  "editorial_reviews_count_before": 10,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "excluded_canary_redteam_count": 0,
+  "excluded_canary_redteams": [],
+  "failed_rebuild_checks": [],
+  "generated_at": "2026-06-14T12:47:03Z",
+  "input_paths": {
+    "canary_report": "reports/editorial/citation-pipeline-test-20260612-author-draft-canary-run24.json",
+    "draft_input_report": "reports/editorial/citation-pipeline-test-20260612-author-draft-input-run22b.json",
+    "preflight_report": "reports/editorial/citation-pipeline-test-20260612-author-draft-input-preflight-run23.json",
+    "redteam_report": "reports/editorial/citation-pipeline-test-20260612-author-draft-canary-redteam-run25.json",
+    "sqlite_db": ".var/book.sqlite"
+  },
+  "llm_metadata": {
+    "command_shape": "timeout 300 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+    "elapsed_seconds": 40.095,
+    "exit_code": 0,
+    "ok": true,
+    "prompt_hash": "7eb1fe468762cf8f53e60051a7491df32d3f25062487bb5fe98706c21bd418a5",
+    "stdout_hash": "585a1500daa63ddb8b4d1e300d8d6614f08c6b1f4af6ac6b67d12dea70d57bbf",
+    "stdout_json_valid": true,
+    "timed_out": false
+  },
+  "llm_used": true,
+  "mode": "llm_rebuild_author_draft_input",
+  "model": "gpt-5.5",
+  "model_profile": "closed_loop_editorial",
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-author-draft-input-rebuild-run26.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-author-draft-input-rebuild-run26.md"
+  },
+  "provider": "copilot",
+  "reasoning_status": "high_reasoning_used",
+  "rebuilt_author_draft_inputs": [
+    {
+      "advisory_only": true,
+      "allowed_author_scope": [
+        "planning constraints only",
+        "Use as metadata for later evidence review only.",
+        "Limit any future consideration to ecosystem/tooling adjacency.",
+        "Keep the supported context to migration/setup/import tooling references.",
+        "Preserve caveat and negative boundaries before any later review stage."
+      ],
+      "author_allowed": false,
+      "authoring_purpose": "Planning-only purpose: enrich later review metadata with bounded evidence atoms, narrative-role constraints, citation needs, and safety limits; not paragraph text.",
+      "candidate_source_ids": [
+        "cand_20e9401eaf1118d440d3e64b",
+        "cand_6fcbc84f35207ab87be6a1d7"
+      ],
+      "chapter_update_allowed": false,
+      "citation_requirements": [
+        "Cite the persisted rereview note before any later factual use.",
+        "Cite the source review identifier and manifest item identifier.",
+        "Cite candidate source identifiers used to establish the narrow documentation context.",
+        "Cite Run 15, Run 16, Run 20, Run 21, and Run 22A provenance paths.",
+        "Do not cite this package for runtime, dependency, operating-environment, web-access, or phone-access claims.",
+        "Any later use must keep the required caveat exactly or more conservatively."
+      ],
+      "confidence": "limited_caveat_only",
+      "do_not_say": [
+        "Do not say Hermes is a runtime dependency of OpenClaw.",
+        "Do not say Hermes is the general operating environment for OpenClaw.",
+        "Do not say OpenClaw requires Hermes for web or phone access.",
+        "Do not generalize beyond migration/setup/import tooling contexts unless additional sources support it.",
+        "Do not use this material as a factual claim without the caveat.",
+        "Do not use this material for chapter prose before later author/red-team gates pass."
+      ],
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "evidence_bound_factual_atoms": [
+        "OpenClaw documentation summaries name Hermes in migration tooling context.",
+        "OpenClaw documentation summaries name Hermes in setup tooling context.",
+        "The source cluster is singleton-based.",
+        "The persisted rereview note is downstream-eligible but narrow.",
+        "Evidence links to candidate source identifiers cand_20e9401eaf1118d440d3e64b and cand_6fcbc84f35207ab87be6a1d7.",
+        "The source review identifier is source_review_5baf68d86960f91b97ac.",
+        "The manifest item identifier is manifest_2901cc01a0bc7a2252b35183.",
+        "The evidence does not establish runtime dependency.",
+        "The evidence does not establish general operating-environment status.",
+        "The evidence does not establish required web access through Hermes.",
+        "The evidence does not establish required phone access through Hermes.",
+        "The safe narrative role is ecosystem/tooling adjacency.",
+        "The caveat is mandatory for any later factual consideration."
+      ],
+      "evidence_limitations": [
+        "Singleton cluster limits corroboration strength.",
+        "Available support is limited to documentation summaries rather than broad implementation evidence.",
+        "Migration/setup/import tooling context does not prove architectural dependency.",
+        "No source in this packet supports Hermes as a runtime layer for OpenClaw.",
+        "No source in this packet supports Hermes as required for web or phone access.",
+        "This package does not resolve citations for finished text.",
+        "This package is not a claim-insertion object."
+      ],
+      "evidence_narrowness_warning": "Evidence supports only a narrow documentation-context note that OpenClaw documentation names Hermes in migration/setup tooling contexts; it does not support broader runtime, dependency, access, or operating-environment claims.",
+      "evidence_summary": "Planning summary only: the prior caveat-only canary was safe but too thin; this rebuild preserves the caveat while adding bounded atoms, provenance duties, scope limits, and later-review instructions.",
+      "forbidden_author_scope": [
+        "No finished book prose.",
+        "No final paragraph text.",
+        "No claim insertion.",
+        "No publication use.",
+        "No chapter mutation.",
+        "No architectural dependency framing.",
+        "No runtime-environment framing.",
+        "No web-access or phone-access requirement framing.",
+        "No generalization beyond migration/setup/import tooling contexts without additional sources."
+      ],
+      "later_canary_instruction_seed": "Instructions only: test whether later metadata preserves ecosystem/tooling adjacency, keeps Hermes limited to migration/setup/import documentation context, retains all do-not-say boundaries, requires provenance checks, and avoids finished wording.",
+      "manifest_item_ids": [
+        "manifest_2901cc01a0bc7a2252b35183"
+      ],
+      "narrative_function_suggestions": [
+        "Use as possible ecosystem/tooling adjacency context only.",
+        "Use to flag OpenClaw’s surrounding setup and migration tooling landscape.",
+        "Use to prevent accidental dependency or runtime overclaiming.",
+        "Use as a provenance checkpoint for later source-gathering.",
+        "Use as a negative-boundary example during red-team review."
+      ],
+      "placement_suggestions": [
+        "Possible conceptual placement near tooling ecosystem notes, if later gates allow.",
+        "Possible conceptual placement near migration/setup process discussion, if additional sourcing supports use.",
+        "Possible use in internal evidence map rather than reader-facing text.",
+        "Keep unassigned until later source review and red-team steps complete."
+      ],
+      "prior_draft_canary_id": "draft_canary_run24_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "prior_draft_input_id": "draft_input_run22b_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "provenance_paths": [
+        "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+        "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.json",
+        "reports/editorial/citation-pipeline-test-20260612-narrative-packet-candidates-run20.json",
+        "reports/editorial/citation-pipeline-test-20260612-packet-redteam-gate-run21.json",
+        "reports/editorial/citation-pipeline-test-20260612-closed-loop-state-machine-run22a.json"
+      ],
+      "publication_approved": false,
+      "rebuilt_input_decision": "rebuilt_draft_input_candidate",
+      "rebuilt_input_id": "rebuilt_input_run26_enriched_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "rebuilt_input_type": "enriched_caveat_only_author_draft_input",
+      "rebuilt_input_use": "caveat_only",
+      "required_caveats": [
+        "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources."
+      ],
+      "residual_risk": "Low if retained as advisory caveat-only planning metadata; moderate if later review treats adjacency as dependency; high if used to support runtime, access, or operating-environment claims.",
+      "singleton_input": true,
+      "source_cluster_id": "cluster_4e8554045cfaf827bc68bcc5",
+      "source_ids": [
+        "src_6d7b6d80cda4e784877d"
+      ],
+      "source_note_ids": [
+        "note_a30056d3f19faa7deb0c9dbc"
+      ],
+      "source_packet_id": "packet_run20_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "source_review_ids": [
+        "source_review_5baf68d86960f91b97ac"
+      ],
+      "target_chapter_candidates": [
+        "ecosystem/tooling adjacency context",
+        "migration/setup tooling context",
+        "internal evidence map context",
+        "red-team boundary-check context"
+      ],
+      "target_chapter_status": "suggested_only",
+      "title": "Enriched Hermes/OpenClaw tooling-adjacency caveat input",
+      "usefulness_improvement_notes": "Adds evidence-bound atoms, boundaries, narrative-role options, placement constraints, citation requirements, and canary instructions instead of merely repeating the caveat.",
+      "why_prior_canary_was_not_useful": "The prior canary preserved safety but only restated the caveat, providing no structured evidence atoms, provenance plan, narrative function, or later-review guidance."
+    }
+  ],
+  "rebuilt_input_count": 1,
+  "rebuilt_input_decision_counts": {
+    "rebuilt_draft_input_candidate": 1
+  },
+  "rebuilt_input_type_counts": {
+    "enriched_caveat_only_author_draft_input": 1
+  },
+  "rebuilt_input_use_counts": {
+    "caveat_only": 1
+  },
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "claims_inserted": false,
+    "daily_worker_modified": false,
+    "docs_book_modified": false,
+    "editorial_reviews_inserted": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "gpt55_advisory_is_human_or_editor_approval": false,
+    "publication_approved": false,
+    "raw_content_stored": false,
+    "rebuilt_input_is_authoring": false,
+    "rebuilt_input_is_publishable_material": false,
+    "schema_modified": false,
+    "source_notes_written": false,
+    "source_registry_promoted": false
+  },
+  "selected_canary_redteam_count": 1,
+  "selected_canary_redteams": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "canary_usefulness": "not_useful_restates_caveat_only",
+      "caveat_integrity_assessment": "The draft canary preserves the required caveat exactly and does not broaden the supported claim beyond OpenClaw migration/setup tooling documentation contexts.",
+      "chapter_update_allowed": false,
+      "closed_loop_disposition": "needs_better_authoring_input",
+      "do_not_say": [
+        "Do not say Hermes is a runtime dependency of OpenClaw.",
+        "Do not say Hermes is the general operating environment for OpenClaw.",
+        "Do not say OpenClaw requires Hermes for web or phone access.",
+        "Do not generalize beyond migration/setup/import tooling contexts unless additional sources support it.",
+        "Do not use this material as a factual claim without the caveat.",
+        "Do not use this material for chapter prose before later author/red-team gates pass."
+      ],
+      "do_not_say_compliance_assessment": "The canary complies with the do-not-say list because it explicitly prohibits runtime-dependency, operating-environment, access-requirement, and uncaveated generalization claims.",
+      "draft_canary_id": "draft_canary_run24_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "draft_canary_only": true,
+      "draft_canary_type": "caveat_only_author_draft_canary",
+      "draft_canary_use": "caveat_only",
+      "draft_input_id": "draft_input_run22b_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "limitations": [
+        "The canary is only the required caveat restated and therefore is not useful as substantive author-draft input.",
+        "The source basis is narrow and limited to documentation summaries for migration/setup tooling contexts.",
+        "The evidence does not establish Hermes as an OpenClaw runtime dependency, general operating environment, or required access layer.",
+        "The canary remains report-only and advisory; it is not approved for authoring, claim insertion, chapter updates, or publication.",
+        "Singleton-cluster provenance limits confidence for any expansion beyond the caveat-only framing."
+      ],
+      "provenance_assessment": "Provenance is traceable through the supplied run15, run16, run20, run21, and run22a report paths and associated source, note, packet, review, and manifest identifiers, but the provided provenance supports only narrow caveat-only handling rather than authorable factual prose.",
+      "publication_approved": false,
+      "recommended_next_stage": "rebuild_author_draft_input",
+      "redteam_decision": "safe_but_not_useful",
+      "required_caveats": [
+        "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources."
+      ],
+      "residual_risk": "Low while retained as advisory caveat-only material; moderate if later prose promotion treats the caveat as a positive factual claim or expands it into unsupported runtime, dependency, operating-environment, or access-requirement assertions.",
+      "residual_risk_assessment": "Residual risk is controlled by the exact caveat language and negative eligibility flags, but usefulness risk remains because the canary contributes no author-draft content beyond restating the constraint.",
+      "run22b_draft_input_package": {
+        "advisory_only": true,
+        "allowed_author_scope": [
+          "Use only as caveat-only planning context in a later controlled draft-only authoring run.",
+          "Frame any future mention narrowly around OpenClaw migration/setup/import tooling documentation contexts.",
+          "Preserve provenance to Run 15, Run 16, manifest, source review, persisted note, candidate source identifiers, and packet/red-team reports.",
+          "Treat the singleton evidence base as narrow and partially corroborated."
+        ],
+        "author_allowed": false,
+        "author_task_constraints": [
+          "Future authoring run must treat this package as input metadata, not as prose.",
+          "Future authoring run must keep author_allowed=false unless a separate explicit authoring gate changes it.",
+          "Future red-team gate must run before any chapter-update candidate stage.",
+          "No docs/book mutation may occur from this package alone."
+        ],
+        "candidate_source_ids": [
+          "cand_20e9401eaf1118d440d3e64b",
+          "cand_6fcbc84f35207ab87be6a1d7"
+        ],
+        "chapter_update_allowed": false,
+        "citation_requirements": [
+          "Any later use must cite the persisted rereview note, source review, manifest item, candidate source identifiers, and Run 15/Run 16 provenance paths.",
+          "Any later use must preserve the required caveat exactly or more conservatively.",
+          "Do not cite this packet as evidence of runtime dependency, general operating environment, web access, or phone access requirements."
+        ],
+        "confidence": "limited_caveat_only",
+        "do_not_say": [
+          "Do not say Hermes is a runtime dependency of OpenClaw.",
+          "Do not say Hermes is the general operating environment for OpenClaw.",
+          "Do not say OpenClaw requires Hermes for web or phone access.",
+          "Do not generalize beyond migration/setup/import tooling contexts unless additional sources support it.",
+          "Do not use this packet as a factual claim without the caveat.",
+          "Do not use this material for chapter prose before later author/red-team gates pass."
+        ],
+        "draft_input_decision": "caveat_only_draft_input_candidate",
+        "draft_input_id": "draft_input_run22b_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+        "draft_input_type": "caveat_only_author_draft_input",
+        "draft_input_use": "caveat_only",
+        "eligible_for_authoring": false,
+        "eligible_for_claim_insertion": false,
+        "eligible_for_publication": false,
+        "evidence_limitations": [
+          "Singleton cluster based on one downstream-eligible persisted rereview note.",
+          "Sources are documentation summaries for migration and setup only.",
+          "The evidence does not establish execution-environment status, dependency requirements, or general Hermes Agent runtime integration.",
+          "Not suitable for chapter prose, claim insertion, publication, or narrative packet creation.",
+          "Run 22B does not resolve citations for chapter text and does not create publishable wording.",
+          "Draft-input readiness remains distinct from authoring approval."
+        ],
+        "evidence_narrowness_warning": "Evidence supports only a narrow documentation-context caveat about Hermes being named in OpenClaw migration/setup tooling contexts; it does not support broader dependency, runtime, access, or operating-environment claims.",
+        "evidence_summary": "Evidence package summary only: Run 20/21 material supports a singleton, caveat-only planning object about Hermes mentions in OpenClaw migration/setup tooling contexts.",
+        "forbidden_author_scope": [
+          "No final paragraph prose.",
+          "No chapter-ready prose.",
+          "No claim insertion request.",
+          "No publication approval.",
+          "No statement that Hermes is a runtime dependency, required operating environment, web-access requirement, or phone-access requirement for OpenClaw."
+        ],
+        "later_author_prompt_seed": "Instruction seed only, not final prose: in a later controlled draft-only run, consider whether a narrowly caveated OpenClaw/Hermes setup-tooling mention is useful; preserve the required caveat and all do-not-say constraints; do not write chapter-ready text from this seed alone.",
+        "manifest_item_ids": [
+          "manifest_2901cc01a0bc7a2252b35183"
+        ],
+        "planning_summary": "Planning-only metadata for a later controlled draft-input run: preserve a narrow caveat about Hermes being named only in OpenClaw migration/setup/import tooling contexts; do not convert this package into book prose.",
+        "provenance_paths": [
+          {
+            "persisted_note_provenance": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+            "run15_report": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+            "run16_report": "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.json"
+          },
+          "reports/editorial/citation-pipeline-test-20260612-narrative-packet-candidates-run20.json",
+          "reports/editorial/citation-pipeline-test-20260612-packet-redteam-gate-run21.json",
+          "reports/editorial/citation-pipeline-test-20260612-closed-loop-state-machine-run22a.json"
+        ],
+        "publication_approved": false,
+        "required_caveats": [
+          "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources."
+        ],
+        "residual_risk": "Low to moderate if the packet remains advisory caveat-only planning material with the required caveat preserved exactly or more conservatively. High if later transformed into a broader dependency, runtime, access, or operating-environment claim.",
+        "singleton_input": true,
+        "source_cluster_id": "cluster_4e8554045cfaf827bc68bcc5",
+        "source_ids": [
+          "src_6d7b6d80cda4e784877d"
+        ],
+        "source_note_ids": [
+          "note_a30056d3f19faa7deb0c9dbc"
+        ],
+        "source_packet_id": "packet_run20_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+        "source_review_ids": [
+          "source_review_5baf68d86960f91b97ac"
+        ],
+        "state_machine_transition_id": "transition_f9a71c721570b16baeeac02e",
+        "state_machine_transition_reference": {
+          "allowed_future_run": "build_caveat_only_author_draft_input",
+          "automated_disposition": "caveat_only_author_input_ready",
+          "current_state": "packet_redteam_reviewed",
+          "proposed_next_state": "draft_input_candidate",
+          "transition_decision": "allowed_for_future_run"
+        },
+        "target_chapter_candidates": [
+          "not_assigned"
+        ],
+        "target_chapter_status": "not_assigned",
+        "title": "Caveat-only Hermes/OpenClaw setup context"
+      },
+      "run24_draft_canary": {
+        "advisory_only": true,
+        "author_allowed": false,
+        "candidate_source_ids": [
+          "cand_20e9401eaf1118d440d3e64b",
+          "cand_6fcbc84f35207ab87be6a1d7"
+        ],
+        "caveat_compliance_notes": "The draft canary text preserves the required caveat exactly and does not broaden the claim beyond OpenClaw migration/setup tooling documentation contexts.",
+        "chapter_update_allowed": false,
+        "do_not_say": [
+          "Do not say Hermes is a runtime dependency of OpenClaw.",
+          "Do not say Hermes is the general operating environment for OpenClaw.",
+          "Do not say OpenClaw requires Hermes for web or phone access.",
+          "Do not generalize beyond migration/setup/import tooling contexts unless additional sources support it.",
+          "Do not use this material as a factual claim without the caveat.",
+          "Do not use this material for chapter prose before later author/red-team gates pass."
+        ],
+        "draft_canary_decision": "draft_canary_created",
+        "draft_canary_id": "draft_canary_run24_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+        "draft_canary_only": true,
+        "draft_canary_text": "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources.",
+        "draft_canary_type": "caveat_only_author_draft_canary",
+        "draft_canary_use": "caveat_only",
+        "draft_input_id": "draft_input_run22b_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+        "eligible_for_authoring": false,
+        "eligible_for_claim_insertion": false,
+        "eligible_for_publication": false,
+        "evidence_limitations": [
+          "Singleton cluster based on one downstream-eligible persisted rereview note.",
+          "Sources are documentation summaries for migration and setup only.",
+          "The evidence does not establish execution-environment status, dependency requirements, or general Hermes Agent runtime integration.",
+          "Not suitable for chapter prose, claim insertion, publication, or narrative packet creation.",
+          "Run 22B does not resolve citations for chapter text and does not create publishable wording.",
+          "Draft-input readiness remains distinct from authoring approval."
+        ],
+        "evidence_narrowness_warning": "Evidence supports only a narrow documentation-context caveat about Hermes being named in OpenClaw migration/setup tooling contexts; it does not support broader dependency, runtime, access, or operating-environment claims.",
+        "manifest_item_ids": [
+          "manifest_2901cc01a0bc7a2252b35183"
+        ],
+        "provenance_paths": [
+          {
+            "persisted_note_provenance": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+            "run15_report": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+            "run16_report": "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.json"
+          },
+          "reports/editorial/citation-pipeline-test-20260612-narrative-packet-candidates-run20.json",
+          "reports/editorial/citation-pipeline-test-20260612-packet-redteam-gate-run21.json",
+          "reports/editorial/citation-pipeline-test-20260612-closed-loop-state-machine-run22a.json"
+        ],
+        "publication_approved": false,
+        "required_caveats": [
+          "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources."
+        ],
+        "residual_risk": "Low to moderate only while the canary remains advisory, caveat-only, and excluded from authoring, publication, claim insertion, and chapter updates; risk increases if later promoted beyond the narrow evidence context.",
+        "singleton_canary": true,
+        "source_cluster_id": "cluster_4e8554045cfaf827bc68bcc5",
+        "source_ids": [
+          "src_6d7b6d80cda4e784877d"
+        ],
+        "source_note_ids": [
+          "note_a30056d3f19faa7deb0c9dbc"
+        ],
+        "source_packet_id": "packet_run20_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+        "source_review_ids": [
+          "source_review_5baf68d86960f91b97ac"
+        ],
+        "target_chapter_status": "not_assigned",
+        "word_count": 26
+      },
+      "safety_containment_assessment": "Safety containment is adequate for report-only review because authoring, publication, claim insertion, and chapter updates are all disallowed and the required caveat is preserved exactly.",
+      "usefulness_assessment": "The canary is safe but not useful as a later author-draft seed because it merely restates the required caveat and does not provide independently authorable, sourced, or contextualized material."
+    }
+  ],
+  "source_notes_count_after": 365,
+  "source_notes_count_before": 365,
+  "source_status_changed": false,
+  "strict_json_required": true,
+  "target_chapter_status_counts": {
+    "suggested_only": 1
+  },
+  "weak_local_fallback_refused": true
+}

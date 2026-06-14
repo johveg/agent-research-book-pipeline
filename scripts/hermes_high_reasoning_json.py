@@ -18,6 +18,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
 
+try:
+    from model_profiles import ModelProfileError, resolve_model_profile
+except Exception:  # pragma: no cover - keeps helper usable if imported outside repo layout
+    ModelProfileError = RuntimeError  # type: ignore
+    resolve_model_profile = None  # type: ignore
+
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PROVIDER = "copilot"
 DEFAULT_MODEL = "gpt-5.5"
@@ -50,16 +56,22 @@ def redact(text: str) -> str:
     return text
 
 
-def env_config(provider: str | None = None, model: str | None = None, timeout_seconds: int | None = None) -> dict[str, Any]:
+def env_config(provider: str | None = None, model: str | None = None, timeout_seconds: int | None = None, profile: dict[str, Any] | None = None) -> dict[str, Any]:
+    provider_value = provider or (profile or {}).get("provider") or os.environ.get("TEREFO_LLM_PROVIDER", DEFAULT_PROVIDER) or DEFAULT_PROVIDER
+    model_value = model or (profile or {}).get("model") or os.environ.get("TEREFO_LLM_REASONING_MODEL", DEFAULT_MODEL) or DEFAULT_MODEL
     return {
-        "bridge": os.environ.get("TEREFO_LLM_BRIDGE", BRIDGE) or BRIDGE,
+        "bridge": (profile or {}).get("bridge") or os.environ.get("TEREFO_LLM_BRIDGE", BRIDGE) or BRIDGE,
         "command": os.environ.get("TEREFO_LLM_COMMAND", DEFAULT_COMMAND) or DEFAULT_COMMAND,
-        "provider": provider or os.environ.get("TEREFO_LLM_PROVIDER", DEFAULT_PROVIDER) or DEFAULT_PROVIDER,
-        "model": model or os.environ.get("TEREFO_LLM_REASONING_MODEL", DEFAULT_MODEL) or DEFAULT_MODEL,
+        "provider": provider_value,
+        "model": model_value,
         "timeout_seconds": int(timeout_seconds or os.environ.get("TEREFO_LLM_TIMEOUT_SECONDS", DEFAULT_TIMEOUT) or DEFAULT_TIMEOUT),
         "source_tag": os.environ.get("TEREFO_LLM_SOURCE_TAG", DEFAULT_SOURCE_TAG) or DEFAULT_SOURCE_TAG,
         "toolset": os.environ.get("TEREFO_LLM_TOOLSETS", DEFAULT_TOOLSET) or DEFAULT_TOOLSET,
         "override_bridge_command": os.environ.get("TEREFO_HIGH_REASONING_BRIDGE_COMMAND", ""),
+        "model_profile": (profile or {}).get("profile_name", "explicit_cli" if provider and model else ""),
+        "strict_json_required": bool((profile or {}).get("strict_json_required", True)),
+        "reasoning_effort": (profile or {}).get("reasoning_effort", "high"),
+        "task_class": (profile or {}).get("task_class", "editorial_reasoning"),
     }
 
 
@@ -102,6 +114,10 @@ def base_result(cfg: dict[str, Any], schema_name: str, prompt_hash: str = "") ->
         "stdout_hash": "",
         "command_shape": " ".join(shlex.quote(x) for x in command_shape(cfg)),
         "weak_local_fallback_refused": True,
+        "model_profile": cfg.get("model_profile") or "",
+        "strict_json_required": bool(cfg.get("strict_json_required", True)),
+        "reasoning_effort": cfg.get("reasoning_effort", ""),
+        "task_class": cfg.get("task_class", ""),
         "prompt_hash": prompt_hash,
         "generated_at": utc_now(),
     }
@@ -120,11 +136,20 @@ def call_high_reasoning_json(
     prompt: str,
     schema_name: str,
     validator: Callable[[dict[str, Any]], None] | None = None,
-    provider: str = DEFAULT_PROVIDER,
-    model: str = DEFAULT_MODEL,
+    provider: str | None = None,
+    model: str | None = None,
     timeout_seconds: int = DEFAULT_TIMEOUT,
+    reasoning_profile: str | None = None,
 ) -> dict[str, Any]:
-    cfg = env_config(provider=provider, model=model, timeout_seconds=timeout_seconds)
+    profile = None
+    if reasoning_profile:
+        if resolve_model_profile is None:
+            raise HighReasoningError({"error": "model_profile_loader_unavailable", "provider": provider or "", "model": model or "", "bridge": BRIDGE})
+        try:
+            profile = resolve_model_profile(reasoning_profile, provider=provider, model=model)
+        except Exception as exc:
+            raise HighReasoningError({"error": f"model_profile_error:{exc}", "provider": provider or "", "model": model or "", "bridge": BRIDGE}) from exc
+    cfg = env_config(provider=provider, model=model, timeout_seconds=timeout_seconds, profile=profile)
     import hashlib
     result = base_result(cfg, schema_name, hashlib.sha256(prompt.encode("utf-8")).hexdigest())
     if not cfg["provider"] or not cfg["model"]:
@@ -139,7 +164,8 @@ def call_high_reasoning_json(
         "schema_name": schema_name,
         "provider": cfg["provider"],
         "model": cfg["model"],
-        "strict_json_required": True,
+        "strict_json_required": cfg["strict_json_required"],
+        "model_profile": cfg.get("model_profile") or "",
     }
     if cfg["override_bridge_command"]:
         cmd = [cfg["override_bridge_command"]]
@@ -259,8 +285,9 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     ap.add_argument("--canary", action="store_true")
     ap.add_argument("--prompt", default="")
     ap.add_argument("--schema-name", default="generic")
-    ap.add_argument("--provider", default=os.environ.get("TEREFO_LLM_PROVIDER", DEFAULT_PROVIDER))
-    ap.add_argument("--model", default=os.environ.get("TEREFO_LLM_REASONING_MODEL", DEFAULT_MODEL))
+    ap.add_argument("--provider", default=None)
+    ap.add_argument("--model", default=None)
+    ap.add_argument("--reasoning-profile", default="")
     ap.add_argument("--timeout-seconds", type=int, default=int(os.environ.get("TEREFO_LLM_TIMEOUT_SECONDS", DEFAULT_TIMEOUT)))
     ap.add_argument("--output-dir", default="reports/editorial")
     ap.add_argument("--run-id", default="latest")
@@ -271,13 +298,14 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv or sys.argv[1:])
-    prompt = canary_prompt(args.model) if args.canary else args.prompt
+    prompt_model = args.model or ("gpt-5.5" if args.reasoning_profile else os.environ.get("TEREFO_LLM_REASONING_MODEL", DEFAULT_MODEL))
+    prompt = canary_prompt(prompt_model) if args.canary else args.prompt
     validator = validate_canary if args.canary else None
     if not prompt:
         print(json.dumps({"ok": False, "error": "prompt_missing"}, sort_keys=True), file=sys.stdout)
         return 2
     try:
-        result = call_high_reasoning_json(prompt, "canary" if args.canary else args.schema_name, validator, args.provider, args.model, args.timeout_seconds)
+        result = call_high_reasoning_json(prompt, "canary" if args.canary else args.schema_name, validator, args.provider, args.model, args.timeout_seconds, args.reasoning_profile or None)
         if args.canary:
             outputs = write_canary_reports(result, Path(args.output_dir), args.run_id, args.json_only, args.markdown_only)
             result["output_paths"] = outputs

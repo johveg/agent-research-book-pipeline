@@ -4,8 +4,8 @@
 
 - `scripts/llm_reasoning_dry_run.py`: new dry-run advisory report generator; reads SQLite in read-only mode and writes Markdown/JSON reports only.
 - `tests/test_llm_reasoning_dry_run.py`: tests no-LLM execution, report outputs, safety booleans, and no docs/book or DB writes.
-- `/tmp/pytest-of-root/pytest-130/test_llm_reasoning_dry_run_doe0/test-llm-dry-run-safety-llm-reasoning-dry-run.md`: generated advisory Markdown report.
-- `/tmp/pytest-of-root/pytest-130/test_llm_reasoning_dry_run_doe0/test-llm-dry-run-safety-llm-reasoning-dry-run.json`: generated advisory JSON report.
+- `/tmp/pytest-of-root/pytest-237/test_llm_reasoning_dry_run_doe0/test-llm-dry-run-safety-llm-reasoning-dry-run.md`: generated advisory Markdown report.
+- `/tmp/pytest-of-root/pytest-237/test_llm_reasoning_dry_run_doe0/test-llm-dry-run-safety-llm-reasoning-dry-run.json`: generated advisory JSON report.
 - `reports/architecture/run1-llm-reasoning-dry-run-evidence-map-20260614.md`: implementation/evidence map for Run 1 evaluation.
 
 ## Files intentionally not changed

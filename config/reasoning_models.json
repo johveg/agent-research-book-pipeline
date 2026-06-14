@@ -1,0 +1,51 @@
+{
+  "profiles": {
+    "editorial_reasoning": {
+      "provider": "copilot",
+      "model": "gpt-5.5",
+      "bridge": "hermes_cli",
+      "reasoning_effort": "high",
+      "task_class": "editorial_reasoning",
+      "allow_weak_fallback": false,
+      "allow_local_fallback": false,
+      "strict_json_required": true
+    },
+    "coding_agent": {
+      "provider": "codex",
+      "model": "gpt-5.3-codex",
+      "bridge": "codex_cli",
+      "reasoning_effort": "high",
+      "task_class": "coding",
+      "allow_weak_fallback": false,
+      "allow_local_fallback": false,
+      "strict_json_required": false
+    },
+    "closed_loop_editorial": {
+      "provider": "copilot",
+      "model": "gpt-5.5",
+      "bridge": "hermes_cli",
+      "reasoning_effort": "high",
+      "task_class": "closed_loop_editorial_disposition",
+      "allow_weak_fallback": false,
+      "allow_local_fallback": false,
+      "strict_json_required": true,
+      "allowed_dispositions": [
+        "auto_quarantine",
+        "discovery_only",
+        "needs_more_sources",
+        "caveat_only",
+        "exclude_from_pipeline",
+        "contradiction_review_required",
+        "safe_reports_only",
+        "eligible_for_review_note_persistence",
+        "blocked_for_publication_by_policy",
+        "source_context_unclear"
+      ]
+    }
+  },
+  "defaults": {
+    "editorial_reasoning": "editorial_reasoning",
+    "coding_agent": "coding_agent",
+    "closed_loop_editorial": "closed_loop_editorial"
+  }
+}

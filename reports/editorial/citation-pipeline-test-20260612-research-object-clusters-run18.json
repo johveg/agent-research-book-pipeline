@@ -1,0 +1,176 @@
+{
+  "caveat_only_cluster_count": 1,
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_count_after": 181,
+  "claims_count_before": 181,
+  "claims_inserted": 0,
+  "cluster_candidates": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_source_ids": [
+        "cand_20e9401eaf1118d440d3e64b",
+        "cand_6fcbc84f35207ab87be6a1d7"
+      ],
+      "caveat_required": true,
+      "caveat_text": "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources.",
+      "cluster_decision": "caveat_only_cluster_candidate",
+      "cluster_id": "cluster_4e8554045cfaf827bc68bcc5",
+      "cluster_summary": "Singleton caveat-only cluster candidate derived from one downstream-eligible persisted rereview note.",
+      "cluster_thesis_or_caveat": "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources.",
+      "cluster_type": "caveat_only_support_cluster",
+      "cluster_use": "caveat_only",
+      "corroboration_decisions": [
+        "partially_corroborated"
+      ],
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "evidence_use_decisions": [
+        "eligible_for_filing_later_after_corroboration"
+      ],
+      "excluded_from_claiming_reason": "This Run 18 cluster is organizational/advisory only, not a claim, not narrative packet material, and not author/publication approval.",
+      "limitations": "Sources are documentation summaries for migration and setup only. They do not prove execution-environment status, dependency requirements, or general Hermes Agent runtime integration.",
+      "manifest_item_ids": [
+        "manifest_2901cc01a0bc7a2252b35183"
+      ],
+      "note_ids": [
+        "note_a30056d3f19faa7deb0c9dbc"
+      ],
+      "provenance_paths": [
+        {
+          "persisted_note_provenance": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+          "run15_report": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+          "run16_report": "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.json"
+        }
+      ],
+      "publication_approved": false,
+      "residual_risk": "Low to moderate risk if preserved as a narrow review note; higher risk if expanded into a broad environment or dependency claim.",
+      "singleton_cluster": true,
+      "source_ids": [
+        "src_6d7b6d80cda4e784877d"
+      ],
+      "source_review_ids": [
+        "source_review_5baf68d86960f91b97ac"
+      ],
+      "support_decisions": [
+        "partially_supported"
+      ],
+      "title": "Caveat-only Hermes/OpenClaw support context"
+    }
+  ],
+  "cluster_candidates_count": 1,
+  "cluster_decision_counts": {
+    "caveat_only_cluster_candidate": 1
+  },
+  "cluster_type_counts": {
+    "caveat_only_support_cluster": 1
+  },
+  "cluster_use_counts": {
+    "caveat_only": 1
+  },
+  "editorial_reviews_count_after": 10,
+  "editorial_reviews_count_before": 10,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "excluded_manifest_items": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "closed_loop_disposition": "source_context_unclear",
+      "downstream_manifest_decision": "source_context_unclear",
+      "excluded_reason": "upstream_excluded_from_manifest",
+      "item_id": "corrob_item_6e923bab58a413137532",
+      "publication_approved": false,
+      "skip_reason": "needs_editor_review",
+      "source_review_id": "source_review_12c73455aa1816e5df8c"
+    }
+  ],
+  "excluded_manifest_items_count": 1,
+  "failed_cluster_checks": [],
+  "generated_at": "2026-06-14T07:20:55Z",
+  "input_paths": {
+    "downstream_manifest": "reports/editorial/citation-pipeline-test-20260612-downstream-eligibility-manifest-run17.json",
+    "sqlite_db": ".var/book.sqlite"
+  },
+  "mode": "llm_cluster_research_objects",
+  "model_profile": {
+    "bridge": "hermes_cli",
+    "llm_used": false,
+    "model": "gpt-5.5",
+    "profile_name": "closed_loop_editorial",
+    "provider": "copilot",
+    "reasoning_status": "deterministic_report_only_clustering_no_llm_needed",
+    "strict_json_required": true,
+    "weak_local_fallback_refused": true
+  },
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-research-object-clusters-run18.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-research-object-clusters-run18.md"
+  },
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "chapter_prose_generated": false,
+    "claims_inserted": false,
+    "cluster_candidates_are_claims": false,
+    "editorial_reviews_inserted": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "narrative_packets_created": false,
+    "publication_approved": false,
+    "raw_content_stored": false,
+    "source_notes_written": false,
+    "source_registry_promoted": false
+  },
+  "selected_manifest_items": [
+    {
+      "accepted_candidate_source_ids": [
+        "cand_20e9401eaf1118d440d3e64b",
+        "cand_6fcbc84f35207ab87be6a1d7"
+      ],
+      "advisory_only": true,
+      "author_allowed": false,
+      "caveat_required": true,
+      "caveat_text": "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources.",
+      "closed_loop_disposition": "eligible_for_review_note_persistence",
+      "corroboration_decision": "partially_corroborated",
+      "downstream_manifest_decision": "caveat_only_cluster_candidate",
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "evidence_use_decision": "eligible_for_filing_later_after_corroboration",
+      "item_id": "corrob_item_4039b66b55f0c200763a",
+      "limitations": "Sources are documentation summaries for migration and setup only. They do not prove execution-environment status, dependency requirements, or general Hermes Agent runtime integration.",
+      "manifest_item_id": "manifest_2901cc01a0bc7a2252b35183",
+      "note_id": "note_a30056d3f19faa7deb0c9dbc",
+      "note_type": "source_support_rereview_draft",
+      "provenance_paths": {
+        "persisted_note_provenance": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+        "run15_report": "reports/editorial/citation-pipeline-test-20260612-source-support-rereview-run15.json",
+        "run16_report": "reports/editorial/citation-pipeline-test-20260612-persisted-source-support-rereview-notes-run16.json"
+      },
+      "publication_approved": false,
+      "residual_risk": "Low to moderate risk if preserved as a narrow review note; higher risk if expanded into a broad environment or dependency claim.",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "support_decision": "partially_supported"
+    }
+  ],
+  "selected_manifest_items_count": 1,
+  "singleton_cluster_count": 1,
+  "source_notes_count_after": 365,
+  "source_notes_count_before": 365,
+  "source_status_changed": false,
+  "support_cluster_count": 0
+}

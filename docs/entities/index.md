@@ -1,6 +1,6 @@
 # Entities
 
-Last generated: 2026-06-14T01:25:06Z
+Last generated: 2026-06-14T06:02:48Z
 
 Entities are conservative candidates extracted from collected source metadata and archived text. They require human review before being treated as canonical.
 
@@ -13,7 +13,7 @@ Entities are conservative candidates extracted from collected source metadata an
 | [Nous Research](nous-research.md) | tool | high | 42 |
 | [AI agents](ai-agents.md) | tool | high | 31 |
 | [Claude Code](claude-code.md) | concept | high | 22 |
-| [Github](github.md) | tool | high | 20 |
+| [Github](github.md) | unknown | low | 20 |
 | [TheNextGenTechInsider.com](thenextgentechinsider-com.md) | tool | high | 18 |
 | [Claude](claude.md) | unknown | high | 16 |
 | [Agentic AI](agentic-ai.md) | concept | medium | 15 |
@@ -25,19 +25,19 @@ Entities are conservative candidates extracted from collected source metadata an
 | [SEO](seo.md) | tool | high | 11 |
 | [Outpost](outpost.md) | unknown | high | 10 |
 | [Python](python.md) | concept | high | 10 |
-| [RAG](rag.md) | tool | high | 9 |
-| [Most AI](most-ai.md) | concept | medium | 7 |
+| [RAG](rag.md) | tool | low | 9 |
+| [Most AI](most-ai.md) | tool | low | 7 |
 | [PMP](pmp.md) | tool | high | 6 |
+| [AWS](aws.md) | company | medium | 6 |
 | [OpenAI](openai.md) | tool | medium | 6 |
-| [AWS](aws.md) | tool | high | 6 |
 | [NVIDIA](nvidia.md) | tool | low | 6 |
-| [LLM](llm.md) | tool | medium | 6 |
+| [LLM](llm.md) | tool | low | 6 |
 | [GTM](gtm.md) | concept | high | 6 |
 | [AI SEO Prompts](ai-seo-prompts.md) | tool | high | 6 |
 | [Help Websites Get More Leads](help-websites-get-more-leads.md) | tool | high | 6 |
 | [Julian Goldie](julian-goldie.md) | tool | high | 6 |
 | [AI Coding Agents](ai-coding-agents.md) | framework | high | 5 |
-| [AI-assisted](ai-assisted.md) | tool | medium | 5 |
+| [AI-assisted](ai-assisted.md) | tool | low | 5 |
 | [FDE](fde.md) | tool | medium | 5 |
 | [Gurudath Sadanandan](gurudath-sadanandan.md) | company | high | 5 |
 | [Hermes Atlas](hermes-atlas.md) | tool | low | 5 |
@@ -45,7 +45,6 @@ Entities are conservative candidates extracted from collected source metadata an
 | [Chief AI Officer](chief-ai-officer.md) | tool | medium | 5 |
 | [Hermes agents](hermes-agents.md) | tool | medium | 5 |
 | [SIA](sia.md) | concept | high | 5 |
-| [Stop Prompting AI. Start Designing](stop-prompting-ai-start-designing.md) | company | high | 5 |
 | [HireBox Human Resource](hirebox-human-resource.md) | person | high | 4 |
 | [trained my Hermes Agent](trained-my-hermes-agent.md) | tool | high | 4 |
 | [BACKEND](backend.md) | tool | medium | 4 |
@@ -60,7 +59,7 @@ Entities are conservative candidates extracted from collected source metadata an
 | [FREE](free.md) | tool | medium | 4 |
 | [Krishna Kumar](krishna-kumar.md) | person | medium | 4 |
 | [VPS](vps.md) | tool | medium | 4 |
-| [autonomous AI agents](autonomous-ai-agents.md) | tool | medium | 4 |
+| [autonomous AI agents](autonomous-ai-agents.md) | tool | low | 4 |
 | [Chief Executive Officer](chief-executive-officer.md) | company | high | 4 |
 | [ModelFusion.ai](modelfusion-ai.md) | concept | medium | 4 |
 | [Self-improving](self-improving.md) | concept | high | 4 |
@@ -91,9 +90,10 @@ Entities are conservative candidates extracted from collected source metadata an
 | [High-Performance Alternative](high-performance-alternative.md) | tool | low | 3 |
 | [Full Stack](full-stack.md) | project | high | 3 |
 | [Loop Engineer](loop-engineer.md) | concept | medium | 3 |
-| [SQL](sql.md) | concept | low | 3 |
 | [Executive Vice President](executive-vice-president.md) | tool | low | 3 |
 | [Wisely Chen](wisely-chen.md) | tool | low | 3 |
+| [SQL](sql.md) | concept | low | 3 |
+| [Next.js](next-js.md) | project | low | 3 |
 | [AZAHAR-LABS](azahar-labs.md) | tool | low | 3 |
 | [Agent Harnesses](agent-harnesses.md) | tool | low | 3 |
 | [Max Petrusenko](max-petrusenko.md) | tool | low | 3 |
@@ -104,13 +104,12 @@ Entities are conservative candidates extracted from collected source metadata an
 | [CIO](cio.md) | tool | low | 3 |
 | [Deutsche Bank](deutsche-bank.md) | tool | low | 3 |
 | [Imran Khan A.N](imran-khan-a-n.md) | tool | low | 3 |
-| [Next.js](next-js.md) | tool | medium | 3 |
 | [Public Secto](public-secto.md) | tool | low | 3 |
 | [Hermes AI](hermes-ai.md) | tool | medium | 3 |
 | [Hermes Agent Core](hermes-agent-core.md) | tool | low | 3 |
 | [how an AI Agent](how-an-ai-agent.md) | tool | medium | 3 |
+| [Enterprise AI](enterprise-ai.md) | project | low | 3 |
 | [SpaceX IPO](spacex-ipo.md) | publication | high | 3 |
-| [Enterprise AI](enterprise-ai.md) | tool | high | 3 |
 | [Hermes AI Agent](hermes-ai-agent.md) | tool | medium | 3 |
 | [CAM](cam.md) | tool | medium | 3 |
 | [Day Workshop](day-workshop.md) | tool | medium | 3 |

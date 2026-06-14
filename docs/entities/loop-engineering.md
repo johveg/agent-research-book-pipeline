@@ -1,17 +1,17 @@
 # Loop Engineering
 
-Last generated: 2026-06-14T01:25:06Z
+Last generated: 2026-06-14T06:02:48Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
+- Last seen: 2026-06-14T06:02:48Z
 - Source count: 495
-- Mention count: 10440
+- Mention count: 10650
 
 ## Description
 
-Candidate concept entity extracted from 243 source(s).
+Candidate concept entity extracted from 44 source(s).
 
 ## Related claims
 
@@ -25,7 +25,6 @@ Candidate concept entity extracted from 243 source(s).
 - **candidate / weak** — I am pleased to share Phase 1 of Judicium, an AI-native engineering assessment platform built around a single conviction: code production is "loop engineering". (`claim_b1c70983319d96ed6985`)
 - **candidate / weak** — I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice. (`claim_773e28b6a909ecda80a4`)
 - **candidate / weak** — Is Loop Engineering the next big thing, or the next big token bill?. (`claim_eae05f1f08eda49650e2`)
-- **candidate / weak** — Loop Engineering: AI Coding Has Entered the Systems Era (Most People Are Still Stuck in Chat) | by JIN | JIN System Architect | Jun, 2026 | Medium "loop engineering" AI agents medium.com. (`claim_f5b1cdd1300f8324b5c6`)
 - **candidate / weak** — Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate "loop engineering". (`claim_aa15ac8d93b19deb75a5`)
 - **candidate / weak** — Supporting the next generation of engineers is something we're proud to do at Loop Engineering. (`claim_9c0316e189a0206606cc`)
 - **candidate / weak** — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. (`claim_7e74b63407356799b13e`)
@@ -35,6 +34,7 @@ Candidate concept entity extracted from 243 source(s).
 - **candidate / weak** — When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic "loop engineering". (`claim_4e36acee44718cc794a3`)
 - **candidate / weak** — While most organisations were using AI as a tool, we were explorin "loop engineering". (`claim_fd04d0320e8001e3048f`)
 - **candidate / weak** — With all the talk on loop engineering lately, here is how I have been getting the mo "loop engineer". (`claim_c869d3aa19cd0508b563`)
+- **candidate / weak** — ❌ We have a massive structural problem in how we "loop engineering". (`claim_2d52e41459ab0319d427`)
 
 ## Source references
 

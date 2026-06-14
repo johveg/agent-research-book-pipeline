@@ -1,6 +1,6 @@
 # Loop Engineer
 
-Last generated: 2026-06-14T01:25:06Z
+Last generated: 2026-06-14T06:02:48Z
 
 - Type: `concept`
 - Confidence: `medium`
@@ -28,13 +28,13 @@ Candidate concept entity extracted from 2 source(s).
 - **candidate / weak** — I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice. (`claim_773e28b6a909ecda80a4`)
 - **candidate / weak** — Is Loop Engineering the next big thing, or the next big token bill?. (`claim_eae05f1f08eda49650e2`)
 - **candidate / weak** — I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w "loop engineer". (`claim_f5ec1a5fa9625a462d70`)
-- **candidate / weak** — Loop Engineering: AI Coding Has Entered the Systems Era (Most People Are Still Stuck in Chat) | by JIN | JIN System Architect | Jun, 2026 | Medium "loop engineering" AI agents medium.com. (`claim_f5b1cdd1300f8324b5c6`)
 - **candidate / weak** — Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate "loop engineering". (`claim_aa15ac8d93b19deb75a5`)
 - **candidate / weak** — Supporting the next generation of engineers is something we're proud to do at Loop Engineering. (`claim_9c0316e189a0206606cc`)
 - **candidate / weak** — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. (`claim_7e74b63407356799b13e`)
 - **candidate / weak** — The term is all over the place right now, and it started with two post "loop engineering". (`claim_a23dc490defc35cc52cc`)
 - **candidate / weak** — There are 4 layers to working with AI effectively—and most teams are st "loop engineering". (`claim_287f3002d53df171b280`)
 - **candidate / weak** — This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b "loop engineering". (`claim_604d0ac7c64497718722`)
+- **candidate / weak** — When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic "loop engineering". (`claim_4e36acee44718cc794a3`)
 
 ## Source references
 

@@ -38,6 +38,71 @@ GENERIC_TREND_BITS = {
     "captured t01", "t01", "markdown", "metadata", "archive", "captured_at", "published_at",
 }
 SOCIAL_TYPES = {"linkedin_search_result", "social", "post"}
+AUTOMATED_DISPOSITIONS = {
+    "auto_quarantine",
+    "discovery_only",
+    "needs_more_sources",
+    "caveat_only",
+    "exclude_from_publication",
+    "safe_reports_only",
+    "blocked_for_publication_by_policy",
+    "eligible_for_future_review_note",
+    "contradiction_requires_isolation",
+    "source_context_unclear",
+}
+
+
+def automated_disposition_for_reason(reason: str) -> str:
+    """Map routine uncertainty/block reasons to closed-loop machine actions.
+
+    Human review can still be useful as optional escalation metadata, but routine
+    privacy/source-quality/weak-evidence blockers must have an automated next
+    action so the daily loop can keep safe reports moving while preventing prose
+    publication.
+    """
+    low = (reason or "").lower()
+    if any(term in low for term in ["privacy", "private", "authenticated", "login", "human review"]):
+        return "auto_quarantine"
+    if "contradiction" in low:
+        return "contradiction_requires_isolation"
+    if "social-only" in low or "social/search-result" in low or "linkedin" in low or "social" in low:
+        return "discovery_only"
+    if "weak" in low or "needs more" in low or "trend promotion" in low or "insufficient" in low:
+        return "needs_more_sources"
+    if "raw capture" in low or "unsafe" in low or "low-quality" in low or "noisy" in low or "reject" in low:
+        return "exclude_from_publication"
+    if "source context" in low or "unclear" in low or "unknown" in low:
+        return "source_context_unclear"
+    return "blocked_for_publication_by_policy"
+
+
+def publication_decision_model(*, data_collected: bool, block_reasons: list[str], chapter_requested: bool) -> dict:
+    """Return explicit publication booleans consumed by the daily worker/report."""
+    dispositions = [automated_disposition_for_reason(r) for r in block_reasons]
+    blocked = bool(block_reasons)
+    if blocked and "auto_quarantine" in dispositions:
+        automated_disposition = "auto_quarantine"
+    elif blocked:
+        automated_disposition = "safe_reports_only"
+    elif not chapter_requested:
+        automated_disposition = "safe_reports_only"
+    else:
+        automated_disposition = "caveat_only"
+    skipped_reason = None
+    if blocked:
+        skipped_reason = "blocked_for_publication_by_policy"
+    elif not chapter_requested:
+        skipped_reason = "allow_chapter_updates_flag_absent"
+    return {
+        "data_collected": data_collected,
+        "data_usable_for_reports": data_collected,
+        "data_usable_for_chapter_update": data_collected and not blocked and chapter_requested,
+        "chapter_update_allowed": data_collected and not blocked and chapter_requested,
+        "chapter_update_skipped_reason": skipped_reason,
+        "automated_disposition": automated_disposition,
+        "automated_dispositions": sorted(set(dispositions)) if dispositions else [automated_disposition],
+        "publication_recommendation": "do_not_publish_chapter_updates" if (blocked or not chapter_requested) else "publish",
+    }
 
 
 def source_quality(row) -> str:
@@ -186,7 +251,9 @@ def score_sources(con):
         claim_ids=[r["claim_id"] for r in con.execute("SELECT claim_id FROM claim_sources WHERE source_id=? LIMIT 20", (row["id"],)).fetchall()]
         notes=[f"auto_scored_{q}", QUALITY_USE_RULES.get(q, "unknown_use_rule")]
         if duplicate_status != "unique": notes.append("duplicate/repeated source material")
-        if privacy_status != "publishable_metadata_only": notes.append(f"privacy/publication status: {privacy_status}")
+        if privacy_status != "publishable_metadata_only":
+            notes.append(f"privacy/publication status: {privacy_status}")
+            notes.append("automated disposition: auto_quarantine; blocked_for_publication_by_policy")
         con.execute("""
             UPDATE sources
             SET quality_score=?, reliability_tier=?, quality_notes=?, summary=?, relevant_entities=?,
@@ -248,13 +315,13 @@ def review_claims(con):
             # prose unless stronger non-social sources support the same claim.
             if status in {"supported", "weakly_supported", "promoted_to_chapter"}:
                 status="needs_review"
-            notes.append("social/search-result evidence only; discovery signal only; not independent confirmation")
+            notes.append("social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose")
         elif low >= linked:
             status="rejected"; notes.append("only low-quality/noisy sources")
         elif status == "candidate":
             status="needs_review"; notes.append("candidate requires Editor review")
         if any(w in text.lower() for w in HYPE_WORDS):
-            notes.append("hype language present")
+            notes.append("hype language present; exclude_from_publication until independently corroborated")
             if status in {"supported", "promoted_to_chapter"}: status="needs_review"
         if status == "contradicted" or claim_type == "contradiction":
             contradiction_status="contradicted"
@@ -367,7 +434,7 @@ def detect_contradictions(con):
         neg=any(n in text for n in neg_words)
         prev=by_topic.get(topic)
         if prev and prev["neg"] != neg:
-            contradictions.append({"topic": topic, "claim_ids": [prev["id"], r["id"]], "note": "possible negation conflict; human review required"})
+            contradictions.append({"topic": topic, "claim_ids": [prev["id"], r["id"]], "note": "possible negation conflict; contradiction_requires_isolation; eligible_for_future_review_note"})
         else:
             by_topic[topic]={"id": r["id"], "neg": neg}
     return contradictions[:20]
@@ -392,11 +459,11 @@ def trend_decisions(run_id: str, con):
         if not term or low in GENERIC_TREND_BITS or any(part in GENERIC_TREND_BITS for part in parts):
             decision="reject"; reason="generic/platform boilerplate"
         elif count < 3 or int(c.get("doc_count") or 0) < 2:
-            decision="monitor"; reason="weak signal; needs repeated evidence across sources"
+            decision="monitor"; reason="weak signal; needs_more_sources; discovery_only until independently corroborated"
         elif len(term.split()) == 1 and low in {"agent", "agents", "ai", "automation", "workflow", "engineering"}:
             decision="reject"; reason="too broad"
         else:
-            decision="monitor"; reason="candidate trend requires curator/editor review"
+            decision="monitor"; reason="candidate trend requires needs_more_sources before chapter prose"
         decisions.append({"term": term, "count": count, "decision": decision, "reason": reason})
         tid="trend_"+sha256_text(term.lower())[:20]
         con.execute("UPDATE trend_terms SET status=? WHERE id=?", (decision, tid))
@@ -683,32 +750,35 @@ def main():
     if trend_noise_dominated:
         chapter_publication_blockers.append("trend discovery is dominated by structural/platform noise")
     data_collected=source_total > 0
-    data_usable=data_collected and not any(reason in chapter_publication_blockers for reason in ["claims table is empty", "entities table is empty after sources were captured", "source quality is not scored"])
-    safe_updates=["safe status reports", "source index updates", "rejected trend lists", "quality warnings", "operational notes", "editor reports", "no chapter update notes"] if chapter_publication_blockers else []
-    human_review_reasons=[]
+    safe_updates=["capture reports", "source indexes", "rejected trend lists", "quality warnings", "operational notes", "editor reports", "vector/index updates", "no-chapter-update notes"] if chapter_publication_blockers else []
+    optional_escalation_reasons=[]
     if li_warnings:
-        human_review_reasons.append("LinkedIn checkpoint/MFA/CAPTCHA or capture issue possible")
+        optional_escalation_reasons.append("LinkedIn checkpoint/MFA/CAPTCHA or capture issue possible")
     if source_quality.get("sources_needing_human_review"):
-        human_review_reasons.append("privacy uncertainty")
+        optional_escalation_reasons.append("privacy uncertainty")
     if contradictions:
-        human_review_reasons.append("contradiction involving important book claims may need review")
+        optional_escalation_reasons.append("contradiction involving important book claims may need isolation")
     if trend_noise_dominated or any(t.get("decision") == "monitor" for t in trends):
-        human_review_reasons.append("trend promotion with weak evidence")
-    blocked_state_output={
+        optional_escalation_reasons.append("trend promotion with weak evidence")
+    blocked_state_output=publication_decision_model(
+        data_collected=data_collected,
+        block_reasons=chapter_publication_blockers,
+        chapter_requested=True,
+    )
+    blocked_state_output.update({
         "block_reasons": chapter_publication_blockers,
         "affected_files": gate.get("chapter_sections_updated", []) if chapter_publication_blockers else [],
         "failed_checks": blocked + chapter_publication_blockers,
-        "data_collected": data_collected,
-        "data_usable": data_usable,
+        "data_usable": blocked_state_output["data_usable_for_reports"],
         "safe_updates_allowed": safe_updates,
-        "required_next_action": "human review or stronger evidence before chapter publication" if human_review_reasons else (chapter_publication_blockers[0] if chapter_publication_blockers else None),
-        "human_review_required": bool(human_review_reasons),
-        "human_review_reasons": human_review_reasons,
-    }
+        "optional_escalation": bool(optional_escalation_reasons),
+        "optional_escalation_reasons": optional_escalation_reasons,
+        "required_next_action": blocked_state_output["automated_disposition"] if chapter_publication_blockers else None,
+    })
     if chapter_publication_blockers:
         blocked.append("chapter publication blocked: " + "; ".join(dict.fromkeys(chapter_publication_blockers[:12])))
     final_status="blocked" if blocked else ("success" if improvement else "partial")
-    recommendation="publish safe curated artifacts only" if blocked else "publish"
+    recommendation=blocked_state_output.get("publication_recommendation", "do_not_publish_chapter_updates" if blocked else "publish")
     commit_hash=None
     if args.commit_json and Path(args.commit_json).exists():
         try:

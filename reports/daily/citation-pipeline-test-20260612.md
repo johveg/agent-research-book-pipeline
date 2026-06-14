@@ -1,26 +1,26 @@
 # Daily research book run
 
 - Run ID: `citation-pipeline-test-20260612`
-- Started: 2026-06-13T01:10:40Z
-- Finished: 2026-06-13T01:32:44Z
+- Started: 2026-06-14T01:10:48Z
+- Finished: 2026-06-14T01:31:31Z
 - Final status: `blocked`
 - Book build status: `ok`
-- Git commit hash: `3ffd3d7`
+- Git commit hash: `723c124`
 
 ## Required run output
 
 1. Run ID: `citation-pipeline-test-20260612`
-2. Source counts: `{'linkedin_search_result': 868, 'web': 77}`
-3. Entity counts: `2332`
-4. Claim counts: `{'needs_review': 2, 'supported': 6, 'weakly_supported': 138}`
-5. Source quality distribution: `{'A': 17, 'B': 11, 'C': 45, 'D': 868, 'E': 4}`
+2. Source counts: `{'linkedin_search_result': 1169, 'web': 93}`
+3. Entity counts: `3026`
+4. Claim counts: `{'candidate': 59, 'needs_review': 111, 'supported': 6, 'weakly_supported': 5}`
+5. Source quality distribution: `{'A': 21, 'B': 15, 'C': 53, 'D': 1169, 'E': 4}`
 6. New candidate trends: `30`
 7. Claims promoted: `0`
 8. Claims rejected: `0`
 9. Chapter sections updated: `['book/05-context-memory-architecture.md', 'book/03-openclaw.md', 'book/04-loop-engineering.md', 'book/06-operating-loops.md', 'book/preface.md', 'book/01-the-agent-loop.md', 'book/open-questions.md', 'book/02-hermes.md']`
 10. Editor warnings: `[]`
 11. Book build status: `ok`
-12. Git commit hash, if committed: `3ffd3d7`
+12. Git commit hash, if committed: `723c124`
 13. Final status: `blocked`
 
 ## Steps
@@ -49,9 +49,9 @@
 
 ## Blocked-state output
 
-1. Block reason: `['book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping', 'book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat', 'book/03-openclaw.md has claim-like bullets without claim/source mapping', 'book/03-openclaw.md may treat LinkedIn/social material as proof without caveat', 'book/04-loop-engineering.md has claim-like bullets without claim/source mapping', 'book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat', 'book/06-operating-loops.md has claim-like bullets without claim/source mapping', 'book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat', 'book/preface.md has claim-like bullets without claim/source mapping', 'book/preface.md may treat LinkedIn/social material as proof without caveat', 'book/01-the-agent-loop.md has claim-like bullets without claim/source mapping', 'book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat', 'book/02-hermes.md has claim-like bullets without claim/source mapping', 'book/02-hermes.md may treat LinkedIn/social material as proof without caveat', 'privacy review requires human review for some sources', 'trend discovery is dominated by structural/platform noise']`
+1. Block reason: `['privacy review requires human review for some sources']`
 2. Affected files: `['book/05-context-memory-architecture.md', 'book/03-openclaw.md', 'book/04-loop-engineering.md', 'book/06-operating-loops.md', 'book/preface.md', 'book/01-the-agent-loop.md', 'book/open-questions.md', 'book/02-hermes.md']`
-3. Failed checks: `['book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping', 'book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat', 'book/03-openclaw.md has claim-like bullets without claim/source mapping', 'book/03-openclaw.md may treat LinkedIn/social material as proof without caveat', 'book/04-loop-engineering.md has claim-like bullets without claim/source mapping', 'book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat', 'book/06-operating-loops.md has claim-like bullets without claim/source mapping', 'book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat', 'book/preface.md has claim-like bullets without claim/source mapping', 'book/preface.md may treat LinkedIn/social material as proof without caveat', 'book/01-the-agent-loop.md has claim-like bullets without claim/source mapping', 'book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat', 'book/02-hermes.md has claim-like bullets without claim/source mapping', 'book/02-hermes.md may treat LinkedIn/social material as proof without caveat', 'book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping', 'book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat', 'book/03-openclaw.md has claim-like bullets without claim/source mapping', 'book/03-openclaw.md may treat LinkedIn/social material as proof without caveat', 'book/04-loop-engineering.md has claim-like bullets without claim/source mapping', 'book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat', 'book/06-operating-loops.md has claim-like bullets without claim/source mapping', 'book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat', 'book/preface.md has claim-like bullets without claim/source mapping', 'book/preface.md may treat LinkedIn/social material as proof without caveat', 'book/01-the-agent-loop.md has claim-like bullets without claim/source mapping', 'book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat', 'book/02-hermes.md has claim-like bullets without claim/source mapping', 'book/02-hermes.md may treat LinkedIn/social material as proof without caveat', 'privacy review requires human review for some sources', 'trend discovery is dominated by structural/platform noise']`
+3. Failed checks: `['privacy review requires human review for some sources']`
 4. Data collected: `True`
 5. Data usable: `True`
 6. Safely updated: `['safe status reports', 'source index updates', 'rejected trend lists', 'quality warnings', 'operational notes', 'editor reports', 'no chapter update notes']`
@@ -59,21 +59,7 @@
 8. Human review required: `True`
 9. Human review reasons: `['privacy uncertainty', 'trend promotion with weak evidence']`
 - Blocked reasons:
-  - book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping
-  - book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat
-  - book/03-openclaw.md has claim-like bullets without claim/source mapping
-  - book/03-openclaw.md may treat LinkedIn/social material as proof without caveat
-  - book/04-loop-engineering.md has claim-like bullets without claim/source mapping
-  - book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat
-  - book/06-operating-loops.md has claim-like bullets without claim/source mapping
-  - book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat
-  - book/preface.md has claim-like bullets without claim/source mapping
-  - book/preface.md may treat LinkedIn/social material as proof without caveat
-  - book/01-the-agent-loop.md has claim-like bullets without claim/source mapping
-  - book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat
-  - book/02-hermes.md has claim-like bullets without claim/source mapping
-  - book/02-hermes.md may treat LinkedIn/social material as proof without caveat
-  - chapter publication blocked: book/05-context-memory-architecture.md has claim-like bullets without claim/source mapping; book/05-context-memory-architecture.md may treat LinkedIn/social material as proof without caveat; book/03-openclaw.md has claim-like bullets without claim/source mapping; book/03-openclaw.md may treat LinkedIn/social material as proof without caveat; book/04-loop-engineering.md has claim-like bullets without claim/source mapping; book/04-loop-engineering.md may treat LinkedIn/social material as proof without caveat; book/06-operating-loops.md has claim-like bullets without claim/source mapping; book/06-operating-loops.md may treat LinkedIn/social material as proof without caveat; book/preface.md has claim-like bullets without claim/source mapping; book/preface.md may treat LinkedIn/social material as proof without caveat; book/01-the-agent-loop.md has claim-like bullets without claim/source mapping; book/01-the-agent-loop.md may treat LinkedIn/social material as proof without caveat
+  - chapter publication blocked: privacy review requires human review for some sources
 
 ## Notes
 

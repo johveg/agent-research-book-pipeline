@@ -1,17 +1,17 @@
 # AWS
 
-Last generated: 2026-06-14T01:25:06Z
+Last generated: 2026-06-14T06:02:48Z
 
-- Type: `tool`
-- Confidence: `high`
+- Type: `company`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
+- Last seen: 2026-06-14T06:02:48Z
 - Source count: 6
-- Mention count: 75
+- Mention count: 79
 
 ## Description
 
-Candidate tool entity extracted from 3 source(s).
+Candidate company entity extracted from 2 source(s).
 
 ## Related claims
 

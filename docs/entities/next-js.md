@@ -1,17 +1,17 @@
 # Next.js
 
-Last generated: 2026-06-14T01:25:06Z
+Last generated: 2026-06-14T06:02:48Z
 
-- Type: `tool`
-- Confidence: `medium`
+- Type: `project`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
+- Last seen: 2026-06-14T06:02:48Z
 - Source count: 3
-- Mention count: 20
+- Mention count: 22
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate project entity extracted from 1 source(s).
 
 ## Related claims
 

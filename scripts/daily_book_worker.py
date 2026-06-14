@@ -41,6 +41,25 @@ def load_json(path: Path, default):
         return default
 
 
+
+
+def docs_book_dirty_files() -> list[str]:
+    p = subprocess.run(["git", "status", "--short", "--", "docs/book"], cwd=ROOT, text=True, capture_output=True)
+    dirty = []
+    for line in p.stdout.splitlines():
+        if line.strip():
+            dirty.append(line[3:] if len(line) > 3 else line.strip())
+    return dirty
+
+
+def chapter_publication_allowed(editorial: dict, allow_chapter_updates: bool) -> tuple[bool, str]:
+    bso = editorial.get("blocked_state_output", {})
+    if not allow_chapter_updates:
+        return False, "allow_chapter_updates_flag_absent"
+    if editorial.get("final_status") == "blocked" or bso.get("chapter_update_allowed") is False or bso.get("block_reasons"):
+        return False, bso.get("chapter_update_skipped_reason") or "blocked_for_publication_by_policy"
+    return True, "allowed"
+
 def write_steps(run_id: str, steps: list[dict]) -> Path:
     path = LOGS / "runs" / f"{run_id}-steps.json"
     write_json(path, {"run_id": run_id, "steps": steps, "updated_at": utc_now()})
@@ -55,6 +74,11 @@ def build_daily_summary(run_id: str, start: str, status: str, steps: list[dict],
     quality = counts.get("source_quality_distribution", editorial.get("source_quality_distribution", {}))
     commit_hash = commit.get("commit_sha") or commit.get("commit") or commit.get("sha") or "not committed"
     final_status = editorial.get("final_status", status)
+    bso = editorial.get("blocked_state_output", {})
+    chapter_update_allowed = bool(bso.get("chapter_update_allowed", False))
+    chapter_sections_updated = editorial.get("chapter_sections_updated", []) if chapter_update_allowed else []
+    chapter_update_status = "updated" if chapter_sections_updated else "skipped"
+    skipped_reason = bso.get("chapter_update_skipped_reason") or ("blocked_for_publication_by_policy" if final_status == "blocked" else "allow_chapter_updates_flag_absent")
     md = [
         "# Daily research book run",
         "",
@@ -75,11 +99,25 @@ def build_daily_summary(run_id: str, start: str, status: str, steps: list[dict],
         f"6. New candidate trends: `{len(editorial.get('new_candidate_trends', []))}`",
         f"7. Claims promoted: `{len(editorial.get('claims_promoted', []))}`",
         f"8. Claims rejected: `{len(editorial.get('claims_rejected', []))}`",
-        f"9. Chapter sections updated: `{editorial.get('chapter_sections_updated', [])}`",
+        f"9. Chapter sections updated: `{chapter_sections_updated}`",
         f"10. Editor warnings: `{editorial.get('editor_warnings', [])}`",
         f"11. Book build status: `{build_status}`",
         f"12. Git commit hash, if committed: `{commit_hash}`",
         f"13. Final status: `{final_status}`",
+    ]
+    md += [
+        "",
+        "## Publication decision model",
+        "",
+        f"- data_collected: `{bso.get('data_collected', bool(source_counts))}`",
+        f"- data_usable_for_reports: `{bso.get('data_usable_for_reports', bso.get('data_usable', False))}`",
+        f"- data_usable_for_chapter_update: `{bso.get('data_usable_for_chapter_update', False)}`",
+        f"- chapter_update_allowed: `{chapter_update_allowed}`",
+        f"- chapter_update_status: `{chapter_update_status}`",
+        f"- chapter_sections_updated: `{chapter_sections_updated}`",
+        f"- chapter_update_skipped_reason: `{skipped_reason if not chapter_sections_updated else ''}`",
+        f"- automated_disposition: `{bso.get('automated_disposition', 'unknown')}`",
+        f"- publication_recommendation: `{editorial.get('publication_recommendation', bso.get('publication_recommendation', 'unknown'))}`",
         "",
         "## Steps",
         "",
@@ -87,8 +125,7 @@ def build_daily_summary(run_id: str, start: str, status: str, steps: list[dict],
     for s in steps:
         name = Path(s["cmd"][1] if len(s["cmd"]) > 1 else s["cmd"][0]).name
         md.append(f"- `{name}`: exit {s['returncode']}")
-    md += ["", "## Publication recommendation", "", f"- `{editorial.get('publication_recommendation', 'unknown')}`"]
-    bso = editorial.get("blocked_state_output", {})
+    md += ["", "## Publication recommendation", "", f"- `{editorial.get('publication_recommendation', bso.get('publication_recommendation', 'unknown'))}`"]
     if final_status == "blocked" or bso.get("block_reasons"):
         md += [
             "",
@@ -100,11 +137,12 @@ def build_daily_summary(run_id: str, start: str, status: str, steps: list[dict],
             f"4. Data collected: `{bso.get('data_collected', bool(source_counts))}`",
             f"5. Data usable: `{bso.get('data_usable', False)}`",
             f"6. Safely updated: `{bso.get('safe_updates_allowed', [])}`",
-            f"7. Required next action: `{bso.get('required_next_action', 'review blocked reasons')}`",
-            f"8. Human review required: `{bso.get('human_review_required', False)}`",
+            f"7. Required next action: `{bso.get('required_next_action', 'safe_reports_only')}`",
+            f"8. Automated disposition: `{bso.get('automated_disposition', 'safe_reports_only')}`",
+            f"9. Optional escalation: `{bso.get('optional_escalation', False)}`",
         ]
-        if bso.get("human_review_reasons"):
-            md.append(f"9. Human review reasons: `{bso.get('human_review_reasons')}`")
+        if bso.get("optional_escalation_reasons"):
+            md.append(f"10. Optional escalation reasons: `{bso.get('optional_escalation_reasons')}`")
     if editorial.get("blocked_reasons"):
         md.append("- Blocked reasons:")
         for r in editorial.get("blocked_reasons", []):
@@ -175,24 +213,28 @@ def main() -> int:
             steps.append(ep_step)
             editorial = load_json(editorial_json, {})
 
-            if editorial.get("final_status") == "blocked":
-                status = "blocked"
-                steps.append(script_step("scripts/synthesize_chapters.py", 0, "skipped because editorial pipeline blocked chapter publication"))
-            elif not args.allow_chapter_updates:
-                steps.append(script_step("scripts/synthesize_chapters.py", 0, "skipped: daily runs collect/classify/extract/propose only; weekly curation or explicit Editor approval is required for chapter movement"))
+            chapter_allowed, chapter_skip_reason = chapter_publication_allowed(editorial, args.allow_chapter_updates)
+            if not chapter_allowed:
+                if editorial.get("final_status") == "blocked":
+                    status = "blocked"
+                msg = f"skipped: {chapter_skip_reason}"
+                steps.append(script_step("scripts/synthesize_chapters.py", 0, msg))
+                steps.append(script_step("scripts/resolve_book_citations.py", 0, msg))
+                steps.append(script_step("scripts/update_book_pages.py", 0, msg))
+                editorial.setdefault("blocked_state_output", {})["chapter_update_allowed"] = False
+                editorial["blocked_state_output"]["chapter_update_skipped_reason"] = chapter_skip_reason
+                editorial["chapter_sections_updated"] = []
             else:
                 # Author writes only from approved/caveated claims after weekly curation or explicit Editor approval.
                 steps.append(run([PY, "scripts/synthesize_chapters.py", "--run-id", run_id], log))
-
-            # Publication normalization: Author output may contain structured citation tokens,
-            # but public book pages must contain numbered references only.
-            citation_report = LOGS / "runs" / f"{run_id}-citations.json"
-            citation_step = run([PY, "scripts/resolve_book_citations.py", "--json-out", str(citation_report)], log)
-            steps.append(citation_step)
-            if citation_step["returncode"] != 0:
-                status = "blocked"
-
-            steps.append(run([PY, "scripts/update_book_pages.py", "--run-id", run_id], log))
+                # Publication normalization: Author output may contain structured citation tokens,
+                # but public book pages must contain numbered references only.
+                citation_report = LOGS / "runs" / f"{run_id}-citations.json"
+                citation_step = run([PY, "scripts/resolve_book_citations.py", "--json-out", str(citation_report)], log)
+                steps.append(citation_step)
+                if citation_step["returncode"] != 0:
+                    status = "blocked"
+                steps.append(run([PY, "scripts/update_book_pages.py", "--run-id", run_id], log))
             steps.append(run([PY, "scripts/verify_editorial_ingestion.py"], log))
             steps.append(run([PY, "scripts/verify_book_citations.py"], log))
 
@@ -221,12 +263,20 @@ def main() -> int:
                     vector_cmd += ["--limit", str(args.vector_limit)]
                 steps.append(run(vector_cmd, log))
 
-            if args.no_commit:
+            dirty_book = docs_book_dirty_files() if status == "blocked" else []
+            if dirty_book:
+                status = "blocked"
+                editorial.setdefault("blocked_reasons", []).append("docs/book has uncommitted changes after blocked run")
+                editorial.setdefault("blocked_state_output", {})["chapter_update_allowed"] = False
+                editorial["blocked_state_output"]["chapter_update_skipped_reason"] = "blocked_for_publication_by_policy"
+                editorial["blocked_state_output"]["docs_book_dirty_files"] = dirty_book
+                commit = {"status": "blocked", "committed": False, "reason": "docs/book has uncommitted changes after blocked run", "docs_book_dirty_files": dirty_book}
+            elif args.no_commit:
                 commit = {"status": "skipped", "reason": "--no-commit"}
             else:
                 # If blocked, commit only safe status/research/report/tooling updates.
                 # Never stage docs/book chapter prose while the Editor gate is blocked.
-                safe_paths = ["reports", "data/search_config.json", "data/schema.sql", "data/chroma_manifest.json", "data/source_registry.json", ".github", "mkdocs.yml", "README.md", ".gitignore", ".env.example", "scripts", "tests", "docs/research", "docs/entities", "docs/reports", "docs/operations"]
+                safe_paths = ["reports", "data/search_config.json", "data/chroma_manifest.json", "data/source_registry.json", ".github", "mkdocs.yml", "README.md", ".gitignore", ".env.example", "scripts", "tests", "docs/research", "docs/entities", "docs/reports", "docs/operations"]
                 if status != "blocked":
                     safe_paths.append("docs/book")
                 commit = git_commit_push(

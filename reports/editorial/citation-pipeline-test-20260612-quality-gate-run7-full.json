@@ -1,0 +1,1631 @@
+{
+  "audit": {
+    "did_not_match_intended_run6": [
+      "Previous quality gate did not call GPT-5.5 for reviewer-quality judgment; it used deterministic reviewer rules only.",
+      "Previous item schema lacked explicit pass/warn/fail compatibility fields and several required reviewer fields.",
+      "Existing Run 5 evidence map path is miswritten with Run 2 placeholder content; this correction did not overwrite it."
+    ],
+    "intentionally_left_unchanged": [
+      "Run 5 JSON reports.",
+      "Existing Run 6 reports and evidence map.",
+      "Miswritten Run 5 evidence map, to avoid overwriting prior evidence further.",
+      "DB, docs/book, raw captures, schema, daily worker, commit allowlist."
+    ],
+    "matched_intended_run6": [
+      "Read Run 5 high-reasoning source-card and semantic-object JSON reports.",
+      "Verified input llm_used/reasoning_status/provider/model.",
+      "Produced report-only safety decisions with no DB/chapter/status/schema/daily-worker/allowlist writes."
+    ],
+    "patched": [
+      "Added --no-llm deterministic mode and --require-high-reasoning GPT-5.5 reviewer mode.",
+      "Added pass/warn/fail decisions with explicit legacy mapping.",
+      "Added downstream eligibility, recommended stage, scores/rules, strengths/weaknesses/fixes/risks, safety booleans, and input/output hashes per item.",
+      "Changed generated report names to *-quality-gate-corrected.* for this correction/audit run."
+    ],
+    "prior_run6_assessment": "partially_valid_but_misaligned"
+  },
+  "blocking_issue_count": 0,
+  "bridge": "hermes_cli",
+  "chapter_prose_generated": false,
+  "chapters_modified": false,
+  "commit_allowlist_modified": false,
+  "counts_by_decision": {
+    "blocked": 0,
+    "needs_revision": 13,
+    "ready_for_editor_review": 6
+  },
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "decision_counts": {
+    "fail": 0,
+    "pass": 6,
+    "warn": 13
+  },
+  "decision_mapping": {
+    "blocked": "fail",
+    "needs_revision": "warn",
+    "ready_for_editor_review": "pass"
+  },
+  "decision_vocabulary": [
+    "pass",
+    "warn",
+    "fail"
+  ],
+  "downstream_eligible_count": 6,
+  "generated_at": "2026-06-13T19:55:08Z",
+  "high_reasoning_bridge": {
+    "bridge": "hermes_cli",
+    "command_shape": "timeout 180 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+    "elapsed_seconds": 37.935,
+    "error": "",
+    "exit_code": 0,
+    "generated_at": "2026-06-13T19:54:30Z",
+    "llm_used": true,
+    "model": "gpt-5.5",
+    "ok": true,
+    "parsed_json": {
+      "overall_summary": "Advisory gate reviewed 19 drafts from preflight data only: 8 warn due to thin text, 2 warn for missing semantic links, 9 pass.",
+      "reviews": [
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Structurally sound source card, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable card_output_hash present",
+            "Run 5 high-reasoning metadata present",
+            "linked semantic object exists"
+          ],
+          "target_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+          "target_type": "source_card",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Structurally sound source card, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable card_output_hash present",
+            "Run 5 high-reasoning metadata present",
+            "linked semantic object exists"
+          ],
+          "target_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+          "target_type": "source_card",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "pass",
+          "publication_approved": false,
+          "required_fixes": [],
+          "review_summary": "Source card passes advisory quality gate based on stable hash, metadata, and semantic linkage.",
+          "risk_flags": [],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 1,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable card_output_hash present",
+            "Run 5 high-reasoning metadata present",
+            "linked semantic object exists"
+          ],
+          "target_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+          "target_type": "source_card",
+          "weaknesses": []
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Resolve semantic-object linkage before any downstream use"
+          ],
+          "review_summary": "Source card has stable metadata but lacks a linked semantic object, limiting traceable downstream readiness.",
+          "risk_flags": [
+            "missing_semantic_link"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.8,
+            "traceability": 0.5
+          },
+          "strengths": [
+            "stable card_output_hash present",
+            "Run 5 high-reasoning metadata present"
+          ],
+          "target_id": "source_card_draft_src_89933e373b741e71c5c6",
+          "target_type": "source_card",
+          "weaknesses": [
+            "no linked semantic object found in semantic report"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Resolve semantic-object linkage before any downstream use"
+          ],
+          "review_summary": "Source card has stable metadata but lacks a linked semantic object, limiting traceable downstream readiness.",
+          "risk_flags": [
+            "missing_semantic_link"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.8,
+            "traceability": 0.5
+          },
+          "strengths": [
+            "stable card_output_hash present",
+            "Run 5 high-reasoning metadata present"
+          ],
+          "target_id": "source_card_draft_src_e9bb5a4bcd1c1f9e9744",
+          "target_type": "source_card",
+          "weaknesses": [
+            "no linked semantic object found in semantic report"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_496337fece8a8137b67c",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_473484d8201e178d6dd5",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_46b12d2f69c1b1fb74e9",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_8905ce1c477a0e798fa8",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_789a7a503aa5c9f79650",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_d79d29b8684f53476f83",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_8e955fe05f9c23f816b3",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_4b498b3935ed37eec827",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep advisory-only; avoid expansion beyond reviewed metadata"
+          ],
+          "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 0.7,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_741f09ec6bd33efa6930",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "thin_source_text risk limits confidence"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "pass",
+          "publication_approved": false,
+          "required_fixes": [],
+          "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+          "risk_flags": [],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 1,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_425a074033ba640ec639",
+          "target_type": "semantic_object",
+          "weaknesses": []
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "pass",
+          "publication_approved": false,
+          "required_fixes": [],
+          "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+          "risk_flags": [],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 1,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+          "target_type": "semantic_object",
+          "weaknesses": []
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "pass",
+          "publication_approved": false,
+          "required_fixes": [],
+          "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+          "risk_flags": [],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 1,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+          "target_type": "semantic_object",
+          "weaknesses": []
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "pass",
+          "publication_approved": false,
+          "required_fixes": [],
+          "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+          "risk_flags": [],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 1,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_5558303e45f77723657a",
+          "target_type": "semantic_object",
+          "weaknesses": []
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "pass",
+          "publication_approved": false,
+          "required_fixes": [],
+          "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+          "risk_flags": [],
+          "scores": {
+            "preflight_alignment": 1,
+            "risk_control": 1,
+            "traceability": 1
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_18e5d778bd54802d41b3",
+          "target_type": "semantic_object",
+          "weaknesses": []
+        }
+      ]
+    },
+    "prompt_hash": "22b2d061cf1364b9a1e21e6f0b3fa5673ffb888e44fc9eee1743535f2de13a17",
+    "provider": "copilot",
+    "reasoning_status": "high_reasoning_used",
+    "schema_name": "quality_gate_reviews",
+    "stderr_redacted": "\nsession_id: 20260613_195432_e472a5\n",
+    "stdout_hash": "b999a0d2b856d8c356f454c1b1f4585edf7283152c19d0fac7c25da2739d69f9",
+    "stdout_json_valid": true,
+    "timed_out": false,
+    "weak_local_fallback_refused": true
+  },
+  "input_reports": {
+    "semantic_objects": {
+      "count": 14,
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "path": "reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning-run7.json",
+      "provider": "copilot",
+      "reasoning_status": "high_reasoning_used",
+      "run_id": "citation-pipeline-test-20260612"
+    },
+    "source_cards": {
+      "count": 5,
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "path": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning-run7.json",
+      "provider": "copilot",
+      "reasoning_status": "high_reasoning_used",
+      "run_id": "citation-pipeline-test-20260612"
+    }
+  },
+  "llm_used": true,
+  "long_source_excerpt_written": false,
+  "max_review_text_chars": 180,
+  "mode": "quality_gate_report_only",
+  "model": "gpt-5.5",
+  "narrative_packets_created": false,
+  "output_paths": {
+    "evidence_map": "reports/architecture/run7-better-source-regeneration-evidence-map-20260613.md",
+    "json": "reports/editorial/citation-pipeline-test-20260612-quality-gate-run7-full.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-quality-gate-run7-full.md"
+  },
+  "provider": "copilot",
+  "publication_approval_granted": false,
+  "quality_gate_llm_used": true,
+  "quality_gate_reasoning_status": "high_reasoning_used",
+  "raw_or_vector_authority_used": false,
+  "raw_private_material_written": false,
+  "ready_for_editor_review_count": 6,
+  "reasoning_status": "high_reasoning_used",
+  "recommendation": {
+    "next_allowed_stage": "revise_high_reasoning_drafts",
+    "run7_candidate": "revise high-reasoning drafts or select a safer/public-source sample, then rerun this quality gate; do not proceed to Run 7 automation yet.",
+    "summary": "Revise high-reasoning drafts before any downstream stage."
+  },
+  "reviewer_note": "GPT-5.5 reviewer-quality gate ran through Hermes CLI bridge and returned strict schema-valid JSON.",
+  "revision_issue_count": 13,
+  "risks": [
+    "Reviewer gate checks draft quality and safety; it does not prove factual truth.",
+    "Run 5 GPT-5.5 drafts remain advisory-only and not publication-approved.",
+    "Social/private-adjacent sources require human review before any use.",
+    "No raw captures or vector DB chunks were consulted by this quality gate."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "schema_modified": false,
+  "semantic_object_reviews": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "a5c4f7033ae08855b835ad5f989a30940dfff61b15cab8ebc8c676a112930482",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_496337fece8a8137b67c",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "9c9d0c3b97880795e140f9c88ee2de6775601cbd478658fb7e9ba23238133d05",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "9c9d0c3b97880795e140f9c88ee2de6775601cbd478658fb7e9ba23238133d05",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+      "source_id": "src_c6b80c86cd5637ddd0b8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_496337fece8a8137b67c",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "a22cbddc143e252a06dd6f1aae37bd1bfc80f9cde70c6691448244137ccfd33f",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_473484d8201e178d6dd5",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "968cd01df9c4659e297d4c19afcb8d75efcd906827caa4b63412f2d89356bbef",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "968cd01df9c4659e297d4c19afcb8d75efcd906827caa4b63412f2d89356bbef",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+      "source_id": "src_c6b80c86cd5637ddd0b8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_473484d8201e178d6dd5",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "684f10cfecbd5e0d55343f8abe5fff846d0caca2aa5f8eb5389140d0a54aa316",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_46b12d2f69c1b1fb74e9",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "c3dc3c6f54a808e4c96527972cee21dd85d6636dfc0aa2e365b57ba15a8dd5c4",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "c3dc3c6f54a808e4c96527972cee21dd85d6636dfc0aa2e365b57ba15a8dd5c4",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+      "source_id": "src_c6b80c86cd5637ddd0b8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_46b12d2f69c1b1fb74e9",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "bc5eafd675b970c99fd73b3afe91ce6ac00b27c7931cbcfa9a933a22beb41b63",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_8905ce1c477a0e798fa8",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "1f63779ed9fd726cdfc54c6dea80b8d7e48331070bc38977c75edff422f3d7f5",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "1f63779ed9fd726cdfc54c6dea80b8d7e48331070bc38977c75edff422f3d7f5",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+      "source_id": "src_c6b80c86cd5637ddd0b8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_8905ce1c477a0e798fa8",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "7004e3a201d45abdc910c205e1810bcdc921670d728960ff0e7e81aad7a1619a",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_789a7a503aa5c9f79650",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "f06408a5f428208366420b395c7ffdb505084bf84756d1a799e994b68ffac0a7",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "f06408a5f428208366420b395c7ffdb505084bf84756d1a799e994b68ffac0a7",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "source_id": "src_bebe03beb8a33c199ce8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_789a7a503aa5c9f79650",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "7c358371b1e31b73dc75d1d2748e2305733be44bcf1e9aad36279d5313fac7be",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_d79d29b8684f53476f83",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "7e25a78a71b6a393a141a9bdf429628cee5b422513a741b4e3dff799b059a8bd",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "7e25a78a71b6a393a141a9bdf429628cee5b422513a741b4e3dff799b059a8bd",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "source_id": "src_bebe03beb8a33c199ce8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_d79d29b8684f53476f83",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "0369da457d96fb18995ff8d1d4a56793cdd0a9f76a3f3511851be442067f0611",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_8e955fe05f9c23f816b3",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "668c566ded5b57f8af0226ff97eb10b466e98b0af8da71289df8a9e7e6062fad",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "668c566ded5b57f8af0226ff97eb10b466e98b0af8da71289df8a9e7e6062fad",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "source_id": "src_bebe03beb8a33c199ce8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_8e955fe05f9c23f816b3",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "532f7b3a3b6f96237da05841d8b191d0b64f0a95914d08ab17f4fe5bbf0b3a72",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_4b498b3935ed37eec827",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "a5893840ed67ddd8db68323c52c1a15cd0f3814f8a9bbe11c3a87386ea904f0c",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "a5893840ed67ddd8db68323c52c1a15cd0f3814f8a9bbe11c3a87386ea904f0c",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "source_id": "src_bebe03beb8a33c199ce8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_4b498b3935ed37eec827",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "769d7a2f6e59344029c5668dcf496b78ccc1a43c1f592099f025b51238c7b556",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "semantic_object_draft_741f09ec6bd33efa6930",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "9f586ee14a27349295c8d7728e130b8f7145cf5549552b7c51c55bcd33a24c0b",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "9f586ee14a27349295c8d7728e130b8f7145cf5549552b7c51c55bcd33a24c0b",
+      "review_summary": "Semantic object is traceable and approval-safe, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "source_id": "src_bebe03beb8a33c199ce8",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_741f09ec6bd33efa6930",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "pass",
+      "decision_mapping_note": "ready_for_editor_review -> pass",
+      "downstream_eligibility": "eligible_for_human_editor_review",
+      "input_hash": "c12c77e78b179462a7f6467c309972d6731b4c187e40b9d9f73213fd87c8ba4f",
+      "issues": [],
+      "item_id": "semantic_object_draft_425a074033ba640ec639",
+      "item_type": "semantic_object",
+      "legacy_decision": "ready_for_editor_review",
+      "output_hash": "5c66c09ee57733e6d4f1ea318862205f8d62e1e5d6648a2f258083c30efadf93",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "recommended_next_stage": "human_editor_review",
+      "required_fixes": [],
+      "review_hash": "5c66c09ee57733e6d4f1ea318862205f8d62e1e5d6648a2f258083c30efadf93",
+      "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 1,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_425a074033ba640ec639",
+      "target_type": "semantic_object",
+      "weaknesses": []
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "pass",
+      "decision_mapping_note": "ready_for_editor_review -> pass",
+      "downstream_eligibility": "eligible_for_human_editor_review",
+      "input_hash": "a1f1a2d58ffb331a58fb0661f5ff8938a85e3d27542275919c33792078bbecd2",
+      "issues": [],
+      "item_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+      "item_type": "semantic_object",
+      "legacy_decision": "ready_for_editor_review",
+      "output_hash": "5fe2e90974bb9091ad5668ee51408ce921d5ca052fe020085cb9fdc275e2a46f",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "recommended_next_stage": "human_editor_review",
+      "required_fixes": [],
+      "review_hash": "5fe2e90974bb9091ad5668ee51408ce921d5ca052fe020085cb9fdc275e2a46f",
+      "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 1,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+      "target_type": "semantic_object",
+      "weaknesses": []
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "pass",
+      "decision_mapping_note": "ready_for_editor_review -> pass",
+      "downstream_eligibility": "eligible_for_human_editor_review",
+      "input_hash": "4bff85110d0248c16ae019b62a42c1349315a178aded0d1686f95f07f5fad61e",
+      "issues": [],
+      "item_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "item_type": "semantic_object",
+      "legacy_decision": "ready_for_editor_review",
+      "output_hash": "737906f758c8f018a4600c73fb7e2fc3f71ea1ad6723f57b8a4764136aed86c4",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "recommended_next_stage": "human_editor_review",
+      "required_fixes": [],
+      "review_hash": "737906f758c8f018a4600c73fb7e2fc3f71ea1ad6723f57b8a4764136aed86c4",
+      "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 1,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "target_type": "semantic_object",
+      "weaknesses": []
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "pass",
+      "decision_mapping_note": "ready_for_editor_review -> pass",
+      "downstream_eligibility": "eligible_for_human_editor_review",
+      "input_hash": "a08be5fd3793080e68e4746a8574d7cefc5b9125f6c696bc3ef1ef6dc94e4fb1",
+      "issues": [],
+      "item_id": "semantic_object_draft_5558303e45f77723657a",
+      "item_type": "semantic_object",
+      "legacy_decision": "ready_for_editor_review",
+      "output_hash": "6b7d66723efdabad49cdb99418fd9acd5a3b2701c4911d97ece0e1dc2bfe38ae",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "recommended_next_stage": "human_editor_review",
+      "required_fixes": [],
+      "review_hash": "6b7d66723efdabad49cdb99418fd9acd5a3b2701c4911d97ece0e1dc2bfe38ae",
+      "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 1,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_5558303e45f77723657a",
+      "target_type": "semantic_object",
+      "weaknesses": []
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "pass",
+      "decision_mapping_note": "ready_for_editor_review -> pass",
+      "downstream_eligibility": "eligible_for_human_editor_review",
+      "input_hash": "cbfc9d4ac192b6a5c9fdee28d01c803363043fb85c7fd5270a32a6e528bbf6df",
+      "issues": [],
+      "item_id": "semantic_object_draft_18e5d778bd54802d41b3",
+      "item_type": "semantic_object",
+      "legacy_decision": "ready_for_editor_review",
+      "output_hash": "53a32e2fddcfdda141c8a3da32b901ed09582179e7c37b3844bb4f6ee0aa05f0",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "recommended_next_stage": "human_editor_review",
+      "required_fixes": [],
+      "review_hash": "53a32e2fddcfdda141c8a3da32b901ed09582179e7c37b3844bb4f6ee0aa05f0",
+      "review_summary": "Semantic object passes advisory quality gate with stable hash, traceable source-card link, and approvals false.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 1,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_18e5d778bd54802d41b3",
+      "target_type": "semantic_object",
+      "weaknesses": []
+    }
+  ],
+  "semantic_objects_reviewed": 14,
+  "source_card_reviews": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "fba716af4afd3f09ff6d879ce0264c00ad4f1fb38a0f493b7fc48fab1b4834b3",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+      "item_type": "source_card",
+      "legacy_decision": "needs_revision",
+      "output_hash": "81555164e90f4114a09fe722ce415ef4c19045c96db3d1c0217c2caafdb6a336",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "publication_approved": false,
+      "rationale": "Structurally sound source card, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "81555164e90f4114a09fe722ce415ef4c19045c96db3d1c0217c2caafdb6a336",
+      "review_summary": "Structurally sound source card, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+      "source_id": "src_c6b80c86cd5637ddd0b8",
+      "strengths": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "target_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+      "target_type": "source_card",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "127f69525f3114bd4322c9222a35bf54218d4b9936491eb91695342dc97f6731",
+      "issues": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "item_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "item_type": "source_card",
+      "legacy_decision": "needs_revision",
+      "output_hash": "0c1bf39e2d8ff3da0f21666ac82c16263799a9dbb2b185d5ab3a953f0e808f65",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "publication_approved": false,
+      "rationale": "Structurally sound source card, but thin source text requires cautious advisory handling.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep advisory-only; avoid expansion beyond reviewed metadata"
+      ],
+      "review_hash": "0c1bf39e2d8ff3da0f21666ac82c16263799a9dbb2b185d5ab3a953f0e808f65",
+      "review_summary": "Structurally sound source card, but thin source text requires cautious advisory handling.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.7,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "source_id": "src_bebe03beb8a33c199ce8",
+      "strengths": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "target_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "target_type": "source_card",
+      "weaknesses": [
+        "thin_source_text risk limits confidence"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "pass",
+      "decision_mapping_note": "ready_for_editor_review -> pass",
+      "downstream_eligibility": "eligible_for_human_editor_review",
+      "input_hash": "368275b7ef0a59514abbf9f0990fb994126eb80ed1ca6d0598a058b6dc13b1e2",
+      "issues": [],
+      "item_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "item_type": "source_card",
+      "legacy_decision": "ready_for_editor_review",
+      "output_hash": "b4c6d8bbf0583bf075c190cb7911dd224888c51a878e425b38ef1ef097b08905",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "publication_approved": false,
+      "rationale": "Source card passes advisory quality gate based on stable hash, metadata, and semantic linkage.",
+      "recommended_next_stage": "human_editor_review",
+      "required_fixes": [],
+      "review_hash": "b4c6d8bbf0583bf075c190cb7911dd224888c51a878e425b38ef1ef097b08905",
+      "review_summary": "Source card passes advisory quality gate based on stable hash, metadata, and semantic linkage.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 1,
+        "traceability": 1
+      },
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "strengths": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "target_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "target_type": "source_card",
+      "weaknesses": []
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "236dbb886d9d1ff9ec8f9a289add1c8a6c3ac669b7e84115c92d9ae58e86a636",
+      "issues": [
+        "Resolve semantic-object linkage before any downstream use"
+      ],
+      "item_id": "source_card_draft_src_89933e373b741e71c5c6",
+      "item_type": "source_card",
+      "legacy_decision": "needs_revision",
+      "output_hash": "a78af02290c4b25f8fafc67ebda158e815643f161853fd3beaedcde0d3bae4f7",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "publication_approved": false,
+      "rationale": "Source card has stable metadata but lacks a linked semantic object, limiting traceable downstream readiness.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Resolve semantic-object linkage before any downstream use"
+      ],
+      "review_hash": "a78af02290c4b25f8fafc67ebda158e815643f161853fd3beaedcde0d3bae4f7",
+      "review_summary": "Source card has stable metadata but lacks a linked semantic object, limiting traceable downstream readiness.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "missing_semantic_link"
+      ],
+      "rule_results": {
+        "linked_to_source_card": false,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.8,
+        "traceability": 0.5
+      },
+      "source_card_id": "source_card_draft_src_89933e373b741e71c5c6",
+      "source_id": "src_89933e373b741e71c5c6",
+      "strengths": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "target_id": "source_card_draft_src_89933e373b741e71c5c6",
+      "target_type": "source_card",
+      "weaknesses": [
+        "no linked semantic object found in semantic report"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "4ce9f7063019878e53d4cc9f77a998836acf85e427e1ac8e45e8399f0d744558",
+      "issues": [
+        "Resolve semantic-object linkage before any downstream use"
+      ],
+      "item_id": "source_card_draft_src_e9bb5a4bcd1c1f9e9744",
+      "item_type": "source_card",
+      "legacy_decision": "needs_revision",
+      "output_hash": "8573671f0df0b2710616c062d1989ad69d2c2ae77b21e50ee1c8b4d0ce7edff8",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "publication_approved": false,
+      "rationale": "Source card has stable metadata but lacks a linked semantic object, limiting traceable downstream readiness.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Resolve semantic-object linkage before any downstream use"
+      ],
+      "review_hash": "8573671f0df0b2710616c062d1989ad69d2c2ae77b21e50ee1c8b4d0ce7edff8",
+      "review_summary": "Source card has stable metadata but lacks a linked semantic object, limiting traceable downstream readiness.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "missing_semantic_link"
+      ],
+      "rule_results": {
+        "linked_to_source_card": false,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": false
+      },
+      "scores": {
+        "preflight_alignment": 1,
+        "risk_control": 0.8,
+        "traceability": 0.5
+      },
+      "source_card_id": "source_card_draft_src_e9bb5a4bcd1c1f9e9744",
+      "source_id": "src_e9bb5a4bcd1c1f9e9744",
+      "strengths": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "target_id": "source_card_draft_src_e9bb5a4bcd1c1f9e9744",
+      "target_type": "source_card",
+      "weaknesses": [
+        "no linked semantic object found in semantic report"
+      ]
+    }
+  ],
+  "source_cards_reviewed": 5,
+  "statuses_modified": false,
+  "verification": {}
+}

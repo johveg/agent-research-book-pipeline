@@ -1,0 +1,372 @@
+{
+  "chapters_modified": false,
+  "claim_findings": [
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_0985fd2ad07e14723e29",
+      "claim_text": "Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI).",
+      "current_status": "needs_review",
+      "linked_source_ids": [
+        "src_0b40058568ca8368d5c7"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_131df14aef5622e97ec3",
+      "claim_text": "The past 4 months of Claude Code / OpenClaw / Hermes hype train have been full of \"agent products\" that are really just prompts.",
+      "current_status": "needs_review",
+      "linked_source_ids": [
+        "src_871582dceea43c6672d6"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_139d888e4f55e73e5580",
+      "claim_text": "🛠️🔥 The foundation of a durable glass bottle or jar is established immediately aft \"loop engineer\".",
+      "current_status": "candidate",
+      "linked_source_ids": [
+        "src_9c621fb52fe5edcd842b"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_1427b569c785af09370d",
+      "claim_text": "What have I learned running 3 weeks with Hermes — the open-source agent from Nous Research.",
+      "current_status": "needs_review",
+      "linked_source_ids": [
+        "src_b2ed19be83d82f7f15df"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_14ccde9abc1c50777961",
+      "claim_text": "🚀 The Future Just Shifted — And Solo Operators Now Have an Unfair Advantage For the first time in history, one person can run what used to t \"OpenClaw\" Hermes.",
+      "current_status": "needs_review",
+      "linked_source_ids": [
+        "src_2fd5553b34b4c199e8b4"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_15f8b0cc4f368aebcaa7",
+      "claim_text": "Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec \"loop engineering\".",
+      "current_status": "needs_review",
+      "linked_source_ids": [
+        "src_c493070b7634a47b000a"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_1df4394830afe906353c",
+      "claim_text": "Staying up-to-date with zero-days and vulnerabilities is critical in the cy \"Hermes Agent\".",
+      "current_status": "needs_review",
+      "linked_source_ids": [
+        "src_442a3a4d7ffad9021fa6"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_23ebfe599bf72c221166",
+      "claim_text": "Feed post Marco Iacono • 3rd+ Co-Founder & CPO @ Heavy Metal Network Formerly Apple, Viv, Samsung, Switchboard 5h • we are very close to the \"OpenClaw\" Hermes.",
+      "current_status": "needs_review",
+      "linked_source_ids": [
+        "src_78253acac1f948a470f4"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_4281554a998f5c722a4f",
+      "claim_text": "Charlie has just completed his first week of \"loop engineer\".",
+      "current_status": "candidate",
+      "linked_source_ids": [
+        "src_aef0154467164475f324"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    },
+    {
+      "assessment": "contradicted",
+      "claim_id": "claim_4438f3f4a967ff22a9ca",
+      "claim_text": "All 6 DGX Sparks are fully operational and routing to all our AI Employee Agents.",
+      "current_status": "needs_review",
+      "linked_source_ids": [
+        "src_7afe0b559eaf2ef9fd46"
+      ],
+      "publication_decision": "do_not_use",
+      "rationale": "Advisory-only classification based on current status, publication decision, contradiction marker, and linked source count.",
+      "recommended_next_action": "needs_review"
+    }
+  ],
+  "commit_allowlist_modified": false,
+  "confidence_level": "low_draft_structural",
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "generated_at": "2026-06-13T10:48:01Z",
+  "llm_note": "No LLM used; deterministic structural analysis only, low-confidence/draft-only.",
+  "llm_used": false,
+  "missing_middle_findings": [
+    {
+      "analysis": "0 sampled sources look like potential source-card candidates; current source rows have useful metadata but not a durable source-card shape.",
+      "finding": "missing source cards",
+      "recommendation": "Add source cards only after confirming whether source_notes can store the first version without schema churn."
+    },
+    {
+      "analysis": "0 sampled sources look semantically relevant but current extraction remains sentence/entity oriented.",
+      "finding": "missing semantic extraction",
+      "recommendation": "Introduce semantic extraction as advisory source-card fields before any chapter packet generation."
+    },
+    {
+      "analysis": "Claims and sources are linked, but there is no explicit cluster/narrative-packet object for book-ready argument structure.",
+      "finding": "missing clusters and narrative packets",
+      "recommendation": "Defer narrative packets until source cards and semantic extraction are stable."
+    },
+    {
+      "analysis": "0 sampled claims appear under-supported; Author should not consume them directly.",
+      "finding": "missing editor-approved author briefs",
+      "recommendation": "Keep chapter authoring gated; produce proposed briefs in reports before touching docs/book."
+    },
+    {
+      "analysis": "Citation checks prevent raw ID leaks, but paragraph-level traceability is not represented as its own reviewed object.",
+      "finding": "missing paragraph-to-claim/source traceability",
+      "recommendation": "Consider traceability after source cards; do not add it in Run 2 unless source-card fields prove insufficient."
+    }
+  ],
+  "mode": "dry_run_advisory_only",
+  "model": "configured-high-reasoning-model",
+  "next_run_recommendation": {
+    "likely_files_to_change": [
+      "scripts/llm_reasoning_dry_run.py",
+      "tests/test_llm_reasoning_dry_run.py",
+      "possibly scripts/editorial_pipeline_report.py after Run 2 review",
+      "possibly data/schema.sql only after source_notes reuse is proven insufficient"
+    ],
+    "recommendation": "Proceed to source cards using existing source_notes first; defer new schema unless structured fields cannot be represented safely.",
+    "tests_needed": [
+      "no-LLM report generation",
+      "read-only DB safety",
+      "no docs/book writes",
+      "source-card JSON shape validation",
+      "privacy/raw wording length guard"
+    ]
+  },
+  "output_paths": {
+    "evidence_map": "reports/architecture/run1-llm-reasoning-dry-run-evidence-map-20260613.md",
+    "json": "reports/editorial/citation-pipeline-test-20260612-llm-reasoning-dry-run.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-llm-reasoning-dry-run.md"
+  },
+  "raw_private_material_written": false,
+  "risks": [
+    "No-LLM mode is structural and low-confidence by design.",
+    "LLM output may be unstable unless constrained by schema validation.",
+    "Sanitized source text can still contain too much source wording if max-length guards are loosened.",
+    "Vector DB chunks must remain non-authoritative context only."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "safe_for_advisory_use_only": true,
+  "sample_counts": {
+    "claims": 10,
+    "entities": 2332,
+    "sources": 10
+  },
+  "schema_recommendations": [
+    {
+      "category": "reuse existing table",
+      "reason": "The table already links notes to source_id and avoids a migration for Run 2.",
+      "recommendation": "Use for first source-card draft notes with note_type values such as source_card_draft, semantic_observation, and risk_note.",
+      "target": "source_notes"
+    },
+    {
+      "category": "reuse existing table",
+      "reason": "The table already stores review_type, status, summary, report_path, and created_at.",
+      "recommendation": "Use for run-level review summaries of LLM advisory passes.",
+      "target": "editorial_reviews"
+    },
+    {
+      "category": "add column",
+      "reason": "Avoid schema churn; current source_notes can hold drafts.",
+      "recommendation": "Defer adding structured source_card_json/source_card_status until the report-only dry run proves the shape.",
+      "target": "sources"
+    },
+    {
+      "category": "add new table",
+      "reason": "A dedicated table may be useful later for card status, model metadata, and editor approval, but it is not required for Run 2 discovery.",
+      "recommendation": "Defer unless source_notes becomes too ambiguous for structured source-card lifecycle.",
+      "target": "source_cards"
+    },
+    {
+      "category": "defer",
+      "reason": "Packets are closer to chapter authoring and carry higher publication risk.",
+      "recommendation": "Do not implement until source cards and semantic extraction have tests and editor review gates.",
+      "target": "chapter_packets / narrative_clusters"
+    }
+  ],
+  "source_findings": [
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Hermes / assistant operating model",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Feed post David Aw • 3rd+ A one man agile team | CISSP | 13x AWS Certs | Golden Jacket 41m • Follow Prompt engineering, how to ask. Context ; \"loop engineer\"",
+      "source_id": "src_13864c81172f978b55bd",
+      "source_type": "linkedin_search_result",
+      "title": "Feed post David Aw • 3rd+ A one man agile team | CISSP | 13x AWS Certs | Golden Jacket 41m • Follow Prompt engineering, how to ask. Context"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Feed post Ameet C. • 3rd+ Driving innovation in technology and product development strategies. 1h • Follow I’m starting to wonder… how heavi; \"loop engineer\"",
+      "source_id": "src_3e3a7fd1388feb172ac5",
+      "source_type": "linkedin_search_result",
+      "title": "Feed post Ameet C. • 3rd+ Driving innovation in technology and product development strategies. 1h • Follow I’m starting to wonder… how heavi"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w; \"loop engineer\"",
+      "source_id": "src_9471e5ba147ec4be19b6",
+      "source_type": "linkedin_search_result",
+      "title": "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Feed post Alfred Chung Alfred Chung • 3rd+ IT & Security Executive. Driving Scalable, Secure, AI-Ready Technology Environments 7h • Follow I; \"loop engineer\"",
+      "source_id": "src_b5cced95a2c2b1da7de7",
+      "source_type": "linkedin_search_result",
+      "title": "Feed post Alfred Chung Alfred Chung • 3rd+ IT & Security Executive. Driving Scalable, Secure, AI-Ready Technology Environments 7h • Follow I"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Feed post Vokal.team 14 followers 7h • Follow Your next GTM workflow should not need engineer help. Introducing Loop Engineering for marketi; \"loop engineer\"",
+      "source_id": "src_2aa24885052ee3473726",
+      "source_type": "linkedin_search_result",
+      "title": "Feed post Vokal.team 14 followers 7h • Follow Your next GTM workflow should not need engineer help. Introducing Loop Engineering for marketi"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Feed post Aswin S • 3rd+ Engineering Graduate | Pursuing Post Graduation | Aspiring Engineer with skills in Problem Solving, Team Collaborat; \"loop engineer\"",
+      "source_id": "src_d29fe5ce6401a1d1131a",
+      "source_type": "linkedin_search_result",
+      "title": "Feed post Aswin S • 3rd+ Engineering Graduate | Pursuing Post Graduation | Aspiring Engineer with skills in Problem Solving, Team Collaborat"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Counter-UAS: What the Ground Tells Us Most drone threats today aren’t sophisticated military platforms. They’re cheap, commercially availabl; \"loop engineer\"",
+      "source_id": "src_8be266ff616aacd1fbdc",
+      "source_type": "linkedin_search_result",
+      "title": "Counter-UAS: What the Ground Tells Us Most drone threats today aren’t sophisticated military platforms. They’re cheap, commercially availabl"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Feed post Jairo Fernando Solarte Palacios • 3rd+ Development Team Leader | M.Sc. in Software Engineering | Full Stack & Cloud Solutions | Ja; \"loop engineer\"",
+      "source_id": "src_7ed1547a17b88b902d1a",
+      "source_type": "linkedin_search_result",
+      "title": "Feed post Jairo Fernando Solarte Palacios • 3rd+ Development Team Leader | M.Sc. in Software Engineering | Full Stack & Cloud Solutions | Ja"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou; \"loop engineer\"",
+      "source_id": "src_db6e9c969fc431c0b2fa",
+      "source_type": "linkedin_search_result",
+      "title": "Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou"
+    },
+    {
+      "assessment": "weak",
+      "likely_chapter_relevance": "Loop engineering",
+      "llm_commentary": "Deterministic no-LLM heuristic; draft-only advisory signal.",
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "rationale": "Social/private-adjacent or privacy-limited source should remain discovery context unless independently corroborated.",
+      "recommended_next_action": "needs_review",
+      "safe_summary": "Feed post Fazt Tech 52,027 followers 9h • Follow 🚀 **Loop Engineering**: La tendencia que está cambiando la forma en que los developers trab; \"loop engineer\"",
+      "source_id": "src_aa45482b30366622c5b7",
+      "source_type": "linkedin_search_result",
+      "title": "Feed post Fazt Tech 52,027 followers 9h • Follow 🚀 **Loop Engineering**: La tendencia que está cambiando la forma en que los developers trab"
+    }
+  ],
+  "statuses_modified": false,
+  "verification": {}
+}

@@ -1,40 +1,40 @@
 # Hermes Agent
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 261
-- Mention count: 5188
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 363
+- Mention count: 5412
 
 ## Description
 
-Candidate tool entity extracted from 125 source(s).
+Candidate tool entity extracted from 102 source(s).
 
 ## Related claims
 
-- **candidate / weak** — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and "Hermes Agent". (`claim_c69ac1d5516664ca8a82`)
-- **candidate / weak** — Global Manufacturing is facing data reconciliation bottleneck, planning inventory and reducing time to delivery and production is biggest dr "Hermes Agent". (`claim_640a9182c00799274d58`)
-- **candidate / weak** — Hermes agent experiment day 22 and today’s post is a bit less about Hermes and more about why I’m so happy to be here ✨ This photo is a thro "Hermes Agent". (`claim_8c8feb050bf460304ddd`)
-- **candidate / weak** — I have been hands on with Hermes Agent long enough to know the setup friction was the real barrier to adoption. (`claim_9b2fa39434789e722425`)
-- **candidate / weak** — If you think creating a smart assistant is out of your league, let me share my "Hermes Agent". (`claim_7c0c318c580bec68bbb0`)
-- **candidate / weak** — Loved the conversations after my talk: "The Invisible Army: How AI Agents Became the Attack Surface Nobody Is Watchin "Hermes Agent". (`claim_5587c736a27e9103cb7b`)
-- **candidate / weak** — MyAgenta is an advanced agentic AI platform and entity developed by DrRobotoAi, specializing in multi-modal AI, digital human avatars, and a "Hermes Agent". (`claim_921da09c38667a3bb658`)
-- **candidate / weak** — Nous Research Launches Profile Builder for Hermes Agent 📌 Nous Research has revolutionized autonomous agent management with the launch of it "Hermes Agent". (`claim_d0c46e65dfbd3fb43717`)
-- **candidate / weak** — Now, Hermes Agent is growing steadily in popularity as a powerful alte "OpenClaw" Hermes. (`claim_7d3df018f8e50d6b07a9`)
-- **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
-- **candidate / weak** — See how an hashtag #AI Agent like Hermes Agent helps "Hermes Agent". (`claim_539ec00d0d969a804db6`)
-- **candidate / weak** — Staying up-to-date with zero-days and vulnerabilities is critical in the cy "Hermes Agent". (`claim_1df4394830afe906353c`)
-- **candidate / weak** — The mission of Bridge Agent is to take what works about Hermes Agent and specialize it for software development. (`claim_a6d51f1c49d286a8278d`)
-- **candidate / weak** — The useful workflow is not "AI writes more emails." The useful workflow is: Buying signa "Hermes Agent". (`claim_e332a5faad7a65940ba9`)
+- **candidate / weak** — Here is a responsible, grown-up way of saying what I did to Hermes Agent running GPT5.5, in the last week. (`claim_a7f33f83a2710e9f30a2`)
+- **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
+- **candidate / weak** — So now my Hermes agent is looking out for Champagne deals for me - I am serious. (`claim_34cc736024bd33b227d6`)
+- **candidate / weak** — The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having "Hermes Agent". (`claim_8a040ec331b5f7c79bea`)
+- **candidate / weak** — The process was much easier than I expected: • Connect the existing ImagineArt account "Hermes Agent". (`claim_adac10ae3abf548dfb15`)
+- **candidate / weak** — The promise was memory that compounds across sessi "Hermes Agent". (`claim_9f4bb6b351ac792aea65`)
+- **candidate / weak** — There was a minor bug in it: pressing Shift + Enter wouldn't take you to th "Hermes Agent". (`claim_96f3ea891c705d72b341`)
+- **candidate / weak** — This is a one-click AI app builder setup where multiple agents work together to plan and build s "Hermes Agent". (`claim_62bc2cae06490c4f0eda`)
+- **needs_review / weak** — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and "Hermes Agent". (`claim_c69ac1d5516664ca8a82`)
+- **needs_review / weak** — Global Manufacturing is facing data reconciliation bottleneck, planning inventory and reducing time to delivery and production is biggest dr "Hermes Agent". (`claim_640a9182c00799274d58`)
+- **needs_review / weak** — Hermes Agent Evolves into Autonomous Orchestration Platform with Desktop Integration 📌 Nous Research has transformed the Hermes Agent from a "Hermes Agent". (`claim_6ce2be9b18d13ecc9932`)
 - **needs_review / weak** — Hermes Agent Launches Web-Based Profile Builder for Visual Agent Configuration | KuCoin "Hermes Agent" "Nous Research" www.kucoin.com. (`claim_aed2919b026ac52951d2`)
-- **supported / strong** — Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows. (`claim_72e49a3ef27673e17171`)
-- **weakly_supported / weak** — Hermes Agent Evolves into Autonomous Orchestration Platform with Desktop Integration 📌 Nous Research has transformed the Hermes Agent from a "Hermes Agent". (`claim_6ce2be9b18d13ecc9932`)
-- **weakly_supported / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
-- **weakly_supported / weak** — Hermes Agent helps you discover prospects who are already showing "Hermes Agent". (`claim_f6a705ae05153ccc90d6`)
-- **weakly_supported / weak** — Hermes Agent now supports Write Gate: approve or deny memory and skill updates like dangerous commands. (`claim_d8533c285417573333ae`)
+- **needs_review / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
+- **needs_review / weak** — Hermes Agent helps you discover prospects who are already showing "Hermes Agent". (`claim_f6a705ae05153ccc90d6`)
+- **needs_review / weak** — Hermes Agent now supports Write Gate: approve or deny memory and skill updates like dangerous commands. (`claim_d8533c285417573333ae`)
+- **needs_review / weak** — Hermes Enables iMessage Integration via Photon Sidecar Without a Mac 📌 Nous Research has revolutionized agent deployment by enabling the Her "Hermes Agent". (`claim_ab1b8db5eb04948fa4ba`)
+- **needs_review / weak** — Hermes agent experiment day 22 and today’s post is a bit less about Hermes and more about why I’m so happy to be here ✨ This photo is a thro "Hermes Agent". (`claim_8c8feb050bf460304ddd`)
+- **needs_review / weak** — How Hermes Agent with Grok Is Helping Me Hermes isn’t just another chatbot – it’s a self-improving autonomous AI agent designed for complex, "Hermes Agent". (`claim_a4809681aa20fc11a666`)
+- **needs_review / weak** — I have been hands on with Hermes Agent long enough to know the setup friction was the real barrier to adoption. (`claim_9b2fa39434789e722425`)
+- **needs_review / weak** — I have been launching a bunch of businesses since I w "Hermes Agent". (`claim_e5aa09bf369694a25fc0`)
 
 ## Source references
 

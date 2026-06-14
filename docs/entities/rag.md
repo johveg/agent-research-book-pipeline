@@ -1,17 +1,17 @@
 # RAG
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
-- Confidence: `medium`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 5
-- Mention count: 62
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 9
+- Mention count: 67
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate tool entity extracted from 5 source(s).
 
 ## Related claims
 
@@ -33,3 +33,15 @@ No related claim records yet.
 - `src_9552d00be63989dd6ec8` — Feed post Ali Asghar • 3rd+ Software Engineer | React.js | Node.js | LangChain | RAG 9h • Follow For a long time, the industry was obsessed 
   - URL: https://www.linkedin.com/in/aliasghar37?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEviae4Br7iXONkq_b1kf4pJVJociIeeMsM
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/121-2eaaf83690fe91b865da.md`
+- `src_38115fa29fe3d94c5162` — Feed post Venkata Manideep Patibandla • 3rd+ AI/ML Engineer | LLM Evaluation, RAG, Agents & Cost Optimization | Building a real-estate Autom
+  - URL: https://www.linkedin.com/in/manideep-analytics?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEYrx6IBW8PBJ-HdsYFOXWFJRjrVS7bpEwY
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/139-fabb67a9ee118e4abd35.md`
+- `src_4f1cf45fc1b1e414b10f` — Feed post Omid Erfanmanesh • 3rd+ GenAI Engineer | RAG, Multi-Agent Systems, LLM Applications | Building AI that actually ships 3h • Edited 
+  - URL: https://www.linkedin.com/in/omiderfanmanesh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABLpMmIBHdISYdXg_K6FP4IcwPQ9Yf9EeNU
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/026-25323eb6d577c6dad35d.md`
+- `src_6c73afa9ec6879484a3f` — Feed post Ashish Verma • 3rd+ Agentic AI Infrastructure Builder & Researcher | Founder | Agent Memory · LLMs · RAG · Enterprise AI | Top AI 
+  - URL: https://www.linkedin.com/in/ashish-verma296?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS_X68BgeqqbwO_t6E_TclJx5YZFthngO4
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/095-56bb486b5f8367b7e9ea.md`
+- `src_a5af5757d9e5d50ab10c` — Feed post Amman Hussain Ansari • 3rd+ GenAI & AI Systems Engineer | LLMs, RAG, LangGraph, FastAPI, Kubernetes, MLOps, Production AI 4h • Fol
+  - URL: https://www.linkedin.com/in/ammmanism?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADEWZM0BP_TZOX7H71ZDB_pLG_gUzrUmzHc
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/059-f8ebe5c00c382999d45c.md`

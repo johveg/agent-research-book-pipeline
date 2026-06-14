@@ -1,21 +1,21 @@
 # Python
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
-- Type: `unknown`
-- Confidence: `low`
+- Type: `concept`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 6
-- Mention count: 77
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 10
+- Mention count: 81
 
 ## Description
 
-Candidate unknown entity extracted from 1 source(s).
+Candidate concept entity extracted from 4 source(s).
 
 ## Related claims
 
-No related claim records yet.
+- **candidate / weak** — But they are using a revolutionary architecture just to fix Python synta "loop engineering". (`claim_90ad8794db77377938f3`)
 
 ## Source references
 
@@ -37,3 +37,15 @@ No related claim records yet.
 - `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
   - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
+- `src_420fa08c8d412dc488ac` — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. But they are using a revolutionary architecture just to fix Python synta
+  - URL: https://www.linkedin.com/in/bcherny/
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/135-1988373f4b4d4ffbb5f4.md`
+- `src_5984add28dc151f3d1b1` — Feed post TOLUWALASE OLADOKUN • 3rd+ SOFTWARE ENGINEER | BACKEND & MACHINE LEARNING ENGINEER | PYTHON (DJANGO), NODE.JS (EXPRESS) | SCALABLE
+  - URL: https://www.linkedin.com/in/toluwalase-oladokun-michael?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAQB4IBSTLbH4n83Lt4VvGFDtri5FnQYsc
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/170-bdd0aea7ceea3a047f51.md`
+- `src_0185b6ed49b901c86192` — Feed post Chinmayi Ramakrishna • 3rd+ Backend Software Developer | Java, Python, Kubernetes | B2B2C E-commerce PaaS | Collaborated with Serv
+  - URL: https://www.linkedin.com/in/chinmayi-ramakrishna?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC_F5dkBWI0koTY8lbvzZd1n3_6muqRXmZQ
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/012-c383ec1aaa30dc740c88.md`
+- `src_5cfec6ea090617f279b5` — Feed post Pekka Rajanen • 3rd+ Azure & Microsoft Fabric Data Engineer | Data Platforms, Lakehouse Architecture, SQL/Python | Practical AI Ad
+  - URL: https://www.linkedin.com/in/pekkarajanen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEnJS0B4wydxdaQ9iJjc_stdzLNJZ-lOBI
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/038-40a2dab13f52192e2c12.md`

@@ -1,6 +1,6 @@
 # Enterprise Architecture
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `concept`
 - Confidence: `medium`
@@ -15,7 +15,7 @@ Candidate concept entity extracted from 2 source(s).
 
 ## Related claims
 
-- **weakly_supported / weak** — Enterprise Architecture is entering the Loop Engineering era. (`claim_18d2cb81ce2a907f0b84`)
+- **needs_review / weak** — Enterprise Architecture is entering the Loop Engineering era. (`claim_18d2cb81ce2a907f0b84`)
 
 ## Source references
 

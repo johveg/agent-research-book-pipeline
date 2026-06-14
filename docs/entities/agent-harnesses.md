@@ -1,6 +1,6 @@
 # Agent Harnesses
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `low`
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
-No related claim records yet.
+- **candidate / weak** — Curious: how are other developers handling Agent harnesses or Local LLMs ↔ phone workflows?. (`claim_b00b7bb37e0ecd5ad557`)
 
 ## Source references
 

@@ -1,17 +1,17 @@
 # NVIDIA
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
+- Last seen: 2026-06-14T01:25:00Z
 - Source count: 6
-- Mention count: 73
+- Mention count: 74
 
 ## Description
 
-Candidate tool entity extracted from 3 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 

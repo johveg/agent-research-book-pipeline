@@ -1,6 +1,6 @@
 # prompting AI coding agents
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `low`
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
-- **weakly_supported / weak** — Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. (`claim_99a44d43b86eaa5907ba`)
+- **needs_review / weak** — Loop engineering is the shift from prompting AI coding agents turn-by-turn to designing the system that prompts them for you. (`claim_99a44d43b86eaa5907ba`)
 
 ## Source references
 

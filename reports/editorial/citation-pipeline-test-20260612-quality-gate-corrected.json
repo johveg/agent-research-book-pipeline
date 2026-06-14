@@ -1,0 +1,710 @@
+{
+  "audit": {
+    "did_not_match_intended_run6": [
+      "Previous quality gate did not call GPT-5.5 for reviewer-quality judgment; it used deterministic reviewer rules only.",
+      "Previous item schema lacked explicit pass/warn/fail compatibility fields and several required reviewer fields.",
+      "Existing Run 5 evidence map path is miswritten with Run 2 placeholder content; this correction did not overwrite it."
+    ],
+    "intentionally_left_unchanged": [
+      "Run 5 JSON reports.",
+      "Existing Run 6 reports and evidence map.",
+      "Miswritten Run 5 evidence map, to avoid overwriting prior evidence further.",
+      "DB, docs/book, raw captures, schema, daily worker, commit allowlist."
+    ],
+    "matched_intended_run6": [
+      "Read Run 5 high-reasoning source-card and semantic-object JSON reports.",
+      "Verified input llm_used/reasoning_status/provider/model.",
+      "Produced report-only safety decisions with no DB/chapter/status/schema/daily-worker/allowlist writes."
+    ],
+    "patched": [
+      "Added --no-llm deterministic mode and --require-high-reasoning GPT-5.5 reviewer mode.",
+      "Added pass/warn/fail decisions with explicit legacy mapping.",
+      "Added downstream eligibility, recommended stage, scores/rules, strengths/weaknesses/fixes/risks, safety booleans, and input/output hashes per item.",
+      "Changed generated report names to *-quality-gate-corrected.* for this correction/audit run."
+    ],
+    "prior_run6_assessment": "partially_valid_but_misaligned"
+  },
+  "blocking_issue_count": 0,
+  "bridge": "hermes_cli",
+  "chapter_prose_generated": false,
+  "chapters_modified": false,
+  "commit_allowlist_modified": false,
+  "counts_by_decision": {
+    "blocked": 0,
+    "needs_revision": 6,
+    "ready_for_editor_review": 0
+  },
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "decision_counts": {
+    "fail": 0,
+    "pass": 0,
+    "warn": 6
+  },
+  "decision_mapping": {
+    "blocked": "fail",
+    "needs_revision": "warn",
+    "ready_for_editor_review": "pass"
+  },
+  "decision_vocabulary": [
+    "pass",
+    "warn",
+    "fail"
+  ],
+  "downstream_eligible_count": 0,
+  "generated_at": "2026-06-13T19:26:40Z",
+  "high_reasoning_bridge": {
+    "bridge": "hermes_cli",
+    "command_shape": "timeout 180 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+    "elapsed_seconds": 28.39,
+    "error": "",
+    "exit_code": 0,
+    "generated_at": "2026-06-13T19:26:12Z",
+    "llm_used": true,
+    "model": "gpt-5.5",
+    "ok": true,
+    "parsed_json": {
+      "overall_summary": "All drafts remain advisory only. Preflight warns across all targets due to reject evidence, do_not_use status, and privacy review needs.",
+      "reviews": [
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep blocked from downstream use",
+            "Complete human privacy/publication review",
+            "Do not use for filing, novelty work, or author drafting"
+          ],
+          "review_summary": "Warn: stable metadata and link exist, but reject evidence and do_not_use status require blocking and human privacy review.",
+          "risk_flags": [
+            "social_or_private_adjacent_discovery_signal",
+            "privacy_review_required"
+          ],
+          "scores": {
+            "evidence_strength": "reject",
+            "preflight_decision": "warn",
+            "recommended_use": "do_not_use"
+          },
+          "strengths": [
+            "stable card_output_hash present",
+            "Run 5 high-reasoning metadata present",
+            "linked semantic object exists"
+          ],
+          "target_id": "source_card_draft_src_13864c81172f978b55bd",
+          "target_type": "source_card",
+          "weaknesses": [
+            "recommended_use is do_not_use; keep blocked",
+            "evidence_strength is reject; not suitable for filing or novelty work",
+            "privacy/publication status requires human review"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep blocked from downstream use",
+            "Complete human privacy/publication review",
+            "Resolve missing linked semantic object before any further routing"
+          ],
+          "review_summary": "Warn: stable metadata exists, but reject evidence, do_not_use status, privacy review, and missing semantic link block use.",
+          "risk_flags": [
+            "social_or_private_adjacent_discovery_signal",
+            "privacy_review_required"
+          ],
+          "scores": {
+            "evidence_strength": "reject",
+            "preflight_decision": "warn",
+            "recommended_use": "do_not_use",
+            "semantic_link": "missing"
+          },
+          "strengths": [
+            "stable card_output_hash present",
+            "Run 5 high-reasoning metadata present"
+          ],
+          "target_id": "source_card_draft_src_3e3a7fd1388feb172ac5",
+          "target_type": "source_card",
+          "weaknesses": [
+            "recommended_use is do_not_use; keep blocked",
+            "evidence_strength is reject; not suitable for filing or novelty work",
+            "privacy/publication status requires human review",
+            "no linked semantic object found in semantic report"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep blocked from downstream use",
+            "Complete human privacy/publication review",
+            "Resolve missing linked semantic object before any further routing"
+          ],
+          "review_summary": "Warn: stable metadata exists, but reject evidence, do_not_use status, privacy review, and missing semantic link block use.",
+          "risk_flags": [
+            "social_or_private_adjacent_discovery_signal",
+            "privacy_review_required"
+          ],
+          "scores": {
+            "evidence_strength": "reject",
+            "preflight_decision": "warn",
+            "recommended_use": "do_not_use",
+            "semantic_link": "missing"
+          },
+          "strengths": [
+            "stable card_output_hash present",
+            "Run 5 high-reasoning metadata present"
+          ],
+          "target_id": "source_card_draft_src_9471e5ba147ec4be19b6",
+          "target_type": "source_card",
+          "weaknesses": [
+            "recommended_use is do_not_use; keep blocked",
+            "evidence_strength is reject; not suitable for filing or novelty work",
+            "privacy/publication status requires human review",
+            "no linked semantic object found in semantic report"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep blocked from downstream use",
+            "Do not use for filing, novelty work, or author drafting",
+            "Maintain false publication and author approval states"
+          ],
+          "review_summary": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+          "risk_flags": [
+            "social_or_private_adjacent_discovery_signal",
+            "privacy_review_required"
+          ],
+          "scores": {
+            "evidence_strength": "reject",
+            "preflight_decision": "warn",
+            "recommended_use": "do_not_use"
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_db6ceb5790045cce4d3a",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "recommended_use is do_not_use; keep blocked",
+            "evidence_strength is reject; not suitable for filing or novelty work"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep blocked from downstream use",
+            "Do not use for filing, novelty work, or author drafting",
+            "Maintain false publication and author approval states"
+          ],
+          "review_summary": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+          "risk_flags": [
+            "social_or_private_adjacent_discovery_signal",
+            "privacy_review_required"
+          ],
+          "scores": {
+            "evidence_strength": "reject",
+            "preflight_decision": "warn",
+            "recommended_use": "do_not_use"
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_9aa9ffb0b7f788f57ee1",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "recommended_use is do_not_use; keep blocked",
+            "evidence_strength is reject; not suitable for filing or novelty work"
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "decision": "warn",
+          "publication_approved": false,
+          "required_fixes": [
+            "Keep blocked from downstream use",
+            "Do not use for filing, novelty work, or author drafting",
+            "Maintain false publication and author approval states"
+          ],
+          "review_summary": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+          "risk_flags": [
+            "social_or_private_adjacent_discovery_signal",
+            "privacy_review_required"
+          ],
+          "scores": {
+            "evidence_strength": "reject",
+            "preflight_decision": "warn",
+            "recommended_use": "do_not_use"
+          },
+          "strengths": [
+            "stable object_output_hash present",
+            "source_card_id links to reviewed source-card report",
+            "publication/author approval remains false"
+          ],
+          "target_id": "semantic_object_draft_2cb9451bf751ff120116",
+          "target_type": "semantic_object",
+          "weaknesses": [
+            "recommended_use is do_not_use; keep blocked",
+            "evidence_strength is reject; not suitable for filing or novelty work"
+          ]
+        }
+      ]
+    },
+    "prompt_hash": "7764e889fbc52130c1d01208625bc5becd69baed6f5a0a9104f71aa683a06e10",
+    "provider": "copilot",
+    "reasoning_status": "high_reasoning_used",
+    "schema_name": "quality_gate_reviews",
+    "stderr_redacted": "\nsession_id: 20260613_192614_bfa867\n",
+    "stdout_hash": "7468401fbd7315b437708e1a071ccb82a9d8a53e89efc53263be7f5bea64d333",
+    "stdout_json_valid": true,
+    "timed_out": false,
+    "weak_local_fallback_refused": true
+  },
+  "input_reports": {
+    "semantic_objects": {
+      "count": 3,
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "path": "reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning.json",
+      "provider": "copilot",
+      "reasoning_status": "high_reasoning_used",
+      "run_id": "citation-pipeline-test-20260612"
+    },
+    "source_cards": {
+      "count": 3,
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "path": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning.json",
+      "provider": "copilot",
+      "reasoning_status": "high_reasoning_used",
+      "run_id": "citation-pipeline-test-20260612"
+    }
+  },
+  "llm_used": true,
+  "long_source_excerpt_written": false,
+  "max_review_text_chars": 180,
+  "mode": "quality_gate_report_only",
+  "model": "gpt-5.5",
+  "narrative_packets_created": false,
+  "output_paths": {
+    "evidence_map": "reports/architecture/run6-quality-gate-correction-evidence-map-20260613.md",
+    "json": "reports/editorial/citation-pipeline-test-20260612-quality-gate-corrected.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-quality-gate-corrected.md"
+  },
+  "provider": "copilot",
+  "publication_approval_granted": false,
+  "quality_gate_llm_used": true,
+  "quality_gate_reasoning_status": "high_reasoning_used",
+  "raw_or_vector_authority_used": false,
+  "raw_private_material_written": false,
+  "ready_for_editor_review_count": 0,
+  "reasoning_status": "high_reasoning_used",
+  "recommendation": {
+    "next_allowed_stage": "revise_high_reasoning_drafts",
+    "run7_candidate": "revise high-reasoning drafts or select a safer/public-source sample, then rerun this quality gate; do not proceed to Run 7 automation yet.",
+    "summary": "Revise high-reasoning drafts before any downstream stage."
+  },
+  "reviewer_note": "GPT-5.5 reviewer-quality gate ran through Hermes CLI bridge and returned strict schema-valid JSON.",
+  "revision_issue_count": 6,
+  "risks": [
+    "Reviewer gate checks draft quality and safety; it does not prove factual truth.",
+    "Run 5 GPT-5.5 drafts remain advisory-only and not publication-approved.",
+    "Social/private-adjacent sources require human review before any use.",
+    "No raw captures or vector DB chunks were consulted by this quality gate."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "schema_modified": false,
+  "semantic_object_reviews": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "6979f52ce563c3b46300bc156aea55875e293b8344c8010cd448809dff54423c",
+      "issues": [
+        "Keep blocked from downstream use",
+        "Do not use for filing, novelty work, or author drafting",
+        "Maintain false publication and author approval states"
+      ],
+      "item_id": "semantic_object_draft_db6ceb5790045cce4d3a",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "cd914599c5a1c40c03b015678fb9e4406c18b860de69129f540e2ff23141737f",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep blocked from downstream use",
+        "Do not use for filing, novelty work, or author drafting",
+        "Maintain false publication and author approval states"
+      ],
+      "review_hash": "cd914599c5a1c40c03b015678fb9e4406c18b860de69129f540e2ff23141737f",
+      "review_summary": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": true
+      },
+      "scores": {
+        "evidence_strength": "reject",
+        "preflight_decision": "warn",
+        "recommended_use": "do_not_use"
+      },
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_db6ceb5790045cce4d3a",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "recommended_use is do_not_use; keep blocked",
+        "evidence_strength is reject; not suitable for filing or novelty work"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "db00e19562f58cfb4cb53ee9fa5a9f9ee6d0ff84d66753c3412b84f0c1982824",
+      "issues": [
+        "Keep blocked from downstream use",
+        "Do not use for filing, novelty work, or author drafting",
+        "Maintain false publication and author approval states"
+      ],
+      "item_id": "semantic_object_draft_9aa9ffb0b7f788f57ee1",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "214b9dd9aa3a4cc3880dfcdadb8df6d425abdfe17c65b3a0aac3b1ecf3a444cf",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep blocked from downstream use",
+        "Do not use for filing, novelty work, or author drafting",
+        "Maintain false publication and author approval states"
+      ],
+      "review_hash": "214b9dd9aa3a4cc3880dfcdadb8df6d425abdfe17c65b3a0aac3b1ecf3a444cf",
+      "review_summary": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": true
+      },
+      "scores": {
+        "evidence_strength": "reject",
+        "preflight_decision": "warn",
+        "recommended_use": "do_not_use"
+      },
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_9aa9ffb0b7f788f57ee1",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "recommended_use is do_not_use; keep blocked",
+        "evidence_strength is reject; not suitable for filing or novelty work"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "a7700664fd6e3dea0debeac4d516e99d1fc6300e83a85e07baf7c916d41200d2",
+      "issues": [
+        "Keep blocked from downstream use",
+        "Do not use for filing, novelty work, or author drafting",
+        "Maintain false publication and author approval states"
+      ],
+      "item_id": "semantic_object_draft_2cb9451bf751ff120116",
+      "item_type": "semantic_object",
+      "legacy_decision": "needs_revision",
+      "output_hash": "9eec99683455df3e919a7b8cd5ac6a05cc2efba9282be825b300d327d5503b0b",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep blocked from downstream use",
+        "Do not use for filing, novelty work, or author drafting",
+        "Maintain false publication and author approval states"
+      ],
+      "review_hash": "9eec99683455df3e919a7b8cd5ac6a05cc2efba9282be825b300d327d5503b0b",
+      "review_summary": "Warn: object is linked and approval remains false, but reject evidence and do_not_use status require continued blocking.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": false,
+        "reject_or_do_not_use": true
+      },
+      "scores": {
+        "evidence_strength": "reject",
+        "preflight_decision": "warn",
+        "recommended_use": "do_not_use"
+      },
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd",
+      "strengths": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "target_id": "semantic_object_draft_2cb9451bf751ff120116",
+      "target_type": "semantic_object",
+      "weaknesses": [
+        "recommended_use is do_not_use; keep blocked",
+        "evidence_strength is reject; not suitable for filing or novelty work"
+      ]
+    }
+  ],
+  "semantic_objects_reviewed": 3,
+  "source_card_reviews": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "69bb5d74f3b1a8344ad43953c1afac103305b39f19c5d202ca99b2469c4a3d64",
+      "issues": [
+        "Keep blocked from downstream use",
+        "Complete human privacy/publication review",
+        "Do not use for filing, novelty work, or author drafting"
+      ],
+      "item_id": "source_card_draft_src_13864c81172f978b55bd",
+      "item_type": "source_card",
+      "legacy_decision": "needs_revision",
+      "output_hash": "4aad6a808d9690b99c17c960f402f767c892ac904c255d9a17b5f4cd9c178a6b",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "publication_approved": false,
+      "rationale": "Warn: stable metadata and link exist, but reject evidence and do_not_use status require blocking and human privacy review.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep blocked from downstream use",
+        "Complete human privacy/publication review",
+        "Do not use for filing, novelty work, or author drafting"
+      ],
+      "review_hash": "4aad6a808d9690b99c17c960f402f767c892ac904c255d9a17b5f4cd9c178a6b",
+      "review_summary": "Warn: stable metadata and link exist, but reject evidence and do_not_use status require blocking and human privacy review.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "rule_results": {
+        "linked_to_source_card": true,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": true,
+        "reject_or_do_not_use": true
+      },
+      "scores": {
+        "evidence_strength": "reject",
+        "preflight_decision": "warn",
+        "recommended_use": "do_not_use"
+      },
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd",
+      "strengths": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "target_id": "source_card_draft_src_13864c81172f978b55bd",
+      "target_type": "source_card",
+      "weaknesses": [
+        "recommended_use is do_not_use; keep blocked",
+        "evidence_strength is reject; not suitable for filing or novelty work",
+        "privacy/publication status requires human review"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "d08648620b48e528923b616a62647d61fa599d9e0cc4ddb990c19fb0c22733f7",
+      "issues": [
+        "Keep blocked from downstream use",
+        "Complete human privacy/publication review",
+        "Resolve missing linked semantic object before any further routing"
+      ],
+      "item_id": "source_card_draft_src_3e3a7fd1388feb172ac5",
+      "item_type": "source_card",
+      "legacy_decision": "needs_revision",
+      "output_hash": "1b889a237a88dd99a9eaa155cc348dbd312bfbcbdc5feb43c2afb54250a47e7c",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "publication_approved": false,
+      "rationale": "Warn: stable metadata exists, but reject evidence, do_not_use status, privacy review, and missing semantic link block use.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep blocked from downstream use",
+        "Complete human privacy/publication review",
+        "Resolve missing linked semantic object before any further routing"
+      ],
+      "review_hash": "1b889a237a88dd99a9eaa155cc348dbd312bfbcbdc5feb43c2afb54250a47e7c",
+      "review_summary": "Warn: stable metadata exists, but reject evidence, do_not_use status, privacy review, and missing semantic link block use.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "rule_results": {
+        "linked_to_source_card": false,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": true,
+        "reject_or_do_not_use": true
+      },
+      "scores": {
+        "evidence_strength": "reject",
+        "preflight_decision": "warn",
+        "recommended_use": "do_not_use",
+        "semantic_link": "missing"
+      },
+      "source_card_id": "source_card_draft_src_3e3a7fd1388feb172ac5",
+      "source_id": "src_3e3a7fd1388feb172ac5",
+      "strengths": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "target_id": "source_card_draft_src_3e3a7fd1388feb172ac5",
+      "target_type": "source_card",
+      "weaknesses": [
+        "recommended_use is do_not_use; keep blocked",
+        "evidence_strength is reject; not suitable for filing or novelty work",
+        "privacy/publication status requires human review",
+        "no linked semantic object found in semantic report"
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "decision": "warn",
+      "decision_mapping_note": "needs_revision -> warn",
+      "downstream_eligibility": "revise_before_editor_review",
+      "input_hash": "574371d1eb6a05db7eb863a8d55f63ef6c4cb4fe065e00c1173cedc30494d802",
+      "issues": [
+        "Keep blocked from downstream use",
+        "Complete human privacy/publication review",
+        "Resolve missing linked semantic object before any further routing"
+      ],
+      "item_id": "source_card_draft_src_9471e5ba147ec4be19b6",
+      "item_type": "source_card",
+      "legacy_decision": "needs_revision",
+      "output_hash": "f5697a69afd150c2b8aedd18dde0523e77523959bd3a640986ebc0f15fcb1846",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "publication_approved": false,
+      "rationale": "Warn: stable metadata exists, but reject evidence, do_not_use status, privacy review, and missing semantic link block use.",
+      "recommended_next_stage": "revise_high_reasoning_drafts",
+      "required_fixes": [
+        "Keep blocked from downstream use",
+        "Complete human privacy/publication review",
+        "Resolve missing linked semantic object before any further routing"
+      ],
+      "review_hash": "f5697a69afd150c2b8aedd18dde0523e77523959bd3a640986ebc0f15fcb1846",
+      "review_summary": "Warn: stable metadata exists, but reject evidence, do_not_use status, privacy review, and missing semantic link block use.",
+      "reviewer_model": "gpt-5.5",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "rule_results": {
+        "linked_to_source_card": false,
+        "missing_required_fields": [],
+        "privacy_or_publication_review_required": true,
+        "reject_or_do_not_use": true
+      },
+      "scores": {
+        "evidence_strength": "reject",
+        "preflight_decision": "warn",
+        "recommended_use": "do_not_use",
+        "semantic_link": "missing"
+      },
+      "source_card_id": "source_card_draft_src_9471e5ba147ec4be19b6",
+      "source_id": "src_9471e5ba147ec4be19b6",
+      "strengths": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "target_id": "source_card_draft_src_9471e5ba147ec4be19b6",
+      "target_type": "source_card",
+      "weaknesses": [
+        "recommended_use is do_not_use; keep blocked",
+        "evidence_strength is reject; not suitable for filing or novelty work",
+        "privacy/publication status requires human review",
+        "no linked semantic object found in semantic report"
+      ]
+    }
+  ],
+  "source_cards_reviewed": 3,
+  "statuses_modified": false,
+  "verification": {}
+}

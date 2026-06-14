@@ -1,17 +1,17 @@
 # Vibe Coding
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
-- Type: `company`
-- Confidence: `high`
+- Type: `person`
+- Confidence: `low`
 - First seen: 2026-06-12T01:19:56Z
-- Last seen: 2026-06-13T01:27:13Z
+- Last seen: 2026-06-14T01:25:00Z
 - Source count: 4
-- Mention count: 26
+- Mention count: 27
 
 ## Description
 
-Candidate company entity extracted from 4 source(s).
+Candidate person entity extracted from 1 source(s).
 
 ## Related claims
 

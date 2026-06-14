@@ -1,0 +1,221 @@
+{
+  "candidate_source_type_counts": {},
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_inserted": 0,
+  "collected_candidate_sources_count": 0,
+  "collection_method": "collection_plan_only_tooling_unavailable",
+  "collection_results": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_source_count": 0,
+      "candidate_sources": [],
+      "contradiction_candidate_source_ids": [],
+      "item_id": "corrob_item_6e923bab58a413137532",
+      "original_statement": "The project metadata suggests a web or phone interface for using Hermes Agent.",
+      "preliminary_collection_assessment": "needs_more_collection",
+      "publication_approved": false,
+      "recommended_next_stage": "run_additional_source_collection",
+      "search_queries_used": [
+        "site:github.com/openclaw/openclaw Hermes Agent",
+        "site:github.com/openclaw/openclaw web interface",
+        "site:github.com/openclaw/openclaw mobile interface",
+        "site:github.com/openclaw/openclaw phone interface",
+        "site:github.com/openclaw/openclaw README Hermes",
+        "site:github.com/openclaw/openclaw release notes Hermes",
+        "repo:openclaw/openclaw Hermes",
+        "repo:openclaw/openclaw web",
+        "repo:openclaw/openclaw mobile"
+      ],
+      "source_collection_status": "collection_not_executed_tooling_unavailable",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_12c73455aa1816e5df8c",
+      "source_types_requested": [
+        "Project README or documentation",
+        "Repository code paths for web clients",
+        "Repository code paths for mobile or phone clients",
+        "Release notes",
+        "Configuration documentation",
+        "Dependency manifests"
+      ],
+      "strongest_candidate_source_ids": [],
+      "what_needs_corroboration": "Whether the OpenClaw project documentation, code, release notes, or configuration explicitly supports a web interface, phone/mobile interface, and Hermes Agent-specific environment or dependency claim."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_source_count": 0,
+      "candidate_sources": [],
+      "contradiction_candidate_source_ids": [],
+      "item_id": "corrob_item_4039b66b55f0c200763a",
+      "original_statement": "The metadata weakly shows agent-adjacent tooling that names OpenClaw and Hermes as relevant environments.",
+      "preliminary_collection_assessment": "needs_more_collection",
+      "publication_approved": false,
+      "recommended_next_stage": "run_additional_source_collection",
+      "search_queries_used": [
+        "site:github.com/openclaw/openclaw Hermes",
+        "site:github.com/openclaw/openclaw \"Hermes Agent\"",
+        "site:github.com/openclaw/openclaw OpenClaw Hermes",
+        "site:github.com/openclaw/openclaw assistant tooling",
+        "site:github.com/openclaw/openclaw configuration Hermes",
+        "site:github.com/openclaw/openclaw releases Hermes",
+        "repo:openclaw/openclaw Hermes",
+        "repo:openclaw/openclaw \"Hermes Agent\"",
+        "repo:openclaw/openclaw assistant",
+        "repo:openclaw/openclaw tool"
+      ],
+      "source_collection_status": "collection_not_executed_tooling_unavailable",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "source_types_requested": [
+        "Project README or docs",
+        "Repository configuration files",
+        "Code references to Hermes or Hermes Agent",
+        "Dependency manifests",
+        "Issue documentation",
+        "Release documentation"
+      ],
+      "strongest_candidate_source_ids": [],
+      "what_needs_corroboration": "Whether OpenClaw documentation or code explicitly names Hermes or Hermes Agent as a relevant environment, dependency, integration target, or adjacent operating context, and what the tooling actually does."
+    }
+  ],
+  "daily_worker_hash_after": "4e5933e94f60f1233862b1f78055307149b9eb880f0c31ad0203d5755ed7490d",
+  "daily_worker_hash_before": "4e5933e94f60f1233862b1f78055307149b9eb880f0c31ad0203d5755ed7490d",
+  "db_counts_after": {
+    "claims": 146,
+    "editorial_reviews": 10,
+    "source_notes": 284,
+    "sources": 945
+  },
+  "db_counts_before": {
+    "claims": 146,
+    "editorial_reviews": 10,
+    "source_notes": 284,
+    "sources": 945
+  },
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "evidence_strength_counts": {},
+  "generated_at": "2026-06-13T20:50:53Z",
+  "input_paths": {
+    "candidate_selection_report": "reports/editorial/citation-pipeline-test-20260612-reasoning-candidate-selection.json",
+    "corroboration_research_report": "reports/editorial/citation-pipeline-test-20260612-corroboration-research-run12.json",
+    "editor_packet_report": "reports/editorial/citation-pipeline-test-20260612-editor-review-packet-run8.json",
+    "filing_novelty_report": "reports/editorial/citation-pipeline-test-20260612-filing-novelty-evaluation-run9.json",
+    "quality_gate_report": "reports/editorial/citation-pipeline-test-20260612-quality-gate-run7-full.json",
+    "semantic_object_report": "reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning-run7.json",
+    "source_card_report": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning-run7.json",
+    "source_support_review_report": "reports/editorial/citation-pipeline-test-20260612-source-support-review-run10.json"
+  },
+  "limitations": [
+    "Candidate links are not source-registry entries and are not validated support.",
+    "Run 13 stores no raw page content and performs no persistence.",
+    "When no bounded candidate input is supplied, collection is not executed and the report contains a plan only."
+  ],
+  "mode": "corroboration_source_collection",
+  "next_run_recommendation": {
+    "conditions": [
+      "remain report-only by default",
+      "do not persist candidate sources as source-registry entries without a later explicit persistence design",
+      "do not create narrative packets until source-support re-review passes or items are explicitly excluded"
+    ],
+    "recommendation": "rerun_controlled_source_collection_with_safe_tooling_or_curated_candidate_json"
+  },
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-corroboration-source-collection-run13.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-corroboration-source-collection-run13.md"
+  },
+  "raw_capture_snapshot_after": {
+    "file_count": 3979,
+    "file_list_hash": "2a7003c6777d2e4e9d50dd03a5b6c2773334bad2879cd8541f53ff26a380a499",
+    "paths_checked": [
+      "data/raw",
+      "raw",
+      "captures"
+    ]
+  },
+  "raw_capture_snapshot_before": {
+    "file_count": 3979,
+    "file_list_hash": "2a7003c6777d2e4e9d50dd03a5b6c2773334bad2879cd8541f53ff26a380a499",
+    "paths_checked": [
+      "data/raw",
+      "raw",
+      "captures"
+    ]
+  },
+  "recommended_next_stage_counts": {
+    "run_additional_source_collection": 2
+  },
+  "rejected_candidate_sources": [],
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "no_claim_insertion": true,
+    "no_daily_worker_changes": true,
+    "no_db_writes": true,
+    "no_docs_book_changes": true,
+    "no_editorial_review_insertion": true,
+    "no_raw_capture_writes": true,
+    "no_schema_changes": true,
+    "no_source_registry_writes": true,
+    "no_status_changes": true,
+    "publication_approved": false,
+    "raw_content_stored": false
+  },
+  "schema_hash_after": "c2fe112ae800db4bcc2389c15306dcc9bcacdae24963c885191e0e433c134ade",
+  "schema_hash_before": "c2fe112ae800db4bcc2389c15306dcc9bcacdae24963c885191e0e433c134ade",
+  "selected_items": [
+    {
+      "corroboration_status": "insufficient_evidence",
+      "evidence_use_decision": "needs_more_sources",
+      "item_id": "corrob_item_6e923bab58a413137532",
+      "recommended_next_stage": "run_additional_source_collection",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_12c73455aa1816e5df8c"
+    },
+    {
+      "corroboration_status": "insufficient_evidence",
+      "evidence_use_decision": "needs_more_sources",
+      "item_id": "corrob_item_4039b66b55f0c200763a",
+      "recommended_next_stage": "run_additional_source_collection",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac"
+    }
+  ],
+  "selected_items_count": 2,
+  "skipped_items": [
+    {
+      "corroboration_status": "source_context_unclear",
+      "evidence_use_decision": "needs_source_review",
+      "item_id": "corrob_item_bc7742fc05d0c1e48b0c",
+      "recommended_next_stage": "needs_editor_review",
+      "skip_reason": "needs_editor_review_not_source_collection",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_e20631e18093139a8bc2"
+    }
+  ],
+  "skipped_items_count": 1,
+  "source_collection_executed": false,
+  "source_registry_hash_after": "b9dba2f5273a28ead82b05469381e675e151a03538b3de54444c2e77ec664fca",
+  "source_registry_hash_before": "b9dba2f5273a28ead82b05469381e675e151a03538b3de54444c2e77ec664fca",
+  "source_status_changed": false,
+  "status_hashes_after": {
+    "claims_status_hash": "2c2829622ff2988c13bc3c3f89c71dccd6139c1ec8ee06e28dc2f5e218d8df1c",
+    "editorial_reviews_hash": "ed4c9b3e8704af05cdd641320bece13b8c57a9762d4a8449f6af10314585d087",
+    "sources_status_hash": "bde40f350904114e864f418a59b9eb8636ae6dc598d5a73d8422ef280cb446ba"
+  },
+  "status_hashes_before": {
+    "claims_status_hash": "2c2829622ff2988c13bc3c3f89c71dccd6139c1ec8ee06e28dc2f5e218d8df1c",
+    "editorial_reviews_hash": "ed4c9b3e8704af05cdd641320bece13b8c57a9762d4a8449f6af10314585d087",
+    "sources_status_hash": "bde40f350904114e864f418a59b9eb8636ae6dc598d5a73d8422ef280cb446ba"
+  },
+  "support_direction_counts": {}
+}

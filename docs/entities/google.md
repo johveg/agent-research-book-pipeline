@@ -1,17 +1,17 @@
 # Google
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
-- Confidence: `high`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 13
-- Mention count: 138
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 14
+- Mention count: 161
 
 ## Description
 
-Candidate tool entity extracted from 4 source(s).
+Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -19,6 +19,9 @@ No related claim records yet.
 
 ## Source references
 
+- `src_8b9e0a15a0742267d32b` — Feed post Adalbert De La Cruz • 3rd+ AI Product Strategist @ Google | Founder of Clara | Teaching 1,500+ Builders How to Go From Idea to Pro
+  - URL: https://www.linkedin.com/in/addelacr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAoMDtsBdro3merp0FscWN2eD25Cd_urBpE
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/173-dd47b5c365c9b3044d66.md`
 - `src_2cb5222822668212bbcc` — Feed post Gareth Paul Jones • 3rd+ Product & Research Lead | AI Platforms | Ex-Twilio, Apple, Google 2h • Follow Loop Engineering is the nex
   - URL: https://www.linkedin.com/in/garethpjones?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEdStQBQk_Lrsi_If2CDLO2isbaypzOV3A
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/068-a8f722ab4703655c26d8.md`
@@ -47,9 +50,9 @@ No related claim records yet.
 - `src_8df81083c2fdfed109a2` — Feed post Bennett Black • 3rd+ Founder of 1clickwebsite.ai 8h • Follow I just trained my Hermes Agent to scrape Google maps leads and find o
   - URL: https://www.linkedin.com/in/bennett-black1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACg7uHEBdNMn-L63cPeLallg_27lG2_xccg
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/067-5702370ef17c40a3567c.md`
-- `src_8b9e0a15a0742267d32b` — Feed post Adalbert De La Cruz • 3rd+ AI Product Strategist @ Google | Founder of Clara | Teaching 1,500+ Builders How to Go From Idea to Pro
-  - URL: https://www.linkedin.com/in/addelacr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAoMDtsBdro3merp0FscWN2eD25Cd_urBpE
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/173-dd47b5c365c9b3044d66.md`
+- `src_a52a52a9b9fcaca06fc0` — Feed post Shubham Saboo • 3rd+ Senior AI Product Manager @ Google | Awesome LLM Apps (#1 AI Agents GitHub repo with 114k+ stars) | 3x AI Aut
+  - URL: https://www.linkedin.com/in/shubhamsaboo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzPLp4BT8-7xERTxR17vS8edCgAiBTIkTM
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/135-3f5787daa4a9634aa069.md`
 - `src_47669204bff98f19f527` — The fact that Hermes agent ranks higher on Google than the brand lol
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/128-49b252e09d2e45b83ec9.md`
 - `src_6f10b21c549fe06ed7fc` — Feed post Marcus Motill • 3rd+ Measuring Agents @ Google 1h • Follow my hermes agent is suing my neighbor. well, at least the developer tryi

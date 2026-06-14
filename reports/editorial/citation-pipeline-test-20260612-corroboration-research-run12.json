@@ -1,0 +1,490 @@
+{
+  "bridge": "hermes_cli",
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_schema": false,
+  "claim_status_changed": false,
+  "claims_inserted": 0,
+  "corroboration_reviews": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "bridge": "hermes_cli",
+      "corroboration_findings": [
+        "Provided context identifies only publishable metadata for a GitHub repository titled OpenClaw.",
+        "Provided context does not include README text, code files, release notes, or configuration evidence.",
+        "The web or phone interface claim and Hermes Agent-specific claim remain unverified in the provided context."
+      ],
+      "corroboration_status": "insufficient_evidence",
+      "corroboration_strategy": "Use a future controlled collection run to inspect the repository README, docs, release notes, configuration files, and code paths for explicit references to web UI, phone/mobile clients, and Hermes Agent integration. Do not treat repository metadata alone as sufficient.",
+      "current_source_support_enough": false,
+      "evidence_use_decision": "needs_more_sources",
+      "filing_evaluation_id": "filing_eval_c39f3be4e7bef7f0dabe",
+      "input_hash": "82dda51c15992bc46280f9685140678fee0fbb575926b49eb44a98181712855d",
+      "item_id": "corrob_item_6e923bab58a413137532",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "original_statement": "The project metadata suggests a web or phone interface for using Hermes Agent.",
+      "output_hash": "e0fbc87980493b49f8ae7640f5873f4b64df17d7f746ef13ff23b4817cfec2ff",
+      "packet_item_id": "editor_packet_b7dc9103943b3b345e15",
+      "provider": "copilot",
+      "publication_approved": false,
+      "quality_review_id": "semantic_object_draft_425a074033ba640ec639",
+      "reasoning_status": "high_reasoning_used",
+      "recommended_next_stage": "run_additional_source_collection",
+      "required_source_types": [
+        "Project README or documentation",
+        "Repository code paths for web clients",
+        "Repository code paths for mobile or phone clients",
+        "Release notes",
+        "Configuration documentation",
+        "Dependency manifests"
+      ],
+      "risk_flags": [
+        "metadata_only_support",
+        "interface_claim_unverified",
+        "Hermes_specific_claim_unverified",
+        "not_author_approved",
+        "not_publication_approved"
+      ],
+      "semantic_object_id": "semantic_object_draft_425a074033ba640ec639",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_12c73455aa1816e5df8c",
+      "suggested_search_queries": [
+        "site:github.com/openclaw/openclaw Hermes Agent",
+        "site:github.com/openclaw/openclaw web interface",
+        "site:github.com/openclaw/openclaw mobile interface",
+        "site:github.com/openclaw/openclaw phone interface",
+        "site:github.com/openclaw/openclaw README Hermes",
+        "site:github.com/openclaw/openclaw release notes Hermes",
+        "repo:openclaw/openclaw Hermes",
+        "repo:openclaw/openclaw web",
+        "repo:openclaw/openclaw mobile"
+      ],
+      "what_needs_corroboration": "Whether the OpenClaw project documentation, code, release notes, or configuration explicitly supports a web interface, phone/mobile interface, and Hermes Agent-specific environment or dependency claim."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "bridge": "hermes_cli",
+      "corroboration_findings": [
+        "Provided context contains repository-level metadata only.",
+        "Provided context does not establish that Hermes or Hermes Agent is explicitly documented as an environment, dependency, or integration target.",
+        "The nature of the alleged agent-adjacent tooling is not evidenced by the provided context."
+      ],
+      "corroboration_status": "insufficient_evidence",
+      "corroboration_strategy": "In a future controlled collection run, collect repository documentation, configuration files, manifests, code references, issues, and release notes that explicitly mention Hermes, Hermes Agent, or OpenClaw tooling behavior. Distinguish naming proximity from actual integration evidence.",
+      "current_source_support_enough": false,
+      "evidence_use_decision": "needs_more_sources",
+      "filing_evaluation_id": "filing_eval_b82d67d436357d41bf72",
+      "input_hash": "1aea775f19cd579a719a69389b85f09424802cdf51941e8d8583d6b849a774e2",
+      "item_id": "corrob_item_4039b66b55f0c200763a",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "original_statement": "The metadata weakly shows agent-adjacent tooling that names OpenClaw and Hermes as relevant environments.",
+      "output_hash": "c93619cab0b2d39af67c137fd24a618eeced3954326462277b615570d84a6117",
+      "packet_item_id": "editor_packet_48e56de78fce06dde725",
+      "provider": "copilot",
+      "publication_approved": false,
+      "quality_review_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "reasoning_status": "high_reasoning_used",
+      "recommended_next_stage": "run_additional_source_collection",
+      "required_source_types": [
+        "Project README or docs",
+        "Repository configuration files",
+        "Code references to Hermes or Hermes Agent",
+        "Dependency manifests",
+        "Issue documentation",
+        "Release documentation"
+      ],
+      "risk_flags": [
+        "metadata_only_support",
+        "environment_association_unverified",
+        "tooling_function_unverified",
+        "possible_name_proximity_risk",
+        "not_author_approved",
+        "not_publication_approved"
+      ],
+      "semantic_object_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "suggested_search_queries": [
+        "site:github.com/openclaw/openclaw Hermes",
+        "site:github.com/openclaw/openclaw \"Hermes Agent\"",
+        "site:github.com/openclaw/openclaw OpenClaw Hermes",
+        "site:github.com/openclaw/openclaw assistant tooling",
+        "site:github.com/openclaw/openclaw configuration Hermes",
+        "site:github.com/openclaw/openclaw releases Hermes",
+        "repo:openclaw/openclaw Hermes",
+        "repo:openclaw/openclaw \"Hermes Agent\"",
+        "repo:openclaw/openclaw assistant",
+        "repo:openclaw/openclaw tool"
+      ],
+      "what_needs_corroboration": "Whether OpenClaw documentation or code explicitly names Hermes or Hermes Agent as a relevant environment, dependency, integration target, or adjacent operating context, and what the tooling actually does."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "bridge": "hermes_cli",
+      "corroboration_findings": [
+        "Provided context does not include the full source card or underlying files.",
+        "The item classification cannot be determined from the provided metadata alone.",
+        "No architecture-source status or caveat-only status is established by the provided context."
+      ],
+      "corroboration_status": "source_context_unclear",
+      "corroboration_strategy": "Before any corroboration collection, perform a source-review pass over the full source card, related README or documentation, and referenced skill or prompt files. Classify the item type and determine whether architecture claims are present or whether the item should remain only a caveat about source character.",
+      "current_source_support_enough": false,
+      "evidence_use_decision": "needs_source_review",
+      "filing_evaluation_id": "filing_eval_bd562e909f80e16a2bb3",
+      "input_hash": "dbcc3d925eb7e18d5723ef0619d7b3ef03039a3b35397d6ffb8aee4e761d4de5",
+      "item_id": "corrob_item_bc7742fc05d0c1e48b0c",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "original_statement": "This item is framed as a writing-audit and rewrite skill, not as a primary source on agent architecture.",
+      "output_hash": "bc275a9bcf99d2b497745bd16aa676810e47bac013dab7b66a58e60b05d27690",
+      "packet_item_id": "editor_packet_13a17d293dd6140c91ae",
+      "provider": "copilot",
+      "publication_approved": false,
+      "quality_review_id": "semantic_object_draft_5558303e45f77723657a",
+      "reasoning_status": "high_reasoning_used",
+      "recommended_next_stage": "needs_editor_review",
+      "required_source_types": [
+        "Source card full text",
+        "Repository README or docs",
+        "Related skill files referenced by the source card",
+        "Related prompt files referenced by the source card",
+        "Repository architecture documentation if present"
+      ],
+      "risk_flags": [
+        "source_context_unclear",
+        "classification_needed_before_corroboration",
+        "architecture_claim_risk",
+        "metadata_only_support",
+        "not_author_approved",
+        "not_publication_approved"
+      ],
+      "semantic_object_id": "semantic_object_draft_5558303e45f77723657a",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_e20631e18093139a8bc2",
+      "suggested_search_queries": [
+        "source card full text writing-audit rewrite skill OpenClaw Hermes",
+        "site:github.com/openclaw/openclaw writing audit rewrite skill",
+        "site:github.com/openclaw/openclaw rewrite skill",
+        "site:github.com/openclaw/openclaw architecture agent",
+        "site:github.com/openclaw/openclaw prompt skill audit",
+        "repo:openclaw/openclaw \"writing-audit\"",
+        "repo:openclaw/openclaw \"rewrite skill\"",
+        "repo:openclaw/openclaw architecture",
+        "repo:openclaw/openclaw prompt",
+        "repo:openclaw/openclaw skill"
+      ],
+      "what_needs_corroboration": "Whether the item is actually a writing-audit and rewrite skill, a caveat about source type, or a source containing substantive agent architecture material."
+    }
+  ],
+  "db_counts_after": {
+    "claims": 146,
+    "editorial_reviews": 10,
+    "source_notes": 284,
+    "sources": 945
+  },
+  "db_counts_before": {
+    "claims": 146,
+    "editorial_reviews": 10,
+    "source_notes": 284,
+    "sources": 945
+  },
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "evidence_use_counts": {
+    "needs_more_sources": 2,
+    "needs_source_review": 1
+  },
+  "generated_at": "2026-06-13T20:36:33Z",
+  "high_reasoning_bridge": {
+    "bridge": "hermes_cli",
+    "command_shape": "timeout 180 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+    "elapsed_seconds": 28.837,
+    "error": "",
+    "exit_code": 0,
+    "generated_at": "2026-06-13T20:36:04Z",
+    "llm_used": true,
+    "model": "gpt-5.5",
+    "ok": true,
+    "parsed_json": {
+      "corroboration_reviews": [
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "corroboration_findings": [
+            "Provided context identifies only publishable metadata for a GitHub repository titled OpenClaw.",
+            "Provided context does not include README text, code files, release notes, or configuration evidence.",
+            "The web or phone interface claim and Hermes Agent-specific claim remain unverified in the provided context."
+          ],
+          "corroboration_status": "insufficient_evidence",
+          "corroboration_strategy": "Use a future controlled collection run to inspect the repository README, docs, release notes, configuration files, and code paths for explicit references to web UI, phone/mobile clients, and Hermes Agent integration. Do not treat repository metadata alone as sufficient.",
+          "current_source_support_enough": false,
+          "evidence_use_decision": "needs_more_sources",
+          "publication_approved": false,
+          "recommended_next_stage": "run_additional_source_collection",
+          "required_source_types": [
+            "Project README or documentation",
+            "Repository code paths for web clients",
+            "Repository code paths for mobile or phone clients",
+            "Release notes",
+            "Configuration documentation",
+            "Dependency manifests"
+          ],
+          "risk_flags": [
+            "metadata_only_support",
+            "interface_claim_unverified",
+            "Hermes_specific_claim_unverified",
+            "not_author_approved",
+            "not_publication_approved"
+          ],
+          "source_review_id": "source_review_12c73455aa1816e5df8c",
+          "suggested_search_queries": [
+            "site:github.com/openclaw/openclaw Hermes Agent",
+            "site:github.com/openclaw/openclaw web interface",
+            "site:github.com/openclaw/openclaw mobile interface",
+            "site:github.com/openclaw/openclaw phone interface",
+            "site:github.com/openclaw/openclaw README Hermes",
+            "site:github.com/openclaw/openclaw release notes Hermes",
+            "repo:openclaw/openclaw Hermes",
+            "repo:openclaw/openclaw web",
+            "repo:openclaw/openclaw mobile"
+          ],
+          "what_needs_corroboration": "Whether the OpenClaw project documentation, code, release notes, or configuration explicitly supports a web interface, phone/mobile interface, and Hermes Agent-specific environment or dependency claim."
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "corroboration_findings": [
+            "Provided context contains repository-level metadata only.",
+            "Provided context does not establish that Hermes or Hermes Agent is explicitly documented as an environment, dependency, or integration target.",
+            "The nature of the alleged agent-adjacent tooling is not evidenced by the provided context."
+          ],
+          "corroboration_status": "insufficient_evidence",
+          "corroboration_strategy": "In a future controlled collection run, collect repository documentation, configuration files, manifests, code references, issues, and release notes that explicitly mention Hermes, Hermes Agent, or OpenClaw tooling behavior. Distinguish naming proximity from actual integration evidence.",
+          "current_source_support_enough": false,
+          "evidence_use_decision": "needs_more_sources",
+          "publication_approved": false,
+          "recommended_next_stage": "run_additional_source_collection",
+          "required_source_types": [
+            "Project README or docs",
+            "Repository configuration files",
+            "Code references to Hermes or Hermes Agent",
+            "Dependency manifests",
+            "Issue documentation",
+            "Release documentation"
+          ],
+          "risk_flags": [
+            "metadata_only_support",
+            "environment_association_unverified",
+            "tooling_function_unverified",
+            "possible_name_proximity_risk",
+            "not_author_approved",
+            "not_publication_approved"
+          ],
+          "source_review_id": "source_review_5baf68d86960f91b97ac",
+          "suggested_search_queries": [
+            "site:github.com/openclaw/openclaw Hermes",
+            "site:github.com/openclaw/openclaw \"Hermes Agent\"",
+            "site:github.com/openclaw/openclaw OpenClaw Hermes",
+            "site:github.com/openclaw/openclaw assistant tooling",
+            "site:github.com/openclaw/openclaw configuration Hermes",
+            "site:github.com/openclaw/openclaw releases Hermes",
+            "repo:openclaw/openclaw Hermes",
+            "repo:openclaw/openclaw \"Hermes Agent\"",
+            "repo:openclaw/openclaw assistant",
+            "repo:openclaw/openclaw tool"
+          ],
+          "what_needs_corroboration": "Whether OpenClaw documentation or code explicitly names Hermes or Hermes Agent as a relevant environment, dependency, integration target, or adjacent operating context, and what the tooling actually does."
+        },
+        {
+          "advisory_only": true,
+          "author_allowed": false,
+          "corroboration_findings": [
+            "Provided context does not include the full source card or underlying files.",
+            "The item classification cannot be determined from the provided metadata alone.",
+            "No architecture-source status or caveat-only status is established by the provided context."
+          ],
+          "corroboration_status": "source_context_unclear",
+          "corroboration_strategy": "Before any corroboration collection, perform a source-review pass over the full source card, related README or documentation, and referenced skill or prompt files. Classify the item type and determine whether architecture claims are present or whether the item should remain only a caveat about source character.",
+          "current_source_support_enough": false,
+          "evidence_use_decision": "needs_source_review",
+          "publication_approved": false,
+          "recommended_next_stage": "needs_editor_review",
+          "required_source_types": [
+            "Source card full text",
+            "Repository README or docs",
+            "Related skill files referenced by the source card",
+            "Related prompt files referenced by the source card",
+            "Repository architecture documentation if present"
+          ],
+          "risk_flags": [
+            "source_context_unclear",
+            "classification_needed_before_corroboration",
+            "architecture_claim_risk",
+            "metadata_only_support",
+            "not_author_approved",
+            "not_publication_approved"
+          ],
+          "source_review_id": "source_review_e20631e18093139a8bc2",
+          "suggested_search_queries": [
+            "source card full text writing-audit rewrite skill OpenClaw Hermes",
+            "site:github.com/openclaw/openclaw writing audit rewrite skill",
+            "site:github.com/openclaw/openclaw rewrite skill",
+            "site:github.com/openclaw/openclaw architecture agent",
+            "site:github.com/openclaw/openclaw prompt skill audit",
+            "repo:openclaw/openclaw \"writing-audit\"",
+            "repo:openclaw/openclaw \"rewrite skill\"",
+            "repo:openclaw/openclaw architecture",
+            "repo:openclaw/openclaw prompt",
+            "repo:openclaw/openclaw skill"
+          ],
+          "what_needs_corroboration": "Whether the item is actually a writing-audit and rewrite skill, a caveat about source type, or a source containing substantive agent architecture material."
+        }
+      ]
+    },
+    "prompt_hash": "c4c848a751681f9c7cc4da5ff4ac2eee1af745a3c4d076cc58cd95c5f916d418",
+    "provider": "copilot",
+    "reasoning_status": "high_reasoning_used",
+    "schema_name": "corroboration_research_v1",
+    "stderr_redacted": "\nsession_id: 20260613_203606_6afc68\n",
+    "stdout_hash": "77a33d6d82983ea28b19112815403f012958d338f2f39bf80d767f0bb534ecc0",
+    "stdout_json_valid": true,
+    "timed_out": false,
+    "weak_local_fallback_refused": true
+  },
+  "input_paths": {
+    "candidate_selection_report": "reports/editorial/citation-pipeline-test-20260612-reasoning-candidate-selection.json",
+    "editor_packet_report": "reports/editorial/citation-pipeline-test-20260612-editor-review-packet-run8.json",
+    "filing_novelty_report": "reports/editorial/citation-pipeline-test-20260612-filing-novelty-evaluation-run9.json",
+    "quality_gate_report": "reports/editorial/citation-pipeline-test-20260612-quality-gate-run7-full.json",
+    "semantic_object_report": "reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning-run7.json",
+    "source_card_report": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning-run7.json",
+    "source_support_review_report": "reports/editorial/citation-pipeline-test-20260612-source-support-review-run10.json"
+  },
+  "llm_used": true,
+  "mode": "corroboration_research",
+  "model": "gpt-5.5",
+  "next_run_recommendation": {
+    "conditions": [
+      "remain report-only by default",
+      "do not create narrative packets until corroboration-required items are resolved or explicitly excluded",
+      "do not insert claims, approve author use, or approve publication"
+    ],
+    "recommendation": "controlled_external_source_collection_for_corroboration_candidates"
+  },
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-corroboration-research-run12.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-corroboration-research-run12.md"
+  },
+  "provider": "copilot",
+  "reasoning_status": "high_reasoning_used",
+  "recommended_next_stage_counts": {
+    "needs_editor_review": 1,
+    "run_additional_source_collection": 2
+  },
+  "report_only": true,
+  "reviewed_items_count": 3,
+  "risks": [
+    "Run 12 did not collect live external sources or browse the web.",
+    "GPT-5.5 output is advisory and not human/editor approval.",
+    "Items may be recommended for later persistence but Run 12 does not persist them."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "no_claim_insertion": true,
+    "no_daily_worker_changes": true,
+    "no_db_writes": true,
+    "no_docs_book_changes": true,
+    "no_editorial_review_insertion": true,
+    "no_external_web_search": true,
+    "no_schema_changes": true,
+    "publication_approved": false
+  },
+  "selected_items": [
+    {
+      "corroboration_decision": "corroboration_required",
+      "evidence_use_decision": "needs_corroboration_before_filing",
+      "filing_evaluation_id": "filing_eval_c39f3be4e7bef7f0dabe",
+      "next_stage_recommendation": "run_corroboration_research",
+      "selection_reason": "corroboration_required",
+      "semantic_object_id": "semantic_object_draft_425a074033ba640ec639",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_12c73455aa1816e5df8c",
+      "source_support_decision": "unsupported"
+    },
+    {
+      "corroboration_decision": "corroboration_required",
+      "evidence_use_decision": "needs_corroboration_before_filing",
+      "filing_evaluation_id": "filing_eval_b82d67d436357d41bf72",
+      "next_stage_recommendation": "run_corroboration_research",
+      "selection_reason": "corroboration_required",
+      "semantic_object_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "source_support_decision": "partially_supported"
+    },
+    {
+      "corroboration_decision": "corroboration_required",
+      "evidence_use_decision": "needs_source_review",
+      "filing_evaluation_id": "filing_eval_bd562e909f80e16a2bb3",
+      "next_stage_recommendation": "needs_source_review",
+      "selection_reason": "corroboration_required",
+      "semantic_object_id": "semantic_object_draft_5558303e45f77723657a",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_e20631e18093139a8bc2",
+      "source_support_decision": "unclear"
+    }
+  ],
+  "selected_items_count": 3,
+  "skipped_items": [
+    {
+      "corroboration_decision": "corroboration_not_required",
+      "evidence_use_decision": "eligible_as_caveat_only",
+      "filing_evaluation_id": "filing_eval_5a84c224eb58bf625f42",
+      "next_stage_recommendation": "eligible_for_filing_persistence",
+      "semantic_object_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+      "skip_reason": "already_eligible_or_persisted",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_01be74039581152450ad",
+      "source_support_decision": "supported"
+    },
+    {
+      "corroboration_decision": "corroboration_not_required",
+      "evidence_use_decision": "eligible_as_caveat_only",
+      "filing_evaluation_id": "filing_eval_224fd1bd260b4222fdfc",
+      "next_stage_recommendation": "eligible_for_filing_persistence",
+      "semantic_object_id": "semantic_object_draft_18e5d778bd54802d41b3",
+      "skip_reason": "already_eligible_or_persisted",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_a1bc597eb60322bee40e",
+      "source_support_decision": "supported"
+    }
+  ],
+  "skipped_items_count": 2,
+  "source_status_changed": false,
+  "status_counts": {
+    "insufficient_evidence": 2,
+    "source_context_unclear": 1
+  },
+  "status_hashes_after": {
+    "claims_status_hash": "2c2829622ff2988c13bc3c3f89c71dccd6139c1ec8ee06e28dc2f5e218d8df1c",
+    "editorial_reviews_hash": "ed4c9b3e8704af05cdd641320bece13b8c57a9762d4a8449f6af10314585d087",
+    "sources_status_hash": "bde40f350904114e864f418a59b9eb8636ae6dc598d5a73d8422ef280cb446ba"
+  },
+  "status_hashes_before": {
+    "claims_status_hash": "2c2829622ff2988c13bc3c3f89c71dccd6139c1ec8ee06e28dc2f5e218d8df1c",
+    "editorial_reviews_hash": "ed4c9b3e8704af05cdd641320bece13b8c57a9762d4a8449f6af10314585d087",
+    "sources_status_hash": "bde40f350904114e864f418a59b9eb8636ae6dc598d5a73d8422ef280cb446ba"
+  },
+  "verification": {}
+}

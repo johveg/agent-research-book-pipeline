@@ -1,6 +1,6 @@
 # Loop Engineer
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `concept`
 - Confidence: `medium`
@@ -15,26 +15,26 @@ Candidate concept entity extracted from 2 source(s).
 
 ## Related claims
 
-- **candidate / weak** — "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering "loop engineering". (`claim_0c76b2d0770ff1442eeb`)
 - **candidate / weak** — A massive shift is taking over the AI-coding world: 𝐋𝐨𝐨𝐩 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 🦄 Peter Steinberger (creator of OpenClaw) put it perfectly: "You should "loop engineering". (`claim_d5114c470bc15c1942c3`)
 - **candidate / weak** — A team can now take a vague Jira ticket, have an AI assistant draft accept "loop engineer". (`claim_4dcd77cdc14eae09312f`)
-- **candidate / weak** — AI Industry Shifts Toward Loop Engineering and Agentic Development Architectures 📌 The AI landscape is pivoting from manual prompting to loo "loop engineering". (`claim_195590e66b871a4a2388`)
 - **candidate / weak** — AI LOOP Engineering is the cycle that makes AI systems smarter over time. (`claim_7befc8fb98fd70f62709`)
-- **candidate / weak** — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation "loop engineering". (`claim_35259524a830a49e0d38`)
 - **candidate / weak** — As LLMs grow more powerful, the main bottleneck in autonomous scientific discovery is shifting from how we program agents to how we build th "loop engineering". (`claim_5a685f6fa8a752196194`)
-- **candidate / weak** — As usual the stream of AI news is overwhelming, but here something that stood out for me: - suddenly a new term is "loop engineering". (`claim_f72d85377bdee2134ec9`)
 - **candidate / weak** — Balance (YC W26) is growing at immense pace and we're now taking more meetings with incredible prospective cus "loop engineering". (`claim_9908fc60406b185b1a53`)
+- **candidate / weak** — But they are using a revolutionary architecture just to fix Python synta "loop engineering". (`claim_90ad8794db77377938f3`)
 - **candidate / weak** — Charlie has just completed his first week of "loop engineer". (`claim_4281554a998f5c722a4f`)
-- **candidate / weak** — Feed post KYUNGJUN LIM • 3rd+ I am the founder of Freederia.com, where we are changing the paradigm of future technology research through AI "loop engineering". (`claim_a636ae2aed40e40d5044`)
 - **candidate / weak** — Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec "loop engineering". (`claim_15f8b0cc4f368aebcaa7`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
 - **candidate / weak** — I am pleased to share Phase 1 of Judicium, an AI-native engineering assessment platform built around a single conviction: code production is "loop engineering". (`claim_b1c70983319d96ed6985`)
-- **candidate / weak** — I have spent a lot of time in my career talking to people about work, leadership, technology, and what it means to show up when things are h "loop engineering". (`claim_91fb102701273e064a2f`)
 - **candidate / weak** — I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice. (`claim_773e28b6a909ecda80a4`)
 - **candidate / weak** — Is Loop Engineering the next big thing, or the next big token bill?. (`claim_eae05f1f08eda49650e2`)
 - **candidate / weak** — I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w "loop engineer". (`claim_f5ec1a5fa9625a462d70`)
-- **candidate / weak** — Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI landscape is shifting from manual prompting to loop engineering, "loop engineering". (`claim_bb9214728e7a7d9589c9`)
-- **candidate / weak** — Loop Engineering Emerges to Advance Autonomous AI Coding Agents 📌 Software development is undergoing a paradigm shift as developers move fro "loop engineering". (`claim_08b20402ee60da372924`)
+- **candidate / weak** — Loop Engineering: AI Coding Has Entered the Systems Era (Most People Are Still Stuck in Chat) | by JIN | JIN System Architect | Jun, 2026 | Medium "loop engineering" AI agents medium.com. (`claim_f5b1cdd1300f8324b5c6`)
+- **candidate / weak** — Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate "loop engineering". (`claim_aa15ac8d93b19deb75a5`)
+- **candidate / weak** — Supporting the next generation of engineers is something we're proud to do at Loop Engineering. (`claim_9c0316e189a0206606cc`)
+- **candidate / weak** — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. (`claim_7e74b63407356799b13e`)
+- **candidate / weak** — The term is all over the place right now, and it started with two post "loop engineering". (`claim_a23dc490defc35cc52cc`)
+- **candidate / weak** — There are 4 layers to working with AI effectively—and most teams are st "loop engineering". (`claim_287f3002d53df171b280`)
+- **candidate / weak** — This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b "loop engineering". (`claim_604d0ac7c64497718722`)
 
 ## Source references
 

@@ -1,0 +1,205 @@
+{
+  "bridge": "hermes_cli",
+  "chapters_modified": false,
+  "commit_allowlist_modified": false,
+  "confidence_level": "high",
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "generated_at": "2026-06-13T18:36:31Z",
+  "high_reasoning_bridge": {
+    "bridge": "hermes_cli",
+    "canary_succeeded": true,
+    "configured": true,
+    "exit_code": 0,
+    "model_checked": "gpt-5.5",
+    "parsed_json": {
+      "model": "gpt-5.5",
+      "ok": true,
+      "reasoning": "available"
+    },
+    "provider_checked": "copilot",
+    "reason": "Hermes CLI bridge canary returned strict valid JSON.",
+    "semantic_bridge_result": {
+      "bridge": "hermes_cli",
+      "error": "",
+      "exit_code": 0,
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "ok": true,
+      "provider": "copilot",
+      "reasoning_status": "high_reasoning_used",
+      "stdout_json_valid": true,
+      "timed_out": false
+    },
+    "stderr_redacted": "\nsession_id: 20260613_183547_7ec645\n",
+    "weak_local_fallback_refused": true
+  },
+  "high_reasoning_canary": {
+    "bridge": "hermes_cli",
+    "canary_succeeded": true,
+    "configured": true,
+    "exit_code": 0,
+    "model_checked": "gpt-5.5",
+    "parsed_json": {
+      "model": "gpt-5.5",
+      "ok": true,
+      "reasoning": "available"
+    },
+    "provider_checked": "copilot",
+    "reason": "Hermes CLI bridge canary returned strict valid JSON.",
+    "semantic_bridge_result": {
+      "bridge": "hermes_cli",
+      "error": "",
+      "exit_code": 0,
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "ok": true,
+      "provider": "copilot",
+      "reasoning_status": "high_reasoning_used",
+      "stdout_json_valid": true,
+      "timed_out": false
+    },
+    "stderr_redacted": "\nsession_id: 20260613_183547_7ec645\n",
+    "weak_local_fallback_refused": true
+  },
+  "idempotent": true,
+  "llm_used": true,
+  "long_source_excerpt_written": false,
+  "mode": "semantic_object_drafts",
+  "model": "gpt-5.5",
+  "next_run_recommendation": {
+    "rationale": "Canary passed and outputs are schema-valid, but still advisory-only.",
+    "recommendation": "review semantic drafts before filing/novelty evaluation"
+  },
+  "output_paths": {
+    "evidence_map": "reports/architecture/run5-high-reasoning-bridge-evidence-map-20260613.md",
+    "json": "reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning.md"
+  },
+  "provider": "copilot",
+  "raw_private_material_written": false,
+  "reasoning_status": "high_reasoning_used",
+  "risks": [
+    "No-LLM semantic extraction is structural only and low-confidence.",
+    "No semantic object is author-approved or publication-approved.",
+    "source_notes is a generic store and may need a dedicated semantic_objects table later.",
+    "High-reasoning provider invocation is not active unless canary succeeds."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "schema_modified": false,
+  "semantic_notes_failed": 0,
+  "semantic_notes_inserted": 0,
+  "semantic_notes_skipped_existing": 0,
+  "semantic_notes_updated": 0,
+  "semantic_objects": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_chapter_targets": [
+        "04-loop-engineering",
+        "05-context-memory-architecture"
+      ],
+      "confidence": "high",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "evidence_basis": "source_card_draft",
+      "evidence_strength": "reject",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "object_input_hash": "5058c74bc3afe47fcf3878e88ed7b1050740b966e57beed1f35621366df61020",
+      "object_output_hash": "e109f6c6bee772339abd1a81c2511d02c8a4a20ca829eaeb12b4d0cfb6fb7a89",
+      "object_type": "interpretation",
+      "paraphrase_only": true,
+      "privacy_publication_status": "human_review",
+      "provider": "copilot",
+      "publication_approved": false,
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_db6ceb5790045cce4d3a",
+      "source_card_hash": "235a79024ca6c08a236475207bd08d2801bfd438f11508bd44d8c7bc3c0b1106",
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd",
+      "source_note_id": "note_c740440f695e712c6ce6",
+      "source_quality_score": "D",
+      "source_text_hash": "b2fbd290ad1f39e1c5d4db5022ecfb588e2975347b5421a655338b311d68b5a9",
+      "text": "A LinkedIn search result links prompt-engineering discussion with context and a loop-engineer query."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "confidence": "high",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "evidence_basis": "source_card_draft",
+      "evidence_strength": "reject",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "object_input_hash": "ced9b18da18d8907fc0da8736752a8741114ff14caff3cc6d6a1cb9d29a87f1a",
+      "object_output_hash": "bf881c085d1ffab40c33102fecf5d0e9b4f7b37d75ff3119dc2f04ec447f0f1b",
+      "object_type": "interpretation",
+      "paraphrase_only": true,
+      "privacy_publication_status": "human_review",
+      "provider": "copilot",
+      "publication_approved": false,
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_9aa9ffb0b7f788f57ee1",
+      "source_card_hash": "235a79024ca6c08a236475207bd08d2801bfd438f11508bd44d8c7bc3c0b1106",
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd",
+      "source_note_id": "note_c740440f695e712c6ce6",
+      "source_quality_score": "D",
+      "source_text_hash": "b2fbd290ad1f39e1c5d4db5022ecfb588e2975347b5421a655338b311d68b5a9",
+      "text": "A LinkedIn search result references technology and product-development innovation near a loop-engineer query."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "confidence": "high",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "evidence_basis": "source_card_draft",
+      "evidence_strength": "reject",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "object_input_hash": "44b8395ff5ab2f530c6672ee9ae7a3dfcf769f8c561a710dd1e1421c7bf674a1",
+      "object_output_hash": "c58439dd9211bcea21e07be2dbe8b78470ab8f93aad4a5e06f71f40a6dad9c0b",
+      "object_type": "interpretation",
+      "paraphrase_only": true,
+      "privacy_publication_status": "human_review",
+      "provider": "copilot",
+      "publication_approved": false,
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_2cb9451bf751ff120116",
+      "source_card_hash": "235a79024ca6c08a236475207bd08d2801bfd438f11508bd44d8c7bc3c0b1106",
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd",
+      "source_note_id": "note_c740440f695e712c6ce6",
+      "source_quality_score": "D",
+      "source_text_hash": "b2fbd290ad1f39e1c5d4db5022ecfb588e2975347b5421a655338b311d68b5a9",
+      "text": "A LinkedIn search result associates software-engineering leadership, full-stack work, and cloud solutions with a loop-engineer query."
+    }
+  ],
+  "semantic_objects_generated": 3,
+  "source_card_notes_read": 3,
+  "statuses_modified": false,
+  "verification": {},
+  "write_semantic_notes_requested": false
+}

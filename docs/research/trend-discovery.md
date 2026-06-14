@@ -1,14 +1,46 @@
 # Trend Discovery
 
-Last generated: 2026-06-13T01:27:16Z
+Last generated: 2026-06-14T01:25:07Z
 
 Candidate terms are **not automatically promoted** into recurring searches. They are proposed for review.
 
+- **model** — 1315 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **claude** — 1156 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **code** — 892 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **send** — 876 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **repost** — 870 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **view** — 823 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **repost send** — 792 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **image** — 789 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **larger** — 740 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **activate** — 726 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **activate view** — 718 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **activate view larger** — 718 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **larger image** — 718 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **view larger** — 718 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **view larger image** — 718 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **every** — 713 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **afsd** — 712 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **ali afsd** — 712 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **just** — 685 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **work** — 603 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **prompt** — 587 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **lnkd.in** — 508 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **building** — 500 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **build** — 481 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **through** — 475 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **real** — 471 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **activity** — 436 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **time** — 411 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **image repost** — 289 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **larger image repost** — 289 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **loops** — 325 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **full** — 287 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **still** — 214 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
+- **here** — 182 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
 - **hashtag** — 2505 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
 - **urn** — 1275 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
-- **claude** — 855 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
 - **https** — 832 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
-- **model** — 814 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
 - **search** — 805 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
 - **text** — 766 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
 - **url** — 724 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
@@ -29,7 +61,6 @@ Candidate terms are **not automatically promoted** into recurring searches. They
 - **t01 url** — 668 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
 - **visible text** — 668 mentions; status: `reject`; run: `citation-pipeline-test-20260612`
 - **skills** — 578 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
-- **code** — 563 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
 - **models** — 555 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
 - **one** — 542 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
 - **comment** — 526 mentions; status: `monitor`; run: `citation-pipeline-test-20260612`
@@ -40,4 +71,3 @@ Candidate terms are **not automatically promoted** into recurring searches. They
 - **captured t17 url** — 684 mentions; status: `candidate`; run: `manual-20260611T173313Z`
 - **query captured t17** — 684 mentions; status: `candidate`; run: `manual-20260611T173313Z`
 - **t17 url** — 684 mentions; status: `candidate`; run: `manual-20260611T173313Z`
-- **view** — 521 mentions; status: `candidate`; run: `manual-20260611T173313Z`

@@ -1,6 +1,6 @@
 # Hivemind
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `framework`
 - Confidence: `high`
@@ -15,7 +15,7 @@ Candidate framework entity extracted from 3 source(s).
 
 ## Related claims
 
-- **weakly_supported / weak** — Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod "loop engineering". (`claim_c86b0732dedc22f8a651`)
+- **needs_review / weak** — Hivemind Launches Continual Learning for AI Coding Agents 📌 Hivemind has launched a groundbreaking open-source framework that enables AI cod "loop engineering". (`claim_c86b0732dedc22f8a651`)
 
 ## Source references
 

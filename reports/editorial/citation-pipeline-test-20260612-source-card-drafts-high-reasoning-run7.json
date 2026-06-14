@@ -1,0 +1,1159 @@
+{
+  "bridge": "hermes_cli",
+  "candidate_selection": {
+    "enabled": true,
+    "materially_better_than_run5_sample": true,
+    "privacy_distribution": {
+      "human_review": 870,
+      "publishable_metadata_only": 71,
+      "reject": 4
+    },
+    "quality_distribution": {
+      "A": 17,
+      "B": 11,
+      "C": 45,
+      "D": 868,
+      "E": 4
+    },
+    "selected_count": 5,
+    "selected_sources": [
+      {
+        "canonical_url_available": true,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "02-hermes",
+          "03-openclaw"
+        ],
+        "privacy_publication_status": "publishable_metadata_only",
+        "publisher": "blog.gopenai.com",
+        "quality_score": "A",
+        "risk_flags": [],
+        "selection_decision": "selected",
+        "selection_reason": "quality_score A; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw, autonomous_agents",
+        "selection_score": 135,
+        "source_id": "src_c6b80c86cd5637ddd0b8",
+        "source_text_hash": "71e41ffe16b1cf57786c5a55c38c693a8428421ae22ea340f1e36e051ec183c1",
+        "source_type": "web",
+        "theme_hits": [
+          "hermes",
+          "openclaw",
+          "autonomous_agents"
+        ],
+        "title": "Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI",
+        "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+      },
+      {
+        "canonical_url_available": true,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "02-hermes",
+          "03-openclaw"
+        ],
+        "privacy_publication_status": "publishable_metadata_only",
+        "publisher": "www.teknoding.com",
+        "quality_score": "B",
+        "risk_flags": [],
+        "selection_decision": "selected",
+        "selection_reason": "quality_score B; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw, autonomous_agents, context_memory_architecture",
+        "selection_score": 132,
+        "source_id": "src_bebe03beb8a33c199ce8",
+        "source_text_hash": "a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c",
+        "source_type": "web",
+        "theme_hits": [
+          "hermes",
+          "openclaw",
+          "autonomous_agents",
+          "context_memory_architecture"
+        ],
+        "title": "How to Set Up GBrain: A Simple Tutorial for AI Agent Memory",
+        "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+      },
+      {
+        "canonical_url_available": true,
+        "expected_chapter_targets": [
+          "02-hermes",
+          "03-openclaw"
+        ],
+        "privacy_publication_status": "publishable_metadata_only",
+        "publisher": "github.com",
+        "quality_score": "A",
+        "risk_flags": [],
+        "selection_decision": "selected",
+        "selection_reason": "quality_score A; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw",
+        "selection_score": 128,
+        "source_id": "src_6d7b6d80cda4e784877d",
+        "source_text_hash": "384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3",
+        "source_type": "web",
+        "theme_hits": [
+          "hermes",
+          "openclaw"
+        ],
+        "title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+        "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+      },
+      {
+        "canonical_url_available": true,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "02-hermes",
+          "03-openclaw"
+        ],
+        "privacy_publication_status": "publishable_metadata_only",
+        "publisher": "github.com",
+        "quality_score": "A",
+        "risk_flags": [],
+        "selection_decision": "selected",
+        "selection_reason": "quality_score A; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw",
+        "selection_score": 128,
+        "source_id": "src_89933e373b741e71c5c6",
+        "source_text_hash": "237fd108dfb3a9101f0cb2cd23f4f030cf1ed9550f15163d7fc0254a71396b9b",
+        "source_type": "web",
+        "theme_hits": [
+          "hermes",
+          "openclaw"
+        ],
+        "title": "GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub",
+        "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+      },
+      {
+        "canonical_url_available": true,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "02-hermes",
+          "03-openclaw"
+        ],
+        "privacy_publication_status": "publishable_metadata_only",
+        "publisher": "github.com",
+        "quality_score": "A",
+        "risk_flags": [],
+        "selection_decision": "selected",
+        "selection_reason": "quality_score A; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw",
+        "selection_score": 128,
+        "source_id": "src_e9bb5a4bcd1c1f9e9744",
+        "source_text_hash": "e22c46fd14feb7dd7d748a539c6eef142c5262bbbda1a49d301306b3a08e62d8",
+        "source_type": "web",
+        "theme_hits": [
+          "hermes",
+          "openclaw"
+        ],
+        "title": "GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claud…",
+        "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+      }
+    ],
+    "skipped_sources_sample": [
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "02-hermes"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata",
+          "thin safe text"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: hermes",
+        "selection_score": -163,
+        "source_id": "src_3d7da92c06e33797013f",
+        "source_text_hash": "cb1073c28c7b1eefaedb241c388bee3a25736bee170085ae02a90ce52a72545a",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "hermes"
+        ],
+        "title": "visualized how agent profiles work in Hermes Agent [url]",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "04-loop-engineering",
+          "01-the-agent-loop"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata",
+          "thin safe text"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: loop_engineering",
+        "selection_score": -163,
+        "source_id": "src_12ee00d806eca0600392",
+        "source_text_hash": "60118431df18887dc1cfb8321b389eb5a12c64db41558439c1c21bf385419383",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "loop_engineering"
+        ],
+        "title": "I am officially becoming a high agency AI Loop Engineer.",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "02-hermes"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata",
+          "thin safe text"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: hermes",
+        "selection_score": -163,
+        "source_id": "src_7847d3a28b074560f2d9",
+        "source_text_hash": "c5d0d9a2b4d7bc345c367f8988af0201080a734aca3f441e1674ba695a9f182f",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "hermes"
+        ],
+        "title": "Collaborative articles Filter by Collaborative articles",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "02-hermes"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata",
+          "thin safe text"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: hermes",
+        "selection_score": -163,
+        "source_id": "src_b06b3c2b98f8d253c429",
+        "source_text_hash": "51aa8eeb90fe14aa20cd4f6a9db907ced77a7c63ae6ac8c84a54addded15e6fa",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "hermes"
+        ],
+        "title": "Hello from Hermes Agent! This is a test post. 🤖",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "04-loop-engineering"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata",
+          "thin safe text"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: autonomous_agents, loop_engineering",
+        "selection_score": -156,
+        "source_id": "src_4a6f55653ff6506123e7",
+        "source_text_hash": "021e562bcefed9b92efae7862f7150c4ab44a0da004043ee1883f4ad43dcce54",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "autonomous_agents",
+          "loop_engineering"
+        ],
+        "title": "[url] hashtag #agentic hashtag #artificialintelligence",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "02-hermes",
+          "03-openclaw"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata",
+          "thin safe text"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: hermes, openclaw",
+        "selection_score": -156,
+        "source_id": "src_d300a147bc14bb37fb69",
+        "source_text_hash": "27d3830c5218e24a1e1f68a1e961fee672775a1ef727da6cd7ff639db89e8d38",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "hermes",
+          "openclaw"
+        ],
+        "title": "Hvorfor jeg skiftede fra OpenClaw til Hermes",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "04-loop-engineering"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+        "selection_score": -135,
+        "source_id": "src_9471e5ba147ec4be19b6",
+        "source_text_hash": "c7b3115e69b12e6507f309ddad69ec433e7010d1cba7bc427355d12f9503f63a",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "loop_engineering"
+        ],
+        "title": "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "01-the-agent-loop",
+          "04-loop-engineering"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+        "selection_score": -135,
+        "source_id": "src_8be266ff616aacd1fbdc",
+        "source_text_hash": "8b02d29fde247b9b18e364745d8aeb094dc7bd6f68cadbc08a84c49b63937e3c",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "loop_engineering"
+        ],
+        "title": "Counter-UAS: What the Ground Tells Us Most drone threats today aren’t sophisticated military platforms. They’re cheap, commercially availabl",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "04-loop-engineering",
+          "01-the-agent-loop"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+        "selection_score": -135,
+        "source_id": "src_a8365473eee76a481932",
+        "source_text_hash": "1a9badb028831b0fbf272cab38d55694b81edfd4c7db2be6fef67b54a626b600",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "loop_engineering"
+        ],
+        "title": "The vocabulary of AI-assisted software development keeps evolving. The newest addition to the list is Loop Engineering. We’ve gone from Vibe",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      },
+      {
+        "canonical_url_available": false,
+        "expected_chapter_targets": [
+          "04-loop-engineering",
+          "01-the-agent-loop"
+        ],
+        "privacy_publication_status": "human_review",
+        "publisher": "",
+        "quality_score": "D",
+        "risk_flags": [
+          "below_min_quality_C",
+          "quality_score D",
+          "linkedin_search_result",
+          "human_review privacy status",
+          "missing canonical URL",
+          "thin title/publisher metadata"
+        ],
+        "selection_decision": "skipped",
+        "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+        "selection_score": -135,
+        "source_id": "src_3d0c6fa87ab6269f1020",
+        "source_text_hash": "5987950379d36670d30ace8d16f4c03713fc054ab5c8284166dc87533b98f9df",
+        "source_type": "linkedin_search_result",
+        "theme_hits": [
+          "loop_engineering"
+        ],
+        "title": "\"Loop Engineering es cuando te das cuenta de que eres demasiado vago para escribir un prompt, así que haces que una IA escriba prompts para",
+        "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+      }
+    ],
+    "source_type_distribution": {
+      "linkedin_search_result": 868,
+      "web": 77
+    },
+    "total_sources_inspected": 945
+  },
+  "chapters_modified": false,
+  "commit_allowlist_modified": false,
+  "confidence_level": "high",
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "generated_at": "2026-06-13T19:41:01Z",
+  "high_reasoning_bridge": {
+    "bridge": "hermes_cli",
+    "command_shape": "timeout 180 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+    "elapsed_seconds": 46.226,
+    "error": "",
+    "exit_code": 0,
+    "generated_at": "2026-06-13T19:40:15Z",
+    "llm_used": true,
+    "model": "gpt-5.5",
+    "ok": true,
+    "parsed_json": {
+      "source_cards": [
+        {
+          "advisory_only": true,
+          "author": "",
+          "candidate_claims": [
+            "This source may be useful as a weak signal that Fermix was framed in relation to OpenClaw and Hermes in a personal-agent discussion."
+          ],
+          "candidate_counterpoints": [
+            "Only minimal sanitized text is available, so the technical argument, implementation details, and comparisons cannot be verified from this card alone."
+          ],
+          "candidate_examples": [],
+          "canonical_url_available": true,
+          "captured_at": "2026-06-12T01:10:38Z",
+          "card_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+          "card_input_hash": "230eebb95af4e5c0e10ef9bd766f023d15ad4998372937db1308cca81dfe779f",
+          "card_output_hash": "4cd847ed4164c6d8e95b12d1cc6213f3f67b302ab72298b76684937340c2ce6b",
+          "confidence": "high",
+          "do_not_publish_reason": "Advisory extraction only; source text is too thin for publication approval.",
+          "duplicate_status": "unique",
+          "evidence_strength": "weak",
+          "likely_chapter_targets": [
+            "01-the-agent-loop",
+            "02-hermes",
+            "03-openclaw"
+          ],
+          "llm_used": true,
+          "main_thesis": "A GoPenAI item appears to discuss Fermix as a separately designed personal AI agent, framed against OpenClaw and Hermes.",
+          "model": "gpt-5.5",
+          "named_entities": [
+            "Fermix",
+            "Sujeeth Shetty",
+            "GoPenAI",
+            "OpenClaw",
+            "Hermes"
+          ],
+          "privacy_publication_status": "publishable_metadata_only",
+          "publication_approved": false,
+          "publisher": "blog.gopenai.com",
+          "quality_score": "A",
+          "recommended_use": "semantic_extraction_candidate",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "run_id": "citation-pipeline-test-20260612",
+          "safe_summary": "Metadata points to a GoPenAI piece about Fermix, a personal AI agent concept presented as distinct from OpenClaw and Hermes.",
+          "source_id": "src_c6b80c86cd5637ddd0b8",
+          "source_text_hash": "71e41ffe16b1cf57786c5a55c38c693a8428421ae22ea340f1e36e051ec183c1",
+          "source_type": "web",
+          "technical_terms": [
+            "agent",
+            "AI"
+          ],
+          "useful_observations": [
+            "The available text links Fermix, OpenClaw, and Hermes in a personal AI agent context."
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author": "",
+          "candidate_claims": [
+            "The source can support a cautious note that AI-agent memory tooling is discussed alongside OpenClaw and Hermes in secondary web material.",
+            "The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources."
+          ],
+          "candidate_counterpoints": [
+            "The sanitized text does not show the tutorial steps, architecture, or evidence for how memory is implemented."
+          ],
+          "candidate_examples": [],
+          "canonical_url_available": true,
+          "captured_at": "2026-06-11T17:33:21Z",
+          "card_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+          "card_input_hash": "f78fdff18066a8d675e25b26fbf94c7a9db2494547ebc4e2c21f1bcca55931cd",
+          "card_output_hash": "3e17732601ae5e886cb16a4e678f9c3b34efb87943e2614d4ceb0c7b7406e464",
+          "confidence": "high",
+          "do_not_publish_reason": "Advisory extraction only; source text is too limited for publication approval.",
+          "duplicate_status": "unique",
+          "evidence_strength": "weak",
+          "likely_chapter_targets": [
+            "02-hermes",
+            "01-the-agent-loop",
+            "03-openclaw"
+          ],
+          "llm_used": true,
+          "main_thesis": "A Teknoding tutorial is presented as a simple setup guide for GBrain memory in an AI-agent context mentioning OpenClaw and Hermes.",
+          "model": "gpt-5.5",
+          "named_entities": [
+            "GBrain",
+            "OpenClaw",
+            "Hermes",
+            "Teknoding"
+          ],
+          "privacy_publication_status": "publishable_metadata_only",
+          "publication_approved": false,
+          "publisher": "www.teknoding.com",
+          "quality_score": "B",
+          "recommended_use": "semantic_extraction_candidate",
+          "risk_flags": [
+            "thin_source_text"
+          ],
+          "run_id": "citation-pipeline-test-20260612",
+          "safe_summary": "Metadata indicates a Teknoding tutorial about GBrain memory setup for AI agents, with OpenClaw and Hermes appearing as related terms.",
+          "source_id": "src_bebe03beb8a33c199ce8",
+          "source_text_hash": "a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c",
+          "source_type": "web",
+          "technical_terms": [
+            "agent",
+            "memory",
+            "AI"
+          ],
+          "useful_observations": [
+            "The available text connects GBrain setup, AI-agent memory, OpenClaw, and Hermes."
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author": "",
+          "candidate_claims": [
+            "This source can weakly support identifying OpenClaw as a GitHub-hosted personal AI assistant project.",
+            "The metadata suggests OpenClaw is positioned for broad OS and platform coverage."
+          ],
+          "candidate_counterpoints": [
+            "The sanitized text does not include repository contents, maintainers, license, code evidence, or implementation details."
+          ],
+          "candidate_examples": [],
+          "canonical_url_available": true,
+          "captured_at": "2026-06-13T01:10:48Z",
+          "card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+          "card_input_hash": "2cdb2fffe490c35cdef999f122b76ad7f508ef0152fd253576ed1c10316c49cf",
+          "card_output_hash": "d28eee648899c304ba766827b374dac33d7976d775e90b2b657d3190c4b48e49",
+          "confidence": "high",
+          "do_not_publish_reason": "Advisory extraction only; repository claims need direct review before publication.",
+          "duplicate_status": "unique",
+          "evidence_strength": "weak",
+          "likely_chapter_targets": [
+            "02-hermes",
+            "03-openclaw"
+          ],
+          "llm_used": true,
+          "main_thesis": "The GitHub metadata identifies OpenClaw as a personal AI assistant project with broad operating-system and platform positioning.",
+          "model": "gpt-5.5",
+          "named_entities": [
+            "GitHub",
+            "OpenClaw",
+            "Hermes"
+          ],
+          "privacy_publication_status": "publishable_metadata_only",
+          "publication_approved": false,
+          "publisher": "github.com",
+          "quality_score": "A",
+          "recommended_use": "semantic_extraction_candidate",
+          "risk_flags": [],
+          "run_id": "citation-pipeline-test-20260612",
+          "safe_summary": "GitHub metadata presents OpenClaw as a personal AI assistant project intended to work across operating systems and platforms.",
+          "source_id": "src_6d7b6d80cda4e784877d",
+          "source_text_hash": "384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3",
+          "source_type": "web",
+          "technical_terms": [
+            "AI",
+            "OS"
+          ],
+          "useful_observations": [
+            "The available text frames OpenClaw as a personal AI assistant and mentions broad platform support."
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author": "",
+          "candidate_claims": [
+            "This source can weakly support the existence of a GitHub-hosted Hermes WebUI project associated with Hermes Agent.",
+            "The metadata suggests the project focuses on making Hermes Agent usable from web or phone interfaces."
+          ],
+          "candidate_counterpoints": [
+            "The sanitized text does not establish project status, feature completeness, code quality, or active maintenance."
+          ],
+          "candidate_examples": [],
+          "canonical_url_available": true,
+          "captured_at": "2026-06-12T01:10:38Z",
+          "card_id": "source_card_draft_src_89933e373b741e71c5c6",
+          "card_input_hash": "20c17badfca955dfde14e7d11e2e426cf9b973a5fc4fa937d6676dd257433534",
+          "card_output_hash": "900192326f255908f645587ea92d7fae9acf35028dfe4263c48bf0db1b0540bf",
+          "confidence": "high",
+          "do_not_publish_reason": "Advisory extraction only; repository details require direct verification before publication.",
+          "duplicate_status": "unique",
+          "evidence_strength": "weak",
+          "likely_chapter_targets": [
+            "01-the-agent-loop",
+            "02-hermes",
+            "03-openclaw"
+          ],
+          "llm_used": true,
+          "main_thesis": "The GitHub metadata describes Hermes WebUI as a browser or phone-facing interface for using Hermes Agent.",
+          "model": "gpt-5.5",
+          "named_entities": [
+            "GitHub",
+            "Hermes WebUI",
+            "Hermes Agent",
+            "Hermes",
+            "OpenClaw"
+          ],
+          "privacy_publication_status": "publishable_metadata_only",
+          "publication_approved": false,
+          "publisher": "github.com",
+          "quality_score": "A",
+          "recommended_use": "semantic_extraction_candidate",
+          "risk_flags": [],
+          "run_id": "citation-pipeline-test-20260612",
+          "safe_summary": "GitHub metadata presents Hermes WebUI as a web and mobile-accessible interface for Hermes Agent.",
+          "source_id": "src_89933e373b741e71c5c6",
+          "source_text_hash": "237fd108dfb3a9101f0cb2cd23f4f030cf1ed9550f15163d7fc0254a71396b9b",
+          "source_type": "web",
+          "technical_terms": [
+            "agent"
+          ],
+          "useful_observations": [
+            "The available text links Hermes WebUI with Hermes Agent and GitHub."
+          ]
+        },
+        {
+          "advisory_only": true,
+          "author": "",
+          "candidate_claims": [
+            "This source can weakly support that some agent-adjacent tooling names OpenClaw and Hermes as supported or relevant environments.",
+            "The metadata frames the project as a content-auditing and rewriting skill rather than a core agent architecture source."
+          ],
+          "candidate_counterpoints": [
+            "The sanitized text does not show the skill's method, rules, accuracy, or integration details."
+          ],
+          "candidate_examples": [],
+          "canonical_url_available": true,
+          "captured_at": "2026-06-12T01:10:27Z",
+          "card_id": "source_card_draft_src_e9bb5a4bcd1c1f9e9744",
+          "card_input_hash": "8b1d5b0a8661adac862346cf1885745c44b3fc4926419e4005c2fdd14f5dae70",
+          "card_output_hash": "a581a133a00c385d73b55e0dae48c7c2f049aa73acd2c8eafbd0eb55934978cc",
+          "confidence": "high",
+          "do_not_publish_reason": "Advisory extraction only; implementation and compatibility claims need verification before publication.",
+          "duplicate_status": "unique",
+          "evidence_strength": "weak",
+          "likely_chapter_targets": [
+            "01-the-agent-loop",
+            "02-hermes",
+            "03-openclaw"
+          ],
+          "llm_used": true,
+          "main_thesis": "The GitHub metadata describes an AI-writing-pattern audit and rewrite skill intended for use with multiple agent tools, including OpenClaw and Hermes.",
+          "model": "gpt-5.5",
+          "named_entities": [
+            "GitHub",
+            "Claude Code",
+            "OpenClaw",
+            "Hermes"
+          ],
+          "privacy_publication_status": "publishable_metadata_only",
+          "publication_approved": false,
+          "publisher": "github.com",
+          "quality_score": "A",
+          "recommended_use": "semantic_extraction_candidate",
+          "risk_flags": [],
+          "run_id": "citation-pipeline-test-20260612",
+          "safe_summary": "GitHub metadata describes a skill for auditing or rewriting AI-styled text, with OpenClaw and Hermes listed among compatible agents.",
+          "source_id": "src_e9bb5a4bcd1c1f9e9744",
+          "source_text_hash": "e22c46fd14feb7dd7d748a539c6eef142c5262bbbda1a49d301306b3a08e62d8",
+          "source_type": "web",
+          "technical_terms": [
+            "agent",
+            "agents",
+            "AI"
+          ],
+          "useful_observations": [
+            "The available text connects a writing-audit skill with Claude Code, OpenClaw, and Hermes."
+          ]
+        }
+      ]
+    },
+    "prompt_hash": "cecd7ed7a79abd4ff5bc4bcc7b791cfca52b5c2fb03f3def47ef6a10272459db",
+    "provider": "copilot",
+    "reasoning_status": "high_reasoning_used",
+    "schema_name": "source_cards",
+    "stderr_redacted": "\nsession_id: 20260613_194017_18aa0a\n",
+    "stdout_hash": "e423420b7365a95a5e062ac63f5e1d6b4474e1305fed3c88cf429cdd56f0be60",
+    "stdout_json_valid": true,
+    "timed_out": false,
+    "weak_local_fallback_refused": true
+  },
+  "idempotent": true,
+  "llm_note": "Hermes CLI high-reasoning bridge requested; outputs must parse as strict JSON and schema-validate.",
+  "llm_used": true,
+  "long_source_excerpt_written": false,
+  "mode": "source_card_drafts_with_optional_persistence",
+  "model": "gpt-5.5",
+  "next_run_recommendation": {
+    "do_not_change_yet": [
+      "docs/book/",
+      "scripts/daily_book_worker.py",
+      "data/schema.sql",
+      "commit allowlist",
+      "claim/source status promotion"
+    ],
+    "likely_files_to_change": [
+      "scripts/llm_source_cards.py",
+      "tests/test_llm_source_cards.py",
+      "possibly a new semantic-extraction report-only script after review"
+    ],
+    "rationale": "source_notes can hold draft JSON without schema migration, but no-LLM cards are low-confidence and should be reviewed before semantic extraction.",
+    "recommendation": "Review persisted source-card drafts, then proceed to semantic extraction from persisted cards only if card quality and safety are acceptable; otherwise refine source-card heuristics/prompt first."
+  },
+  "output_paths": {
+    "evidence_map": "reports/architecture/run7-better-source-regeneration-evidence-map-20260613.md",
+    "json": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning-run7.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning-run7.md"
+  },
+  "provider": "copilot",
+  "raw_private_material_written": false,
+  "reasoning_status": "high_reasoning_used",
+  "risks": [
+    "No-LLM source cards are structural and low-confidence.",
+    "Real LLM prompts may produce unstable JSON unless schema-validated.",
+    "Sanitized source text may still include too much wording if max-summary limits are raised.",
+    "source_notes is generic and may be too limited for long-term source-card lifecycle/versioning.",
+    "A dedicated source_cards table may still be needed after persistence review.",
+    "Social/private-adjacent sources must remain discovery-only or needs-review until corroborated.",
+    "Vector DB chunks are not source authority and are not used by this script."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_assessment": {
+    "advisory_only": true,
+    "chapters_modified": false,
+    "commit_allowlist_modified": false,
+    "daily_worker_modified": false,
+    "db_modified": false,
+    "db_write_scope": "none",
+    "long_source_excerpt_written": false,
+    "raw_private_material_written": false,
+    "schema_modified": false,
+    "statuses_modified": false
+  },
+  "sample_counts": {
+    "sources": 5
+  },
+  "schema_assessment": [
+    {
+      "assessment": "The generated card object can be serialized as JSON in source_notes.note with note_type='source_card_draft' in a later run.",
+      "category": "can reuse source_notes",
+      "recommendation": "Use report-only output in Run 2; consider source_notes persistence in Run 3 after review.",
+      "target": "source_notes"
+    },
+    {
+      "assessment": "No new source columns are needed yet. Existing quality/privacy/duplicate fields are enough for draft generation.",
+      "category": "should add columns",
+      "recommendation": "Defer source table columns until real lifecycle states are proven necessary.",
+      "target": "sources"
+    },
+    {
+      "assessment": "A dedicated table could help later with versioning, model metadata, editor approval, and card hashes, but Run 2 does not prove it is required.",
+      "category": "should add dedicated source_cards table",
+      "recommendation": "Defer dedicated table until at least one reviewed source_notes persistence run.",
+      "target": "source_cards"
+    },
+    {
+      "assessment": "Source cards look like a useful substrate, but semantic extraction and narrative packets remain higher-risk downstream steps.",
+      "category": "defer decision",
+      "recommendation": "Do not implement these in Run 2; revisit after source-card persistence safety is reviewed.",
+      "target": "semantic extraction / clusters / narrative packets"
+    }
+  ],
+  "schema_modified": false,
+  "source_cards": [
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [
+        "This source may be useful as a weak signal that Fermix was framed in relation to OpenClaw and Hermes in a personal-agent discussion."
+      ],
+      "candidate_counterpoints": [
+        "Only minimal sanitized text is available, so the technical argument, implementation details, and comparisons cannot be verified from this card alone."
+      ],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-12T01:10:38Z",
+      "card_id": "source_card_draft_src_c6b80c86cd5637ddd0b8",
+      "card_input_hash": "230eebb95af4e5c0e10ef9bd766f023d15ad4998372937db1308cca81dfe779f",
+      "card_output_hash": "98c0c6657eb4d49a39ed6f2aba3b30cac7d34f3ae8205b733cad95d4d8bcc070",
+      "confidence": "high",
+      "do_not_publish_reason": "Advisory extraction only; source text is too thin for publication approval.",
+      "duplicate_status": "unique",
+      "evidence_strength": "weak",
+      "likely_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "llm_used": true,
+      "main_thesis": "A GoPenAI item appears to discuss Fermix as a separately designed personal AI agent, framed against OpenClaw and Hermes.",
+      "model": "gpt-5.5",
+      "named_entities": [
+        "Fermix",
+        "Sujeeth Shetty",
+        "GoPenAI",
+        "OpenClaw",
+        "Hermes"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publisher": "blog.gopenai.com",
+      "quality_score": "A",
+      "recommended_use": "semantic_extraction_candidate",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Metadata points to a GoPenAI piece about Fermix, a personal AI agent concept presented as distinct from OpenClaw and Hermes.",
+      "source_id": "src_c6b80c86cd5637ddd0b8",
+      "source_text_hash": "71e41ffe16b1cf57786c5a55c38c693a8428421ae22ea340f1e36e051ec183c1",
+      "source_type": "web",
+      "technical_terms": [
+        "agent",
+        "AI"
+      ],
+      "title": "Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI",
+      "useful_observations": [
+        "The available text links Fermix, OpenClaw, and Hermes in a personal AI agent context."
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [
+        "The source can support a cautious note that AI-agent memory tooling is discussed alongside OpenClaw and Hermes in secondary web material.",
+        "The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources."
+      ],
+      "candidate_counterpoints": [
+        "The sanitized text does not show the tutorial steps, architecture, or evidence for how memory is implemented."
+      ],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-11T17:33:21Z",
+      "card_id": "source_card_draft_src_bebe03beb8a33c199ce8",
+      "card_input_hash": "f78fdff18066a8d675e25b26fbf94c7a9db2494547ebc4e2c21f1bcca55931cd",
+      "card_output_hash": "aca013b8b76d0551e22cf9e07a3bb2c09b1916bb1faec2b992c296611fdebce9",
+      "confidence": "high",
+      "do_not_publish_reason": "Advisory extraction only; source text is too limited for publication approval.",
+      "duplicate_status": "unique",
+      "evidence_strength": "weak",
+      "likely_chapter_targets": [
+        "02-hermes",
+        "01-the-agent-loop",
+        "03-openclaw"
+      ],
+      "llm_used": true,
+      "main_thesis": "A Teknoding tutorial is presented as a simple setup guide for GBrain memory in an AI-agent context mentioning OpenClaw and Hermes.",
+      "model": "gpt-5.5",
+      "named_entities": [
+        "GBrain",
+        "OpenClaw",
+        "Hermes",
+        "Teknoding"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publisher": "www.teknoding.com",
+      "quality_score": "B",
+      "recommended_use": "semantic_extraction_candidate",
+      "risk_flags": [
+        "thin_source_text"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Metadata indicates a Teknoding tutorial about GBrain memory setup for AI agents, with OpenClaw and Hermes appearing as related terms.",
+      "source_id": "src_bebe03beb8a33c199ce8",
+      "source_text_hash": "a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c",
+      "source_type": "web",
+      "technical_terms": [
+        "agent",
+        "memory",
+        "AI"
+      ],
+      "title": "How to Set Up GBrain: A Simple Tutorial for AI Agent Memory",
+      "useful_observations": [
+        "The available text connects GBrain setup, AI-agent memory, OpenClaw, and Hermes."
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [
+        "This source can weakly support identifying OpenClaw as a GitHub-hosted personal AI assistant project.",
+        "The metadata suggests OpenClaw is positioned for broad OS and platform coverage."
+      ],
+      "candidate_counterpoints": [
+        "The sanitized text does not include repository contents, maintainers, license, code evidence, or implementation details."
+      ],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:10:48Z",
+      "card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "card_input_hash": "2cdb2fffe490c35cdef999f122b76ad7f508ef0152fd253576ed1c10316c49cf",
+      "card_output_hash": "186eb7a92bab8f855958dd08ec372f77dec443817524b2ddc82c23dcb3800f8e",
+      "confidence": "high",
+      "do_not_publish_reason": "Advisory extraction only; repository claims need direct review before publication.",
+      "duplicate_status": "unique",
+      "evidence_strength": "weak",
+      "likely_chapter_targets": [
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "llm_used": true,
+      "main_thesis": "The GitHub metadata identifies OpenClaw as a personal AI assistant project with broad operating-system and platform positioning.",
+      "model": "gpt-5.5",
+      "named_entities": [
+        "GitHub",
+        "OpenClaw",
+        "Hermes"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publisher": "github.com",
+      "quality_score": "A",
+      "recommended_use": "semantic_extraction_candidate",
+      "risk_flags": [],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "GitHub metadata presents OpenClaw as a personal AI assistant project intended to work across operating systems and platforms.",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_text_hash": "384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3",
+      "source_type": "web",
+      "technical_terms": [
+        "AI",
+        "OS"
+      ],
+      "title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "useful_observations": [
+        "The available text frames OpenClaw as a personal AI assistant and mentions broad platform support."
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [
+        "This source can weakly support the existence of a GitHub-hosted Hermes WebUI project associated with Hermes Agent.",
+        "The metadata suggests the project focuses on making Hermes Agent usable from web or phone interfaces."
+      ],
+      "candidate_counterpoints": [
+        "The sanitized text does not establish project status, feature completeness, code quality, or active maintenance."
+      ],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-12T01:10:38Z",
+      "card_id": "source_card_draft_src_89933e373b741e71c5c6",
+      "card_input_hash": "20c17badfca955dfde14e7d11e2e426cf9b973a5fc4fa937d6676dd257433534",
+      "card_output_hash": "b9888229d85d885423b36fbe7e28c7ba0dca2cc3a31dcc380ac5ec81e19bbbc1",
+      "confidence": "high",
+      "do_not_publish_reason": "Advisory extraction only; repository details require direct verification before publication.",
+      "duplicate_status": "unique",
+      "evidence_strength": "weak",
+      "likely_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "llm_used": true,
+      "main_thesis": "The GitHub metadata describes Hermes WebUI as a browser or phone-facing interface for using Hermes Agent.",
+      "model": "gpt-5.5",
+      "named_entities": [
+        "GitHub",
+        "Hermes WebUI",
+        "Hermes Agent",
+        "Hermes",
+        "OpenClaw"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publisher": "github.com",
+      "quality_score": "A",
+      "recommended_use": "semantic_extraction_candidate",
+      "risk_flags": [],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "GitHub metadata presents Hermes WebUI as a web and mobile-accessible interface for Hermes Agent.",
+      "source_id": "src_89933e373b741e71c5c6",
+      "source_text_hash": "237fd108dfb3a9101f0cb2cd23f4f030cf1ed9550f15163d7fc0254a71396b9b",
+      "source_type": "web",
+      "technical_terms": [
+        "agent"
+      ],
+      "title": "GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub",
+      "useful_observations": [
+        "The available text links Hermes WebUI with Hermes Agent and GitHub."
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [
+        "This source can weakly support that some agent-adjacent tooling names OpenClaw and Hermes as supported or relevant environments.",
+        "The metadata frames the project as a content-auditing and rewriting skill rather than a core agent architecture source."
+      ],
+      "candidate_counterpoints": [
+        "The sanitized text does not show the skill's method, rules, accuracy, or integration details."
+      ],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-12T01:10:27Z",
+      "card_id": "source_card_draft_src_e9bb5a4bcd1c1f9e9744",
+      "card_input_hash": "8b1d5b0a8661adac862346cf1885745c44b3fc4926419e4005c2fdd14f5dae70",
+      "card_output_hash": "418b2baf68b60a1598e376e9f4125fb28f69fd816334add8d42e199144eee623",
+      "confidence": "high",
+      "do_not_publish_reason": "Advisory extraction only; implementation and compatibility claims need verification before publication.",
+      "duplicate_status": "unique",
+      "evidence_strength": "weak",
+      "likely_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "llm_used": true,
+      "main_thesis": "The GitHub metadata describes an AI-writing-pattern audit and rewrite skill intended for use with multiple agent tools, including OpenClaw and Hermes.",
+      "model": "gpt-5.5",
+      "named_entities": [
+        "GitHub",
+        "Claude Code",
+        "OpenClaw",
+        "Hermes"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publisher": "github.com",
+      "quality_score": "A",
+      "recommended_use": "semantic_extraction_candidate",
+      "risk_flags": [],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "GitHub metadata describes a skill for auditing or rewriting AI-styled text, with OpenClaw and Hermes listed among compatible agents.",
+      "source_id": "src_e9bb5a4bcd1c1f9e9744",
+      "source_text_hash": "e22c46fd14feb7dd7d748a539c6eef142c5262bbbda1a49d301306b3a08e62d8",
+      "source_type": "web",
+      "technical_terms": [
+        "agent",
+        "agents",
+        "AI"
+      ],
+      "title": "GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, an…",
+      "useful_observations": [
+        "The available text connects a writing-audit skill with Claude Code, OpenClaw, and Hermes."
+      ]
+    }
+  ],
+  "source_notes_failed": 0,
+  "source_notes_inserted": 0,
+  "source_notes_note_type": "source_card_draft",
+  "source_notes_schema": [
+    {
+      "cid": 0,
+      "default": null,
+      "name": "id",
+      "notnull": false,
+      "pk": true,
+      "type": "TEXT"
+    },
+    {
+      "cid": 1,
+      "default": null,
+      "name": "source_id",
+      "notnull": true,
+      "pk": false,
+      "type": "TEXT"
+    },
+    {
+      "cid": 2,
+      "default": null,
+      "name": "note",
+      "notnull": true,
+      "pk": false,
+      "type": "TEXT"
+    },
+    {
+      "cid": 3,
+      "default": "'summary'",
+      "name": "note_type",
+      "notnull": false,
+      "pk": false,
+      "type": "TEXT"
+    },
+    {
+      "cid": 4,
+      "default": null,
+      "name": "created_at",
+      "notnull": true,
+      "pk": false,
+      "type": "TEXT"
+    }
+  ],
+  "source_notes_schema_supported": true,
+  "source_notes_skipped_existing": 0,
+  "source_notes_table_schema_checked": true,
+  "source_notes_updated": 0,
+  "statuses_modified": false,
+  "verification": {},
+  "write_source_notes_requested": false
+}

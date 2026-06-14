@@ -1,21 +1,22 @@
 # Most AI
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
-- Type: `tool`
+- Type: `concept`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 5
-- Mention count: 40
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 7
+- Mention count: 42
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate concept entity extracted from 2 source(s).
 
 ## Related claims
 
-- **weakly_supported / weak** — 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`)
+- **candidate / weak** — Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate "loop engineering". (`claim_aa15ac8d93b19deb75a5`)
+- **needs_review / weak** — 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`)
 
 ## Source references
 
@@ -30,5 +31,9 @@ Candidate tool entity extracted from 2 source(s).
 - `src_7a795c2025f6c5160230` — Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 9h • Follow Watched a $200M brand's CFO re
   - URL: https://www.linkedin.com/in/craig-foldes-1b949b96?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABRcdF0BiNBgJ9buQKJLquak_MAOboDAac8
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/088-f07c76e952482aea3458.md`
+- `src_9a7b5ea5d608d0434464` — Most AI coding agents share a hidden problem: they treat every LLM call identically. Each request starts fresh, carries a growing pile of co
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/028-d3a36ba242d8b8242263.md`
+- `src_cffc2add84e77700277f` — Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/100-a5e7c59670399a02c595.md`
 - `src_0b0f413c049ede9d55ad` — Most AI agents still live in demos. The real test isn't whether they can answer a question — it's whether they can sit inside the tools you 
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/066-fe1ee6863239980fc279.md`

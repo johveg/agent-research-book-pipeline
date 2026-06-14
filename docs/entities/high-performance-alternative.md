@@ -1,6 +1,6 @@
 # High-Performance Alternative
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `low`
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
-- **weakly_supported / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
+- **needs_review / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
 
 ## Source references
 

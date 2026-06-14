@@ -1,0 +1,197 @@
+{
+  "blocking_issue_count": 0,
+  "chapter_prose_generated": false,
+  "chapters_modified": false,
+  "commit_allowlist_modified": false,
+  "counts_by_decision": {
+    "blocked": 0,
+    "needs_revision": 6,
+    "ready_for_editor_review": 0
+  },
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "generated_at": "2026-06-13T19:04:20Z",
+  "input_reports": {
+    "semantic_objects": {
+      "count": 3,
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "path": "reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning.json",
+      "provider": "copilot",
+      "reasoning_status": "high_reasoning_used",
+      "run_id": "citation-pipeline-test-20260612"
+    },
+    "source_cards": {
+      "count": 3,
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "path": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning.json",
+      "provider": "copilot",
+      "reasoning_status": "high_reasoning_used",
+      "run_id": "citation-pipeline-test-20260612"
+    }
+  },
+  "long_source_excerpt_written": false,
+  "max_review_text_chars": 180,
+  "mode": "quality_gate_report_only",
+  "model": "none",
+  "narrative_packets_created": false,
+  "output_paths": {
+    "evidence_map": "reports/architecture/run6-quality-gate-evidence-map-20260613.md",
+    "json": "reports/editorial/citation-pipeline-test-20260612-quality-gate.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-quality-gate.md"
+  },
+  "provider": "none",
+  "publication_approval_granted": false,
+  "quality_gate_llm_used": false,
+  "quality_gate_reasoning_status": "deterministic_reviewer_rules",
+  "raw_or_vector_authority_used": false,
+  "raw_private_material_written": false,
+  "ready_for_editor_review_count": 0,
+  "recommendation": {
+    "next_allowed_stage": "revise_high_reasoning_drafts",
+    "run7_candidate": "human editor review packet or draft revision loop; still no claim clustering/narrative packets/chapter prose until editor criteria pass.",
+    "summary": "Revise high-reasoning drafts before any downstream stage."
+  },
+  "revision_issue_count": 6,
+  "risks": [
+    "Deterministic gate checks schema/linkage/safety; it does not prove factual truth.",
+    "Run 5 GPT-5.5 drafts remain advisory-only and not publication-approved.",
+    "Social/private-adjacent sources require human review before any use.",
+    "No raw captures or vector DB chunks were consulted by this quality gate."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "schema_modified": false,
+  "semantic_object_reviews": [
+    {
+      "author_allowed": false,
+      "decision": "needs_revision",
+      "issues": [
+        "recommended_use is do_not_use; keep blocked from downstream use",
+        "evidence_strength is reject; not suitable for filing/novelty work"
+      ],
+      "item_id": "semantic_object_draft_db6ceb5790045cce4d3a",
+      "item_type": "semantic_object",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "recommended_use is do_not_use; keep blocked from downstream use; evidence_strength is reject; not suitable for filing/novelty work",
+      "review_hash": "55f81c72db677d748a5684ff0e18ec0ef1b0f53df2b93b962542ba7970a0e6a3",
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd"
+    },
+    {
+      "author_allowed": false,
+      "decision": "needs_revision",
+      "issues": [
+        "recommended_use is do_not_use; keep blocked from downstream use",
+        "evidence_strength is reject; not suitable for filing/novelty work"
+      ],
+      "item_id": "semantic_object_draft_9aa9ffb0b7f788f57ee1",
+      "item_type": "semantic_object",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "recommended_use is do_not_use; keep blocked from downstream use; evidence_strength is reject; not suitable for filing/novelty work",
+      "review_hash": "7e6ee0ddf6f38a25dde145647c1348a786ad85ec67ec2a1bc7937b2f5c1635e2",
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd"
+    },
+    {
+      "author_allowed": false,
+      "decision": "needs_revision",
+      "issues": [
+        "recommended_use is do_not_use; keep blocked from downstream use",
+        "evidence_strength is reject; not suitable for filing/novelty work"
+      ],
+      "item_id": "semantic_object_draft_2cb9451bf751ff120116",
+      "item_type": "semantic_object",
+      "positive_signals": [
+        "stable object_output_hash present",
+        "source_card_id links to reviewed source-card report",
+        "publication/author approval remains false"
+      ],
+      "publication_approved": false,
+      "rationale": "recommended_use is do_not_use; keep blocked from downstream use; evidence_strength is reject; not suitable for filing/novelty work",
+      "review_hash": "3ff4cd74982bf6bfa4adb3a1bc8e4194301f9f4b5865e251401a2db38aef9dcd",
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd"
+    }
+  ],
+  "semantic_objects_reviewed": 3,
+  "source_card_reviews": [
+    {
+      "author_allowed": false,
+      "decision": "needs_revision",
+      "issues": [
+        "recommended_use is do_not_use; keep blocked from downstream use",
+        "evidence_strength is reject; not suitable for filing/novelty work",
+        "privacy/publication status requires human review"
+      ],
+      "item_id": "source_card_draft_src_13864c81172f978b55bd",
+      "item_type": "source_card",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present",
+        "linked semantic object exists"
+      ],
+      "publication_approved": false,
+      "rationale": "recommended_use is do_not_use; keep blocked from downstream use; evidence_strength is reject; not suitable for filing/novelty work; privacy/publication status requires human review",
+      "review_hash": "d0076488d686fc229104c8feba546d2aaf05440586c8488172e90889d91e5653",
+      "source_card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "source_id": "src_13864c81172f978b55bd"
+    },
+    {
+      "author_allowed": false,
+      "decision": "needs_revision",
+      "issues": [
+        "recommended_use is do_not_use; keep blocked from downstream use",
+        "evidence_strength is reject; not suitable for filing/novelty work",
+        "privacy/publication status requires human review",
+        "no linked semantic object found in semantic report"
+      ],
+      "item_id": "source_card_draft_src_3e3a7fd1388feb172ac5",
+      "item_type": "source_card",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "publication_approved": false,
+      "rationale": "recommended_use is do_not_use; keep blocked from downstream use; evidence_strength is reject; not suitable for filing/novelty work; privacy/publication status requires human review",
+      "review_hash": "848416e1b244bec692f2f784f821c8085e0a88cd1d561ce728ab99ec0a86057e",
+      "source_card_id": "source_card_draft_src_3e3a7fd1388feb172ac5",
+      "source_id": "src_3e3a7fd1388feb172ac5"
+    },
+    {
+      "author_allowed": false,
+      "decision": "needs_revision",
+      "issues": [
+        "recommended_use is do_not_use; keep blocked from downstream use",
+        "evidence_strength is reject; not suitable for filing/novelty work",
+        "privacy/publication status requires human review",
+        "no linked semantic object found in semantic report"
+      ],
+      "item_id": "source_card_draft_src_9471e5ba147ec4be19b6",
+      "item_type": "source_card",
+      "positive_signals": [
+        "stable card_output_hash present",
+        "Run 5 high-reasoning metadata present"
+      ],
+      "publication_approved": false,
+      "rationale": "recommended_use is do_not_use; keep blocked from downstream use; evidence_strength is reject; not suitable for filing/novelty work; privacy/publication status requires human review",
+      "review_hash": "da9173da70e1d6cb8687565bdf7971addb9ee291dbfc68bd292c26bcad91c727",
+      "source_card_id": "source_card_draft_src_9471e5ba147ec4be19b6",
+      "source_id": "src_9471e5ba147ec4be19b6"
+    }
+  ],
+  "source_cards_reviewed": 3,
+  "statuses_modified": false,
+  "verification": {}
+}

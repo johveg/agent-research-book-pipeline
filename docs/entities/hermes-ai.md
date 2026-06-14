@@ -1,6 +1,6 @@
 # Hermes AI
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `medium`
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
-- **candidate / weak** — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). (`claim_0985fd2ad07e14723e29`)
+- **needs_review / weak** — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). (`claim_0985fd2ad07e14723e29`)
 
 ## Source references
 

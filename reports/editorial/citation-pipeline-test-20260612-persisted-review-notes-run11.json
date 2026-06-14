@@ -1,0 +1,168 @@
+{
+  "advisory_only": true,
+  "author_allowed": false,
+  "chapters_modified": false,
+  "claims_count_after": 146,
+  "claims_count_before": 146,
+  "claims_inserted": 0,
+  "commit_allowlist_modified": false,
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "dry_run": false,
+  "editor_packet_report": "",
+  "editorial_reviews_count_after": 10,
+  "editorial_reviews_count_before": 10,
+  "editorial_reviews_inserted": 0,
+  "eligible_items_available": 2,
+  "filing_novelty_report": "",
+  "generated_at": "2026-06-13T20:24:19Z",
+  "idempotent": true,
+  "input_report": "reports/editorial/citation-pipeline-test-20260612-source-support-review-run10.json",
+  "items_selected_for_persistence": 2,
+  "long_source_excerpt_written": false,
+  "mode": "persist_reasoning_review_notes",
+  "next_run_recommendation": {
+    "conditions": [
+      "do not build narrative packets until corroboration-required items are resolved or explicitly excluded",
+      "do not insert claims or approve publication",
+      "keep any live corroboration run controlled and report-only by default"
+    ],
+    "recommendation": "controlled_corroboration_research_for_two_items_requiring_corroboration"
+  },
+  "note_type": "reasoning_review_filing_draft",
+  "notes_conflicted": 0,
+  "notes_failed": 0,
+  "notes_inserted": 0,
+  "notes_skipped_existing": 2,
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-persisted-review-notes-run11.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-persisted-review-notes-run11.md"
+  },
+  "publication_approved": false,
+  "raw_private_material_written": false,
+  "risks": [
+    "Persistence stores advisory filing/review notes only, not claims.",
+    "Persisted caveat-only notes are not author approval or publication approval.",
+    "Unsupported, unclear, source-review, and corroboration-required items are skipped by default."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "schema_modified": false,
+  "selected_items": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "evidence_use_decision": "eligible_as_caveat_only",
+      "filing_evaluation_id": "filing_eval_5a84c224eb58bf625f42",
+      "next_stage_recommendation": "eligible_for_filing_persistence",
+      "note_id": "note_5c7cbc1ee1d3c0fd72fe7b74",
+      "note_type": "reasoning_review_filing_draft",
+      "persistence_result": "skipped_existing",
+      "publication_approved": false,
+      "semantic_object_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_01be74039581152450ad",
+      "source_support_decision": "supported"
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "evidence_use_decision": "eligible_as_caveat_only",
+      "filing_evaluation_id": "filing_eval_224fd1bd260b4222fdfc",
+      "next_stage_recommendation": "eligible_for_filing_persistence",
+      "note_id": "note_7e2e6c98208d303c662fff0a",
+      "note_type": "reasoning_review_filing_draft",
+      "persistence_result": "skipped_existing",
+      "publication_approved": false,
+      "semantic_object_id": "semantic_object_draft_18e5d778bd54802d41b3",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_a1bc597eb60322bee40e",
+      "source_support_decision": "supported"
+    }
+  ],
+  "skipped_items": [
+    {
+      "evidence_use_decision": "needs_corroboration_before_filing",
+      "filing_evaluation_id": "filing_eval_c39f3be4e7bef7f0dabe",
+      "next_stage_recommendation": "run_corroboration_research",
+      "semantic_object_id": "semantic_object_draft_425a074033ba640ec639",
+      "skip_reason": "unsupported",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_12c73455aa1816e5df8c",
+      "source_support_decision": "unsupported"
+    },
+    {
+      "evidence_use_decision": "needs_corroboration_before_filing",
+      "filing_evaluation_id": "filing_eval_b82d67d436357d41bf72",
+      "next_stage_recommendation": "run_corroboration_research",
+      "semantic_object_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "skip_reason": "needs_corroboration",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "source_support_decision": "partially_supported"
+    },
+    {
+      "evidence_use_decision": "needs_source_review",
+      "filing_evaluation_id": "filing_eval_bd562e909f80e16a2bb3",
+      "next_stage_recommendation": "needs_source_review",
+      "semantic_object_id": "semantic_object_draft_5558303e45f77723657a",
+      "skip_reason": "unclear",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_e20631e18093139a8bc2",
+      "source_support_decision": "unclear"
+    }
+  ],
+  "skipped_reason_counts": {
+    "needs_corroboration": 1,
+    "unclear": 1,
+    "unsupported": 1
+  },
+  "source_notes_count_after": 284,
+  "source_notes_count_before": 284,
+  "source_notes_schema_found": [
+    {
+      "name": "id",
+      "notnull": 0,
+      "pk": 1,
+      "type": "TEXT"
+    },
+    {
+      "name": "source_id",
+      "notnull": 1,
+      "pk": 0,
+      "type": "TEXT"
+    },
+    {
+      "name": "note",
+      "notnull": 1,
+      "pk": 0,
+      "type": "TEXT"
+    },
+    {
+      "name": "note_type",
+      "notnull": 0,
+      "pk": 0,
+      "type": "TEXT"
+    },
+    {
+      "name": "created_at",
+      "notnull": 1,
+      "pk": 0,
+      "type": "TEXT"
+    }
+  ],
+  "source_reviews_available": 5,
+  "status_hashes_after": {
+    "claims_status_hash": "2c2829622ff2988c13bc3c3f89c71dccd6139c1ec8ee06e28dc2f5e218d8df1c",
+    "editorial_reviews_hash": "ed4c9b3e8704af05cdd641320bece13b8c57a9762d4a8449f6af10314585d087",
+    "sources_status_hash": "bde40f350904114e864f418a59b9eb8636ae6dc598d5a73d8422ef280cb446ba"
+  },
+  "status_hashes_before": {
+    "claims_status_hash": "2c2829622ff2988c13bc3c3f89c71dccd6139c1ec8ee06e28dc2f5e218d8df1c",
+    "editorial_reviews_hash": "ed4c9b3e8704af05cdd641320bece13b8c57a9762d4a8449f6af10314585d087",
+    "sources_status_hash": "bde40f350904114e864f418a59b9eb8636ae6dc598d5a73d8422ef280cb446ba"
+  },
+  "statuses_modified": false,
+  "verification": {},
+  "write_source_notes_requested": true
+}

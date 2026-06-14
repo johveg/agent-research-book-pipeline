@@ -1,6 +1,6 @@
 # Addy Osmani Introduces Loop
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `high`
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 3 source(s).
 
 ## Related claims
 
-- **weakly_supported / weak** — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering, "loop engineering". (`claim_82bfd616fea69cce2d95`)
+- **needs_review / weak** — Addy Osmani Introduces Loop Engineering for Autonomous Coding Agents 📌 Addy Osmani is redefining software development with loop engineering, "loop engineering". (`claim_82bfd616fea69cce2d95`)
 
 ## Source references
 

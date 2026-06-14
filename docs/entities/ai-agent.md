@@ -1,39 +1,40 @@
 # AI agent
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 11
-- Mention count: 98
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 12
+- Mention count: 99
 
 ## Description
 
-Candidate tool entity extracted from 6 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
-- **candidate / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
-- **candidate / weak** — Is your AI agent sitting half-configured on your hard drive?. (`claim_d25190f1d6124a0a6b9e`)
-- **candidate / weak** — Loved the conversations after my talk: "The Invisible Army: How AI Agents Became the Attack Surface Nobody Is Watchin "Hermes Agent". (`claim_5587c736a27e9103cb7b`)
-- **candidate / weak** — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). (`claim_0985fd2ad07e14723e29`)
-- **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
-- **candidate / weak** — See how an hashtag #AI Agent like Hermes Agent helps "Hermes Agent". (`claim_539ec00d0d969a804db6`)
-- **candidate / weak** — The next shift is AI agents working together like a real business team — planning, executing, rem "OpenClaw" Hermes. (`claim_d5429b52beb19fb06fcf`)
-- **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Today’s AI Daily Brief is really about trust, control and the cost of power "OpenClaw" Hermes. (`claim_9e87e5b21f848c8004ba`)
-- **candidate / weak** — Typing prompts into an AI agent and reviewing what comes back is the new junior engineering. (`claim_04498133bcb64f370816`)
+- **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
+- **candidate / weak** — Loop Engineering: AI Coding Has Entered the Systems Era (Most People Are Still Stuck in Chat) | by JIN | JIN System Architect | Jun, 2026 | Medium "loop engineering" AI agents medium.com. (`claim_f5b1cdd1300f8324b5c6`)
+- **candidate / weak** — The biggest unlock in AI agent work right now is not a smarter model: it is a better operating system around the model. (`claim_df16192271d2bce4f7df`)
+- **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $ "OpenClaw" Hermes. (`claim_72d359ba093fb921ffb5`)
+- **needs_review / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
+- **needs_review / weak** — A loop is a small program that prompts an AI agent for you, reads what it produced, decid "loop engineering". (`claim_ddcb28eb301b363c351a`)
+- **needs_review / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
+- **needs_review / weak** — Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera "OpenClaw" Hermes. (`claim_cf20967c5c76581b2c4b`)
+- **needs_review / weak** — How Hermes Agent with Grok Is Helping Me Hermes isn’t just another chatbot – it’s a self-improving autonomous AI agent designed for complex, "Hermes Agent". (`claim_a4809681aa20fc11a666`)
+- **needs_review / weak** — I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. (`claim_8102ca088ac0086dba7e`)
+- **needs_review / weak** — Is your AI agent sitting half-configured on your hard drive?. (`claim_d25190f1d6124a0a6b9e`)
 - **needs_review / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
-- **weakly_supported / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
-- **weakly_supported / weak** — A loop is a small program that prompts an AI agent for you, reads what it produced, decid "loop engineering". (`claim_ddcb28eb301b363c351a`)
-- **weakly_supported / weak** — Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera "OpenClaw" Hermes. (`claim_cf20967c5c76581b2c4b`)
-- **weakly_supported / weak** — How Hermes Agent with Grok Is Helping Me Hermes isn’t just another chatbot – it’s a self-improving autonomous AI agent designed for complex, "Hermes Agent". (`claim_a4809681aa20fc11a666`)
-- **weakly_supported / weak** — I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. (`claim_8102ca088ac0086dba7e`)
-- **weakly_supported / weak** — See how an AI Agent like Hermes Agent helps develop a residen "Hermes Agent". (`claim_c26ed4521238b4efd634`)
-- **weakly_supported / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
-- **weakly_supported / weak** — 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗚𝗿𝗼𝘄𝘀 𝗪𝗶𝘁𝗵 𝗬𝗼𝘂: 𝗠𝗲𝗲𝘁 𝗛𝗲𝗿𝗺𝗲𝘀 𝗔𝗴𝗲𝗻𝘁 𝗯𝘆 𝗡𝗼𝘂𝘀 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 Most AI agents today are either simple chatbots or coding copilot "Hermes Agent". (`claim_4ad9e8eda46d1ee2f281`)
+- **needs_review / weak** — Loved the conversations after my talk: "The Invisible Army: How AI Agents Became the Attack Surface Nobody Is Watchin "Hermes Agent". (`claim_5587c736a27e9103cb7b`)
+- **needs_review / weak** — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). (`claim_0985fd2ad07e14723e29`)
+- **needs_review / weak** — See how an AI Agent like Hermes Agent helps develop a residen "Hermes Agent". (`claim_c26ed4521238b4efd634`)
+- **needs_review / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
+- **needs_review / weak** — See how an hashtag #AI Agent like Hermes Agent helps "Hermes Agent". (`claim_539ec00d0d969a804db6`)
+- **needs_review / weak** — The next shift is AI agents working together like a real business team — planning, executing, rem "OpenClaw" Hermes. (`claim_d5429b52beb19fb06fcf`)
+- **needs_review / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
 
 ## Source references
 
@@ -53,6 +54,8 @@ Candidate tool entity extracted from 6 source(s).
 - `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
+- `src_c0066c50d1b7f0f3504c` — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/102-b86549066562df85a21d.md`
 - `src_ad815be808c31471af6c` — Today on the daily AI brief posted by Yousef - Imran's AI agent Today’s AI Daily Brief is really about trust, control and the cost of power 
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/131-eeed8400c8150c62298b.md`
 - `src_2800699832e778aafa04` — Feed post NVIDIA 5,517,182 followers 4h • Follow Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Re

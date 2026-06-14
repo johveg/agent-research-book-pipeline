@@ -1,6 +1,6 @@
 # Self-improving
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `concept`
 - Confidence: `high`
@@ -15,7 +15,8 @@ Candidate concept entity extracted from 4 source(s).
 
 ## Related claims
 
-- **weakly_supported / weak** — How Hermes Agent with Grok Is Helping Me Hermes isn’t just another chatbot – it’s a self-improving autonomous AI agent designed for complex, "Hermes Agent". (`claim_a4809681aa20fc11a666`)
+- **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
+- **needs_review / weak** — How Hermes Agent with Grok Is Helping Me Hermes isn’t just another chatbot – it’s a self-improving autonomous AI agent designed for complex, "Hermes Agent". (`claim_a4809681aa20fc11a666`)
 
 ## Source references
 

@@ -1,6 +1,6 @@
 # how an AI Agent
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `medium`
@@ -15,8 +15,8 @@ Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
-- **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
-- **weakly_supported / weak** — See how an AI Agent like Hermes Agent helps develop a residen "Hermes Agent". (`claim_c26ed4521238b4efd634`)
+- **needs_review / weak** — See how an AI Agent like Hermes Agent helps develop a residen "Hermes Agent". (`claim_c26ed4521238b4efd634`)
+- **needs_review / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
 
 ## Source references
 

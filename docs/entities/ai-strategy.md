@@ -1,6 +1,6 @@
 # AI Strategy
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `high`
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 3 source(s).
 
 ## Related claims
 
-- **candidate / weak** — Today's links look at why your AI strategy has a trust problem, what loop engineering is all about, and why the PaaS market keeps bundling a "loop engineering". (`claim_f5594ad345b1b79ad42f`)
+- **needs_review / weak** — Today's links look at why your AI strategy has a trust problem, what loop engineering is all about, and why the PaaS market keeps bundling a "loop engineering". (`claim_f5594ad345b1b79ad42f`)
 
 ## Source references
 

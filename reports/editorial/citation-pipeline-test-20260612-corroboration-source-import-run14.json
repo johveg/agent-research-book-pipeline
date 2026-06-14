@@ -1,0 +1,520 @@
+{
+  "candidate_source_type_counts": {
+    "public_documentation": 7
+  },
+  "candidate_sources_accepted_count": 7,
+  "candidate_sources_by_item": {
+    "corrob_item_4039b66b55f0c200763a": [
+      {
+        "access_type": "public",
+        "author": "",
+        "candidate_relevance": "Official CLI documentation for migration providers, including Hermes.",
+        "candidate_source_id": "cand_20e9401eaf1118d440d3e64b",
+        "evidence_strength": "moderate",
+        "item_id": "corrob_item_4039b66b55f0c200763a",
+        "limitations": "Supports Hermes as a migration source/integration context, not necessarily as an execution environment or runtime dependency.",
+        "publication_date": "",
+        "publisher": "OpenClaw Docs",
+        "raw_content_stored": false,
+        "reason_for_inclusion": "The item asks whether OpenClaw docs/code explicitly name Hermes as a relevant environment, dependency, integration target, or adjacent operating context; this page explicitly documents the Hermes migration provider and commands.",
+        "retrieved_at": "2026-06-13T22:06:47Z",
+        "safe_summary": "The OpenClaw migrate CLI docs list Hermes as a bundled migration provider and document dry-run/apply commands for importing Hermes state.",
+        "source_id": "src_6d7b6d80cda4e784877d",
+        "source_review_id": "source_review_5baf68d86960f91b97ac",
+        "source_type": "public_documentation",
+        "support_direction": "partially_supports",
+        "title": "openclaw migrate",
+        "url": "https://docs.openclaw.ai/cli/migrate"
+      },
+      {
+        "access_type": "public",
+        "author": "",
+        "candidate_relevance": "Official setup CLI documentation that references Hermes import during onboarding/setup.",
+        "candidate_source_id": "cand_6fcbc84f35207ab87be6a1d7",
+        "evidence_strength": "weak",
+        "item_id": "corrob_item_4039b66b55f0c200763a",
+        "limitations": "This is a setup/import option reference and does not establish a broad Hermes operating environment claim.",
+        "publication_date": "",
+        "publisher": "OpenClaw Docs",
+        "raw_content_stored": false,
+        "reason_for_inclusion": "The setup docs mention --import-from hermes and --import-source ~/.hermes, which corroborates a Hermes-adjacent onboarding path.",
+        "retrieved_at": "2026-06-13T22:06:47Z",
+        "safe_summary": "The setup docs include examples for onboarding/import from Hermes and note that interactive onboarding can offer migration when Hermes state is detected.",
+        "source_id": "src_6d7b6d80cda4e784877d",
+        "source_review_id": "source_review_5baf68d86960f91b97ac",
+        "source_type": "public_documentation",
+        "support_direction": "partially_supports",
+        "title": "openclaw setup",
+        "url": "https://docs.openclaw.ai/cli/setup"
+      }
+    ],
+    "corrob_item_6e923bab58a413137532": [
+      {
+        "access_type": "public",
+        "author": "",
+        "candidate_relevance": "Direct public project documentation for OpenClaw interface/channel claims, including Web Control UI, WebChat, mobile nodes, and gateway architecture.",
+        "candidate_source_id": "cand_d345d62af5ff673a581e6743",
+        "evidence_strength": "moderate",
+        "item_id": "corrob_item_6e923bab58a413137532",
+        "limitations": "This page supports OpenClaw web/mobile access generally; it does not by itself prove a Hermes Agent-specific interface.",
+        "publication_date": "",
+        "publisher": "OpenClaw Docs",
+        "raw_content_stored": false,
+        "reason_for_inclusion": "The docs describe OpenClaw as a gateway across chat apps, WebChat, mobile nodes, and a Web Control UI, which can corroborate the web/phone interface part of the item.",
+        "retrieved_at": "2026-06-13T22:06:47Z",
+        "safe_summary": "OpenClaw docs describe a self-hosted multi-channel gateway for AI agents with WebChat, mobile nodes, a Web Control UI, and phone-reachable messaging channels.",
+        "source_id": "src_6d7b6d80cda4e784877d",
+        "source_review_id": "source_review_12c73455aa1816e5df8c",
+        "source_type": "public_documentation",
+        "support_direction": "partially_supports",
+        "title": "OpenClaw documentation home",
+        "url": "https://docs.openclaw.ai/"
+      },
+      {
+        "access_type": "public",
+        "author": "",
+        "candidate_relevance": "Direct public documentation for the browser-based OpenClaw Control UI.",
+        "candidate_source_id": "cand_c141b510756fa219331f717d",
+        "evidence_strength": "strong",
+        "item_id": "corrob_item_6e923bab58a413137532",
+        "limitations": "Supports the web-interface portion only; it does not prove phone/mobile or Hermes-specific claims.",
+        "publication_date": "",
+        "publisher": "OpenClaw Docs",
+        "raw_content_stored": false,
+        "reason_for_inclusion": "The item asks whether OpenClaw documentation supports a web interface; this page documents the browser Control UI and its local URLs/auth behavior.",
+        "retrieved_at": "2026-06-13T22:06:47Z",
+        "safe_summary": "The Control UI is documented as a browser-based Gateway control UI for chat, activity, nodes, config, logs, updates, and related operations.",
+        "source_id": "src_6d7b6d80cda4e784877d",
+        "source_review_id": "source_review_12c73455aa1816e5df8c",
+        "source_type": "public_documentation",
+        "support_direction": "supports",
+        "title": "Control UI",
+        "url": "https://docs.openclaw.ai/web/control-ui"
+      },
+      {
+        "access_type": "public",
+        "author": "",
+        "candidate_relevance": "Direct public documentation for WebChat and macOS/iOS chat UI behavior.",
+        "candidate_source_id": "cand_90779df38c6bb15cb376f3d2",
+        "evidence_strength": "moderate",
+        "item_id": "corrob_item_6e923bab58a413137532",
+        "limitations": "The page supports OpenClaw WebChat/mobile UI behavior but not necessarily Hermes Agent-specific use.",
+        "publication_date": "",
+        "publisher": "OpenClaw Docs",
+        "raw_content_stored": false,
+        "reason_for_inclusion": "The item asks about phone/mobile interface support; this page documents WebChat and notes macOS/iOS SwiftUI chat UI communicating with the Gateway WebSocket.",
+        "retrieved_at": "2026-06-13T22:06:47Z",
+        "safe_summary": "OpenClaw WebChat docs describe a native macOS/iOS chat UI and Control UI chat tab using the Gateway WebSocket and shared sessions/routing.",
+        "source_id": "src_6d7b6d80cda4e784877d",
+        "source_review_id": "source_review_12c73455aa1816e5df8c",
+        "source_type": "public_documentation",
+        "support_direction": "partially_supports",
+        "title": "WebChat",
+        "url": "https://docs.openclaw.ai/web/webchat"
+      },
+      {
+        "access_type": "public",
+        "author": "",
+        "candidate_relevance": "Direct public documentation for iOS/Android/headless nodes and device capabilities.",
+        "candidate_source_id": "cand_34278c4fdca5a5ce4c8425d6",
+        "evidence_strength": "moderate",
+        "item_id": "corrob_item_6e923bab58a413137532",
+        "limitations": "Nodes are peripherals rather than the primary user chat interface; this is context rather than direct proof of the original broad statement.",
+        "publication_date": "",
+        "publisher": "OpenClaw Docs",
+        "raw_content_stored": false,
+        "reason_for_inclusion": "The item asks about mobile/phone-related interfaces; node docs give public context for iOS/Android companion nodes and Gateway pairing.",
+        "retrieved_at": "2026-06-13T22:06:47Z",
+        "safe_summary": "OpenClaw node docs describe companion devices including macOS, iOS, Android, and headless nodes that connect to the Gateway WebSocket and expose capabilities.",
+        "source_id": "src_6d7b6d80cda4e784877d",
+        "source_review_id": "source_review_12c73455aa1816e5df8c",
+        "source_type": "public_documentation",
+        "support_direction": "context_only",
+        "title": "Nodes",
+        "url": "https://docs.openclaw.ai/nodes"
+      },
+      {
+        "access_type": "public",
+        "author": "",
+        "candidate_relevance": "Public OpenClaw documentation mentioning Hermes in a migration context.",
+        "candidate_source_id": "cand_eb1b506e18cd512b1d9d4981",
+        "evidence_strength": "weak",
+        "item_id": "corrob_item_6e923bab58a413137532",
+        "limitations": "Does not prove OpenClaw is a web/phone interface for Hermes Agent; it only documents migration from Hermes to OpenClaw.",
+        "publication_date": "",
+        "publisher": "OpenClaw Docs",
+        "raw_content_stored": false,
+        "reason_for_inclusion": "This candidate helps bound the Hermes-specific part of the item by showing an official OpenClaw/Hermes relationship, but only as migration support.",
+        "retrieved_at": "2026-06-13T22:06:47Z",
+        "safe_summary": "OpenClaw migration docs describe a bundled Hermes migration provider that previews and imports selected Hermes state into OpenClaw.",
+        "source_id": "src_6d7b6d80cda4e784877d",
+        "source_review_id": "source_review_12c73455aa1816e5df8c",
+        "source_type": "public_documentation",
+        "support_direction": "context_only",
+        "title": "Migrating from Hermes to OpenClaw",
+        "url": "https://docs.openclaw.ai/install/migrating-hermes"
+      }
+    ]
+  },
+  "candidate_sources_json": "reports/editorial/citation-pipeline-test-20260612-curated-candidate-sources-run14.json",
+  "candidate_sources_rejected_count": 1,
+  "candidate_sources_submitted_count": 8,
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_inserted": 0,
+  "collected_candidate_sources_count": 7,
+  "collection_method": "curated_candidate_json_import",
+  "collection_results": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_source_count": 5,
+      "candidate_sources": [
+        {
+          "access_type": "public",
+          "author": "",
+          "candidate_relevance": "Direct public project documentation for OpenClaw interface/channel claims, including Web Control UI, WebChat, mobile nodes, and gateway architecture.",
+          "candidate_source_id": "cand_d345d62af5ff673a581e6743",
+          "evidence_strength": "moderate",
+          "item_id": "corrob_item_6e923bab58a413137532",
+          "limitations": "This page supports OpenClaw web/mobile access generally; it does not by itself prove a Hermes Agent-specific interface.",
+          "publication_date": "",
+          "publisher": "OpenClaw Docs",
+          "raw_content_stored": false,
+          "reason_for_inclusion": "The docs describe OpenClaw as a gateway across chat apps, WebChat, mobile nodes, and a Web Control UI, which can corroborate the web/phone interface part of the item.",
+          "retrieved_at": "2026-06-13T22:06:47Z",
+          "safe_summary": "OpenClaw docs describe a self-hosted multi-channel gateway for AI agents with WebChat, mobile nodes, a Web Control UI, and phone-reachable messaging channels.",
+          "source_id": "src_6d7b6d80cda4e784877d",
+          "source_review_id": "source_review_12c73455aa1816e5df8c",
+          "source_type": "public_documentation",
+          "support_direction": "partially_supports",
+          "title": "OpenClaw documentation home",
+          "url": "https://docs.openclaw.ai/"
+        },
+        {
+          "access_type": "public",
+          "author": "",
+          "candidate_relevance": "Direct public documentation for the browser-based OpenClaw Control UI.",
+          "candidate_source_id": "cand_c141b510756fa219331f717d",
+          "evidence_strength": "strong",
+          "item_id": "corrob_item_6e923bab58a413137532",
+          "limitations": "Supports the web-interface portion only; it does not prove phone/mobile or Hermes-specific claims.",
+          "publication_date": "",
+          "publisher": "OpenClaw Docs",
+          "raw_content_stored": false,
+          "reason_for_inclusion": "The item asks whether OpenClaw documentation supports a web interface; this page documents the browser Control UI and its local URLs/auth behavior.",
+          "retrieved_at": "2026-06-13T22:06:47Z",
+          "safe_summary": "The Control UI is documented as a browser-based Gateway control UI for chat, activity, nodes, config, logs, updates, and related operations.",
+          "source_id": "src_6d7b6d80cda4e784877d",
+          "source_review_id": "source_review_12c73455aa1816e5df8c",
+          "source_type": "public_documentation",
+          "support_direction": "supports",
+          "title": "Control UI",
+          "url": "https://docs.openclaw.ai/web/control-ui"
+        },
+        {
+          "access_type": "public",
+          "author": "",
+          "candidate_relevance": "Direct public documentation for WebChat and macOS/iOS chat UI behavior.",
+          "candidate_source_id": "cand_90779df38c6bb15cb376f3d2",
+          "evidence_strength": "moderate",
+          "item_id": "corrob_item_6e923bab58a413137532",
+          "limitations": "The page supports OpenClaw WebChat/mobile UI behavior but not necessarily Hermes Agent-specific use.",
+          "publication_date": "",
+          "publisher": "OpenClaw Docs",
+          "raw_content_stored": false,
+          "reason_for_inclusion": "The item asks about phone/mobile interface support; this page documents WebChat and notes macOS/iOS SwiftUI chat UI communicating with the Gateway WebSocket.",
+          "retrieved_at": "2026-06-13T22:06:47Z",
+          "safe_summary": "OpenClaw WebChat docs describe a native macOS/iOS chat UI and Control UI chat tab using the Gateway WebSocket and shared sessions/routing.",
+          "source_id": "src_6d7b6d80cda4e784877d",
+          "source_review_id": "source_review_12c73455aa1816e5df8c",
+          "source_type": "public_documentation",
+          "support_direction": "partially_supports",
+          "title": "WebChat",
+          "url": "https://docs.openclaw.ai/web/webchat"
+        },
+        {
+          "access_type": "public",
+          "author": "",
+          "candidate_relevance": "Direct public documentation for iOS/Android/headless nodes and device capabilities.",
+          "candidate_source_id": "cand_34278c4fdca5a5ce4c8425d6",
+          "evidence_strength": "moderate",
+          "item_id": "corrob_item_6e923bab58a413137532",
+          "limitations": "Nodes are peripherals rather than the primary user chat interface; this is context rather than direct proof of the original broad statement.",
+          "publication_date": "",
+          "publisher": "OpenClaw Docs",
+          "raw_content_stored": false,
+          "reason_for_inclusion": "The item asks about mobile/phone-related interfaces; node docs give public context for iOS/Android companion nodes and Gateway pairing.",
+          "retrieved_at": "2026-06-13T22:06:47Z",
+          "safe_summary": "OpenClaw node docs describe companion devices including macOS, iOS, Android, and headless nodes that connect to the Gateway WebSocket and expose capabilities.",
+          "source_id": "src_6d7b6d80cda4e784877d",
+          "source_review_id": "source_review_12c73455aa1816e5df8c",
+          "source_type": "public_documentation",
+          "support_direction": "context_only",
+          "title": "Nodes",
+          "url": "https://docs.openclaw.ai/nodes"
+        },
+        {
+          "access_type": "public",
+          "author": "",
+          "candidate_relevance": "Public OpenClaw documentation mentioning Hermes in a migration context.",
+          "candidate_source_id": "cand_eb1b506e18cd512b1d9d4981",
+          "evidence_strength": "weak",
+          "item_id": "corrob_item_6e923bab58a413137532",
+          "limitations": "Does not prove OpenClaw is a web/phone interface for Hermes Agent; it only documents migration from Hermes to OpenClaw.",
+          "publication_date": "",
+          "publisher": "OpenClaw Docs",
+          "raw_content_stored": false,
+          "reason_for_inclusion": "This candidate helps bound the Hermes-specific part of the item by showing an official OpenClaw/Hermes relationship, but only as migration support.",
+          "retrieved_at": "2026-06-13T22:06:47Z",
+          "safe_summary": "OpenClaw migration docs describe a bundled Hermes migration provider that previews and imports selected Hermes state into OpenClaw.",
+          "source_id": "src_6d7b6d80cda4e784877d",
+          "source_review_id": "source_review_12c73455aa1816e5df8c",
+          "source_type": "public_documentation",
+          "support_direction": "context_only",
+          "title": "Migrating from Hermes to OpenClaw",
+          "url": "https://docs.openclaw.ai/install/migrating-hermes"
+        }
+      ],
+      "contradiction_candidate_source_ids": [],
+      "item_id": "corrob_item_6e923bab58a413137532",
+      "original_statement": "The project metadata suggests a web or phone interface for using Hermes Agent.",
+      "preliminary_collection_assessment": "enough_candidates_for_re_review",
+      "publication_approved": false,
+      "recommended_next_stage": "run_source_support_re_review",
+      "search_queries_used": [],
+      "source_collection_status": "candidate_sources_collected",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_12c73455aa1816e5df8c",
+      "source_types_requested": [],
+      "strongest_candidate_source_ids": [
+        "cand_d345d62af5ff673a581e6743",
+        "cand_c141b510756fa219331f717d",
+        "cand_90779df38c6bb15cb376f3d2",
+        "cand_34278c4fdca5a5ce4c8425d6"
+      ],
+      "what_needs_corroboration": "Whether the OpenClaw project documentation, code, release notes, or configuration explicitly supports a web interface, phone/mobile interface, and Hermes Agent-specific environment or dependency claim."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "candidate_source_count": 2,
+      "candidate_sources": [
+        {
+          "access_type": "public",
+          "author": "",
+          "candidate_relevance": "Official CLI documentation for migration providers, including Hermes.",
+          "candidate_source_id": "cand_20e9401eaf1118d440d3e64b",
+          "evidence_strength": "moderate",
+          "item_id": "corrob_item_4039b66b55f0c200763a",
+          "limitations": "Supports Hermes as a migration source/integration context, not necessarily as an execution environment or runtime dependency.",
+          "publication_date": "",
+          "publisher": "OpenClaw Docs",
+          "raw_content_stored": false,
+          "reason_for_inclusion": "The item asks whether OpenClaw docs/code explicitly name Hermes as a relevant environment, dependency, integration target, or adjacent operating context; this page explicitly documents the Hermes migration provider and commands.",
+          "retrieved_at": "2026-06-13T22:06:47Z",
+          "safe_summary": "The OpenClaw migrate CLI docs list Hermes as a bundled migration provider and document dry-run/apply commands for importing Hermes state.",
+          "source_id": "src_6d7b6d80cda4e784877d",
+          "source_review_id": "source_review_5baf68d86960f91b97ac",
+          "source_type": "public_documentation",
+          "support_direction": "partially_supports",
+          "title": "openclaw migrate",
+          "url": "https://docs.openclaw.ai/cli/migrate"
+        },
+        {
+          "access_type": "public",
+          "author": "",
+          "candidate_relevance": "Official setup CLI documentation that references Hermes import during onboarding/setup.",
+          "candidate_source_id": "cand_6fcbc84f35207ab87be6a1d7",
+          "evidence_strength": "weak",
+          "item_id": "corrob_item_4039b66b55f0c200763a",
+          "limitations": "This is a setup/import option reference and does not establish a broad Hermes operating environment claim.",
+          "publication_date": "",
+          "publisher": "OpenClaw Docs",
+          "raw_content_stored": false,
+          "reason_for_inclusion": "The setup docs mention --import-from hermes and --import-source ~/.hermes, which corroborates a Hermes-adjacent onboarding path.",
+          "retrieved_at": "2026-06-13T22:06:47Z",
+          "safe_summary": "The setup docs include examples for onboarding/import from Hermes and note that interactive onboarding can offer migration when Hermes state is detected.",
+          "source_id": "src_6d7b6d80cda4e784877d",
+          "source_review_id": "source_review_5baf68d86960f91b97ac",
+          "source_type": "public_documentation",
+          "support_direction": "partially_supports",
+          "title": "openclaw setup",
+          "url": "https://docs.openclaw.ai/cli/setup"
+        }
+      ],
+      "contradiction_candidate_source_ids": [],
+      "item_id": "corrob_item_4039b66b55f0c200763a",
+      "original_statement": "The metadata weakly shows agent-adjacent tooling that names OpenClaw and Hermes as relevant environments.",
+      "preliminary_collection_assessment": "enough_candidates_for_re_review",
+      "publication_approved": false,
+      "recommended_next_stage": "run_source_support_re_review",
+      "search_queries_used": [],
+      "source_collection_status": "candidate_sources_collected",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "source_types_requested": [],
+      "strongest_candidate_source_ids": [
+        "cand_20e9401eaf1118d440d3e64b"
+      ],
+      "what_needs_corroboration": "Whether OpenClaw documentation or code explicitly names Hermes or Hermes Agent as a relevant environment, dependency, integration target, or adjacent operating context, and what the tooling actually does."
+    }
+  ],
+  "daily_worker_hash_after": "4e5933e94f60f1233862b1f78055307149b9eb880f0c31ad0203d5755ed7490d",
+  "daily_worker_hash_before": "4e5933e94f60f1233862b1f78055307149b9eb880f0c31ad0203d5755ed7490d",
+  "db_counts_after": {
+    "claims": 146,
+    "editorial_reviews": 10,
+    "source_notes": 284,
+    "sources": 945
+  },
+  "db_counts_before": {
+    "claims": 146,
+    "editorial_reviews": 10,
+    "source_notes": 284,
+    "sources": 945
+  },
+  "duplicate_url_count": 1,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "evidence_strength_counts": {
+    "moderate": 4,
+    "strong": 1,
+    "weak": 2
+  },
+  "generated_at": "2026-06-13T22:06:47Z",
+  "input_paths": {
+    "candidate_selection_report": "reports/editorial/citation-pipeline-test-20260612-reasoning-candidate-selection.json",
+    "corroboration_research_report": "reports/editorial/citation-pipeline-test-20260612-corroboration-source-collection-run13.json",
+    "editor_packet_report": "reports/editorial/citation-pipeline-test-20260612-editor-review-packet-run8.json",
+    "filing_novelty_report": "reports/editorial/citation-pipeline-test-20260612-filing-novelty-evaluation-run9.json",
+    "quality_gate_report": "reports/editorial/citation-pipeline-test-20260612-quality-gate-run7-full.json",
+    "semantic_object_report": "reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning-run7.json",
+    "source_card_report": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning-run7.json",
+    "source_support_review_report": "reports/editorial/citation-pipeline-test-20260612-source-support-review-run10.json"
+  },
+  "limitations": [
+    "Candidate links are not source-registry entries and are not validated support.",
+    "Run 13 stores no raw page content and performs no persistence.",
+    "When no bounded candidate input is supplied, collection is not executed and the report contains a plan only."
+  ],
+  "mode": "corroboration_source_import",
+  "next_run_recommendation": {
+    "conditions": [
+      "remain report-only by default",
+      "do not persist candidate sources as source-registry entries without a later explicit persistence design",
+      "do not create narrative packets until source-support re-review passes or items are explicitly excluded"
+    ],
+    "recommendation": "source_support_re_review_for_collected_candidates"
+  },
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-corroboration-source-import-run14.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-corroboration-source-import-run14.md"
+  },
+  "preliminary_collection_assessment_counts": {
+    "enough_candidates_for_re_review": 2
+  },
+  "raw_capture_snapshot_after": {
+    "file_count": 3979,
+    "file_list_hash": "2a7003c6777d2e4e9d50dd03a5b6c2773334bad2879cd8541f53ff26a380a499",
+    "paths_checked": [
+      "data/raw",
+      "raw",
+      "captures"
+    ]
+  },
+  "raw_capture_snapshot_before": {
+    "file_count": 3979,
+    "file_list_hash": "2a7003c6777d2e4e9d50dd03a5b6c2773334bad2879cd8541f53ff26a380a499",
+    "paths_checked": [
+      "data/raw",
+      "raw",
+      "captures"
+    ]
+  },
+  "recommended_next_stage_counts": {
+    "run_source_support_re_review": 2
+  },
+  "rejected_candidate_sources": [
+    {
+      "first_item_id": "corrob_item_6e923bab58a413137532",
+      "reason": "duplicate_url_across_items",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "url": "https://docs.openclaw.ai/install/migrating-hermes"
+    }
+  ],
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "no_claim_insertion": true,
+    "no_daily_worker_changes": true,
+    "no_db_writes": true,
+    "no_docs_book_changes": true,
+    "no_editorial_review_insertion": true,
+    "no_raw_capture_writes": true,
+    "no_schema_changes": true,
+    "no_source_registry_writes": true,
+    "no_status_changes": true,
+    "publication_approved": false,
+    "raw_content_stored": false
+  },
+  "schema_hash_after": "c2fe112ae800db4bcc2389c15306dcc9bcacdae24963c885191e0e433c134ade",
+  "schema_hash_before": "c2fe112ae800db4bcc2389c15306dcc9bcacdae24963c885191e0e433c134ade",
+  "selected_items": [
+    {
+      "corroboration_status": null,
+      "evidence_use_decision": null,
+      "item_id": "corrob_item_6e923bab58a413137532",
+      "recommended_next_stage": "run_additional_source_collection",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_12c73455aa1816e5df8c"
+    },
+    {
+      "corroboration_status": null,
+      "evidence_use_decision": null,
+      "item_id": "corrob_item_4039b66b55f0c200763a",
+      "recommended_next_stage": "run_additional_source_collection",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac"
+    }
+  ],
+  "selected_items_count": 2,
+  "skipped_items": [
+    {
+      "corroboration_status": "source_context_unclear",
+      "evidence_use_decision": "needs_source_review",
+      "item_id": "corrob_item_bc7742fc05d0c1e48b0c",
+      "recommended_next_stage": "needs_editor_review",
+      "skip_reason": "needs_editor_review_not_source_collection",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_e20631e18093139a8bc2"
+    }
+  ],
+  "skipped_items_count": 1,
+  "source_collection_executed": true,
+  "source_registry_hash_after": "b9dba2f5273a28ead82b05469381e675e151a03538b3de54444c2e77ec664fca",
+  "source_registry_hash_before": "b9dba2f5273a28ead82b05469381e675e151a03538b3de54444c2e77ec664fca",
+  "source_status_changed": false,
+  "status_hashes_after": {
+    "claims_status_hash": "2c2829622ff2988c13bc3c3f89c71dccd6139c1ec8ee06e28dc2f5e218d8df1c",
+    "editorial_reviews_hash": "ed4c9b3e8704af05cdd641320bece13b8c57a9762d4a8449f6af10314585d087",
+    "sources_status_hash": "bde40f350904114e864f418a59b9eb8636ae6dc598d5a73d8422ef280cb446ba"
+  },
+  "status_hashes_before": {
+    "claims_status_hash": "2c2829622ff2988c13bc3c3f89c71dccd6139c1ec8ee06e28dc2f5e218d8df1c",
+    "editorial_reviews_hash": "ed4c9b3e8704af05cdd641320bece13b8c57a9762d4a8449f6af10314585d087",
+    "sources_status_hash": "bde40f350904114e864f418a59b9eb8636ae6dc598d5a73d8422ef280cb446ba"
+  },
+  "support_direction_counts": {
+    "context_only": 2,
+    "partially_supports": 4,
+    "supports": 1
+  }
+}

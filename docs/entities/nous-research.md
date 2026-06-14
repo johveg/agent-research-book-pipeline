@@ -1,29 +1,30 @@
 # Nous Research
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 35
-- Mention count: 309
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 42
+- Mention count: 316
 
 ## Description
 
-Candidate tool entity extracted from 11 source(s).
+Candidate tool entity extracted from 7 source(s).
 
 ## Related claims
 
-- **candidate / weak** — Nous Research Launches Profile Builder for Hermes Agent 📌 Nous Research has revolutionized autonomous agent management with the launch of it "Hermes Agent". (`claim_d0c46e65dfbd3fb43717`)
-- **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
-- **candidate / weak** — What have I learned running 3 weeks with Hermes — the open-source agent from Nous Research. (`claim_1427b569c785af09370d`)
+- **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
+- **needs_review / weak** — Hermes Agent Evolves into Autonomous Orchestration Platform with Desktop Integration 📌 Nous Research has transformed the Hermes Agent from a "Hermes Agent". (`claim_6ce2be9b18d13ecc9932`)
 - **needs_review / weak** — Hermes Agent Launches Web-Based Profile Builder for Visual Agent Configuration | KuCoin "Hermes Agent" "Nous Research" www.kucoin.com. (`claim_aed2919b026ac52951d2`)
+- **needs_review / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
+- **needs_review / weak** — Hermes Enables iMessage Integration via Photon Sidecar Without a Mac 📌 Nous Research has revolutionized agent deployment by enabling the Her "Hermes Agent". (`claim_ab1b8db5eb04948fa4ba`)
+- **needs_review / weak** — Nous Research Launches Profile Builder for Hermes Agent 📌 Nous Research has revolutionized autonomous agent management with the launch of it "Hermes Agent". (`claim_d0c46e65dfbd3fb43717`)
+- **needs_review / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
+- **needs_review / weak** — What have I learned running 3 weeks with Hermes — the open-source agent from Nous Research. (`claim_1427b569c785af09370d`)
+- **needs_review / weak** — 🛠️ Nous Research has quietly solved one of the clunkiest parts of open-s "Hermes Agent". (`claim_301c456c255778bde504`)
 - **supported / strong** — Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows. (`claim_72e49a3ef27673e17171`)
-- **weakly_supported / weak** — Hermes Agent Evolves into Autonomous Orchestration Platform with Desktop Integration 📌 Nous Research has transformed the Hermes Agent from a "Hermes Agent". (`claim_6ce2be9b18d13ecc9932`)
-- **weakly_supported / weak** — Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Research has introduced Hermes Agent, a high-performance, self-impr "Hermes Agent". (`claim_ab217cf82742b27e8144`)
-- **weakly_supported / weak** — Hermes Enables iMessage Integration via Photon Sidecar Without a Mac 📌 Nous Research has revolutionized agent deployment by enabling the Her "Hermes Agent". (`claim_ab1b8db5eb04948fa4ba`)
-- **weakly_supported / weak** — 🛠️ Nous Research has quietly solved one of the clunkiest parts of open-s "Hermes Agent". (`claim_301c456c255778bde504`)
 
 ## Source references
 

@@ -1,0 +1,907 @@
+{
+  "chapters_modified": false,
+  "claims_inserted": 0,
+  "commit_allowlist_modified": false,
+  "comparison_to_run5_sample": {
+    "run5_pattern": "linkedin_search_result, quality_score=D, privacy_publication_status=human_review, recommended_use=do_not_use, evidence_strength=reject",
+    "run7_selected_pattern": "web/public metadata, min-quality threshold, canonical URLs, lower privacy risk, stronger book-theme relevance"
+  },
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "generated_at": "2026-06-13T19:40:14Z",
+  "long_source_excerpt_written": false,
+  "materially_better_than_run5_sample": true,
+  "mode": "reasoning_candidate_selection_report_only",
+  "privacy_distribution": {
+    "human_review": 870,
+    "publishable_metadata_only": 71,
+    "reject": 4
+  },
+  "publication_approval_granted": false,
+  "quality_distribution": {
+    "A": 17,
+    "B": 11,
+    "C": 45,
+    "D": 868,
+    "E": 4
+  },
+  "raw_private_material_written": false,
+  "run_id": "citation-pipeline-test-20260612",
+  "schema_modified": false,
+  "selected_count": 5,
+  "selected_sources": [
+    {
+      "canonical_url_available": true,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "publisher": "blog.gopenai.com",
+      "quality_score": "A",
+      "risk_flags": [],
+      "selection_decision": "selected",
+      "selection_reason": "quality_score A; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw, autonomous_agents",
+      "selection_score": 135,
+      "source_id": "src_c6b80c86cd5637ddd0b8",
+      "source_text_hash": "71e41ffe16b1cf57786c5a55c38c693a8428421ae22ea340f1e36e051ec183c1",
+      "source_type": "web",
+      "theme_hits": [
+        "hermes",
+        "openclaw",
+        "autonomous_agents"
+      ],
+      "title": "Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI",
+      "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+    },
+    {
+      "canonical_url_available": true,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "publisher": "www.teknoding.com",
+      "quality_score": "B",
+      "risk_flags": [],
+      "selection_decision": "selected",
+      "selection_reason": "quality_score B; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw, autonomous_agents, context_memory_architecture",
+      "selection_score": 132,
+      "source_id": "src_bebe03beb8a33c199ce8",
+      "source_text_hash": "a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c",
+      "source_type": "web",
+      "theme_hits": [
+        "hermes",
+        "openclaw",
+        "autonomous_agents",
+        "context_memory_architecture"
+      ],
+      "title": "How to Set Up GBrain: A Simple Tutorial for AI Agent Memory",
+      "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+    },
+    {
+      "canonical_url_available": true,
+      "expected_chapter_targets": [
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "publisher": "github.com",
+      "quality_score": "A",
+      "risk_flags": [],
+      "selection_decision": "selected",
+      "selection_reason": "quality_score A; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw",
+      "selection_score": 128,
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_text_hash": "384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3",
+      "source_type": "web",
+      "theme_hits": [
+        "hermes",
+        "openclaw"
+      ],
+      "title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+    },
+    {
+      "canonical_url_available": true,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "publisher": "github.com",
+      "quality_score": "A",
+      "risk_flags": [],
+      "selection_decision": "selected",
+      "selection_reason": "quality_score A; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw",
+      "selection_score": 128,
+      "source_id": "src_89933e373b741e71c5c6",
+      "source_text_hash": "237fd108dfb3a9101f0cb2cd23f4f030cf1ed9550f15163d7fc0254a71396b9b",
+      "source_type": "web",
+      "theme_hits": [
+        "hermes",
+        "openclaw"
+      ],
+      "title": "GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub",
+      "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+    },
+    {
+      "canonical_url_available": true,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "privacy_publication_status": "publishable_metadata_only",
+      "publisher": "github.com",
+      "quality_score": "A",
+      "risk_flags": [],
+      "selection_decision": "selected",
+      "selection_reason": "quality_score A; stronger source_type web; lower-risk privacy status publishable_metadata_only; canonical URL available; clear title and publisher; enough sanitized text/summary for semantic extraction; book theme hits: hermes, openclaw",
+      "selection_score": 128,
+      "source_id": "src_e9bb5a4bcd1c1f9e9744",
+      "source_text_hash": "e22c46fd14feb7dd7d748a539c6eef142c5262bbbda1a49d301306b3a08e62d8",
+      "source_type": "web",
+      "theme_hits": [
+        "hermes",
+        "openclaw"
+      ],
+      "title": "GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claud…",
+      "why_better_than_run5_sample": "Public/non-human-review source with canonical URL and quality above D; avoids Run 5 do_not_use/reject/human_review pattern."
+    }
+  ],
+  "skipped_reason_counts": {
+    "below_min_quality_C": 25,
+    "human_review privacy status": 25,
+    "linkedin_search_result": 25,
+    "missing canonical URL": 25,
+    "quality_score D": 25,
+    "thin safe text": 6,
+    "thin title/publisher metadata": 25
+  },
+  "skipped_sources": [
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata",
+        "thin safe text"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: hermes",
+      "selection_score": -163,
+      "source_id": "src_3d7da92c06e33797013f",
+      "source_text_hash": "cb1073c28c7b1eefaedb241c388bee3a25736bee170085ae02a90ce52a72545a",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "hermes"
+      ],
+      "title": "visualized how agent profiles work in Hermes Agent [url]",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata",
+        "thin safe text"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: loop_engineering",
+      "selection_score": -163,
+      "source_id": "src_12ee00d806eca0600392",
+      "source_text_hash": "60118431df18887dc1cfb8321b389eb5a12c64db41558439c1c21bf385419383",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "I am officially becoming a high agency AI Loop Engineer.",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata",
+        "thin safe text"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: hermes",
+      "selection_score": -163,
+      "source_id": "src_7847d3a28b074560f2d9",
+      "source_text_hash": "c5d0d9a2b4d7bc345c367f8988af0201080a734aca3f441e1674ba695a9f182f",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "hermes"
+      ],
+      "title": "Collaborative articles Filter by Collaborative articles",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "02-hermes"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata",
+        "thin safe text"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: hermes",
+      "selection_score": -163,
+      "source_id": "src_b06b3c2b98f8d253c429",
+      "source_text_hash": "51aa8eeb90fe14aa20cd4f6a9db907ced77a7c63ae6ac8c84a54addded15e6fa",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "hermes"
+      ],
+      "title": "Hello from Hermes Agent! This is a test post. 🤖",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "04-loop-engineering"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata",
+        "thin safe text"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: autonomous_agents, loop_engineering",
+      "selection_score": -156,
+      "source_id": "src_4a6f55653ff6506123e7",
+      "source_text_hash": "021e562bcefed9b92efae7862f7150c4ab44a0da004043ee1883f4ad43dcce54",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "autonomous_agents",
+        "loop_engineering"
+      ],
+      "title": "[url] hashtag #agentic hashtag #artificialintelligence",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata",
+        "thin safe text"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; thin safe text; quality_score D; book theme hits: hermes, openclaw",
+      "selection_score": -156,
+      "source_id": "src_d300a147bc14bb37fb69",
+      "source_text_hash": "27d3830c5218e24a1e1f68a1e961fee672775a1ef727da6cd7ff639db89e8d38",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "hermes",
+        "openclaw"
+      ],
+      "title": "Hvorfor jeg skiftede fra OpenClaw til Hermes",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "04-loop-engineering"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_9471e5ba147ec4be19b6",
+      "source_text_hash": "c7b3115e69b12e6507f309ddad69ec433e7010d1cba7bc427355d12f9503f63a",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "04-loop-engineering"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_8be266ff616aacd1fbdc",
+      "source_text_hash": "8b02d29fde247b9b18e364745d8aeb094dc7bd6f68cadbc08a84c49b63937e3c",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "Counter-UAS: What the Ground Tells Us Most drone threats today aren’t sophisticated military platforms. They’re cheap, commercially availabl",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_a8365473eee76a481932",
+      "source_text_hash": "1a9badb028831b0fbf272cab38d55694b81edfd4c7db2be6fef67b54a626b600",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "The vocabulary of AI-assisted software development keeps evolving. The newest addition to the list is Loop Engineering. We’ve gone from Vibe",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_3d0c6fa87ab6269f1020",
+      "source_text_hash": "5987950379d36670d30ace8d16f4c03713fc054ab5c8284166dc87533b98f9df",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "\"Loop Engineering es cuando te das cuenta de que eres demasiado vago para escribir un prompt, así que haces que una IA escriba prompts para",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_b5355293e90e0883e46f",
+      "source_text_hash": "dda3957b3deba9407c31868ede872e32d17ca66641ae83d74aeb7e615e1672cc",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "To every AI enthusiasts out there.. Listen to this! The top 1% are moving to Loop Engineering!",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_fcb824cdedbd29a387ce",
+      "source_text_hash": "ad0910ece0c113a518591fe7a2bf9ab1bbd205301b620add2bdc6e08c9aac81f",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice. For t",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "04-loop-engineering"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_9c621fb52fe5edcd842b",
+      "source_text_hash": "50596939121518b295889c6c7ae0049e3ab5948d1313dd09910013febd97efe2",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "Maximizing glass container strength right at the hot end. 🛠️🔥 The foundation of a durable glass bottle or jar is established immediately aft",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_b98f5215da1fe5e1483b",
+      "source_text_hash": "1a296da825dc95c23fad1390c7558979aae9d1d690f0200d91478ed39bd3bd5f",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "지난 2년간 AI 코딩 에이전트를 쓰는 방식은 대체로 비슷했다. 프롬프트를 직접 작성하고, 결과를 확인하고, 다시 수정하는 수동 반복. 매 턴마다 개발자가 직접 에이전트를 \"프롬프트\"하는 구조였다. 그런데 Addy Osmani가 제안하는 루프 엔지니어",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_5589aff8af6dc565facc",
+      "source_text_hash": "369d7c8ac57e1f9a980943d21e29b334bc943626764e9dbf3b8acd53f2015a52",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "04-loop-engineering"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_0c0750574479bec8d50a",
+      "source_text_hash": "6b3e11580f4a0b77654a13f1c19072e611f6f1aa746cd5ab07f35339b010fe82",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "Cursor charged us $1,400 in 1 hour because of a loop. Their CEO refunded it in 24 hours. One of our PMs handed an agent a routine job: tag 8",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_d32c88e4ad5c299f643f",
+      "source_text_hash": "856ef11f55905a714316aabf986357f0f40ca56ab26560d700b550451ba0b718",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "From software engineer to AI engineer without starting over. AI engineering can sound like a different world from regular software work. For",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_3111a0b236c522c91b02",
+      "source_text_hash": "59720081e6291acd38940dc93a046698733e6e381e2017dcb16dbe4c7935569a",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "Loopers, Robovacs and the Death of the /Prompt A Weekend Gonzo Field Guide to /loop Engineering Another weekend piece of satire, devoid of r",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_e220f54b7a8754625b2e",
+      "source_text_hash": "52b23922efd30c9abfb2125d522ce694d93b8ee5e8f61848f6bd2bcc7f299b55",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "Keeping up with AI right now feels like drinking from a fire hose. New terminology, buzzwords, tactics, strategies - constantly changing. It",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_37d16883f7545729e011",
+      "source_text_hash": "536c079b13d9196d1ea90038330457fe928bc0c16178b915fe94dfcdd7c47aba",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "Most people haven't heard of loop engineering yet. Give it two weeks. The term is all over the place right now, and it started with two post",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_b2b7371a339021d4ae6e",
+      "source_text_hash": "dbe54ec99160bd6e549e8036239d4acc3843522a1cda3a2bfc212485502f736d",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "You've probably seen a lot of discourse this week on \"loop engineering\", and no doubt you've seen the Fable/Mythos release. Here are three q",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_509582fee8f1b269984a",
+      "source_text_hash": "d0dbae0133449054663f23af33b95f1f5805d9ab27ed16d9de5d1ea099b2a2e1",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "On parle beaucoup de “prompt engineering”. Mais avec les LLMs actuels, le vrai sujet devient plutôt le “loop engineering”. Pas “comment écri",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_f41802fadc9952af7760",
+      "source_text_hash": "aa36c3b0356f324cbf38f38701ee99a57341a569c7ddcd27ef5fba96b3810e2d",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "\"Prompt Engineering is dead.\" Not because prompts don't matter. But because prompts alone don't create value anymore. Everyone is talking ab",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "01-the-agent-loop",
+        "04-loop-engineering"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_81414ff04b7b79aed402",
+      "source_text_hash": "4353e3ee6075ea9bdda10f94fd11ac78e677f498ed4f9c1297a005c2dc507592",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "Loops statt Prompts Zwei Jahre lang galt: Wer etwas aus einem Coding-Agenten herausholen will, schreibt einen guten Prompt. Seit Anfang Juni",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    },
+    {
+      "canonical_url_available": false,
+      "expected_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "risk_flags": [
+        "below_min_quality_C",
+        "quality_score D",
+        "linkedin_search_result",
+        "human_review privacy status",
+        "missing canonical URL",
+        "thin title/publisher metadata"
+      ],
+      "selection_decision": "skipped",
+      "selection_reason": "human_review privacy status excluded; linkedin_search_result deprioritized below public web sources; quality_score D below min_quality C; canonical URL missing; below_min_quality_C; quality_score D; linkedin_search_result; human_review privacy status; missing canonical URL; thin title/publisher metadata; quality_score D; enough sanitized text/summary for semantic extraction; book theme hits: loop_engineering",
+      "selection_score": -135,
+      "source_id": "src_fa9f9c6fa0c525865785",
+      "source_text_hash": "bf2d96db3f72f4a23b9478134376207502fa186e22ec9bd421c23129224ebcb4",
+      "source_type": "linkedin_search_result",
+      "theme_hits": [
+        "loop_engineering"
+      ],
+      "title": "There's a new buzz word in town, and it's called LOOP ENGINEERING. Very soon you're going to keep hearing this, but before then, Imma tell y",
+      "why_better_than_run5_sample": "Not better enough for Run 7 selection."
+    }
+  ],
+  "source_type_distribution": {
+    "linkedin_search_result": 868,
+    "web": 77
+  },
+  "statuses_modified": false,
+  "total_sources_inspected": 945
+}

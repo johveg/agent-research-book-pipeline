@@ -1,13 +1,13 @@
-# GitHub
+# Github
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 15
-- Mention count: 137
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 20
+- Mention count: 143
 
 ## Description
 
@@ -41,11 +41,24 @@ Candidate tool entity extracted from 5 source(s).
 - `src_8d4f3b9531fe6368478b` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
   - URL: https://github.com/nousresearch/hermes-agent
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+- `src_c42fb4085e1d17428071` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
 - `src_f45b46607537f7566a0c` — Three free open-source AI tools just exploded on GitHub 🤯 One was built by PewDiePie. Odysseus is a fully local workspace that runs on your 
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/057-c050168452ee07f224bc.md`
 - `src_ec29732d035ab6417896` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
   - URL: https://github.com/openclaw/openclaw
   - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
+- `src_a9094de1a6e81993e28d` — Yapay zeka araclari kullaniminin zaman icinde bende nasil degistigini kisaca paylasayim. - 2022 baslarinda IIntelliJ IDEA bünyesinde Github 
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/025-ddace9f51410495312b1.md`
+- `src_0d8e03002b2f6c4c8bef` — Feed post Sergio S. • 3rd+ Microsoft MVP (Developer Technologies) | GitHub | AI Native Software Engineering | Digital App Innovation and Mod
+  - URL: https://www.linkedin.com/in/sesispla?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPNQxwBNle9Jld_N045FCkVlyfgYee572o
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/060-453e87ec7663876b6d99.md`
+- `src_a27969da86165e17d965` — A GitHub repo that deserves 100k stars. works with Claude Code, Cursor, Copilot, OpenClaw, Codex, Hermes, and any agent An AI skill that cre
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/058-a1bdb30221451da690b7.md`
+- `src_d90a3efa0dfb7dff9144` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+  - URL: https://github.com/openclaw/openclaw
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/03-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
 - `src_3e0e817c83a9e707d3b5` — Feed post IronPlate AI 605 followers 13h • Follow 🚨 Hermes Agent hit 110,000 GitHub stars in 10 weeks. It just overtook OpenClaw on daily to
   - URL: https://www.linkedin.com/company/ironplate-ai/posts
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/126-add5efb06d9ab56b0af4.md`

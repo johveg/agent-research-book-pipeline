@@ -1,40 +1,40 @@
 # Hermes
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
-- Type: `tool`
+- Type: `project`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 287
-- Mention count: 2405
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 406
+- Mention count: 2566
 
 ## Description
 
-Candidate tool entity extracted from 115 source(s).
+Candidate project entity extracted from 155 source(s).
 
 ## Related claims
 
-- **candidate / weak** — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and "Hermes Agent". (`claim_c69ac1d5516664ca8a82`)
+- **candidate / weak** — Ask a model that has access to a computer to build a list and it can do it for you It's *super* easy If the ask i "OpenClaw" Hermes. (`claim_029ef52bd98c3c0cfb3c`)
 - **candidate / weak** — AstridOS is coming You've taught your agent how you work Your context, your setup, the way you operate Switching platforms to get more contr "OpenClaw" Hermes. (`claim_c392e933e8cdeb7ec597`)
-- **candidate / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
+- **candidate / weak** — But the bigger agent test is second-mile discipline: evidence, recovery, approvals, han "OpenClaw" Hermes. (`claim_b4778ec0ea09046b9855`)
+- **candidate / weak** — Every tech publication is calling it a game-change "OpenClaw" Hermes. (`claim_4268fbe6cea2a58088c8`)
 - **candidate / weak** — Feed post Marco Iacono • 3rd+ Co-Founder & CPO @ Heavy Metal Network Formerly Apple, Viv, Samsung, Switchboard 5h • we are very close to the "OpenClaw" Hermes. (`claim_23ebfe599bf72c221166`)
-- **candidate / weak** — Global Manufacturing is facing data reconciliation bottleneck, planning inventory and reducing time to delivery and production is biggest dr "Hermes Agent". (`claim_640a9182c00799274d58`)
-- **candidate / weak** — Hermes agent experiment day 22 and today’s post is a bit less about Hermes and more about why I’m so happy to be here ✨ This photo is a thro "Hermes Agent". (`claim_8c8feb050bf460304ddd`)
-- **candidate / weak** — I have been hands on with Hermes Agent long enough to know the setup friction was the real barrier to adoption. (`claim_9b2fa39434789e722425`)
-- **candidate / weak** — If you think creating a smart assistant is out of your league, let me share my "Hermes Agent". (`claim_7c0c318c580bec68bbb0`)
-- **candidate / weak** — Loved the conversations after my talk: "The Invisible Army: How AI Agents Became the Attack Surface Nobody Is Watchin "Hermes Agent". (`claim_5587c736a27e9103cb7b`)
-- **candidate / weak** — MyAgenta is an advanced agentic AI platform and entity developed by DrRobotoAi, specializing in multi-modal AI, digital human avatars, and a "Hermes Agent". (`claim_921da09c38667a3bb658`)
-- **candidate / weak** — Nous Research Launches Profile Builder for Hermes Agent 📌 Nous Research has revolutionized autonomous agent management with the launch of it "Hermes Agent". (`claim_d0c46e65dfbd3fb43717`)
-- **candidate / weak** — Now, Hermes Agent is growing steadily in popularity as a powerful alte "OpenClaw" Hermes. (`claim_7d3df018f8e50d6b07a9`)
-- **candidate / weak** — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). (`claim_0985fd2ad07e14723e29`)
-- **candidate / weak** — Our monthly deposit volume growth since Nov '25 has "OpenClaw" Hermes. (`claim_46187417da58caeeab31`)
-- **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
-- **candidate / weak** — See how an hashtag #AI Agent like Hermes Agent helps "Hermes Agent". (`claim_539ec00d0d969a804db6`)
-- **candidate / weak** — Staying up-to-date with zero-days and vulnerabilities is critical in the cy "Hermes Agent". (`claim_1df4394830afe906353c`)
-- **candidate / weak** — The mission of Bridge Agent is to take what works about Hermes Agent and specialize it for software development. (`claim_a6d51f1c49d286a8278d`)
-- **candidate / weak** — The next shift is AI agents working together like a real business team — planning, executing, rem "OpenClaw" Hermes. (`claim_d5429b52beb19fb06fcf`)
+- **candidate / weak** — Here is a responsible, grown-up way of saying what I did to Hermes Agent running GPT5.5, in the last week. (`claim_a7f33f83a2710e9f30a2`)
+- **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
+- **candidate / weak** — Hermes If you are building multi-agent enterprise systems, you are likely facing "OpenClaw" Hermes. (`claim_0fb5975e6ea89f15c463`)
+- **candidate / weak** — In this release: - Fable 5 has landed and it’s a big one - I tried Hermes instead o "OpenClaw" Hermes. (`claim_cc40ee0d3ade9849954a`)
+- **candidate / weak** — Now AI is everywhere: Apps, browsers, tool "OpenClaw" Hermes. (`claim_a59cf4d062ae2b941518`)
+- **candidate / weak** — So now my Hermes agent is looking out for Champagne deals for me - I am serious. (`claim_34cc736024bd33b227d6`)
+- **candidate / weak** — The Model Context Protocol is an open standard that allows AI tools (Claude C "OpenClaw" Hermes. (`claim_6f210696a318b48349f9`)
+- **candidate / weak** — The Model Context Protocol is an open standard that allows AI tools (Claude Code, Cursor, Windsurf, OpenHands) to connect to ex "OpenClaw" Hermes. (`claim_035685024d9bee58a745`)
 - **candidate / weak** — The past 4 months of Claude Code / OpenClaw / Hermes hype train have been full of "agent products" that are really just prompts. (`claim_131df14aef5622e97ec3`)
+- **candidate / weak** — The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having "Hermes Agent". (`claim_8a040ec331b5f7c79bea`)
+- **candidate / weak** — The process was much easier than I expected: • Connect the existing ImagineArt account "Hermes Agent". (`claim_adac10ae3abf548dfb15`)
+- **candidate / weak** — The promise was memory that compounds across sessi "Hermes Agent". (`claim_9f4bb6b351ac792aea65`)
+- **candidate / weak** — There was a minor bug in it: pressing Shift + Enter wouldn't take you to th "Hermes Agent". (`claim_96f3ea891c705d72b341`)
+- **candidate / weak** — This is a one-click AI app builder setup where multiple agents work together to plan and build s "Hermes Agent". (`claim_62bc2cae06490c4f0eda`)
+- **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $ "OpenClaw" Hermes. (`claim_72d359ba093fb921ffb5`)
 
 ## Source references
 

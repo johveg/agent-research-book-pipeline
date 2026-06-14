@@ -1,23 +1,23 @@
 # Agentic AI
 
-Last generated: 2026-06-13T01:27:14Z
+Last generated: 2026-06-14T01:25:06Z
 
 - Type: `concept`
-- Confidence: `high`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 14
-- Mention count: 158
+- Last seen: 2026-06-14T01:25:00Z
+- Source count: 15
+- Mention count: 160
 
 ## Description
 
-Candidate concept entity extracted from 6 source(s).
+Candidate concept entity extracted from 2 source(s).
 
 ## Related claims
 
-- **candidate / weak** — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and "Hermes Agent". (`claim_c69ac1d5516664ca8a82`)
-- **candidate / weak** — Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI landscape is shifting from manual prompting to loop engineering, "loop engineering". (`claim_bb9214728e7a7d9589c9`)
-- **candidate / weak** — MyAgenta is an advanced agentic AI platform and entity developed by DrRobotoAi, specializing in multi-modal AI, digital human avatars, and a "Hermes Agent". (`claim_921da09c38667a3bb658`)
+- **needs_review / weak** — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and "Hermes Agent". (`claim_c69ac1d5516664ca8a82`)
+- **needs_review / weak** — Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI landscape is shifting from manual prompting to loop engineering, "loop engineering". (`claim_bb9214728e7a7d9589c9`)
+- **needs_review / weak** — MyAgenta is an advanced agentic AI platform and entity developed by DrRobotoAi, specializing in multi-modal AI, digital human avatars, and a "Hermes Agent". (`claim_921da09c38667a3bb658`)
 
 ## Source references
 
@@ -50,6 +50,9 @@ Candidate concept entity extracted from 6 source(s).
 - `src_c04ac0bb49c390c67ff2` — Feed post Nishant Dodiya • 3rd+ AI Infrastructure Engineer & Prompt Systems Architect | 6+ Years | Agentic AI, LLMOps, Evaluation Systems & 
   - URL: https://www.linkedin.com/in/nishant-dodiya-4964251a2?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC9nlnIBKd7rlrLXlPq_XJIGlc2-0-5zbME
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/118-9db4d655392464ca3c26.md`
+- `src_8a9385d706e71e9a453b` — Feed post Vince D'souza • 3rd+ Software Engineer @CoComply | Design-Engineer · Agentic AI 7h • Follow Obsession hype is real. The movie was 
+  - URL: https://www.linkedin.com/in/vince-d-souza-2982ab2a7?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEnnfdQBDKd5XGI-A80lrJcTiQ772FqaJag
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/098-ec9af7c5f72ef77e8e99.md`
 - `src_533c7bff7d736521d754` — As enterprises move beyond AI assistants and toward autonomous Agentic AI systems, security must evolve from protecting applications to gove
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/056-ef4e3ff99ce1ec226c88.md`
 - `src_661a6ac972e6750207f3` — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and

@@ -1,0 +1,547 @@
+{
+  "advisory_only": true,
+  "author_allowed": false,
+  "bridge": "hermes_cli",
+  "chapters_modified": false,
+  "claims_inserted": 0,
+  "commit_allowlist_modified": false,
+  "confidence_level": "medium",
+  "corroboration_decision_counts": {
+    "corroboration_not_required": 2,
+    "corroboration_required": 3
+  },
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "do_not_use_count": 0,
+  "editor_packet_report": "reports/editorial/citation-pipeline-test-20260612-editor-review-packet-run8.json",
+  "editorial_reviews_inserted": 0,
+  "eligible_as_caveat_only_count": 2,
+  "eligible_for_filing_persistence_count": 2,
+  "evidence_use_decision_counts": {
+    "eligible_as_caveat_only": 2,
+    "needs_corroboration_before_filing": 2,
+    "needs_source_review": 1
+  },
+  "filing_evaluations_available": 5,
+  "filing_novelty_report": "reports/editorial/citation-pipeline-test-20260612-filing-novelty-evaluation-run9.json",
+  "generated_at": "2026-06-13T20:14:36Z",
+  "high_reasoning_bridge": {
+    "bridge": "hermes_cli",
+    "command_shape": "timeout 180 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+    "elapsed_seconds": 38.357,
+    "error": "",
+    "exit_code": 0,
+    "generated_at": "2026-06-13T20:13:57Z",
+    "llm_used": true,
+    "model": "gpt-5.5",
+    "ok": true,
+    "parsed_json": {
+      "source_reviews": [
+        {
+          "blockers": [
+            "Only publishable metadata is available",
+            "No source notes are available",
+            "Single source chain"
+          ],
+          "confidence": "high",
+          "corroboration_decision": "corroboration_required",
+          "corroboration_questions": [
+            "Does the project documentation explicitly describe a web interface?",
+            "Does the project documentation explicitly describe a phone or mobile interface?",
+            "Does the project explicitly identify Hermes Agent as an environment or dependency?"
+          ],
+          "corroboration_rationale": "Interface and Hermes-specific claims require direct project documentation, README content, release notes, or code evidence beyond metadata.",
+          "evidence_use_decision": "needs_corroboration_before_filing",
+          "filing_evaluation_id": "filing_eval_c39f3be4e7bef7f0dabe",
+          "next_stage_recommendation": "run_corroboration_research",
+          "required_editor_decisions": [
+            "Decide whether this interface inference should be discarded or sent for corroboration before filing"
+          ],
+          "risk_flags": [
+            "possible_overreading_of_project_metadata",
+            "single_source_chain",
+            "weak_metadata_inference"
+          ],
+          "source_support_decision": "unsupported",
+          "suggested_corroboration_sources": [
+            "Project README or documentation",
+            "Repository code paths for web or mobile clients",
+            "Release notes or configuration documentation"
+          ],
+          "support_rationale": "Available metadata supports only a GitHub project described as a personal AI assistant across OS/platforms; it does not substantiate a web or phone interface or Hermes Agent use."
+        },
+        {
+          "blockers": [
+            "Use should remain limited to a caveat about absent verification"
+          ],
+          "confidence": "high",
+          "corroboration_decision": "corroboration_not_required",
+          "corroboration_questions": [],
+          "corroboration_rationale": "No corroboration is required if the item is used only as a caveat about what the card does not verify.",
+          "evidence_use_decision": "eligible_as_caveat_only",
+          "filing_evaluation_id": "filing_eval_5a84c224eb58bf625f42",
+          "next_stage_recommendation": "eligible_for_filing_persistence",
+          "required_editor_decisions": [
+            "Confirm caveat wording remains limited to absence of verification and does not imply the project is immature or low quality"
+          ],
+          "risk_flags": [
+            "absence_of_evidence",
+            "publication_safety_caveat",
+            "single_source_chain"
+          ],
+          "source_support_decision": "supported",
+          "suggested_corroboration_sources": [],
+          "support_rationale": "The available context is metadata-only and contains no verification of maturity, feature completeness, code quality, or maintenance status, so the limitation caveat is supported."
+        },
+        {
+          "blockers": [
+            "Only metadata is available",
+            "Hermes relevance is not shown in the provided source context",
+            "Single source chain"
+          ],
+          "confidence": "high",
+          "corroboration_decision": "corroboration_required",
+          "corroboration_questions": [
+            "Does the repository explicitly mention Hermes or Hermes Agent?",
+            "Is OpenClaw documented as operating in, with, or alongside Hermes?",
+            "What tooling functions are actually evidenced in the repository documentation or code?"
+          ],
+          "corroboration_rationale": "The Hermes-environment association and nature of the tooling require source content beyond repository metadata.",
+          "evidence_use_decision": "needs_corroboration_before_filing",
+          "filing_evaluation_id": "filing_eval_b82d67d436357d41bf72",
+          "next_stage_recommendation": "run_corroboration_research",
+          "required_editor_decisions": [
+            "Decide whether to narrow the claim to OpenClaw being AI-assistant-adjacent or require corroboration for Hermes linkage"
+          ],
+          "risk_flags": [
+            "keyword_association_risk",
+            "single_source_chain",
+            "weak_metadata_inference"
+          ],
+          "source_support_decision": "partially_supported",
+          "suggested_corroboration_sources": [
+            "Project README or docs",
+            "Repository configuration files",
+            "Code references to Hermes or Hermes Agent",
+            "Issue or release documentation"
+          ],
+          "support_rationale": "The metadata supports OpenClaw as an AI-assistant-related GitHub project, but does not clearly support Hermes as a relevant environment or any stronger tooling relationship."
+        },
+        {
+          "blockers": [
+            "Source-card details are not included",
+            "Source type and evidentiary role are uncertain",
+            "Single source chain"
+          ],
+          "confidence": "medium",
+          "corroboration_decision": "corroboration_required",
+          "corroboration_questions": [
+            "What source-card content frames the item as a writing-audit and rewrite skill?",
+            "Does the underlying source contain any agent architecture material?",
+            "Is the item intended as a caveat about source type rather than a factual architecture claim?"
+          ],
+          "corroboration_rationale": "A source review is needed to determine what the item actually is and whether it should be treated as a caveat, skill description, or architecture source.",
+          "evidence_use_decision": "needs_source_review",
+          "filing_evaluation_id": "filing_eval_bd562e909f80e16a2bb3",
+          "next_stage_recommendation": "needs_source_review",
+          "required_editor_decisions": [
+            "Determine whether this should be filed only as an evidentiary caveat or excluded until source-card content is reviewed"
+          ],
+          "risk_flags": [
+            "architecture_evidence_risk",
+            "single_source_chain",
+            "source_type_uncertainty"
+          ],
+          "source_support_decision": "unclear",
+          "suggested_corroboration_sources": [
+            "Source card full text",
+            "Repository README or docs",
+            "Any related skill or prompt files referenced by the source card"
+          ],
+          "support_rationale": "The provided metadata identifies a GitHub AI-assistant project but does not show that the item is a writing-audit and rewrite skill or clarify its evidentiary role relative to agent architecture."
+        },
+        {
+          "blockers": [
+            "Use should remain limited to a caveat about missing detail"
+          ],
+          "confidence": "high",
+          "corroboration_decision": "corroboration_not_required",
+          "corroboration_questions": [],
+          "corroboration_rationale": "No corroboration is required for a caveat stating what the card does not show; corroboration would be required only to make positive claims about the skill's method or integration.",
+          "evidence_use_decision": "eligible_as_caveat_only",
+          "filing_evaluation_id": "filing_eval_224fd1bd260b4222fdfc",
+          "next_stage_recommendation": "eligible_for_filing_persistence",
+          "required_editor_decisions": [
+            "Confirm caveat wording does not imply the method, validation, or integration is absent from the project itself, only absent from the available card context"
+          ],
+          "risk_flags": [
+            "integration_uncertainty",
+            "missing_method_detail",
+            "missing_validation_evidence",
+            "single_source_chain"
+          ],
+          "source_support_decision": "supported",
+          "suggested_corroboration_sources": [],
+          "support_rationale": "The available metadata does not show method, rules, accuracy, validation, or integration details, so the limitation caveat is supported if kept narrowly framed."
+        }
+      ]
+    },
+    "prompt_hash": "2b410856fe0b271b16cfac5537f247bcf88a822dea41af8c49022002c5393bcc",
+    "provider": "copilot",
+    "reasoning_status": "high_reasoning_used",
+    "schema_name": "source_support_review_v1",
+    "stderr_redacted": "\nsession_id: 20260613_201359_a9b3b5\n",
+    "stdout_hash": "8a2c365463cfed08a4398682bc94bfac8f425c26ae35bc8f05a834f908ad9a84",
+    "stdout_json_valid": true,
+    "timed_out": false,
+    "weak_local_fallback_refused": true
+  },
+  "items_reviewed": 5,
+  "live_web_corroboration_used": false,
+  "llm_used": true,
+  "long_source_excerpt_written": false,
+  "mode": "source_support_review",
+  "model": "gpt-5.5",
+  "needs_corroboration_count": 5,
+  "next_run_recommendation": {
+    "conditions": [
+      "remain report-only unless persistence is explicitly authorized",
+      "do not insert claims or approve publication",
+      "avoid narrative packets until source support/corroboration blockers are resolved"
+    ],
+    "recommendation": "persist_source_review_filing_notes_to_source_notes_disabled_by_default"
+  },
+  "next_stage_recommendation_counts": {
+    "eligible_for_filing_persistence": 2,
+    "needs_source_review": 1,
+    "run_corroboration_research": 2
+  },
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-source-support-review-run10.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-source-support-review-run10.md"
+  },
+  "provider": "copilot",
+  "publication_approved": false,
+  "raw_private_material_written": false,
+  "reasoning_status": "high_reasoning_used",
+  "risks": [
+    "Report-only advisory review.",
+    "No external web search was run by default.",
+    "Single-source chains may still overclaim.",
+    "No item is author-approved or publication-approved."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "schema_modified": false,
+  "source_reviews": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "Only publishable metadata is available",
+        "No source notes are available",
+        "Single source chain"
+      ],
+      "bridge": "hermes_cli",
+      "canonical_url_available": true,
+      "confidence": "high",
+      "corroboration_decision": "corroboration_required",
+      "corroboration_questions": [
+        "Does the project documentation explicitly describe a web interface?",
+        "Does the project documentation explicitly describe a phone or mobile interface?",
+        "Does the project explicitly identify Hermes Agent as an environment or dependency?"
+      ],
+      "corroboration_rationale": "Interface and Hermes-specific claims require direct project documentation, README content, release notes, or code evidence beyond metadata.",
+      "evidence_use_decision": "needs_corroboration_before_filing",
+      "filing_decision": "needs_corroboration",
+      "filing_evaluation_id": "filing_eval_c39f3be4e7bef7f0dabe",
+      "input_hash": "c9e363d7eb05b731d8ce255be6ead9a89b134c80e37ca9583d3a1a35374f5adb",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "run_corroboration_research",
+      "novelty_decision": "partially_novel",
+      "output_hash": "c53d6da1964d296191c56827a3f2cb587a95bc0864f1d69ccd4abaa70228d36d",
+      "packet_item_id": "editor_packet_b7dc9103943b3b345e15",
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publication_approved": false,
+      "publisher": "github.com",
+      "quality_review_id": "semantic_object_draft_425a074033ba640ec639",
+      "quality_score": "A",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Decide whether this interface inference should be discarded or sent for corroboration before filing"
+      ],
+      "risk_flags": [
+        "possible_overreading_of_project_metadata",
+        "single_source_chain",
+        "weak_metadata_inference"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_425a074033ba640ec639",
+      "semantic_object_text": "The project metadata suggests a web or phone interface for using Hermes Agent.",
+      "semantic_object_type": "trend_signal",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_12c73455aa1816e5df8c",
+      "source_support_decision": "unsupported",
+      "source_title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "source_type": "web",
+      "suggested_corroboration_sources": [
+        "Project README or documentation",
+        "Repository code paths for web or mobile clients",
+        "Release notes or configuration documentation"
+      ],
+      "support_rationale": "Available metadata supports only a GitHub project described as a personal AI assistant across OS/platforms; it does not substantiate a web or phone interface or Hermes Agent use."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "Use should remain limited to a caveat about absent verification"
+      ],
+      "bridge": "hermes_cli",
+      "canonical_url_available": true,
+      "confidence": "high",
+      "corroboration_decision": "corroboration_not_required",
+      "corroboration_questions": [],
+      "corroboration_rationale": "No corroboration is required if the item is used only as a caveat about what the card does not verify.",
+      "evidence_use_decision": "eligible_as_caveat_only",
+      "filing_decision": "new_caveat_candidate",
+      "filing_evaluation_id": "filing_eval_5a84c224eb58bf625f42",
+      "input_hash": "b77597c3f230cae567799b22043c50574d89163d5bf02b7c9a88acdec1a66031",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "eligible_for_filing_persistence",
+      "novelty_decision": "partially_novel",
+      "output_hash": "5cd5c8092953d442b2d1d0e493abf3d61ca660ce9ecebc1d468a77c7c40c2271",
+      "packet_item_id": "editor_packet_23c4afb16f0732af29df",
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publication_approved": false,
+      "publisher": "github.com",
+      "quality_review_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+      "quality_score": "A",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Confirm caveat wording remains limited to absence of verification and does not imply the project is immature or low quality"
+      ],
+      "risk_flags": [
+        "absence_of_evidence",
+        "publication_safety_caveat",
+        "single_source_chain"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+      "semantic_object_text": "The card does not verify project maturity, feature completeness, code quality, or maintenance status.",
+      "semantic_object_type": "counterpoint",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_01be74039581152450ad",
+      "source_support_decision": "supported",
+      "source_title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "source_type": "web",
+      "suggested_corroboration_sources": [],
+      "support_rationale": "The available context is metadata-only and contains no verification of maturity, feature completeness, code quality, or maintenance status, so the limitation caveat is supported."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "Only metadata is available",
+        "Hermes relevance is not shown in the provided source context",
+        "Single source chain"
+      ],
+      "bridge": "hermes_cli",
+      "canonical_url_available": true,
+      "confidence": "high",
+      "corroboration_decision": "corroboration_required",
+      "corroboration_questions": [
+        "Does the repository explicitly mention Hermes or Hermes Agent?",
+        "Is OpenClaw documented as operating in, with, or alongside Hermes?",
+        "What tooling functions are actually evidenced in the repository documentation or code?"
+      ],
+      "corroboration_rationale": "The Hermes-environment association and nature of the tooling require source content beyond repository metadata.",
+      "evidence_use_decision": "needs_corroboration_before_filing",
+      "filing_decision": "needs_corroboration",
+      "filing_evaluation_id": "filing_eval_b82d67d436357d41bf72",
+      "input_hash": "402700c8325b0ebe7fd55caea3412075e0bd3de74cbe43a0ab6f46bd3c4b054e",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "run_corroboration_research",
+      "novelty_decision": "partially_novel",
+      "output_hash": "9212b157b6ec83183a45b7e12607144cab30136f50c5f75ce92675f8c25b5800",
+      "packet_item_id": "editor_packet_48e56de78fce06dde725",
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publication_approved": false,
+      "publisher": "github.com",
+      "quality_review_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "quality_score": "A",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Decide whether to narrow the claim to OpenClaw being AI-assistant-adjacent or require corroboration for Hermes linkage"
+      ],
+      "risk_flags": [
+        "keyword_association_risk",
+        "single_source_chain",
+        "weak_metadata_inference"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "semantic_object_text": "The metadata weakly shows agent-adjacent tooling that names OpenClaw and Hermes as relevant environments.",
+      "semantic_object_type": "factual_claim",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_5baf68d86960f91b97ac",
+      "source_support_decision": "partially_supported",
+      "source_title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "source_type": "web",
+      "suggested_corroboration_sources": [
+        "Project README or docs",
+        "Repository configuration files",
+        "Code references to Hermes or Hermes Agent",
+        "Issue or release documentation"
+      ],
+      "support_rationale": "The metadata supports OpenClaw as an AI-assistant-related GitHub project, but does not clearly support Hermes as a relevant environment or any stronger tooling relationship."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "Source-card details are not included",
+        "Source type and evidentiary role are uncertain",
+        "Single source chain"
+      ],
+      "bridge": "hermes_cli",
+      "canonical_url_available": true,
+      "confidence": "medium",
+      "corroboration_decision": "corroboration_required",
+      "corroboration_questions": [
+        "What source-card content frames the item as a writing-audit and rewrite skill?",
+        "Does the underlying source contain any agent architecture material?",
+        "Is the item intended as a caveat about source type rather than a factual architecture claim?"
+      ],
+      "corroboration_rationale": "A source review is needed to determine what the item actually is and whether it should be treated as a caveat, skill description, or architecture source.",
+      "evidence_use_decision": "needs_source_review",
+      "filing_decision": "new_caveat_candidate",
+      "filing_evaluation_id": "filing_eval_bd562e909f80e16a2bb3",
+      "input_hash": "182f6687c55b7c8819145012e014bf791f04d0981fe8c603d64b5b827cf49ca3",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "needs_source_review",
+      "novelty_decision": "novel",
+      "output_hash": "e2fa761ae06fc1f33093556bd8bdb5b88809275b517b0c196877b0f0feee2a86",
+      "packet_item_id": "editor_packet_13a17d293dd6140c91ae",
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publication_approved": false,
+      "publisher": "github.com",
+      "quality_review_id": "semantic_object_draft_5558303e45f77723657a",
+      "quality_score": "A",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Determine whether this should be filed only as an evidentiary caveat or excluded until source-card content is reviewed"
+      ],
+      "risk_flags": [
+        "architecture_evidence_risk",
+        "single_source_chain",
+        "source_type_uncertainty"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_5558303e45f77723657a",
+      "semantic_object_text": "This item is framed as a writing-audit and rewrite skill, not as a primary source on agent architecture.",
+      "semantic_object_type": "factual_claim",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_e20631e18093139a8bc2",
+      "source_support_decision": "unclear",
+      "source_title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "source_type": "web",
+      "suggested_corroboration_sources": [
+        "Source card full text",
+        "Repository README or docs",
+        "Any related skill or prompt files referenced by the source card"
+      ],
+      "support_rationale": "The provided metadata identifies a GitHub AI-assistant project but does not show that the item is a writing-audit and rewrite skill or clarify its evidentiary role relative to agent architecture."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "Use should remain limited to a caveat about missing detail"
+      ],
+      "bridge": "hermes_cli",
+      "canonical_url_available": true,
+      "confidence": "high",
+      "corroboration_decision": "corroboration_not_required",
+      "corroboration_questions": [],
+      "corroboration_rationale": "No corroboration is required for a caveat stating what the card does not show; corroboration would be required only to make positive claims about the skill's method or integration.",
+      "evidence_use_decision": "eligible_as_caveat_only",
+      "filing_decision": "new_caveat_candidate",
+      "filing_evaluation_id": "filing_eval_224fd1bd260b4222fdfc",
+      "input_hash": "f14675f3f9987b43b7f07f3239fbaaaca4003a1809f497f764e03ab09a7b1a55",
+      "llm_used": true,
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "eligible_for_filing_persistence",
+      "novelty_decision": "partially_novel",
+      "output_hash": "af94dc4646cd11d5b9e297111aa3a5052055e4c683bf78b948a6c870ad9c2d6f",
+      "packet_item_id": "editor_packet_9ec385327deb68b949a6",
+      "privacy_publication_status": "publishable_metadata_only",
+      "provider": "copilot",
+      "publication_approved": false,
+      "publisher": "github.com",
+      "quality_review_id": "semantic_object_draft_18e5d778bd54802d41b3",
+      "quality_score": "A",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Confirm caveat wording does not imply the method, validation, or integration is absent from the project itself, only absent from the available card context"
+      ],
+      "risk_flags": [
+        "integration_uncertainty",
+        "missing_method_detail",
+        "missing_validation_evidence",
+        "single_source_chain"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_18e5d778bd54802d41b3",
+      "semantic_object_text": "The card does not show the skill's method, rules, accuracy, or integration details.",
+      "semantic_object_type": "counterpoint",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "source_review_id": "source_review_a1bc597eb60322bee40e",
+      "source_support_decision": "supported",
+      "source_title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "source_type": "web",
+      "suggested_corroboration_sources": [],
+      "support_rationale": "The available metadata does not show method, rules, accuracy, validation, or integration details, so the limitation caveat is supported if kept narrowly framed."
+    }
+  ],
+  "source_support_decision_counts": {
+    "partially_supported": 1,
+    "supported": 2,
+    "unclear": 1,
+    "unsupported": 1
+  },
+  "statuses_modified": false,
+  "summary": {
+    "before_filing_persistence_or_narrative_packets": "Resolve source-review/corroboration blockers and obtain human/editor review; no author/publication approval is granted.",
+    "items_eligible_as_caveat_only": [
+      "source_review_01be74039581152450ad",
+      "source_review_a1bc597eb60322bee40e"
+    ],
+    "items_requiring_corroboration": [
+      "source_review_12c73455aa1816e5df8c",
+      "source_review_5baf68d86960f91b97ac",
+      "source_review_e20631e18093139a8bc2"
+    ],
+    "items_sufficiently_supported": [
+      "source_review_01be74039581152450ad",
+      "source_review_a1bc597eb60322bee40e"
+    ],
+    "items_too_weak_or_unsupported": [
+      "source_review_12c73455aa1816e5df8c"
+    ]
+  },
+  "verification": {}
+}

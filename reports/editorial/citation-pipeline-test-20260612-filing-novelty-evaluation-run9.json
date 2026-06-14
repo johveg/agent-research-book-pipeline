@@ -1,0 +1,548 @@
+{
+  "advisory_only": true,
+  "author_allowed": false,
+  "bridge": "hermes_cli",
+  "chapters_modified": false,
+  "claims_inserted": 0,
+  "commit_allowlist_modified": false,
+  "confidence_level": "medium",
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "none",
+  "do_not_use_count": 0,
+  "downstream_eligible_items_available": 5,
+  "duplicate_count": 0,
+  "editor_packet_items_available": 14,
+  "editor_packet_report": "reports/editorial/citation-pipeline-test-20260612-editor-review-packet-run8.json",
+  "editorial_reviews_inserted": 0,
+  "eligible_for_filing_later_count": 0,
+  "external_web_search_used": false,
+  "filing_decision_counts": {
+    "needs_corroboration": 2,
+    "new_caveat_candidate": 3
+  },
+  "filing_evaluations": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "Only metadata-level evidence is described.",
+        "No direct source excerpt confirming interface functionality."
+      ],
+      "bridge": "hermes_cli",
+      "candidate_chapter_targets": [
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "confidence": "low",
+      "corroboration_needed": true,
+      "corroboration_questions": [
+        "What exact metadata field suggests a web or phone interface?",
+        "Does an official source or repository file confirm a web or phone interface?",
+        "Is the interface for Hermes Agent itself or only for adjacent tooling?"
+      ],
+      "filing_decision": "needs_corroboration",
+      "filing_evaluation_id": "filing_eval_c39f3be4e7bef7f0dabe",
+      "filing_summary": "Possible trend signal that Hermes Agent may have web or phone interface metadata.",
+      "input_hash": "ee87c507f2ee01f6f9da6a9cc4a5450b0ed13b4abb75f3431749b83bda96c949",
+      "llm_used": true,
+      "matched_existing_claim_ids": [
+        "[internal-id]",
+        "[internal-id]"
+      ],
+      "matched_existing_source_ids": [],
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "needs_source_review",
+      "novelty_decision": "partially_novel",
+      "output_hash": "12afc9e4870ba021b195e86b052b0c24e43b5e540960c1d733df90a44e2cb6e5",
+      "packet_item_id": "editor_packet_b7dc9103943b3b345e15",
+      "provider": "copilot",
+      "publication_approved": false,
+      "quality_review_id": "semantic_object_draft_425a074033ba640ec639",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Decide whether interface metadata is relevant enough to preserve as a trend signal."
+      ],
+      "risk_flags": [
+        "weak_metadata_inference",
+        "possible_overreading_of_project_metadata"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_425a074033ba640ec639",
+      "semantic_object_text": "The project metadata suggests a web or phone interface for using Hermes Agent.",
+      "semantic_object_type": "trend_signal",
+      "similarity_rationale": "Existing material supports OpenClaw/Hermes as agent projects, but not the specific web or phone interface inference.",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "why_it_matters": "Interface metadata could matter for chapters discussing how Hermes/OpenClaw are used, but the evidence is only suggestive."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "Absence-based assessment requires source-card review."
+      ],
+      "bridge": "hermes_cli",
+      "candidate_chapter_targets": [
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "confidence": "medium",
+      "corroboration_needed": true,
+      "corroboration_questions": [
+        "Does the source card contain any direct evidence about maturity, feature completeness, code quality, or maintenance?",
+        "Are there official repository indicators such as releases, commits, issues, or documentation that could corroborate maturity claims?"
+      ],
+      "filing_decision": "new_caveat_candidate",
+      "filing_evaluation_id": "filing_eval_5a84c224eb58bf625f42",
+      "filing_summary": "Caveat that the card does not verify maturity, completeness, quality, or maintenance status.",
+      "input_hash": "e5c98d3f329e5d329495bfb75fd734dbedaf2e23671825c11570259e9d174129",
+      "llm_used": true,
+      "matched_existing_claim_ids": [
+        "[internal-id]",
+        "[internal-id]",
+        "[internal-id]"
+      ],
+      "matched_existing_source_ids": [],
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "needs_source_review",
+      "novelty_decision": "partially_novel",
+      "output_hash": "91f3094d75b65bf1857989e4d48f091f16ff6b9ab5b33f878a71a24bba047f14",
+      "packet_item_id": "editor_packet_23c4afb16f0732af29df",
+      "provider": "copilot",
+      "publication_approved": false,
+      "quality_review_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Decide whether to file this as a reusable caveat for weak project-metadata cards."
+      ],
+      "risk_flags": [
+        "absence_of_evidence",
+        "publication_safety_caveat"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_0aed99a302b307d6fdd3",
+      "semantic_object_text": "The card does not verify project maturity, feature completeness, code quality, or maintenance status.",
+      "semantic_object_type": "counterpoint",
+      "similarity_rationale": "This aligns with existing caution that official docs/repo material are safer than social summaries, but adds a specific limitation about maturity and maintenance not being verified.",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "why_it_matters": "Prevents weak source metadata from being used as evidence of product readiness or reliability."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "The claim is explicitly framed as weak.",
+        "No integration or architecture evidence is provided."
+      ],
+      "bridge": "hermes_cli",
+      "candidate_chapter_targets": [
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "confidence": "low",
+      "corroboration_needed": true,
+      "corroboration_questions": [
+        "Which metadata fields explicitly name OpenClaw and Hermes?",
+        "Does the source establish actual integration, compatibility, or only keyword association?",
+        "Is this tooling official, third-party, or unrelated metadata noise?"
+      ],
+      "filing_decision": "needs_corroboration",
+      "filing_evaluation_id": "filing_eval_b82d67d436357d41bf72",
+      "filing_summary": "Weak factual candidate that metadata names OpenClaw and Hermes as relevant environments for agent-adjacent tooling.",
+      "input_hash": "f937b37de9770f6918e817d6162ddb28ff76c4df3cc179872bbbb6c8f9d952fd",
+      "llm_used": true,
+      "matched_existing_claim_ids": [
+        "[internal-id]",
+        "[internal-id]",
+        "[internal-id]"
+      ],
+      "matched_existing_source_ids": [],
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "needs_source_review",
+      "novelty_decision": "partially_novel",
+      "output_hash": "7d16236270950bc33a591816559933b6f0baf698fba018123bd1ac967b1215cf",
+      "packet_item_id": "editor_packet_48e56de78fce06dde725",
+      "provider": "copilot",
+      "publication_approved": false,
+      "quality_review_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Decide whether this should be retained only as source-context metadata rather than a claim."
+      ],
+      "risk_flags": [
+        "weak_metadata_inference",
+        "keyword_association_risk"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_5df8116fc7dc2d06b2e7",
+      "semantic_object_text": "The metadata weakly shows agent-adjacent tooling that names OpenClaw and Hermes as relevant environments.",
+      "semantic_object_type": "factual_claim",
+      "similarity_rationale": "Existing claims already connect OpenClaw and Hermes to agent-related material; this item adds only a weak metadata-based angle about adjacent tooling.",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "why_it_matters": "Could help map the ecosystem around Hermes/OpenClaw, but it is not strong enough as a standalone claim."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "Source type must be verified before filing.",
+        "Could be misclassified without inspecting the underlying source."
+      ],
+      "bridge": "hermes_cli",
+      "candidate_chapter_targets": [
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "confidence": "medium",
+      "corroboration_needed": true,
+      "corroboration_questions": [
+        "Does the source title, README, or metadata identify it as a writing-audit/rewrite skill?",
+        "Does the source contain any primary architectural documentation, or only audit/rewrite instructions?",
+        "Should it be classified as tooling evidence rather than architecture evidence?"
+      ],
+      "filing_decision": "new_caveat_candidate",
+      "filing_evaluation_id": "filing_eval_bd562e909f80e16a2bb3",
+      "filing_summary": "Caveat that the item appears to be a writing-audit or rewrite skill, not a primary source on agent architecture.",
+      "input_hash": "b6ab04c04a31c92634be112775c4c20510e0a3f35756a00823842c3f75e59545",
+      "llm_used": true,
+      "matched_existing_claim_ids": [
+        "[internal-id]",
+        "[internal-id]"
+      ],
+      "matched_existing_source_ids": [],
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "needs_source_review",
+      "novelty_decision": "novel",
+      "output_hash": "faba1d5895e43ddf4e52bc29ced5fe342ad95c1d873c2ef35a18fd56face4403",
+      "packet_item_id": "editor_packet_13a17d293dd6140c91ae",
+      "provider": "copilot",
+      "publication_approved": false,
+      "quality_review_id": "semantic_object_draft_5558303e45f77723657a",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Decide final source classification before allowing any architecture-related use."
+      ],
+      "risk_flags": [
+        "source_type_uncertainty",
+        "architecture_evidence_risk"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_5558303e45f77723657a",
+      "semantic_object_text": "This item is framed as a writing-audit and rewrite skill, not as a primary source on agent architecture.",
+      "semantic_object_type": "factual_claim",
+      "similarity_rationale": "Existing claims discuss Hermes documentation and project positioning, but this specific source-classification caveat is not duplicated.",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "why_it_matters": "Helps prevent misusing a tooling or writing-audit artifact as architectural evidence."
+    },
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "blockers": [
+        "No method or validation evidence is described.",
+        "Integration details are absent from the packet item."
+      ],
+      "bridge": "hermes_cli",
+      "candidate_chapter_targets": [
+        "02-hermes",
+        "03-openclaw"
+      ],
+      "confidence": "medium",
+      "corroboration_needed": true,
+      "corroboration_questions": [
+        "Does the source card include implementation details, rules, tests, evaluations, or integration instructions?",
+        "Can official docs or repository files verify the skill's method and integration points?",
+        "Is there any evidence of accuracy or reliability testing?"
+      ],
+      "filing_decision": "new_caveat_candidate",
+      "filing_evaluation_id": "filing_eval_224fd1bd260b4222fdfc",
+      "filing_summary": "Caveat that the card does not show the skill's method, rules, accuracy, or integration details.",
+      "input_hash": "1932e1cdde03c4153b22623c958cf49d67a85dc3f330f27d943199679a9209a4",
+      "llm_used": true,
+      "matched_existing_claim_ids": [
+        "[internal-id]"
+      ],
+      "matched_existing_source_ids": [],
+      "model": "gpt-5.5",
+      "next_stage_recommendation": "needs_source_review",
+      "novelty_decision": "partially_novel",
+      "output_hash": "83e18c2da68e964ada30457b972f2557c1bc37d8f87cf355ccfd346626141075",
+      "packet_item_id": "editor_packet_9ec385327deb68b949a6",
+      "provider": "copilot",
+      "publication_approved": false,
+      "quality_review_id": "semantic_object_draft_18e5d778bd54802d41b3",
+      "reasoning_status": "high_reasoning_used",
+      "required_editor_decisions": [
+        "Decide whether this caveat should block all claim use from the source until implementation evidence is reviewed."
+      ],
+      "risk_flags": [
+        "missing_method_detail",
+        "missing_validation_evidence",
+        "integration_uncertainty"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "semantic_object_id": "semantic_object_draft_18e5d778bd54802d41b3",
+      "semantic_object_text": "The card does not show the skill's method, rules, accuracy, or integration details.",
+      "semantic_object_type": "counterpoint",
+      "similarity_rationale": "This reinforces the existing preference for official documentation as safer authority, while adding a specific caveat about missing method, rules, accuracy, and integration details.",
+      "source_card_id": "source_card_draft_src_6d7b6d80cda4e784877d",
+      "source_id": "src_6d7b6d80cda4e784877d",
+      "why_it_matters": "Prevents treating a named skill as validated or integrated without evidence of how it works."
+    }
+  ],
+  "generated_at": "2026-06-13T20:05:23Z",
+  "high_reasoning_bridge": {
+    "bridge": "hermes_cli",
+    "command_shape": "timeout 180 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+    "elapsed_seconds": 40.199,
+    "error": "",
+    "exit_code": 0,
+    "generated_at": "2026-06-13T20:04:43Z",
+    "llm_used": true,
+    "model": "gpt-5.5",
+    "ok": true,
+    "parsed_json": {
+      "filing_evaluations": [
+        {
+          "blockers": [
+            "Only metadata-level evidence is described.",
+            "No direct source excerpt confirming interface functionality."
+          ],
+          "confidence": "low",
+          "corroboration_needed": true,
+          "corroboration_questions": [
+            "What exact metadata field suggests a web or phone interface?",
+            "Does an official source or repository file confirm a web or phone interface?",
+            "Is the interface for Hermes Agent itself or only for adjacent tooling?"
+          ],
+          "filing_decision": "needs_corroboration",
+          "filing_summary": "Possible trend signal that Hermes Agent may have web or phone interface metadata.",
+          "matched_existing_claim_ids": [
+            "claim_30a3512e03d11f97d551",
+            "claim_72e49a3ef27673e17171"
+          ],
+          "matched_existing_source_ids": [],
+          "next_stage_recommendation": "needs_source_review",
+          "novelty_decision": "partially_novel",
+          "packet_item_id": "editor_packet_b7dc9103943b3b345e15",
+          "required_editor_decisions": [
+            "Decide whether interface metadata is relevant enough to preserve as a trend signal."
+          ],
+          "risk_flags": [
+            "weak_metadata_inference",
+            "possible_overreading_of_project_metadata"
+          ],
+          "similarity_rationale": "Existing material supports OpenClaw/Hermes as agent projects, but not the specific web or phone interface inference.",
+          "why_it_matters": "Interface metadata could matter for chapters discussing how Hermes/OpenClaw are used, but the evidence is only suggestive."
+        },
+        {
+          "blockers": [
+            "Absence-based assessment requires source-card review."
+          ],
+          "confidence": "medium",
+          "corroboration_needed": true,
+          "corroboration_questions": [
+            "Does the source card contain any direct evidence about maturity, feature completeness, code quality, or maintenance?",
+            "Are there official repository indicators such as releases, commits, issues, or documentation that could corroborate maturity claims?"
+          ],
+          "filing_decision": "new_caveat_candidate",
+          "filing_summary": "Caveat that the card does not verify maturity, completeness, quality, or maintenance status.",
+          "matched_existing_claim_ids": [
+            "claim_61b4ff290ac61c113365",
+            "claim_30a3512e03d11f97d551",
+            "claim_72e49a3ef27673e17171"
+          ],
+          "matched_existing_source_ids": [],
+          "next_stage_recommendation": "needs_source_review",
+          "novelty_decision": "partially_novel",
+          "packet_item_id": "editor_packet_23c4afb16f0732af29df",
+          "required_editor_decisions": [
+            "Decide whether to file this as a reusable caveat for weak project-metadata cards."
+          ],
+          "risk_flags": [
+            "absence_of_evidence",
+            "publication_safety_caveat"
+          ],
+          "similarity_rationale": "This aligns with existing caution that official docs/repo material are safer than social summaries, but adds a specific limitation about maturity and maintenance not being verified.",
+          "why_it_matters": "Prevents weak source metadata from being used as evidence of product readiness or reliability."
+        },
+        {
+          "blockers": [
+            "The claim is explicitly framed as weak.",
+            "No integration or architecture evidence is provided."
+          ],
+          "confidence": "low",
+          "corroboration_needed": true,
+          "corroboration_questions": [
+            "Which metadata fields explicitly name OpenClaw and Hermes?",
+            "Does the source establish actual integration, compatibility, or only keyword association?",
+            "Is this tooling official, third-party, or unrelated metadata noise?"
+          ],
+          "filing_decision": "needs_corroboration",
+          "filing_summary": "Weak factual candidate that metadata names OpenClaw and Hermes as relevant environments for agent-adjacent tooling.",
+          "matched_existing_claim_ids": [
+            "claim_30a3512e03d11f97d551",
+            "claim_72e49a3ef27673e17171",
+            "claim_131df14aef5622e97ec3"
+          ],
+          "matched_existing_source_ids": [],
+          "next_stage_recommendation": "needs_source_review",
+          "novelty_decision": "partially_novel",
+          "packet_item_id": "editor_packet_48e56de78fce06dde725",
+          "required_editor_decisions": [
+            "Decide whether this should be retained only as source-context metadata rather than a claim."
+          ],
+          "risk_flags": [
+            "weak_metadata_inference",
+            "keyword_association_risk"
+          ],
+          "similarity_rationale": "Existing claims already connect OpenClaw and Hermes to agent-related material; this item adds only a weak metadata-based angle about adjacent tooling.",
+          "why_it_matters": "Could help map the ecosystem around Hermes/OpenClaw, but it is not strong enough as a standalone claim."
+        },
+        {
+          "blockers": [
+            "Source type must be verified before filing.",
+            "Could be misclassified without inspecting the underlying source."
+          ],
+          "confidence": "medium",
+          "corroboration_needed": true,
+          "corroboration_questions": [
+            "Does the source title, README, or metadata identify it as a writing-audit/rewrite skill?",
+            "Does the source contain any primary architectural documentation, or only audit/rewrite instructions?",
+            "Should it be classified as tooling evidence rather than architecture evidence?"
+          ],
+          "filing_decision": "new_caveat_candidate",
+          "filing_summary": "Caveat that the item appears to be a writing-audit or rewrite skill, not a primary source on agent architecture.",
+          "matched_existing_claim_ids": [
+            "claim_61b4ff290ac61c113365",
+            "claim_72e49a3ef27673e17171"
+          ],
+          "matched_existing_source_ids": [],
+          "next_stage_recommendation": "needs_source_review",
+          "novelty_decision": "novel",
+          "packet_item_id": "editor_packet_13a17d293dd6140c91ae",
+          "required_editor_decisions": [
+            "Decide final source classification before allowing any architecture-related use."
+          ],
+          "risk_flags": [
+            "source_type_uncertainty",
+            "architecture_evidence_risk"
+          ],
+          "similarity_rationale": "Existing claims discuss Hermes documentation and project positioning, but this specific source-classification caveat is not duplicated.",
+          "why_it_matters": "Helps prevent misusing a tooling or writing-audit artifact as architectural evidence."
+        },
+        {
+          "blockers": [
+            "No method or validation evidence is described.",
+            "Integration details are absent from the packet item."
+          ],
+          "confidence": "medium",
+          "corroboration_needed": true,
+          "corroboration_questions": [
+            "Does the source card include implementation details, rules, tests, evaluations, or integration instructions?",
+            "Can official docs or repository files verify the skill's method and integration points?",
+            "Is there any evidence of accuracy or reliability testing?"
+          ],
+          "filing_decision": "new_caveat_candidate",
+          "filing_summary": "Caveat that the card does not show the skill's method, rules, accuracy, or integration details.",
+          "matched_existing_claim_ids": [
+            "claim_61b4ff290ac61c113365"
+          ],
+          "matched_existing_source_ids": [],
+          "next_stage_recommendation": "needs_source_review",
+          "novelty_decision": "partially_novel",
+          "packet_item_id": "editor_packet_9ec385327deb68b949a6",
+          "required_editor_decisions": [
+            "Decide whether this caveat should block all claim use from the source until implementation evidence is reviewed."
+          ],
+          "risk_flags": [
+            "missing_method_detail",
+            "missing_validation_evidence",
+            "integration_uncertainty"
+          ],
+          "similarity_rationale": "This reinforces the existing preference for official documentation as safer authority, while adding a specific caveat about missing method, rules, accuracy, and integration details.",
+          "why_it_matters": "Prevents treating a named skill as validated or integrated without evidence of how it works."
+        }
+      ]
+    },
+    "prompt_hash": "ddd1e312c120737aa18179325b8fbf3fa214ca514dbeb78dbe552963fb7c6c7d",
+    "provider": "copilot",
+    "reasoning_status": "high_reasoning_used",
+    "schema_name": "filing_novelty_evaluation_v1",
+    "stderr_redacted": "\nsession_id: 20260613_200444_128b0b\n",
+    "stdout_hash": "419ebc94502670e09b73e10bf5d7a818a4da0066deadd527bf2034a3c66824fb",
+    "stdout_json_valid": true,
+    "timed_out": false,
+    "weak_local_fallback_refused": true
+  },
+  "items_evaluated": 5,
+  "llm_used": true,
+  "long_source_excerpt_written": false,
+  "mode": "filing_novelty_evaluation",
+  "model": "gpt-5.5",
+  "needs_corroboration_count": 2,
+  "next_run_recommendation": {
+    "conditions": [
+      "keep report-only unless explicitly asked to persist",
+      "do not insert claims or approve publication",
+      "use human/editor review before narrative packets"
+    ],
+    "recommendation": "run_corroboration_research_for_items_needing_corroboration"
+  },
+  "next_stage_recommendation_counts": {
+    "needs_source_review": 5
+  },
+  "novelty_decision_counts": {
+    "novel": 1,
+    "partially_novel": 4
+  },
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-filing-novelty-evaluation-run9.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-filing-novelty-evaluation-run9.md"
+  },
+  "provider": "copilot",
+  "publication_approved": false,
+  "raw_private_material_written": false,
+  "reasoning_status": "high_reasoning_used",
+  "risks": [
+    "Report-only novelty evaluation; no claims inserted or promoted.",
+    "Novelty compared only against existing repo/database material, not the external web.",
+    "GPT-5.5 decisions are advisory and require human/editor review.",
+    "No packet item is author-approved or publication-approved."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "schema_modified": false,
+  "statuses_modified": false,
+  "summary": {
+    "before_narrative_packets": "Human/editor review plus corroboration or explicit acceptance of filing notes is required before narrative packet candidates.",
+    "chapter_distribution": {
+      "02-hermes": 5,
+      "03-openclaw": 5
+    },
+    "items_needing_corroboration": [
+      "filing_eval_c39f3be4e7bef7f0dabe",
+      "filing_eval_5a84c224eb58bf625f42",
+      "filing_eval_b82d67d436357d41bf72",
+      "filing_eval_bd562e909f80e16a2bb3",
+      "filing_eval_224fd1bd260b4222fdfc"
+    ],
+    "likely_duplicates": [],
+    "recurring_blockers": {
+      "Absence-based assessment requires source-card review.": 1,
+      "Could be misclassified without inspecting the underlying source.": 1,
+      "Integration details are absent from the packet item.": 1,
+      "No direct source excerpt confirming interface functionality.": 1,
+      "No integration or architecture evidence is provided.": 1,
+      "No method or validation evidence is described.": 1,
+      "Only metadata-level evidence is described.": 1,
+      "Source type must be verified before filing.": 1,
+      "The claim is explicitly framed as weak.": 1
+    },
+    "strongest_new_candidates": []
+  },
+  "vector_db_authority_used": false,
+  "verification": {}
+}

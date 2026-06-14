@@ -1,0 +1,308 @@
+# Editor review packet: citation-pipeline-test-20260612
+
+## Executive summary
+
+- Run ID: `citation-pipeline-test-20260612`
+- Input reports used: `{'candidate_selection_report': 'reports/editorial/citation-pipeline-test-20260612-reasoning-candidate-selection.json', 'source_card_report': 'reports/editorial/citation-pipeline-test-20260612-source-card-drafts-high-reasoning-run7.json', 'semantic_object_report': 'reports/editorial/citation-pipeline-test-20260612-semantic-object-drafts-high-reasoning-run7.json', 'quality_gate_report': 'reports/editorial/citation-pipeline-test-20260612-quality-gate-run7-full.json'}`
+- Source cards available: 5
+- Semantic objects available: 14
+- Quality reviews available: 19
+- Complete chains: 14
+- Packet pass/warn/fail: 5 / 9 / 0
+- Downstream eligible count: 5
+- Safety status: advisory editor review only; not author-approved, not publication-approved, no DB/status/chapter changes.
+
+## Editor review packet table
+
+| source id | source title | source type | semantic object type | chapter target | quality decision | downstream eligible | risk flags | required fixes |
+|---|---|---|---|---|---|---|---|---|
+| src_c6b80c86cd5637ddd0b8 | Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix \| by Suj… | web | trend_signal | 01-the-agent-loop, 02-hermes, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_c6b80c86cd5637ddd0b8 | Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix \| by Suj… | web | counterpoint | 01-the-agent-loop, 02-hermes, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_c6b80c86cd5637ddd0b8 | Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix \| by Suj… | web | trend_signal | 01-the-agent-loop, 02-hermes, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_c6b80c86cd5637ddd0b8 | Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix \| by Suj… | web | factual_claim | 01-the-agent-loop, 02-hermes, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_bebe03beb8a33c199ce8 | How to Set Up GBrain: A Simple Tutorial for AI Agent Memory | web | counterpoint | 02-hermes, 01-the-agent-loop, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_bebe03beb8a33c199ce8 | How to Set Up GBrain: A Simple Tutorial for AI Agent Memory | web | factual_claim | 02-hermes, 01-the-agent-loop, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_bebe03beb8a33c199ce8 | How to Set Up GBrain: A Simple Tutorial for AI Agent Memory | web | trend_signal | 02-hermes, 01-the-agent-loop, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_bebe03beb8a33c199ce8 | How to Set Up GBrain: A Simple Tutorial for AI Agent Memory | web | counterpoint | 02-hermes, 01-the-agent-loop, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_bebe03beb8a33c199ce8 | How to Set Up GBrain: A Simple Tutorial for AI Agent Memory | web | factual_claim | 02-hermes, 01-the-agent-loop, 03-openclaw | warn | False | thin_source_text | Keep advisory-only; avoid expansion beyond reviewed metadata |
+| src_6d7b6d80cda4e784877d | GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lob… | web | trend_signal | 02-hermes, 03-openclaw | pass | True |  |  |
+| src_6d7b6d80cda4e784877d | GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lob… | web | counterpoint | 02-hermes, 03-openclaw | pass | True |  |  |
+| src_6d7b6d80cda4e784877d | GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lob… | web | factual_claim | 02-hermes, 03-openclaw | pass | True |  |  |
+| src_6d7b6d80cda4e784877d | GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lob… | web | factual_claim | 02-hermes, 03-openclaw | pass | True |  |  |
+| src_6d7b6d80cda4e784877d | GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lob… | web | counterpoint | 02-hermes, 03-openclaw | pass | True |  |  |
+
+## Per-item review sections
+
+### editor_packet_eec1f8a85156fbc1281d
+
+- Source: `src_c6b80c86cd5637ddd0b8` — Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI
+- Source metadata: type `web`, publisher `blog.gopenai.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_c6b80c86cd5637ddd0b8` — Metadata points to a GoPenAI piece about Fermix, a personal AI agent concept presented as distinct from OpenClaw and Hermes.
+- Semantic object: `semantic_object_draft_496337fece8a8137b67c` (`trend_signal`) — Fermix appears as a weak metadata signal in a personal-agent discussion that also names OpenClaw and Hermes.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `71e41ffe16b1cf57786c5a55c38c693a8428421ae22ea340f1e36e051ec183c1`
+  - source_card_hash: `98c0c6657eb4d49a39ed6f2aba3b30cac7d34f3ae8205b733cad95d4d8bcc070`
+  - semantic_object_hash: `128bcf2f80b5fa2eb4661b7377bd156075eb6940d1bca5f4ba421353578f2b6c`
+  - quality_review_hash: `9c9d0c3b97880795e140f9c88ee2de6775601cbd478658fb7e9ba23238133d05`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_14098820826b0bb3a873
+
+- Source: `src_c6b80c86cd5637ddd0b8` — Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI
+- Source metadata: type `web`, publisher `blog.gopenai.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_c6b80c86cd5637ddd0b8` — Metadata points to a GoPenAI piece about Fermix, a personal AI agent concept presented as distinct from OpenClaw and Hermes.
+- Semantic object: `semantic_object_draft_473484d8201e178d6dd5` (`counterpoint`) — The card is too thin to verify Fermix's technical design, comparisons, or argument from this source alone.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `71e41ffe16b1cf57786c5a55c38c693a8428421ae22ea340f1e36e051ec183c1`
+  - source_card_hash: `98c0c6657eb4d49a39ed6f2aba3b30cac7d34f3ae8205b733cad95d4d8bcc070`
+  - semantic_object_hash: `68a269f74ae5f982b9434de3320c688ad4d35f725d75fc863270f11a26b6561f`
+  - quality_review_hash: `968cd01df9c4659e297d4c19afcb8d75efcd906827caa4b63412f2d89356bbef`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_0be2d20fde52927493fb
+
+- Source: `src_c6b80c86cd5637ddd0b8` — Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI
+- Source metadata: type `web`, publisher `blog.gopenai.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_c6b80c86cd5637ddd0b8` — Metadata points to a GoPenAI piece about Fermix, a personal AI agent concept presented as distinct from OpenClaw and Hermes.
+- Semantic object: `semantic_object_draft_46b12d2f69c1b1fb74e9` (`trend_signal`) — GBrain is presented as agent-memory setup material that also appears near OpenClaw and Hermes in secondary metadata.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `71e41ffe16b1cf57786c5a55c38c693a8428421ae22ea340f1e36e051ec183c1`
+  - source_card_hash: `98c0c6657eb4d49a39ed6f2aba3b30cac7d34f3ae8205b733cad95d4d8bcc070`
+  - semantic_object_hash: `0489d4d5c40043799c7496cb6366a1a7e5edc6c3116d160009920de070cd3fb0`
+  - quality_review_hash: `c3dc3c6f54a808e4c96527972cee21dd85d6636dfc0aa2e365b57ba15a8dd5c4`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_a1d1389c4e05fa3ea6fa
+
+- Source: `src_c6b80c86cd5637ddd0b8` — Designing a New Personal AI Agent From Scratch, Not OpenClaw, Not Hermes: Fermix | by Sujeeth Shetty | Jun, 2026 | GoPenAI
+- Source metadata: type `web`, publisher `blog.gopenai.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_c6b80c86cd5637ddd0b8` — Metadata points to a GoPenAI piece about Fermix, a personal AI agent concept presented as distinct from OpenClaw and Hermes.
+- Semantic object: `semantic_object_draft_8905ce1c477a0e798fa8` (`factual_claim`) — The source weakly links AI-agent memory, context architecture, OpenClaw, and Hermes, but only at a cautious metadata level.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `71e41ffe16b1cf57786c5a55c38c693a8428421ae22ea340f1e36e051ec183c1`
+  - source_card_hash: `98c0c6657eb4d49a39ed6f2aba3b30cac7d34f3ae8205b733cad95d4d8bcc070`
+  - semantic_object_hash: `c664251e82be34fd88268b630a910dc44f7bd6119a865fac89581c07e5830a49`
+  - quality_review_hash: `1f63779ed9fd726cdfc54c6dea80b8d7e48331070bc38977c75edff422f3d7f5`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_4013d4ade16852cb17d3
+
+- Source: `src_bebe03beb8a33c199ce8` — How to Set Up GBrain: A Simple Tutorial for AI Agent Memory
+- Source metadata: type `web`, publisher `www.teknoding.com`, canonical URL available `True`, quality `B`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_bebe03beb8a33c199ce8` — Metadata indicates a Teknoding tutorial about GBrain memory setup for AI agents, with OpenClaw and Hermes appearing as related terms.
+- Semantic object: `semantic_object_draft_789a7a503aa5c9f79650` (`counterpoint`) — The sanitized card does not show tutorial steps, architecture, or evidence for how GBrain memory works.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c`
+  - source_card_hash: `aca013b8b76d0551e22cf9e07a3bb2c09b1916bb1faec2b992c296611fdebce9`
+  - semantic_object_hash: `765c2529cea986eb446a4083fc5a7bb52f78813723509336333168fe9b6d3838`
+  - quality_review_hash: `f06408a5f428208366420b395c7ffdb505084bf84756d1a799e994b68ffac0a7`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_ec929fa4c5bc1c29e7a8
+
+- Source: `src_bebe03beb8a33c199ce8` — How to Set Up GBrain: A Simple Tutorial for AI Agent Memory
+- Source metadata: type `web`, publisher `www.teknoding.com`, canonical URL available `True`, quality `B`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_bebe03beb8a33c199ce8` — Metadata indicates a Teknoding tutorial about GBrain memory setup for AI agents, with OpenClaw and Hermes appearing as related terms.
+- Semantic object: `semantic_object_draft_d79d29b8684f53476f83` (`factual_claim`) — GitHub metadata frames OpenClaw as a personal AI assistant project.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c`
+  - source_card_hash: `aca013b8b76d0551e22cf9e07a3bb2c09b1916bb1faec2b992c296611fdebce9`
+  - semantic_object_hash: `4556656be57f1087096f2cf3be328f5aa59ad8bbde94f2077a87bc84bcca6331`
+  - quality_review_hash: `7e25a78a71b6a393a141a9bdf429628cee5b422513a741b4e3dff799b059a8bd`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_051457cbf59e804248cf
+
+- Source: `src_bebe03beb8a33c199ce8` — How to Set Up GBrain: A Simple Tutorial for AI Agent Memory
+- Source metadata: type `web`, publisher `www.teknoding.com`, canonical URL available `True`, quality `B`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_bebe03beb8a33c199ce8` — Metadata indicates a Teknoding tutorial about GBrain memory setup for AI agents, with OpenClaw and Hermes appearing as related terms.
+- Semantic object: `semantic_object_draft_8e955fe05f9c23f816b3` (`trend_signal`) — The metadata positions OpenClaw around broad operating-system and platform reach.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c`
+  - source_card_hash: `aca013b8b76d0551e22cf9e07a3bb2c09b1916bb1faec2b992c296611fdebce9`
+  - semantic_object_hash: `c11650037254269006384800e2f260b3c02f6491bd00d84f025aaf63771bd5af`
+  - quality_review_hash: `668c566ded5b57f8af0226ff97eb10b466e98b0af8da71289df8a9e7e6062fad`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_e5ebc7e5c8490ce137a0
+
+- Source: `src_bebe03beb8a33c199ce8` — How to Set Up GBrain: A Simple Tutorial for AI Agent Memory
+- Source metadata: type `web`, publisher `www.teknoding.com`, canonical URL available `True`, quality `B`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_bebe03beb8a33c199ce8` — Metadata indicates a Teknoding tutorial about GBrain memory setup for AI agents, with OpenClaw and Hermes appearing as related terms.
+- Semantic object: `semantic_object_draft_4b498b3935ed37eec827` (`counterpoint`) — The card lacks repository contents, maintainers, license details, code evidence, and implementation specifics.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c`
+  - source_card_hash: `aca013b8b76d0551e22cf9e07a3bb2c09b1916bb1faec2b992c296611fdebce9`
+  - semantic_object_hash: `b4ab1f0908001696c0755acd3015d273b4a470cc9d14de37648b2628f44647c4`
+  - quality_review_hash: `a5893840ed67ddd8db68323c52c1a15cd0f3814f8a9bbe11c3a87386ea904f0c`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_40291542ee35ffda9923
+
+- Source: `src_bebe03beb8a33c199ce8` — How to Set Up GBrain: A Simple Tutorial for AI Agent Memory
+- Source metadata: type `web`, publisher `www.teknoding.com`, canonical URL available `True`, quality `B`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_bebe03beb8a33c199ce8` — Metadata indicates a Teknoding tutorial about GBrain memory setup for AI agents, with OpenClaw and Hermes appearing as related terms.
+- Semantic object: `semantic_object_draft_741f09ec6bd33efa6930` (`factual_claim`) — GitHub metadata weakly supports the existence of Hermes WebUI as a Hermes Agent-related project.
+- Quality-gate decision: `warn`; downstream eligible `False`; next stage `revise_high_reasoning_drafts`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Required fixes: Keep advisory-only; avoid expansion beyond reviewed metadata
+- Provenance/hashes:
+  - source_text_hash: `a4f49245694083aa9d7669238321b9a2d0a767ff81d21ef1eb08b8426971d18c`
+  - source_card_hash: `aca013b8b76d0551e22cf9e07a3bb2c09b1916bb1faec2b992c296611fdebce9`
+  - semantic_object_hash: `cc53e80eb38b5b044f695fb2544f2d8bdeff8ce5aee0a43221015b703d3197fd`
+  - quality_review_hash: `9f586ee14a27349295c8d7728e130b8f7145cf5549552b7c51c55bcd33a24c0b`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_b7dc9103943b3b345e15
+
+- Source: `src_6d7b6d80cda4e784877d` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+- Source metadata: type `web`, publisher `github.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_6d7b6d80cda4e784877d` — GitHub metadata presents OpenClaw as a personal AI assistant project intended to work across operating systems and platforms.
+- Semantic object: `semantic_object_draft_425a074033ba640ec639` (`trend_signal`) — The project metadata suggests a web or phone interface for using Hermes Agent.
+- Quality-gate decision: `pass`; downstream eligible `True`; next stage `human_editor_review`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only.
+- Required fixes: none
+- Provenance/hashes:
+  - source_text_hash: `384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3`
+  - source_card_hash: `186eb7a92bab8f855958dd08ec372f77dec443817524b2ddc82c23dcb3800f8e`
+  - semantic_object_hash: `ca16b1c64ac4ba3fd6649da74d93aca6be6bfb7b9831e06fde744d72c0c3f5b7`
+  - quality_review_hash: `5c66c09ee57733e6d4f1ea318862205f8d62e1e5d6648a2f258083c30efadf93`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_23c4afb16f0732af29df
+
+- Source: `src_6d7b6d80cda4e784877d` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+- Source metadata: type `web`, publisher `github.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_6d7b6d80cda4e784877d` — GitHub metadata presents OpenClaw as a personal AI assistant project intended to work across operating systems and platforms.
+- Semantic object: `semantic_object_draft_0aed99a302b307d6fdd3` (`counterpoint`) — The card does not verify project maturity, feature completeness, code quality, or maintenance status.
+- Quality-gate decision: `pass`; downstream eligible `True`; next stage `human_editor_review`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only.
+- Required fixes: none
+- Provenance/hashes:
+  - source_text_hash: `384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3`
+  - source_card_hash: `186eb7a92bab8f855958dd08ec372f77dec443817524b2ddc82c23dcb3800f8e`
+  - semantic_object_hash: `ef2a80a4cd1ccbc176ed11a183d07002bef284b93d89490ee58641650b0127d7`
+  - quality_review_hash: `5fe2e90974bb9091ad5668ee51408ce921d5ca052fe020085cb9fdc275e2a46f`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_48e56de78fce06dde725
+
+- Source: `src_6d7b6d80cda4e784877d` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+- Source metadata: type `web`, publisher `github.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_6d7b6d80cda4e784877d` — GitHub metadata presents OpenClaw as a personal AI assistant project intended to work across operating systems and platforms.
+- Semantic object: `semantic_object_draft_5df8116fc7dc2d06b2e7` (`factual_claim`) — The metadata weakly shows agent-adjacent tooling that names OpenClaw and Hermes as relevant environments.
+- Quality-gate decision: `pass`; downstream eligible `True`; next stage `human_editor_review`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only.
+- Required fixes: none
+- Provenance/hashes:
+  - source_text_hash: `384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3`
+  - source_card_hash: `186eb7a92bab8f855958dd08ec372f77dec443817524b2ddc82c23dcb3800f8e`
+  - semantic_object_hash: `b00a0025dc2dba98121fa2b29df1e8d437969cc75ffa3ae2a1e42cebf763378e`
+  - quality_review_hash: `737906f758c8f018a4600c73fb7e2fc3f71ea1ad6723f57b8a4764136aed86c4`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_13a17d293dd6140c91ae
+
+- Source: `src_6d7b6d80cda4e784877d` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+- Source metadata: type `web`, publisher `github.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_6d7b6d80cda4e784877d` — GitHub metadata presents OpenClaw as a personal AI assistant project intended to work across operating systems and platforms.
+- Semantic object: `semantic_object_draft_5558303e45f77723657a` (`factual_claim`) — This item is framed as a writing-audit and rewrite skill, not as a primary source on agent architecture.
+- Quality-gate decision: `pass`; downstream eligible `True`; next stage `human_editor_review`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only.
+- Required fixes: none
+- Provenance/hashes:
+  - source_text_hash: `384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3`
+  - source_card_hash: `186eb7a92bab8f855958dd08ec372f77dec443817524b2ddc82c23dcb3800f8e`
+  - semantic_object_hash: `bb17ed0349b9634ca2e255033eb72c489205d4ce07c74fd2ce0086dc9843e6a1`
+  - quality_review_hash: `6b7d66723efdabad49cdb99418fd9acd5a3b2701c4911d97ece0e1dc2bfe38ae`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+### editor_packet_9ec385327deb68b949a6
+
+- Source: `src_6d7b6d80cda4e784877d` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
+- Source metadata: type `web`, publisher `github.com`, canonical URL available `True`, quality `A`, privacy `publishable_metadata_only`
+- Source-card: `source_card_draft_src_6d7b6d80cda4e784877d` — GitHub metadata presents OpenClaw as a personal AI assistant project intended to work across operating systems and platforms.
+- Semantic object: `semantic_object_draft_18e5d778bd54802d41b3` (`counterpoint`) — The card does not show the skill's method, rules, accuracy, or integration details.
+- Quality-gate decision: `pass`; downstream eligible `True`; next stage `human_editor_review`
+- Strengths: stable object_output_hash present, source_card_id links to reviewed source-card report, publication/author approval remains false
+- Caveats: Not author-approved and not publication-approved; editor packet only.
+- Required fixes: none
+- Provenance/hashes:
+  - source_text_hash: `384a038ba7489254bd04ebda50514d17a1b3f267cb89c6a181983fb03976c9b3`
+  - source_card_hash: `186eb7a92bab8f855958dd08ec372f77dec443817524b2ddc82c23dcb3800f8e`
+  - semantic_object_hash: `48da234cb9bc28b36c9b94fc6944a670e92b63c32c32123731352f025dcee222`
+  - quality_review_hash: `53a32e2fddcfdda141c8a3da32b901ed09582179e7c37b3844bb4f6ee0aa05f0`
+- Explicit safety: not author-approved, not publication-approved, advisory-only.
+
+## Cross-packet synthesis
+
+- Strongest candidate themes: 02-hermes, 03-openclaw, 01-the-agent-loop
+- Weakest areas: thin_source_text
+- Recurring caveats: Not author-approved and not publication-approved; editor packet only., source-card review decision is warn, thin_source_text, thin_source_text risk limits confidence
+- Missing corroboration: No external corroboration/fetching was performed in Run 8; packet is based on Run 7 reports and existing metadata only.
+- Suggested next editorial decisions:
+  - Review passed chains for filing/novelty evaluation eligibility.
+  - Decide whether any warn items need source-card or semantic-object revision before downstream work.
+  - Keep author/publication approval disabled until human review and corroboration are complete.
+
+## Safety assessment
+
+- db_modified: `False`
+- db_write_scope: `none`
+- chapters_modified: `False`
+- statuses_modified: `False`
+- schema_modified: `False`
+- daily_worker_modified: `False`
+- commit_allowlist_modified: `False`
+- raw_private_material_written: `False`
+- long_source_excerpt_written: `False`
+- claims_inserted: `0`
+- narrative_packets_created: `False`
+- chapter_prose_generated: `False`
+- author_allowed: `False`
+- publication_approved: `False`
+- advisory_only: `True`
+
+## Recommendation for Run 9
+
+- Recommendation: `proceed_to_filing_novelty_evaluation_for_packet_items`
+- Condition: Keep report-only defaults.
+- Condition: Use only packet items with downstream_eligible=true.
+- Condition: Do not insert claims or approve publication without explicit human/editor decision.

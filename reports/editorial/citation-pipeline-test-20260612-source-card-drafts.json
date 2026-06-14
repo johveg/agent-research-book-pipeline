@@ -1,0 +1,641 @@
+{
+  "chapters_modified": false,
+  "commit_allowlist_modified": false,
+  "confidence_level": "low_draft_structural",
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "db_write_scope": "source_notes_only",
+  "generated_at": "2026-06-13T16:52:35Z",
+  "idempotent": true,
+  "llm_note": "No LLM used; deterministic structural source-card drafts only.",
+  "llm_used": false,
+  "long_source_excerpt_written": false,
+  "mode": "source_card_drafts_with_optional_persistence",
+  "model": "configured-high-reasoning-model",
+  "next_run_recommendation": {
+    "do_not_change_yet": [
+      "docs/book/",
+      "scripts/daily_book_worker.py",
+      "data/schema.sql",
+      "commit allowlist",
+      "claim/source status promotion"
+    ],
+    "likely_files_to_change": [
+      "scripts/llm_source_cards.py",
+      "tests/test_llm_source_cards.py",
+      "possibly a new semantic-extraction report-only script after review"
+    ],
+    "rationale": "source_notes can hold draft JSON without schema migration, but no-LLM cards are low-confidence and should be reviewed before semantic extraction.",
+    "recommendation": "Review persisted source-card drafts, then proceed to semantic extraction from persisted cards only if card quality and safety are acceptable; otherwise refine source-card heuristics/prompt first."
+  },
+  "output_paths": {
+    "evidence_map": "reports/architecture/run3-source-card-persistence-evidence-map-20260613.md",
+    "json": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-source-card-drafts.md"
+  },
+  "raw_private_material_written": false,
+  "risks": [
+    "No-LLM source cards are structural and low-confidence.",
+    "Real LLM prompts may produce unstable JSON unless schema-validated.",
+    "Sanitized source text may still include too much wording if max-summary limits are raised.",
+    "source_notes is generic and may be too limited for long-term source-card lifecycle/versioning.",
+    "A dedicated source_cards table may still be needed after persistence review.",
+    "Social/private-adjacent sources must remain discovery-only or needs-review until corroborated.",
+    "Vector DB chunks are not source authority and are not used by this script."
+  ],
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_assessment": {
+    "advisory_only": true,
+    "chapters_modified": false,
+    "commit_allowlist_modified": false,
+    "daily_worker_modified": false,
+    "db_modified": false,
+    "db_write_scope": "source_notes_only",
+    "long_source_excerpt_written": false,
+    "raw_private_material_written": false,
+    "schema_modified": false,
+    "statuses_modified": false
+  },
+  "sample_counts": {
+    "sources": 10
+  },
+  "schema_assessment": [
+    {
+      "assessment": "The generated card object can be serialized as JSON in source_notes.note with note_type='source_card_draft' in a later run.",
+      "category": "can reuse source_notes",
+      "recommendation": "Use report-only output in Run 2; consider source_notes persistence in Run 3 after review.",
+      "target": "source_notes"
+    },
+    {
+      "assessment": "No new source columns are needed yet. Existing quality/privacy/duplicate fields are enough for draft generation.",
+      "category": "should add columns",
+      "recommendation": "Defer source table columns until real lifecycle states are proven necessary.",
+      "target": "sources"
+    },
+    {
+      "assessment": "A dedicated table could help later with versioning, model metadata, editor approval, and card hashes, but Run 2 does not prove it is required.",
+      "category": "should add dedicated source_cards table",
+      "recommendation": "Defer dedicated table until at least one reviewed source_notes persistence run.",
+      "target": "source_cards"
+    },
+    {
+      "assessment": "Source cards look like a useful substrate, but semantic extraction and narrative packets remain higher-risk downstream steps.",
+      "category": "defer decision",
+      "recommendation": "Do not implement these in Run 2; revisit after source-card persistence safety is reviewed.",
+      "target": "semantic extraction / clusters / narrative packets"
+    }
+  ],
+  "schema_modified": false,
+  "source_cards": [
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_13864c81172f978b55bd",
+      "card_input_hash": "515b3c5756bf1cc450dfe1d317ae1d7548a4c65f07e9ea4e8be2093bfa3f510f",
+      "card_output_hash": "235a79024ca6c08a236475207bd08d2801bfd438f11508bd44d8c7bc3c0b1106",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering",
+        "05-context-memory-architecture"
+      ],
+      "llm_used": false,
+      "main_thesis": "Feed post David Aw • 3rd+ A one man agile team | CISSP | 13x AWS Certs | Golden Jacket 41m • Follow Prompt engineering, how to ask.",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "David Aw",
+        "CISSP",
+        "AWS Certs",
+        "Golden Jacket",
+        "Context"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Feed post David Aw • 3rd+ A one man agile team | CISSP | 13x AWS Certs | Golden Jacket 41m • Follow Prompt engineering, how to ask. Context ; \"loop engineer\"",
+      "source_id": "src_13864c81172f978b55bd",
+      "source_text_hash": "b2fbd290ad1f39e1c5d4db5022ecfb588e2975347b5421a655338b311d68b5a9",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "context",
+        "loop",
+        "CISSP",
+        "AWS"
+      ],
+      "title": "Feed post David Aw • 3rd+ A one man agile team | CISSP | 13x AWS Certs | Golden Jacket 41m • Follow Prompt engineering, how to ask. Context",
+      "useful_observations": [
+        "Feed post David Aw • 3rd+ A one man agile team | CISSP | 13x AWS Certs | Golden Jacket 41m • Follow Prompt engineering, how to ask."
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_3e3a7fd1388feb172ac5",
+      "card_input_hash": "1a9b5d1e3b4e619f2c08ce7bc67b47dd681db5c4d40889e7749842b4a2b85ead",
+      "card_output_hash": "e5fa33e7ecaaf85cb0aad59ff72f31835b5150c4ce148e14d56308d86de4bb97",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "llm_used": false,
+      "main_thesis": "• 3rd+ Driving innovation in technology and product development strategies.",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Ameet",
+        "Driving"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Feed post Ameet C. • 3rd+ Driving innovation in technology and product development strategies. 1h • Follow I’m starting to wonder… how heavi; \"loop engineer\"",
+      "source_id": "src_3e3a7fd1388feb172ac5",
+      "source_text_hash": "48118d4ef58254af544531e39f35e90ddd75cac6f32a3fef8119542a941142bb",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop"
+      ],
+      "title": "Feed post Ameet C. • 3rd+ Driving innovation in technology and product development strategies. 1h • Follow I’m starting to wonder… how heavi",
+      "useful_observations": [
+        "• 3rd+ Driving innovation in technology and product development strategies.",
+        "1h • Follow I’m starting to wonder… how heavi \"loop engineer\""
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [
+        "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w \"loop engineer\"."
+      ],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": false,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_9471e5ba147ec4be19b6",
+      "card_input_hash": "aec67f5ff7aaaec57649164f22d2d24f35c6b1583010af351278d1fdae5684de",
+      "card_output_hash": "e6e4356725096dfc077781a8f761282404b600e6d96848fe5449307fd953fcb4",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "llm_used": false,
+      "main_thesis": "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w \"loop engineer\"",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Based"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w; \"loop engineer\"",
+      "source_id": "src_9471e5ba147ec4be19b6",
+      "source_text_hash": "c7b3115e69b12e6507f309ddad69ec433e7010d1cba7bc427355d12f9503f63a",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop",
+        "AI"
+      ],
+      "title": "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w",
+      "useful_observations": [
+        "I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w \"loop engineer\""
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_b5cced95a2c2b1da7de7",
+      "card_input_hash": "776c6ee25b5ddfb8ebceccb3cfe399613dac6f59eabc44e2920962562fb6cc27",
+      "card_output_hash": "8e3a1f69314ec9b7302bd7d00c02fd3af39bd41ffe9ff870525cec2d7e4e1925",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "llm_used": false,
+      "main_thesis": "Feed post Alfred Chung Alfred Chung • 3rd+ IT & Security Executive.",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Alfred Chung Alfred Chung",
+        "Security Executive. Driving Scalable",
+        "Secure",
+        "AI-Ready Technology Environments"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Feed post Alfred Chung Alfred Chung • 3rd+ IT & Security Executive. Driving Scalable, Secure, AI-Ready Technology Environments 7h • Follow I; \"loop engineer\"",
+      "source_id": "src_b5cced95a2c2b1da7de7",
+      "source_text_hash": "5965646de22748f9a8ce3b4a9c8c7293fe855dc3e6a638fbb88aecfd9b17173e",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop",
+        "IT",
+        "AI"
+      ],
+      "title": "Feed post Alfred Chung Alfred Chung • 3rd+ IT & Security Executive. Driving Scalable, Secure, AI-Ready Technology Environments 7h • Follow I",
+      "useful_observations": [
+        "Feed post Alfred Chung Alfred Chung • 3rd+ IT & Security Executive.",
+        "Driving Scalable, Secure, AI-Ready Technology Environments 7h • Follow I \"loop engineer\""
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [
+        "Feed post Vokal.team 14 followers 7h • Follow Your next GTM workflow should not need engineer help."
+      ],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_2aa24885052ee3473726",
+      "card_input_hash": "4bc9b0e38acce0adcece1e9a414d8337fd8d0311831ce8767021b600439f384a",
+      "card_output_hash": "2e663258abc8d9e1bf0c1a3f4307c356c31f7672dbeeadae595c188e70ccbda8",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering",
+        "01-the-agent-loop"
+      ],
+      "llm_used": false,
+      "main_thesis": "Feed post Vokal.team 14 followers 7h • Follow Your next GTM workflow should not need engineer help.",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Introducing Loop Engineering",
+        "Vokal.team",
+        "GTM",
+        "Loop Engineering"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Feed post Vokal.team 14 followers 7h • Follow Your next GTM workflow should not need engineer help. Introducing Loop Engineering for marketi; \"loop engineer\"",
+      "source_id": "src_2aa24885052ee3473726",
+      "source_text_hash": "2afe18ee779ce5f963a7de98ef39ec0013b8339fdc3ab7f25b054fe1531eaade",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop",
+        "workflow",
+        "GTM"
+      ],
+      "title": "Feed post Vokal.team 14 followers 7h • Follow Your next GTM workflow should not need engineer help. Introducing Loop Engineering for marketi",
+      "useful_observations": [
+        "Introducing Loop Engineering for marketi \"loop engineer\""
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_d29fe5ce6401a1d1131a",
+      "card_input_hash": "9d39d5e390d508d6370590adbc49ad2c16496851063a25d4c75bf1eada001016",
+      "card_output_hash": "237482d5e6f0eaef9c5b1228699dbed7e6785e83ba9494a8451f640c1bcc540a",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "llm_used": false,
+      "main_thesis": "Feed post Aswin S • 3rd+ Engineering Graduate | Pursuing Post Graduation | Aspiring Engineer with skills in Problem Solving, Team Collaborat \"loop engineer\"",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Aswin",
+        "Pursuing Post Graduation",
+        "Aspiring Engineer",
+        "Problem Solving",
+        "Team Collaborat"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Feed post Aswin S • 3rd+ Engineering Graduate | Pursuing Post Graduation | Aspiring Engineer with skills in Problem Solving, Team Collaborat; \"loop engineer\"",
+      "source_id": "src_d29fe5ce6401a1d1131a",
+      "source_text_hash": "c5ad5390abc9d8cb881d32118557bb8d4625788e564adfbcaea542f487bf41fe",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop"
+      ],
+      "title": "Feed post Aswin S • 3rd+ Engineering Graduate | Pursuing Post Graduation | Aspiring Engineer with skills in Problem Solving, Team Collaborat",
+      "useful_observations": [
+        "Feed post Aswin S • 3rd+ Engineering Graduate | Pursuing Post Graduation | Aspiring Engineer with skills in Problem Solving, Team Collaborat \"loop engineer\""
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": false,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_8be266ff616aacd1fbdc",
+      "card_input_hash": "5258f3ff94711fb551346bf5da8b9151edad432047368172b4c960b09c76b1cf",
+      "card_output_hash": "20f278f159b2a4060d217c4c6cf2ccc0dce0d010e47612034822a983522ae0fc",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "llm_used": false,
+      "main_thesis": "Counter-UAS: What the Ground Tells Us Most drone threats today aren’t sophisticated military platforms.",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Counter-UAS",
+        "Ground Tells Us Most",
+        "They"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Counter-UAS: What the Ground Tells Us Most drone threats today aren’t sophisticated military platforms. They’re cheap, commercially availabl; \"loop engineer\"",
+      "source_id": "src_8be266ff616aacd1fbdc",
+      "source_text_hash": "8b02d29fde247b9b18e364745d8aeb094dc7bd6f68cadbc08a84c49b63937e3c",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop",
+        "UAS"
+      ],
+      "title": "Counter-UAS: What the Ground Tells Us Most drone threats today aren’t sophisticated military platforms. They’re cheap, commercially availabl",
+      "useful_observations": [
+        "Counter-UAS: What the Ground Tells Us Most drone threats today aren’t sophisticated military platforms.",
+        "They’re cheap, commercially availabl \"loop engineer\""
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_7ed1547a17b88b902d1a",
+      "card_input_hash": "6b2e7ad657ec21a0d5b8aaae3245dcffa51d5b4bbe78419040627777400b431f",
+      "card_output_hash": "1991db1eac9332b97adda7d2fe1bd2ced94c4d6dc797edccc278950b536e2382",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "llm_used": false,
+      "main_thesis": "Feed post Jairo Fernando Solarte Palacios • 3rd+ Development Team Leader | M.Sc.",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Jairo Fernando Solarte Palacios",
+        "Development Team Leader",
+        "M.Sc",
+        "Full Stack",
+        "Cloud Solutions",
+        "in Software Engineering"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Feed post Jairo Fernando Solarte Palacios • 3rd+ Development Team Leader | M.Sc. in Software Engineering | Full Stack & Cloud Solutions | Ja; \"loop engineer\"",
+      "source_id": "src_7ed1547a17b88b902d1a",
+      "source_text_hash": "4167e7d724bfbee51a94bba8bf0e0d960e37ed85ca76420eb1c5ae5d78ca9d28",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop"
+      ],
+      "title": "Feed post Jairo Fernando Solarte Palacios • 3rd+ Development Team Leader | M.Sc. in Software Engineering | Full Stack & Cloud Solutions | Ja",
+      "useful_observations": [
+        "Feed post Jairo Fernando Solarte Palacios • 3rd+ Development Team Leader | M.Sc.",
+        "in Software Engineering | Full Stack & Cloud Solutions | Ja \"loop engineer\""
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_db6e9c969fc431c0b2fa",
+      "card_input_hash": "d88b9eb309922efbdf9c1e609c574a82bfea3674e76f186c3b48e5629d6068d3",
+      "card_output_hash": "779cebde1c5ba97280dc55de43f0ab9130e4bc1a88288cc53e042201b5e82b17",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "llm_used": false,
+      "main_thesis": "Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses.",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Louis",
+        "Bouchard",
+        "Training AI Engineers",
+        "YouTube",
+        "Substack",
+        "Co-fou"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou; \"loop engineer\"",
+      "source_id": "src_db6e9c969fc431c0b2fa",
+      "source_text_hash": "8f94ee21382ae67bb227be740b1b6bc1cfb12cc254e81ec7115eabd0713fee21",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop",
+        "AI"
+      ],
+      "title": "Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses. Co-fou",
+      "useful_observations": [
+        "Feed post Louis-François Bouchard • 3rd+ Training AI Engineers on YouTube (on the road to 100K this year!), Substack and our courses."
+      ]
+    },
+    {
+      "advisory_only": true,
+      "author": "",
+      "candidate_claims": [],
+      "candidate_counterpoints": [],
+      "candidate_examples": [],
+      "canonical_url_available": true,
+      "captured_at": "2026-06-13T01:22:40Z",
+      "card_id": "source_card_draft_src_aa45482b30366622c5b7",
+      "card_input_hash": "a05db7d132892aab304b86ca72f4e59572716a4716366d6073bb80b9304e2b4e",
+      "card_output_hash": "ed496c3e5794f7593c9e6549b9a63cf413b3b0ab39b165f0e2f7dd257665f707",
+      "confidence": "low",
+      "do_not_publish_reason": "Privacy/publication status requires review before any use.",
+      "duplicate_status": "unique",
+      "evidence_strength": "reject",
+      "likely_chapter_targets": [
+        "04-loop-engineering"
+      ],
+      "llm_used": false,
+      "main_thesis": "Feed post Fazt Tech 52,027 followers 9h • Follow 🚀 **Loop Engineering**: La tendencia que está cambiando la forma en que los developers trab \"loop engineer\"",
+      "model": "configured-high-reasoning-model",
+      "named_entities": [
+        "Loop Engineering",
+        "Fazt Tech"
+      ],
+      "privacy_publication_status": "human_review",
+      "publisher": "",
+      "quality_score": "D",
+      "recommended_use": "do_not_use",
+      "risk_flags": [
+        "social_or_private_adjacent_discovery_signal",
+        "privacy_review_required"
+      ],
+      "run_id": "citation-pipeline-test-20260612",
+      "safe_summary": "Feed post Fazt Tech 52,027 followers 9h • Follow 🚀 **Loop Engineering**: La tendencia que está cambiando la forma en que los developers trab; \"loop engineer\"",
+      "source_id": "src_aa45482b30366622c5b7",
+      "source_text_hash": "6617ee9872672ab8d4d32769000d9e190df8bc9e55f3ce438de72cb5959b1fc1",
+      "source_type": "linkedin_search_result",
+      "technical_terms": [
+        "loop"
+      ],
+      "title": "Feed post Fazt Tech 52,027 followers 9h • Follow 🚀 **Loop Engineering**: La tendencia que está cambiando la forma en que los developers trab",
+      "useful_observations": [
+        "Feed post Fazt Tech 52,027 followers 9h • Follow 🚀 **Loop Engineering**: La tendencia que está cambiando la forma en que los developers trab \"loop engineer\""
+      ]
+    }
+  ],
+  "source_notes_failed": 0,
+  "source_notes_inserted": 0,
+  "source_notes_note_type": "source_card_draft",
+  "source_notes_schema": [
+    {
+      "cid": 0,
+      "default": null,
+      "name": "id",
+      "notnull": false,
+      "pk": true,
+      "type": "TEXT"
+    },
+    {
+      "cid": 1,
+      "default": null,
+      "name": "source_id",
+      "notnull": true,
+      "pk": false,
+      "type": "TEXT"
+    },
+    {
+      "cid": 2,
+      "default": null,
+      "name": "note",
+      "notnull": true,
+      "pk": false,
+      "type": "TEXT"
+    },
+    {
+      "cid": 3,
+      "default": "'summary'",
+      "name": "note_type",
+      "notnull": false,
+      "pk": false,
+      "type": "TEXT"
+    },
+    {
+      "cid": 4,
+      "default": null,
+      "name": "created_at",
+      "notnull": true,
+      "pk": false,
+      "type": "TEXT"
+    }
+  ],
+  "source_notes_schema_supported": true,
+  "source_notes_skipped_existing": 10,
+  "source_notes_table_schema_checked": true,
+  "source_notes_updated": 0,
+  "statuses_modified": false,
+  "verification": {},
+  "write_source_notes_requested": true
+}

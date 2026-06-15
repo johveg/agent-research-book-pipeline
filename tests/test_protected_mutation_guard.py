@@ -124,6 +124,41 @@ def test_db_count_and_status_hash_deltas_fail_closed_for_non_db_profiles():
     assert result["status_hash_delta"]["source_status_hash"] is True
 
 
+def test_closed_loop_runner_shell_allows_sqlite_physical_hash_drift_only_when_logical_db_unchanged():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["path_hashes"][".var/book.sqlite"] = {"tree_hash": "dbfile-physical-drift"}
+
+    result = mod.compare_snapshots(before, after, "closed_loop_runner_shell")
+
+    assert result["ok"] is True
+    assert result["sqlite_physical_hash_drift_allowed"] is True
+    assert result["protected_path_delta"][".var/book.sqlite"] is True
+
+    after_count_delta = base_snapshot()
+    after_count_delta["path_hashes"][".var/book.sqlite"] = {"tree_hash": "dbfile-physical-drift"}
+    after_count_delta["db"]["counts"]["claims"] += 1
+    assert mod.compare_snapshots(before, after_count_delta, "closed_loop_runner_shell")["ok"] is False
+
+    after_status_delta = base_snapshot()
+    after_status_delta["path_hashes"][".var/book.sqlite"] = {"tree_hash": "dbfile-physical-drift"}
+    after_status_delta["db"]["hashes"]["claim_status_hash"] = "changed"
+    result = mod.compare_snapshots(before, after_status_delta, "closed_loop_runner_shell")
+    assert result["ok"] is False
+
+
+def test_closed_loop_runner_shell_allows_run42_context_reports():
+    mod = load_module()
+    before = base_snapshot()
+    after = changed("reports/editorial/citation-pipeline-test-20260612-constrained-authoring-context-run42.json")
+
+    result = mod.compare_snapshots(before, after, "closed_loop_runner_shell")
+
+    assert result["ok"] is True
+    assert "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-context-run42.json" in result["allowed_changed_paths"]
+
+
 def test_db_write_source_notes_only_allows_only_source_notes_delta():
     mod = load_module()
     after = base_snapshot()

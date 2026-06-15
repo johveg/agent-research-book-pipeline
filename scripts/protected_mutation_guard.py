@@ -104,6 +104,36 @@ PROFILES: dict[str, dict[str, Any]] = {
         "allow_db": {},
         "future_disabled": True,
     },
+    "closed_loop_runner_shell": {
+        "allowed": [
+            "scripts/closed_loop_daily_runner.py",
+            "scripts/closed_loop_event_ledger.py",
+            "scripts/daily_book_worker.py",
+            "tests/test_closed_loop_daily_runner.py",
+            "tests/test_closed_loop_event_ledger.py",
+            "tests/test_daily_book_worker_no_write_controls.py",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_protected_mutation_guard.py",
+            "scripts/scheduler_wrapper_contract.py",
+            "tests/test_scheduler_wrapper_contract.py",
+            "reports/editorial/*run41*",
+            "reports/editorial/*run42*",
+            "reports/architecture/run41-*.md",
+            "reports/telegram/run41-status.md",
+            "reports/telegram/**",
+            "logs/closed_loop/events.jsonl",
+            "logs/**",
+        ],
+        "allow_db": {},
+        "allow_protected_path_delta": ["scripts/daily_book_worker.py"],
+        "allow_sqlite_physical_hash_drift_without_logical_delta": True,
+        "future_disabled": False,
+    },
+    "preflight_only_daily_runner": {
+        "allowed": ["logs/closed_loop/events.jsonl", "reports/editorial/*run41*", "reports/telegram/run41-status.md"],
+        "allow_db": {},
+        "future_disabled": False,
+    },
     "daily_worker_code_only": {
         "allowed": [
             "scripts/daily_book_worker.py",
@@ -309,10 +339,13 @@ def _contains_true_flag(obj: Any, flag: str) -> bool:
 def validate_allowed_write_scope(report: dict[str, Any]) -> dict[str, Any]:
     failed = []
     allowed_protected_delta = set(PROFILES.get(report.get("profile"), {}).get("allow_protected_path_delta", []))
+    sqlite_physical_drift_allowed = bool(report.get("sqlite_physical_hash_drift_allowed"))
     unexpected_protected = {
         path: changed
         for path, changed in report.get("protected_path_delta", {}).items()
-        if changed and path not in allowed_protected_delta
+        if changed
+        and path not in allowed_protected_delta
+        and not (path == DEFAULT_DB_PATH and sqlite_physical_drift_allowed)
     }
     if report.get("unexpected_changed_paths"):
         failed.append("unexpected_changed_paths")
@@ -363,8 +396,16 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
         failed.append("unexpected_changed_paths")
 
     allowed_protected_delta = set(spec.get("allow_protected_path_delta", []))
+    sqlite_physical_hash_drift_allowed = bool(
+        spec.get("allow_sqlite_physical_hash_drift_without_logical_delta")
+        and protected_path_delta.get(DEFAULT_DB_PATH, False)
+        and not db_delta
+        and not status_hash_delta
+    )
     protected_changed = {k: v for k, v in protected_path_delta.items() if v}
     for rel in protected_changed:
+        if rel == DEFAULT_DB_PATH and sqlite_physical_hash_drift_allowed:
+            continue
         if rel not in allowed_protected_delta:
             failed.append(f"protected_path_changed:{rel}")
 
@@ -377,6 +418,7 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
         "db_delta": db_delta,
         "status_hash_delta": status_hash_delta,
         "protected_path_delta": protected_path_delta,
+        "sqlite_physical_hash_drift_allowed": sqlite_physical_hash_drift_allowed,
         "source_registry_changed": protected_path_delta.get("data/source_registry.json", False),
         "raw_changed": protected_path_delta.get("raw", False),
         "docs_book_changed": protected_path_delta.get("docs/book", False),

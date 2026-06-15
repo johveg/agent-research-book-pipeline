@@ -202,9 +202,10 @@ def test_invalid_json_missing_inputs_and_no_llm_fallback(tmp_path):
     assert "missing" in res.stderr
 
     db = db_copy(tmp_path / "normal")
+    before_counts = counts(db)
     res = run_script(*base_args(), db_path=db, output_dir=tmp_path / "normal")
     assert res.returncode == 0, res.stderr + res.stdout
     report = read_report(tmp_path / "normal")
     assert report["llm_used"] is False
     assert report["weak_local_fallback_refused"] is True
-    assert counts(db) == {"source_notes": 365, "claims": 181, "editorial_reviews": 10}
+    assert counts(db) == before_counts

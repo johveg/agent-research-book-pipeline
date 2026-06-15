@@ -32,6 +32,8 @@ def no_write_capabilities() -> dict:
         "supports_no_commit": True,
         "supports_no_push": True,
         "supports_no_docs_book_update_without_gate": True,
+        "supports_preflight_only": True,
+        "preflight_only_no_write": True,
         "capability_probe_no_write": True,
         "human_in_loop_dependency_added": False,
         "author_allowed": False,
@@ -192,6 +194,7 @@ def main() -> int:
     ap.add_argument("--skip-vector", action="store_true", help="Skip local vector-index refresh")
     ap.add_argument("--vector-limit", type=int, default=200, help="Maximum Markdown files to vector-index in this run; 0 means no limit")
     ap.add_argument("--no-commit", action="store_true", help="Do not commit or push; useful for verification runs")
+    ap.add_argument("--preflight-only", action="store_true", help="Validate arguments and emit a no-write preflight result without running pipeline steps")
     ap.add_argument("--allow-chapter-updates", action="store_true", help="Allow Author chapter synthesis. Default daily behavior is collection/preparation only; use after weekly curation or explicit Editor approval.")
     args = ap.parse_args()
 
@@ -200,6 +203,31 @@ def main() -> int:
         return 0
 
     run_id = args.run_id or (("manual-" + run_id_now()) if args.manual else run_id_now())
+    if args.preflight_only:
+        print(json.dumps({
+            "ok": True,
+            "preflight_only": True,
+            "run_id": run_id,
+            "capability_probe_no_write": True,
+            "preflight_only_no_write": True,
+            "validated_arguments": True,
+            "execution_performed": False,
+            "writes_performed": False,
+            "capture_executed": False,
+            "entity_extraction_executed": False,
+            "claim_extraction_executed": False,
+            "docs_book_update_executed": False,
+            "docs_entities_update_executed": False,
+            "docs_claims_update_executed": False,
+            "source_registry_export_executed": False,
+            "run_table_update_executed": False,
+            "vector_index_build_executed": False,
+            "commit_executed": False,
+            "push_executed": False,
+            "human_in_loop_dependency_added": False,
+        }, sort_keys=True))
+        return 0
+
     init_db()
     cfg = json.loads(CONFIG_PATH.read_text())
     state_dir = LOGS / "runs" / "state"

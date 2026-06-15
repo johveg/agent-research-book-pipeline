@@ -1,0 +1,91 @@
+# Run 41 status — Full closed-loop daily runner shell with event ledger and guarded preflight execution
+
+- Run number and title: `Run 41 — Full closed-loop daily runner shell with event ledger and guarded preflight execution`
+- Success/failure: `failure — repository checkpoint blocked`
+- Files created/changed:
+  - Created: `scripts/closed_loop_event_ledger.py`
+  - Created: `scripts/closed_loop_daily_runner.py`
+  - Created: `tests/test_closed_loop_event_ledger.py`
+  - Created: `tests/test_closed_loop_daily_runner.py`
+  - Created: `logs/closed_loop/events.jsonl`
+  - Created: `reports/editorial/citation-pipeline-test-20260612-closed-loop-daily-runner-run41.json`
+  - Created: `reports/editorial/citation-pipeline-test-20260612-closed-loop-daily-runner-run41.md`
+  - Created: `reports/editorial/citation-pipeline-test-20260612-mutation-guard-run41.json`
+  - Created: `reports/editorial/citation-pipeline-test-20260612-mutation-guard-run41.md`
+  - Created: `reports/architecture/run41-closed-loop-daily-runner-evidence-map-20260614.md`
+  - Created/updated: `reports/telegram/run41-status.md`
+  - Modified: `scripts/daily_book_worker.py`
+  - Modified: `scripts/protected_mutation_guard.py`
+  - Modified: `tests/test_daily_book_worker_no_write_controls.py`
+- GPT-5.5 used: `false`
+- Model/provider/profile if used: `not used`
+- Main decisions/dispositions:
+  - `execution_allowed=true` for `preflight_only` + `safe_reports_only` only.
+  - `execution_performed=true` for preflight/no-op mode only.
+  - `production_publish_enabled=false`.
+  - `docs_book_update_enabled=false`.
+  - `raw_collection_enabled=false`.
+  - `metadata_write_enabled=false`.
+  - `authoring_enabled=false`.
+  - `publication_approved=false`.
+  - `chapter_update_allowed=false`.
+  - `human_in_loop_dependency_added=false`.
+  - Internal runner commit/push remained blocked: `runner_commit_allowed=false`, `runner_push_allowed=false`.
+- Daily-worker command executed: `/home/ubuntu/.hermes/hermes-agent/venv/bin/python3 scripts/daily_book_worker.py citation-pipeline-test-20260612 --preflight-only --skip-capture --skip-entity-extraction --skip-claim-extraction --skip-docs-entities-update --skip-docs-claims-update --skip-source-registry-export --skip-run-table-update --skip-vector --no-commit`
+- Capability probe result:
+  - Probe command: `python3 scripts/daily_book_worker.py --print-capabilities-json`
+  - Valid JSON: `true`
+  - Exit code: `0`
+  - Missing capabilities: `[]`
+  - `supports_preflight_only=true`
+  - `preflight_only_no_write=true`
+- Event ledger:
+  - Path: `logs/closed_loop/events.jsonl`
+  - Event count delta: `8`
+  - Final event: `attempt_completed`
+  - Idempotency key: `0f3f13620d87b53b9c25e866f3d317d0c812990c6e8d639638d107a04e98994f`
+- DB deltas:
+  - Runner internal guard DB delta: `{}`
+  - Reduced verification DB counts: `{"claims": 218, "editorial_reviews": 10, "source_notes": 445}`
+  - Current counts unchanged from Run 40 context.
+- Protected path deltas:
+  - Runner internal guard: protected runtime paths all false.
+  - Outer repository guard from initial snapshot after full verification: blocked by `.var/book.sqlite` physical hash delta, with logical DB count/status deltas still `{}`.
+- Docs/book delta: `false after restore; no docs/book changes staged for Run 41`
+- Docs/entities delta: `false after restore; no docs/entities changes staged for Run 41`
+- Docs/research/claims.md delta: `false after restore`
+- source_registry/raw/schema/daily-worker delta:
+  - `data/source_registry.json`: `false after restore`
+  - `raw/`: `false`
+  - `data/schema.sql`: `false`
+  - `scripts/daily_book_worker.py`: `true — expected code change for --preflight-only`
+- Tests run and results:
+  - RED focused tests before implementation: failed with missing modules as expected.
+  - Focused tests: `.venv/bin/python -m pytest -q tests/test_closed_loop_event_ledger.py tests/test_closed_loop_daily_runner.py` → `17 passed`.
+  - Supporting focused tests: `.venv/bin/python -m pytest -q tests/test_daily_book_worker_no_write_controls.py tests/test_protected_mutation_guard.py` → `17 passed`.
+  - Combined focused tests: `.venv/bin/python -m pytest -q tests/test_closed_loop_event_ledger.py tests/test_closed_loop_daily_runner.py tests/test_daily_book_worker_no_write_controls.py tests/test_protected_mutation_guard.py` → `34 passed`.
+  - Full pytest: `.venv/bin/python -m pytest -q` → `1 failed, 232 passed`.
+  - Full pytest failure: `tests/test_build_constrained_authoring_metadata.py::test_invalid_json_missing_inputs_and_no_llm_fallback` expected stale fixture DB counts `{source_notes: 365, claims: 181, editorial_reviews: 10}` but current DB copy has `{source_notes: 445, claims: 218, editorial_reviews: 10}`.
+  - `python3 scripts/verify_book_workspace.py` → `ok`.
+  - `python3 scripts/verify_editorial_roles.py` → `ok`.
+  - `python3 scripts/verify_book_citations.py` → `ok`.
+  - `.venv/bin/python -m mkdocs build --strict` → `ok` with existing Material/MkDocs warning and nav notices.
+- Mutation guard result:
+  - Internal runner profile: `preflight_only_daily_runner` → `ok=true`.
+  - Outer repository profile: `closed_loop_runner_shell` → `ok=false` after full verification because `.var/book.sqlite` physical file hash changed despite zero DB count/status deltas.
+- Secrets scan: `SECRETS_SCAN_OK changed_text_files=12`.
+- Commit hash: `not committed — blocked`
+- Push result: `not pushed — blocked`
+- Final git status:
+  - Modified: `scripts/daily_book_worker.py`, `scripts/protected_mutation_guard.py`, `tests/test_daily_book_worker_no_write_controls.py`
+  - Untracked Run 41 files/reports/logs present.
+  - Protected docs/source_registry changes produced by full verification were restored; no tracked protected docs/source_registry/raw/schema diff remains.
+- Telegram delivery:
+  - Attempted: `true`
+  - Fallback written: `true` at `reports/telegram/run41-status.md`
+  - Delivery target available: `telegram:Marius (dm)` / bare `telegram` home; no separate ops/status channel was listed by tool discovery.
+- Recommended next run: `Run 42 — after resolving the full-suite stale-count test and outer guard DB-file-hash blocker, build the automated evidence-to-authoring promotion lane: closed_loop_evidence_promoter.py, closed_loop_disposition_router.py, GPT-5.5 evidence evaluation if needed, machine dispositions only, no human-review dependency, authoring packets only, no docs/book publication.`
+- Blockers:
+  1. Full verification failed: `tests/test_build_constrained_authoring_metadata.py::test_invalid_json_missing_inputs_and_no_llm_fallback` has hardcoded stale DB counts.
+  2. Outer mutation guard failed from initial snapshot: `.var/book.sqlite` physical file hash delta after full verification, although DB logical count/status deltas remained zero.
+  3. Final commit/push requirements prohibit commit/push when full verification or mutation guard fails.

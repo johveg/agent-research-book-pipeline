@@ -1,0 +1,154 @@
+{
+  "bridge": null,
+  "changed_daily_worker": false,
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "claim_status_changed": false,
+  "claims_count_after": 218,
+  "claims_count_before": 218,
+  "claims_inserted": 0,
+  "constrained_authoring_context_candidates": [
+    {
+      "advisory_only": true,
+      "author_allowed": false,
+      "author_context_constraints": {
+        "allowed_scope": [
+          "Use as structured context metadata only.",
+          "Preserve the mandatory caveat and negative boundaries.",
+          "Treat tooling-adjacency material as caveat-only planning context."
+        ],
+        "forbidden_scope": [
+          "No chapter prose.",
+          "No publishable wording.",
+          "No claim insertion.",
+          "No docs/book integration.",
+          "No authoring or publication approval."
+        ]
+      },
+      "automated_disposition": "caveat_only",
+      "chapter_update_allowed": false,
+      "context_decision": "context_candidate_created",
+      "context_id": "context_run42_constrained_authoring_1415a8e978a39a19439acc7f",
+      "context_type": "constrained_authoring_context_candidate",
+      "context_use": "caveat_only_authoring_context",
+      "contract_candidate_id": "contract_run32_authoring_metadata_4e8554045cfaf827bc68bcc5",
+      "do_not_say": [
+        "Do not say Hermes is a runtime dependency of OpenClaw.",
+        "Do not say Hermes is the general operating environment for OpenClaw.",
+        "Do not say OpenClaw requires Hermes for web or phone access.",
+        "Do not generalize beyond migration/setup/import tooling contexts unless additional sources support it.",
+        "Do not use this material as a factual claim without the caveat.",
+        "Do not use this material for chapter prose before later author/red-team gates pass."
+      ],
+      "draft_canary_id": "draft_canary_run28_caveat_only_v2_cluster_4e8554045cfaf827bc68bcc5",
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "evidence_context_atoms": [
+        "Evidence use is correctly limited to narrow metadata-level factual atoms about OpenClaw documentation summaries naming Hermes in migration and setup tooling contexts, with explicit denial of broader dependency, runtime, access, or operating-environment support.",
+        "The selected object is substantially contained as metadata: it consists of identifiers, caveats, allowed and forbidden intent constraints, provenance paths, evidence-bound atoms, blockers, and risk notes. The quoted canary text is present only as labeled report-only canary material and must not be promoted into prose.",
+        "The metadata is useful for a constrained promotion-contract update because it preserves narrow evidence boundaries, provenance, caveats, blockers, and negative constraints; it remains too narrow for authoring, publication, or claim insertion."
+      ],
+      "limitations": [
+        "This is a report-only promotion-contract control object.",
+        "It does not approve authoring, publication, claim insertion, or docs/book updates.",
+        "Future constrained_authoring_context_candidate transition is reserved for a later run.",
+        "The evidence remains narrow, singleton-derived, and caveat-only."
+      ],
+      "metadata_id": "metadata_run30_constrained_authoring_4e8554045cfaf827bc68bcc5",
+      "prior_draft_input_id": "draft_input_run22b_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "promotion_blockers": [
+        "No authoring approval has been granted.",
+        "No publication approval has been granted.",
+        "No claim insertion is allowed.",
+        "No chapter update is allowed.",
+        "Evidence remains singleton/narrow and caveat-only.",
+        "Later gates must prevent prose-promotion from tooling adjacency into dependency or operating-environment claims.",
+        "Any later use must preserve the mandatory caveat and re-check upstream source/review artifacts."
+      ],
+      "provenance_paths": [
+        "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json",
+        "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-preflight-run31.json",
+        "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run33.json",
+        "reports/editorial/citation-pipeline-test-20260612-transition-engine-evaluation-run34.json"
+      ],
+      "publication_approved": false,
+      "rebuilt_input_id": "rebuilt_input_run26_enriched_caveat_only_cluster_4e8554045cfaf827bc68bcc5",
+      "required_caveats": [
+        "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources."
+      ],
+      "residual_risk": "Downstream stages could overpromote tooling-adjacency metadata into dependency or operating-environment language if later gates strip the mandatory caveat.",
+      "source_report_paths": {
+        "metadata_report": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json",
+        "preflight_report": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-preflight-run31.json",
+        "promotion_contract_report": "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run33.json",
+        "transition_engine_report": "reports/editorial/citation-pipeline-test-20260612-transition-engine-evaluation-run34.json"
+      },
+      "source_state": "authoring_metadata_promotion_contract_ready",
+      "target_state": "constrained_authoring_context_candidate",
+      "transition_decision": "future_context_metadata_packaged",
+      "unsupported_inferences": [
+        "Hermes is a runtime dependency of OpenClaw.",
+        "Hermes is the general operating environment for OpenClaw.",
+        "OpenClaw requires Hermes for web or phone access.",
+        "Migration/setup/import tooling adjacency proves architectural dependency.",
+        "The canary is publishable or chapter-ready.",
+        "The canary can be inserted as a claim without later gates."
+      ]
+    }
+  ],
+  "context_candidate_count": 1,
+  "context_decision_counts": {
+    "context_candidate_created": 1
+  },
+  "editorial_reviews_count_after": 10,
+  "editorial_reviews_count_before": 10,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "excluded_contract_count": 0,
+  "excluded_contracts": [],
+  "generated_at": "2026-06-15T11:06:54Z",
+  "input_paths": {
+    "promotion_contract_report": "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run33.json",
+    "sqlite_db": ".var/book.sqlite",
+    "transition_report": "reports/editorial/citation-pipeline-test-20260612-transition-engine-evaluation-run34.json"
+  },
+  "llm_used": false,
+  "mode": "build_constrained_authoring_context",
+  "model": null,
+  "model_profile": null,
+  "output_paths": {
+    "json": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-context-run42.json",
+    "markdown": "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-context-run42.md"
+  },
+  "provider": null,
+  "reasoning_status": "deterministic_context_packaging_only",
+  "recommended_next_stage": "run_constrained_authoring_context_preflight",
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "chapter_ready_prose_created": false,
+    "chapter_update_allowed": false,
+    "claims_inserted": false,
+    "context_metadata_only": true,
+    "daily_worker_modified": false,
+    "docs_book_modified": false,
+    "editorial_reviews_inserted": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "new_author_prose_created": false,
+    "publication_approved": false,
+    "schema_modified": false,
+    "source_notes_written": false
+  },
+  "selected_contract_count": 1,
+  "source_notes_count_after": 445,
+  "source_notes_count_before": 445
+}

@@ -22,6 +22,8 @@ REQUIRED_CAPABILITY_KEYS = {
     "supports_no_commit",
     "supports_no_push",
     "supports_no_docs_book_update_without_gate",
+    "supports_preflight_only",
+    "preflight_only_no_write",
     "capability_probe_no_write",
     "human_in_loop_dependency_added",
     "author_allowed",
@@ -222,3 +224,29 @@ def test_without_skip_run_table_update_writes_runs_table(monkeypatch, tmp_path):
 
     assert any("INSERT OR REPLACE INTO runs" in args[0] for args, _kwargs in connection.executed)
     assert connection.committed is True
+
+
+def test_preflight_only_exits_zero_and_does_not_mutate_runtime_surfaces(monkeypatch, tmp_path, capsys):
+    calls, commit_calls, connection, logs, reports = _configure_worker(monkeypatch, tmp_path)
+    monkeypatch.setattr(sys, "argv", ["daily_book_worker.py", "run41-preflight", "--preflight-only"])
+
+    assert worker.main() == 0
+    payload = json.loads(capsys.readouterr().out)
+
+    assert payload["preflight_only"] is True
+    assert payload["run_id"] == "run41-preflight"
+    assert calls == []
+    assert commit_calls == []
+    assert connection.executed == []
+    assert connection.committed is False
+    assert not logs.exists() or list(logs.rglob("*")) == []
+    assert not reports.exists() or list(reports.rglob("*")) == []
+
+
+def test_preflight_only_does_not_commit_or_push(monkeypatch, tmp_path):
+    _calls, commit_calls, _connection, _logs, _reports = _configure_worker(monkeypatch, tmp_path)
+    monkeypatch.setattr(sys, "argv", ["daily_book_worker.py", "run41-preflight", "--preflight-only", "--no-commit"])
+
+    assert worker.main() == 0
+
+    assert commit_calls == []

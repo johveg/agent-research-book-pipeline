@@ -1,0 +1,119 @@
+import importlib.util
+import json
+import subprocess
+import sys
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+ROOT = Path(__file__).resolve().parents[1]
+SCRIPT = ROOT / "scripts" / "production_daily_monitor.py"
+
+
+def load_module():
+    spec = importlib.util.spec_from_file_location("production_daily_monitor", SCRIPT)
+    mod = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def make_repo(tmp_path, run_id="production-daily-20260616"):
+    (tmp_path / "reports" / "editorial").mkdir(parents=True)
+    (tmp_path / "reports" / "telegram").mkdir(parents=True)
+    (tmp_path / "logs" / "runs").mkdir(parents=True)
+    (tmp_path / "logs" / "closed_loop").mkdir(parents=True)
+    return tmp_path
+
+
+def test_today_before_0530_missing_is_not_due_yet(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    now = datetime(2026, 6, 16, 5, 0, tzinfo=ZoneInfo("Europe/Oslo"))
+    report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
+    assert report["expected_run_id"] == "production-daily-20260616"
+    assert report["status"] == "production_daily_missing_not_due_yet"
+    assert report["ok"] is True
+
+
+def test_today_after_0530_missing_is_after_due(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    now = datetime(2026, 6, 16, 6, 0, tzinfo=ZoneInfo("Europe/Oslo"))
+    report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
+    assert report["status"] == "production_daily_missing_after_due"
+    assert report["ok"] is False
+
+
+def test_completed_report_is_completed(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    run_id = "production-daily-20260616"
+    report_path = repo / "reports" / "editorial" / f"{run_id}-production-execute-once.json"
+    report_path.write_text(json.dumps({"final_disposition": "production_daily_completed", "production_daily_completed": True}))
+    report = mod.monitor(repo=repo, run_id=run_id, timezone_name="Europe/Oslo")
+    assert report["status"] == "production_daily_completed"
+    assert report["ok"] is True
+    assert report["production_report_json_exists"] is True
+
+
+def test_failed_report_is_failed_closed(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    run_id = "production-daily-20260616"
+    (repo / "reports" / "editorial" / f"{run_id}-production-execute-once.json").write_text(json.dumps({"final_disposition": "production_daily_failed_closed"}))
+    report = mod.monitor(repo=repo, run_id=run_id, timezone_name="Europe/Oslo")
+    assert report["status"] == "production_daily_failed_closed"
+    assert report["ok"] is False
+
+
+def test_stale_running_log_older_than_max_age(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    run_id = "production-daily-20260616"
+    log = repo / "logs" / "runs" / f"{run_id}.log"
+    log.write_text("started\n")
+    old = datetime(2026, 6, 16, 5, 30, tzinfo=ZoneInfo("Europe/Oslo")).timestamp()
+    import os
+    os.utime(log, (old, old))
+    now = datetime(2026, 6, 16, 9, 0, tzinfo=ZoneInfo("Europe/Oslo"))
+    report = mod.monitor(repo=repo, run_id=run_id, timezone_name="Europe/Oslo", now=now, max_age_minutes=180)
+    assert report["status"] == "production_daily_stale"
+    assert report["ok"] is False
+
+
+def test_fixed_run_id_is_rejected_for_production_monitor(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    report = mod.monitor(repo=repo, run_id="citation-pipeline-test-20260612", timezone_name="Europe/Oslo")
+    assert report["status"] == "production_monitor_failed_closed"
+    assert report["ok"] is False
+    assert "fixed_run_id_not_allowed" in report["warnings"]
+
+
+def test_monitor_detects_crontab_production_command(monkeypatch, tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    monkeypatch.setattr(mod, "read_crontab", lambda: "30 5 * * * cd /repo && RUN_ID=$(date -u +production-daily-%Y%m%d) && python3 scripts/closed_loop_production_scheduler.py")
+    report = mod.monitor(repo=repo, run_id="production-daily-20260616", timezone_name="Europe/Oslo")
+    assert report["crontab_production_daily_command_found"] is True
+
+
+def test_monitor_writes_telegram_fallback_and_json_valid(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    out = tmp_path / "telegram.md"
+    report = mod.monitor(repo=repo, run_id="production-daily-20260616", timezone_name="Europe/Oslo", telegram_status=out)
+    assert out.exists()
+    json.dumps(report)
+    assert "production-daily-20260616" in out.read_text()
+
+
+def test_cli_json_output(tmp_path):
+    repo = make_repo(tmp_path)
+    proc = subprocess.run([
+        sys.executable, str(SCRIPT), "--repo", str(repo), "--run-id", "production-daily-20260616", "--timezone", "Europe/Oslo", "--json"
+    ], text=True, capture_output=True, cwd=ROOT)
+    assert proc.returncode in {0, 2}
+    payload = json.loads(proc.stdout)
+    assert payload["expected_run_id"] == "production-daily-20260616"

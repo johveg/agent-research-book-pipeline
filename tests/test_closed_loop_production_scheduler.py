@@ -161,3 +161,54 @@ def test_cli_writes_execute_once_reports(tmp_path):
     payload = json.loads(out_json.read_text())
     assert payload["final_disposition"] in {"production_daily_completed", "production_daily_failed_closed"}
     assert telegram.exists()
+
+
+def test_status_only_reports_runtime_schedule_latest_and_push_helper_without_mutation(monkeypatch, tmp_path):
+    mod = load_module()
+    cfg = tmp_path / "runtime.json"
+    cfg.write_text(json.dumps(good_config()))
+    latest = tmp_path / "production-daily-20260616-production-execute-once.json"
+    latest.write_text(json.dumps({"final_disposition": "production_daily_completed"}))
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "run_cmd", lambda cmd, **kw: {"returncode": 0, "stdout": "30 5 * * * production-daily-%Y%m%d closed_loop_production_scheduler.py\n", "stderr": ""} if cmd[:2] == ["bash", "-lc"] else {"returncode": 0, "stdout": "abc123 HEAD\n", "stderr": ""})
+    monkeypatch.setattr(mod, "find_latest_production_report", lambda repo: latest)
+    report = mod.production_status_report(cfg, tmp_path / "health.json", tmp_path / "health.md", tmp_path / "telegram.md")
+    assert report["mode"] == "production_status"
+    assert report["status_only"] is True
+    assert report["raw_collection_performed"] is False
+    assert report["extraction_performed"] is False
+    assert report["gpt55_used"] is False
+    assert report["docs_book_update_performed"] is False
+    assert report["runtime_config_present"] is True
+    assert report["production_daily_enabled"] is True
+    assert report["human_in_loop_required"] is False
+    assert report["weak_local_fallback_allowed"] is False
+    assert report["crontab_schedule_found"] is True
+    assert report["latest_production_daily_disposition"] == "production_daily_completed"
+    assert report["git_push_helper_path"].endswith("scripts/git_push_with_hermes_key.sh")
+
+
+def test_status_only_refuses_human_or_weak_fallback(tmp_path):
+    mod = load_module()
+    cfg = tmp_path / "runtime.json"
+    cfg.write_text(json.dumps(good_config(human_in_loop_required=True, weak_local_fallback_allowed=True)))
+    report = mod.production_status_report(cfg, tmp_path / "health.json", tmp_path / "health.md", tmp_path / "telegram.md")
+    assert report["ok"] is False
+    assert "human_in_loop_required_must_be_false" in report["runtime_config_validation_errors"]
+    assert "weak_local_fallback_allowed_must_be_false" in report["runtime_config_validation_errors"]
+
+
+def test_cli_status_only_writes_health_reports(tmp_path):
+    cfg = tmp_path / "runtime.json"
+    cfg.write_text(json.dumps(good_config()))
+    out_json = tmp_path / "health.json"
+    out_md = tmp_path / "health.md"
+    telegram = tmp_path / "telegram.md"
+    proc = subprocess.run([
+        sys.executable, str(SCRIPT), "--runtime-config", str(cfg), "--mode", "production_status", "--status-only", "--output-json", str(out_json), "--output-md", str(out_md), "--telegram-status", str(telegram)
+    ], cwd=ROOT, text=True, capture_output=True)
+    assert proc.returncode in {0, 2}
+    payload = json.loads(out_json.read_text())
+    assert payload["mode"] == "production_status"
+    assert payload["gpt55_used"] is False
+    assert telegram.exists()

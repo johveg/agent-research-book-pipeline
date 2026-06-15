@@ -275,6 +275,84 @@ def write_telegram_status(path: str | Path, report: dict[str, Any]) -> None:
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+
+def find_latest_production_report(repo: Path = ROOT) -> Path | None:
+    reports = sorted((repo / "reports" / "editorial").glob("production-daily-*-production-execute-once.json"), key=lambda path: path.stat().st_mtime, reverse=True)
+    return reports[0] if reports else None
+
+
+def read_crontab() -> str:
+    return run_cmd(["bash", "-lc", "crontab -l 2>/dev/null || true"]).get("stdout", "")
+
+
+def production_status_report(runtime_config: Path, output_json: Path, output_md: Path, telegram_status: Path | None = None) -> dict[str, Any]:
+    config = load_json(runtime_config) if runtime_config.exists() else {}
+    validation_errors: list[str] = []
+    if not runtime_config.exists():
+        validation_errors.append("runtime_config_missing")
+    if config.get("human_in_loop_required") is not False:
+        validation_errors.append("human_in_loop_required_must_be_false")
+    if config.get("weak_local_fallback_allowed") is not False:
+        validation_errors.append("weak_local_fallback_allowed_must_be_false")
+    schedule = config.get("schedule", {}) if isinstance(config.get("schedule"), dict) else {}
+    crontab = read_crontab()
+    schedule_line = next((line for line in crontab.splitlines() if "closed_loop_production_scheduler.py" in line and "production-daily" in line), "")
+    latest = find_latest_production_report(ROOT)
+    latest_payload: dict[str, Any] = {}
+    if latest and latest.exists():
+        try:
+            latest_payload = json.loads(latest.read_text(encoding="utf-8"))
+        except Exception as exc:
+            latest_payload = {"_load_error": str(exc)}
+    git_proc = run_cmd(["git", "rev-parse", "--short", "HEAD"])
+    status_proc = run_cmd(["git", "status", "--short"])
+    helper = ROOT / "scripts" / "git_push_with_hermes_key.sh"
+    key_path = Path("/root/.ssh/id_ed25519_github_hermione_hermes")
+    report = {
+        "ok": not validation_errors,
+        "mode": "production_status",
+        "status_only": True,
+        "generated_at": utc_now(),
+        "runtime_config_path": str(runtime_config),
+        "runtime_config_present": runtime_config.exists(),
+        "runtime_config_validation_errors": validation_errors,
+        "production_daily_enabled": bool(config.get("production_daily_enabled")),
+        "daily_schedule_enabled": bool(config.get("daily_schedule_enabled")),
+        "human_in_loop_required": config.get("human_in_loop_required"),
+        "weak_local_fallback_allowed": config.get("weak_local_fallback_allowed"),
+        "gpt55_required_for_author_editor_redteam": config.get("gpt55_required_for_author_editor_redteam"),
+        "gpt55_required_for_publication_gate": config.get("gpt55_required_for_publication_gate"),
+        "raw_collection_performed": False,
+        "extraction_performed": False,
+        "evidence_promotion_performed": False,
+        "gpt55_used": False,
+        "docs_book_update_performed": False,
+        "db_write_performed": False,
+        "source_registry_update_performed": False,
+        "commit_performed": False,
+        "push_performed": False,
+        "crontab_schedule_found": bool(schedule_line),
+        "schedule_command": schedule_line,
+        "schedule_timezone": schedule.get("timezone", "Europe/Oslo"),
+        "schedule_local_time": schedule.get("local_time", "05:30"),
+        "latest_production_daily_report": str(latest) if latest else None,
+        "latest_production_daily_disposition": latest_payload.get("final_disposition") or latest_payload.get("status"),
+        "latest_telegram_status_path": str(ROOT / "reports" / "telegram" / "production-daily-latest.md"),
+        "latest_commit_hash": git_proc.get("stdout", "").strip(),
+        "git_status_clean": status_proc.get("stdout", "").strip() == "",
+        "git_status_short": status_proc.get("stdout", "").splitlines(),
+        "git_push_helper_path": str(helper),
+        "git_push_helper_exists": helper.exists(),
+        "configured_ssh_identity_exists": key_path.exists(),
+        "default_push_identity_health": "not_checked_no_push_attempted",
+        "operational_limitations": ["status-only command does not run capture, extraction, GPT, publication, commit, or push"],
+    }
+    write_json(output_json, report)
+    write_md(output_md, "Run 46 production scheduler health", report)
+    if telegram_status:
+        write_md(telegram_status, "Run 46 production scheduler health", report)
+    return report
+
 def execute_once(
     run_id: str,
     config: dict[str, Any],
@@ -544,9 +622,10 @@ def execute_once(
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description="Closed-loop production daily scheduler")
-    ap.add_argument("--run-id", required=True)
+    ap.add_argument("--run-id", default="production-status-run46")
     ap.add_argument("--runtime-config", required=True)
-    ap.add_argument("--mode", required=True, choices=["production_daily"])
+    ap.add_argument("--mode", required=True, choices=["production_daily", "production_status"])
+    ap.add_argument("--status-only", action="store_true")
     ap.add_argument("--execute-once", action="store_true")
     ap.add_argument("--allow-raw-collection", action="store_true")
     ap.add_argument("--allow-extraction", action="store_true")
@@ -562,15 +641,37 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--install-schedule-after-success", action="store_true")
     ap.add_argument("--simulate", action="store_true")
     args = ap.parse_args(argv)
+
+    if args.mode == "production_status":
+        if not args.status_only:
+            print(json.dumps({"ok": False, "final_disposition": "production_monitor_failed_closed", "blocker": "production_status_requires_status_only"}, sort_keys=True))
+            return 2
+        report = production_status_report(Path(args.runtime_config), Path(args.output_json), Path(args.output_md), Path(args.telegram_status))
+        print(json.dumps({"ok": report.get("ok"), "final_disposition": "production_monitor_ok" if report.get("ok") else "production_monitor_warning", "output_json": rel(args.output_json)}, sort_keys=True))
+        return 0 if report.get("ok") else 2
+
     cfg = load_json(args.runtime_config)
-    schedule = write_schedule_artifacts(
-        args.run_id,
-        ROOT / "config" / "schedules" / "closed-loop-production-daily.cron.example",
-        ROOT / "config" / "schedules" / "closed-loop-production-daily.md",
-        args.runtime_config,
-    )
-    write_json(f"reports/editorial/{args.run_id}-schedule-install-run45.json", schedule)
-    write_md(f"reports/editorial/{args.run_id}-schedule-install-run45.md", "Run 45 schedule install", schedule)
+    if args.simulate:
+        schedule = {
+            "mode": "run45_schedule_install_artifact",
+            "run_id": args.run_id,
+            "generated_at": utc_now(),
+            "schedule_timezone": cfg.get("schedule", {}).get("timezone", "Europe/Oslo"),
+            "schedule_cron_expression": cfg.get("schedule", {}).get("cron_expression", "30 5 * * *"),
+            "schedule_command": schedule_command(args.runtime_config),
+            "schedule_installable": True,
+            "schedule_installed": False,
+            "simulate_no_schedule_artifact_write": True,
+        }
+    else:
+        schedule = write_schedule_artifacts(
+            args.run_id,
+            ROOT / "config" / "schedules" / "closed-loop-production-daily.cron.example",
+            ROOT / "config" / "schedules" / "closed-loop-production-daily.md",
+            args.runtime_config,
+        )
+        write_json(f"reports/editorial/{args.run_id}-schedule-install-run45.json", schedule)
+        write_md(f"reports/editorial/{args.run_id}-schedule-install-run45.md", "Run 45 schedule install", schedule)
     if not args.execute_once:
         sched_report = {"mode": args.mode, "run_id": args.run_id, "generated_at": utc_now(), **schedule, "final_disposition": "schedule_artifact_created"}
         write_json(args.output_json, sched_report)
@@ -607,7 +708,6 @@ def main(argv: list[str] | None = None) -> int:
     write_json(args.output_json, report)
     write_md(args.output_md, "Run 45 production execute-once", report)
     write_telegram_status(args.telegram_status, report)
-    # Separate scheduler report mirrors schedule + execute-once summary.
     sched_report = {k: report.get(k) for k in ["mode", "run_id", "generated_at", "final_disposition", "production_daily_completed", "schedule_installed", "schedule_installable", "schedule_command", "next_expected_run_time", "blockers"]}
     write_json(f"reports/editorial/{args.run_id}-production-scheduler-run45.json", sched_report)
     write_md(f"reports/editorial/{args.run_id}-production-scheduler-run45.md", "Run 45 production scheduler", sched_report)

@@ -362,6 +362,60 @@ def test_production_daily_publish_blocks_missing_gates_and_unsafe_terms():
     assert mod.compare_snapshots(before, after, "production_daily_publish")["ok"] is False
 
 
+def test_production_ops_hardening_allows_ops_surfaces_and_blocks_publication_mutations():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    allowed = [
+        "scripts/production_daily_monitor.py",
+        "scripts/closed_loop_production_scheduler.py",
+        "scripts/git_push_with_hermes_key.sh",
+        "scripts/protected_mutation_guard.py",
+        "tests/test_production_daily_monitor.py",
+        "tests/test_closed_loop_production_scheduler.py",
+        "tests/test_git_push_with_hermes_key.py",
+        "tests/test_protected_mutation_guard.py",
+        "config/schedules/closed-loop-production-daily.md",
+        "reports/editorial/production-ops-baseline-run46.json",
+        "reports/editorial/production-monitor-run46.json",
+        "reports/editorial/production-scheduler-health-run46.json",
+        "reports/architecture/run46-production-ops-hardening-evidence-map-20260615.md",
+        "reports/telegram/run46-status.md",
+        "reports/telegram/production-monitor-latest.md",
+        "reports/telegram/production-scheduler-health-run46.md",
+    ]
+    for path in allowed:
+        after["git_status_short"].append(f" M {path}")
+        after["git_diff_names"].append(path)
+    result = mod.compare_snapshots(before, after, "production_ops_hardening")
+    assert result["ok"] is True
+    assert result["unexpected_changed_paths"] == []
+
+    sqlite_after = base_snapshot()
+    sqlite_after["path_hashes"][".var/book.sqlite"] = {"tree_hash": "db-physical-run46"}
+    assert mod.compare_snapshots(before, sqlite_after, "production_ops_hardening")["ok"] is True
+
+    db_logical = base_snapshot()
+    db_logical["path_hashes"][".var/book.sqlite"] = {"tree_hash": "db-logical-run46"}
+    db_logical["db"]["counts"]["claims"] += 1
+    assert mod.compare_snapshots(before, db_logical, "production_ops_hardening")["ok"] is False
+
+    for path in [
+        "docs/book/06-operating-loops.md",
+        "raw/web/x.json",
+        "data/source_registry.json",
+        ".var/book.sqlite",
+        "docs/entities/x.md",
+        "docs/research/claims.md",
+        "data/schema.sql",
+    ]:
+        assert mod.compare_snapshots(before, changed(path, " M"), "production_ops_hardening")["ok"] is False
+
+    unsafe = base_snapshot()
+    unsafe["report_safety_scan"] = {"human_in_loop_dependency_added": True, "weak_local_fallback_allowed": True}
+    assert mod.compare_snapshots(before, unsafe, "production_ops_hardening")["ok"] is False
+
+
 def test_unknown_and_future_publication_profiles_fail_closed_without_gates():
     mod = load_module()
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "unknown_profile")["ok"] is False

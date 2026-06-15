@@ -97,9 +97,10 @@ Generated: 2026-06-15T12:29:00Z
 
 ## Commit / push
 
-- implementation/status commit: pending at status-write time
-- push result: pending at status-write time
-- final git status: pending at status-write time
+- implementation/status commit: `8cf800f`
+- push result: pushed to `origin/main` after SSH identity retry
+- final status-finalization commit: pending; see final response for immutable hash
+- final git status: clean after finalization expected
 
 ## Run 45 recommendation
 

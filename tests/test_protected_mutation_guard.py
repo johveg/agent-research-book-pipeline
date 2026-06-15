@@ -87,10 +87,21 @@ def test_config_only_and_control_plane_code_only_profiles_allow_expected_paths()
         "?? scripts/protected_mutation_guard.py",
         "?? tests/test_protected_mutation_guard.py",
         "?? reports/architecture/run35-protected-mutation-guard-evidence-map-20260614.md",
+        "?? config/academic_book_quality_contract.json",
+        "?? scripts/academic_book_quality_gate.py",
+        "?? scripts/academic_book_structure_plan.py",
+        "?? book/academic_structure_plan.md",
+        "?? tests/test_academic_book_quality_gate.py",
     ]
     result = mod.compare_snapshots(before, code, "control_plane_code_only")
     assert result["ok"] is True
     assert not result["unexpected_changed_paths"]
+
+    sqlite_after = base_snapshot()
+    sqlite_after["path_hashes"][".var/book.sqlite"] = {"tree_hash": "physical-drift-without-logical-db-delta"}
+    sqlite_result = mod.compare_snapshots(before, sqlite_after, "control_plane_code_only")
+    assert sqlite_result["ok"] is True
+    assert sqlite_result["sqlite_physical_hash_drift_allowed"] is True
 
 
 def test_protected_paths_fail_under_report_config_and_control_plane_profiles():

@@ -63,6 +63,11 @@ PROFILES: dict[str, dict[str, Any]] = {
     },
     "control_plane_code_only": {
         "allowed": [
+            "config/academic_book_quality_contract.json",
+            "scripts/academic_book_quality_gate.py",
+            "scripts/academic_book_structure_plan.py",
+            "book/academic_structure_plan.md",
+            "tests/test_academic_book_quality_gate.py",
             "scripts/closed_loop_*.py",
             "scripts/protected_mutation_guard.py",
             "scripts/closed_loop_verification_profiles.py",
@@ -76,6 +81,7 @@ PROFILES: dict[str, dict[str, Any]] = {
             "reports/**",
         ],
         "allow_db": {},
+        "allow_sqlite_physical_hash_drift_without_logical_delta": True,
         "future_disabled": False,
     },
     "db_write_source_notes_only": {
@@ -319,7 +325,7 @@ def snapshot_git_diff_names(root: str | Path = ROOT) -> dict[str, list[str]]:
             return []
     return {
         "git_diff_names": run(["git", "diff", "--name-only"]),
-        "git_status_short": run(["git", "status", "--short"]),
+        "git_status_short": run(["git", "status", "--short", "--untracked-files=all"]),
     }
 
 

@@ -16,11 +16,28 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS = ROOT / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+try:
+    from academic_book_quality_gate import evaluate_update, load_contract
+except Exception:  # pragma: no cover - handled fail-closed inside validator
+    evaluate_update = None
+    load_contract = None
 
 ALLOWED_DISPOSITIONS = {
     "publish_packet_candidate",
     "publish_packet_machine_approved",
     "caveat_only_publish_packet",
+    "publish_packet_blocked",
+    "needs_more_sources",
+    "contradiction_review_required",
+    "quarantine",
+    "safe_reports_only",
+    "publish_daily_no_safe_promotions",
+}
+BLOCKED_DISPOSITIONS = {
     "publish_packet_blocked",
     "needs_more_sources",
     "contradiction_review_required",
@@ -36,6 +53,20 @@ ALLOWED_UPDATE_TYPES = {
     "caveated_substantive_canary",
     "daily_status_only",
     "no_publication",
+    "academic_chapter_update",
+    "methodology_update",
+    "literature_context_update",
+    "conceptual_framework_update",
+    "case_study_update",
+    "glossary_or_bibliography_update",
+    "appendix_evidence_update",
+    "evidence_stub",
+    "claim_ledger_dump",
+    "source_status_summary",
+    "editor_workflow_note",
+    "changelog_only_update",
+    "social_signal_without_corroboration",
+    "unsupported_field_claim",
 }
 REQUIRED_FIELDS = [
     "publish_packet_id",
@@ -162,6 +193,23 @@ def validate_publish_packet(packet: dict[str, Any]) -> list[str]:
         errors.append("publication_deployed must not be true in Run 43")
     if packet.get("raw_text_publication_allowed") is not False:
         errors.append("raw_text_publication_allowed must be false")
+
+    if load_contract is None or evaluate_update is None:
+        errors.append("academic quality gate unavailable")
+    else:
+        try:
+            quality = evaluate_update(packet, load_contract())
+            packet["academic_quality_decision"] = quality.get("decision")
+            if not (quality.get("academic_book_update_allowed") is True or quality.get("appendix_only_allowed") is True or quality.get("safe_reports_only") is True):
+                errors.append("academic quality gate failed closed")
+            if quality.get("decision") in {"blocked_evidence_stub_not_chapter_prose", "blocked_needs_literature_support"} and packet.get("disposition") not in BLOCKED_DISPOSITIONS:
+                errors.append("academic quality gate blocked reader-facing chapter prose: " + str(quality.get("decision")))
+            if quality.get("decision") == "safe_reports_only" and packet.get("disposition") in {"publish_packet_machine_approved", "caveat_only_publish_packet"}:
+                errors.append("academic quality gate routed packet to safe_reports_only")
+            if quality.get("chapter_update_allowed") is not False:
+                errors.append("academic quality gate must not set chapter_update_allowed true")
+        except Exception as exc:
+            errors.append("academic quality gate failed closed: " + str(exc))
 
     evidence_refs = set(str(x) for x in packet.get("evidence_refs") or [])
     citation_map = packet.get("citation_map") if isinstance(packet.get("citation_map"), dict) else {}

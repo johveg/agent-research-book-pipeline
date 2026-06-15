@@ -92,6 +92,15 @@ def test_accepts_machine_approved_and_caveat_only_with_complete_evidence():
         assert [x["publish_packet_id"] for x in result["selected"]] == ["pkt_run44_test"]
 
 
+def test_academic_quality_gate_routes_evidence_stub_away_from_chapter_publication():
+    mod = load_module()
+    p = packet(update_type="evidence_stub")
+    p["proposed_markdown_delta"] = "Evidence: source:abc supports claim:def. Status: supported. Source mapping follows."
+    result = mod.select_publishable_packets([p], max_packets=1)
+    assert result["selected"] == []
+    assert result["rejected"][0]["reason"].startswith("academic_quality_gate:")
+
+
 def test_dry_run_does_not_modify_docs_book(tmp_path):
     docs = copy_book(tmp_path)
     target = docs / "03-openclaw.md"

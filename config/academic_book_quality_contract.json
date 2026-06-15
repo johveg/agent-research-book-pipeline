@@ -1,0 +1,59 @@
+{
+  "contract_name": "academic_book_quality_contract",
+  "version": "1.0.0",
+  "allowed_public_chapter_update_types": [
+    "academic_chapter_update",
+    "methodology_update",
+    "literature_context_update",
+    "conceptual_framework_update",
+    "case_study_update",
+    "glossary_or_bibliography_update",
+    "appendix_evidence_update"
+  ],
+  "blocked_reader_facing_update_types": [
+    "evidence_stub",
+    "claim_ledger_dump",
+    "source_status_summary",
+    "editor_workflow_note",
+    "changelog_only_update",
+    "social_signal_without_corroboration",
+    "unsupported_field_claim"
+  ],
+  "appendix_only_update_types": [
+    "appendix_evidence_update",
+    "glossary_or_bibliography_update"
+  ],
+  "minimum_requirements_for_academic_chapter_prose": [
+    "explicit_chapter_purpose",
+    "sustained_argument",
+    "definitions_where_terms_are_introduced",
+    "evidence_grounded_paragraphs_not_only_bullets",
+    "limitations_caveats",
+    "no_raw_claim_ids_or_source_ids_in_main_prose",
+    "no_supported_weakly_supported_needs_review_status_labels_in_main_prose",
+    "no_internal_author_editor_book_role_operational_language_in_main_prose"
+  ],
+  "required_academic_apparatus": [
+    "introduction_thesis",
+    "methodology",
+    "literature_context",
+    "conceptual_framework",
+    "glossary",
+    "bibliography_source_quality_appendix"
+  ],
+  "hard_safety_flags": {
+    "author_allowed": false,
+    "publication_approved": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_authoring": false,
+    "eligible_for_publication": false,
+    "chapter_update_allowed": false
+  },
+  "decisions": [
+    "academic_book_update_allowed",
+    "appendix_only_allowed",
+    "safe_reports_only",
+    "blocked_needs_literature_support",
+    "blocked_evidence_stub_not_chapter_prose"
+  ]
+}

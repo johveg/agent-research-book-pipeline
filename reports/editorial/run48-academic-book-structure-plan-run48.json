@@ -1,0 +1,81 @@
+{
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "docs_book_modified": false,
+  "docs_book_restructured": false,
+  "generated_at": "2026-06-15T19:47:56Z",
+  "gpt55_used": false,
+  "migration_principles": [
+    "Move claim/source ledger material out of chapter prose and into appendices or internal reports.",
+    "Give the book a clear thesis, contribution, methodology, literature/context chapter, and conceptual framework before expanding case chapters.",
+    "Use evidence as cited support for sustained paragraphs, not as raw status bullets.",
+    "Keep machine/editor workflow notes out of reader-facing pages.",
+    "Do not restructure docs/book until a later explicitly tested restructuring run."
+  ],
+  "mode": "academic_book_structure_plan",
+  "raw_modified": false,
+  "reasoning_status": "deterministic_structure_plan",
+  "recommended_next_run": "Run a report-only manuscript inventory that classifies existing docs/book pages against this structure before any rewrite.",
+  "recommended_structure": [
+    {
+      "chapters": [
+        "Title page",
+        "Preface",
+        "Reader guide",
+        "Contribution summary"
+      ],
+      "part": "Front matter"
+    },
+    {
+      "chapters": [
+        "Introduction",
+        "Literature and Context",
+        "Conceptual Framework",
+        "Methodology"
+      ],
+      "part": "Part I Foundations"
+    },
+    {
+      "chapters": [
+        "Closed-loop production",
+        "Evidence boundaries",
+        "Machine review and safety gates",
+        "Academic prose quality contract"
+      ],
+      "part": "Part II Core Concepts"
+    },
+    {
+      "chapters": [
+        "Hermes as automation infrastructure",
+        "OpenClaw case material",
+        "Terefo Heal Reboa pipeline case",
+        "Tooling patterns and limits"
+      ],
+      "part": "Part III Tools and Case Material"
+    },
+    {
+      "chapters": [
+        "Daily operation model",
+        "Publication validation",
+        "Monitoring and rollback",
+        "Operational caveats"
+      ],
+      "part": "Part IV Production Operations"
+    },
+    {
+      "chapters": [
+        "Glossary",
+        "Source-quality schema",
+        "Claim-status schema",
+        "Bibliography",
+        "Appendix: evidence ledger and internal reports"
+      ],
+      "part": "Back Matter"
+    }
+  ],
+  "report_only": true,
+  "run_id": "run48",
+  "schema_modified": false,
+  "source_registry_modified": false,
+  "strategic_goal": "Separate public academic/professional prose from operational evidence ledgers and workflow/status pages."
+}

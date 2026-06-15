@@ -21,6 +21,11 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from closed_loop_publish_packet_validator import validate_publish_packet  # noqa: E402
+try:
+    from academic_book_quality_gate import evaluate_update, load_contract  # noqa: E402
+except Exception:  # pragma: no cover
+    evaluate_update = None
+    load_contract = None
 
 ALLOWED_SUBSTANTIVE_DISPOSITIONS = {"publish_packet_machine_approved", "caveat_only_publish_packet"}
 BLOCKED_DISPOSITIONS = {
@@ -43,7 +48,7 @@ RAW_LEAKAGE_PATTERNS = [
     re.compile(r"raw_text_publication_allowed\s*[:=]\s*true", re.I),
     re.compile(r"-----BEGIN (?:RSA |OPENSSH |DSA |EC )?PRIVATE KEY-----"),
 ]
-SUBSTANTIVE_UPDATE_TYPES = {"existing_chapter_delta", "substantive_chapter_delta", "caveated_note", "guarded_substantive_canary", "substantive_canary_caveated", "caveated_substantive_canary"}
+SUBSTANTIVE_UPDATE_TYPES = {"existing_chapter_delta", "substantive_chapter_delta", "caveated_note", "guarded_substantive_canary", "substantive_canary_caveated", "caveated_substantive_canary", "academic_chapter_update", "methodology_update", "literature_context_update", "conceptual_framework_update", "case_study_update", "glossary_or_bibliography_update", "appendix_evidence_update"}
 DAILY_STATUS_FILE = "daily-pipeline-status.md"
 
 
@@ -143,6 +148,23 @@ def target_path_for(packet: dict[str, Any], docs_root: Path) -> Path | None:
 
 
 def packet_rejection_reason(packet: dict[str, Any], docs_root: Path) -> str:
+    if load_contract is None or evaluate_update is None:
+        return "academic_quality_gate:unavailable"
+    try:
+        quality = evaluate_update(packet, load_contract())
+        packet["academic_quality_decision"] = quality.get("decision")
+    except Exception as exc:
+        return "academic_quality_gate:failed_closed:" + str(exc)
+    if quality.get("decision") in {"blocked_evidence_stub_not_chapter_prose", "blocked_needs_literature_support"} and packet.get("disposition") not in BLOCKED_DISPOSITIONS:
+        return "academic_quality_gate:" + str(quality.get("decision"))
+    if packet.get("disposition") in BLOCKED_DISPOSITIONS:
+        pass
+    elif quality.get("decision") == "safe_reports_only" and packet.get("disposition") in {"publish_packet_machine_approved", "caveat_only_publish_packet"}:
+        return "academic_quality_gate:safe_reports_only"
+    elif quality.get("appendix_only_allowed") is True and not str(packet.get("target_file_suggestion") or "").lower().endswith(("appendix.md", "source-quality-appendix.md", "bibliography.md", "glossary.md")):
+        return "academic_quality_gate:appendix_only_allowed"
+    elif quality.get("academic_book_update_allowed") is not True and quality.get("appendix_only_allowed") is not True:
+        return "academic_quality_gate:not_academic_book_update"
     validator_errors = validate_publish_packet(packet)
     if validator_errors:
         return "validator:" + "; ".join(validator_errors[:3])

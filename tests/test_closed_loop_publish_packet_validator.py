@@ -104,3 +104,26 @@ def test_verifies_idempotency_key_exists():
 def test_verifies_raw_text_publication_allowed_false():
     pkt = valid_packet(); pkt["raw_text_publication_allowed"] = True
     assert_invalid(pkt, "raw_text_publication_allowed")
+
+
+def test_academic_quality_contract_blocks_evidence_stub_packet():
+    pkt = valid_packet()
+    pkt["update_type"] = "evidence_stub"
+    pkt["disposition"] = "publish_packet_machine_approved"
+    pkt["publication_readiness"] = {"ready_for_dry_run_patch": True, "ready_for_guarded_publication": True, "blocked": False}
+    pkt["proposed_markdown_delta"] = "Evidence: claim:abc is supported by source:def. Status: supported."
+    assert_invalid(pkt, "academic quality gate")
+
+
+def test_academic_quality_contract_allows_candidate_but_not_chapter_flag():
+    pkt = valid_packet()
+    pkt["update_type"] = "academic_chapter_update"
+    pkt["proposed_markdown_delta"] = (
+        "Purpose: This chapter explains the publication pipeline's quality boundary.\n\n"
+        "Definition: a quality boundary is the distinction between internal evidence processing and public argument. "
+        "The chapter argues that academic prose must synthesize evidence into paragraphs with citations and caveats, "
+        "rather than reproduce operational ledgers. Evidence from the pipeline supports the bounded case.\n\n"
+        "Limitation: this argument is limited to the documented pipeline and does not generalize beyond it."
+    )
+    pkt["chapter_update_allowed"] = False
+    assert load_module().validate_publish_packet(pkt) == []

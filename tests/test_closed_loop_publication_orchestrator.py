@@ -138,6 +138,25 @@ def test_no_human_dependency_appears_in_outputs(tmp_path, monkeypatch):
         assert term not in blob
 
 
+def test_academic_quality_gate_fail_closes_orchestrator_before_docs_mutation(tmp_path, monkeypatch):
+    p = approved_packet("evidence_stub")
+    p["update_type"] = "evidence_stub"
+    p["proposed_markdown_delta"] = "Evidence: source:abc supports claim:def. Status: supported. Source mapping follows."
+    payload = {"publication_status": "completed", "publish_packets": [p]}
+    monkeypatch.setenv("TEREFO_HIGH_REASONING_BRIDGE_COMMAND", bridge_script(tmp_path, payload))
+    docs = copy_book(tmp_path)
+    target = docs / "03-openclaw.md"
+    before = target.read_bytes()
+
+    out = run_orchestrator(tmp_path, docs)
+
+    assert out.returncode == 2
+    assert target.read_bytes() == before
+    report = json.loads((tmp_path / "orch.json").read_text())
+    assert report["docs_book_applied"] is False
+    assert any("academic quality gate" in e for e in report["validation_errors"])
+
+
 def approved_packet(suffix="a"):
     return {
         "publish_packet_id": f"pkt_{suffix}", "source_packet_ids": ["src1", "src2"], "input_context_ids": ["ctx1"],

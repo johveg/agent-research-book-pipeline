@@ -104,6 +104,21 @@ PROFILES: dict[str, dict[str, Any]] = {
         "allow_db": {},
         "future_disabled": True,
     },
+    "daily_worker_code_only": {
+        "allowed": [
+            "scripts/daily_book_worker.py",
+            "tests/test_daily_book_worker_no_write_controls.py",
+            "scripts/scheduler_wrapper_contract.py",
+            "tests/test_scheduler_wrapper_contract.py",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_protected_mutation_guard.py",
+            "reports/editorial/citation-pipeline-test-20260612-*-run40.*",
+            "reports/architecture/run40-*.md",
+        ],
+        "allow_db": {},
+        "allow_protected_path_delta": ["scripts/daily_book_worker.py"],
+        "future_disabled": False,
+    },
     "full_publication_gate": {
         "allowed": ["reports/**", "docs/book/**"],
         "allow_db": {},
@@ -293,9 +308,15 @@ def _contains_true_flag(obj: Any, flag: str) -> bool:
 
 def validate_allowed_write_scope(report: dict[str, Any]) -> dict[str, Any]:
     failed = []
+    allowed_protected_delta = set(PROFILES.get(report.get("profile"), {}).get("allow_protected_path_delta", []))
+    unexpected_protected = {
+        path: changed
+        for path, changed in report.get("protected_path_delta", {}).items()
+        if changed and path not in allowed_protected_delta
+    }
     if report.get("unexpected_changed_paths"):
         failed.append("unexpected_changed_paths")
-    if any(report.get("protected_path_delta", {}).values()):
+    if unexpected_protected:
         failed.append("protected_path_delta")
     if report.get("human_in_loop_dependency_added"):
         failed.append("human_in_loop_dependency_added")
@@ -341,11 +362,11 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
     if classified["unexpected_changed_paths"]:
         failed.append("unexpected_changed_paths")
 
-    # Protected hashes changing is fail-closed unless the profile is the explicit
-    # future disabled profile; those profiles are still not usable in Run 35.
+    allowed_protected_delta = set(spec.get("allow_protected_path_delta", []))
     protected_changed = {k: v for k, v in protected_path_delta.items() if v}
     for rel in protected_changed:
-        failed.append(f"protected_path_changed:{rel}")
+        if rel not in allowed_protected_delta:
+            failed.append(f"protected_path_changed:{rel}")
 
     report = {
         "ok": not failed,

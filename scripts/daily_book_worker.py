@@ -19,6 +19,30 @@ PY = sys.executable
 MKDOCS_PY = str(ROOT / ".venv" / "bin" / "python") if (ROOT / ".venv" / "bin" / "python").exists() else PY
 
 
+def no_write_capabilities() -> dict:
+    return {
+        "supports_skip_capture": True,
+        "supports_skip_entity_extraction": True,
+        "supports_skip_claim_extraction": True,
+        "supports_skip_docs_entities_update": True,
+        "supports_skip_docs_claims_update": True,
+        "supports_skip_source_registry_export": True,
+        "supports_skip_run_table_update": True,
+        "supports_skip_vector": True,
+        "supports_no_commit": True,
+        "supports_no_push": True,
+        "supports_no_docs_book_update_without_gate": True,
+        "capability_probe_no_write": True,
+        "human_in_loop_dependency_added": False,
+        "author_allowed": False,
+        "publication_approved": False,
+        "eligible_for_claim_insertion": False,
+        "eligible_for_authoring": False,
+        "eligible_for_publication": False,
+        "chapter_update_allowed": False,
+    }
+
+
 def run(cmd: list[str], log) -> dict:
     log.write('\n$ ' + ' '.join(cmd) + '\n')
     p = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True)
@@ -156,13 +180,24 @@ def build_daily_summary(run_id: str, start: str, status: str, steps: list[dict],
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("run_id", nargs="?", help="Optional explicit run ID")
+    ap.add_argument("--print-capabilities-json", action="store_true", help="Print supported no-write controls and exit without side effects")
     ap.add_argument("--manual", action="store_true", help="Run immediately with a manual run ID prefix")
     ap.add_argument("--skip-capture", action="store_true", help="Only run editorial ingestion/update steps on existing sources")
+    ap.add_argument("--skip-entity-extraction", action="store_true", help="Do not call scripts/extract_entities.py")
+    ap.add_argument("--skip-claim-extraction", action="store_true", help="Do not call scripts/extract_claims.py")
+    ap.add_argument("--skip-docs-entities-update", action="store_true", help="Do not call scripts/update_entity_pages.py")
+    ap.add_argument("--skip-docs-claims-update", action="store_true", help="Do not call scripts/update_claims_page.py")
+    ap.add_argument("--skip-source-registry-export", action="store_true", help="Do not call scripts/export_source_registry.py")
+    ap.add_argument("--skip-run-table-update", action="store_true", help="Do not write the runs table or final run state files")
     ap.add_argument("--skip-vector", action="store_true", help="Skip local vector-index refresh")
     ap.add_argument("--vector-limit", type=int, default=200, help="Maximum Markdown files to vector-index in this run; 0 means no limit")
     ap.add_argument("--no-commit", action="store_true", help="Do not commit or push; useful for verification runs")
     ap.add_argument("--allow-chapter-updates", action="store_true", help="Allow Author chapter synthesis. Default daily behavior is collection/preparation only; use after weekly curation or explicit Editor approval.")
     args = ap.parse_args()
+
+    if args.print_capabilities_json:
+        print(json.dumps(no_write_capabilities(), sort_keys=True))
+        return 0
 
     run_id = args.run_id or (("manual-" + run_id_now()) if args.manual else run_id_now())
     init_db()
@@ -200,12 +235,27 @@ def main() -> int:
                 steps.append(script_step("scripts/capture_web_daily.py", 0, "skipped by --skip-capture"))
                 steps.append(script_step("scripts/capture_linkedin_daily.py", 0, "skipped by --skip-capture"))
 
-            steps.append(run([PY, "scripts/extract_entities.py"], log))
-            steps.append(run([PY, "scripts/extract_claims.py"], log))
+            if args.skip_entity_extraction:
+                steps.append(script_step("scripts/extract_entities.py", 0, "skipped by --skip-entity-extraction"))
+            else:
+                steps.append(run([PY, "scripts/extract_entities.py"], log))
+            if args.skip_claim_extraction:
+                steps.append(script_step("scripts/extract_claims.py", 0, "skipped by --skip-claim-extraction"))
+            else:
+                steps.append(run([PY, "scripts/extract_claims.py"], log))
             steps.append(run([PY, "scripts/discover_trends.py", "--run-id", run_id, "--json-out", str(trends_json)], log))
-            steps.append(run([PY, "scripts/update_entity_pages.py", "--run-id", run_id], log))
-            steps.append(run([PY, "scripts/update_claims_page.py", "--run-id", run_id], log))
-            steps.append(run([PY, "scripts/export_source_registry.py"], log))
+            if args.skip_docs_entities_update:
+                steps.append(script_step("scripts/update_entity_pages.py", 0, "skipped by --skip-docs-entities-update"))
+            else:
+                steps.append(run([PY, "scripts/update_entity_pages.py", "--run-id", run_id], log))
+            if args.skip_docs_claims_update:
+                steps.append(script_step("scripts/update_claims_page.py", 0, "skipped by --skip-docs-claims-update"))
+            else:
+                steps.append(run([PY, "scripts/update_claims_page.py", "--run-id", run_id], log))
+            if args.skip_source_registry_export:
+                steps.append(script_step("scripts/export_source_registry.py", 0, "skipped by --skip-source-registry-export"))
+            else:
+                steps.append(run([PY, "scripts/export_source_registry.py"], log))
             steps_path = write_steps(run_id, steps)
 
             # Curator + Editor gate before Authoring. Exit 2 means blocked publication; it is handled, not fatal.
@@ -295,15 +345,17 @@ def main() -> int:
             summary_md.write_text(f"# Daily research book run\n\n- Run ID: `{run_id}`\n- Final status: `failed`\n- Error: `{error}`\n", encoding="utf-8")
 
     end = utc_now()
-    with connect_db() as con:
-        con.execute(
-            "INSERT OR REPLACE INTO runs (id, started_at, ended_at, status, mode, summary_path, error) VALUES (?,?,?,?,?,?,?)",
-            (run_id, start, end, status, "daily", str(REPORTS / "daily" / f"{run_id}.md"), error),
-        )
-        con.commit()
+    if not args.skip_run_table_update:
+        with connect_db() as con:
+            con.execute(
+                "INSERT OR REPLACE INTO runs (id, started_at, ended_at, status, mode, summary_path, error) VALUES (?,?,?,?,?,?,?)",
+                (run_id, start, end, status, "daily", str(REPORTS / "daily" / f"{run_id}.md"), error),
+            )
+            con.commit()
     final = f"RUN_ID={run_id}\nSTATUS={status}\nSTARTED_AT={start}\nUPDATED_AT={end}\nENDED_AT={end}\nFULL_LOG={full_log}\nSUMMARY_MD={REPORTS/'daily'/f'{run_id}.md'}\nEXIT_CODE={0 if status in ('success','partial','blocked') else 1}\nDELIVERED=0\nERROR={json.dumps(error)}\n"
-    state_path.write_text(final)
-    latest.write_text(final)
+    if not args.skip_run_table_update:
+        state_path.write_text(final)
+        latest.write_text(final)
     print(f"Terefo Heal Reboa book loop finished: {status}\nRun ID: {run_id}\nSummary: {REPORTS/'daily'/f'{run_id}.md'}\nLog: {full_log}")
     return 0 if status in ("success", "partial", "blocked") else 1
 

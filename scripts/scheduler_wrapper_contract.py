@@ -106,27 +106,24 @@ def build_daily_worker_command_contract(
     daily_worker: str | Path,
     execute_safe_command: bool = False,
 ) -> dict[str, Any]:
-    # The safest existing daily-worker argv still lacks explicit flags to disable
-    # entity/claim extraction, docs/entities updates, claims page updates,
-    # source-registry export, and the runs-table write. Therefore Run 39 models
-    # the later command but refuses execution even if --execute-safe-command is
-    # requested. Future Run 39+ work should add or wrap those missing controls
-    # before any live scheduler invocation is allowed.
     argv = [
         "python3",
         rel(daily_worker),
         run_id,
         "--skip-capture",
+        "--skip-entity-extraction",
+        "--skip-claim-extraction",
+        "--skip-docs-entities-update",
+        "--skip-docs-claims-update",
+        "--skip-source-registry-export",
+        "--skip-run-table-update",
         "--no-commit",
         "--skip-vector",
     ]
     execution_requested = bool(execute_safe_command)
     execution_refusal_reasons = [
-        "current_daily_worker_lacks_no_entity_claim_extraction_flag",
-        "current_daily_worker_lacks_no_docs_entities_claims_page_flag",
-        "current_daily_worker_lacks_no_source_registry_export_flag",
-        "current_daily_worker_writes_runs_table_metadata",
-        "run39_is_report_only_contract",
+        "scheduler_execution_gate_not_enabled_run40",
+        "run40_is_report_only_contract",
     ]
     return {
         "argv": argv,
@@ -144,9 +141,9 @@ def build_daily_worker_command_contract(
         "blocks_push": True,
         "blocks_schema_change": True,
         "notes": [
-            "Run 39 does not execute this command.",
-            "--skip-capture prevents raw capture; --no-commit prevents commit/push; omission of --allow-chapter-updates blocks docs/book chapter updates.",
-            "Execution remains refused because the current daily worker has no flags to disable extraction, docs/entities or claims page updates, source-registry export, and runs-table metadata writes.",
+            "Run 40 does not execute this command.",
+            "The command includes explicit no-write controls for capture, extraction, docs/entities, claims page, source registry, run-table update, vector build, and commit/push.",
+            "Execution remains refused because the scheduler execution gate is not enabled in Run 40.",
         ],
     }
 
@@ -171,12 +168,12 @@ CAPABILITY_FLAG_HINTS: dict[str, str] = {
     "disable_capture": "--skip-capture",
     "disable_entity_extraction": "--skip-entity-extraction",
     "disable_claim_extraction": "--skip-claim-extraction",
-    "disable_docs_entities_update": "--skip-docs-entities",
-    "disable_docs_research_claims_update": "--skip-claims-page",
+    "disable_docs_entities_update": "--skip-docs-entities-update",
+    "disable_docs_research_claims_update": "--skip-docs-claims-update",
     "disable_source_registry_export": "--skip-source-registry-export",
     "disable_docs_book_update": "omit --allow-chapter-updates",
     "disable_vector_index_build": "--skip-vector",
-    "disable_run_table_db_write_or_classify": "--skip-runs-table-write or explicit runs-table classification",
+    "disable_run_table_db_write_or_classify": "--skip-run-table-update or explicit runs-table classification",
     "disable_commit": "--no-commit",
     "disable_push": "--no-push or --no-commit",
 }
@@ -223,10 +220,10 @@ def analyze_daily_worker_no_write_capabilities(
     explicit_flag_to_capability = {
         "--skip-entity-extraction": "disable_entity_extraction",
         "--skip-claim-extraction": "disable_claim_extraction",
-        "--skip-docs-entities": "disable_docs_entities_update",
-        "--skip-claims-page": "disable_docs_research_claims_update",
+        "--skip-docs-entities-update": "disable_docs_entities_update",
+        "--skip-docs-claims-update": "disable_docs_research_claims_update",
         "--skip-source-registry-export": "disable_source_registry_export",
-        "--skip-runs-table-write": "disable_run_table_db_write_or_classify",
+        "--skip-run-table-update": "disable_run_table_db_write_or_classify",
     }
     for flag, capability in explicit_flag_to_capability.items():
         if flag in argv_set:
@@ -242,6 +239,10 @@ def analyze_daily_worker_no_write_capabilities(
         missing = [cap for cap in required if cap not in supported]
         block_reasons = [f"missing_no_write_capability:{cap}" for cap in missing]
         decision = "allowed_all_required_no_write_capabilities_present" if not missing else "blocked_missing_no_write_capabilities"
+
+    if not missing and mode == "report_only_daily":
+        block_reasons.append("scheduler_execution_gate_not_enabled_run40")
+        decision = "blocked_scheduler_execution_gate_not_enabled"
 
     if selected_profile != "report_only":
         block_reasons.append(f"selected_profile_not_report_only:{selected_profile}")
@@ -632,7 +633,7 @@ def build_report(
 def render_markdown(report: dict[str, Any]) -> str:
     cmd = report["daily_worker_command_contract"]
     lines = [
-        "# Scheduler no-write capability gate — Run 39",
+        "# Scheduler no-write capability gate — Run 40" if report.get("report_suffix") == "run40" else "# Scheduler no-write capability gate — Run 39",
         "",
         f"Generated: {report['generated_at']}",
         "",

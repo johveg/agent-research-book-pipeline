@@ -139,6 +139,47 @@ def test_db_write_source_notes_only_allows_only_source_notes_delta():
     assert mod.compare_snapshots(base_snapshot(), after3, "db_write_source_notes_only")["ok"] is False
 
 
+def test_daily_worker_code_only_profile_allows_worker_tests_and_run40_reports_but_blocks_protected_runtime_paths():
+    mod = load_module()
+    before = base_snapshot()
+    allowed_after = base_snapshot()
+    allowed_after["git_status_short"] = [
+        " M scripts/daily_book_worker.py",
+        "?? tests/test_daily_book_worker_no_write_controls.py",
+        " M scripts/scheduler_wrapper_contract.py",
+        " M tests/test_scheduler_wrapper_contract.py",
+        "?? reports/editorial/citation-pipeline-test-20260612-daily-worker-no-write-controls-run40.json",
+        "?? reports/architecture/run40-daily-worker-no-write-controls-evidence-map-20260614.md",
+    ]
+    allowed_after["git_diff_names"] = [
+        "scripts/daily_book_worker.py",
+        "scripts/scheduler_wrapper_contract.py",
+        "tests/test_scheduler_wrapper_contract.py",
+    ]
+    allowed_after["path_hashes"]["scripts/daily_book_worker.py"] = {"tree_hash": "worker-v2"}
+    result = mod.compare_snapshots(before, allowed_after, "daily_worker_code_only")
+    assert result["ok"] is True
+    assert result["daily_worker_changed"] is True
+    assert result["unexpected_changed_paths"] == []
+
+    for path in [
+        ".var/book.sqlite",
+        "data/source_registry.json",
+        "raw/capture.json",
+        "docs/book/chapter.md",
+        "docs/entities/acme.md",
+        "docs/research/claims.md",
+        "data/schema.sql",
+    ]:
+        assert mod.compare_snapshots(before, changed(path, " M"), "daily_worker_code_only")["ok"] is False
+
+    human_after = base_snapshot()
+    human_after["report_safety_scan"] = {"human_in_loop_dependency_added": True, "hard_flags_changed": {}}
+    human_result = mod.compare_snapshots(before, human_after, "daily_worker_code_only")
+    assert human_result["ok"] is False
+    assert human_result["human_in_loop_dependency_added"] is True
+
+
 def test_unknown_and_future_publication_profiles_fail_closed_without_gates():
     mod = load_module()
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "unknown_profile")["ok"] is False

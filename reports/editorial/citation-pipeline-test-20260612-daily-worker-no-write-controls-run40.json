@@ -1,0 +1,128 @@
+{
+  "author_allowed": false,
+  "bridge": null,
+  "capability_probe_result": {
+    "author_allowed": false,
+    "capability_probe_no_write": true,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "human_in_loop_dependency_added": false,
+    "publication_approved": false,
+    "supports_no_commit": true,
+    "supports_no_docs_book_update_without_gate": true,
+    "supports_no_push": true,
+    "supports_skip_capture": true,
+    "supports_skip_claim_extraction": true,
+    "supports_skip_docs_claims_update": true,
+    "supports_skip_docs_entities_update": true,
+    "supports_skip_entity_extraction": true,
+    "supports_skip_run_table_update": true,
+    "supports_skip_source_registry_export": true,
+    "supports_skip_vector": true
+  },
+  "changed_db": false,
+  "changed_docs_book": false,
+  "changed_docs_claims": false,
+  "changed_docs_entities": false,
+  "changed_raw_captures": false,
+  "changed_schema": false,
+  "changed_source_notes": false,
+  "changed_source_registry": false,
+  "chapter_update_allowed": false,
+  "claim_status_changed": false,
+  "claims_inserted": 0,
+  "commit_allowed_from_scheduler_wrapper": false,
+  "commit_block_reasons_from_scheduler_wrapper": [
+    "report_only_contract_blocks_commit"
+  ],
+  "daily_worker_capability_probe_executed": true,
+  "daily_worker_capability_probe_no_write": true,
+  "daily_worker_executed_in_production_mode": false,
+  "daily_worker_modified_as_code": true,
+  "db_counts_current": {
+    "claims": 218,
+    "editorial_reviews": 10,
+    "source_notes": 445
+  },
+  "dry_run": true,
+  "editorial_reviews_inserted": 0,
+  "editorial_status_changed": false,
+  "eligible_for_authoring": false,
+  "eligible_for_claim_insertion": false,
+  "eligible_for_publication": false,
+  "future_safe_command_contract": "python3 scripts/daily_book_worker.py citation-pipeline-test-20260612 --skip-capture --skip-entity-extraction --skip-claim-extraction --skip-docs-entities-update --skip-docs-claims-update --skip-source-registry-export --skip-run-table-update --no-commit --skip-vector",
+  "generated_at": "2026-06-15T09:10:34Z",
+  "human_in_loop_dependency_added": false,
+  "llm_used": false,
+  "missing_no_write_capabilities_after_run40": [],
+  "model": null,
+  "model_profile": null,
+  "no_write_flags_added": [
+    "--skip-entity-extraction",
+    "--skip-claim-extraction",
+    "--skip-docs-entities-update",
+    "--skip-docs-claims-update",
+    "--skip-source-registry-export",
+    "--skip-run-table-update",
+    "--print-capabilities-json"
+  ],
+  "preserved_no_write_controls": [
+    "--skip-capture",
+    "--no-commit",
+    "--skip-vector",
+    "docs/book update remains gated by --allow-chapter-updates"
+  ],
+  "provider": null,
+  "publication_approved": false,
+  "push_allowed_from_scheduler_wrapper": false,
+  "push_block_reasons_from_scheduler_wrapper": [
+    "report_only_contract_blocks_push"
+  ],
+  "recommendation_for_run41": "Add a scheduler execution gate that consumes the capability probe and protected mutation guard proof, but keep any actual worker execution in an explicit no-op/preflight-only mode until DB, docs, registry, raw, and commit/push no-write behavior is proven end-to-end.",
+  "report_only": true,
+  "report_paths": {
+    "daily_worker_no_write_controls_json": "reports/editorial/citation-pipeline-test-20260612-daily-worker-no-write-controls-run40.json",
+    "daily_worker_no_write_controls_md": "reports/editorial/citation-pipeline-test-20260612-daily-worker-no-write-controls-run40.md",
+    "evidence_map": "reports/architecture/run40-daily-worker-no-write-controls-evidence-map-20260614.md",
+    "mutation_guard_json": "reports/editorial/citation-pipeline-test-20260612-mutation-guard-run40.json",
+    "mutation_guard_md": "reports/editorial/citation-pipeline-test-20260612-mutation-guard-run40.md",
+    "scheduler_wrapper_json": "reports/editorial/citation-pipeline-test-20260612-scheduler-wrapper-contract-run40.json",
+    "scheduler_wrapper_md": "reports/editorial/citation-pipeline-test-20260612-scheduler-wrapper-contract-run40.md"
+  },
+  "run_id": "citation-pipeline-test-20260612",
+  "run_title": "Run 40: Add explicit daily-worker no-write controls without enabling execution",
+  "scheduler_execution_allowed": false,
+  "scheduler_execution_block_reasons": [
+    "scheduler_execution_gate_not_enabled_run40"
+  ],
+  "scheduler_execution_capability_decision": "blocked_scheduler_execution_gate_not_enabled",
+  "scheduler_execution_performed": false,
+  "source_status_changed": false,
+  "status_hashes_current": {
+    "claim_status_hash": "824123b04157fb61f0ca69f7f995a9d9f322509818c11eff839ec83ea682ffe9",
+    "editorial_review_hash": "b45cf2743a8047aa3607f944e1b07d853b47b699d5b981ee6b767f7e7e361e30",
+    "source_notes_hash": "eb9f0e3d48fc1376007f3a60c4442b598a701a6162c9853a1fc582df82de3d40",
+    "source_status_hash": "75c856580f27254d1d17dd2fbd9fe707f65c1117b19ba64d6c06d0345169214e"
+  },
+  "supported_no_write_capabilities_after_run40": [
+    "disable_capture",
+    "disable_claim_extraction",
+    "disable_commit",
+    "disable_docs_book_update",
+    "disable_docs_entities_update",
+    "disable_docs_research_claims_update",
+    "disable_entity_extraction",
+    "disable_push",
+    "disable_run_table_db_write_or_classify",
+    "disable_source_registry_export",
+    "disable_vector_index_build"
+  ],
+  "tests": {
+    "combined_focused": "28 passed",
+    "focused_daily_worker_no_write_controls": "5 passed",
+    "focused_protected_mutation_guard": "passed in combined run",
+    "focused_scheduler_wrapper_contract": "passed in combined run"
+  }
+}

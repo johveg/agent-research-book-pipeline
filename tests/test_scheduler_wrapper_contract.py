@@ -115,7 +115,7 @@ def test_daily_worker_command_contract_is_safe_and_execution_disabled_by_default
     assert contract["would_execute"] is False
 
 
-def test_report_only_daily_no_write_capability_gate_blocks_current_worker():
+def test_report_only_daily_no_write_capability_gate_detects_run40_controls_but_still_blocks_execution():
     mod = load_module()
     contract = mod.build_daily_worker_command_contract(
         run_id="citation-pipeline-test-20260612",
@@ -129,14 +129,14 @@ def test_report_only_daily_no_write_capability_gate_blocks_current_worker():
         preflight_report=mod.load_json(PRELIGHT),
     )
     assert analysis["execution_allowed"] is False
-    assert analysis["execution_capability_decision"] == "blocked_missing_no_write_capabilities"
+    assert analysis["execution_capability_decision"] == "blocked_scheduler_execution_gate_not_enabled"
     assert analysis["required_no_write_capabilities"] == mod.required_no_write_capabilities_for_mode("report_only_daily")
-    assert "disable_capture" in analysis["supported_no_write_capabilities"]
-    assert "disable_commit" in analysis["supported_no_write_capabilities"]
-    assert "disable_push" in analysis["supported_no_write_capabilities"]
-    assert "disable_vector_index_build" in analysis["supported_no_write_capabilities"]
-    assert "disable_docs_book_update" in analysis["supported_no_write_capabilities"]
-    for missing in [
+    for supported in [
+        "disable_capture",
+        "disable_commit",
+        "disable_push",
+        "disable_vector_index_build",
+        "disable_docs_book_update",
         "disable_entity_extraction",
         "disable_claim_extraction",
         "disable_docs_entities_update",
@@ -144,10 +144,21 @@ def test_report_only_daily_no_write_capability_gate_blocks_current_worker():
         "disable_source_registry_export",
         "disable_run_table_db_write_or_classify",
     ]:
-        assert missing in analysis["missing_no_write_capabilities"]
-        assert f"missing_no_write_capability:{missing}" in analysis["execution_block_reasons"]
-    assert analysis["daily_worker_supported_no_write_flags"] == ["--no-commit", "--skip-capture", "--skip-vector"]
-    assert analysis["daily_worker_missing_no_write_flags"]
+        assert supported in analysis["supported_no_write_capabilities"]
+    assert analysis["missing_no_write_capabilities"] == []
+    assert "scheduler_execution_gate_not_enabled_run40" in analysis["execution_block_reasons"]
+    assert analysis["daily_worker_supported_no_write_flags"] == [
+        "--no-commit",
+        "--skip-capture",
+        "--skip-claim-extraction",
+        "--skip-docs-claims-update",
+        "--skip-docs-entities-update",
+        "--skip-entity-extraction",
+        "--skip-run-table-update",
+        "--skip-source-registry-export",
+        "--skip-vector",
+    ]
+    assert analysis["daily_worker_missing_no_write_flags"] == []
     assert analysis["daily_worker_write_surfaces_from_preflight"]
 
 
@@ -169,9 +180,9 @@ def test_build_report_embeds_no_write_capability_gate_and_blocks_execution():
     )
     assert report["execution_allowed"] is False
     assert report["execution_performed"] is False
-    assert report["execution_capability_decision"] == "blocked_missing_no_write_capabilities"
-    assert report["execution_block_reasons"]
-    assert report["missing_no_write_capabilities"]
+    assert report["execution_capability_decision"] == "blocked_scheduler_execution_gate_not_enabled"
+    assert report["execution_block_reasons"] == ["scheduler_execution_gate_not_enabled_run40"]
+    assert report["missing_no_write_capabilities"] == []
     assert report["supported_no_write_capabilities"]
     assert report["required_no_write_capabilities"] == mod.required_no_write_capabilities_for_mode("report_only_daily")
     assert report["daily_worker_command_contract"]["execution_enabled"] is False
@@ -571,8 +582,8 @@ def test_cli_run_mutation_guard_writes_both_reports_and_preserves_protected_stat
     assert report["mutation_guard_ok"] is True
     assert report["selected_verification_profile"] == "report_only"
     assert report["execution_allowed"] is False
-    assert report["execution_capability_decision"] == "blocked_missing_no_write_capabilities"
-    assert report["execution_block_reasons"]
+    assert report["execution_capability_decision"] == "blocked_scheduler_execution_gate_not_enabled"
+    assert report["execution_block_reasons"] == ["scheduler_execution_gate_not_enabled_run40"]
     assert report["execution_performed"] is False
     assert report["daily_worker_command_contract"]["blocks_capture"] is True
     assert report["daily_worker_command_contract"]["blocks_docs_book_mutation"] is True

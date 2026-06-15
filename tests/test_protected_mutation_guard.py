@@ -129,6 +129,33 @@ def test_academic_manuscript_inventory_profile_allows_run49_reports_and_blocks_b
     assert "docs/book/01-the-agent-loop.md" in blocked["unexpected_changed_paths"]
 
 
+def test_academic_introduction_profile_allows_run50_reports_and_blocks_book_mutation():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        "?? scripts/academic_introduction_input_packet.py",
+        "?? scripts/academic_introduction_draft.py",
+        "?? scripts/academic_introduction_developmental_review.py",
+        " M scripts/academic_book_quality_gate.py",
+        " M scripts/protected_mutation_guard.py",
+        "?? tests/test_academic_introduction_input_packet.py",
+        "?? tests/test_academic_introduction_draft.py",
+        "?? tests/test_academic_introduction_developmental_review.py",
+        " M tests/test_protected_mutation_guard.py",
+        "?? reports/editorial/run50-introduction-thesis-draft.json",
+        "?? reports/architecture/run50-introduction-thesis-draft-evidence-map-20260615.md",
+        "?? reports/telegram/run50-status.md",
+    ]
+    result = mod.compare_snapshots(before, after, "academic_introduction_report_only")
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    blocked = mod.compare_snapshots(before, changed("docs/book/introduction.md", " M"), "academic_introduction_report_only")
+    assert blocked["ok"] is False
+    assert "docs/book/introduction.md" in blocked["unexpected_changed_paths"]
+
+
 def test_protected_paths_fail_under_report_config_and_control_plane_profiles():
     mod = load_module()
     protected = [

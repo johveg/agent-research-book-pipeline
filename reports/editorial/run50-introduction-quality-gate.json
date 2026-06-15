@@ -1,0 +1,92 @@
+{
+  "academic_chapter_candidate_count": 1,
+  "appendix_only_count": 0,
+  "author_allowed": false,
+  "blocked_evidence_stub_count": 0,
+  "blocked_evidence_stub_not_chapter_prose": false,
+  "blocked_needs_literature_support": false,
+  "chapter_update_allowed": false,
+  "classification_counts": {
+    "academic_chapter_update": 1
+  },
+  "contract_name": "academic_book_quality_contract",
+  "contract_version": "1.0.0",
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "decision": "academic_book_update_allowed",
+  "decision_counts": {
+    "academic_book_update_allowed": 1
+  },
+  "docs_book_modified": false,
+  "docs_book_update_allowed": false,
+  "eligible_for_authoring": false,
+  "eligible_for_claim_insertion": false,
+  "eligible_for_publication": false,
+  "failed_closed": false,
+  "generated_at": "2026-06-15T21:33:40Z",
+  "gpt55_used": false,
+  "human_in_loop_dependency_added": false,
+  "missing_conceptual_framework": true,
+  "missing_literature_support": false,
+  "missing_methodology_support": true,
+  "mode": "academic_book_quality_gate",
+  "publication_approved": false,
+  "publication_recommendation": "safe_reports_only_until_run51_guarded_publication_consideration",
+  "raw_modified": false,
+  "reasoning_status": "deterministic_contract_gate",
+  "report_only": true,
+  "report_only_run50_overlay": {
+    "blocked_evidence_stub_not_chapter_prose": false,
+    "blocked_needs_literature_support": false,
+    "chapter_update_allowed": false,
+    "docs_book_update_allowed": false,
+    "missing_conceptual_framework": true,
+    "missing_literature_support": false,
+    "missing_methodology_support": true,
+    "publication_approved": false,
+    "publication_recommendation": "safe_reports_only_until_run51_guarded_publication_consideration"
+  },
+  "required_academic_apparatus": [
+    "introduction_thesis",
+    "methodology",
+    "literature_context",
+    "conceptual_framework",
+    "glossary",
+    "bibliography_source_quality_appendix"
+  ],
+  "run_id": "run50",
+  "safe_reports_only_count": 0,
+  "schema_modified": false,
+  "source_registry_modified": false,
+  "update_count": 1,
+  "updates": [
+    {
+      "academic_book_update_allowed": true,
+      "appendix_only_allowed": false,
+      "author_allowed": false,
+      "blocked_evidence_stub_not_chapter_prose": false,
+      "blocked_needs_literature_support": false,
+      "chapter_update_allowed": false,
+      "classification": "academic_chapter_update",
+      "decision": "academic_book_update_allowed",
+      "eligible_for_authoring": false,
+      "eligible_for_claim_insertion": false,
+      "eligible_for_publication": false,
+      "failed_checks": [],
+      "minimum_requirements_checked": [
+        "explicit_chapter_purpose",
+        "sustained_argument",
+        "definitions_where_terms_are_introduced",
+        "evidence_grounded_paragraphs_not_only_bullets",
+        "limitations_caveats",
+        "no_raw_claim_ids_or_source_ids_in_main_prose",
+        "no_supported_weakly_supported_needs_review_status_labels_in_main_prose",
+        "no_internal_author_editor_book_role_operational_language_in_main_prose"
+      ],
+      "publication_approved": false,
+      "safe_reports_only": false,
+      "update_id": "run50-introduction-report-only-draft",
+      "update_type": "academic_chapter_update"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "bridge": "hermes_cli",
+  "caveats": [
+    "The introduction is suitable only as a report-only manuscript draft.",
+    "The argument is intentionally cautious and should remain bounded until methodology, literature context, and bibliography support are added.",
+    "Tool chapters require clearer separation between case description, local observation, and externally supported claims.",
+    "The current manuscript pages contain evidence-ledger and workflow material that should not remain in polished reader-facing chapters."
+  ],
+  "central_thesis": "Agent loops should be treated as governable engineering systems rather than as isolated prompts or informal automation tricks. Loop engineering is used here as an emerging practitioner label for the design of triggers, goals, context, tools, verification, state, reporting, retry behavior, and escalation boundaries around tool-using agents.",
+  "chapter_outline": [
+    {
+      "chapter": "Preface",
+      "purpose": "Introduce the book as a practical inquiry into agent engineering, operating patterns, context architecture, memory architecture, and durable loops."
+    },
+    {
+      "chapter": "1. The Agent Loop",
+      "purpose": "Define the closed-loop pattern of goal, context, action, verification, saved state, reporting, retry, and escalation."
+    },
+    {
+      "chapter": "2. Hermes",
+      "purpose": "Discuss Hermes as bounded case material for tool-using automation infrastructure without overclaiming maturity or adoption."
+    },
+    {
+      "chapter": "3. OpenClaw",
+      "purpose": "Discuss OpenClaw as limited public repository case material and identify where stronger evidence is needed."
+    },
+    {
+      "chapter": "4. Loop Engineering",
+      "purpose": "Frame loop engineering as an emerging practitioner label for designing the harness around agent loops."
+    },
+    {
+      "chapter": "5. Context and Memory Architecture",
+      "purpose": "Explain how context and memory choices shape agent capability, safety, continuity, and auditability."
+    },
+    {
+      "chapter": "6. Operating Loops in Production",
+      "purpose": "Develop the operational argument around manifests, verification, state, safe retries, watchdogs, and escalation."
+    },
+    {
+      "chapter": "Open Questions",
+      "purpose": "Preserve unresolved questions and weak signals as a research agenda rather than converting them into unsupported prose."
+    }
+  ],
+  "claims_not_made": [
+    "The draft does not claim that loop engineering is a settled discipline.",
+    "The draft does not claim broad industry adoption of loop engineering.",
+    "The draft does not claim that prompt engineering has disappeared or been replaced.",
+    "The draft does not claim broad adoption, maturity, or strategic importance for Hermes or OpenClaw.",
+    "The draft does not treat social posts or discovery signals as factual support.",
+    "The draft does not present field consensus, survey findings, or literature conclusions that are not yet supported."
+  ],
+  "contribution_statement": "The proposed book contributes a cautious vocabulary and structure for discussing agent loops across engineering, operations, governance, and case-study evidence. It separates established concepts, practitioner observations, local case material, open questions, and unsupported claims so that professional practice can be discussed without overstating the evidence.",
+  "do_not_publish_reasons": [
+    "Publication approval is explicitly false.",
+    "Chapter update authorization is explicitly false.",
+    "The manuscript still lacks required academic apparatus: methodology, literature context, conceptual framework, glossary, and bibliography or source-quality appendix.",
+    "Several chapters require conceptual framework and methodology gap treatment before reader-facing publication.",
+    "The draft depends on current manuscript inventory and conversion planning rather than a fully validated source base."
+  ],
+  "draft_markdown": "# Introduction: From Prompting to Governable Agent Loops\n\nThis book begins from a practical problem: contemporary software agents are increasingly discussed as if they were more than prompt-response systems, but the vocabulary for building, operating, and governing them remains uneven. A prompt can ask for an answer. A loop can pursue a goal, gather context, call tools, check results, save state, report progress, retry after failure, and escalate when human judgment is required. That difference matters. Once an AI system is placed inside a loop that can act repeatedly, observe consequences, and continue across time, the main engineering problem is no longer only how to phrase the next instruction. It is how to design the system around the instruction.\n\nThe purpose of this introduction is to define the inquiry that follows. The book examines agent loops as governable engineering systems. An agent loop, as used here, is a repeated cycle in which a software agent receives or detects a trigger, interprets a goal, uses available context, performs actions through tools or interfaces, evaluates the result, records relevant state, and either stops, retries, reports, or escalates. A governable engineering system is one whose behavior can be bounded, inspected, evaluated, interrupted, and improved through explicit design rather than left to informal operator judgment. These definitions are intentionally modest. They are working terms for professional analysis, not declarations that a mature discipline has already formed around them.\n\nThe central thesis is that agent loops should be treated as systems of accountability rather than as isolated moments of model interaction. The prompt remains important, but it is only one component in a larger arrangement. Around it sit context selection, memory policy, tool permissions, execution checks, logging, scheduling, exception handling, and human review. A loop that retrieves the wrong context may fail even if its prompt is well written. A loop that can write to production systems without verification may be dangerous even if its reasoning appears plausible. A loop that produces no durable report may be impossible to audit. A loop that retries destructively may turn a small error into an operational incident. These are engineering and governance concerns, not merely language-design concerns.\n\nThe term loop engineering is used in this book as an emerging practitioner label for this wider design problem. It refers to the work of shaping the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. The phrase is useful because it shifts attention from a single exchange with a model to the repeated structure in which model outputs become actions. At the same time, the phrase should be handled cautiously. This book does not claim that loop engineering is a settled field, that it has a stable body of academic literature, or that it has replaced prompt engineering. A more careful position is that practitioners are encountering recurring design problems around agent loops, and those problems need a vocabulary that can support engineering judgment, operational discipline, and research scrutiny.\n\nThe professional motivation is straightforward. Tool-using agents are increasingly imagined as assistants that can monitor information, run commands, prepare reports, interact with repositories, schedule tasks, or coordinate work across systems. These capabilities make agents useful, but they also make them harder to reason about. A tool-using loop may cross boundaries between observation and action. It may rely on stored memory from earlier sessions. It may summarize uncertain evidence into confident prose. It may be scheduled to run without a person watching each step. It may integrate with communication channels, browsers, code repositories, databases, or operating-system tools. In such settings, the question is not simply whether the model can produce a good answer. The question is whether the surrounding loop makes the work traceable, reversible, proportionate, and safe.\n\nThis book therefore treats agent practice as a matter of system design. The early chapters establish the loop as the core pattern: goal, context, action, verification, saved state, report, retry, and escalation. This pattern is deliberately concrete. It allows a reader to ask where a loop begins, what authority it has, how it knows whether it succeeded, what it remembers, and when it must stop. These questions are useful for engineers building automation, for leaders approving operational use, for governance practitioners designing controls, and for researchers studying how agentic systems are being incorporated into work.\n\nThe tool-focused chapters should be read as case material rather than as market claims. Hermes is considered as an example of an operating environment for tool-using agents, memory, skills, scheduled loops, and multi-platform delivery. OpenClaw is considered through the limited public repository evidence currently available. These examples help make the discussion concrete, but they do not support broad conclusions about adoption, maturity, or long-term strategic importance. Their value in this manuscript is illustrative: they give the inquiry something specific to inspect when discussing automation infrastructure, local workflows, tool boundaries, and the risks of overclaiming from incomplete evidence.\n\nContext and memory receive special attention because they shape what an agent can see and what it can carry forward. Context architecture determines which instructions, files, prior messages, search results, tool outputs, and environmental details are available at a particular moment. Memory architecture determines what is retained, where it is stored, how it is updated, and when it should be ignored or removed. These architectures affect both capability and risk. Too little context can cause brittle behavior; too much context can introduce stale, irrelevant, or sensitive material. Persistent memory can make an assistant more useful over time, but it can also preserve mistaken assumptions or blur the line between current evidence and prior preference. A governable loop needs explicit choices about these matters rather than accidental accumulation.\n\nProduction operation is the point at which the argument becomes most practical. A loop that runs once under close human supervision is different from a loop that runs daily, modifies files, sends notifications, or interacts with external services. Production loops need manifests that describe their scope, verification steps that test their outputs, state files that prevent confusion between runs, retry policies that avoid destructive repetition, and escalation paths that bring a human into the process when uncertainty or risk increases. They also need observability. If a loop stalls, silently fails, or reports success without evidence, it cannot be responsibly governed. The operating question is not only whether the agent can complete the task, but whether a person can understand what happened afterward.\n\nThe book also argues for evidence discipline in writing about agent systems. Fast-moving technical practice often produces a mixture of official documentation, repository material, demonstrations, social discussion, local experiments, and speculative commentary. These sources do not have equal weight. A repository can establish that a project exists and describe how it presents itself, but it may not establish adoption or reliability. A social post may reveal a useful lead, but it should not become factual support without stronger corroboration. A local case study can illuminate practice, but it should not be generalized into a field-wide conclusion without additional evidence. For that reason, this manuscript separates practitioner observation, local case material, open questions, and stronger claims wherever possible.\n\nThe academic limitation is equally important. At its current stage, the manuscript is better understood as a professional and conceptual inquiry than as a fully literature-grounded academic synthesis. It needs a fuller methodology, a literature and context chapter, a more explicit conceptual framework, a glossary, and a bibliography or source-quality appendix. Those additions are not decorative. They are necessary if the book is to explain how evidence is selected, how case material is interpreted, how terms are defined, and how claims are bounded. Without that apparatus, the manuscript can still be useful, but it should remain cautious about its authority.\n\nReaders should therefore approach the chapters in two ways at once. First, they should read them as a practical guide to the questions that arise when agents are placed in loops: What starts the loop? What goal is it pursuing? What context does it receive? What tools may it use? What checks must pass? What state is saved? What is reported? What happens after failure? When does a human take over? Second, they should read them as a research agenda for a practice that is still being named. The book does not close the subject. It organizes the problem so that future work can test, refine, and challenge the proposed vocabulary.\n\nThe contribution, then, is deliberately bounded. This book offers a cautious language for discussing agent loops as governable systems; a structure for comparing tool environments and local cases without overstating them; and a set of operational concerns that connect engineering practice to oversight. It resists the temptation to announce a new settled discipline. Instead, it asks what must be designed, documented, evaluated, and constrained when software agents move from isolated responses into repeated action. That question is already practical. It is also increasingly worthy of systematic study.",
+  "draft_status": "introduction_draft_created",
+  "draft_type": "report_only_introduction_draft",
+  "draft_word_count": 1476,
+  "evidence_basis": [
+    "Current manuscript pages in docs/book, including the preface, agent-loop chapter, Hermes chapter, OpenClaw chapter, loop-engineering chapter, context and memory architecture chapter, operating-loops chapter, and open-questions page.",
+    "Run 49 manuscript inventory and role classification.",
+    "Academic book structure plan and conversion principles.",
+    "Current safety and publication constraints requiring report-only treatment."
+  ],
+  "exclusions": [
+    "No claim is made that loop engineering is a settled academic or industrial discipline.",
+    "No claim is made that Hermes, OpenClaw, or any named tool has broad adoption, maturity, or strategic importance beyond the available evidence.",
+    "No social or discovery signal is treated as independent factual support.",
+    "No citation markers, claim identifiers, source identifiers, survey findings, or consensus statements are invented."
+  ],
+  "generated_at": "2026-06-15T21:29:10Z",
+  "gpt55_used": true,
+  "how_to_read_this_book": "Readers should treat the draft as a structured inquiry into emerging practice rather than as a definitive account of a settled field. The chapters should be read as a sequence moving from loop concepts, to tool environments, to context and memory design, to production operations, while keeping the stated evidence boundaries in view.",
+  "introduction_title": "Introduction: From Prompting to Governable Agent Loops",
+  "key_terms_to_define": [
+    "agent loop",
+    "loop engineering",
+    "governable engineering system",
+    "practitioner observation",
+    "local case material",
+    "supported claim",
+    "context architecture",
+    "memory architecture",
+    "verification",
+    "escalation boundary"
+  ],
+  "limitations": [
+    "The manuscript is currently stronger as practitioner observation and local case material than as literature-supported academic synthesis.",
+    "The methodology, literature context, conceptual definitions, and bibliography support remain incomplete.",
+    "The conceptual framework requires further development, especially for Hermes, OpenClaw, loop engineering, and open questions.",
+    "The present evidence does not justify publication, claim insertion, or reader-facing chapter replacement."
+  ],
+  "literature_support_needed": [
+    "Academic and professional literature on autonomous agents, tool-using agents, and agentic software systems.",
+    "Software engineering literature on production operations, observability, reliability, verification, and human-in-the-loop control.",
+    "Governance and safety literature on automation oversight, auditability, accountability, and risk controls.",
+    "Human-computer interaction literature on delegation, supervision, trust, and user control in semi-autonomous systems.",
+    "Source-quality framework distinguishing documentation, repositories, social signals, local experiments, and peer-reviewed or standards-based sources."
+  ],
+  "methodology_support_needed": [
+    "Explicit description of how manuscript pages, local case material, and public sources are selected.",
+    "Criteria for distinguishing established concepts, practitioner observations, local cases, open questions, and unsupported claims.",
+    "Procedure for handling social or discovery signals without treating them as factual support.",
+    "Method for evaluating tool-case chapters without implying adoption, maturity, or strategic importance.",
+    "Revision process for moving evidence ledgers and workflow notes out of reader-facing prose into appendices or internal reports."
+  ],
+  "model": "gpt-5.5",
+  "ok": true,
+  "problem_statement": "The current discussion of agentic software often moves faster than its vocabulary, evidence base, and governance methods. Teams need practical ways to describe, operate, evaluate, and limit agent loops without pretending that the field has already settled around a mature discipline or a universal architecture.",
+  "provider": "copilot",
+  "reasoning_profile": "closed_loop_editorial",
+  "recommended_next_stage": [
+    "Create a report-only methodology chapter draft that explains evidence categories, source-quality rules, and case-material handling.",
+    "Create a literature and context chapter plan identifying required academic and professional sources.",
+    "Create a conceptual framework draft defining agent loop, loop engineering, governance, context, memory, verification, and escalation.",
+    "Move evidence-ledger material, source-status summaries, and workflow notes out of reader-facing chapter prose in a later explicitly approved restructuring run.",
+    "Prepare a glossary and bibliography/source-quality appendix before considering any publication-facing chapter update."
+  ],
+  "run_id": "run50",
+  "safety_flags": {
+    "advisory_only": true,
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "draft_only": true,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false,
+    "report_only": true
+  },
+  "scope_statement": "The introduction frames agent loops, loop engineering, and related tool cases as a bounded professional inquiry based on the current manuscript inventory. The scope includes conceptual framing, methodology needs, case material, governance concerns, and limitations; it excludes unsupported claims about field-wide adoption, tool maturity, or settled consensus.",
+  "target_audience": [
+    "software and platform engineers",
+    "technical leaders",
+    "AI governance practitioners",
+    "researchers studying agentic software practice"
+  ],
+  "title": "Engineering Governable Agent Loops: A Professional and Academic Inquiry",
+  "weak_local_fallback_used": false
+}

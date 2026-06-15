@@ -1,0 +1,43 @@
+{
+  "academic_quality_contract_present": true,
+  "academic_structure_plan_present": true,
+  "branch": "## main...origin/main",
+  "docs_book_page_count": 8,
+  "docs_book_pages": [
+    "docs/book/01-the-agent-loop.md",
+    "docs/book/02-hermes.md",
+    "docs/book/03-openclaw.md",
+    "docs/book/04-loop-engineering.md",
+    "docs/book/05-context-memory-architecture.md",
+    "docs/book/06-operating-loops.md",
+    "docs/book/open-questions.md",
+    "docs/book/preface.md"
+  ],
+  "git_status": [],
+  "gpt55_availability": "not_checked_at_baseline",
+  "gpt55_availability_checked": false,
+  "iteration_budget_effective": null,
+  "iteration_budget_note": "No runner budget control tool available in this session; proceeding with batched commands and phase checkpoints.",
+  "iteration_budget_requested": 180,
+  "iteration_budget_supported": false,
+  "latest_commits": [
+    "d2f72f6 Run 49: record final status",
+    "377a45d Run 49: add academic manuscript inventory",
+    "34d645b Run 48: record final status",
+    "7889487 Run 48: record final status",
+    "ff1f85d Run 48: add academic book quality contract"
+  ],
+  "protected_path_baseline_summary": {
+    "daily_worker_changed": false,
+    "db_logical_delta": {},
+    "docs_book_changed": false,
+    "raw_changed": false,
+    "schema_changed": false,
+    "snapshot": "/tmp/run50-before.json",
+    "source_registry_changed": false
+  },
+  "run49_conversion_plan_present": true,
+  "run49_inventory_present": true,
+  "run_id": "run50",
+  "title": "Draft Introduction, thesis, scope, contribution, and limitations as report-only manuscript prose"
+}

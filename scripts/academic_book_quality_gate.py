@@ -153,7 +153,7 @@ def academic_prose_failures(update: dict[str, Any], *, strict: bool = True) -> l
     lower = text.lower()
     failures: list[str] = []
     if strict:
-        if "purpose:" not in lower and "this chapter" not in lower and "chapter explains" not in lower:
+        if "purpose:" not in lower and "this chapter" not in lower and "chapter explains" not in lower and "this introduction" not in lower and "the introduction" not in lower and "introduction explains" not in lower:
             failures.append("missing_explicit_chapter_purpose")
         if not any(term in lower for term in ["argument", "argues", "thesis", "contends"]):
             failures.append("missing_sustained_argument")

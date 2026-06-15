@@ -33,7 +33,7 @@ ALLOWED_UPDATE_TYPES = {
     "new_chapter_candidate",
     "caveated_note",
     "guarded_substantive_canary",
-    "substantive_canary_caveated",
+    "caveated_substantive_canary",
     "daily_status_only",
     "no_publication",
 }

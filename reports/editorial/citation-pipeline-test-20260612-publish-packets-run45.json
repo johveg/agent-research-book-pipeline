@@ -1,0 +1,167 @@
+{
+  "disposition_counts": {
+    "publish_packet_machine_approved": 1
+  },
+  "generated_at": "2026-06-15T14:35:23Z",
+  "mode": "run44_publish_packets",
+  "publish_packet_count": 1,
+  "publish_packets": [
+    {
+      "citation_map": {
+        "claim:claim_72e49a3ef27673e17171": [
+          "input_context"
+        ],
+        "run44-hermes-agent-project": [
+          "{'claim_ids': ['claim_run44_hermes_agent_guarded_canary_001'], 'evidence_refs': ['claim:claim_72e49a3ef27673e17171', 'source:src_45d026189270d1762fad', 'source:src_8d4f3b9531fe6368478b', 'source:src_946462d4856d38e27d2c'], 'source_ids': ['src_45d026189270d1762fad', 'src_8d4f3b9531fe6368478b', 'src_946462d4856d38e27d2c'], 'source_quality': 'A/B', 'evidence_strength': 'strong', 'publication_decision': 'allowed_for_author'}"
+        ],
+        "source:src_45d026189270d1762fad": [
+          "input_context"
+        ],
+        "source:src_8d4f3b9531fe6368478b": [
+          "input_context"
+        ],
+        "source:src_946462d4856d38e27d2c": [
+          "input_context"
+        ]
+      },
+      "claim_map": [
+        {
+          "candidate_id": "claim:claim_72e49a3ef27673e17171",
+          "citation_keys": [
+            "run44-hermes-agent-project"
+          ],
+          "claim_id": "claim_run44_hermes_agent_guarded_canary_001",
+          "claim_text": "Hermes Agent can be cited narrowly as a Nous Research open-source agent project whose supplied public project and documentation metadata support tool-using automation workflow use.",
+          "evidence_refs": [
+            "claim:claim_72e49a3ef27673e17171",
+            "source:src_45d026189270d1762fad",
+            "source:src_8d4f3b9531fe6368478b",
+            "source:src_946462d4856d38e27d2c"
+          ],
+          "publication_use": "guarded_book_canary",
+          "support_status": "supported_by_supplied_existing_evidence"
+        }
+      ],
+      "disposition": "publish_packet_machine_approved",
+      "docs_book_update_applied": false,
+      "evidence_refs": [
+        "claim:claim_72e49a3ef27673e17171",
+        "source:src_45d026189270d1762fad",
+        "source:src_8d4f3b9531fe6368478b",
+        "source:src_946462d4856d38e27d2c"
+      ],
+      "forbidden_claims_checked": [
+        {
+          "forbidden_claim": "Hermes Agent is a runtime dependency of OpenClaw.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "Hermes Agent is the general operating environment for OpenClaw.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "OpenClaw requires Hermes Agent for web access or phone access.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "Hermes Agent proves a settled industry transition from prompting to autonomous loops.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "All agent projects support the same automation model as Hermes Agent.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "The supplied source titles or raw text may be copied directly into book prose.",
+          "status": "checked_not_promoted"
+        }
+      ],
+      "human_in_loop_dependency_added": false,
+      "idempotency_key": "run44_publish_packet_machine_approved_claim_72e49a3ef27673e17171_docs_book_06_operating_loops",
+      "input_context_ids": [
+        "citation-pipeline-test-20260612",
+        "closed_loop_evidence_expansion_run44",
+        "claim:claim_72e49a3ef27673e17171"
+      ],
+      "machine_editor_findings": {
+        "approved": true,
+        "findings": [
+          {
+            "finding": "The packet includes all required fields and a single substantive candidate.",
+            "finding_id": "editor_run44_001",
+            "severity": "pass"
+          },
+          {
+            "finding": "Every proposed claim has evidence_refs and citation_keys, and each citation key is defined in citation_map.",
+            "finding_id": "editor_run44_002",
+            "severity": "pass"
+          },
+          {
+            "finding": "The selected candidate has strong supplied evidence, three source identifiers, no detected contradiction, and allowed_for_author status.",
+            "finding_id": "editor_run44_003",
+            "severity": "pass"
+          },
+          {
+            "finding": "The target file is an allowed substantive canary location.",
+            "finding_id": "editor_run44_004",
+            "severity": "pass"
+          }
+        ]
+      },
+      "proposed_markdown_delta": "A narrow example is Hermes Agent: in the supplied public project and documentation metadata, it is supported as a Nous Research open-source agent project with materials that describe tool-using automation workflows. [run44-hermes-agent-project]",
+      "publication_deployed": false,
+      "publication_readiness": {
+        "blocked": false,
+        "ready_for_dry_run_patch": true,
+        "ready_for_guarded_publication": true,
+        "reason": "The packet is limited to one strong supplied candidate, uses public metadata-only evidence identifiers, includes caveats and forbidden-claim checks, and avoids raw text copying or unsupported broad claims."
+      },
+      "publish_packet_id": "publish_packet_run44_hermes_agent_guarded_canary_claim_72e49a3ef27673e17171",
+      "raw_text_publication_allowed": false,
+      "redteam_findings": {
+        "approved": true,
+        "findings": [
+          {
+            "finding": "The proposed canary uses one supplied existing evidence candidate and does not introduce external collection.",
+            "finding_id": "redteam_run44_001",
+            "severity": "pass"
+          },
+          {
+            "finding": "The prose is narrow and does not promote OpenClaw/Hermes adjacency into dependency, runtime, access, or operating-environment claims.",
+            "finding_id": "redteam_run44_002",
+            "severity": "pass"
+          },
+          {
+            "finding": "The proposed delta paraphrases the supported point and avoids raw text reproduction.",
+            "finding_id": "redteam_run44_003",
+            "severity": "pass"
+          },
+          {
+            "finding": "The citation key maps directly to the selected claim and all supporting evidence references.",
+            "finding_id": "redteam_run44_004",
+            "severity": "pass"
+          }
+        ]
+      },
+      "required_caveats": [
+        "Use the claim only as a narrow example of a public open-source agent project with tool-using automation workflow support in the supplied metadata.",
+        "Do not state or imply that Hermes Agent is required by OpenClaw.",
+        "Do not state or imply that Hermes Agent is the general runtime, dependency, operating environment, web access layer, or phone access layer for OpenClaw.",
+        "Do not use this canary to make broad claims about the whole agent market or the settled direction of the industry."
+      ],
+      "source_packet_ids": [
+        "claim:claim_72e49a3ef27673e17171",
+        "source:src_45d026189270d1762fad",
+        "source:src_8d4f3b9531fe6368478b",
+        "source:src_946462d4856d38e27d2c"
+      ],
+      "source_quality_summary": "The selected claim is the strongest supplied candidate by evidence strength and selection score. It has three supplied public metadata sources with A/B quality, no detected contradiction, and an allowed_for_author publication decision. The packet uses only the supplied candidate and source identifiers, paraphrases the claim narrowly, and avoids raw source text reproduction or broader architectural claims.",
+      "summary": "A single narrow canary is safe to propose from the supplied evidence candidates: Hermes Agent may be described as a Nous Research open-source agent project whose public materials support tool-using automation workflows. The packet does not claim that Hermes is required by OpenClaw, does not generalize to the agent market, and does not rely on raw source text reproduction.",
+      "target_book_area": "operating_loops",
+      "target_file_suggestion": "docs/book/06-operating-loops.md",
+      "title": "Run 44 guarded canary: Hermes Agent as a cited example of an open-source tool-using agent project",
+      "update_type": "guarded_substantive_canary"
+    }
+  ],
+  "run_id": "citation-pipeline-test-20260612"
+}

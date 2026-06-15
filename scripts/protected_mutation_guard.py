@@ -185,6 +185,37 @@ PROFILES: dict[str, dict[str, Any]] = {
         "allow_db": {},
         "future_disabled": False,
     },
+    "production_daily_publish": {
+        "allowed": [
+            "docs/book/**",
+            "reports/editorial/*run45*",
+            "reports/architecture/run45-*.md",
+            "reports/telegram/run45-status.md",
+            "logs/closed_loop/events.jsonl",
+            "logs/**",
+            "config/closed_loop_runtime.json",
+            "config/schedules/closed-loop-production-daily.cron.example",
+            "config/schedules/closed-loop-production-daily.md",
+            "scripts/closed_loop_production_scheduler.py",
+            "scripts/closed_loop_publication_orchestrator.py",
+            "scripts/closed_loop_book_publisher.py",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_closed_loop_production_scheduler.py",
+            "tests/test_closed_loop_runtime_config.py",
+            "tests/test_protected_mutation_guard.py",
+            "raw/**",
+            "data/source_registry.json",
+            ".var/book.sqlite",
+        ],
+        "allow_protected_path_delta": ["docs/book"],
+        "conditionally_allow_raw": True,
+        "conditionally_allow_source_registry": True,
+        "conditionally_allow_db_logical_delta": True,
+        "allow_sqlite_physical_hash_drift_without_logical_delta": True,
+        "allow_db": {},
+        "future_disabled": False,
+        "required_gates": ["production_daily_completed"],
+    },
     "full_publication_gate": {
         "allowed": ["reports/**", "docs/book/**"],
         "allow_db": {},
@@ -338,9 +369,20 @@ def _scan_report_flags(snapshot: dict[str, Any]) -> tuple[bool, dict[str, bool]]
     return human, hard
 
 
-def _scan_changed_report_files(root: Path, changed_paths: list[str]) -> tuple[bool, dict[str, bool]]:
+def _scan_changed_report_files(root: Path, changed_paths: list[str]) -> tuple[bool, dict[str, bool], dict[str, Any]]:
     human = False
     flags = {flag: False for flag in HARD_FLAGS}
+    safety: dict[str, Any] = {}
+    safety_keys = [
+        "raw_collection_performed",
+        "source_registry_export_performed",
+        "db_logical_delta_expected",
+        "weak_local_fallback_used",
+        "gpt55_publication_gate_passed",
+        "citation_verifier_ok",
+        "mkdocs_strict_ok",
+        "unresolved_citations",
+    ]
     for rel in changed_paths:
         if not rel.startswith("reports/") or not rel.endswith(".json"):
             continue
@@ -359,7 +401,14 @@ def _scan_changed_report_files(root: Path, changed_paths: list[str]) -> tuple[bo
                 flags[flag] = True
         if data.get("human_in_loop_dependency_added") is True:
             human = True
-    return human, flags
+        for key in safety_keys:
+            if key in data:
+                safety[key] = data[key]
+        if data.get("gpt55_used") is True or data.get("llm_used") is True:
+            safety["gpt55_publication_gate_passed"] = True
+        if data.get("db_delta"):
+            safety["db_logical_delta_expected"] = bool(data.get("db_logical_delta_expected", True))
+    return human, flags, safety
 
 
 def _contains_true_flag(obj: Any, flag: str) -> bool:
@@ -374,15 +423,23 @@ def _contains_true_flag(obj: Any, flag: str) -> bool:
 
 def validate_allowed_write_scope(report: dict[str, Any]) -> dict[str, Any]:
     failed = []
-    allowed_protected_delta = set(PROFILES.get(report.get("profile"), {}).get("allow_protected_path_delta", []))
+    spec = PROFILES.get(report.get("profile"), {})
+    scan = report.get("report_safety_scan", {}) if isinstance(report.get("report_safety_scan"), dict) else {}
+    allowed_protected_delta = set(spec.get("allow_protected_path_delta", []))
     sqlite_physical_drift_allowed = bool(report.get("sqlite_physical_hash_drift_allowed"))
-    unexpected_protected = {
-        path: changed
-        for path, changed in report.get("protected_path_delta", {}).items()
-        if changed
-        and path not in allowed_protected_delta
-        and not (path == DEFAULT_DB_PATH and sqlite_physical_drift_allowed)
-    }
+    unexpected_protected = {}
+    for path, changed in report.get("protected_path_delta", {}).items():
+        if not changed:
+            continue
+        if path in allowed_protected_delta:
+            continue
+        if path == DEFAULT_DB_PATH and (sqlite_physical_drift_allowed or (spec.get("conditionally_allow_db_logical_delta") and scan.get("db_logical_delta_expected") is True)):
+            continue
+        if path == "raw" and spec.get("conditionally_allow_raw") and scan.get("raw_collection_performed") is True:
+            continue
+        if path == "data/source_registry.json" and spec.get("conditionally_allow_source_registry") and scan.get("source_registry_export_performed") is True:
+            continue
+        unexpected_protected[path] = changed
     if report.get("unexpected_changed_paths"):
         failed.append("unexpected_changed_paths")
     if unexpected_protected:
@@ -408,22 +465,38 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
     if spec.get("future_disabled"):
         failed.append("future_profile_disabled")
 
-    allowed_counts = set(spec.get("allow_db", {}).get("counts", []))
-    allowed_hashes = set(spec.get("allow_db", {}).get("hashes", []))
-    for table in db_delta:
-        if table not in allowed_counts:
-            failed.append(f"unexpected_db_count_delta:{table}")
-    for name in status_hash_delta:
-        if name not in allowed_hashes:
-            failed.append(f"unexpected_status_hash_delta:{name}")
-
     root_path = Path(root)
     scan_human, scan_flags = _scan_report_flags(after)
-    file_human, file_flags = _scan_changed_report_files(root_path, changed_paths)
+    file_human, file_flags, file_safety = _scan_changed_report_files(root_path, changed_paths)
     human = scan_human or file_human
     hard_flags = {flag: bool(scan_flags.get(flag) or file_flags.get(flag)) for flag in HARD_FLAGS}
+    scan = after.get("report_safety_scan", {}) if isinstance(after.get("report_safety_scan"), dict) else {}
+    merged_scan = dict(file_safety)
+    merged_scan.update(scan)
+
+    allowed_counts = set(spec.get("allow_db", {}).get("counts", []))
+    allowed_hashes = set(spec.get("allow_db", {}).get("hashes", []))
+    db_logical_delta_expected = bool(merged_scan.get("db_logical_delta_expected"))
+    if not (spec.get("conditionally_allow_db_logical_delta") and db_logical_delta_expected):
+        for table in db_delta:
+            if table not in allowed_counts:
+                failed.append(f"unexpected_db_count_delta:{table}")
+        for name in status_hash_delta:
+            if name not in allowed_hashes:
+                failed.append(f"unexpected_status_hash_delta:{name}")
+
     if human:
         failed.append("human_in_loop_dependency_added")
+    if merged_scan.get("weak_local_fallback_used") is True:
+        failed.append("weak_local_fallback_used")
+    if merged_scan.get("gpt55_publication_gate_passed") is False:
+        failed.append("gpt55_publication_gate_missing")
+    if merged_scan.get("citation_verifier_ok") is False:
+        failed.append("citation_verifier_failed")
+    if merged_scan.get("mkdocs_strict_ok") is False:
+        failed.append("mkdocs_strict_failed")
+    if merged_scan.get("unresolved_citations") is True:
+        failed.append("unresolved_citations")
     for flag, value in hard_flags.items():
         if value:
             failed.append(f"hard_flag_true:{flag}")
@@ -440,7 +513,11 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
     )
     protected_changed = {k: v for k, v in protected_path_delta.items() if v}
     for rel in protected_changed:
-        if rel == DEFAULT_DB_PATH and sqlite_physical_hash_drift_allowed:
+        if rel == DEFAULT_DB_PATH and (sqlite_physical_hash_drift_allowed or (spec.get("conditionally_allow_db_logical_delta") and db_logical_delta_expected)):
+            continue
+        if rel == "raw" and spec.get("conditionally_allow_raw") and merged_scan.get("raw_collection_performed") is True:
+            continue
+        if rel == "data/source_registry.json" and spec.get("conditionally_allow_source_registry") and merged_scan.get("source_registry_export_performed") is True:
             continue
         if rel not in allowed_protected_delta:
             failed.append(f"protected_path_changed:{rel}")
@@ -464,6 +541,7 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
         "daily_worker_changed": protected_path_delta.get("scripts/daily_book_worker.py", False),
         "human_in_loop_dependency_added": human,
         "hard_flags_changed": hard_flags,
+        "report_safety_scan": merged_scan,
         "failed_checks": sorted(set(failed)),
         "recommendation": "proceed_with_profile_scope" if not failed else "stop_and_investigate_unexpected_mutation",
         "generated_at": utc_now(),

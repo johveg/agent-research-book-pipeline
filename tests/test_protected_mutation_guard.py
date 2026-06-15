@@ -299,13 +299,76 @@ def test_docs_book_write_permits_docs_book_target_and_run44_control_plane_but_bl
     assert mod.compare_snapshots(before, human_after, "docs_book_write")["ok"] is False
 
 
+def test_production_daily_publish_profile_allows_intended_outputs_and_blocks_unsafe_surfaces():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    for path in [
+        "docs/book/daily-pipeline-status.md",
+        "reports/editorial/citation-pipeline-test-20260612-production-execute-once-run45.json",
+        "reports/architecture/run45-production-scheduler-evidence-map-20260614.md",
+        "reports/telegram/run45-status.md",
+        "logs/closed_loop/events.jsonl",
+        "config/closed_loop_runtime.json",
+        "config/schedules/closed-loop-production-daily.cron.example",
+        "scripts/closed_loop_production_scheduler.py",
+        "tests/test_closed_loop_production_scheduler.py",
+        "tests/test_closed_loop_runtime_config.py",
+    ]:
+        after["git_status_short"].append(f" M {path}")
+        after["git_diff_names"].append(path)
+    after["path_hashes"]["docs/book"] = {"tree_hash": "book-v45"}
+    result = mod.compare_snapshots(before, after, "production_daily_publish")
+    assert result["ok"] is True
+    assert result["docs_book_changed"] is True
+    assert result["raw_changed"] is False
+
+    raw_after = changed("raw/capture.json", " M")
+    raw_after["path_hashes"]["raw"] = {"tree_hash": "raw-v45"}
+    raw_after["report_safety_scan"] = {"raw_collection_performed": True}
+    raw_result = mod.compare_snapshots(before, raw_after, "production_daily_publish")
+    assert raw_result["ok"] is True
+    assert raw_result["raw_changed"] is True
+
+    registry_after = changed("data/source_registry.json", " M")
+    registry_after["path_hashes"]["data/source_registry.json"] = {"tree_hash": "registry-v45"}
+    registry_after["report_safety_scan"] = {"source_registry_export_performed": True}
+    assert mod.compare_snapshots(before, registry_after, "production_daily_publish")["ok"] is True
+
+    db_after = base_snapshot()
+    db_after["path_hashes"][".var/book.sqlite"] = {"tree_hash": "db-v45"}
+    db_after["db"]["counts"]["source_notes"] += 1
+    db_after["report_safety_scan"] = {"db_logical_delta_expected": True}
+    assert mod.compare_snapshots(before, db_after, "production_daily_publish")["ok"] is True
+
+    for path in ["data/schema.sql", "docs/entities/x.md", "docs/research/claims.md"]:
+        assert mod.compare_snapshots(before, changed(path, " M"), "production_daily_publish")["ok"] is False
+
+
+def test_production_daily_publish_blocks_missing_gates_and_unsafe_terms():
+    mod = load_module()
+    before = base_snapshot()
+    after = changed("docs/book/chapter.md", " M")
+    after["report_safety_scan"] = {"weak_local_fallback_used": True}
+    assert mod.compare_snapshots(before, after, "production_daily_publish")["ok"] is False
+    after = changed("docs/book/chapter.md", " M")
+    after["report_safety_scan"] = {"gpt55_publication_gate_passed": False}
+    assert mod.compare_snapshots(before, after, "production_daily_publish")["ok"] is False
+    after = changed("docs/book/chapter.md", " M")
+    after["report_safety_scan"] = {"citation_verifier_ok": False}
+    assert mod.compare_snapshots(before, after, "production_daily_publish")["ok"] is False
+    after = changed("docs/book/chapter.md", " M")
+    after["report_safety_scan"] = {"human_in_loop_dependency_added": True}
+    assert mod.compare_snapshots(before, after, "production_daily_publish")["ok"] is False
+
+
 def test_unknown_and_future_publication_profiles_fail_closed_without_gates():
     mod = load_module()
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "unknown_profile")["ok"] is False
+    assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "schema_change")["ok"] is False
+    assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "daily_worker_change")["ok"] is False
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "full_publication_gate")["ok"] is False
 
-
-def test_human_dependency_and_hard_flags_in_reports_fail_closed():
     mod = load_module()
     before = base_snapshot()
     after = base_snapshot()

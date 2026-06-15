@@ -73,3 +73,20 @@ Evidence references:
 - Safe internal packet report: `reports/editorial/citation-pipeline-test-20260612-publish-packets-run44.json`
 - Guarded publication report: `reports/editorial/citation-pipeline-test-20260612-guarded-book-publication-run44.json`
 - Citation details are retained in internal reports; raw claim/source identifiers are not published on this page.
+
+<!-- run44-packet:run44_publish_packet_machine_approved_claim_72e49a3ef27673e17171_docs_book_06_operating_loops -->
+
+A narrow example is Hermes Agent: in the supplied public project and documentation metadata, it is supported as a Nous Research open-source agent project with materials that describe tool-using automation workflows. [run44-hermes-agent-project]
+
+*Run: `citation-pipeline-test-20260612`. Machine disposition: `publish_packet_machine_approved`.*
+
+Caveats:
+- Use the claim only as a narrow example of a public open-source agent project with tool-using automation workflow support in the supplied metadata.
+- Do not state or imply that Hermes Agent is required by OpenClaw.
+- Do not state or imply that Hermes Agent is the general runtime, dependency, operating environment, web access layer, or phone access layer for OpenClaw.
+- Do not use this canary to make broad claims about the whole agent market or the settled direction of the industry.
+
+Evidence references:
+- Safe internal packet report: `reports/editorial/citation-pipeline-test-20260612-publish-packets-run44.json`
+- Guarded publication report: `reports/editorial/citation-pipeline-test-20260612-guarded-book-publication-run44.json`
+- Citation details are retained in internal reports; raw claim/source identifiers are not published on this page.

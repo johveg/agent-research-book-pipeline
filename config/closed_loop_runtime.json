@@ -1,0 +1,50 @@
+{
+  "closed_loop_enabled": true,
+  "production_daily_enabled": true,
+  "daily_schedule_enabled": true,
+  "raw_collection_enabled": true,
+  "extraction_enabled": true,
+  "evidence_promotion_enabled": true,
+  "author_editor_redteam_enabled": true,
+  "guarded_book_publication_enabled": true,
+  "daily_status_fallback_enabled": true,
+  "commit_push_enabled_after_gates": true,
+  "telegram_status_enabled": true,
+  "human_in_loop_required": false,
+  "weak_local_fallback_allowed": false,
+  "gpt55_required_for_author_editor_redteam": true,
+  "gpt55_required_for_publication_gate": true,
+  "mutation_guard_required": true,
+  "citation_verification_required": true,
+  "mkdocs_strict_required": true,
+  "max_substantive_book_updates_per_run": 1,
+  "allow_daily_status_only_update": true,
+  "allowed_book_targets": [
+    "docs/book/"
+  ],
+  "blocked_paths": [
+    "raw/",
+    "data/schema.sql"
+  ],
+  "blocked_unless_explicit_profile": [
+    "data/source_registry.json",
+    "docs/entities/",
+    "docs/research/claims.md",
+    ".var/book.sqlite"
+  ],
+  "default_disposition_on_failure": "production_daily_failed_closed",
+  "default_disposition_on_no_safe_promotions": "publish_daily_no_safe_promotions",
+  "model_gate": {
+    "provider": "copilot",
+    "model": "gpt-5.5",
+    "bridge": "hermes_cli",
+    "reasoning_profile": "closed_loop_editorial",
+    "strict_json": true,
+    "weak_local_fallback": false
+  },
+  "schedule": {
+    "timezone": "Europe/Oslo",
+    "local_time": "05:30",
+    "cron_expression": "30 5 * * *"
+  }
+}

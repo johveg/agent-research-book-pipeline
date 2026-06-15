@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-06-15T14:35:23Z",
+  "mode": "run44_book_patch_preview",
+  "patch_preview_generated": true,
+  "patch_previews": [
+    {
+      "citation_map": {
+        "claim:claim_72e49a3ef27673e17171": [
+          "input_context"
+        ],
+        "run44-hermes-agent-project": [
+          "{'claim_ids': ['claim_run44_hermes_agent_guarded_canary_001'], 'evidence_refs': ['claim:claim_72e49a3ef27673e17171', 'source:src_45d026189270d1762fad', 'source:src_8d4f3b9531fe6368478b', 'source:src_946462d4856d38e27d2c'], 'source_ids': ['src_45d026189270d1762fad', 'src_8d4f3b9531fe6368478b', 'src_946462d4856d38e27d2c'], 'source_quality': 'A/B', 'evidence_strength': 'strong', 'publication_decision': 'allowed_for_author'}"
+        ],
+        "source:src_45d026189270d1762fad": [
+          "input_context"
+        ],
+        "source:src_8d4f3b9531fe6368478b": [
+          "input_context"
+        ],
+        "source:src_946462d4856d38e27d2c": [
+          "input_context"
+        ]
+      },
+      "proposed_markdown_delta": "A narrow example is Hermes Agent: in the supplied public project and documentation metadata, it is supported as a Nous Research open-source agent project with materials that describe tool-using automation workflows. [run44-hermes-agent-project]",
+      "publish_packet_id": "publish_packet_run44_hermes_agent_guarded_canary_claim_72e49a3ef27673e17171",
+      "target_file_suggestion": "docs/book/06-operating-loops.md"
+    }
+  ],
+  "preview_count": 1,
+  "run_id": "citation-pipeline-test-20260612",
+  "validation_result": "ready_for_guarded_publication"
+}

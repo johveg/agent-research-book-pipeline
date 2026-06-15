@@ -43,7 +43,7 @@ RAW_LEAKAGE_PATTERNS = [
     re.compile(r"raw_text_publication_allowed\s*[:=]\s*true", re.I),
     re.compile(r"-----BEGIN (?:RSA |OPENSSH |DSA |EC )?PRIVATE KEY-----"),
 ]
-SUBSTANTIVE_UPDATE_TYPES = {"existing_chapter_delta", "substantive_chapter_delta", "caveated_note", "guarded_substantive_canary", "substantive_canary_caveated"}
+SUBSTANTIVE_UPDATE_TYPES = {"existing_chapter_delta", "substantive_chapter_delta", "caveated_note", "guarded_substantive_canary", "substantive_canary_caveated", "caveated_substantive_canary"}
 DAILY_STATUS_FILE = "daily-pipeline-status.md"
 
 

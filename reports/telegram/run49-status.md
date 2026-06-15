@@ -1,6 +1,6 @@
 # Run 49 status — Academic manuscript inventory and chapter conversion plan
 
-- success: `pending_commit_push`
+- success: `true`
 - Run 49 title: `Academic manuscript inventory and chapter conversion plan`
 - GPT-5.5 used: `True`
 - GPT-5.5 status: `completed`
@@ -54,7 +54,14 @@ Run 50 — Draft Introduction, thesis, scope, contribution, and limitations as r
 
 ## Telegram / Git
 
-- Telegram send result: `pending`
-- commit hash: `pending`
-- push result: `pending`
-- final git status: `pending`
+- Telegram send result: `sent — telegram message_id 1785`
+- commit hash: `377a45d`
+- push result: `normal git push failed with publickey; repo helper scripts/git_push_with_hermes_key.sh succeeded`
+- final git status: `clean on main...origin/main after primary commit; this file is final status metadata`
+
+## Final commit/push metadata
+
+- primary Run 49 commit: `377a45d Run 49: add academic manuscript inventory`
+- push target: `origin/main`
+- push method: `scripts/git_push_with_hermes_key.sh` after normal SSH identity failure
+- final status metadata commit: `this status-only commit`

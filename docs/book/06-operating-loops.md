@@ -51,3 +51,25 @@ Last generated: 2026-06-13T09:57:40Z. This chapter is not synthesized directly f
 [7] “From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium”, medium.com, 2026-06-11T17:33:28Z, https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d, quality B.
 [8] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent, quality A.
 [9] “How to Set Up GBrain: A Simple Tutorial for AI Agent Memory”, www.teknoding.com, 2026-06-11T17:33:21Z, https://www.teknoding.com/2026/06/how-to-set-up-gbrain-simple-tutorial.html, quality B.
+
+<!-- run44-packet:run44_guarded_substantive_canary_claim_e67bacfc44dd5bc6f2a0_docs_book_06_operating_loops -->
+
+### Loop engineering as an operating harness
+
+In this book, loop engineering should be treated as the design of the repeatable harness around an agent. That harness includes the event or schedule that starts the work, the goal the agent is trying to satisfy, the context and tools available to it, the checks that evaluate progress, the state carried between turns or runs, and the reporting, retry, and escalation paths that keep the loop bounded.
+
+This framing keeps the chapter focused on operating behavior rather than on a claim that prompting has been replaced. A prompt may still be part of the loop, but the publishable emphasis here is on the surrounding system: what starts the loop, what the agent may do, how results are checked, what is remembered, and when control is handed off or stopped.
+
+*Run: `citation-pipeline-test-20260612`. Machine disposition: `publish_packet_machine_approved`.*
+
+Caveats:
+- Present loop engineering as a useful chapter framing, not as a settled industry-wide transition.
+- Do not claim prompts have disappeared or been replaced in all agent systems.
+- Do not broaden the claim beyond the supplied candidate's harness elements: triggers, goals, context, tools, checks, state, reports, retries, and escalation.
+- Do not reproduce raw source text; use only paraphrased book prose derived from the supplied evidence metadata.
+- Do not add OpenClaw/Hermes dependency, runtime, operating-environment, web-access, or phone-access claims.
+
+Evidence references:
+- Safe internal packet report: `reports/editorial/citation-pipeline-test-20260612-publish-packets-run44.json`
+- Guarded publication report: `reports/editorial/citation-pipeline-test-20260612-guarded-book-publication-run44.json`
+- Citation details are retained in internal reports; raw claim/source identifiers are not published on this page.

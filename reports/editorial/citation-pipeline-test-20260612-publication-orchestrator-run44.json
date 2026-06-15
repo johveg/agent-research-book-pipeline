@@ -1,0 +1,59 @@
+{
+  "bridge": "hermes_cli",
+  "candidates_considered": 10,
+  "caveat_only_packet_count": 0,
+  "daily_status_fallback_applied": false,
+  "db_counts_after": {
+    "claims": 218,
+    "editorial_reviews": 10,
+    "source_notes": 445
+  },
+  "db_counts_before": {
+    "claims": 218,
+    "editorial_reviews": 10,
+    "source_notes": 445
+  },
+  "db_counts_delta": {
+    "claims": 0,
+    "editorial_reviews": 0,
+    "source_notes": 0
+  },
+  "disposition_counts": {
+    "publish_packet_machine_approved": 1
+  },
+  "docs_book_applied": true,
+  "evidence_expansion_status": "expanded_existing_evidence",
+  "generated_at": "2026-06-15T12:18:44Z",
+  "llm_error": "",
+  "llm_used": true,
+  "machine_approved_count": 1,
+  "mode": "closed_loop_publication_orchestrator_run44",
+  "model": "gpt-5.5",
+  "model_profile": "closed_loop_editorial",
+  "no_safe_promotion_count": 0,
+  "provider": "copilot",
+  "publication_decision": "substantive_canary_applied",
+  "publication_status": "live_gpt55_completed",
+  "publish_packet_count": 1,
+  "reasoning_profile": "closed_loop_editorial",
+  "reports": {
+    "evidence_expansion_json": "reports/editorial/citation-pipeline-test-20260612-evidence-expansion-run44.json",
+    "evidence_expansion_md": "reports/editorial/citation-pipeline-test-20260612-evidence-expansion-run44.md",
+    "orchestrator_json": "reports/editorial/citation-pipeline-test-20260612-publication-orchestrator-run44.json",
+    "orchestrator_md": "reports/editorial/citation-pipeline-test-20260612-publication-orchestrator-run44.md",
+    "patch_preview_json": "reports/editorial/citation-pipeline-test-20260612-book-patch-preview-run44.json",
+    "patch_preview_md": "reports/editorial/citation-pipeline-test-20260612-book-patch-preview-run44.md",
+    "publication_report_json": "reports/editorial/citation-pipeline-test-20260612-guarded-book-publication-run44.json",
+    "publication_report_md": "reports/editorial/citation-pipeline-test-20260612-guarded-book-publication-run44.md",
+    "publish_packets_json": "reports/editorial/citation-pipeline-test-20260612-publish-packets-run44.json",
+    "publish_packets_md": "reports/editorial/citation-pipeline-test-20260612-publish-packets-run44.md"
+  },
+  "run43_packets_consumed": 1,
+  "run43_ready_packets": 0,
+  "run_id": "citation-pipeline-test-20260612",
+  "strict_json_required": true,
+  "substantive_packet_approved_count": 1,
+  "target_file": "docs/book/06-operating-loops.md",
+  "validation_errors": [],
+  "weak_local_fallback_refused": true
+}

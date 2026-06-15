@@ -253,10 +253,55 @@ def test_closed_loop_author_editor_code_only_profile_allows_run43_control_plane_
         assert mod.compare_snapshots(before, changed(path, " M"), "closed_loop_author_editor_code_only")["ok"] is False
 
 
+def test_docs_book_write_permits_docs_book_target_and_run44_control_plane_but_blocks_other_protected_paths():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        " M docs/book/daily-pipeline-status.md",
+        "?? reports/editorial/citation-pipeline-test-20260612-guarded-book-publication-run44.json",
+        "?? reports/architecture/run44-guarded-book-publication-evidence-map-20260614.md",
+        "?? reports/telegram/run44-status.md",
+        "?? scripts/closed_loop_book_publisher.py",
+        "?? scripts/closed_loop_publication_orchestrator.py",
+        "?? tests/test_closed_loop_book_publisher.py",
+        "?? tests/test_closed_loop_publication_orchestrator.py",
+        " M scripts/protected_mutation_guard.py",
+        " M tests/test_protected_mutation_guard.py",
+    ]
+    after["git_diff_names"] = [
+        "docs/book/daily-pipeline-status.md",
+        "scripts/protected_mutation_guard.py",
+        "tests/test_protected_mutation_guard.py",
+    ]
+    after["path_hashes"]["docs/book"] = {"tree_hash": "book-v2"}
+    result = mod.compare_snapshots(before, after, "docs_book_write")
+    assert result["ok"] is True
+    assert result["docs_book_changed"] is True
+    assert result["unexpected_changed_paths"] == []
+
+    sqlite_after = base_snapshot()
+    sqlite_after["path_hashes"][".var/book.sqlite"] = {"tree_hash": "dbfile-physical-drift"}
+    sqlite_result = mod.compare_snapshots(before, sqlite_after, "docs_book_write")
+    assert sqlite_result["ok"] is True
+    assert sqlite_result["sqlite_physical_hash_drift_allowed"] is True
+
+    sqlite_logical_after = base_snapshot()
+    sqlite_logical_after["path_hashes"][".var/book.sqlite"] = {"tree_hash": "dbfile-physical-drift"}
+    sqlite_logical_after["db"]["counts"]["claims"] += 1
+    assert mod.compare_snapshots(before, sqlite_logical_after, "docs_book_write")["ok"] is False
+
+    for path in ["data/source_registry.json", "raw/capture.json", ".var/book.sqlite", "docs/entities/acme.md", "docs/research/claims.md", "data/schema.sql"]:
+        assert mod.compare_snapshots(before, changed(path, " M"), "docs_book_write")["ok"] is False
+
+    human_after = base_snapshot()
+    human_after["report_safety_scan"] = {"human_in_loop_dependency_added": True, "hard_flags_changed": {}}
+    assert mod.compare_snapshots(before, human_after, "docs_book_write")["ok"] is False
+
+
 def test_unknown_and_future_publication_profiles_fail_closed_without_gates():
     mod = load_module()
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "unknown_profile")["ok"] is False
-    assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "docs_book_write")["ok"] is False
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "full_publication_gate")["ok"] is False
 
 

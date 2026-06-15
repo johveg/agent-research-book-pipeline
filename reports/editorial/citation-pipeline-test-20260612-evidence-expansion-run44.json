@@ -1,0 +1,279 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "claim:claim_72e49a3ef27673e17171",
+      "claim_text": "Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_72e49a3ef27673e17171",
+        "source:src_45d026189270d1762fad",
+        "source:src_8d4f3b9531fe6368478b",
+        "source:src_946462d4856d38e27d2c"
+      ],
+      "evidence_strength": "strong",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_for_author",
+      "selection_score": 13,
+      "source_count": 3,
+      "source_ids": [
+        "src_45d026189270d1762fad",
+        "src_8d4f3b9531fe6368478b",
+        "src_946462d4856d38e27d2c"
+      ],
+      "source_quality": "A/B",
+      "source_titles": [
+        "hermes-agent — Hermes Agent Core & Official | Hermes Atlas",
+        "GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub",
+        "hermes-agent/README.md at main · NousResearch/hermes-agent"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_e7d6ee3688838c30894a",
+      "claim_text": "Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_e7d6ee3688838c30894a",
+        "source:src_384bcc1123ee303676b1",
+        "source:src_3eb174da3717ef674f19",
+        "source:src_80c8c50e6406c7e7fc95"
+      ],
+      "evidence_strength": "moderate",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only,publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_with_caveat",
+      "selection_score": 13,
+      "source_count": 4,
+      "source_ids": [
+        "src_384bcc1123ee303676b1",
+        "src_3eb174da3717ef674f19",
+        "src_80c8c50e6406c7e7fc95",
+        "src_916fb39c4634f0adc248"
+      ],
+      "source_quality": "B",
+      "source_titles": [
+        "Loop Engineering Playbook. Where loops live",
+        " how to run your first… | by Cobus Greyling | Jun",
+        " 2026 | Medium",
+        "Loop Engineering Explained Visually - by The Cloud Girl",
+        "Agentic Loops: From ReAct to Loop Engineering (2026 Guide)"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_30635eb08d3229343f7a",
+      "claim_text": "Current loop-engineering commentary often contrasts one-off prompting with systems that repeatedly plan, execute, evaluate, and adjust work.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_30635eb08d3229343f7a",
+        "source:src_384bcc1123ee303676b1",
+        "source:src_7387e00f4d0e7dbf7fee",
+        "source:src_80c8c50e6406c7e7fc95"
+      ],
+      "evidence_strength": "moderate",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_with_caveat",
+      "selection_score": 10,
+      "source_count": 3,
+      "source_ids": [
+        "src_384bcc1123ee303676b1",
+        "src_7387e00f4d0e7dbf7fee",
+        "src_80c8c50e6406c7e7fc95"
+      ],
+      "source_quality": "B",
+      "source_titles": [
+        "Loop Engineering Playbook. Where loops live",
+        " how to run your first… | by Cobus Greyling | Jun",
+        " 2026 | Medium",
+        "Loop Engineering Playbook",
+        "Agentic Loops: From ReAct to Loop Engineering (2026 Guide)"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_b5388c22f8bd29e69cab",
+      "claim_text": "For production use, the available loop-engineering material points toward operational concerns: checks, monitoring, repeated execution, and explicit boundaries around autonomous work.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_b5388c22f8bd29e69cab",
+        "source:src_384bcc1123ee303676b1",
+        "source:src_80c8c50e6406c7e7fc95",
+        "source:src_916fb39c4634f0adc248"
+      ],
+      "evidence_strength": "moderate",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_with_caveat",
+      "selection_score": 10,
+      "source_count": 3,
+      "source_ids": [
+        "src_384bcc1123ee303676b1",
+        "src_80c8c50e6406c7e7fc95",
+        "src_916fb39c4634f0adc248"
+      ],
+      "source_quality": "B",
+      "source_titles": [
+        "Loop Engineering Playbook. Where loops live",
+        " how to run your first… | by Cobus Greyling | Jun",
+        " 2026 | Medium",
+        "Agentic Loops: From ReAct to Loop Engineering (2026 Guide)",
+        "From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_e67bacfc44dd5bc6f2a0",
+      "claim_text": "Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_e67bacfc44dd5bc6f2a0",
+        "source:src_384bcc1123ee303676b1",
+        "source:src_7387e00f4d0e7dbf7fee",
+        "source:src_80c8c50e6406c7e7fc95"
+      ],
+      "evidence_strength": "moderate",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_for_author",
+      "selection_score": 10,
+      "source_count": 3,
+      "source_ids": [
+        "src_384bcc1123ee303676b1",
+        "src_7387e00f4d0e7dbf7fee",
+        "src_80c8c50e6406c7e7fc95"
+      ],
+      "source_quality": "B",
+      "source_titles": [
+        "Loop Engineering Playbook. Where loops live",
+        " how to run your first… | by Cobus Greyling | Jun",
+        " 2026 | Medium",
+        "Loop Engineering Playbook",
+        "Agentic Loops: From ReAct to Loop Engineering (2026 Guide)"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_30a3512e03d11f97d551",
+      "claim_text": "OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_30a3512e03d11f97d551",
+        "source:src_b364e090655731640be0",
+        "source:src_ec29732d035ab6417896"
+      ],
+      "evidence_strength": "moderate",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_for_author",
+      "selection_score": 7,
+      "source_count": 2,
+      "source_ids": [
+        "src_b364e090655731640be0",
+        "src_ec29732d035ab6417896"
+      ],
+      "source_quality": "A/B",
+      "source_titles": [
+        "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+        "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_4715acf2970eb237142a",
+      "claim_text": "A useful loop-engineering chapter can therefore focus on loop boundaries, observability, evaluation, and safe handoff instead of claiming that prompts have disappeared.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_4715acf2970eb237142a",
+        "source:src_3eb174da3717ef674f19",
+        "source:src_80c8c50e6406c7e7fc95"
+      ],
+      "evidence_strength": "moderate",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_for_author",
+      "selection_score": 7,
+      "source_count": 2,
+      "source_ids": [
+        "src_3eb174da3717ef674f19",
+        "src_80c8c50e6406c7e7fc95"
+      ],
+      "source_quality": "B",
+      "source_titles": [
+        "Loop Engineering Explained Visually - by The Cloud Girl",
+        "Agentic Loops: From ReAct to Loop Engineering (2026 Guide)"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_61b4ff290ac61c113365",
+      "claim_text": "The captured Hermes documentation includes concrete guides, which makes official docs and repository material safer citation authority than social summaries.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_61b4ff290ac61c113365",
+        "source:src_5de659c63abf9db0dff3",
+        "source:src_946462d4856d38e27d2c"
+      ],
+      "evidence_strength": "moderate",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_for_author",
+      "selection_score": 7,
+      "source_count": 2,
+      "source_ids": [
+        "src_5de659c63abf9db0dff3",
+        "src_946462d4856d38e27d2c"
+      ],
+      "source_quality": "A/B",
+      "source_titles": [
+        "Run Nemotron 3 Ultra free in Hermes Agent | Hermes Agent",
+        "hermes-agent/README.md at main · NousResearch/hermes-agent"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_dd8623e9077b66a8ce0f",
+      "claim_text": "The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_dd8623e9077b66a8ce0f",
+        "source:src_45d026189270d1762fad",
+        "source:src_bebe03beb8a33c199ce8"
+      ],
+      "evidence_strength": "weak",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_with_caveat",
+      "selection_score": 7,
+      "source_count": 2,
+      "source_ids": [
+        "src_45d026189270d1762fad",
+        "src_bebe03beb8a33c199ce8"
+      ],
+      "source_quality": "A/B",
+      "source_titles": [
+        "hermes-agent — Hermes Agent Core & Official | Hermes Atlas",
+        "How to Set Up GBrain: A Simple Tutorial for AI Agent Memory"
+      ]
+    },
+    {
+      "candidate_id": "claim:claim_e70e457fe86070a8fd37",
+      "claim_text": "An agentic loop can be framed as a repeated AI-agent cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange.",
+      "contradiction_status": "not_found",
+      "evidence_refs": [
+        "claim:claim_e70e457fe86070a8fd37",
+        "source:src_3eb174da3717ef674f19",
+        "source:src_80c8c50e6406c7e7fc95"
+      ],
+      "evidence_strength": "moderate",
+      "privacy_publication_status": "publishable_metadata_only,publishable_metadata_only",
+      "publication_decision": "allowed_for_author",
+      "selection_score": 7,
+      "source_count": 2,
+      "source_ids": [
+        "src_3eb174da3717ef674f19",
+        "src_80c8c50e6406c7e7fc95"
+      ],
+      "source_quality": "B",
+      "source_titles": [
+        "Loop Engineering Explained Visually - by The Cloud Girl",
+        "Agentic Loops: From ReAct to Loop Engineering (2026 Guide)"
+      ]
+    }
+  ],
+  "candidates_considered": 10,
+  "db_counts": {
+    "claims": 218,
+    "editorial_reviews": 10,
+    "source_notes": 445
+  },
+  "evidence_expansion_status": "expanded_existing_evidence",
+  "generated_at": "2026-06-15T12:17:54Z",
+  "mode": "closed_loop_evidence_expansion_run44",
+  "no_external_collection": true,
+  "selection_policy": "existing DB claims/source mappings plus Run42 constrained context; prefer multiple sources, public metadata, low contradiction risk; avoid social-only/private/raw leakage."
+}

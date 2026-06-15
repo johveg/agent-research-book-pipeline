@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-06-15T12:18:44Z",
+  "mode": "run44_book_patch_preview",
+  "patch_preview_generated": true,
+  "patch_previews": [
+    {
+      "citation_map": {
+        "claim:claim_e67bacfc44dd5bc6f2a0": [
+          "claim_run44_loop_harness_001",
+          "claim_run44_prompt_boundary_002"
+        ],
+        "source:src_384bcc1123ee303676b1": [
+          "claim_run44_loop_harness_001",
+          "claim_run44_prompt_boundary_002"
+        ],
+        "source:src_7387e00f4d0e7dbf7fee": [
+          "claim_run44_loop_harness_001",
+          "claim_run44_prompt_boundary_002"
+        ],
+        "source:src_80c8c50e6406c7e7fc95": [
+          "claim_run44_loop_harness_001",
+          "claim_run44_prompt_boundary_002"
+        ]
+      },
+      "proposed_markdown_delta": "\n### Loop engineering as an operating harness\n\nIn this book, loop engineering should be treated as the design of the repeatable harness around an agent. That harness includes the event or schedule that starts the work, the goal the agent is trying to satisfy, the context and tools available to it, the checks that evaluate progress, the state carried between turns or runs, and the reporting, retry, and escalation paths that keep the loop bounded.\n\nThis framing keeps the chapter focused on operating behavior rather than on a claim that prompting has been replaced. A prompt may still be part of the loop, but the publishable emphasis here is on the surrounding system: what starts the loop, what the agent may do, how results are checked, what is remembered, and when control is handed off or stopped.\n",
+      "publish_packet_id": "publish_packet_run44_loop_harness_canary_claim_e67bacfc44dd5bc6f2a0",
+      "target_file_suggestion": "docs/book/06-operating-loops.md"
+    }
+  ],
+  "preview_count": 1,
+  "run_id": "citation-pipeline-test-20260612",
+  "validation_result": "ready_for_guarded_publication"
+}

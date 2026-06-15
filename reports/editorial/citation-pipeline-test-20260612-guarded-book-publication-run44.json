@@ -1,0 +1,27 @@
+{
+  "changed_files": [
+    "docs/book/06-operating-loops.md"
+  ],
+  "daily_status_fallback_applied": false,
+  "docs_book_update_applied": true,
+  "failed_checks": [],
+  "generated_at": "2026-06-15T12:26:35Z",
+  "mode": "closed_loop_book_publisher",
+  "publication_applied": true,
+  "publication_decision": "substantive_canary_applied",
+  "publication_deployed": false,
+  "publication_status": "substantive_publication_applied",
+  "publish_packet_count": 1,
+  "rejected_packets": [],
+  "run_id": "citation-pipeline-test-20260612",
+  "safety_flags": {
+    "human_in_loop_dependency_added": false,
+    "publication_deployed": false,
+    "raw_text_publication_allowed": false
+  },
+  "selected_packet_count": 1,
+  "selected_packets": [
+    "publish_packet_run44_loop_harness_canary_claim_e67bacfc44dd5bc6f2a0"
+  ],
+  "target_file": "docs/book/06-operating-loops.md"
+}

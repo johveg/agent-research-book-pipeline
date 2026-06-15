@@ -32,6 +32,8 @@ ALLOWED_UPDATE_TYPES = {
     "existing_chapter_delta",
     "new_chapter_candidate",
     "caveated_note",
+    "guarded_substantive_canary",
+    "substantive_canary_caveated",
     "daily_status_only",
     "no_publication",
 }
@@ -142,8 +144,8 @@ def validate_publish_packet(packet: dict[str, Any]) -> list[str]:
     if readiness.get("ready_for_guarded_publication") is True:
         editor_ok = isinstance(packet.get("machine_editor_findings"), dict) and packet["machine_editor_findings"].get("approved") is True
         redteam_ok = isinstance(packet.get("redteam_findings"), dict) and packet["redteam_findings"].get("approved") is True
-        if not (editor_ok and redteam_ok and packet.get("disposition") == "publish_packet_machine_approved"):
-            errors.append("guarded publication requires machine editor/red-team approval and machine-approved disposition")
+        if not (editor_ok and redteam_ok and packet.get("disposition") in {"publish_packet_machine_approved", "caveat_only_publish_packet"}):
+            errors.append("guarded publication requires machine editor/red-team approval and machine-approved or caveat-only disposition")
     if readiness.get("ready_for_dry_run_patch") is True:
         editor_ok = isinstance(packet.get("machine_editor_findings"), dict) and packet["machine_editor_findings"].get("approved") is True
         redteam_ok = isinstance(packet.get("redteam_findings"), dict) and packet["redteam_findings"].get("approved") is True

@@ -104,6 +104,31 @@ def test_config_only_and_control_plane_code_only_profiles_allow_expected_paths()
     assert sqlite_result["sqlite_physical_hash_drift_allowed"] is True
 
 
+def test_academic_manuscript_inventory_profile_allows_run49_reports_and_blocks_book_mutation():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        "?? scripts/academic_manuscript_inventory.py",
+        "?? scripts/academic_chapter_conversion_plan.py",
+        " M scripts/protected_mutation_guard.py",
+        "?? tests/test_academic_manuscript_inventory.py",
+        "?? tests/test_academic_chapter_conversion_plan.py",
+        " M tests/test_protected_mutation_guard.py",
+        "?? reports/editorial/run49-academic-manuscript-inventory.json",
+        "?? reports/editorial/run49-chapter-conversion-plan.md",
+        "?? reports/architecture/run49-academic-manuscript-inventory-evidence-map-20260615.md",
+        "?? reports/telegram/run49-status.md",
+    ]
+    result = mod.compare_snapshots(before, after, "academic_manuscript_inventory_report_only")
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    blocked = mod.compare_snapshots(before, changed("docs/book/01-the-agent-loop.md", " M"), "academic_manuscript_inventory_report_only")
+    assert blocked["ok"] is False
+    assert "docs/book/01-the-agent-loop.md" in blocked["unexpected_changed_paths"]
+
+
 def test_protected_paths_fail_under_report_config_and_control_plane_profiles():
     mod = load_module()
     protected = [

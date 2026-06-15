@@ -84,6 +84,23 @@ PROFILES: dict[str, dict[str, Any]] = {
         "allow_sqlite_physical_hash_drift_without_logical_delta": True,
         "future_disabled": False,
     },
+    "academic_manuscript_inventory_report_only": {
+        "allowed": [
+            "scripts/academic_manuscript_inventory.py",
+            "scripts/academic_chapter_conversion_plan.py",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_academic_manuscript_inventory.py",
+            "tests/test_academic_chapter_conversion_plan.py",
+            "tests/test_protected_mutation_guard.py",
+            "reports/editorial/run49-*.json",
+            "reports/editorial/run49-*.md",
+            "reports/architecture/run49-academic-manuscript-inventory-evidence-map-20260615.md",
+            "reports/telegram/run49-status.md",
+        ],
+        "allow_db": {},
+        "allow_sqlite_physical_hash_drift_without_logical_delta": True,
+        "future_disabled": False,
+    },
     "db_write_source_notes_only": {
         "allowed": ["reports/**"],
         "allow_db": {"counts": ["source_notes"], "hashes": ["source_notes_hash"]},

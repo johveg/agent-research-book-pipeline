@@ -1,0 +1,46 @@
+{
+  "run_id": "run49",
+  "title": "Academic manuscript inventory and chapter conversion plan",
+  "branch": "main...origin/main",
+  "latest_commits": [
+    "34d645b Run 48: record final status",
+    "7889487 Run 48: record final status",
+    "ff1f85d Run 48: add academic book quality contract",
+    "636a808 Run 47: update production monitor latest status",
+    "1ad74dd Run 47: record final push status"
+  ],
+  "git_status": [],
+  "academic_quality_contract_present": true,
+  "academic_structure_plan_present": true,
+  "required_files_present": {
+    "config/academic_book_quality_contract.json": true,
+    "book/academic_structure_plan.md": true,
+    "scripts/academic_book_quality_gate.py": true,
+    "scripts/closed_loop_publish_packet_validator.py": true,
+    "scripts/protected_mutation_guard.py": true
+  },
+  "docs_book_pages": [
+    "docs/book/01-the-agent-loop.md",
+    "docs/book/02-hermes.md",
+    "docs/book/03-openclaw.md",
+    "docs/book/04-loop-engineering.md",
+    "docs/book/05-context-memory-architecture.md",
+    "docs/book/06-operating-loops.md",
+    "docs/book/open-questions.md",
+    "docs/book/preface.md"
+  ],
+  "iteration_budget_requested": 180,
+  "iteration_budget_supported": false,
+  "iteration_budget_effective": null,
+  "iteration_budget_note": "No supported runtime control was available from this session; proceeded using batched commands and phase checkpoints.",
+  "gpt55_availability_checked": false,
+  "gpt55_availability": "not_checked_at_baseline",
+  "protected_mutations_before_start": {
+    "docs_book": false,
+    "raw": false,
+    "source_registry": false,
+    "db_logical_delta": {},
+    "schema": false,
+    "daily_worker": false
+  }
+}

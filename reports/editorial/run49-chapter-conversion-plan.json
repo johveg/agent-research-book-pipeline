@@ -1,0 +1,213 @@
+{
+  "candidate_run50_scope": "Draft Introduction, thesis, scope, contribution, and limitations as report-only manuscript prose.",
+  "candidate_run51_scope": "Draft literature/context and conceptual framework as report-only manuscript prose.",
+  "candidate_run52_scope": "Draft methodology and source-quality appendix as report-only manuscript prose.",
+  "daily_worker_modified": false,
+  "db_modified": false,
+  "disposition": "rewrite_plan_created",
+  "do_not_rewrite_yet": true,
+  "docs_book_modified": false,
+  "generated_at": "2026-06-15T20:52:16Z",
+  "inventory": "/home/hermoine/terefohealreboa/reports/editorial/run49-academic-manuscript-inventory.json",
+  "machine_dispositions": [
+    "rewrite_plan_created",
+    "safe_reports_only"
+  ],
+  "missing_chapters": [
+    "introduction",
+    "methodology",
+    "literature_and_context",
+    "conceptual_framework",
+    "glossary",
+    "bibliography"
+  ],
+  "missing_conceptual_framework": [
+    "conceptual_framework"
+  ],
+  "missing_front_matter": [
+    "introduction"
+  ],
+  "missing_glossary_bibliography": [
+    "glossary",
+    "bibliography"
+  ],
+  "missing_literature_context_section": [
+    "literature_and_context"
+  ],
+  "missing_methodology_section": [
+    "methodology"
+  ],
+  "page_to_future_mapping": [
+    {
+      "current_role": "tool_profile",
+      "future_location": "main_manuscript_candidate",
+      "future_role": "tool_case_chapter",
+      "rewrite_priority": 4,
+      "safe_handling": "rewrite_plan_created",
+      "source_page": "docs/book/01-the-agent-loop.md"
+    },
+    {
+      "current_role": "tool_profile",
+      "future_location": "main_manuscript_candidate",
+      "future_role": "tool_case_chapter",
+      "rewrite_priority": 4,
+      "safe_handling": "rewrite_plan_created",
+      "source_page": "docs/book/02-hermes.md"
+    },
+    {
+      "current_role": "tool_profile",
+      "future_location": "main_manuscript_candidate",
+      "future_role": "tool_case_chapter",
+      "rewrite_priority": 4,
+      "safe_handling": "rewrite_plan_created",
+      "source_page": "docs/book/03-openclaw.md"
+    },
+    {
+      "current_role": "academic_chapter_candidate",
+      "future_location": "main_manuscript_candidate",
+      "future_role": "core_concept_chapter",
+      "rewrite_priority": 3,
+      "safe_handling": "manuscript_page_classified",
+      "source_page": "docs/book/04-loop-engineering.md"
+    },
+    {
+      "current_role": "tool_profile",
+      "future_location": "main_manuscript_candidate",
+      "future_role": "tool_case_chapter",
+      "rewrite_priority": 4,
+      "safe_handling": "rewrite_plan_created",
+      "source_page": "docs/book/05-context-memory-architecture.md"
+    },
+    {
+      "current_role": "tool_profile",
+      "future_location": "main_manuscript_candidate",
+      "future_role": "tool_case_chapter",
+      "rewrite_priority": 4,
+      "safe_handling": "rewrite_plan_created",
+      "source_page": "docs/book/06-operating-loops.md"
+    },
+    {
+      "current_role": "open_questions_or_research_agenda",
+      "future_location": "appendix",
+      "future_role": "research_agenda",
+      "rewrite_priority": 4,
+      "safe_handling": "appendix_candidate",
+      "source_page": "docs/book/open-questions.md"
+    },
+    {
+      "current_role": "preface_or_reader_guide",
+      "future_location": "main_manuscript_candidate",
+      "future_role": "front_matter",
+      "rewrite_priority": 3,
+      "safe_handling": "manuscript_page_classified",
+      "source_page": "docs/book/preface.md"
+    }
+  ],
+  "pages_to_keep": [
+    "docs/book/01-the-agent-loop.md",
+    "docs/book/02-hermes.md",
+    "docs/book/03-openclaw.md",
+    "docs/book/04-loop-engineering.md",
+    "docs/book/05-context-memory-architecture.md",
+    "docs/book/06-operating-loops.md",
+    "docs/book/preface.md"
+  ],
+  "pages_to_keep_as_reports_only": [],
+  "pages_to_merge": [
+    "docs/book/04-loop-engineering.md"
+  ],
+  "pages_to_move_to_appendix": [
+    "docs/book/open-questions.md"
+  ],
+  "pages_to_split": [
+    "docs/book/02-hermes.md",
+    "docs/book/03-openclaw.md",
+    "docs/book/open-questions.md"
+  ],
+  "quality_contract": "/home/hermoine/terefohealreboa/config/academic_book_quality_contract.json",
+  "raw_modified": false,
+  "recommended_future_book_structure": [
+    "Front matter: Preface and reader guide",
+    "Introduction: thesis, scope, contribution, limitations",
+    "Literature and context: agent-loop and tool-ecosystem background",
+    "Conceptual framework: definitions, taxonomy, and model of closed-loop agents",
+    "Methodology: evidence collection, source quality, and validation approach",
+    "Core chapters: agent loop, Hermes, OpenClaw, Loop Engineering, memory/context architecture, operating loops",
+    "Governance and safety chapter: publication gates, mutation guards, and no-fallback controls",
+    "Appendices: evidence/source inventories, open questions, glossary, bibliography"
+  ],
+  "recommended_next_run": "Run 50 \u2014 Draft Introduction, thesis, scope, contribution, and limitations as report-only manuscript prose.",
+  "rewrite_priority_sequence": [
+    {
+      "path": "docs/book/04-loop-engineering.md",
+      "priority": 3,
+      "recommended_academic_role": "core_concept_chapter",
+      "recommended_next_action": "add methodology support; define conceptual framework and terms",
+      "title": "4. Loop Engineering"
+    },
+    {
+      "path": "docs/book/preface.md",
+      "priority": 3,
+      "recommended_academic_role": "front_matter",
+      "recommended_next_action": "add methodology support",
+      "title": "Preface"
+    },
+    {
+      "path": "docs/book/01-the-agent-loop.md",
+      "priority": 4,
+      "recommended_academic_role": "tool_case_chapter",
+      "recommended_next_action": "add methodology support",
+      "title": "1. The Agent Loop"
+    },
+    {
+      "path": "docs/book/02-hermes.md",
+      "priority": 4,
+      "recommended_academic_role": "tool_case_chapter",
+      "recommended_next_action": "add methodology support; define conceptual framework and terms",
+      "title": "2. Hermes"
+    },
+    {
+      "path": "docs/book/03-openclaw.md",
+      "priority": 4,
+      "recommended_academic_role": "tool_case_chapter",
+      "recommended_next_action": "add methodology support; define conceptual framework and terms",
+      "title": "3. OpenClaw"
+    },
+    {
+      "path": "docs/book/05-context-memory-architecture.md",
+      "priority": 4,
+      "recommended_academic_role": "tool_case_chapter",
+      "recommended_next_action": "add methodology support",
+      "title": "5. Context and Memory Architecture"
+    },
+    {
+      "path": "docs/book/06-operating-loops.md",
+      "priority": 4,
+      "recommended_academic_role": "tool_case_chapter",
+      "recommended_next_action": "add methodology support",
+      "title": "6. Operating Loops in Production"
+    },
+    {
+      "path": "docs/book/open-questions.md",
+      "priority": 4,
+      "recommended_academic_role": "research_agenda",
+      "recommended_next_action": "route to appendix/back matter before any public chapter use; add methodology support; define conceptual framework and terms",
+      "title": "Open Questions"
+    }
+  ],
+  "run_id": "run49",
+  "safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "safety_note": "Do not rewrite docs/book in Run 49; this plan is report-only and not publication approval.",
+  "schema_modified": false,
+  "source_registry_modified": false,
+  "structure_plan": "/home/hermoine/terefohealreboa/book/academic_structure_plan.md",
+  "structure_plan_loaded": true,
+  "title": "Academic manuscript inventory and chapter conversion plan"
+}

@@ -215,6 +215,44 @@ def test_daily_worker_code_only_profile_allows_worker_tests_and_run40_reports_bu
     assert human_result["human_in_loop_dependency_added"] is True
 
 
+def test_closed_loop_author_editor_code_only_profile_allows_run43_control_plane_and_blocks_runtime_paths():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        " M config/reasoning_models.json",
+        "?? scripts/closed_loop_author_editor.py",
+        "?? scripts/closed_loop_publish_packet_validator.py",
+        " M scripts/model_profiles.py",
+        " M scripts/protected_mutation_guard.py",
+        "?? tests/test_closed_loop_author_editor.py",
+        "?? tests/test_closed_loop_publish_packet_validator.py",
+        "?? reports/editorial/citation-pipeline-test-20260612-author-editor-redteam-run43.json",
+        "?? reports/architecture/run43-author-editor-redteam-evidence-map-20260614.md",
+        "?? reports/telegram/run43-status.md",
+    ]
+    after["git_diff_names"] = [
+        "config/reasoning_models.json",
+        "scripts/model_profiles.py",
+        "scripts/protected_mutation_guard.py",
+    ]
+    result = mod.compare_snapshots(before, after, "closed_loop_author_editor_code_only")
+    assert result["ok"] is True
+    assert result["unexpected_changed_paths"] == []
+
+    for path in [
+        ".var/book.sqlite",
+        "data/source_registry.json",
+        "raw/capture.json",
+        "docs/book/chapter.md",
+        "docs/entities/acme.md",
+        "docs/research/claims.md",
+        "data/schema.sql",
+        "scripts/daily_book_worker.py",
+    ]:
+        assert mod.compare_snapshots(before, changed(path, " M"), "closed_loop_author_editor_code_only")["ok"] is False
+
+
 def test_unknown_and_future_publication_profiles_fail_closed_without_gates():
     mod = load_module()
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "unknown_profile")["ok"] is False

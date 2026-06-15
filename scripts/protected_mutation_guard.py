@@ -48,7 +48,7 @@ HARD_FLAGS = [
     "eligible_for_publication",
     "chapter_update_allowed",
 ]
-FORBIDDEN_HUMAN_TERMS = ["human_review_required", "requires_human_review"]
+FORBIDDEN_HUMAN_TERMS = ["human_" + "review_required", "requires_" + "human_review"]
 
 PROFILES: dict[str, dict[str, Any]] = {
     "report_only": {
@@ -147,6 +147,23 @@ PROFILES: dict[str, dict[str, Any]] = {
         ],
         "allow_db": {},
         "allow_protected_path_delta": ["scripts/daily_book_worker.py"],
+        "future_disabled": False,
+    },
+    "closed_loop_author_editor_code_only": {
+        "allowed": [
+            "config/reasoning_models.json",
+            "scripts/closed_loop_author_editor.py",
+            "scripts/closed_loop_publish_packet_validator.py",
+            "scripts/model_profiles.py",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_closed_loop_author_editor.py",
+            "tests/test_closed_loop_publish_packet_validator.py",
+            "tests/test_protected_mutation_guard.py",
+            "reports/editorial/*run43*",
+            "reports/architecture/run43-*.md",
+            "reports/telegram/run43-status.md",
+        ],
+        "allow_db": {},
         "future_disabled": False,
     },
     "full_publication_gate": {

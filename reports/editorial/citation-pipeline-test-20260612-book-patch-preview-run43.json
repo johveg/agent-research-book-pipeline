@@ -1,0 +1,17 @@
+{
+  "docs_book_modified": false,
+  "docs_book_update_allowed": false,
+  "docs_book_update_applied": false,
+  "dry_run_patch_only": true,
+  "generated_at": "2026-06-15T11:41:44Z",
+  "mode": "closed_loop_book_patch_preview",
+  "patch_preview_generated": false,
+  "patch_previews": [],
+  "preview_count": 0,
+  "production_publish_enabled": false,
+  "publication_deployed": false,
+  "publish_packet_count": 1,
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612",
+  "validation_result": "publish_daily_no_safe_promotions"
+}

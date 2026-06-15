@@ -39,7 +39,13 @@
         "safe_reports_only",
         "eligible_for_review_note_persistence",
         "blocked_for_publication_by_policy",
-        "source_context_unclear"
+        "source_context_unclear",
+        "publish_packet_candidate",
+        "publish_packet_machine_approved",
+        "publish_packet_blocked",
+        "caveat_only_publish_packet",
+        "quarantine",
+        "publish_daily_no_safe_promotions"
       ]
     }
   },

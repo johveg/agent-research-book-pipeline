@@ -1,0 +1,191 @@
+{
+  "blocked_count": 1,
+  "caveat_only_count": 0,
+  "contradiction_count": 0,
+  "disposition_counts": {
+    "safe_reports_only": 1
+  },
+  "docs_book_update_allowed": false,
+  "docs_book_update_applied": false,
+  "generated_at": "2026-06-15T11:41:44Z",
+  "machine_approved_count": 0,
+  "mode": "closed_loop_publish_packets",
+  "needs_more_sources_count": 0,
+  "production_publish_enabled": false,
+  "publication_deployed": false,
+  "publish_packet_count": 1,
+  "publish_packets": [
+    {
+      "citation_map": {
+        "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-preflight-run31.json": [
+          "input_context"
+        ],
+        "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json": [
+          "input_context"
+        ],
+        "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run33.json": [
+          "input_context"
+        ],
+        "reports/editorial/citation-pipeline-test-20260612-transition-engine-evaluation-run34.json": [
+          "input_context"
+        ]
+      },
+      "claim_map": [
+        {
+          "claim_id": "claim_run43_metadata_boundary_001",
+          "claim_text": "The input context is constrained to metadata-only use and does not authorize authoring, claim insertion, chapter updates, docs/book integration, or publication.",
+          "evidence_refs": [
+            "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json"
+          ],
+          "publication_use": "reports_only",
+          "support_status": "supported_by_input_metadata",
+          "supporting_context_ids": [
+            "context_run42_constrained_authoring_1415a8e978a39a19439acc7f"
+          ]
+        },
+        {
+          "claim_id": "claim_run43_caveat_boundary_002",
+          "claim_text": "Any later use must frame the evidence narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts only, without stating that Hermes is a runtime dependency or general operating environment absent additional sources.",
+          "evidence_refs": [
+            "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json"
+          ],
+          "publication_use": "caveat_only_reports_only",
+          "support_status": "supported_by_input_metadata",
+          "supporting_context_ids": [
+            "context_run42_constrained_authoring_1415a8e978a39a19439acc7f"
+          ]
+        },
+        {
+          "claim_id": "claim_run43_no_publication_003",
+          "claim_text": "No publication approval, chapter update, claim insertion, or docs/book update is available from the provided context.",
+          "evidence_refs": [
+            "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json"
+          ],
+          "publication_use": "reports_only",
+          "support_status": "supported_by_input_metadata",
+          "supporting_context_ids": [
+            "context_run42_constrained_authoring_1415a8e978a39a19439acc7f"
+          ]
+        }
+      ],
+      "disposition": "safe_reports_only",
+      "docs_book_update_applied": false,
+      "evidence_refs": [
+        "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-run30.json",
+        "reports/editorial/citation-pipeline-test-20260612-constrained-authoring-metadata-preflight-run31.json",
+        "reports/editorial/citation-pipeline-test-20260612-promotion-contract-authoring-metadata-run33.json",
+        "reports/editorial/citation-pipeline-test-20260612-transition-engine-evaluation-run34.json"
+      ],
+      "forbidden_claims_checked": [
+        {
+          "forbidden_claim": "Hermes is a runtime dependency of OpenClaw.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "Hermes is the general operating environment for OpenClaw.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "OpenClaw requires Hermes for web or phone access.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "Migration/setup/import tooling adjacency proves architectural dependency.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "The canary is publishable or chapter-ready.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "The canary can be inserted as a claim without later gates.",
+          "status": "checked_not_promoted"
+        }
+      ],
+      "human_in_loop_dependency_added": false,
+      "idempotency_key": "run43_safe_reports_only_context_run42_constrained_authoring_1415a8e978a39a19439acc7f_no_publication",
+      "input_context_ids": [
+        "context_run42_constrained_authoring_1415a8e978a39a19439acc7f"
+      ],
+      "machine_editor_findings": {
+        "approved": false,
+        "findings": [
+          {
+            "finding": "Authoring is not allowed because author_allowed, eligible_for_authoring, eligible_for_claim_insertion, eligible_for_publication, chapter_update_allowed, and publication_approved are all false.",
+            "finding_id": "editor_run43_001",
+            "severity": "blocking_for_authoring"
+          },
+          {
+            "finding": "The proposed markdown delta is empty, preventing unauthorized chapter prose or book changes.",
+            "finding_id": "editor_run43_002",
+            "severity": "pass"
+          },
+          {
+            "finding": "The packet preserves mandatory caveats and negative boundaries.",
+            "finding_id": "editor_run43_003",
+            "severity": "pass"
+          },
+          {
+            "finding": "The disposition avoids unsupported market, dependency, access, operating-environment, and generalization claims.",
+            "finding_id": "editor_run43_004",
+            "severity": "pass"
+          }
+        ]
+      },
+      "proposed_markdown_delta": "No docs/book change proposed in Run 43; packet is blocked or reports-only.",
+      "publication_deployed": false,
+      "publication_readiness": {
+        "blocked": true,
+        "ready_for_dry_run_patch": false,
+        "ready_for_guarded_publication": false,
+        "reason": "No docs/book update, chapter prose, publication approval, or guarded publication is permitted from advisory-only metadata. The packet is reports-only."
+      },
+      "publish_packet_id": "publish_packet_run43_safe_reports_only_context_run42_constrained_authoring_1415a8e978a39a19439acc7f",
+      "raw_text_publication_allowed": false,
+      "redteam_findings": {
+        "approved": false,
+        "findings": [
+          {
+            "finding": "The input context explicitly forbids authoring, publication approval, claim insertion, chapter updates, and docs/book integration. Publication must remain blocked.",
+            "finding_id": "redteam_run43_001",
+            "severity": "blocking_for_publication"
+          },
+          {
+            "finding": "There is a known overpromotion risk: tooling-adjacency metadata could be incorrectly converted into runtime dependency or operating-environment language if the mandatory caveat is stripped.",
+            "finding_id": "redteam_run43_002",
+            "severity": "high"
+          },
+          {
+            "finding": "Evidence is narrow, singleton-derived, and caveat-only; it is insufficient for broader claims or chapter-ready prose.",
+            "finding_id": "redteam_run43_003",
+            "severity": "medium"
+          },
+          {
+            "finding": "No privacy-invasive content or raw capture reproduction is required or included in this packet.",
+            "finding_id": "redteam_run43_004",
+            "severity": "pass"
+          }
+        ]
+      },
+      "required_caveats": [
+        "Frame narrowly: OpenClaw documentation names Hermes in migration/setup tooling contexts; do not state that Hermes is a runtime dependency or general operating environment without additional sources.",
+        "Do not promote tooling adjacency into architectural dependency, runtime dependency, web access dependency, phone access dependency, or operating-environment claims.",
+        "Do not use the material as chapter prose, publishable wording, or claim insertion before later gates supply adequate sources and approvals."
+      ],
+      "source_packet_ids": [
+        "metadata_run30_constrained_authoring_4e8554045cfaf827bc68bcc5",
+        "contract_run32_authoring_metadata_4e8554045cfaf827bc68bcc5",
+        "draft_canary_run28_caveat_only_v2_cluster_4e8554045cfaf827bc68bcc5"
+      ],
+      "source_quality_summary": "Source quality is narrow and constrained. The input is an advisory-only metadata/control object, not source material for prose. It preserves provenance, caveats, blockers, and negative boundaries, but it is singleton-derived and explicitly ineligible for authoring, publication, chapter updates, or claim insertion. It is suitable only for safe reports-only tracking or caveat-preserving planning metadata.",
+      "summary": "The supplied context is advisory-only, metadata-only, ineligible for authoring, ineligible for claim insertion, and ineligible for publication. No chapter prose, docs/book update, or publication deployment is permitted. The only safe disposition is a reports-only packet preserving the caveat that OpenClaw documentation names Hermes only in migration/setup tooling contexts and does not support runtime dependency, operating-environment, or access-requirement claims.",
+      "target_book_area": "none_safe_reports_only",
+      "target_file_suggestion": "reports/editorial/run43-safe-reports-only-publish-packet.json",
+      "title": "Run 43 safe reports-only packet for constrained OpenClaw/Hermes metadata",
+      "update_type": "no_publication"
+    }
+  ],
+  "quarantine_count": 0,
+  "report_only": true,
+  "run_id": "citation-pipeline-test-20260612"
+}

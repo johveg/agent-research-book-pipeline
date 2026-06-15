@@ -91,6 +91,21 @@ def test_fixed_run_id_is_rejected_for_production_monitor(tmp_path):
     assert "fixed_run_id_not_allowed" in report["warnings"]
 
 
+def test_manual_production_daily_run_id_is_accepted_and_completed(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    run_id = "production-daily-manual-20260615T171122Z"
+    (repo / "reports" / "editorial" / f"{run_id}-production-execute-once.json").write_text(
+        json.dumps({"final_disposition": "production_daily_completed", "production_daily_completed": True})
+    )
+
+    report = mod.monitor(repo=repo, run_id=run_id, timezone_name="Europe/Oslo")
+
+    assert report["status"] == "production_daily_completed"
+    assert report["ok"] is True
+    assert report["old_fixed_run_id_ignored"] is True
+
+
 def test_monitor_detects_crontab_production_command(monkeypatch, tmp_path):
     mod = load_module()
     repo = make_repo(tmp_path)

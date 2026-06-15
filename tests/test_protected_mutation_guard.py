@@ -335,6 +335,28 @@ def test_production_daily_publish_profile_allows_intended_outputs_and_blocks_uns
     registry_after["report_safety_scan"] = {"source_registry_export_performed": True}
     assert mod.compare_snapshots(before, registry_after, "production_daily_publish")["ok"] is True
 
+    registry_hash_after = changed("data/source_registry.json", " M")
+    registry_hash_after["path_hashes"]["data/source_registry.json"] = {"tree_hash": "registry-v45"}
+    registry_hash_after["db"]["hashes"]["source_status_hash"] = "changed-by-source-registry-export"
+    registry_hash_after["report_safety_scan"] = {"source_registry_export_performed": True}
+    assert mod.compare_snapshots(before, registry_hash_after, "production_daily_publish")["ok"] is True
+
+    registry_sqlite_after = changed("data/source_registry.json", " M")
+    registry_sqlite_after["path_hashes"]["data/source_registry.json"] = {"tree_hash": "registry-v45"}
+    registry_sqlite_after["path_hashes"][".var/book.sqlite"] = {"tree_hash": "db-physical-after-registry-export"}
+    registry_sqlite_after["db"]["hashes"]["source_status_hash"] = "changed-by-source-registry-export"
+    registry_sqlite_after["report_safety_scan"] = {"source_registry_export_performed": True}
+    assert mod.compare_snapshots(before, registry_sqlite_after, "production_daily_publish")["ok"] is True
+
+    mixed_reports = base_snapshot()
+    for report_path in [
+        "reports/editorial/production-daily-manual-20260615T171122Z-production-execute-once.json",
+        "reports/editorial/production-scheduler-health-run47-after.json",
+    ]:
+        mixed_reports["git_status_short"].append(f"?? {report_path}")
+        mixed_reports["git_diff_names"].append(report_path)
+    assert mod.compare_snapshots(before, mixed_reports, "production_daily_publish")["unexpected_changed_paths"] == []
+
     db_after = base_snapshot()
     db_after["path_hashes"][".var/book.sqlite"] = {"tree_hash": "db-v45"}
     db_after["db"]["counts"]["source_notes"] += 1

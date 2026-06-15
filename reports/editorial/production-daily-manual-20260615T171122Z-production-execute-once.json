@@ -1,0 +1,142 @@
+{
+  "author_editor_redteam_performed": true,
+  "blockers": [],
+  "bridge": "hermes_cli",
+  "citation_verifier_ok": true,
+  "citation_verifier_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"status\": \"ok\",\n  \"raw_id_hits\": [],\n  \"unresolved_hits\": []\n}\n"
+  },
+  "claim_extraction_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"status\": \"ok\",\n  \"claims_seen\": 55,\n  \"sources_read\": 500\n}\n"
+  },
+  "cron_artifact": "config/schedules/closed-loop-production-daily.cron.example",
+  "cron_expression": "30 5 * * *",
+  "daily_runner_invoked": true,
+  "daily_status_fallback_applied": false,
+  "daily_worker_capability_probe": {
+    "command": [
+      "/home/hermoine/terefohealreboa/.venv/bin/python",
+      "scripts/daily_book_worker.py",
+      "--print-capabilities-json"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stderr_tail": "",
+    "stdout": "{\"author_allowed\": false, \"capability_probe_no_write\": true, \"chapter_update_allowed\": false, \"eligible_for_authoring\": false, \"eligible_for_claim_insertion\": false, \"eligible_for_publication\": false, \"human_in_loop_dependency_added\": false, \"preflight_only_no_write\": true, \"publication_approved\": false, \"supports_no_commit\": true, \"supports_no_docs_book_update_without_gate\": true, \"supports_no_push\": true, \"supports_preflight_only\": true, \"supports_skip_capture\": true, \"supports_skip_claim_extraction\": true, \"supports_skip_docs_claims_update\": true, \"supports_skip_docs_entities_update\": true, \"supports_skip_entity_extraction\": true, \"supports_skip_run_table_update\": true, \"supports_skip_source_registry_export\": true, \"supports_skip_vector\": true}\n",
+    "stdout_tail": "{\"author_allowed\": false, \"capability_probe_no_write\": true, \"chapter_update_allowed\": false, \"eligible_for_authoring\": false, \"eligible_for_claim_insertion\": false, \"eligible_for_publication\": false, \"human_in_loop_dependency_added\": false, \"preflight_only_no_write\": true, \"publication_approved\": false, \"supports_no_commit\": true, \"supports_no_docs_book_update_without_gate\": true, \"supports_no_push\": true, \"supports_preflight_only\": true, \"supports_skip_capture\": true, \"supports_skip_claim_extraction\": true, \"supports_skip_docs_claims_update\": true, \"supports_skip_docs_entities_update\": true, \"supports_skip_entity_extraction\": true, \"supports_skip_run_table_update\": true, \"supports_skip_source_registry_export\": true, \"supports_skip_vector\": true}\n"
+  },
+  "daily_worker_capability_probe_ok": true,
+  "daily_worker_invoked": true,
+  "daily_worker_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\"capability_probe_no_write\": true, \"capture_executed\": false, \"claim_extraction_executed\": false, \"commit_executed\": false, \"docs_book_update_executed\": false, \"docs_claims_update_executed\": false, \"docs_entities_update_executed\": false, \"entity_extraction_executed\": false, \"execution_performed\": false, \"human_in_loop_dependency_added\": false, \"ok\": true, \"preflight_only\": true, \"preflight_only_no_write\": true, \"push_executed\": false, \"run_id\": \"production-daily-manual-20260615T171122Z\", \"run_table_update_executed\": false, \"source_registry_export_executed\": false, \"validated_arguments\": true, \"vector_index_build_executed\": false, \"writes_performed\": false}\n"
+  },
+  "db_counts_after": {
+    "claims": 237,
+    "editorial_reviews": 10,
+    "source_notes": 445
+  },
+  "db_counts_before": {
+    "claims": 237,
+    "editorial_reviews": 10,
+    "source_notes": 445
+  },
+  "db_delta": {},
+  "disposition_counts": {
+    "publish_packet_machine_approved": 1
+  },
+  "docs_book_files_changed": [
+    "docs/book/06-operating-loops.md"
+  ],
+  "editorial_verifier_ok": true,
+  "editorial_verifier_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{'status': 'ok', 'errors': [], 'warnings': []}\n"
+  },
+  "entity_extraction_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"status\": \"ok\",\n  \"entities_seen\": 1392,\n  \"sources_read\": 500\n}\n"
+  },
+  "event_ledger_attempt_started": true,
+  "evidence_promotion_performed": true,
+  "execute_once_result": "completed",
+  "extraction_performed": true,
+  "final_disposition": "production_daily_completed",
+  "final_gate_result": {
+    "failed_gates": [],
+    "ok": true
+  },
+  "generated_at": "2026-06-15T17:12:03Z",
+  "gpt55_required": true,
+  "gpt55_used": true,
+  "guarded_publication_performed": true,
+  "human_in_loop_dependency_added": false,
+  "install_command": "(crontab -l 2>/dev/null | grep -v 'closed_loop_production_scheduler.py'; cat /home/hermoine/terefohealreboa/config/schedules/closed-loop-production-daily.cron.example) | crontab -",
+  "mkdocs_strict_ok": true,
+  "mkdocs_strict_result": {
+    "returncode": 0,
+    "stderr_tail": "31m │  × \u001b[0mCurrently unlicensed – unsuitable for production use\n\u001b[31m │\u001b[0m\n\u001b[31m │\u001b[0m  Our full analysis:\n\u001b[31m │\u001b[0m\n\u001b[31m │\u001b[0m  \u001b[4mhttps://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/\u001b[0m\n\u001b[0m\nINFO    -  Cleaning site directory\nINFO    -  Building documentation to directory: /home/hermoine/terefohealreboa/site\nINFO    -  The following pages exist in the docs directory, but are not included in the \"nav\" configuration:\n  - entities/addy-osmani-introduces-loop.md\n  - entities/addy-osmani.md\n  - entities/agent-harnesses.md\n  - entities/agentic-ai-specialist.md\n  - entities/agentic-ai.md\n  - entities/agentic-workflow.md\n  - entities/ai-agent.md\n  - entities/ai-agents.md\n  - entities/ai-assisted.md\n  - entities/ai-automation.md\n  - entities/ai-coding-agents.md\n  - entities/ai-employees-platform.md\n  - entities/ai-lead.md\n  - entities/ai-seo-prompts.md\n  - entities/ai-strategy.md\n  - entities/anthropic.md\n  - entities/applied-ai.md\n  - entities/autonomous-agents.md\n  - entities/autonomous-ai-agents.md\n  - entities/autonomous-coding-agents.md\n  - entities/aws.md\n  - entities/azahar-labs.md\n  - entities/bennett-black.md\n  - entities/bert.md\n  - entities/boris-cherny.md\n  - entities/cfo.md\n  - entities/chief-ai-officer.md\n  - entities/chief-executive-officer.md\n  - entities/cio.md\n  - entities/claude-code.md\n  - entities/claude.md\n  - entities/coding-agent.md\n  - entities/continual-learning.md\n  - entities/coo.md\n  - entities/crm.md\n  - entities/data-science.md\n  - entities/deep-learning.md\n  - entities/deutsche-bank.md\n  - entities/devesh-paragiri.md\n  - entities/enterprise-ai.md\n  - entities/ex-deloitte.md\n  - entities/executive-vice-president.md\n  - entities/extension-chrome-guichet-unique.md\n  - entities/fde.md\n  - entities/full-stack.md\n  - entities/github.md\n  - entities/google.md\n  - entities/gpu.md\n  - entities/gtm.md\n  - entities/gurudath-sadanandan.md\n  - entities/help-websites-get-more-leads.md\n  - entities/hermes-agent-core.md\n  - entities/hermes-agent.md\n  - entities/hermes-agents.md\n  - entities/hermes-ai-agent.md\n  - entities/hermes-ai.md\n  - entities/hermes-atlas.md\n  - entities/hermes.md\n  - entities/high-performance-alternative.md\n  - entities/hirebox-human-resource.md\n  - entities/hivemind.md\n  - entities/how-an-ai-agent.md\n  - entities/imran-khan-a-n.md\n  - entities/interacting-with-coding-agents.md\n  - entities/julian-goldie.md\n  - entities/know-hermes-agent.md\n  - entities/krishna-kumar.md\n  - entities/kyc.md\n  - entities/langgraph.md\n  - entities/llm-fine-tuning.md\n  - entities/llm.md\n  - entities/loop-engineer.md\n  - entities/loop-engineering.md\n  - entities/machine-learning.md\n  - entities/max-petrusenko.md\n  - entities/mba.md\n  - entities/mcp.md\n  - entities/microsoft-mvp.md\n  - entities/microsoft.md\n  - entities/modelfusion-ai.md\n  - entities/most-ai.md\n  - entities/next-js.md\n  - entities/nishanth-rao.md\n  - entities/nlp.md\n  - entities/nous-research.md\n  - entities/nvidia.md\n  - entities/openai.md\n  - entities/openclaw.md\n  - entities/outpost.md\n  - entities/peft.md\n  - entities/pmp.md\n  - entities/prompting-ai-coding-agents.md\n  - entities/public-secto.md\n  - entities/python.md\n  - entities/rag-pipelines.md\n  - entities/rag.md\n  - entities/remote-openclaw.md\n  - entities/self-improving-agents.md\n  - entities/self-improving-loops.md\n  - entities/self-improving.md\n  - entities/seo.md\n  - entities/short-form-video.md\n  - entities/sia.md\n  - entities/single-workflow.md\n  - entities/social-media-manager.md\n  - entities/spacex-ipo.md\n  - entities/spring-boot.md\n  - entities/sql.md\n  - entities/srikanth-bhakthan.md\n  - entities/stop-prompting-ai-start-designing.md\n  - entities/stop.md\n  - entities/thenextgentechinsider-com.md\n  - entities/trained-my-hermes-agent.md\n  - entities/u-s-department.md\n  - entities/vibe-coding.md\n  - entities/vps.md\n  - entities/wisely-chen.md\n  - entities/xgboost.md\n  - entities/yoe.md\n  - entities/yoni-atteia.md\nINFO    -  Documentation built in 4.03 seconds\n",
+    "stdout_tail": ""
+  },
+  "mode": "run45_schedule_install_artifact",
+  "model": "gpt-5.5",
+  "mutation_guard_failed_checks": [],
+  "mutation_guard_ok": true,
+  "mutation_guard_profile": "production_daily_publish",
+  "mutation_guard_report": "reports/editorial/production-daily-manual-20260615T171122Z-mutation-guard-run45.json",
+  "next_expected_run_time": "2026-06-16T05:30:00+01:00/+02:00 Europe/Oslo",
+  "note": "Daily cron artifact is installable; scheduler installs it only after execute-once gates pass when requested.",
+  "production_daily_completed": true,
+  "production_daily_failed_closed": false,
+  "production_scheduler_created": true,
+  "provider": "copilot",
+  "publication_orchestrator_invoked": true,
+  "publication_orchestrator_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\"docs_book_applied\": true, \"ok\": true, \"publication_decision\": \"substantive_canary_applied\", \"publish_packet_count\": 1}\n"
+  },
+  "publication_status": "live_gpt55_completed",
+  "publish_packet_count": 1,
+  "raw_collection_performed": true,
+  "raw_delta_summary": "web raw capture paths under raw/web/production-daily-manual-20260615T171122Z; LinkedIn authenticated capture skipped in execute-once to avoid browser-session stall",
+  "reasoning_profile": "closed_loop_editorial",
+  "run_id": "production-daily-manual-20260615T171122Z",
+  "runtime_config_created": true,
+  "runtime_config_validation_errors": [],
+  "schedule_command": "cd /home/hermoine/terefohealreboa && RUN_ID=$(date -u +production-daily-%Y%m%d) && python3 scripts/closed_loop_production_scheduler.py --run-id \"$RUN_ID\" --runtime-config config/closed_loop_runtime.json --mode production_daily --execute-once --allow-raw-collection --allow-extraction --allow-evidence-promotion --allow-author-editor-redteam --allow-guarded-book-publication --allow-daily-status-fallback --allow-commit-push-after-gates --install-schedule-after-success --send-telegram-status --output-json reports/editorial/$RUN_ID-production-execute-once.json --output-md reports/editorial/$RUN_ID-production-execute-once.md --telegram-status reports/telegram/production-daily-latest.md",
+  "schedule_install_attempted": false,
+  "schedule_installable": true,
+  "schedule_installed": false,
+  "schedule_local_time": "05:30",
+  "schedule_timezone": "Europe/Oslo",
+  "source_registry_delta_summary": "source registry export command completed; diff governed by mutation guard",
+  "source_registry_export_performed": true,
+  "status_hash_delta": {},
+  "substantive_update_applied": true,
+  "telegram_status_written": true,
+  "trend_discovery_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"run_id\": \"production-daily-manual-20260615T171122Z\",\n  \"markdown\": \"/home/hermoine/terefohealreboa/reports/discovery/production-daily-manual-20260615T171122Z-trend-discovery.md\",\n  \"json\": \"/home/hermoine/terefohealreboa/reports/discovery/production-daily-manual-20260615T171122Z-trend-discovery.json\",\n  \"candidates\": [\n    {\n      \"term\": \"status\",\n      \"count\": 26,\n      \"doc_count\": 15,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"type\",\n      \"count\": 21,\n      \"doc_count\": 15,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"content\",\n      \"count\": 19,\n      \"doc_count\": 15,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"content type\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"content type html\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"extracted\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"html\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"html snippet\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"snippet\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"status content\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"status content type\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"t17 status\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"t17 status content\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"type html\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"type html snippet\",\n      \"count\": 15,\n      \"doc_count\": 15,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"real\",\n      \"count\": 48,\n      \"doc_count\": 14,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"code\",\n      \"count\": 104,\n      \"doc_count\": 12,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"start\",\n      \"count\": 58,\n      \"doc_count\": 12,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"setup\",\n      \"count\": 56,\n      \"doc_count\": 12,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"anthropic\",\n      \"count\": 51,\n      \"doc_count\": 12,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"skill\",\n      \"count\": 36,\n      \"doc_count\": 12,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"time\",\n      \"count\": 31,\n      \"doc_count\": 12,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"model\",\n      \"count\": 195,\n      \"doc_count\": 11,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"models\",\n      \"count\": 158,\n      \"doc_count\": 11,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"claude\",\n      \"count\": 119,\n      \"doc_count\": 11,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"tool\",\n      \"count\": 108,\n      \"doc_count\": 11,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"through\",\n      \"count\": 71,\n      \"doc_count\": 11,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"work\",\n      \"count\": 69,\n      \"doc_count\": 11,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"research\",\n      \"count\": 66,\n      \"doc_count\": 11,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"context\",\n      \"count\": 58,\n      \"doc_count\": 11,\n      \"term_type\": \"word\"\n    }\n  ]\n}\n"
+  },
+  "weak_local_fallback_used": false,
+  "web_capture_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "\n          \"markdown_path\": \"web/production-daily-manual-20260615T171122Z/loop-engineer-ai/02-loop-engineering-the-real-cost-of-agentic-ai-youtube.md\",\n          \"content_hash\": \"2a91f971b9245cc4170461e44a52a5dced3e88e7f3f76b42483fd3f69751af61\"\n        },\n        {\n          \"source_id\": \"src_9afbbbf9220b6a5c7360\",\n          \"query\": \"\\\"loop engineer\\\" AI\",\n          \"url\": \"https://www.youtube.com/watch?v=18FeGXyB-sI\",\n          \"title\": \"¿Qué es esto del Loop Engineering? - YouTube\",\n          \"description\": \"► Mi Academia de Ciencias de la Computación: https://link.bettatech.net/academiaSígueme en https://www.instagram.com/betta_tech/✉️ CONTACTO PROFESIONAL:► Re...\",\n          \"captured_at\": \"2026-06-15T17:12:12Z\",\n          \"http_status\": 200,\n          \"content_type\": \"text/html\",\n          \"markdown_path\": \"web/production-daily-manual-20260615T171122Z/loop-engineer-ai/03-qu-es-esto-del-loop-engineering-youtube.md\",\n          \"content_hash\": \"db1eaf1646c720ad600bcb92bb9649de67bd41cbb23665bd3cc1a06f814c6a35\"\n        }\n      ],\n      \"out_dir\": \"/home/hermoine/terefohealreboa/raw/web/production-daily-manual-20260615T171122Z/loop-engineer-ai\"\n    },\n    {\n      \"query\": \"\\\"Hermes\\\" \\\"OpenClaw\\\"\",\n      \"status\": \"ok\",\n      \"items\": [\n        {\n          \"source_id\": \"src_ea1748f7f34a056ff1c8\",\n          \"query\": \"\\\"Hermes\\\" \\\"OpenClaw\\\"\",\n          \"url\": \"https://github.com/nousresearch/hermes-agent\",\n          \"title\": \"GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub\",\n          \"description\": \"All documentation lives at hermes-agent.nousresearch.com/docs: ... If you&#x27;re coming from OpenClaw, <strong>Hermes can automatically import your settings, memories, skills, and API keys</strong>.\",\n          \"captured_at\": \"2026-06-15T17:12:14Z\",\n          \"http_status\": 200,\n          \"content_type\": \"text/html\",\n          \"markdown_path\": \"web/production-daily-manual-20260615T171122Z/hermes-openclaw/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md\",\n          \"content_hash\": \"55982c0432c0881963113401bf70e31513b5f7230deae90082b4234db14189da\"\n        },\n        {\n          \"source_id\": \"src_83be052ae2d01af590bd\",\n          \"query\": \"\\\"Hermes\\\" \\\"OpenClaw\\\"\",\n          \"url\": \"https://www.turingpost.com/p/hermes\",\n          \"title\": \"AI 101:Hermes vs OpenClaw: Local AI Agents Compared\",\n          \"description\": \"Hermes Agent: a self-hosted, persistent AI agent built around self-improvement and reusable skills. OpenClaw: <strong>a control-plane-first personal agent built around file-backed identity, explicit memory, and human-authored skills</strong>.\",\n          \"captured_at\": \"2026-06-15T17:12:14Z\",\n          \"http_status\": 200,\n          \"content_type\": \"text/html\",\n          \"markdown_path\": \"web/production-daily-manual-20260615T171122Z/hermes-openclaw/02-ai-101-hermes-vs-openclaw-local-ai-agents-compared.md\",\n          \"content_hash\": \"77b80514b25082b8d166f98c726d6eab07bb2020a2c9bb2e1157aab61c532194\"\n        },\n        {\n          \"source_id\": \"src_e64f10425f653bceb656\",\n          \"query\": \"\\\"Hermes\\\" \\\"OpenClaw\\\"\",\n          \"url\": \"https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent\",\n          \"title\": \"Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw\",\n          \"description\": \"Compare the best Hermes Agent models for quality, budget, local privacy, OpenRouter routing, and Ollama setups across Claude, DeepSeek, Llama, Qwen, GLM, and Kimi.\",\n          \"captured_at\": \"2026-06-15T17:12:14Z\",\n          \"http_status\": 200,\n          \"content_type\": \"text/html\",\n          \"markdown_path\": \"web/production-daily-manual-20260615T171122Z/hermes-openclaw/03-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md\",\n          \"content_hash\": \"e212731aa52d52c8ffab907a94585c0e7f6966972a63922bc9103d2a9c3986f0\"\n        }\n      ],\n      \"out_dir\": \"/home/hermoine/terefohealreboa/raw/web/production-daily-manual-20260615T171122Z/hermes-openclaw\"\n    }\n  ]\n}\n"
+  },
+  "workspace_verifier_ok": true,
+  "workspace_verifier_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"status\": \"ok\",\n  \"errors\": [],\n  \"warnings\": [],\n  \"db_path\": \"/home/hermoine/terefohealreboa/.var/book.sqlite\"\n}\n"
+  }
+}

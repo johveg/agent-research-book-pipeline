@@ -1,4 +1,4 @@
-# Run 45 schedule install artifact
+# Run 45 schedule install
 
 Generated: 2026-06-15T17:12:03Z
 

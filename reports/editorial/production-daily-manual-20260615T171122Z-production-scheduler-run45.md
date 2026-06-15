@@ -1,9 +1,11 @@
-# Run 45 schedule install artifact
+# Run 45 production scheduler
 
 Generated: 2026-06-15T17:12:03Z
 
 - run_id: `production-daily-manual-20260615T171122Z`
 - mode: `run45_schedule_install_artifact`
+- final_disposition: `production_daily_completed`
+- production_daily_completed: `True`
 - schedule_installed: `False`
 - schedule_installable: `True`
 

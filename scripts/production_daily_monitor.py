@@ -16,7 +16,7 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-RUN_RE = re.compile(r"^production-daily-\d{8}$")
+RUN_RE = re.compile(r"^(production-daily-\d{8}|production-daily-manual-\d{8}T\d{6}Z)$")
 FIXED_RUN_ID = "citation-pipeline-test-20260612"
 
 

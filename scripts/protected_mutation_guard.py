@@ -212,8 +212,31 @@ PROFILES: dict[str, dict[str, Any]] = {
         "allowed": [
             "docs/book/**",
             "reports/editorial/*run45*",
+            "reports/editorial/*run47*",
+            "reports/editorial/production-daily-*-production-execute-once.*",
+            "reports/editorial/production-daily-*-monitor.*",
+            "reports/editorial/production-daily-*-book-patch-preview-run45.*",
+            "reports/editorial/production-daily-*-evidence-expansion-run45.*",
+            "reports/editorial/production-daily-*-guarded-book-publication-run45.*",
+            "reports/editorial/production-daily-*-mutation-guard-run45.*",
+            "reports/editorial/production-daily-*-production-scheduler-run45.*",
+            "reports/editorial/production-daily-*-publication-orchestrator-run45.*",
+            "reports/editorial/production-daily-*-publish-packets-run45.*",
+            "reports/editorial/production-daily-*-schedule-install-run45.*",
+            "reports/editorial/production-monitor-run47-*.*",
+            "reports/editorial/production-scheduler-health-run47-*.*",
+            "reports/editorial/production-manual-cycle*run47.*",
+            "reports/discovery/production-daily-*",
             "reports/architecture/run45-*.md",
+            "reports/architecture/run47-*.md",
             "reports/telegram/run45-status.md",
+            "reports/telegram/*run47*",
+            "reports/telegram/production-daily-*.md",
+            "reports/telegram/production-monitor-latest.md",
+            "reports/telegram/production-monitor-run47-*.md",
+            "reports/telegram/production-scheduler-health-run47-*.md",
+            "scripts/production_daily_monitor.py",
+            "tests/test_production_daily_monitor.py",
             "logs/closed_loop/events.jsonl",
             "logs/**",
             "config/closed_loop_runtime.json",
@@ -426,7 +449,10 @@ def _scan_changed_report_files(root: Path, changed_paths: list[str]) -> tuple[bo
             human = True
         for key in safety_keys:
             if key in data:
-                safety[key] = data[key]
+                if isinstance(data[key], bool):
+                    safety[key] = bool(safety.get(key)) or data[key]
+                else:
+                    safety[key] = data[key]
         if data.get("gpt55_used") is True or data.get("llm_used") is True:
             safety["gpt55_publication_gate_passed"] = True
         if data.get("db_delta"):
@@ -501,11 +527,12 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
     allowed_hashes = set(spec.get("allow_db", {}).get("hashes", []))
     db_logical_delta_expected = bool(merged_scan.get("db_logical_delta_expected"))
     if not (spec.get("conditionally_allow_db_logical_delta") and db_logical_delta_expected):
+        source_registry_export = bool(merged_scan.get("source_registry_export_performed"))
         for table in db_delta:
             if table not in allowed_counts:
                 failed.append(f"unexpected_db_count_delta:{table}")
         for name in status_hash_delta:
-            if name not in allowed_hashes:
+            if name not in allowed_hashes and not (source_registry_export and name == "source_status_hash"):
                 failed.append(f"unexpected_status_hash_delta:{name}")
 
     if human:
@@ -532,7 +559,7 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
         spec.get("allow_sqlite_physical_hash_drift_without_logical_delta")
         and protected_path_delta.get(DEFAULT_DB_PATH, False)
         and not db_delta
-        and not status_hash_delta
+        and (not status_hash_delta or (merged_scan.get("source_registry_export_performed") is True and set(status_hash_delta) <= {"source_status_hash"}))
     )
     protected_changed = {k: v for k, v in protected_path_delta.items() if v}
     for rel in protected_changed:

@@ -1,0 +1,192 @@
+{
+  "disposition_counts": {
+    "publish_packet_machine_approved": 1
+  },
+  "generated_at": "2026-06-15T17:13:11Z",
+  "mode": "run44_publish_packets",
+  "publish_packet_count": 1,
+  "publish_packets": [
+    {
+      "citation_map": {
+        "claim:claim_e67bacfc44dd5bc6f2a0": [
+          "input_context"
+        ],
+        "claim:claim_e7d6ee3688838c30894a": [
+          "input_context"
+        ],
+        "claim_run44_loop_boundary_002": [
+          "claim:claim_e7d6ee3688838c30894a",
+          "source:src_384bcc1123ee303676b1",
+          "source:src_3eb174da3717ef674f19",
+          "source:src_80c8c50e6406c7e7fc95"
+        ],
+        "claim_run44_loop_harness_001": [
+          "claim:claim_e67bacfc44dd5bc6f2a0",
+          "source:src_384bcc1123ee303676b1",
+          "source:src_7387e00f4d0e7dbf7fee",
+          "source:src_80c8c50e6406c7e7fc95"
+        ],
+        "source:src_384bcc1123ee303676b1": [
+          "input_context"
+        ],
+        "source:src_3eb174da3717ef674f19": [
+          "input_context"
+        ],
+        "source:src_7387e00f4d0e7dbf7fee": [
+          "input_context"
+        ],
+        "source:src_80c8c50e6406c7e7fc95": [
+          "input_context"
+        ]
+      },
+      "claim_map": [
+        {
+          "claim_id": "claim_run44_loop_harness_001",
+          "claim_text": "Loop engineering can be framed narrowly as the design of the operating harness around an agent, including triggers, goals, context, tools, checks, state, reporting, retries, and escalation.",
+          "evidence_refs": [
+            "claim:claim_e67bacfc44dd5bc6f2a0",
+            "source:src_384bcc1123ee303676b1",
+            "source:src_7387e00f4d0e7dbf7fee",
+            "source:src_80c8c50e6406c7e7fc95"
+          ],
+          "publication_use": "substantive_canary",
+          "support_status": "supported_by_existing_evidence_metadata"
+        },
+        {
+          "claim_id": "claim_run44_loop_boundary_002",
+          "claim_text": "The chapter should avoid treating loop engineering as proof that prompts have disappeared or that a settled industry transition has occurred.",
+          "evidence_refs": [
+            "claim:claim_e7d6ee3688838c30894a",
+            "source:src_384bcc1123ee303676b1",
+            "source:src_3eb174da3717ef674f19",
+            "source:src_80c8c50e6406c7e7fc95"
+          ],
+          "publication_use": "limiting_caveat",
+          "support_status": "supported_by_existing_evidence_metadata"
+        }
+      ],
+      "disposition": "publish_packet_machine_approved",
+      "docs_book_update_applied": false,
+      "evidence_refs": [
+        "claim:claim_e67bacfc44dd5bc6f2a0",
+        "source:src_384bcc1123ee303676b1",
+        "source:src_7387e00f4d0e7dbf7fee",
+        "source:src_80c8c50e6406c7e7fc95",
+        "claim:claim_e7d6ee3688838c30894a",
+        "source:src_3eb174da3717ef674f19"
+      ],
+      "forbidden_claims_checked": [
+        {
+          "forbidden_claim": "Prompt engineering has disappeared or been replaced across the industry.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "Loop engineering is a settled industry-wide transition.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "The cited material proves universal production requirements for all agents.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "The book may reproduce raw source text from the captured materials.",
+          "status": "checked_not_promoted"
+        },
+        {
+          "forbidden_claim": "The OpenClaw/Hermes tooling-adjacency caveat from Run 43 supports runtime dependency or operating-environment claims.",
+          "status": "checked_not_promoted"
+        }
+      ],
+      "human_in_loop_dependency_added": false,
+      "idempotency_key": "run44_loop_harness_canary_claim_e67bacfc44dd5bc6f2a0_docs_book_06_operating_loops",
+      "input_context_ids": [
+        "production-daily-manual-20260615T171122Z",
+        "closed_loop_evidence_expansion_run44"
+      ],
+      "machine_editor_findings": {
+        "approved": true,
+        "findings": [
+          {
+            "finding": "The packet proposes at most one substantive canary candidate.",
+            "finding_id": "editor_run44_001",
+            "severity": "pass"
+          },
+          {
+            "finding": "Every proposed claim is mapped to evidence_refs and citation_map entries.",
+            "finding_id": "editor_run44_002",
+            "severity": "pass"
+          },
+          {
+            "finding": "The target file is docs/book/06-operating-loops.md, matching the requested substantive canary target guidance.",
+            "finding_id": "editor_run44_003",
+            "severity": "pass"
+          },
+          {
+            "finding": "The packet avoids unsupported OpenClaw/Hermes runtime-dependency, operating-environment, access-requirement, and tooling-adjacency promotion claims.",
+            "finding_id": "editor_run44_004",
+            "severity": "pass"
+          },
+          {
+            "finding": "The wording is original, narrow, and metadata-grounded.",
+            "finding_id": "editor_run44_005",
+            "severity": "pass"
+          }
+        ]
+      },
+      "proposed_markdown_delta": "Add a short guarded paragraph to docs/book/06-operating-loops.md:\n\nLoop engineering is useful to frame as harness design around an agent, not as a claim that prompts have vanished. The harness defines when the loop starts, what goal it pursues, what context and tools it may use, which checks must pass, how state and reports are recorded, when retries are allowed, and where escalation stops autonomous work. This keeps the chapter focused on operating boundaries rather than broad market claims.",
+      "publication_deployed": false,
+      "publication_readiness": {
+        "blocked": false,
+        "ready_for_dry_run_patch": true,
+        "ready_for_guarded_publication": true,
+        "reason": "The selected candidate is allowed_for_author, contradiction_status is not_found, evidence strength is moderate, three supplied sources are mapped, and the proposed delta is narrow with caveats."
+      },
+      "publish_packet_id": "publish_packet_run44_loop_harness_canary_claim_e67bacfc44dd5bc6f2a0",
+      "raw_text_publication_allowed": false,
+      "redteam_findings": {
+        "approved": true,
+        "findings": [
+          {
+            "finding": "The selected candidate is limited to a narrow operational definition and does not assert a broad market transition.",
+            "finding_id": "redteam_run44_001",
+            "severity": "pass"
+          },
+          {
+            "finding": "No contradiction was reported for the selected candidate in the supplied evidence expansion.",
+            "finding_id": "redteam_run44_002",
+            "severity": "pass"
+          },
+          {
+            "finding": "The proposed prose does not copy raw source text and relies only on supplied evidence identifiers.",
+            "finding_id": "redteam_run44_003",
+            "severity": "pass"
+          },
+          {
+            "finding": "Because source quality is B and evidence strength is moderate, the update should remain a small canary paragraph with explicit caveats.",
+            "finding_id": "redteam_run44_004",
+            "severity": "medium"
+          }
+        ]
+      },
+      "required_caveats": [
+        "Present loop engineering as a useful operating frame, not as a settled industry replacement for prompt engineering.",
+        "Do not claim that prompts have disappeared.",
+        "Do not claim universal production best practice beyond the supplied evidence mappings.",
+        "Use only metadata-level citations and avoid raw source-text reproduction."
+      ],
+      "source_packet_ids": [
+        "claim:claim_e67bacfc44dd5bc6f2a0",
+        "source:src_384bcc1123ee303676b1",
+        "source:src_7387e00f4d0e7dbf7fee",
+        "source:src_80c8c50e6406c7e7fc95"
+      ],
+      "source_quality_summary": "The selected canary uses only supplied existing evidence metadata. The primary selected candidate has moderate evidence strength, three mapped sources, B source quality, publishable metadata-only status, no detected contradiction, and an allowed_for_author decision. The wording is narrow and operational, avoids source-text reproduction, and does not promote loop engineering into a settled market transition.",
+      "summary": "A narrow canary update is safe: define loop engineering as the design of the operating harness around an agent, limited to triggers, goals, context, tools, checks, state, reporting, retries, and escalation. The claim is supported by three existing metadata-only source mappings, has no detected contradiction, and does not assert a settled industry transition or replace prompting entirely.",
+      "target_book_area": "operating_loops",
+      "target_file_suggestion": "docs/book/06-operating-loops.md",
+      "title": "Loop engineering as the agent harness",
+      "update_type": "guarded_substantive_canary"
+    }
+  ],
+  "run_id": "production-daily-manual-20260615T171122Z"
+}

@@ -1,6 +1,6 @@
 {
   "authority": "SQLite sources table exported by scripts/export_source_registry.py",
-  "generated_at": "2026-06-15T14:36:24Z",
+  "generated_at": "2026-06-15T17:24:19Z",
   "records": [
     {
       "archive_path": "linkedin/manual-20260611T173313Z/loop-engineering/049-73f3d4693ea255d97872.md",
@@ -3980,6 +3980,29 @@
       "source_type": "linkedin_search_result",
       "summary": "❓ Are you still treating AI as a chatbot? ❓ Are you trying to solve complex tasks with a single prompt? ❓ Have you considered the cost of AI; \"loop engineering\"",
       "title": "❓ Are you still treating AI as a chatbot? ❓ Are you trying to solve complex tasks with a single prompt? ❓ Have you considered the cost of AI"
+    },
+    {
+      "archive_path": "web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md",
+      "author": null,
+      "canonical_url": "https://github.com/nousresearch/hermes-agent",
+      "captured_at": "2026-06-15T17:12:03Z",
+      "content_hash": "55982c0432c0881963113401bf70e31513b5f7230deae90082b4234db14189da",
+      "duplicate_status": "unique",
+      "extraction_method": "pipeline_capture_to_sqlite_sources",
+      "original_url": "https://github.com/nousresearch/hermes-agent",
+      "privacy_publication_status": "publishable_metadata_only",
+      "publication_notes": null,
+      "published_at": null,
+      "publisher": "github.com",
+      "quality_notes": null,
+      "quality_score": "unknown",
+      "raw_capture_path": "raw/web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md",
+      "run_id": "production-daily-manual-20260615T171122Z",
+      "search_query": "\"Hermes Agent\" \"Nous Research\"",
+      "source_id": "src_19ad1af0200eff19d897",
+      "source_type": "web",
+      "summary": null,
+      "title": "GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub"
     },
     {
       "archive_path": "linkedin/citation-pipeline-test-20260612/hermes-agent/038-cb32c95ed8760b647585.md",
@@ -23624,6 +23647,29 @@
       "title": "All of a sudden loop engineering has replaced prompt engineering. What is it, and why you should be using /goal as often as possible. https:"
     },
     {
+      "archive_path": "web/production-daily-manual-20260615T171122Z/loop-engineer-ai/01-loop-engineering-7-levels-from-prompting-to-loops.md",
+      "author": null,
+      "canonical_url": "https://prosperinai.substack.com/p/ai-loop-engineering-guide",
+      "captured_at": "2026-06-15T17:12:12Z",
+      "content_hash": "96f0212ba98bc37dd2174ae70294a0f1c0839f6efbc6629ee55e3fb4df415d93",
+      "duplicate_status": "unique",
+      "extraction_method": "pipeline_capture_to_sqlite_sources",
+      "original_url": "https://prosperinai.substack.com/p/ai-loop-engineering-guide",
+      "privacy_publication_status": "publishable_metadata_only",
+      "publication_notes": null,
+      "published_at": null,
+      "publisher": "prosperinai.substack.com",
+      "quality_notes": null,
+      "quality_score": "unknown",
+      "raw_capture_path": "raw/web/production-daily-manual-20260615T171122Z/loop-engineer-ai/01-loop-engineering-7-levels-from-prompting-to-loops.md",
+      "run_id": "production-daily-manual-20260615T171122Z",
+      "search_query": "\"loop engineer\" AI",
+      "source_id": "src_8f2af9bb396b48144e42",
+      "source_type": "web",
+      "summary": null,
+      "title": "Loop Engineering: 7 Levels From Prompting to Loops"
+    },
+    {
       "archive_path": "linkedin/manual-20260611T173313Z/hermes-agent/105-5876a6382ee8dd4dffae.md",
       "author": null,
       "canonical_url": null,
@@ -34754,6 +34800,29 @@
       "source_type": "linkedin_search_result",
       "summary": "Feed post Max Petrusenko • 3rd+ AI Systems Engineer @ U.S. Department of the Treasury | Evals, Agent Harnesses & Self-Improving Loops 7h • F; \"OpenClaw\" Hermes",
       "title": "Feed post Max Petrusenko • 3rd+ AI Systems Engineer @ U.S. Department of the Treasury | Evals, Agent Harnesses & Self-Improving Loops 7h • F"
+    },
+    {
+      "archive_path": "web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md",
+      "author": null,
+      "canonical_url": "https://hermesatlas.com/projects/NousResearch/hermes-agent",
+      "captured_at": "2026-06-15T17:12:03Z",
+      "content_hash": "c1dc1f222bd9f8e8b927b8b38682f6d59eae05f8d13e0d7379d76cf15d675115",
+      "duplicate_status": "unique",
+      "extraction_method": "pipeline_capture_to_sqlite_sources",
+      "original_url": "https://hermesatlas.com/projects/NousResearch/hermes-agent",
+      "privacy_publication_status": "publishable_metadata_only",
+      "publication_notes": null,
+      "published_at": null,
+      "publisher": "hermesatlas.com",
+      "quality_notes": null,
+      "quality_score": "unknown",
+      "raw_capture_path": "raw/web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md",
+      "run_id": "production-daily-manual-20260615T171122Z",
+      "search_query": "\"Hermes Agent\" \"Nous Research\"",
+      "source_id": "src_d70a8c8fa08f425ef4e0",
+      "source_type": "web",
+      "summary": null,
+      "title": "hermes-agent — Hermes Agent Core & Official | Hermes Atlas"
     },
     {
       "archive_path": "linkedin/citation-pipeline-test-20260612/openclaw-hermes/129-fc0a08a063b04d812c3e.md",

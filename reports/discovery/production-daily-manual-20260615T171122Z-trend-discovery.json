@@ -1,0 +1,186 @@
+{
+  "candidates": [
+    {
+      "count": 26,
+      "doc_count": 15,
+      "term": "status",
+      "term_type": "word"
+    },
+    {
+      "count": 21,
+      "doc_count": 15,
+      "term": "type",
+      "term_type": "word"
+    },
+    {
+      "count": 19,
+      "doc_count": 15,
+      "term": "content",
+      "term_type": "word"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "content type",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "content type html",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "extracted",
+      "term_type": "word"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "html",
+      "term_type": "word"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "html snippet",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "snippet",
+      "term_type": "word"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "status content",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "status content type",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "t17 status",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "t17 status content",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "type html",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "type html snippet",
+      "term_type": "phrase"
+    },
+    {
+      "count": 48,
+      "doc_count": 14,
+      "term": "real",
+      "term_type": "word"
+    },
+    {
+      "count": 104,
+      "doc_count": 12,
+      "term": "code",
+      "term_type": "word"
+    },
+    {
+      "count": 58,
+      "doc_count": 12,
+      "term": "start",
+      "term_type": "word"
+    },
+    {
+      "count": 56,
+      "doc_count": 12,
+      "term": "setup",
+      "term_type": "word"
+    },
+    {
+      "count": 51,
+      "doc_count": 12,
+      "term": "anthropic",
+      "term_type": "word"
+    },
+    {
+      "count": 36,
+      "doc_count": 12,
+      "term": "skill",
+      "term_type": "word"
+    },
+    {
+      "count": 31,
+      "doc_count": 12,
+      "term": "time",
+      "term_type": "word"
+    },
+    {
+      "count": 195,
+      "doc_count": 11,
+      "term": "model",
+      "term_type": "word"
+    },
+    {
+      "count": 158,
+      "doc_count": 11,
+      "term": "models",
+      "term_type": "word"
+    },
+    {
+      "count": 119,
+      "doc_count": 11,
+      "term": "claude",
+      "term_type": "word"
+    },
+    {
+      "count": 108,
+      "doc_count": 11,
+      "term": "tool",
+      "term_type": "word"
+    },
+    {
+      "count": 71,
+      "doc_count": 11,
+      "term": "through",
+      "term_type": "word"
+    },
+    {
+      "count": 69,
+      "doc_count": 11,
+      "term": "work",
+      "term_type": "word"
+    },
+    {
+      "count": 66,
+      "doc_count": 11,
+      "term": "research",
+      "term_type": "word"
+    },
+    {
+      "count": 58,
+      "doc_count": 11,
+      "term": "context",
+      "term_type": "word"
+    }
+  ],
+  "generated_at": "2026-06-15T17:12:17Z",
+  "run_id": "production-daily-manual-20260615T171122Z"
+}

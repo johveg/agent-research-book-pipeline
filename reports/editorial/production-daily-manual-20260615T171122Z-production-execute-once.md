@@ -1,11 +1,33 @@
-# Run 45 schedule install artifact
+# Run 45 production execute-once
 
 Generated: 2026-06-15T17:12:03Z
 
 - run_id: `production-daily-manual-20260615T171122Z`
 - mode: `run45_schedule_install_artifact`
+- final_disposition: `production_daily_completed`
+- production_daily_completed: `True`
+- production_daily_failed_closed: `False`
+- runtime_config_created: `True`
+- production_scheduler_created: `True`
 - schedule_installed: `False`
 - schedule_installable: `True`
+- execute_once_result: `completed`
+- gpt55_used: `True`
+- raw_collection_performed: `True`
+- extraction_performed: `True`
+- evidence_promotion_performed: `True`
+- author_editor_redteam_performed: `True`
+- guarded_publication_performed: `True`
+- publication_status: `live_gpt55_completed`
+- substantive_update_applied: `True`
+- daily_status_fallback_applied: `False`
+- mutation_guard_ok: `True`
+- citation_verifier_ok: `True`
+- mkdocs_strict_ok: `True`
+
+## Docs/book files changed
+
+- `docs/book/06-operating-loops.md`
 
 ## Schedule command
 

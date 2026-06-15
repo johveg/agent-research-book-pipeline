@@ -1,17 +1,17 @@
 # Loop Engineering
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T06:02:48Z
-- Source count: 495
-- Mention count: 10650
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 619
+- Mention count: 13546
 
 ## Description
 
-Candidate concept entity extracted from 44 source(s).
+Candidate concept entity extracted from 238 source(s).
 
 ## Related claims
 
@@ -22,24 +22,37 @@ Candidate concept entity extracted from 44 source(s).
 - **candidate / weak** — But they are using a revolutionary architecture just to fix Python synta "loop engineering". (`claim_90ad8794db77377938f3`)
 - **candidate / weak** — Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec "loop engineering". (`claim_15f8b0cc4f368aebcaa7`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
+- **candidate / weak** — HealthcareAuditIQ™ is a constitutional Decision Assurance Platform that introduces a new systems architecture where verified evidence, execu "loop engineering". (`claim_e3c04c8f6185a933baa5`)
 - **candidate / weak** — I am pleased to share Phase 1 of Judicium, an AI-native engineering assessment platform built around a single conviction: code production is "loop engineering". (`claim_b1c70983319d96ed6985`)
+- **candidate / weak** — I was tired of creating prompts (over 10k) and decided to learn loop engineering. (`claim_05aeaef1b86dca77ac49`)
+- **candidate / weak** — I will consume 1 billion tokens per day next week , my daily tokens usage is competing with my daily trading volume lol Interesting to use h "loop engineering". (`claim_61b509a28c046ad1e205`)
 - **candidate / weak** — I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice. (`claim_773e28b6a909ecda80a4`)
 - **candidate / weak** — Is Loop Engineering the next big thing, or the next big token bill?. (`claim_eae05f1f08eda49650e2`)
 - **candidate / weak** — Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate "loop engineering". (`claim_aa15ac8d93b19deb75a5`)
+- **candidate / weak** — National debt is at $39.20 trillion, pacing "loop engineering". (`claim_384b8fc4eb6c06e93173`)
+- **candidate / weak** — Now AI is pushing the concept of Content as Dynamic Layer 'Loop "loop engineering". (`claim_9be3cdd6c663bf00ec0d`)
+- **candidate / weak** — Prompt Engineering was: "AI, do this." Loop Engineering is: "AI, do this → check this → fix this → repeat until it's good." 😄 We're slowly m "loop engineering". (`claim_0b29e77e277906229e55`)
+- **candidate / weak** — Seeing the latest hype wave of loop engineering has lead me to one conclusion. (`claim_53b1573947628a164c22`)
+- **candidate / weak** — Source: - Image generated with Gemini - Prompt description is my ow "loop engineering". (`claim_7e2b3a74e4a583fd424c`)
 - **candidate / weak** — Supporting the next generation of engineers is something we're proud to do at Loop Engineering. (`claim_9c0316e189a0206606cc`)
-- **candidate / weak** — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. (`claim_7e74b63407356799b13e`)
-- **candidate / weak** — The term is all over the place right now, and it started with two post "loop engineering". (`claim_a23dc490defc35cc52cc`)
-- **candidate / weak** — There are 4 layers to working with AI effectively—and most teams are st "loop engineering". (`claim_287f3002d53df171b280`)
-- **candidate / weak** — This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b "loop engineering". (`claim_604d0ac7c64497718722`)
-- **candidate / weak** — When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic "loop engineering". (`claim_4e36acee44718cc794a3`)
-- **candidate / weak** — While most organisations were using AI as a tool, we were explorin "loop engineering". (`claim_fd04d0320e8001e3048f`)
-- **candidate / weak** — With all the talk on loop engineering lately, here is how I have been getting the mo "loop engineer". (`claim_c869d3aa19cd0508b563`)
-- **candidate / weak** — ❌ We have a massive structural problem in how we "loop engineering". (`claim_2d52e41459ab0319d427`)
 
 ## Source references
 
+- `src_4b278c58c11c619f3e28` — Loop Engineering (Ingeniería de Bucles) es un nuevo enfoque para trabajar con agentes de IA para código. En lugar de estar tú promptando man
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/014-b84a179b5488a03678cd.md`
+- `src_72c51bf974ac216000b3` — 又到了週日 Youtube 總結的日子 這週出差路上錄了一下 我們現在 Agent 的一個 Task，流程是 Plan、Execution、Verify，最後由人決定下一步。Loop Engineering 想做的，就是把「人決定下一步」這一步也交給 Agent。目標是做出一個會
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/031-bb42cae5733a42a95413.md`
+- `src_85a5a89b69be1641bf89` — Loop Engineering hashtag #claude hashtag #fable hashtag #mythos
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/064-b308b64010011137f7c4.md`
 - `src_1b610a06f1bcba7d81e4` — Loop Engineering: The Next Big Shift in How We Work With AI A new idea is trending in AI right now, and it is called "loop engineering." For
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/172-0fbc6d5be563445b9b8e.md`
+- `src_12c8cffacda909ef9717` — Feed post GyaanSetu WebDev 661 followers 4h • Follow 𝗟𝗼𝗼𝗽 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗮𝗻𝗱 𝗗𝘆𝗻𝗮𝗺𝗶𝗰 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀 I realized I was doing Loop Engineering manually
+  - URL: https://www.linkedin.com/company/gyaansetu-webdev/posts
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/035-fbf347ab55f5f27fab93.md`
+- `src_3074524e03728f8ee123` — 𝗟𝗼𝗼𝗽 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗮𝗻𝗱 𝗗𝘆𝗻𝗮𝗺𝗶𝗰 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀 I realized I was doing Loop Engineering manually. Most people use AI to write code. I use AI to build
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/037-68f2b9230aab0b6750d9.md`
+- `src_cba02448cc0c903bcf6f` — Prompt engineering te dá respostas melhores. Loop engineering te dá sistemas melhores. Escrevi um artigo sobre essa diferença.
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/007-3b6fd562fd0c64778dc1.md`
 - `src_59b180e9625a95a78dc0` — Feed post Cathartic Computing Club 578 followers 1h • Follow The paradigm shift in interacting with coding agents is here: Loop Engineering.
   - URL: https://www.linkedin.com/company/davilagrau/posts
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/031-da1b79830678c0fdd977.md`
@@ -82,17 +95,3 @@ Candidate concept entity extracted from 44 source(s).
 - `src_095c81dde99ff28d9217` — Loop Engineering: Managing Teams of AI Coding Agents
   - URL: https://www.mattwarren.co/2026/06/loop-engineering/
   - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/05-loop-engineering-managing-teams-of-ai-coding-agents.md`
-- `src_d187c2ef70e627274ce1` — Loop Engineering
-  - URL: https://www.evnekquest.com/post/loop-engineering
-  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/06-loop-engineering.md`
-- `src_e0864997d036665b77f9` — Loop Engineering: Design AI Loops That Ship While You Sleep
-  - URL: https://linas.substack.com/p/loop-engineering-complete-guide
-  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/04-loop-engineering-design-ai-loops-that-ship-while-you-sleep.md`
-- `src_14d5206f07305edbab45` — We've moved fast. Vibe coding → Agentic workflows → Harness engineering → Loop engineering. But here's the question nobody's asking loudly e
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/099-c4017c55be4e384c083a.md`
-- `src_358f72ad3225c760e7d8` — Enterprise Architecture is entering the Loop Engineering era. For years, EA was built around static artifacts: Capability Maps Target Archit
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/112-d18b315b431a39f58491.md`
-- `src_4843b283b5fc4e93dd43` — Loop engineering — the practice of designing automated agent workflows instead of prompting manually — is reshaping how developers use Claud
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/159-7d4574beb029982da5e6.md`
-- `src_4ece22e6dadda1dd0ac6` — "Loop engineering" is a term that has emerged recently. It means designing the system that runs a coding agent, instead of prompting the age
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/109-c98d67376a024dded32f.md`

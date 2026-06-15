@@ -1,17 +1,17 @@
 # OpenAI
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
-- Type: `tool`
+- Type: `unknown`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 6
-- Mention count: 76
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 8
+- Mention count: 78
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate unknown entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -33,3 +33,9 @@ No related claim records yet.
 - `src_7c138ed755684e992664` — Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn
   - URL: https://www.linkedin.com/company/claude-code/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/026-4bdef0f146d734380888.md`
+- `src_e67b7b5925f668983298` — Feed post Krrish D. • 3rd+ CEO @ LiteLLM (YC W23) 45k+ Github stars | Call 100+ LLMs using the OpenAI format | We’re Hiring at Berri AI! 20h
+  - URL: https://www.linkedin.com/in/krish-d?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzWhFUB-wUO9nKUHOTLfyjfTfKPRafiO0I
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/121-805411aaf3dbc84d207f.md`
+- `src_5306a105a1b20dfdd811` — How to integrate Openai with Hermes | Composio
+  - URL: https://composio.dev/toolkits/openai/framework/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-openclaw/09-how-to-integrate-openai-with-hermes-composio.md`

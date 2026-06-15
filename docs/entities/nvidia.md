@@ -1,21 +1,21 @@
-# NVIDIA
+# Nvidia
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
-- Type: `tool`
+- Type: `concept`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 6
-- Mention count: 74
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 7
+- Mention count: 75
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate concept entity extracted from 1 source(s).
 
 ## Related claims
 
-No related claim records yet.
+- **candidate / weak** — Here is the full setup — Nvidia quietly opened up "Hermes Agent". (`claim_0feca61e877669c7ec40`)
 
 ## Source references
 
@@ -30,6 +30,8 @@ No related claim records yet.
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/084-a1d13b78b085e1a94b74.md`
 - `src_493680d2704233180d12` — NVIDIA amplia a IA local baseada em agentes Os agentes pessoais estão se popularizando rapidamente, com projetos de código aberto como OpenC
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/067-5987cdee5ab17ea84b46.md`
+- `src_1bb269b728983df9eca8` — You can use 120 AI models completely free without wasting any API keys. 🤯 In just 3 steps. Here is the full setup — Nvidia quietly opened up
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/057-55669359afba08fdc8be.md`
 - `src_2800699832e778aafa04` — Feed post NVIDIA 5,517,182 followers 4h • Follow Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Re
   - URL: https://www.linkedin.com/company/nvidia/posts
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/069-6875082db11b71bd7c1e.md`

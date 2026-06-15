@@ -1,17 +1,17 @@
 # Hermes AI
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `tool`
-- Confidence: `medium`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-13T01:27:13Z
-- Source count: 3
-- Mention count: 18
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 4
+- Mention count: 19
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -21,6 +21,8 @@ Candidate tool entity extracted from 2 source(s).
 
 - `src_057f7acab7204b3cdd49` — My Hermes AI agent now adds my daily groceries to my Swiggy cart every morning. All I do is check the cart and make the payment. I don't bro
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/149-678e8cdaf27291a048b8.md`
+- `src_621df98605edd4d59685` — How to Turn Hermes Into a Video Editing Workbench A step-by-step guide to turning the Hermes AI agent into a video editing workbench using F
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/151-523678fe83786486052f.md`
 - `src_0b40058568ca8368d5c7` — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). Our monthly deposit volume growth since Nov '25 has
   - URL: https://www.linkedin.com/company/payperq/
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/116-10b3642afa281826367b.md`

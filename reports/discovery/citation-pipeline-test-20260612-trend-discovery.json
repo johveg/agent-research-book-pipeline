@@ -1,186 +1,186 @@
 {
   "candidates": [
     {
-      "count": 876,
-      "doc_count": 832,
+      "count": 1354,
+      "doc_count": 1290,
       "term": "send",
       "term_type": "word"
     },
     {
-      "count": 870,
-      "doc_count": 794,
+      "count": 1348,
+      "doc_count": 1230,
       "term": "repost",
       "term_type": "word"
     },
     {
-      "count": 792,
-      "doc_count": 792,
+      "count": 1228,
+      "doc_count": 1228,
       "term": "repost send",
       "term_type": "phrase"
     },
     {
-      "count": 712,
-      "doc_count": 712,
+      "count": 1110,
+      "doc_count": 1110,
       "term": "afsd",
       "term_type": "word"
     },
     {
-      "count": 712,
-      "doc_count": 712,
+      "count": 1110,
+      "doc_count": 1110,
       "term": "ali afsd",
       "term_type": "phrase"
     },
     {
-      "count": 685,
-      "doc_count": 463,
+      "count": 1030,
+      "doc_count": 676,
       "term": "just",
       "term_type": "word"
     },
     {
-      "count": 789,
-      "doc_count": 436,
+      "count": 1211,
+      "doc_count": 665,
       "term": "image",
       "term_type": "word"
     },
     {
-      "count": 436,
-      "doc_count": 418,
+      "count": 667,
+      "doc_count": 644,
       "term": "activity",
       "term_type": "word"
     },
     {
-      "count": 823,
-      "doc_count": 415,
+      "count": 1256,
+      "doc_count": 639,
       "term": "view",
       "term_type": "word"
     },
     {
-      "count": 1156,
-      "doc_count": 401,
-      "term": "claude",
-      "term_type": "word"
-    },
-    {
-      "count": 740,
-      "doc_count": 398,
+      "count": 1140,
+      "doc_count": 620,
       "term": "larger",
       "term_type": "word"
     },
     {
-      "count": 892,
-      "doc_count": 392,
-      "term": "code",
-      "term_type": "word"
-    },
-    {
-      "count": 726,
-      "doc_count": 391,
+      "count": 1103,
+      "doc_count": 600,
       "term": "activate",
       "term_type": "word"
     },
     {
-      "count": 718,
-      "doc_count": 383,
+      "count": 1094,
+      "doc_count": 591,
       "term": "activate view",
       "term_type": "phrase"
     },
     {
-      "count": 718,
-      "doc_count": 383,
+      "count": 1094,
+      "doc_count": 591,
       "term": "activate view larger",
       "term_type": "phrase"
     },
     {
-      "count": 718,
-      "doc_count": 383,
+      "count": 1094,
+      "doc_count": 591,
       "term": "larger image",
       "term_type": "phrase"
     },
     {
-      "count": 718,
-      "doc_count": 383,
+      "count": 1094,
+      "doc_count": 591,
       "term": "view larger",
       "term_type": "phrase"
     },
     {
-      "count": 718,
-      "doc_count": 383,
+      "count": 1094,
+      "doc_count": 591,
       "term": "view larger image",
       "term_type": "phrase"
     },
     {
-      "count": 713,
-      "doc_count": 346,
-      "term": "every",
+      "count": 1326,
+      "doc_count": 581,
+      "term": "code",
       "term_type": "word"
     },
     {
-      "count": 508,
-      "doc_count": 341,
+      "count": 1517,
+      "doc_count": 548,
+      "term": "claude",
+      "term_type": "word"
+    },
+    {
+      "count": 765,
+      "doc_count": 542,
       "term": "lnkd.in",
       "term_type": "word"
     },
     {
-      "count": 471,
-      "doc_count": 332,
+      "count": 1031,
+      "doc_count": 511,
+      "term": "every",
+      "term_type": "word"
+    },
+    {
+      "count": 718,
+      "doc_count": 502,
       "term": "real",
       "term_type": "word"
     },
     {
-      "count": 500,
-      "doc_count": 330,
+      "count": 704,
+      "doc_count": 483,
       "term": "building",
       "term_type": "word"
     },
     {
-      "count": 603,
-      "doc_count": 315,
-      "term": "work",
-      "term_type": "word"
-    },
-    {
-      "count": 411,
-      "doc_count": 309,
-      "term": "time",
-      "term_type": "word"
-    },
-    {
-      "count": 587,
-      "doc_count": 292,
-      "term": "prompt",
-      "term_type": "word"
-    },
-    {
-      "count": 1315,
-      "doc_count": 291,
-      "term": "model",
-      "term_type": "word"
-    },
-    {
-      "count": 289,
-      "doc_count": 289,
+      "count": 465,
+      "doc_count": 465,
       "term": "image repost",
       "term_type": "phrase"
     },
     {
-      "count": 289,
-      "doc_count": 289,
+      "count": 465,
+      "doc_count": 465,
       "term": "larger image repost",
       "term_type": "phrase"
     },
     {
-      "count": 475,
-      "doc_count": 282,
-      "term": "through",
+      "count": 877,
+      "doc_count": 461,
+      "term": "work",
       "term_type": "word"
     },
     {
-      "count": 481,
-      "doc_count": 281,
+      "count": 2002,
+      "doc_count": 448,
+      "term": "model",
+      "term_type": "word"
+    },
+    {
+      "count": 887,
+      "doc_count": 448,
+      "term": "prompt",
+      "term_type": "word"
+    },
+    {
+      "count": 617,
+      "doc_count": 444,
+      "term": "time",
+      "term_type": "word"
+    },
+    {
+      "count": 707,
+      "doc_count": 435,
       "term": "build",
       "term_type": "word"
+    },
+    {
+      "count": 429,
+      "doc_count": 429,
+      "term": "image repost send",
+      "term_type": "phrase"
     }
   ],
-  "generated_at": "2026-06-14T01:25:05Z",
+  "generated_at": "2026-06-15T01:26:50Z",
   "run_id": "citation-pipeline-test-20260612"
 }

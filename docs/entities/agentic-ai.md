@@ -1,20 +1,22 @@
 # Agentic AI
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `concept`
-- Confidence: `medium`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 15
-- Mention count: 160
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 24
+- Mention count: 169
 
 ## Description
 
-Candidate concept entity extracted from 2 source(s).
+Candidate concept entity extracted from 9 source(s).
 
 ## Related claims
 
+- **candidate / weak** — For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie "Hermes Agent". (`claim_0fc0a2e7b5d6326d0ec4`)
+- **candidate / weak** — This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it. (`claim_bfa085eef34478e900c3`)
 - **needs_review / weak** — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and "Hermes Agent". (`claim_c69ac1d5516664ca8a82`)
 - **needs_review / weak** — Loop Engineering Emerges as New Standard for Agentic AI Deployment 📌 The AI landscape is shifting from manual prompting to loop engineering, "loop engineering". (`claim_bb9214728e7a7d9589c9`)
 - **needs_review / weak** — MyAgenta is an advanced agentic AI platform and entity developed by DrRobotoAi, specializing in multi-modal AI, digital human avatars, and a "Hermes Agent". (`claim_921da09c38667a3bb658`)
@@ -50,6 +52,31 @@ Candidate concept entity extracted from 2 source(s).
 - `src_c04ac0bb49c390c67ff2` — Feed post Nishant Dodiya • 3rd+ AI Infrastructure Engineer & Prompt Systems Architect | 6+ Years | Agentic AI, LLMOps, Evaluation Systems & 
   - URL: https://www.linkedin.com/in/nishant-dodiya-4964251a2?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC9nlnIBKd7rlrLXlPq_XJIGlc2-0-5zbME
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/118-9db4d655392464ca3c26.md`
+- `src_02b073d7a2dc972de246` — Feed post Sai Teja Pusuluri, PhD Sai Teja Pusuluri, PhD • 3rd+ Agentic AI | Experienced AI Researcher | Cross-Modal AI Solutions | Einstein 
+  - URL: https://www.linkedin.com/in/sai-teja-pusuluri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAeFt0ABZhx881aWRIte7siMimKKfXwVVgE
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/008-85c97fa3fcd86fabf2e9.md`
+- `src_604600649f21a4613894` — Feed post Ryan P. • 3rd+ Agentic AI & LLM reliability | custom harnesses, spec driven development, evals, and demos you can inspect | proof-
+  - URL: https://www.linkedin.com/in/ryan-prasad-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADvzpsABT76Qd5n7fj2ZVmA-i4Vpfe0Srf4
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/082-f2699025dc0cc6af2a71.md`
+- `src_b4dc1ea322d1d6278287` — Feed post Vlad Daskalov, MBA • 3rd+ Shipping Software with Agentic AI, Not Just Talking About It 14h • Edited • Follow The Fable (5) inciden
+  - URL: https://www.linkedin.com/in/v11d?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-KVs4BfsX01sAESNq7uq6nWmpBkNvxDJA
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/158-292d12c4b70bb7aa2c4f.md`
+- `src_34708d0bda378ebf37fd` — 🤯 This app takes any book you read and turns it into a collection of Agentic AI (Hermes/OpenClaw/Claude Code) skill markdown files.
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/057-45624a146e58e6a3b4e7.md`
+- `src_08511ce1ba99d3c48ab9` — Feed post Mariane Bekker • 3rd+ Head of DevRel @ You.com | Agentic AI & Developer Infrastructure | Founder & Investor @ Founders Bay · 250k 
+  - URL: https://www.linkedin.com/in/marianebekker?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAaZ6_kBd_MgwNXbHunny0zK6hM7OUsCMZo
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/064-2fd5f5aab35f7cfe04cb.md`
+- `src_6a285ffb6edbcf6e74ac` — Feed post Faisal AlBlooshi Faisal AlBlooshi • 3rd+ IT Freelance Consultancy 4h • Follow For the techies Agentic AI, Hermes agentic applicati
+  - URL: https://www.linkedin.com/in/faisal-alblooshi-458b17102?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABomZsQBPt78Q5DKm0aDdC9URIZnzLmLtCw
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/070-57b70472841ee0053c8e.md`
+- `src_bb092ea64cbcc48d8f9e` — This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it. 
+  - URL: https://www.linkedin.com/company/nousresearch/
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/157-5df4878fa0b34eb3ba1d.md`
+- `src_ec75e91c5acbd041229c` — For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/072-171aeff7e8fce13f9ce1.md`
+- `src_66bb034203c14018f9be` — Loop Engineering & the Real Cost of Agentic AI - YouTube
+  - URL: https://www.youtube.com/watch?v=Odb4YoglSdM
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/02-loop-engineering-the-real-cost-of-agentic-ai-youtube.md`
 - `src_8a9385d706e71e9a453b` — Feed post Vince D'souza • 3rd+ Software Engineer @CoComply | Design-Engineer · Agentic AI 7h • Follow Obsession hype is real. The movie was 
   - URL: https://www.linkedin.com/in/vince-d-souza-2982ab2a7?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEnnfdQBDKd5XGI-A80lrJcTiQ772FqaJag
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/098-ec9af7c5f72ef77e8e99.md`

@@ -1,20 +1,21 @@
 # Claude Code
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
-- Type: `concept`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 22
-- Mention count: 117
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 28
+- Mention count: 126
 
 ## Description
 
-Candidate concept entity extracted from 12 source(s).
+Candidate tool entity extracted from 9 source(s).
 
 ## Related claims
 
+- **candidate / weak** — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and "Hermes Agent". (`claim_8c52b7b8dcd5d06ca90c`)
 - **candidate / weak** — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. (`claim_7e74b63407356799b13e`)
 - **candidate / weak** — The Model Context Protocol is an open standard that allows AI tools (Claude Code, Cursor, Windsurf, OpenHands) to connect to ex "OpenClaw" Hermes. (`claim_035685024d9bee58a745`)
 - **candidate / weak** — The past 4 months of Claude Code / OpenClaw / Hermes hype train have been full of "agent products" that are really just prompts. (`claim_131df14aef5622e97ec3`)
@@ -38,6 +39,13 @@ Candidate concept entity extracted from 12 source(s).
 - `src_7c138ed755684e992664` — Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn
   - URL: https://www.linkedin.com/company/claude-code/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/026-4bdef0f146d734380888.md`
+- `src_2af6678feec1dc830ffa` — Boris Cherny (creator of Claude Code) said it best: "I don't prompt Claude anymore. I have loops running that prompt Claude... My job is to 
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-da8f9cac9fb8cc885021.md`
+- `src_420fa08c8d412dc488ac` — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. But they are using a revolutionary architecture just to fix Python synta
+  - URL: https://www.linkedin.com/in/bcherny/
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/135-1988373f4b4d4ffbb5f4.md`
+- `src_a17f316ca896d7027321` — "I don't prompt Claude anymore. I write loops." That one line from Boris Cherny — the Anthropic engineer who built Claude Code — stopped the
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/123-544667f576b0641a5883.md`
 - `src_194bba4cc6272e8114b6` — Feed post Gui Dávid • 3rd+ head of AI @ beconfident 5h • Follow When the Claude Code codebase leaked around a month ago, it revealed somethi
   - URL: https://www.linkedin.com/in/guid%C3%A1vid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACEsR88BSFv1Ig95gw2NawB7MAtJQRBmeys
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/046-5c6be0ead6375b4e196e.md`
@@ -56,22 +64,21 @@ Candidate concept entity extracted from 12 source(s).
 - `src_e9bb5a4bcd1c1f9e9744` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
   - URL: https://github.com/conorbronsdon/avoid-ai-writing
   - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/05-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`
-- `src_2af6678feec1dc830ffa` — Boris Cherny (creator of Claude Code) said it best: "I don't prompt Claude anymore. I have loops running that prompt Claude... My job is to 
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-da8f9cac9fb8cc885021.md`
-- `src_420fa08c8d412dc488ac` — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. But they are using a revolutionary architecture just to fix Python synta
-  - URL: https://www.linkedin.com/in/bcherny/
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/135-1988373f4b4d4ffbb5f4.md`
-- `src_a17f316ca896d7027321` — "I don't prompt Claude anymore. I write loops." That one line from Boris Cherny — the Anthropic engineer who built Claude Code — stopped the
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/123-544667f576b0641a5883.md`
+- `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`
+- `src_6b4b29ae49be4778fdfd` — One of the people who built Claude Code says he doesn't write prompts anymore — his job is to write loops. I think that's the most honest de
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/010-dc56743d8842b74fd179.md`
+- `src_34708d0bda378ebf37fd` — 🤯 This app takes any book you read and turns it into a collection of Agentic AI (Hermes/OpenClaw/Claude Code) skill markdown files.
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/057-45624a146e58e6a3b4e7.md`
+- `src_36497529c369f835e824` — This is enormously valuable! My take in tldr form: Claude Code, Codex, OpenCode, Pi, Hermes, Openclaw, etc. are ways of interacting with pow
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/078-e76e34dcc7253bd3c754.md`
+- `src_c3b51d10f92949e36a34` — Feed post Jean-Christophe Yervant • 3rd+ J’installe Open Claw // Hermes // Obsidian // Claude Code et des agents IA pour mes clients qui veu
+  - URL: https://www.linkedin.com/in/jean-christophe-yervant-9217a1398?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGGmCekBoyosHikDrfFbGxjjz0ozXD4q8Fg
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/052-54281ef8d13700b38a7e.md`
+- `src_f53fd71b5c30c516bc76` — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and 
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/078-75d2fbc8c53a46ef7ee2.md`
 - `src_4f89643bba70425a9bae` — What is MCP? The Model Context Protocol is an open standard that allows AI tools (Claude Code, Cursor, Windsurf, OpenHands) to connect to ex
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/083-e38764333a8b29e980cd.md`
 - `src_3e37e23440340ed65599` — Feed post Rob R. • 3rd+ Full-Stack Software Engineer · Applied AI · Forward Deployed 1h • Follow I’ve been using Claude Code more heavily la
   - URL: https://www.linkedin.com/in/robrodolfo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1xYksBvD1HdTaF_95af06pw2zz1DPKc2w
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/007-26c5a218d5aa5841aa58.md`
-- `src_a27969da86165e17d965` — A GitHub repo that deserves 100k stars. works with Claude Code, Cursor, Copilot, OpenClaw, Codex, Hermes, and any agent An AI skill that cre
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/058-a1bdb30221451da690b7.md`
-- `src_fc50b6e940dafc6d92d0` — I’ve been using Claude Code more heavily lately, and I kept running into one small but annoying workflow issue: When I hit a usage limit, I’
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/009-ba75b275ca48415aa276.md`
-- `src_666f6694d37d9a520e89` — Best AI Agents in 2026: What Actually Fits OpenClaw, Hermes, Codex, and Claude Code | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/best-ai-agents-2026
-  - Archive: `web/citation-pipeline-test-20260612/hermes-openclaw/05-best-ai-agents-in-2026-what-actually-fits-openclaw-hermes-co.md`

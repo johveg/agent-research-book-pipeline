@@ -1,13 +1,16 @@
 # Companies
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 These entries come from harvested entity records. Linked entries have generated review pages; unlinked entries are candidates or weak/noisy fragments and are not treated as canonical public entities.
 
-- [AWS](aws.md) — `company`; mentions: 79; sources: 6
-- AI Researcher — `company`; mentions: 57; sources: 6
-- Educator — `company`; mentions: 57; sources: 6
-- [Gurudath Sadanandan](gurudath-sadanandan.md) — `company`; mentions: 55; sources: 5
-- Azure — `company`; mentions: 32; sources: 5
-- AI Engineer — `company`; mentions: 31; sources: 5
-- Linas — `publication`; mentions: 80; sources: 4
+- Data — `company`; mentions: 39; sources: 15
+- LLMs — `company`; mentions: 50; sources: 14
+- AI Researcher — `company`; mentions: 59; sources: 7
+- Educator — `company`; mentions: 59; sources: 7
+- [PMP](pmp.md) — `company`; mentions: 82; sources: 6
+- [Gurudath Sadanandan](gurudath-sadanandan.md) — `company`; mentions: 57; sources: 6
+- Strategy — `company`; mentions: 42; sources: 6
+- [Microsoft MVP](microsoft-mvp.md) — `company`; mentions: 29; sources: 6
+- Azure — `company`; mentions: 78; sources: 5
+- [Stop Prompting AI. Start Designing](stop-prompting-ai-start-designing.md) — `company`; mentions: 34; sources: 5

@@ -1,17 +1,17 @@
 # CIO
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 3
-- Mention count: 20
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 4
+- Mention count: 22
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -28,3 +28,6 @@ No related claim records yet.
 - `src_71201fda31908bc75d4c` — Feed post Tomas Hernandez • 3rd+ CIO | CTO | AI-Driven Operations | Leading 100+ Tech Org 9h • Follow Loop engineers, beware the AI token fr
   - URL: https://www.linkedin.com/in/tomherdez?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACqfQUBmFLtSGrLkzDw2izWZDLj6qkclcY
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/068-63815ac798fbab7242b6.md`
+- `src_6bb97f19412ae0d6bb36` — Feed post Shenandoan Daur • 3rd+ CIO | Automação e Inovação | Projetos Hospitalares | HIMSS | SAP S/4HANA 1h • Follow Brasil 1x1 Marrocos. V
+  - URL: https://www.linkedin.com/in/shenandoandaur?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAXOH5EBcnMZTouwRhnscYae9KQxhWpsPeU
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/015-0c0c54f808e569f92563.md`

@@ -1,17 +1,17 @@
 # Julian Goldie
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-12T01:19:56Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 6
-- Mention count: 7
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 9
+- Mention count: 10
 
 ## Description
 
-Candidate tool entity extracted from 5 source(s).
+Candidate tool entity extracted from 3 source(s).
 
 ## Related claims
 
@@ -22,6 +22,15 @@ No related claim records yet.
 - `src_1a87f1a3e1ae25731a95` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
   - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/055-a8a88606c8bc788fc42f.md`
+- `src_0653dfe54f753b94e5ee` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
+  - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/126-5fd5963e5e87eace392e.md`
+- `src_11a05f32c57c52c45fa8` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
+  - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/073-531372016cf4511a251f.md`
+- `src_b0573038c384f01ca617` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
+  - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/094-26e476199dcd6d260e21.md`
 - `src_287e268189347d2f4df6` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
   - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/048-3f61ae4b98698324ed78.md`

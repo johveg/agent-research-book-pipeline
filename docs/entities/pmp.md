@@ -1,17 +1,17 @@
 # PMP
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
-- Type: `tool`
-- Confidence: `high`
+- Type: `company`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
+- Last seen: 2026-06-15T01:26:41Z
 - Source count: 6
-- Mention count: 80
+- Mention count: 82
 
 ## Description
 
-Candidate tool entity extracted from 4 source(s).
+Candidate company entity extracted from 1 source(s).
 
 ## Related claims
 

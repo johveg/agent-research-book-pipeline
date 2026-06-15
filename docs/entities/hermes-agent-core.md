@@ -1,13 +1,13 @@
 # Hermes Agent Core
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 3
-- Mention count: 18
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 4
+- Mention count: 19
 
 ## Description
 
@@ -22,6 +22,9 @@ No related claim records yet.
 - `src_45d026189270d1762fad` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
   - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
   - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
+- `src_ca9eefabeb6c152eb85a` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
+  - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
 - `src_6efdd34d2f1850206a1f` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
   - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/02-hermes-agent-hermes-agent-core-official-hermes-atlas.md`

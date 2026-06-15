@@ -1,17 +1,17 @@
 # Chief Executive Officer
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `company`
 - Confidence: `high`
 - First seen: 2026-06-14T01:25:00Z
-- Last seen: 2026-06-14T06:02:48Z
+- Last seen: 2026-06-15T01:26:41Z
 - Source count: 4
-- Mention count: 10
+- Mention count: 80
 
 ## Description
 
-Candidate company entity extracted from 3 source(s).
+Candidate company entity extracted from 4 source(s).
 
 ## Related claims
 

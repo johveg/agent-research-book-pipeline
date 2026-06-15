@@ -1,6 +1,6 @@
 # Hermes agents
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `tool`
 - Confidence: `medium`
@@ -15,6 +15,7 @@ Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
+- **candidate / weak** — This morning I have been talking with someone analysing local models and Hermes agents after the shu "Hermes Agent". (`claim_ddfd909ae61e79f8bf0e`)
 - **needs_review / weak** — Is it me or what but my Hermes Agents burned more tokens than my Openclaw?. (`claim_7708c1c74a2093fabc70`)
 
 ## Source references

@@ -1,17 +1,17 @@
 # Microsoft MVP
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `company`
-- Confidence: `low`
+- Confidence: `high`
 - First seen: 2026-06-12T01:19:56Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 4
-- Mention count: 26
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 6
+- Mention count: 29
 
 ## Description
 
-Candidate company entity extracted from 1 source(s).
+Candidate company entity extracted from 3 source(s).
 
 ## Related claims
 
@@ -31,3 +31,9 @@ No related claim records yet.
 - `src_0d8e03002b2f6c4c8bef` — Feed post Sergio S. • 3rd+ Microsoft MVP (Developer Technologies) | GitHub | AI Native Software Engineering | Digital App Innovation and Mod
   - URL: https://www.linkedin.com/in/sesispla?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPNQxwBNle9Jld_N045FCkVlyfgYee572o
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/060-453e87ec7663876b6d99.md`
+- `src_16010337d99bf6176105` — Feed post CHING-HSING Lee • 3rd+ Microsoft MVP | AI 架構師 1h • Follow [AI 分享] Loop Engineering：AI程式設計的新範式 摘要：Loop Engineering強調用自動化閉環指揮AI工作，正逐
+  - URL: https://www.linkedin.com/in/ching-hsing-lee-47913116?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAM46F0B_MmT3PUirceDn6YVqcW9kd7jM8U
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/008-bde9bf4eb71609e5941c.md`
+- `src_6459ab5f5822e42921ba` — Feed post CHING-HSING Lee • 3rd+ Microsoft MVP | AI 架構師 1h • Follow [AI 分享] Loop Engineering：AI程式設計的新範式 摘要：Loop Engineering強調用自動化閉環指揮AI工作，正逐
+  - URL: https://www.linkedin.com/in/ching-hsing-lee-47913116?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAM46F0B_MmT3PUirceDn6YVqcW9kd7jM8U
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/005-dffb082f84fe6ae02d87.md`

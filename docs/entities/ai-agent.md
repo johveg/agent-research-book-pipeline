@@ -1,13 +1,13 @@
 # AI agent
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 12
-- Mention count: 99
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 13
+- Mention count: 100
 
 ## Description
 
@@ -15,10 +15,13 @@ Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
+- **candidate / weak** — A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible. (`claim_fe1f08a0352de5ae4eef`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
 - **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
+- **candidate / weak** — Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents. (`claim_8fcac90850aa71a0448b`)
 - **candidate / weak** — The biggest unlock in AI agent work right now is not a smarter model: it is a better operating system around the model. (`claim_df16192271d2bce4f7df`)
 - **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $ "OpenClaw" Hermes. (`claim_72d359ba093fb921ffb5`)
+- **candidate / weak** — 🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A "Hermes Agent". (`claim_b0fb8410b047577afcd4`)
 - **needs_review / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
 - **needs_review / weak** — A loop is a small program that prompts an AI agent for you, reads what it produced, decid "loop engineering". (`claim_ddcb28eb301b363c351a`)
 - **needs_review / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
@@ -32,9 +35,6 @@ Candidate tool entity extracted from 1 source(s).
 - **needs_review / weak** — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). (`claim_0985fd2ad07e14723e29`)
 - **needs_review / weak** — See how an AI Agent like Hermes Agent helps develop a residen "Hermes Agent". (`claim_c26ed4521238b4efd634`)
 - **needs_review / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
-- **needs_review / weak** — See how an hashtag #AI Agent like Hermes Agent helps "Hermes Agent". (`claim_539ec00d0d969a804db6`)
-- **needs_review / weak** — The next shift is AI agents working together like a real business team — planning, executing, rem "OpenClaw" Hermes. (`claim_d5429b52beb19fb06fcf`)
-- **needs_review / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
 
 ## Source references
 
@@ -54,6 +54,8 @@ Candidate tool entity extracted from 1 source(s).
 - `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
+- `src_c5f7b482d92d80e731d2` — আপনার AI agent-কে production access দিয়েছেন? ভুল করলেন। বেশিরভাগ developer AI coding agent-কে একটা চালাক chatbot মনে করেন। কিন্তু এটা চালাক
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/128-d3be699d0193925069e5.md`
 - `src_c0066c50d1b7f0f3504c` — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/102-b86549066562df85a21d.md`
 - `src_ad815be808c31471af6c` — Today on the daily AI brief posted by Yousef - Imran's AI agent Today’s AI Daily Brief is really about trust, control and the cost of power 

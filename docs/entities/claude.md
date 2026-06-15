@@ -1,20 +1,21 @@
 # Claude
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
-- Type: `unknown`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 16
-- Mention count: 100
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 22
+- Mention count: 110
 
 ## Description
 
-Candidate unknown entity extracted from 5 source(s).
+Candidate tool entity extracted from 10 source(s).
 
 ## Related claims
 
+- **candidate / weak** — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and "Hermes Agent". (`claim_8c52b7b8dcd5d06ca90c`)
 - **candidate / weak** — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. (`claim_7e74b63407356799b13e`)
 - **candidate / weak** — The Model Context Protocol is an open standard that allows AI tools (Claude C "OpenClaw" Hermes. (`claim_6f210696a318b48349f9`)
 - **candidate / weak** — The Model Context Protocol is an open standard that allows AI tools (Claude Code, Cursor, Windsurf, OpenHands) to connect to ex "OpenClaw" Hermes. (`claim_035685024d9bee58a745`)
@@ -45,12 +46,6 @@ Candidate unknown entity extracted from 5 source(s).
 - `src_8897ca8d35c6bf69de6d` — "I do not prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops." That line is from Boris Cherny, head of
   - URL: https://www.linkedin.com/in/bcherny/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/122-fe678d8667a2ddece8f0.md`
-- `src_10d25b1b20f79399234b` — Feed post Mariano Silla Franco • 3rd+ Ex-Coordinador de Publicidad en LA RAZON 10h • Edited • Follow Loop Engineering El creador de Claude C
-  - URL: https://www.linkedin.com/in/mariano-silla-franco-21313b3a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAg06m8Bnm_0IzNI7JDe7zt5oSX3uOHmDPA
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/143-36a2980afc24e9d5aed9.md`
-- `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
-  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
 - `src_16b81a8f6edc6104a2b1` — Feed post Toni Lim • 3rd+ AI & Builders | Data Lead · Fintech · Crypto · Web3 · Claude | Codex | OpenCode | Hermes 12h • Follow Boris Cherny
   - URL: https://www.linkedin.com/in/inotives?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZyNhEBAE7QxT1E9zX3cChqDcEjeSETO1w
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/142-4db9bfa71fb72aa821bf.md`
@@ -61,6 +56,27 @@ Candidate unknown entity extracted from 5 source(s).
 - `src_6620c4e73d134874798b` — Feed post Certlocker.io 24 followers 12h • Follow What is MCP? The Model Context Protocol is an open standard that allows AI tools (Claude C
   - URL: https://www.linkedin.com/company/certlocker/posts
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/081-c2090de532319027818b.md`
+- `src_10d25b1b20f79399234b` — Feed post Mariano Silla Franco • 3rd+ Ex-Coordinador de Publicidad en LA RAZON 10h • Edited • Follow Loop Engineering El creador de Claude C
+  - URL: https://www.linkedin.com/in/mariano-silla-franco-21313b3a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAg06m8Bnm_0IzNI7JDe7zt5oSX3uOHmDPA
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/143-36a2980afc24e9d5aed9.md`
+- `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
+  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
+- `src_60705feab2d4ebe44b4d` — Feed post Erhan Meydan • 3rd+ AI Educator & YouTuber Visit my website 12h • Follow ChatGPT ya da Claude'un penceresinde yazışırken, cevap ne
+  - URL: https://www.linkedin.com/in/erhanmeydan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABKriGYBkVoxEijgoYTBH_HbrEIpROo-vg4
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/083-8fede99aee568e4ca113.md`
+- `src_764fd6b8ed3fd996bdee` — Sharing a project I have been dogfooding for about a month, and got to happy results with. I kept wanting to ask Claude about my own money. 
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-a2c7d5c5e06dc15d0ae6.md`
+- `src_912542b70de2db6fbadb` — STOP aux chatbots qui vous font perdre du temps. Vous passez encore vos journées à copier-coller des prompts dans ChatGPT ou Claude ? Vous r
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/066-e480a8e9d822e9878386.md`
+- `src_e4333a1a07e85b40e277` — ChatGPT ya da Claude'un penceresinde yazışırken, cevap ne kadar gerçekçi olursa olsun bir köşede "bir yapay zeka ile konuşuyorum" hissi hep 
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/085-0ddd0d7bb94837974f16.md`
+- `src_e7a410ddda311813dc75` — Feed post Federico Greco Barragán • 3rd+ KAM @ CDA | Especialista en IA Agéntica & Automatización con Multi-Agentes | OpenClaw • Claude • De
+  - URL: https://www.linkedin.com/in/federico-greco-barragan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABadLIoBn0uGOKTz_n3hbOLOfrDuhuAbAkM
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/040-adca2cbcf29cd0691148.md`
+- `src_d05f329788370ffd20b8` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/03-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
 - `src_3f5c2b2ebba0a79d97d7` — Câu chuyện của OpenClaw hay Hermes! Tui có được nghe về Claude mua gói 20$ thì được xài trợ lý AI cá nhân đọc viết file nhma mắc quá nên thô
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/140-7da2a16a8014287023e1.md`
 - `src_a4ddac79553579be42a2` — Want to run — and grow — a fleet of Claude agents? Most people reach for an orchestration framework: OpenClaw, Hermes, the Agent SDK. They a

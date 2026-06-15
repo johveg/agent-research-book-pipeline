@@ -1,21 +1,24 @@
-# AI agents
+# AI Agents
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
-- Type: `tool`
+- Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 31
-- Mention count: 328
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 35
+- Mention count: 334
 
 ## Description
 
-Candidate tool entity extracted from 5 source(s).
+Candidate concept entity extracted from 4 source(s).
 
 ## Related claims
 
+- **candidate / weak** — A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible. (`claim_fe1f08a0352de5ae4eef`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
+- **candidate / weak** — Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents. (`claim_8fcac90850aa71a0448b`)
+- **candidate / weak** — 🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A "Hermes Agent". (`claim_b0fb8410b047577afcd4`)
 - **needs_review / weak** — A few months ago when OpenClaw was taking off, James Avery, Tim Ewald and I got curious: if you handed a team of AI agents the job of buildi "OpenClaw" Hermes. (`claim_ee8923d5d9047dc28a53`)
 - **needs_review / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
 - **needs_review / weak** — Loop Engineering: AI Coding Has Entered the Systems Era (Most People Are Still Stuck in Chat) | by JIN | JIN System Architect | Jun, 2026 | Medium "loop engineering" AI agents medium.com. (`claim_f5b1cdd1300f8324b5c6`)
@@ -74,6 +77,12 @@ Candidate tool entity extracted from 5 source(s).
 - `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
   - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
+- `src_14ebeb3c6dfeb8a768c9` — Feed post William Oliveira • 3rd+ Software Engineer | Independent Researcher | Edge Computing | AI Agents 13h • Follow A Hype Check on Loop 
+  - URL: https://www.linkedin.com/in/william-oliveira?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA0geFwBwUSVJx2Fa8gB8OXy3c5LSGtIx2Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-871d8ccaa8418b35c846.md`
+- `src_79b2e1f18e0c24e3f25d` — Feed post Sergey Golubev • 3rd+ Technical Product Manager | AI Agents & Automation | Data-Driven | Salesforce Expert 5h • Follow На этой нед
+  - URL: https://www.linkedin.com/in/salesforceadmqa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAQplYIBUTIaiKFmqBJfS8Sfv_URWU0jcJU
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/056-b6a68954b591a8ee56e8.md`
 - `src_7f87577545c681c4a62f` — Your bottleneck is no longer how fast your team can code. AI agents now generate working software overnight. The constraint has moved to two
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/102-4637a12beb58f1da1a6c.md`
 - `src_2b43772bb3f0902946cd` — Feed post Melissa Wiringi • 3rd+ AI Agents and automations with a strategic focus | Marketing Operations | Process Improvement | Social Medi
@@ -94,8 +103,3 @@ Candidate tool entity extracted from 5 source(s).
 - `src_6a445b5a6f1383ad52ed` — What the Hell Is Loop Engineering? - by Martin
   - URL: https://biasedread.com/p/what-the-hell-is-loop-engineering
   - Archive: `web/do-not-publish-check-20260611T232514Z/loop-engineering-ai-agents/01-what-the-hell-is-loop-engineering-by-martin.md`
-- `src_a52a52a9b9fcaca06fc0` — Feed post Shubham Saboo • 3rd+ Senior AI Product Manager @ Google | Awesome LLM Apps (#1 AI Agents GitHub repo with 114k+ stars) | 3x AI Aut
-  - URL: https://www.linkedin.com/in/shubhamsaboo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzPLp4BT8-7xERTxR17vS8edCgAiBTIkTM
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/135-3f5787daa4a9634aa069.md`
-- `src_aaeac0d04226279a1e02` — We just launched PayRam on Product Hunt 🎉 PayRam is a payment gateway built for the agentic commerce era. AI agents can now accept crypto an
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/091-2127b8b60c7c297cd0ba.md`

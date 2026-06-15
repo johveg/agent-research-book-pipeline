@@ -1,6 +1,6 @@
 # Claims
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 Claims are explicit editorial records linked to source IDs. No source ID, no claim. No claim, no chapter fact.
 
@@ -12,8 +12,8 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
 
 ## Summary
 
-- Total claims shown: 181
-- candidate: 59
+- Total claims shown: 200
+- candidate: 78
 - needs_review: 111
 - supported: 6
 - weakly_supported: 5
@@ -4666,7 +4666,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_050f993ea2322d4b6940, ent_151e58a831306903b282, ent_18c082269e98051b8aa3, ent_41f9c47d7405d154e55d, ent_725a8c0bf71869a08721, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_ea3bd73e2b506e005272`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -4696,6 +4696,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - URL: https://www.linkedin.com/in/marcoiacono?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAKDiIBhH6IedEOScioFdNqB2zjQf9sW_4
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/053-a980d6d74fba198c0aee.md`
+
+- **If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and "Hermes Agent".**
+  - Claim ID: `claim_8c52b7b8dcd5d06ca90c`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `8`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_1f73d39a72098e75212c, ent_2d87f3d38782aa14e5a6, ent_4750ada0d49840416b38, ent_4e2295dd929e424aa1af, ent_544ad16502620232ff70, ent_57de4cf40144bdf7d000, ent_7cc6d962e40fbc035b7a, ent_a625159d18da57180b72`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and "Hermes Agent".
+  - Source IDs:
+    - `src_f53fd71b5c30c516bc76` — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/078-75d2fbc8c53a46ef7ee2.md`
 
 - **Curious: how are other developers handling Agent harnesses or Local LLMs ↔ phone workflows?.**
   - Claim ID: `claim_b00b7bb37e0ecd5ad557`
@@ -4736,6 +4755,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - URL: https://www.linkedin.com/company/nousresearch/
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/047-9eaf7f98e57ee1d3f2d3.md`
 
+- **Now AI is pushing the concept of Content as Dynamic Layer 'Loop "loop engineering".**
+  - Claim ID: `claim_9be3cdd6c663bf00ec0d`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `7`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_04e8a05db5cb32bca176, ent_10013948ab78092766ce, ent_254637f72efcddb6a545, ent_3d59f7548e1af2151b64, ent_5a8499d47c592e8024d1, ent_aed31c11881f20f36912, ent_e4bb02662111574ef4ef`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Now AI is pushing the concept of Content as Dynamic Layer 'Loop "loop engineering".
+  - Source IDs:
+    - `src_49a3310abfc4b27c968e` — Shopify Wordpress and Facebook were the early GraphQL adopters/originators. Now AI is pushing the concept of Content as Dynamic Layer 'Loop 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/151-87b8dca1e57391e60e97.md`
+
 - **The Model Context Protocol is an open standard that allows AI tools (Claude Code, Cursor, Windsurf, OpenHands) to connect to ex "OpenClaw" Hermes.**
   - Claim ID: `claim_035685024d9bee58a745`
   - Claim type: `observation`
@@ -4774,6 +4812,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/102-b86549066562df85a21d.md`
 
+- **🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A "Hermes Agent".**
+  - Claim ID: `claim_b0fb8410b047577afcd4`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `7`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_166f4d5bd98bcc5fd381, ent_2065501062eef8cce705, ent_2d87f3d38782aa14e5a6, ent_44575cf5b28512d75644, ent_8cfde6efdfc4ed5ab1f6, ent_9609c16ef7510715aacf, ent_fefaa42da40ecf93662a`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: 🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A "Hermes Agent".
+  - Source IDs:
+    - `src_03fd4a0f825cd12f9574` — 🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/142-9f3f311ae1d82ed0f4c5.md`
+
 - **All 6 DGX Sparks are fully operational and routing to all our AI Employee Agents.**
   - Claim ID: `claim_4438f3f4a967ff22a9ca`
   - Claim type: `observation`
@@ -4801,7 +4858,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_11a4a60b518bf24989d4, ent_34154fea30ef17289140, ent_5a8499d47c592e8024d1, ent_a625159d18da57180b72, ent_cdc29937887188ad3702, ent_ea382aa3ceb5d23c6516`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation; hype language present
@@ -4813,6 +4870,63 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - URL: https://www.linkedin.com/in/bcherny/
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/135-1988373f4b4d4ffbb5f4.md`
 
+- **Have you considered using it for your own product "OpenClaw" Hermes.**
+  - Claim ID: `claim_f9b7b59c98f8492c3cd9`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `6`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_193c45b5281908d2d9c8, ent_75ca3ca2ece243555f0e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bb43b459cb3f895a6a04, ent_bd4369b9f7f2899dd365`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Have you considered using it for your own product "OpenClaw" Hermes.
+  - Source IDs:
+    - `src_388b472c4ebc1d243a1a` — Have you heard about Autonomous Personal Agents? Did you wonder what hashtag #OpenClaw is? Have you considered using it for your own product
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/129-a0561be952107f9e75cd.md`
+
+- **Seeing the latest hype wave of loop engineering has lead me to one conclusion.**
+  - Claim ID: `claim_53b1573947628a164c22`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `6`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_236707bfb83474fad55a, ent_5a8499d47c592e8024d1, ent_8df51e054900e808569f, ent_e244f187f696561d5fd7, ent_ec38063c881f0a5edfef, ent_ef934365980c89e3ff1b`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Seeing the latest hype wave of loop engineering has lead me to one conclusion.
+  - Source IDs:
+    - `src_9c9e64a136f2b6cb4db7` — Seeing the latest hype wave of loop engineering has lead me to one conclusion. There is a severe lack of AI literacy. Even amongst devs. Whe
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/179-c5cfd1203cd78e2f6c77.md`
+
+- **Source: - Image generated with Gemini - Prompt description is my ow "loop engineering".**
+  - Claim ID: `claim_7e2b3a74e4a583fd424c`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `6`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_5a8499d47c592e8024d1, ent_5d72436256ada53828b5, ent_6105d6cc76af400325e9, ent_8044aae1f86875d993f2, ent_cf07194ee232eb531e15, ent_de2187af3fb011708ca4`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Source: - Image generated with Gemini - Prompt description is my ow "loop engineering".
+  - Source IDs:
+    - `src_d885b32447e9f7fd8aef` — Q: How woud you call "rat race" in the era of LLMs? A: Loop Engineering! source: - Image generated with Gemini - Prompt description is my ow
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/125-6276e60a36bffe5716ea.md`
+
 - **Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'.**
   - Claim ID: `claim_7e74b63407356799b13e`
   - Claim type: `observation`
@@ -4821,7 +4935,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_11a4a60b518bf24989d4, ent_34154fea30ef17289140, ent_5a8499d47c592e8024d1, ent_a625159d18da57180b72, ent_cdc29937887188ad3702, ent_ea382aa3ceb5d23c6516`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -4841,7 +4955,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_1a9f8b2856079cb2b381, ent_272a35b67e9402c82446, ent_76369889f904195b6ad7, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9f584196e7fe6de85d38`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -4880,7 +4994,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_1a9f8b2856079cb2b381, ent_2507e75e8020a63de79e, ent_88cfb116780987cf67a6, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9fec0b124c6912a86e66`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -4892,6 +5006,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - URL: https://www.linkedin.com/company/microsoft/
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/062-44911815b05039adf7a8.md`
 
+- **With the exploits we are seeing now, you cannot track every CVE "loop engineering".**
+  - Claim ID: `claim_d11521c08ccc0bf4f5ac`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `6`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_0695b563acde461fc2f8, ent_3d5d2f7593c08d26bbaf, ent_45779bc98fc51729fc67, ent_5a8499d47c592e8024d1, ent_dad9a79bf7094d4e4604, ent_fb54a05f57acb1015207`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: With the exploits we are seeing now, you cannot track every CVE "loop engineering".
+  - Source IDs:
+    - `src_88e6020ad24e65301a5b` — Detection engineering has to start shifting in the AI-powered attacker age. With the exploits we are seeing now, you cannot track every CVE 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/167-00f1d7d1ce29b974cd49.md`
+
 - **🔍 Proto Interpretation of Gemini’s Stress‑Test Response (This is the part Gemini cannot generate about itself.) After running Gemini through "loop engineering".**
   - Claim ID: `claim_26168daf8fea7fd11714`
   - Claim type: `observation`
@@ -4900,7 +5033,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T06:02:48Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_3ed59d9f6e32da0f3c97, ent_5a8499d47c592e8024d1, ent_5d72436256ada53828b5, ent_724b930994a1a865befc, ent_f39592393ef0859cb196, ent_f43dc8790ed621568492`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -4910,6 +5043,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_385527e4cf86491831de` — 🔍 Proto Interpretation of Gemini’s Stress‑Test Response (This is the part Gemini cannot generate about itself.) After running Gemini through
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/010-12dafe2853b9d4fa1982.md`
+
+- **A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible.**
+  - Claim ID: `claim_fe1f08a0352de5ae4eef`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `5`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_39a059e26b51a327f0fd, ent_9f68fe635d42a5bef762, ent_acba25512100f80b56fc, ent_edccdaa8e7c3b5969976`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible.
+  - Source IDs:
+    - `src_4d5f79a732d4311352ff` — A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible. Here's what you can do with it: ✅ Run mu
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/127-684660ad409f24d359ce.md`
 
 - **AstridOS is coming You've taught your agent how you work Your context, your setup, the way you operate Switching platforms to get more contr "OpenClaw" Hermes.**
   - Claim ID: `claim_c392e933e8cdeb7ec597`
@@ -4929,6 +5081,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_b096248b2a608943016b` — AstridOS is coming You've taught your agent how you work Your context, your setup, the way you operate Switching platforms to get more contr
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/085-bfa99c5696e60b0ae0a1.md`
+
+- **For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie "Hermes Agent".**
+  - Claim ID: `claim_0fc0a2e7b5d6326d0ec4`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `5`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_0c7028af5504f90e8a92, ent_2d87f3d38782aa14e5a6, ent_8cfde6efdfc4ed5ab1f6, ent_d8a1f56007588d64054d, ent_f0e5f53af7e637286fd5`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie "Hermes Agent".
+  - Source IDs:
+    - `src_ec75e91c5acbd041229c` — For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/072-171aeff7e8fce13f9ce1.md`
 
 - **I am pleased to share Phase 1 of Judicium, an AI-native engineering assessment platform built around a single conviction: code production is "loop engineering".**
   - Claim ID: `claim_b1c70983319d96ed6985`
@@ -4957,7 +5128,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_9372c470eeadd5ecd9c3, ent_ab7c250a4017dbdc07aa, ent_cf07194ee232eb531e15, ent_fd0a38a34fd07fd4b3ba`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -4968,6 +5139,44 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/100-a5e7c59670399a02c595.md`
 
+- **Most engineers assume a coding agent is a giant p "loop engineer".**
+  - Claim ID: `claim_24515eb034ef7c3f5582`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `5`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_0c2355784aac19c4fff9, ent_24ea913efda289dc1b17, ent_31a85e22a24a7a4fba06, ent_a625159d18da57180b72, ent_a7b5df69d1c30a120a57`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Most engineers assume a coding agent is a giant p "loop engineer".
+  - Source IDs:
+    - `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`
+
+- **National debt is at $39.20 trillion, pacing "loop engineering".**
+  - Claim ID: `claim_384b8fc4eb6c06e93173`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `5`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_06c8b61296010f1b121d, ent_28780a3cd242408c7287, ent_2be23c585f15e5fd3279, ent_5a8499d47c592e8024d1, ent_652d75f9bafb25e55c0e`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: National debt is at $39.20 trillion, pacing "loop engineering".
+  - Source IDs:
+    - `src_a4a9ff607e08323c8e16` — 📌 The Fed’s $244B Blackout: Why the $39.2T Debt is an Operational Efficiency Crisis. 📍 The U.S. national debt is at $39.20 trillion, pacing 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/070-db7a029625ca629af83c.md`
+
 - **Now AI is everywhere: Apps, browsers, tool "OpenClaw" Hermes.**
   - Claim ID: `claim_a59cf4d062ae2b941518`
   - Claim type: `observation`
@@ -4976,7 +5185,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_49b303ee7f97e7731bbe, ent_60965168ce762e949600, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_d56f6359d240f69e4164`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -4996,7 +5205,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_10182ab855ff772753c0, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_b5f6ffb85f2c6627d5dd, ent_c857d09db23e6822e360`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5035,7 +5244,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_b733c3fad0022e43f3cf, ent_b7c6850bce26286adec4, ent_ead627e2b11190fdfc89`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5105,6 +5314,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - URL: https://www.linkedin.com/in/steipete/
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/060-f8dbdcfab6329e399f7f.md`
 
+- **Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI.**
+  - Claim ID: `claim_7d8671b444e5e07f1884`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_09cf980b5ff304ac11b7, ent_34c89017a8c4a47d5892, ent_5a8499d47c592e8024d1, ent_c70eca6b0f88f44d81a4`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI.
+  - Source IDs:
+    - `src_b8ee8c174db662eaa73f` — Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI. The lesson is not "avoid AI." The lesson is:
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/173-a642fb16dce30a9fee41.md`
+
 - **Ask a model that has access to a computer to build a list and it can do it for you It's *super* easy If the ask i "OpenClaw" Hermes.**
   - Claim ID: `claim_029ef52bd98c3c0cfb3c`
   - Claim type: `observation`
@@ -5113,7 +5341,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_2f2fc7f2e9ce13b09b84, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9e00521370f53fe0ec98`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5132,7 +5360,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_169f53ffdc494f9d839e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_d07aaa81517b72b46f44`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5182,6 +5410,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/088-5862078142b8992200fc.md`
 
+- **HealthcareAuditIQ™ is a constitutional Decision Assurance Platform that introduces a new systems architecture where verified evidence, execu "loop engineering".**
+  - Claim ID: `claim_e3c04c8f6185a933baa5`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_4f9d3b84fea6ba61dbda, ent_5a8499d47c592e8024d1, ent_b1a2f2486c10d5258a6e, ent_e7667cf1e67b1dca0724`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: HealthcareAuditIQ™ is a constitutional Decision Assurance Platform that introduces a new systems architecture where verified evidence, execu "loop engineering".
+  - Source IDs:
+    - `src_b46af5a79c07afb0deb2` — HealthcareAuditIQ™ is a constitutional Decision Assurance Platform that introduces a new systems architecture where verified evidence, execu
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/105-dcd9f1f4477dfdf54f44.md`
+
 - **Here is a responsible, grown-up way of saying what I did to Hermes Agent running GPT5.5, in the last week.**
   - Claim ID: `claim_a7f33f83a2710e9f30a2`
   - Claim type: `observation`
@@ -5200,6 +5447,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_62110dcb6eff2a422a97` — Here is a responsible, grown-up way of saying what I did to Hermes Agent running GPT5.5, in the last week. A GPT-5.5 agent orchestration env
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/124-31f0f23cbf591e226a19.md`
+
+- **Hermes Agent Launches Automation Blueprints for DevOps and Research Workflows 📌 Hermes Agent has evolved from a chat interface into an activ "Hermes Agent".**
+  - Claim ID: `claim_4f2448d1ec97b30c3d59`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_87c54e4d427769791d95, ent_aae62b5f0497c4a445ce, ent_e0bbfe8910781765de81`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Hermes Agent Launches Automation Blueprints for DevOps and Research Workflows 📌 Hermes Agent has evolved from a chat interface into an activ "Hermes Agent".
+  - Source IDs:
+    - `src_639b3a4274230a94e617` — Hermes Agent Launches Automation Blueprints for DevOps and Research Workflows 📌 Hermes Agent has evolved from a chat interface into an activ
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/051-e77d6fc89eb5715c2179.md`
 
 - **In this release: - Fable 5 has landed and it’s a big one - I tried Hermes instead o "OpenClaw" Hermes.**
   - Claim ID: `claim_cc40ee0d3ade9849954a`
@@ -5220,6 +5486,26 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/099-a9473e9692d48ccad4cd.md`
 
+- **It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn' "OpenClaw" Hermes.**
+  - Claim ID: `claim_16964f79e5647cb7fe63`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_15cbfab2cca18f28ee61, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a8587c4b9ae8e433cf1c`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn' "OpenClaw" Hermes.
+  - Source IDs:
+    - `src_a9b9f5c4ebef962c5b6b` — It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn'
+      - Quality: `unknown`
+      - URL: https://www.linkedin.com/company/byron-tech-community/
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/007-75f37f5efb0ae7b21bd6.md`
+
 - **Meta just launched “Business Agent” — their AI for customer service and sales automation.**
   - Claim ID: `claim_5149d92d15ffb2915b17`
   - Claim type: `observation`
@@ -5238,6 +5524,63 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_9682900054b92e1d8b04` — Meta just launched “Business Agent” — their AI for customer service and sales automation. Every tech publication is calling it a game-change
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/088-5862078142b8992200fc.md`
+
+- **People are not talking about the security issues with Hermes or OpenClaw.**
+  - Claim ID: `claim_bf6a00040f945ab752fe`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bf0379178b15ecec1349, ent_c9022680f888674e2b22`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: People are not talking about the security issues with Hermes or OpenClaw.
+  - Source IDs:
+    - `src_a36777623fea62c34df8` — People are not talking about the security issues with Hermes or OpenClaw. These security threats are real and are yet to fully be seen. The 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-d8dd2178fd827894223b.md`
+
+- **Right now, thousands of agencies and startups are trying to build internal AI workflo "OpenClaw" Hermes.**
+  - Claim ID: `claim_cb2ef03eeeb5f69a49bf`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_27042f4e6eca7d0b2a7e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_ba78973ddcf98d4e5369`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Right now, thousands of agencies and startups are trying to build internal AI workflo "OpenClaw" Hermes.
+  - Source IDs:
+    - `src_ff09cb5c7c48f8e4747a` — Are you still leaking client data to public AI models? Right now, thousands of agencies and startups are trying to build internal AI workflo
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/096-ad201c0cf796e8ff35a1.md`
+
+- **Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents.**
+  - Claim ID: `claim_8fcac90850aa71a0448b`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_1cb6b3abf1f713846ef5, ent_34a1dfb174c615ecb41a, ent_5a8499d47c592e8024d1, ent_6b5a3ded016ab7826989`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents.
+  - Source IDs:
+    - `src_b4e572293eb04de5b09c` — Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents. Wh
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/140-7d6951c27285933ac754.md`
 
 - **So now my Hermes agent is looking out for Champagne deals for me - I am serious.**
   - Claim ID: `claim_34cc736024bd33b227d6`
@@ -5277,6 +5620,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - URL: https://www.linkedin.com/company/loop-engineering/
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/167-65d902d2220f35715093.md`
+
+- **The lesson is not "avoid AI." The lesson is: "loop engineering".**
+  - Claim ID: `claim_8b72f8ff68762dcb9594`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_09cf980b5ff304ac11b7, ent_34c89017a8c4a47d5892, ent_5a8499d47c592e8024d1, ent_c70eca6b0f88f44d81a4`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: The lesson is not "avoid AI." The lesson is: "loop engineering".
+  - Source IDs:
+    - `src_b8ee8c174db662eaa73f` — Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI. The lesson is not "avoid AI." The lesson is:
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/173-a642fb16dce30a9fee41.md`
 
 - **The process was much easier than I expected: • Connect the existing ImagineArt account "Hermes Agent".**
   - Claim ID: `claim_adac10ae3abf548dfb15`
@@ -5334,6 +5696,45 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_aaeac0d04226279a1e02` — We just launched PayRam on Product Hunt 🎉 PayRam is a payment gateway built for the agentic commerce era. AI agents can now accept crypto an
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/091-2127b8b60c7c297cd0ba.md`
+
+- **𝗙𝗿𝗼𝗺 𝗽𝗿𝗼𝗺𝗽𝘁 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝘁𝗼 𝗹𝗼𝗼𝗽 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 Soon we will begin to have roles like “AI loop engineer” Instead of writing instructions (as in "loop engineering".**
+  - Claim ID: `claim_54bdec303a2796bd82da`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_462d43f30fc360a2f751, ent_4a754148b88a68e18df1, ent_5a8499d47c592e8024d1, ent_99262a0284ae7670f20f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: 𝗙𝗿𝗼𝗺 𝗽𝗿𝗼𝗺𝗽𝘁 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝘁𝗼 𝗹𝗼𝗼𝗽 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 Soon we will begin to have roles like “AI loop engineer” Instead of writing instructions (as in "loop engineering".
+  - Source IDs:
+    - `src_350e2db260d896108906` — 𝗙𝗿𝗼𝗺 𝗽𝗿𝗼𝗺𝗽𝘁 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝘁𝗼 𝗹𝗼𝗼𝗽 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 Soon we will begin to have roles like “AI loop engineer” Instead of writing instructions (as in 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/035-31a4edf06874c9733b7d.md`
+
+- **Adding a new one requires zero changes to th "loop engineer".**
+  - Claim ID: `claim_a46fdf8a7fe29c5b9b8f`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_0c2355784aac19c4fff9, ent_7a385f2a759adb9dd943, ent_7bcf3884807208330b8f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Adding a new one requires zero changes to th "loop engineer".
+  - Source IDs:
+    - `src_67abb1c7a755b9ff2af3` — Feed post Mohsin Ali • 3rd+ Agentic AI Consulting 5h • Follow Claude Code has roughly 18 tools. Adding a new one requires zero changes to th
+      - Quality: `unknown`
+      - URL: https://www.linkedin.com/in/mohsin-ali-62a310250?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD37eIIBiSrh17TpAV76QogHt-X36HCyc_4
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/056-508405a1127caaef461a.md`
 
 - **As LLMs grow more powerful, the main bottleneck in autonomous scientific discovery is shifting from how we program agents to how we build th "loop engineering".**
   - Claim ID: `claim_5a685f6fa8a752196194`
@@ -5393,6 +5794,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/123-efe1eeda8739835fa680.md`
 
+- **Here is the full setup — Nvidia quietly opened up "Hermes Agent".**
+  - Claim ID: `claim_0feca61e877669c7ec40`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_14c2529eb4498c5d1ffd, ent_2d87f3d38782aa14e5a6, ent_8d4321d9363208023863`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Here is the full setup — Nvidia quietly opened up "Hermes Agent".
+  - Source IDs:
+    - `src_1bb269b728983df9eca8` — You can use 120 AI models completely free without wasting any API keys. 🤯 In just 3 steps. Here is the full setup — Nvidia quietly opened up
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/057-55669359afba08fdc8be.md`
+
 - **Hermes If you are building multi-agent enterprise systems, you are likely facing "OpenClaw" Hermes.**
   - Claim ID: `claim_0fb5975e6ea89f15c463`
   - Claim type: `observation`
@@ -5401,7 +5821,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a8edbfee90935c0f5786`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5412,6 +5832,83 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/032-b070bb39766b7cd7d913.md`
 
+- **Hermes is worth a look if you're running something like OpenClaw.**
+  - Claim ID: `claim_f20bce6269979cc6787a`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_5b96d0d9e5be77a98b4e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Hermes is worth a look if you're running something like OpenClaw.
+  - Source IDs:
+    - `src_047a901c529a7f4d19f3` — Hermes is worth a look if you're running something like OpenClaw. It learns as it goes, building skills from real tasks and getting better a
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-f2ed4d369534588cdb67.md`
+
+- **I was tired of creating prompts (over 10k) and decided to learn loop engineering.**
+  - Claim ID: `claim_05aeaef1b86dca77ac49`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2fcafc19f299ff9d8eb0, ent_5a8499d47c592e8024d1, ent_aba3f97affc2d23a7516`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: I was tired of creating prompts (over 10k) and decided to learn loop engineering.
+  - Source IDs:
+    - `src_a4b9575e205c36827d40` — I was tired of creating prompts (over 10k) and decided to learn loop engineering. So I created an app and agents that do it (prompting) for 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/078-4d4fd41e8d00fd68a021.md`
+
+- **Singapore AI Week was one of the most intense wee "OpenClaw" Hermes.**
+  - Claim ID: `claim_79087b4be607d4103579`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_488b6fafec7f96ec7193, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Singapore AI Week was one of the most intense wee "OpenClaw" Hermes.
+  - Source IDs:
+    - `src_ecd98905a109ec4380be` — This was probably the busiest week of my year. And every single conversation was worth it. Singapore AI Week was one of the most intense wee
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/126-95166afa07392f808535.md`
+
+- **The Fable 5 / Mythos 5 situation is an uncomfortable reminder: For engineering workflows, model access is also a dependency.**
+  - Claim ID: `claim_35ed8827a7f5a0f45c68`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_553133ea03bb73bd9d74, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: The Fable 5 / Mythos 5 situation is an uncomfortable reminder: For engineering workflows, model access is also a dependency.
+  - Source IDs:
+    - `src_ad17e664001e434ee4fc` — The Fable 5 / Mythos 5 situation is an uncomfortable reminder: For engineering workflows, model access is also a dependency. A capable model
+      - Quality: `unknown`
+      - URL: https://www.linkedin.com/company/deepseek-ai/
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/105-795010b164886ab5712f.md`
+
 - **The biggest unlock in AI agent work right now is not a smarter model: it is a better operating system around the model.**
   - Claim ID: `claim_df16192271d2bce4f7df`
   - Claim type: `observation`
@@ -5420,7 +5917,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_193c45b5281908d2d9c8, ent_5a8499d47c592e8024d1, ent_e3c56ed5154c1af5cdcf`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation; hype language present
@@ -5478,7 +5975,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_24ea913efda289dc1b17, ent_5a8499d47c592e8024d1, ent_e244f187f696561d5fd7`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5488,6 +5985,45 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_0db5cd9ff534d545f9f8` — Most people think AI is just about writing better prompts. It's not. There are 4 layers to working with AI effectively—and most teams are st
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/166-376bb41c6b026c35c7de.md`
+
+- **This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it.**
+  - Claim ID: `claim_bfa085eef34478e900c3`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3fc4ccfe745870e2c0d9, ent_f0e5f53af7e637286fd5`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it.
+  - Source IDs:
+    - `src_bb092ea64cbcc48d8f9e` — This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it. 
+      - Quality: `unknown`
+      - URL: https://www.linkedin.com/company/nousresearch/
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/157-5df4878fa0b34eb3ba1d.md`
+
+- **This morning I have been talking with someone analysing local models and Hermes agents after the shu "Hermes Agent".**
+  - Claim ID: `claim_ddfd909ae61e79f8bf0e`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_8cfde6efdfc4ed5ab1f6, ent_d134423640d1e916c243`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: This morning I have been talking with someone analysing local models and Hermes agents after the shu "Hermes Agent".
+  - Source IDs:
+    - `src_d968598dbdeca810c4d0` — My daily conversations are fascinating. This morning I have been talking with someone analysing local models and Hermes agents after the shu
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/014-b87f443946812eabfcf4.md`
 
 - **When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic "loop engineering".**
   - Claim ID: `claim_4e36acee44718cc794a3`
@@ -5535,7 +6071,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_2be23c585f15e5fd3279, ent_5a8499d47c592e8024d1, ent_63d4cb0921ef1c7d2979`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5554,7 +6090,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T06:02:48Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_24ea913efda289dc1b17, ent_5a8499d47c592e8024d1, ent_baa3f83706154267fb37`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5584,196 +6120,24 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/076-7750ec4fd4dbf2b78aec.md`
 
-- **A team can now take a vague Jira ticket, have an AI assistant draft accept "loop engineer".**
-  - Claim ID: `claim_4dcd77cdc14eae09312f`
+- **A lot of people have heard about Hermes Agent but have no idea where to even start.**
+  - Claim ID: `claim_1d7110ad8d38d5745a2b`
   - Claim type: `observation`
   - Status: `candidate`
   - Source count: `2`
   - Evidence strength: `weak`
   - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_1e32847769dc4a158800, ent_efe2d5d9d435fd920985`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_639fcf7e301ae0bd1ed4`
+  - Contradiction status: `not_checked`
+  - Editor note: none
   - Publication decision: `do_not_use`
-  - Current best understanding: A team can now take a vague Jira ticket, have an AI assistant draft accept "loop engineer".
+  - Current best understanding: A lot of people have heard about Hermes Agent but have no idea where to even start.
   - Source IDs:
-    - `src_ba9e7da7da7560801069` — Offshoring solved a cost problem. AI changes the execution model. A team can now take a vague Jira ticket, have an AI assistant draft accept
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/124-d3368352a17c44526a4d.md`
-
-- **AI LOOP Engineering is the cycle that makes AI systems smarter over time.**
-  - Claim ID: `claim_7befc8fb98fd70f62709`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_dbe0238c2190dad50b1d`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: AI LOOP Engineering is the cycle that makes AI systems smarter over time.
-  - Source IDs:
-    - `src_39fc65322e113194fcb8` — AI LOOP Engineering is the cycle that makes AI systems smarter over time. Every major app, food delivery, video streaming, payments, runs on
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/087-ea2436b998ebbc39e4b0.md`
-
-- **Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec "loop engineering".**
-  - Claim ID: `claim_15f8b0cc4f368aebcaa7`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_e7f0d2c590a0ba7f9896`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec "loop engineering".
-  - Source IDs:
-    - `src_c493070b7634a47b000a` — Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec
-      - Quality: `D`
-      - URL: https://www.linkedin.com/in/r-scott-plunkett?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABJ5N4Bi615do1M2CkMvSoYhArzGukKj1Y
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/064-87caa17deccc14c484b0.md`
-
-- **I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice.**
-  - Claim ID: `claim_773e28b6a909ecda80a4`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_92b763a0877663e2b52c`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice.
-  - Source IDs:
-    - `src_fcb824cdedbd29a387ce` — I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice. For t
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/175-84ea9122feaf885f2013.md`
-
-- **Is Loop Engineering the next big thing, or the next big token bill?.**
-  - Claim ID: `claim_eae05f1f08eda49650e2`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_d2cc8276b27e73edc0ce`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: Is Loop Engineering the next big thing, or the next big token bill?.
-  - Source IDs:
-    - `src_6c988f71759c5ff1e840` — Is Loop Engineering the next big thing, or the next big token bill?
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/066-33109495113c2eac1ad8.md`
-
-- **The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having "Hermes Agent".**
-  - Claim ID: `claim_8a040ec331b5f7c79bea`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_962a472cfc67068b932c`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having "Hermes Agent".
-  - Source IDs:
-    - `src_e6b74894af1b4804bbe5` — The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/082-cac6a9364b382e3220cb.md`
-
-- **This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b "loop engineering".**
-  - Claim ID: `claim_604d0ac7c64497718722`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_a388a8e708577bf0ff8c`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b "loop engineering".
-  - Source IDs:
-    - `src_5589aff8af6dc565facc` — This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/013-73cd4c03d7ee28c7b5a0.md`
-
-- **While most organisations were using AI as a tool, we were explorin "loop engineering".**
-  - Claim ID: `claim_fd04d0320e8001e3048f`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T06:02:48Z`
-  - Related entities: `ent_07a8750738828ffd36a9, ent_5a8499d47c592e8024d1`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: While most organisations were using AI as a tool, we were explorin "loop engineering".
-  - Source IDs:
-    - `src_cacea9bb646b6ff5779c` — For the past four years, we’ve been quietly building something different. While most organisations were using AI as a tool, we were explorin
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/004-3306a1a34fa946c6bb7f.md`
-
-- **I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w "loop engineer".**
-  - Claim ID: `claim_f5ec1a5fa9625a462d70`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `1`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_dd20955d60739e8de3df`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w "loop engineer".
-  - Source IDs:
-    - `src_9471e5ba147ec4be19b6` — I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/009-fac220e339dfee4d7c6d.md`
-
-- **🛠️🔥 The foundation of a durable glass bottle or jar is established immediately aft "loop engineer".**
-  - Claim ID: `claim_139d888e4f55e73e5580`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `1`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_58e581c7d186be96d82d`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: 🛠️🔥 The foundation of a durable glass bottle or jar is established immediately aft "loop engineer".
-  - Source IDs:
-    - `src_9c621fb52fe5edcd842b` — Maximizing glass container strength right at the hot end. 🛠️🔥 The foundation of a durable glass bottle or jar is established immediately aft
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/178-2edab4a94a9c9cafa595.md`
+    - `src_19bf443b40ffca5004a1` — A lot of people have heard about Hermes Agent but have no idea where to even start. So I put together a full beginner guide that walks you t
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/038-cb32c95ed8760b647585.md`
 
 ### Evidence strength: unknown
 
@@ -5804,7 +6168,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_050f993ea2322d4b6940, ent_151e58a831306903b282, ent_18c082269e98051b8aa3, ent_41f9c47d7405d154e55d, ent_725a8c0bf71869a08721, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_ea3bd73e2b506e005272`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5834,6 +6198,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - URL: https://www.linkedin.com/in/marcoiacono?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAKDiIBhH6IedEOScioFdNqB2zjQf9sW_4
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/053-a980d6d74fba198c0aee.md`
+
+- **If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and "Hermes Agent".**
+  - Claim ID: `claim_8c52b7b8dcd5d06ca90c`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `8`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_1f73d39a72098e75212c, ent_2d87f3d38782aa14e5a6, ent_4750ada0d49840416b38, ent_4e2295dd929e424aa1af, ent_544ad16502620232ff70, ent_57de4cf40144bdf7d000, ent_7cc6d962e40fbc035b7a, ent_a625159d18da57180b72`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and "Hermes Agent".
+  - Source IDs:
+    - `src_f53fd71b5c30c516bc76` — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/078-75d2fbc8c53a46ef7ee2.md`
 
 - **Curious: how are other developers handling Agent harnesses or Local LLMs ↔ phone workflows?.**
   - Claim ID: `claim_b00b7bb37e0ecd5ad557`
@@ -5874,6 +6257,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - URL: https://www.linkedin.com/company/nousresearch/
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/047-9eaf7f98e57ee1d3f2d3.md`
 
+- **Now AI is pushing the concept of Content as Dynamic Layer 'Loop "loop engineering".**
+  - Claim ID: `claim_9be3cdd6c663bf00ec0d`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `7`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_04e8a05db5cb32bca176, ent_10013948ab78092766ce, ent_254637f72efcddb6a545, ent_3d59f7548e1af2151b64, ent_5a8499d47c592e8024d1, ent_aed31c11881f20f36912, ent_e4bb02662111574ef4ef`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Now AI is pushing the concept of Content as Dynamic Layer 'Loop "loop engineering".
+  - Source IDs:
+    - `src_49a3310abfc4b27c968e` — Shopify Wordpress and Facebook were the early GraphQL adopters/originators. Now AI is pushing the concept of Content as Dynamic Layer 'Loop 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/151-87b8dca1e57391e60e97.md`
+
 - **The Model Context Protocol is an open standard that allows AI tools (Claude Code, Cursor, Windsurf, OpenHands) to connect to ex "OpenClaw" Hermes.**
   - Claim ID: `claim_035685024d9bee58a745`
   - Claim type: `observation`
@@ -5912,6 +6314,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/102-b86549066562df85a21d.md`
 
+- **🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A "Hermes Agent".**
+  - Claim ID: `claim_b0fb8410b047577afcd4`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `7`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_166f4d5bd98bcc5fd381, ent_2065501062eef8cce705, ent_2d87f3d38782aa14e5a6, ent_44575cf5b28512d75644, ent_8cfde6efdfc4ed5ab1f6, ent_9609c16ef7510715aacf, ent_fefaa42da40ecf93662a`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: 🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A "Hermes Agent".
+  - Source IDs:
+    - `src_03fd4a0f825cd12f9574` — 🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/142-9f3f311ae1d82ed0f4c5.md`
+
 - **All 6 DGX Sparks are fully operational and routing to all our AI Employee Agents.**
   - Claim ID: `claim_4438f3f4a967ff22a9ca`
   - Claim type: `observation`
@@ -5939,7 +6360,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_11a4a60b518bf24989d4, ent_34154fea30ef17289140, ent_5a8499d47c592e8024d1, ent_a625159d18da57180b72, ent_cdc29937887188ad3702, ent_ea382aa3ceb5d23c6516`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation; hype language present
@@ -5951,6 +6372,63 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - URL: https://www.linkedin.com/in/bcherny/
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/135-1988373f4b4d4ffbb5f4.md`
 
+- **Have you considered using it for your own product "OpenClaw" Hermes.**
+  - Claim ID: `claim_f9b7b59c98f8492c3cd9`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `6`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_193c45b5281908d2d9c8, ent_75ca3ca2ece243555f0e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bb43b459cb3f895a6a04, ent_bd4369b9f7f2899dd365`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Have you considered using it for your own product "OpenClaw" Hermes.
+  - Source IDs:
+    - `src_388b472c4ebc1d243a1a` — Have you heard about Autonomous Personal Agents? Did you wonder what hashtag #OpenClaw is? Have you considered using it for your own product
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/129-a0561be952107f9e75cd.md`
+
+- **Seeing the latest hype wave of loop engineering has lead me to one conclusion.**
+  - Claim ID: `claim_53b1573947628a164c22`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `6`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_236707bfb83474fad55a, ent_5a8499d47c592e8024d1, ent_8df51e054900e808569f, ent_e244f187f696561d5fd7, ent_ec38063c881f0a5edfef, ent_ef934365980c89e3ff1b`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Seeing the latest hype wave of loop engineering has lead me to one conclusion.
+  - Source IDs:
+    - `src_9c9e64a136f2b6cb4db7` — Seeing the latest hype wave of loop engineering has lead me to one conclusion. There is a severe lack of AI literacy. Even amongst devs. Whe
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/179-c5cfd1203cd78e2f6c77.md`
+
+- **Source: - Image generated with Gemini - Prompt description is my ow "loop engineering".**
+  - Claim ID: `claim_7e2b3a74e4a583fd424c`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `6`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_5a8499d47c592e8024d1, ent_5d72436256ada53828b5, ent_6105d6cc76af400325e9, ent_8044aae1f86875d993f2, ent_cf07194ee232eb531e15, ent_de2187af3fb011708ca4`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Source: - Image generated with Gemini - Prompt description is my ow "loop engineering".
+  - Source IDs:
+    - `src_d885b32447e9f7fd8aef` — Q: How woud you call "rat race" in the era of LLMs? A: Loop Engineering! source: - Image generated with Gemini - Prompt description is my ow
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/125-6276e60a36bffe5716ea.md`
+
 - **Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'.**
   - Claim ID: `claim_7e74b63407356799b13e`
   - Claim type: `observation`
@@ -5959,7 +6437,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_11a4a60b518bf24989d4, ent_34154fea30ef17289140, ent_5a8499d47c592e8024d1, ent_a625159d18da57180b72, ent_cdc29937887188ad3702, ent_ea382aa3ceb5d23c6516`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -5979,7 +6457,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_1a9f8b2856079cb2b381, ent_272a35b67e9402c82446, ent_76369889f904195b6ad7, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9f584196e7fe6de85d38`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6018,7 +6496,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_1a9f8b2856079cb2b381, ent_2507e75e8020a63de79e, ent_88cfb116780987cf67a6, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9fec0b124c6912a86e66`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6030,6 +6508,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - URL: https://www.linkedin.com/company/microsoft/
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/062-44911815b05039adf7a8.md`
 
+- **With the exploits we are seeing now, you cannot track every CVE "loop engineering".**
+  - Claim ID: `claim_d11521c08ccc0bf4f5ac`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `6`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_0695b563acde461fc2f8, ent_3d5d2f7593c08d26bbaf, ent_45779bc98fc51729fc67, ent_5a8499d47c592e8024d1, ent_dad9a79bf7094d4e4604, ent_fb54a05f57acb1015207`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: With the exploits we are seeing now, you cannot track every CVE "loop engineering".
+  - Source IDs:
+    - `src_88e6020ad24e65301a5b` — Detection engineering has to start shifting in the AI-powered attacker age. With the exploits we are seeing now, you cannot track every CVE 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/167-00f1d7d1ce29b974cd49.md`
+
 - **🔍 Proto Interpretation of Gemini’s Stress‑Test Response (This is the part Gemini cannot generate about itself.) After running Gemini through "loop engineering".**
   - Claim ID: `claim_26168daf8fea7fd11714`
   - Claim type: `observation`
@@ -6038,7 +6535,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T06:02:48Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_3ed59d9f6e32da0f3c97, ent_5a8499d47c592e8024d1, ent_5d72436256ada53828b5, ent_724b930994a1a865befc, ent_f39592393ef0859cb196, ent_f43dc8790ed621568492`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6048,6 +6545,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_385527e4cf86491831de` — 🔍 Proto Interpretation of Gemini’s Stress‑Test Response (This is the part Gemini cannot generate about itself.) After running Gemini through
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/010-12dafe2853b9d4fa1982.md`
+
+- **A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible.**
+  - Claim ID: `claim_fe1f08a0352de5ae4eef`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `5`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_39a059e26b51a327f0fd, ent_9f68fe635d42a5bef762, ent_acba25512100f80b56fc, ent_edccdaa8e7c3b5969976`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible.
+  - Source IDs:
+    - `src_4d5f79a732d4311352ff` — A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible. Here's what you can do with it: ✅ Run mu
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/127-684660ad409f24d359ce.md`
 
 - **AstridOS is coming You've taught your agent how you work Your context, your setup, the way you operate Switching platforms to get more contr "OpenClaw" Hermes.**
   - Claim ID: `claim_c392e933e8cdeb7ec597`
@@ -6067,6 +6583,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_b096248b2a608943016b` — AstridOS is coming You've taught your agent how you work Your context, your setup, the way you operate Switching platforms to get more contr
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/085-bfa99c5696e60b0ae0a1.md`
+
+- **For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie "Hermes Agent".**
+  - Claim ID: `claim_0fc0a2e7b5d6326d0ec4`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `5`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_0c7028af5504f90e8a92, ent_2d87f3d38782aa14e5a6, ent_8cfde6efdfc4ed5ab1f6, ent_d8a1f56007588d64054d, ent_f0e5f53af7e637286fd5`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie "Hermes Agent".
+  - Source IDs:
+    - `src_ec75e91c5acbd041229c` — For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/072-171aeff7e8fce13f9ce1.md`
 
 - **I am pleased to share Phase 1 of Judicium, an AI-native engineering assessment platform built around a single conviction: code production is "loop engineering".**
   - Claim ID: `claim_b1c70983319d96ed6985`
@@ -6095,7 +6630,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_9372c470eeadd5ecd9c3, ent_ab7c250a4017dbdc07aa, ent_cf07194ee232eb531e15, ent_fd0a38a34fd07fd4b3ba`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6106,6 +6641,44 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/100-a5e7c59670399a02c595.md`
 
+- **Most engineers assume a coding agent is a giant p "loop engineer".**
+  - Claim ID: `claim_24515eb034ef7c3f5582`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `5`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_0c2355784aac19c4fff9, ent_24ea913efda289dc1b17, ent_31a85e22a24a7a4fba06, ent_a625159d18da57180b72, ent_a7b5df69d1c30a120a57`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Most engineers assume a coding agent is a giant p "loop engineer".
+  - Source IDs:
+    - `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`
+
+- **National debt is at $39.20 trillion, pacing "loop engineering".**
+  - Claim ID: `claim_384b8fc4eb6c06e93173`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `5`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_06c8b61296010f1b121d, ent_28780a3cd242408c7287, ent_2be23c585f15e5fd3279, ent_5a8499d47c592e8024d1, ent_652d75f9bafb25e55c0e`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: National debt is at $39.20 trillion, pacing "loop engineering".
+  - Source IDs:
+    - `src_a4a9ff607e08323c8e16` — 📌 The Fed’s $244B Blackout: Why the $39.2T Debt is an Operational Efficiency Crisis. 📍 The U.S. national debt is at $39.20 trillion, pacing 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/070-db7a029625ca629af83c.md`
+
 - **Now AI is everywhere: Apps, browsers, tool "OpenClaw" Hermes.**
   - Claim ID: `claim_a59cf4d062ae2b941518`
   - Claim type: `observation`
@@ -6114,7 +6687,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_49b303ee7f97e7731bbe, ent_60965168ce762e949600, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_d56f6359d240f69e4164`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6134,7 +6707,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_10182ab855ff772753c0, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_b5f6ffb85f2c6627d5dd, ent_c857d09db23e6822e360`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6173,7 +6746,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_b733c3fad0022e43f3cf, ent_b7c6850bce26286adec4, ent_ead627e2b11190fdfc89`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6243,6 +6816,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - URL: https://www.linkedin.com/in/steipete/
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/060-f8dbdcfab6329e399f7f.md`
 
+- **Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI.**
+  - Claim ID: `claim_7d8671b444e5e07f1884`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_09cf980b5ff304ac11b7, ent_34c89017a8c4a47d5892, ent_5a8499d47c592e8024d1, ent_c70eca6b0f88f44d81a4`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI.
+  - Source IDs:
+    - `src_b8ee8c174db662eaa73f` — Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI. The lesson is not "avoid AI." The lesson is:
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/173-a642fb16dce30a9fee41.md`
+
 - **Ask a model that has access to a computer to build a list and it can do it for you It's *super* easy If the ask i "OpenClaw" Hermes.**
   - Claim ID: `claim_029ef52bd98c3c0cfb3c`
   - Claim type: `observation`
@@ -6251,7 +6843,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_2f2fc7f2e9ce13b09b84, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9e00521370f53fe0ec98`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6270,7 +6862,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_169f53ffdc494f9d839e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_d07aaa81517b72b46f44`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6320,6 +6912,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/088-5862078142b8992200fc.md`
 
+- **HealthcareAuditIQ™ is a constitutional Decision Assurance Platform that introduces a new systems architecture where verified evidence, execu "loop engineering".**
+  - Claim ID: `claim_e3c04c8f6185a933baa5`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_4f9d3b84fea6ba61dbda, ent_5a8499d47c592e8024d1, ent_b1a2f2486c10d5258a6e, ent_e7667cf1e67b1dca0724`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: HealthcareAuditIQ™ is a constitutional Decision Assurance Platform that introduces a new systems architecture where verified evidence, execu "loop engineering".
+  - Source IDs:
+    - `src_b46af5a79c07afb0deb2` — HealthcareAuditIQ™ is a constitutional Decision Assurance Platform that introduces a new systems architecture where verified evidence, execu
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/105-dcd9f1f4477dfdf54f44.md`
+
 - **Here is a responsible, grown-up way of saying what I did to Hermes Agent running GPT5.5, in the last week.**
   - Claim ID: `claim_a7f33f83a2710e9f30a2`
   - Claim type: `observation`
@@ -6338,6 +6949,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_62110dcb6eff2a422a97` — Here is a responsible, grown-up way of saying what I did to Hermes Agent running GPT5.5, in the last week. A GPT-5.5 agent orchestration env
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/124-31f0f23cbf591e226a19.md`
+
+- **Hermes Agent Launches Automation Blueprints for DevOps and Research Workflows 📌 Hermes Agent has evolved from a chat interface into an activ "Hermes Agent".**
+  - Claim ID: `claim_4f2448d1ec97b30c3d59`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_87c54e4d427769791d95, ent_aae62b5f0497c4a445ce, ent_e0bbfe8910781765de81`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Hermes Agent Launches Automation Blueprints for DevOps and Research Workflows 📌 Hermes Agent has evolved from a chat interface into an activ "Hermes Agent".
+  - Source IDs:
+    - `src_639b3a4274230a94e617` — Hermes Agent Launches Automation Blueprints for DevOps and Research Workflows 📌 Hermes Agent has evolved from a chat interface into an activ
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/051-e77d6fc89eb5715c2179.md`
 
 - **In this release: - Fable 5 has landed and it’s a big one - I tried Hermes instead o "OpenClaw" Hermes.**
   - Claim ID: `claim_cc40ee0d3ade9849954a`
@@ -6358,6 +6988,26 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/099-a9473e9692d48ccad4cd.md`
 
+- **It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn' "OpenClaw" Hermes.**
+  - Claim ID: `claim_16964f79e5647cb7fe63`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_15cbfab2cca18f28ee61, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a8587c4b9ae8e433cf1c`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn' "OpenClaw" Hermes.
+  - Source IDs:
+    - `src_a9b9f5c4ebef962c5b6b` — It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn'
+      - Quality: `unknown`
+      - URL: https://www.linkedin.com/company/byron-tech-community/
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/007-75f37f5efb0ae7b21bd6.md`
+
 - **Meta just launched “Business Agent” — their AI for customer service and sales automation.**
   - Claim ID: `claim_5149d92d15ffb2915b17`
   - Claim type: `observation`
@@ -6376,6 +7026,63 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_9682900054b92e1d8b04` — Meta just launched “Business Agent” — their AI for customer service and sales automation. Every tech publication is calling it a game-change
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/088-5862078142b8992200fc.md`
+
+- **People are not talking about the security issues with Hermes or OpenClaw.**
+  - Claim ID: `claim_bf6a00040f945ab752fe`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bf0379178b15ecec1349, ent_c9022680f888674e2b22`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: People are not talking about the security issues with Hermes or OpenClaw.
+  - Source IDs:
+    - `src_a36777623fea62c34df8` — People are not talking about the security issues with Hermes or OpenClaw. These security threats are real and are yet to fully be seen. The 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-d8dd2178fd827894223b.md`
+
+- **Right now, thousands of agencies and startups are trying to build internal AI workflo "OpenClaw" Hermes.**
+  - Claim ID: `claim_cb2ef03eeeb5f69a49bf`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_27042f4e6eca7d0b2a7e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_ba78973ddcf98d4e5369`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Right now, thousands of agencies and startups are trying to build internal AI workflo "OpenClaw" Hermes.
+  - Source IDs:
+    - `src_ff09cb5c7c48f8e4747a` — Are you still leaking client data to public AI models? Right now, thousands of agencies and startups are trying to build internal AI workflo
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/096-ad201c0cf796e8ff35a1.md`
+
+- **Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents.**
+  - Claim ID: `claim_8fcac90850aa71a0448b`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_1cb6b3abf1f713846ef5, ent_34a1dfb174c615ecb41a, ent_5a8499d47c592e8024d1, ent_6b5a3ded016ab7826989`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents.
+  - Source IDs:
+    - `src_b4e572293eb04de5b09c` — Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents. Wh
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/140-7d6951c27285933ac754.md`
 
 - **So now my Hermes agent is looking out for Champagne deals for me - I am serious.**
   - Claim ID: `claim_34cc736024bd33b227d6`
@@ -6415,6 +7122,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - URL: https://www.linkedin.com/company/loop-engineering/
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/167-65d902d2220f35715093.md`
+
+- **The lesson is not "avoid AI." The lesson is: "loop engineering".**
+  - Claim ID: `claim_8b72f8ff68762dcb9594`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_09cf980b5ff304ac11b7, ent_34c89017a8c4a47d5892, ent_5a8499d47c592e8024d1, ent_c70eca6b0f88f44d81a4`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: The lesson is not "avoid AI." The lesson is: "loop engineering".
+  - Source IDs:
+    - `src_b8ee8c174db662eaa73f` — Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI. The lesson is not "avoid AI." The lesson is:
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/173-a642fb16dce30a9fee41.md`
 
 - **The process was much easier than I expected: • Connect the existing ImagineArt account "Hermes Agent".**
   - Claim ID: `claim_adac10ae3abf548dfb15`
@@ -6472,6 +7198,45 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_aaeac0d04226279a1e02` — We just launched PayRam on Product Hunt 🎉 PayRam is a payment gateway built for the agentic commerce era. AI agents can now accept crypto an
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/091-2127b8b60c7c297cd0ba.md`
+
+- **𝗙𝗿𝗼𝗺 𝗽𝗿𝗼𝗺𝗽𝘁 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝘁𝗼 𝗹𝗼𝗼𝗽 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 Soon we will begin to have roles like “AI loop engineer” Instead of writing instructions (as in "loop engineering".**
+  - Claim ID: `claim_54bdec303a2796bd82da`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `4`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_462d43f30fc360a2f751, ent_4a754148b88a68e18df1, ent_5a8499d47c592e8024d1, ent_99262a0284ae7670f20f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: 𝗙𝗿𝗼𝗺 𝗽𝗿𝗼𝗺𝗽𝘁 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝘁𝗼 𝗹𝗼𝗼𝗽 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 Soon we will begin to have roles like “AI loop engineer” Instead of writing instructions (as in "loop engineering".
+  - Source IDs:
+    - `src_350e2db260d896108906` — 𝗙𝗿𝗼𝗺 𝗽𝗿𝗼𝗺𝗽𝘁 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝘁𝗼 𝗹𝗼𝗼𝗽 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 Soon we will begin to have roles like “AI loop engineer” Instead of writing instructions (as in 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/035-31a4edf06874c9733b7d.md`
+
+- **Adding a new one requires zero changes to th "loop engineer".**
+  - Claim ID: `claim_a46fdf8a7fe29c5b9b8f`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_0c2355784aac19c4fff9, ent_7a385f2a759adb9dd943, ent_7bcf3884807208330b8f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Adding a new one requires zero changes to th "loop engineer".
+  - Source IDs:
+    - `src_67abb1c7a755b9ff2af3` — Feed post Mohsin Ali • 3rd+ Agentic AI Consulting 5h • Follow Claude Code has roughly 18 tools. Adding a new one requires zero changes to th
+      - Quality: `unknown`
+      - URL: https://www.linkedin.com/in/mohsin-ali-62a310250?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD37eIIBiSrh17TpAV76QogHt-X36HCyc_4
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/056-508405a1127caaef461a.md`
 
 - **As LLMs grow more powerful, the main bottleneck in autonomous scientific discovery is shifting from how we program agents to how we build th "loop engineering".**
   - Claim ID: `claim_5a685f6fa8a752196194`
@@ -6531,6 +7296,25 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/123-efe1eeda8739835fa680.md`
 
+- **Here is the full setup — Nvidia quietly opened up "Hermes Agent".**
+  - Claim ID: `claim_0feca61e877669c7ec40`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_14c2529eb4498c5d1ffd, ent_2d87f3d38782aa14e5a6, ent_8d4321d9363208023863`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Here is the full setup — Nvidia quietly opened up "Hermes Agent".
+  - Source IDs:
+    - `src_1bb269b728983df9eca8` — You can use 120 AI models completely free without wasting any API keys. 🤯 In just 3 steps. Here is the full setup — Nvidia quietly opened up
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/057-55669359afba08fdc8be.md`
+
 - **Hermes If you are building multi-agent enterprise systems, you are likely facing "OpenClaw" Hermes.**
   - Claim ID: `claim_0fb5975e6ea89f15c463`
   - Claim type: `observation`
@@ -6539,7 +7323,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a8edbfee90935c0f5786`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6550,6 +7334,83 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/032-b070bb39766b7cd7d913.md`
 
+- **Hermes is worth a look if you're running something like OpenClaw.**
+  - Claim ID: `claim_f20bce6269979cc6787a`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_5b96d0d9e5be77a98b4e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Hermes is worth a look if you're running something like OpenClaw.
+  - Source IDs:
+    - `src_047a901c529a7f4d19f3` — Hermes is worth a look if you're running something like OpenClaw. It learns as it goes, building skills from real tasks and getting better a
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-f2ed4d369534588cdb67.md`
+
+- **I was tired of creating prompts (over 10k) and decided to learn loop engineering.**
+  - Claim ID: `claim_05aeaef1b86dca77ac49`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2fcafc19f299ff9d8eb0, ent_5a8499d47c592e8024d1, ent_aba3f97affc2d23a7516`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: I was tired of creating prompts (over 10k) and decided to learn loop engineering.
+  - Source IDs:
+    - `src_a4b9575e205c36827d40` — I was tired of creating prompts (over 10k) and decided to learn loop engineering. So I created an app and agents that do it (prompting) for 
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/078-4d4fd41e8d00fd68a021.md`
+
+- **Singapore AI Week was one of the most intense wee "OpenClaw" Hermes.**
+  - Claim ID: `claim_79087b4be607d4103579`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_488b6fafec7f96ec7193, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: Singapore AI Week was one of the most intense wee "OpenClaw" Hermes.
+  - Source IDs:
+    - `src_ecd98905a109ec4380be` — This was probably the busiest week of my year. And every single conversation was worth it. Singapore AI Week was one of the most intense wee
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/126-95166afa07392f808535.md`
+
+- **The Fable 5 / Mythos 5 situation is an uncomfortable reminder: For engineering workflows, model access is also a dependency.**
+  - Claim ID: `claim_35ed8827a7f5a0f45c68`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_553133ea03bb73bd9d74, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: The Fable 5 / Mythos 5 situation is an uncomfortable reminder: For engineering workflows, model access is also a dependency.
+  - Source IDs:
+    - `src_ad17e664001e434ee4fc` — The Fable 5 / Mythos 5 situation is an uncomfortable reminder: For engineering workflows, model access is also a dependency. A capable model
+      - Quality: `unknown`
+      - URL: https://www.linkedin.com/company/deepseek-ai/
+      - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/105-795010b164886ab5712f.md`
+
 - **The biggest unlock in AI agent work right now is not a smarter model: it is a better operating system around the model.**
   - Claim ID: `claim_df16192271d2bce4f7df`
   - Claim type: `observation`
@@ -6558,7 +7419,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_193c45b5281908d2d9c8, ent_5a8499d47c592e8024d1, ent_e3c56ed5154c1af5cdcf`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation; hype language present
@@ -6616,7 +7477,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_24ea913efda289dc1b17, ent_5a8499d47c592e8024d1, ent_e244f187f696561d5fd7`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6626,6 +7487,45 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
     - `src_0db5cd9ff534d545f9f8` — Most people think AI is just about writing better prompts. It's not. There are 4 layers to working with AI effectively—and most teams are st
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/166-376bb41c6b026c35c7de.md`
+
+- **This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it.**
+  - Claim ID: `claim_bfa085eef34478e900c3`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3fc4ccfe745870e2c0d9, ent_f0e5f53af7e637286fd5`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it.
+  - Source IDs:
+    - `src_bb092ea64cbcc48d8f9e` — This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it. 
+      - Quality: `unknown`
+      - URL: https://www.linkedin.com/company/nousresearch/
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/157-5df4878fa0b34eb3ba1d.md`
+
+- **This morning I have been talking with someone analysing local models and Hermes agents after the shu "Hermes Agent".**
+  - Claim ID: `claim_ddfd909ae61e79f8bf0e`
+  - Claim type: `observation`
+  - Status: `candidate`
+  - Source count: `3`
+  - Evidence strength: `weak`
+  - Source quality: `unknown`
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_8cfde6efdfc4ed5ab1f6, ent_d134423640d1e916c243`
+  - Contradiction status: `not_checked`
+  - Editor note: none
+  - Publication decision: `do_not_use`
+  - Current best understanding: This morning I have been talking with someone analysing local models and Hermes agents after the shu "Hermes Agent".
+  - Source IDs:
+    - `src_d968598dbdeca810c4d0` — My daily conversations are fascinating. This morning I have been talking with someone analysing local models and Hermes agents after the shu
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/014-b87f443946812eabfcf4.md`
 
 - **When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic "loop engineering".**
   - Claim ID: `claim_4e36acee44718cc794a3`
@@ -6673,7 +7573,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_2be23c585f15e5fd3279, ent_5a8499d47c592e8024d1, ent_63d4cb0921ef1c7d2979`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6692,7 +7592,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T06:02:48Z`
+  - Last seen: `2026-06-15T01:26:42Z`
   - Related entities: `ent_24ea913efda289dc1b17, ent_5a8499d47c592e8024d1, ent_baa3f83706154267fb37`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
@@ -6722,193 +7622,21 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
       - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/076-7750ec4fd4dbf2b78aec.md`
 
-- **A team can now take a vague Jira ticket, have an AI assistant draft accept "loop engineer".**
-  - Claim ID: `claim_4dcd77cdc14eae09312f`
+- **A lot of people have heard about Hermes Agent but have no idea where to even start.**
+  - Claim ID: `claim_1d7110ad8d38d5745a2b`
   - Claim type: `observation`
   - Status: `candidate`
   - Source count: `2`
   - Evidence strength: `weak`
   - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_1e32847769dc4a158800, ent_efe2d5d9d435fd920985`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
+  - First seen: `2026-06-15T01:26:42Z`
+  - Last seen: `2026-06-15T01:26:42Z`
+  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_639fcf7e301ae0bd1ed4`
+  - Contradiction status: `not_checked`
+  - Editor note: none
   - Publication decision: `do_not_use`
-  - Current best understanding: A team can now take a vague Jira ticket, have an AI assistant draft accept "loop engineer".
+  - Current best understanding: A lot of people have heard about Hermes Agent but have no idea where to even start.
   - Source IDs:
-    - `src_ba9e7da7da7560801069` — Offshoring solved a cost problem. AI changes the execution model. A team can now take a vague Jira ticket, have an AI assistant draft accept
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/124-d3368352a17c44526a4d.md`
-
-- **AI LOOP Engineering is the cycle that makes AI systems smarter over time.**
-  - Claim ID: `claim_7befc8fb98fd70f62709`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_dbe0238c2190dad50b1d`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: AI LOOP Engineering is the cycle that makes AI systems smarter over time.
-  - Source IDs:
-    - `src_39fc65322e113194fcb8` — AI LOOP Engineering is the cycle that makes AI systems smarter over time. Every major app, food delivery, video streaming, payments, runs on
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/087-ea2436b998ebbc39e4b0.md`
-
-- **Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec "loop engineering".**
-  - Claim ID: `claim_15f8b0cc4f368aebcaa7`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_e7f0d2c590a0ba7f9896`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec "loop engineering".
-  - Source IDs:
-    - `src_c493070b7634a47b000a` — Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec
-      - Quality: `D`
-      - URL: https://www.linkedin.com/in/r-scott-plunkett?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABJ5N4Bi615do1M2CkMvSoYhArzGukKj1Y
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/064-87caa17deccc14c484b0.md`
-
-- **I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice.**
-  - Claim ID: `claim_773e28b6a909ecda80a4`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_92b763a0877663e2b52c`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice.
-  - Source IDs:
-    - `src_fcb824cdedbd29a387ce` — I've been going down the rabbit hole on loop engineering lately, and I'm curious how other builders are actually using it in practice. For t
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/175-84ea9122feaf885f2013.md`
-
-- **Is Loop Engineering the next big thing, or the next big token bill?.**
-  - Claim ID: `claim_eae05f1f08eda49650e2`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_d2cc8276b27e73edc0ce`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: Is Loop Engineering the next big thing, or the next big token bill?.
-  - Source IDs:
-    - `src_6c988f71759c5ff1e840` — Is Loop Engineering the next big thing, or the next big token bill?
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/066-33109495113c2eac1ad8.md`
-
-- **The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having "Hermes Agent".**
-  - Claim ID: `claim_8a040ec331b5f7c79bea`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_2d87f3d38782aa14e5a6, ent_962a472cfc67068b932c`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having "Hermes Agent".
-  - Source IDs:
-    - `src_e6b74894af1b4804bbe5` — The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/082-cac6a9364b382e3220cb.md`
-
-- **This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b "loop engineering".**
-  - Claim ID: `claim_604d0ac7c64497718722`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_5a8499d47c592e8024d1, ent_a388a8e708577bf0ff8c`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b "loop engineering".
-  - Source IDs:
-    - `src_5589aff8af6dc565facc` — This is why defining escape conditions is a fundamental part of loop engineering - same stuff we learned when writing for and while loops, b
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/013-73cd4c03d7ee28c7b5a0.md`
-
-- **While most organisations were using AI as a tool, we were explorin "loop engineering".**
-  - Claim ID: `claim_fd04d0320e8001e3048f`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `2`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-14T01:25:00Z`
-  - Last seen: `2026-06-14T06:02:48Z`
-  - Related entities: `ent_07a8750738828ffd36a9, ent_5a8499d47c592e8024d1`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: While most organisations were using AI as a tool, we were explorin "loop engineering".
-  - Source IDs:
-    - `src_cacea9bb646b6ff5779c` — For the past four years, we’ve been quietly building something different. While most organisations were using AI as a tool, we were explorin
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/004-3306a1a34fa946c6bb7f.md`
-
-- **I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w "loop engineer".**
-  - Claim ID: `claim_f5ec1a5fa9625a462d70`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `1`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_dd20955d60739e8de3df`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w "loop engineer".
-  - Source IDs:
-    - `src_9471e5ba147ec4be19b6` — I’m starting to wonder… how heavily subsidized are the AI monthly subscriptions… especially since hashtag #tokenmaxxing Based on some math w
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/009-fac220e339dfee4d7c6d.md`
-
-- **🛠️🔥 The foundation of a durable glass bottle or jar is established immediately aft "loop engineer".**
-  - Claim ID: `claim_139d888e4f55e73e5580`
-  - Claim type: `observation`
-  - Status: `candidate`
-  - Source count: `1`
-  - Evidence strength: `weak`
-  - Source quality: `unknown`
-  - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-14T01:25:00Z`
-  - Related entities: `ent_58e581c7d186be96d82d`
-  - Contradiction status: `not_found`
-  - Editor note: social/search-result evidence only; discovery signal only; not independent confirmation
-  - Publication decision: `do_not_use`
-  - Current best understanding: 🛠️🔥 The foundation of a durable glass bottle or jar is established immediately aft "loop engineer".
-  - Source IDs:
-    - `src_9c621fb52fe5edcd842b` — Maximizing glass container strength right at the hot end. 🛠️🔥 The foundation of a durable glass bottle or jar is established immediately aft
-      - Quality: `D`
-      - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/178-2edab4a94a9c9cafa595.md`
+    - `src_19bf443b40ffca5004a1` — A lot of people have heard about Hermes Agent but have no idea where to even start. So I put together a full beginner guide that walks you t
+      - Quality: `unknown`
+      - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/038-cb32c95ed8760b647585.md`

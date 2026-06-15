@@ -1,17 +1,17 @@
 # SEO
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 11
-- Mention count: 37
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 16
+- Mention count: 47
 
 ## Description
 
-Candidate tool entity extracted from 8 source(s).
+Candidate tool entity extracted from 7 source(s).
 
 ## Related claims
 
@@ -25,6 +25,20 @@ Candidate tool entity extracted from 8 source(s).
 - `src_1a87f1a3e1ae25731a95` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
   - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/055-a8a88606c8bc788fc42f.md`
+- `src_0653dfe54f753b94e5ee` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
+  - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/126-5fd5963e5e87eace392e.md`
+- `src_11a05f32c57c52c45fa8` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
+  - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/073-531372016cf4511a251f.md`
+- `src_b0573038c384f01ca617` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
+  - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/094-26e476199dcd6d260e21.md`
+- `src_471f4a1242d544474bd1` — Feed post Roshan Kumar • 3rd+ AI Digital Marketing Automation Architect I build AI agent systems for SEO, email & social , Ads | n8n · Claud
+  - URL: https://www.linkedin.com/in/copybyroshan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAE-qZkQBbqEe3mjK8SZPd7AUstDPov3YDao
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/024-612cfd15248ae55a406a.md`
+- `src_b3955995e4becae76f1a` — AIは、もう「便利そうだから使う」段階ではありません。 HSビルワーキングスペースでは、実際に自社業務の中でAIを使いながら、 Webマーケティング SNSマーケティング SEO / AIO ブログ制作 LP構築・改善 LINEボット構築・運用 予約・決済・請求処理 SNS投稿 
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-151ef56fedb67ae7ae46.md`
 - `src_287e268189347d2f4df6` — Feed post Julian Goldie • 3rd+ I Help Websites Get More Leads, Traffic and Sales with SEO | 💪 DM me "SEO" to get 200+ AI SEO Prompts! Visit 
   - URL: https://www.linkedin.com/in/juliangoldieseo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAep3-4B9OlK-gjL-56ir-8zhw9EZITJa0Y
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/048-3f61ae4b98698324ed78.md`
@@ -43,11 +57,11 @@ Candidate tool entity extracted from 8 source(s).
 - `src_a29c6e5f845836a88524` — Feed post Daniel Foley Carter • 3rd+ SEO Specialist with 25+ years experience. Extensive experience in SEO auditing, strategy, execution & t
   - URL: https://www.linkedin.com/in/daniel-foley-assertive?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAXsNsUBYWyqVPkglBZEBgbvMTqovBcjEC0
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/091-f57883f03f9bfa97e3a1.md`
-- `src_471f4a1242d544474bd1` — Feed post Roshan Kumar • 3rd+ AI Digital Marketing Automation Architect I build AI agent systems for SEO, email & social , Ads | n8n · Claud
-  - URL: https://www.linkedin.com/in/copybyroshan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAE-qZkQBbqEe3mjK8SZPd7AUstDPov3YDao
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/024-612cfd15248ae55a406a.md`
+- `src_0fa155a38f7323595baf` — Feed post Steve Brownlie • 3rd+ Fractional CTO and SEO | SEO Linkbuilding | AI Automation | Software Development | SaaS Marketing Book an ap
+  - URL: https://www.linkedin.com/in/sdbrownlie?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAo-VPgB2avV2NI_uqtVjz9pYT3OzfAHDXA
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/039-3834e890814ad8d5ccdd.md`
+- `src_86d73c4bce18663ba948` — Ranking #1 in search engines can feel like an uphill battle, but it doesn’t have to be. Let's shake up the world of SEO with a fresh approac
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/160-66505908b47341ba36c7.md`
 - `src_73b952d251619b5d8528` — Feed post Roshan Kumar • 3rd+ AI Digital Marketing Automation Architect I build AI agent systems for SEO, email & social , Ads | n8n · Claud
   - URL: https://www.linkedin.com/in/copybyroshan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAE-qZkQBbqEe3mjK8SZPd7AUstDPov3YDao
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/087-42f2d7833992a9a8b3bb.md`
-- `src_b3955995e4becae76f1a` — AIは、もう「便利そうだから使う」段階ではありません。 HSビルワーキングスペースでは、実際に自社業務の中でAIを使いながら、 Webマーケティング SNSマーケティング SEO / AIO ブログ制作 LP構築・改善 LINEボット構築・運用 予約・決済・請求処理 SNS投稿 
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-151ef56fedb67ae7ae46.md`

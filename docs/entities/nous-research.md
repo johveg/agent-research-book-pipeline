@@ -1,17 +1,17 @@
 # Nous Research
 
-Last generated: 2026-06-14T06:02:48Z
+Last generated: 2026-06-15T01:26:50Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 42
-- Mention count: 316
+- Last seen: 2026-06-15T01:26:41Z
+- Source count: 46
+- Mention count: 320
 
 ## Description
 
-Candidate tool entity extracted from 7 source(s).
+Candidate tool entity extracted from 4 source(s).
 
 ## Related claims
 

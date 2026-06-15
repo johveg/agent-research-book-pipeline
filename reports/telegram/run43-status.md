@@ -9,8 +9,9 @@ Branch: `main`
 - success: true
 - Run 41/42 checkpoint committed: true
 - checkpoint commit: `200069b`
-- Run 43 final commit: pending at status-write time; see final `git log -1` / final response for immutable commit hash
-- push result: pending at status-write time; Telegram status was delivered before final commit/push
+- Run 43 implementation commit: `a00217a`
+- Run 43 implementation push result: ok via SSH identity retry
+- Status-finalization commit: created after this file was first sent; see final response for latest HEAD
 - telegram_delivery_ok: true
 - telegram_message_id: `1701`
 

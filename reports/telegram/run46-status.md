@@ -27,28 +27,9 @@
 - full pytest: `311 passed`
 - workspace/editorial/citation/MkDocs/diff/secrets: `passed`
 - Telegram send result: `sent via configured Telegram home channel; message id [REDACTED]`
-- commit hash: `pending`
-- push result: `pending`
-- final git status: `## main...origin/main
- M scripts/closed_loop_production_scheduler.py
- M scripts/protected_mutation_guard.py
- M tests/test_closed_loop_production_scheduler.py
- M tests/test_protected_mutation_guard.py
-?? reports/architecture/run46-production-ops-hardening-evidence-map-20260615.md
-?? reports/editorial/citation-pipeline-test-20260612-mutation-guard-run46.json
-?? reports/editorial/citation-pipeline-test-20260612-mutation-guard-run46.md
-?? reports/editorial/production-monitor-run46.json
-?? reports/editorial/production-monitor-run46.md
-?? reports/editorial/production-ops-baseline-run46.json
-?? reports/editorial/production-ops-baseline-run46.md
-?? reports/editorial/production-scheduler-health-run46.json
-?? reports/editorial/production-scheduler-health-run46.md
-?? reports/telegram/production-monitor-latest.md
-?? reports/telegram/production-scheduler-health-run46.md
-?? scripts/git_push_with_hermes_key.sh
-?? scripts/production_daily_monitor.py
-?? tests/test_git_push_with_hermes_key.py
-?? tests/test_production_daily_monitor.py`
+- commit hash: `cdcc6f3`
+- push result: `normal push failed due default SSH identity; helper push succeeded`
+- final git status: `clean on main...origin/main`
 
 ## Schedule command
 

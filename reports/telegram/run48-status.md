@@ -1,6 +1,6 @@
 # Run 48 status — Academic book quality contract and publication validator upgrade
 
-- success: `pending_commit_push`
+- success: `true`
 - run_id: `run48`
 - title: `Academic book quality contract and publication validator upgrade`
 - new_feature_scope_avoided: `true`
@@ -71,11 +71,18 @@
 
 ## Telegram / Git
 
-- Telegram send result: `pending`
-- commit hash: `pending`
-- push result: `pending`
-- final git status: `pending`
+- Telegram send result: `sent — telegram message_id 1777`
+- commit hash: `ff1f85d`
+- push result: `normal git push failed with publickey; repo helper scripts/git_push_with_hermes_key.sh succeeded`
+- final git status: `clean after commit/push; this status file update is committed separately as final status metadata`
 
 ## Recommendation for Run 49
 
 Run a report-only manuscript inventory that classifies existing `docs/book` pages against the new academic structure and quality contract before any rewrite or publication attempt.
+
+## Final commit/push metadata
+
+- primary Run 48 commit: `ff1f85d Run 48: add academic book quality contract`
+- push target: `origin/main`
+- push method: `scripts/git_push_with_hermes_key.sh` after normal SSH identity failure
+- final status metadata commit: `this follow-up status-only commit`

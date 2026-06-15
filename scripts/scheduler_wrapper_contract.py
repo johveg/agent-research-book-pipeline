@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Report-only scheduler wrapper contract for safe daily-worker orchestration.
 
-Run 38 models how a future scheduler should wrap daily_book_worker.py with
-protected mutation-guard snapshots and fail-closed commit/push policy. In
---run-mutation-guard mode, the wrapper performs its own before/after/compare
-guard subprocess flow while still not executing the daily worker.
+Run 39 models how a future scheduler should wrap daily_book_worker.py with
+protected mutation-guard snapshots, a daily-worker no-write capability gate, and
+fail-closed commit/push policy. In --run-mutation-guard mode, the wrapper
+performs its own before/after/compare guard subprocess flow while still not
+executing the daily worker.
 """
 from __future__ import annotations
 
@@ -107,7 +108,7 @@ def build_daily_worker_command_contract(
 ) -> dict[str, Any]:
     # The safest existing daily-worker argv still lacks explicit flags to disable
     # entity/claim extraction, docs/entities updates, claims page updates,
-    # source-registry export, and the runs-table write. Therefore Run 38 models
+    # source-registry export, and the runs-table write. Therefore Run 39 models
     # the later command but refuses execution even if --execute-safe-command is
     # requested. Future Run 39+ work should add or wrap those missing controls
     # before any live scheduler invocation is allowed.
@@ -125,7 +126,7 @@ def build_daily_worker_command_contract(
         "current_daily_worker_lacks_no_docs_entities_claims_page_flag",
         "current_daily_worker_lacks_no_source_registry_export_flag",
         "current_daily_worker_writes_runs_table_metadata",
-        "run38_is_report_only_contract",
+        "run39_is_report_only_contract",
     ]
     return {
         "argv": argv,
@@ -143,10 +144,123 @@ def build_daily_worker_command_contract(
         "blocks_push": True,
         "blocks_schema_change": True,
         "notes": [
-            "Run 38 does not execute this command.",
+            "Run 39 does not execute this command.",
             "--skip-capture prevents raw capture; --no-commit prevents commit/push; omission of --allow-chapter-updates blocks docs/book chapter updates.",
             "Execution remains refused because the current daily worker has no flags to disable extraction, docs/entities or claims page updates, source-registry export, and runs-table metadata writes.",
         ],
+    }
+
+
+REQUIRED_NO_WRITE_CAPABILITIES_BY_MODE: dict[str, list[str]] = {
+    "report_only_daily": [
+        "disable_capture",
+        "disable_entity_extraction",
+        "disable_claim_extraction",
+        "disable_docs_entities_update",
+        "disable_docs_research_claims_update",
+        "disable_source_registry_export",
+        "disable_docs_book_update",
+        "disable_vector_index_build",
+        "disable_run_table_db_write_or_classify",
+        "disable_commit",
+        "disable_push",
+    ],
+}
+
+CAPABILITY_FLAG_HINTS: dict[str, str] = {
+    "disable_capture": "--skip-capture",
+    "disable_entity_extraction": "--skip-entity-extraction",
+    "disable_claim_extraction": "--skip-claim-extraction",
+    "disable_docs_entities_update": "--skip-docs-entities",
+    "disable_docs_research_claims_update": "--skip-claims-page",
+    "disable_source_registry_export": "--skip-source-registry-export",
+    "disable_docs_book_update": "omit --allow-chapter-updates",
+    "disable_vector_index_build": "--skip-vector",
+    "disable_run_table_db_write_or_classify": "--skip-runs-table-write or explicit runs-table classification",
+    "disable_commit": "--no-commit",
+    "disable_push": "--no-push or --no-commit",
+}
+
+
+def required_no_write_capabilities_for_mode(mode: str) -> list[str]:
+    return list(REQUIRED_NO_WRITE_CAPABILITIES_BY_MODE.get(mode, []))
+
+
+def _preflight_write_surfaces(preflight_report: dict[str, Any]) -> list[dict[str, Any]]:
+    surfaces = preflight_report.get("daily_worker_write_surfaces", [])
+    return surfaces if isinstance(surfaces, list) else []
+
+
+def analyze_daily_worker_no_write_capabilities(
+    mode: str,
+    selected_profile: str | None,
+    command_contract: dict[str, Any],
+    preflight_report: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    argv = list(command_contract.get("argv", []))
+    argv_set = set(argv)
+    supported: set[str] = set()
+    supported_flags: list[str] = []
+
+    if "--skip-capture" in argv_set or command_contract.get("blocks_capture"):
+        supported.add("disable_capture")
+        if "--skip-capture" in argv_set:
+            supported_flags.append("--skip-capture")
+    if "--no-commit" in argv_set or command_contract.get("blocks_commit"):
+        supported.add("disable_commit")
+        supported.add("disable_push")
+        if "--no-commit" in argv_set:
+            supported_flags.append("--no-commit")
+    if "--skip-vector" in argv_set:
+        supported.add("disable_vector_index_build")
+        supported_flags.append("--skip-vector")
+    if "--allow-chapter-updates" not in argv_set and command_contract.get("blocks_docs_book_mutation"):
+        supported.add("disable_docs_book_update")
+
+    # These are intentionally not inferred from broad prose/block booleans. Run 39
+    # requires explicit worker capabilities for each non-book write surface before
+    # any scheduler execution can be machine-authorized.
+    explicit_flag_to_capability = {
+        "--skip-entity-extraction": "disable_entity_extraction",
+        "--skip-claim-extraction": "disable_claim_extraction",
+        "--skip-docs-entities": "disable_docs_entities_update",
+        "--skip-claims-page": "disable_docs_research_claims_update",
+        "--skip-source-registry-export": "disable_source_registry_export",
+        "--skip-runs-table-write": "disable_run_table_db_write_or_classify",
+    }
+    for flag, capability in explicit_flag_to_capability.items():
+        if flag in argv_set:
+            supported.add(capability)
+            supported_flags.append(flag)
+
+    required = required_no_write_capabilities_for_mode(mode)
+    if not required:
+        missing = []
+        block_reasons = ["unsupported_mode_for_no_write_capability_gate"]
+        decision = "blocked_unsupported_mode"
+    else:
+        missing = [cap for cap in required if cap not in supported]
+        block_reasons = [f"missing_no_write_capability:{cap}" for cap in missing]
+        decision = "allowed_all_required_no_write_capabilities_present" if not missing else "blocked_missing_no_write_capabilities"
+
+    if selected_profile != "report_only":
+        block_reasons.append(f"selected_profile_not_report_only:{selected_profile}")
+        decision = "blocked_selected_profile_not_report_only"
+
+    execution_allowed = not block_reasons
+    missing_flags = [CAPABILITY_FLAG_HINTS.get(cap, cap) for cap in missing]
+    surfaces = _preflight_write_surfaces(preflight_report or {})
+    return {
+        "daily_worker_supported_no_write_flags": sorted(set(supported_flags)),
+        "daily_worker_missing_no_write_flags": missing_flags,
+        "daily_worker_write_surfaces_from_preflight": surfaces,
+        "required_no_write_capabilities_for_mode": required,
+        "required_no_write_capabilities": required,
+        "supported_no_write_capabilities": sorted(supported),
+        "missing_no_write_capabilities": missing,
+        "execution_allowed": execution_allowed,
+        "execution_capability_decision": decision,
+        "execution_block_reasons": sorted(set(block_reasons)),
     }
 
 
@@ -374,12 +488,25 @@ def build_report(
         command["would_execute"] = False
         command["execution_enabled"] = False
     preflight = load_json(daily_worker_preflight)
+    capability_analysis = analyze_daily_worker_no_write_capabilities(
+        mode=mode,
+        selected_profile=selected,
+        command_contract=command,
+        preflight_report=preflight,
+    )
+    command["execution_allowed"] = capability_analysis["execution_allowed"]
+    command["execution_capability_decision"] = capability_analysis["execution_capability_decision"]
+    command["execution_block_reasons"] = capability_analysis["execution_block_reasons"]
+    command["execution_enabled"] = False if not capability_analysis["execution_allowed"] else bool(command.get("execution_enabled"))
+    command["would_execute"] = False if dry_run or not capability_analysis["execution_allowed"] else bool(command.get("would_execute"))
+    if capability_analysis["execution_block_reasons"]:
+        command["execution_refusal_reasons"] = sorted(set(command.get("execution_refusal_reasons", []) + capability_analysis["execution_block_reasons"]))
     guard_execution = mutation_guard_execution or {
         "executed": False,
         "ok": True,
         "profile_used": selected,
-        "before_snapshot": str(before_snapshot_path or "/tmp/run38-before.json"),
-        "after_snapshot": str(after_snapshot_path or "/tmp/run38-after.json"),
+        "before_snapshot": str(before_snapshot_path or "/tmp/run39-before.json"),
+        "after_snapshot": str(after_snapshot_path or "/tmp/run39-after.json"),
         "report_path": rel(mutation_guard_report_path or resolve(output_dir) / f"{run_id}-mutation-guard-{report_suffix}.json"),
         "failed_checks": [],
         "unexpected_changed_paths": [],
@@ -418,13 +545,22 @@ def build_report(
         "selected_verification_profile": selected,
         "daily_worker_command_contract": command,
         "daily_worker_command_would_execute": bool(command["would_execute"]),
+        "execution_allowed": bool(capability_analysis["execution_allowed"]),
+        "execution_capability_decision": capability_analysis["execution_capability_decision"],
+        "execution_block_reasons": capability_analysis["execution_block_reasons"],
+        "missing_no_write_capabilities": capability_analysis["missing_no_write_capabilities"],
+        "supported_no_write_capabilities": capability_analysis["supported_no_write_capabilities"],
+        "required_no_write_capabilities": capability_analysis["required_no_write_capabilities"],
+        "daily_worker_supported_no_write_flags": capability_analysis["daily_worker_supported_no_write_flags"],
+        "daily_worker_missing_no_write_flags": capability_analysis["daily_worker_missing_no_write_flags"],
+        "daily_worker_write_surfaces_from_preflight": capability_analysis["daily_worker_write_surfaces_from_preflight"],
         "execution_enabled": bool(command["execution_enabled"]),
         "execution_performed": False,
         "mutation_guard_executed": bool(guard_execution.get("executed")),
         "mutation_guard_ok": bool(guard_execution.get("ok", guard.get("ok", False))),
         "mutation_guard_profile_used": guard_execution.get("profile_used") or guard.get("profile") or selected,
-        "mutation_guard_before_snapshot": str(guard_execution.get("before_snapshot") or before_snapshot_path or "/tmp/run38-before.json"),
-        "mutation_guard_after_snapshot": str(guard_execution.get("after_snapshot") or after_snapshot_path or "/tmp/run38-after.json"),
+        "mutation_guard_before_snapshot": str(guard_execution.get("before_snapshot") or before_snapshot_path or "/tmp/run39-before.json"),
+        "mutation_guard_after_snapshot": str(guard_execution.get("after_snapshot") or after_snapshot_path or "/tmp/run39-after.json"),
         "mutation_guard_report_path": rel(guard_execution.get("report_path") or mutation_guard_report_path or resolve(output_dir) / f"{run_id}-mutation-guard-{report_suffix}.json"),
         "mutation_guard_failed_checks": guard_execution.get("failed_checks") or guard.get("failed_checks", []),
         "mutation_guard_unexpected_changed_paths": guard_execution.get("unexpected_changed_paths") or guard.get("unexpected_changed_paths", []),
@@ -433,8 +569,8 @@ def build_report(
         "state_machine_config_path": rel(state_machine_config),
         "transition_engine_path": rel(transition_engine),
         "mutation_guard_path": rel(mutation_guard),
-        "before_snapshot_path": str(guard_execution.get("before_snapshot") or before_snapshot_path or "/tmp/run38-before.json"),
-        "after_snapshot_path": str(guard_execution.get("after_snapshot") or after_snapshot_path or "/tmp/run38-after.json"),
+        "before_snapshot_path": str(guard_execution.get("before_snapshot") or before_snapshot_path or "/tmp/run39-before.json"),
+        "after_snapshot_path": str(guard_execution.get("after_snapshot") or after_snapshot_path or "/tmp/run39-after.json"),
         "mutation_guard_report_path": rel(guard_execution.get("report_path") or mutation_guard_report_path or resolve(output_dir) / f"{run_id}-mutation-guard-{report_suffix}.json"),
         "commit_allowed": policy["commit_allowed"],
         "push_allowed": policy["push_allowed"],
@@ -488,6 +624,7 @@ def build_report(
         ],
         "recommendation_for_run38": "Add a report-only scheduler wrapper dry-run that invokes the protected mutation guard snapshot/compare subprocesses itself while still not executing daily_book_worker.py.",
         "recommendation_for_run39": "Add the next machine-only scheduler gate: require explicit daily-worker no-write flags or a wrapper-enforced no-op worker mode before any unattended execution path can be enabled.",
+        "recommendation_for_run40": "Add explicit no-write controls to daily_book_worker.py or a separate no-op/capability-probe worker interface, then keep the scheduler blocked until mutation guard proves the new controls prevent DB, docs, registry, raw, and commit/push writes.",
     }
     return report
 
@@ -495,13 +632,13 @@ def build_report(
 def render_markdown(report: dict[str, Any]) -> str:
     cmd = report["daily_worker_command_contract"]
     lines = [
-        "# Scheduler wrapper contract — Run 38",
+        "# Scheduler no-write capability gate — Run 39",
         "",
         f"Generated: {report['generated_at']}",
         "",
         "## Summary",
         "",
-        "Run 38 upgrades the deterministic, report-only scheduler wrapper contract so the wrapper itself runs the protected mutation guard before snapshot, after snapshot, and compare subprocesses. It builds the safe daily-worker command contract but does not execute `scripts/daily_book_worker.py`, does not enable unattended production writes, and keeps wrapper-level commit/push authorization blocked.",
+        "Run 39 adds a deterministic no-write capability gate to the report-only scheduler wrapper. The wrapper builds the daily-worker command contract, machine-checks required no-write capabilities for the selected mode/profile, runs the protected mutation guard flow when requested, and still does not execute `scripts/daily_book_worker.py` because required no-write controls are missing.",
         "",
         "## Selected scheduler mode",
         "",
@@ -513,7 +650,18 @@ def render_markdown(report: dict[str, Any]) -> str:
         "",
         f"```bash\n{cmd['command_string']}\n```",
         "",
-        "Why it was not executed: Run 38 is dry-run/report-only, and future daily-worker execution still needs narrower mode controls plus mutation-guard enforcement before commit/push.",
+        "Why it was not executed: Run 39 is dry-run/report-only and the capability gate blocks execution because the current daily worker does not expose all required no-write controls.",
+        "",
+        "## Daily-worker no-write capability gate",
+        "",
+        f"- execution_allowed: `{report['execution_allowed']}`",
+        f"- execution_capability_decision: `{report['execution_capability_decision']}`",
+        f"- execution_block_reasons: `{report['execution_block_reasons']}`",
+        f"- required_no_write_capabilities: `{report['required_no_write_capabilities']}`",
+        f"- supported_no_write_capabilities: `{report['supported_no_write_capabilities']}`",
+        f"- missing_no_write_capabilities: `{report['missing_no_write_capabilities']}`",
+        f"- supported flags: `{report['daily_worker_supported_no_write_flags']}`",
+        f"- missing flag/control hints: `{report['daily_worker_missing_no_write_flags']}`",
         "",
         "## Mutation guard before/after/compare flow",
         "",
@@ -560,14 +708,15 @@ def render_markdown(report: dict[str, Any]) -> str:
         "execution_performed",
     ]:
         lines.append(f"- {key}: `{report[key]}`")
-    lines += ["", "## Recommendation for Run 39", "", report["recommendation_for_run39"], ""]
+    lines += ["", "## Recommendation for Run 40", "", report["recommendation_for_run40"], ""]
     return "\n".join(lines)
 
 
 def write_reports(report: dict[str, Any], output_dir: str | Path, suffix: str) -> dict[str, str]:
     out = resolve(output_dir)
     out.mkdir(parents=True, exist_ok=True)
-    base = f"{report['run_id']}-scheduler-wrapper-contract-{suffix}"
+    report_kind = "scheduler-no-write-capability" if suffix == "run39" else "scheduler-wrapper-contract"
+    base = f"{report['run_id']}-{report_kind}-{suffix}"
     json_path = out / f"{base}.json"
     md_path = out / f"{base}.md"
     json_path.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -578,7 +727,7 @@ def write_reports(report: dict[str, Any], output_dir: str | Path, suffix: str) -
 def maybe_execute(command: dict[str, Any]) -> None:
     if not command.get("execution_enabled"):
         return
-    # This branch is intentionally conservative and unused in Run 38.
+    # This branch is intentionally conservative and unused in Run 39.
     subprocess.run(command["argv"], cwd=ROOT, check=True, timeout=600)
 
 
@@ -593,7 +742,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--mode", required=True)
     ap.add_argument("--disposition", required=True)
     ap.add_argument("--output-dir", default="reports/editorial")
-    ap.add_argument("--report-suffix", default="run38")
+    ap.add_argument("--report-suffix", default="run39")
     ap.add_argument("--dry-run", action="store_true", default=False)
     ap.add_argument("--execute-safe-command", action="store_true", default=False)
     ap.add_argument("--run-mutation-guard", action="store_true", default=False)

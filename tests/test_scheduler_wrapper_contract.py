@@ -115,6 +115,94 @@ def test_daily_worker_command_contract_is_safe_and_execution_disabled_by_default
     assert contract["would_execute"] is False
 
 
+def test_report_only_daily_no_write_capability_gate_blocks_current_worker():
+    mod = load_module()
+    contract = mod.build_daily_worker_command_contract(
+        run_id="citation-pipeline-test-20260612",
+        daily_worker=ROOT / "scripts" / "daily_book_worker.py",
+        execute_safe_command=False,
+    )
+    analysis = mod.analyze_daily_worker_no_write_capabilities(
+        mode="report_only_daily",
+        selected_profile="report_only",
+        command_contract=contract,
+        preflight_report=mod.load_json(PRELIGHT),
+    )
+    assert analysis["execution_allowed"] is False
+    assert analysis["execution_capability_decision"] == "blocked_missing_no_write_capabilities"
+    assert analysis["required_no_write_capabilities"] == mod.required_no_write_capabilities_for_mode("report_only_daily")
+    assert "disable_capture" in analysis["supported_no_write_capabilities"]
+    assert "disable_commit" in analysis["supported_no_write_capabilities"]
+    assert "disable_push" in analysis["supported_no_write_capabilities"]
+    assert "disable_vector_index_build" in analysis["supported_no_write_capabilities"]
+    assert "disable_docs_book_update" in analysis["supported_no_write_capabilities"]
+    for missing in [
+        "disable_entity_extraction",
+        "disable_claim_extraction",
+        "disable_docs_entities_update",
+        "disable_docs_research_claims_update",
+        "disable_source_registry_export",
+        "disable_run_table_db_write_or_classify",
+    ]:
+        assert missing in analysis["missing_no_write_capabilities"]
+        assert f"missing_no_write_capability:{missing}" in analysis["execution_block_reasons"]
+    assert analysis["daily_worker_supported_no_write_flags"] == ["--no-commit", "--skip-capture", "--skip-vector"]
+    assert analysis["daily_worker_missing_no_write_flags"]
+    assert analysis["daily_worker_write_surfaces_from_preflight"]
+
+
+def test_build_report_embeds_no_write_capability_gate_and_blocks_execution():
+    mod = load_module()
+    report = mod.build_report(
+        run_id="citation-pipeline-test-20260612",
+        daily_worker=ROOT / "scripts" / "daily_book_worker.py",
+        state_machine_config=ROOT / "config" / "closed_loop_state_machine.json",
+        transition_engine=ROOT / "scripts" / "closed_loop_transition_engine.py",
+        mutation_guard=ROOT / "scripts" / "protected_mutation_guard.py",
+        daily_worker_preflight=PRELIGHT,
+        mode="report_only_daily",
+        disposition="safe_reports_only",
+        output_dir=ROOT / "reports" / "editorial",
+        report_suffix="run39",
+        dry_run=True,
+        execute_safe_command=False,
+    )
+    assert report["execution_allowed"] is False
+    assert report["execution_performed"] is False
+    assert report["execution_capability_decision"] == "blocked_missing_no_write_capabilities"
+    assert report["execution_block_reasons"]
+    assert report["missing_no_write_capabilities"]
+    assert report["supported_no_write_capabilities"]
+    assert report["required_no_write_capabilities"] == mod.required_no_write_capabilities_for_mode("report_only_daily")
+    assert report["daily_worker_command_contract"]["execution_enabled"] is False
+    assert report["daily_worker_command_contract"]["would_execute"] is False
+    assert report["human_in_loop_dependency_added"] is False
+    assert report["safety_flags"]["author_allowed"] is False
+    assert report["safety_flags"]["publication_approved"] is False
+    assert report["safety_flags"]["chapter_update_allowed"] is False
+
+
+def test_run39_report_naming_uses_scheduler_no_write_capability(tmp_path):
+    mod = load_module()
+    report = mod.build_report(
+        run_id="citation-pipeline-test-20260612",
+        daily_worker=ROOT / "scripts" / "daily_book_worker.py",
+        state_machine_config=ROOT / "config" / "closed_loop_state_machine.json",
+        transition_engine=ROOT / "scripts" / "closed_loop_transition_engine.py",
+        mutation_guard=ROOT / "scripts" / "protected_mutation_guard.py",
+        daily_worker_preflight=PRELIGHT,
+        mode="report_only_daily",
+        disposition="safe_reports_only",
+        output_dir=tmp_path,
+        report_suffix="run39",
+        dry_run=True,
+    )
+    paths = mod.write_reports(report, tmp_path, "run39")
+    assert paths["json"].endswith("citation-pipeline-test-20260612-scheduler-no-write-capability-run39.json")
+    assert paths["markdown"].endswith("citation-pipeline-test-20260612-scheduler-no-write-capability-run39.md")
+    assert (tmp_path / "citation-pipeline-test-20260612-scheduler-no-write-capability-run39.json").exists()
+
+
 def test_commit_and_push_are_blocked_by_guard_diff_secrets_deltas_and_hard_flags():
     mod = load_module()
     ok_guard = {
@@ -482,6 +570,9 @@ def test_cli_run_mutation_guard_writes_both_reports_and_preserves_protected_stat
     assert report["mutation_guard_executed"] is True
     assert report["mutation_guard_ok"] is True
     assert report["selected_verification_profile"] == "report_only"
+    assert report["execution_allowed"] is False
+    assert report["execution_capability_decision"] == "blocked_missing_no_write_capabilities"
+    assert report["execution_block_reasons"]
     assert report["execution_performed"] is False
     assert report["daily_worker_command_contract"]["blocks_capture"] is True
     assert report["daily_worker_command_contract"]["blocks_docs_book_mutation"] is True

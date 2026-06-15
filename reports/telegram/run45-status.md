@@ -64,7 +64,7 @@ Generated: 2026-06-15T14:45:00Z
 - Telegram send result: `sent via configured Telegram home channel; message id [REDACTED]`
 - commit hash: `1ef2dd3`
 - push result: `normal push failed due default SSH identity; SSH identity retry succeeded`
-- final git status: `clean after pushed implementation commit before this final status-file update`
+- final git status: `clean on main...origin/main after final status commit`
 
 ## Remaining limitations
 
@@ -120,4 +120,4 @@ M data/source_registry.json
 
 - implementation commit: `1ef2dd3 Run 45: enable daily autonomous book production scheduler`
 - push: `origin/main updated via SSH identity retry`
-- final status-file update commit: `pending`
+- final status-file update commit: `48f94a2 Run 45: record final scheduler push status`

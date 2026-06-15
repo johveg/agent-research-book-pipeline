@@ -74,7 +74,7 @@
 - Telegram send result: `sent — telegram message_id 1777`
 - commit hash: `ff1f85d`
 - push result: `normal git push failed with publickey; repo helper scripts/git_push_with_hermes_key.sh succeeded`
-- final git status: `clean after commit/push; this status file update is committed separately as final status metadata`
+- final git status: `clean on main...origin/main after final status commit`
 
 ## Recommendation for Run 49
 
@@ -85,4 +85,4 @@ Run a report-only manuscript inventory that classifies existing `docs/book` page
 - primary Run 48 commit: `ff1f85d Run 48: add academic book quality contract`
 - push target: `origin/main`
 - push method: `scripts/git_push_with_hermes_key.sh` after normal SSH identity failure
-- final status metadata commit: `this follow-up status-only commit`
+- final status metadata commit: `7889487 Run 48: record final status`

@@ -259,3 +259,231 @@ def test_cli_dry_run_writes_reports_and_does_not_modify_protected_state(tmp_path
     assert report["claim_status_changed"] is False
     assert report["editorial_status_changed"] is False
     assert protected_snapshot() == before
+
+
+def test_mutation_guard_command_builders_and_runner_invocation(tmp_path):
+    mod = load_module()
+    before = tmp_path / "before.json"
+    after = tmp_path / "after.json"
+    guard_report = tmp_path / "guard.json"
+    calls = []
+
+    def fake_run(cmd, **kwargs):
+        calls.append(cmd)
+        if cmd[2] == "snapshot":
+            Path(cmd[cmd.index("--output") + 1]).write_text('{"snapshot": true}')
+            return subprocess.CompletedProcess(cmd, 0, stdout='{"ok": true}', stderr="")
+        assert cmd[2] == "compare"
+        guard_report.write_text(json.dumps({"ok": True, "failed_checks": [], "unexpected_changed_paths": []}))
+        return subprocess.CompletedProcess(cmd, 0, stdout='{"ok": true}', stderr="")
+
+    result = mod.run_mutation_guard_flow(
+        mutation_guard="scripts/protected_mutation_guard.py",
+        selected_profile="report_only",
+        before_snapshot=before,
+        after_snapshot=after,
+        mutation_guard_report=guard_report,
+        runner=fake_run,
+    )
+
+    assert [call[2] for call in calls] == ["snapshot", "snapshot", "compare"]
+    assert calls[0] == mod.build_mutation_guard_snapshot_command("scripts/protected_mutation_guard.py", before)
+    assert calls[1] == mod.build_mutation_guard_snapshot_command("scripts/protected_mutation_guard.py", after)
+    assert calls[2] == mod.build_mutation_guard_compare_command("scripts/protected_mutation_guard.py", before, after, "report_only", guard_report)
+    assert result["executed"] is True
+    assert result["ok"] is True
+    assert result["failed_checks"] == []
+    assert result["unexpected_changed_paths"] == []
+
+
+def test_run_mutation_guard_embeds_ok_and_does_not_execute_daily_worker(tmp_path):
+    mod = load_module()
+    before = tmp_path / "before.json"
+    after = tmp_path / "after.json"
+    guard_report = tmp_path / "guard.json"
+
+    def fake_run(cmd, **kwargs):
+        assert "daily_book_worker.py" not in " ".join(map(str, cmd))
+        if cmd[2] == "snapshot":
+            Path(cmd[cmd.index("--output") + 1]).write_text('{"snapshot": true}')
+        else:
+            guard_report.write_text(json.dumps({"ok": True, "failed_checks": [], "unexpected_changed_paths": []}))
+        return subprocess.CompletedProcess(cmd, 0, stdout="", stderr="")
+
+    guard = mod.run_mutation_guard_flow(
+        "scripts/protected_mutation_guard.py", "report_only", before, after, guard_report, runner=fake_run
+    )
+    report = mod.build_report(
+        run_id="citation-pipeline-test-20260612",
+        daily_worker=ROOT / "scripts" / "daily_book_worker.py",
+        state_machine_config=ROOT / "config" / "closed_loop_state_machine.json",
+        transition_engine=ROOT / "scripts" / "closed_loop_transition_engine.py",
+        mutation_guard=ROOT / "scripts" / "protected_mutation_guard.py",
+        daily_worker_preflight=PRELIGHT,
+        mode="report_only_daily",
+        disposition="safe_reports_only",
+        output_dir=tmp_path,
+        report_suffix="run38",
+        dry_run=True,
+        mutation_guard_execution=guard,
+    )
+    assert report["mutation_guard_executed"] is True
+    assert report["mutation_guard_ok"] is True
+    assert report["mutation_guard_failed_checks"] == []
+    assert report["mutation_guard_unexpected_changed_paths"] == []
+    assert report["execution_performed"] is False
+    assert report["commit_allowed"] is False
+    assert report["push_allowed"] is False
+    assert "report_only_contract_blocks_commit" in report["commit_block_reasons"]
+    assert "report_only_contract_blocks_push" in report["push_block_reasons"]
+
+
+def test_mutation_guard_failure_modes_fail_closed(tmp_path):
+    mod = load_module()
+    before = tmp_path / "before.json"
+    after = tmp_path / "after.json"
+    guard_report = tmp_path / "guard.json"
+
+    def run_without_before(cmd, **kwargs):
+        return subprocess.CompletedProcess(cmd, 0, stdout="", stderr="")
+
+    result = mod.run_mutation_guard_flow("scripts/protected_mutation_guard.py", "report_only", before, after, guard_report, runner=run_without_before)
+    assert result["ok"] is False
+    assert "before_snapshot_missing" in result["failed_checks"]
+
+    before.unlink(missing_ok=True)
+    after.unlink(missing_ok=True)
+    guard_report.unlink(missing_ok=True)
+
+    def run_without_after(cmd, **kwargs):
+        if cmd[2] == "snapshot" and not before.exists():
+            before.write_text("{}")
+        return subprocess.CompletedProcess(cmd, 0, stdout="", stderr="")
+
+    result = mod.run_mutation_guard_flow("scripts/protected_mutation_guard.py", "report_only", before, after, guard_report, runner=run_without_after)
+    assert result["ok"] is False
+    assert "after_snapshot_missing" in result["failed_checks"]
+
+    before.write_text("{}")
+    after.write_text("{}")
+    guard_report.unlink(missing_ok=True)
+
+    def run_missing_report(cmd, **kwargs):
+        if cmd[2] == "snapshot":
+            Path(cmd[cmd.index("--output") + 1]).write_text("{}")
+        return subprocess.CompletedProcess(cmd, 0, stdout="", stderr="")
+
+    result = mod.run_mutation_guard_flow("scripts/protected_mutation_guard.py", "report_only", before, after, guard_report, runner=run_missing_report)
+    assert result["ok"] is False
+    assert "mutation_guard_report_missing" in result["failed_checks"]
+
+    before.unlink(missing_ok=True)
+    after.unlink(missing_ok=True)
+    guard_report.unlink(missing_ok=True)
+
+    def run_subprocess_failure(cmd, **kwargs):
+        return subprocess.CompletedProcess(cmd, 9, stdout="", stderr="boom")
+
+    result = mod.run_mutation_guard_flow("scripts/protected_mutation_guard.py", "report_only", before, after, guard_report, runner=run_subprocess_failure)
+    assert result["ok"] is False
+    assert "before_snapshot_subprocess_failed" in result["failed_checks"]
+
+
+def test_mutation_guard_ok_false_unexpected_paths_and_human_loop_block_policy(tmp_path):
+    mod = load_module()
+    base_guard = {
+        "executed": True,
+        "ok": False,
+        "profile_used": "report_only",
+        "before_snapshot": str(tmp_path / "before.json"),
+        "after_snapshot": str(tmp_path / "after.json"),
+        "report_path": str(tmp_path / "guard.json"),
+        "failed_checks": ["unexpected_changed_paths"],
+        "unexpected_changed_paths": ["docs/book/chapter.md"],
+        "report": {
+            "ok": False,
+            "unexpected_changed_paths": ["docs/book/chapter.md"],
+            "failed_checks": ["unexpected_changed_paths"],
+            "human_in_loop_dependency_added": True,
+            "hard_flags_changed": {"author_allowed": True},
+            "db_delta": {},
+            "status_hash_delta": {},
+        },
+    }
+    report = mod.build_report(
+        run_id="citation-pipeline-test-20260612",
+        daily_worker=ROOT / "scripts" / "daily_book_worker.py",
+        state_machine_config=ROOT / "config" / "closed_loop_state_machine.json",
+        transition_engine=ROOT / "scripts" / "closed_loop_transition_engine.py",
+        mutation_guard=ROOT / "scripts" / "protected_mutation_guard.py",
+        daily_worker_preflight=PRELIGHT,
+        mode="report_only_daily",
+        disposition="safe_reports_only",
+        output_dir=tmp_path,
+        report_suffix="run38",
+        dry_run=True,
+        mutation_guard_execution=base_guard,
+    )
+    assert report["mutation_guard_ok"] is False
+    assert report["commit_allowed"] is False
+    assert report["push_allowed"] is False
+    assert "mutation_guard_failed" in report["commit_block_reasons"]
+    assert "unexpected_protected_or_scope_changes" in report["commit_block_reasons"]
+    assert "human_in_loop_dependency_added" in report["commit_block_reasons"]
+    assert "hard_flag_true" in report["commit_block_reasons"]
+    assert report["human_in_loop_dependency_added"] is False
+
+
+def test_cli_run_mutation_guard_writes_both_reports_and_preserves_protected_state(tmp_path):
+    before_state = protected_snapshot()
+    before_snapshot = tmp_path / "before.json"
+    after_snapshot = tmp_path / "after.json"
+    guard_report = tmp_path / "guard.json"
+    cmd = [
+        sys.executable,
+        str(SCRIPT),
+        "--run-id",
+        "citation-pipeline-test-20260612",
+        "--daily-worker",
+        "scripts/daily_book_worker.py",
+        "--state-machine-config",
+        "config/closed_loop_state_machine.json",
+        "--transition-engine",
+        "scripts/closed_loop_transition_engine.py",
+        "--mutation-guard",
+        "scripts/protected_mutation_guard.py",
+        "--daily-worker-preflight",
+        str(PRELIGHT.relative_to(ROOT)),
+        "--mode",
+        "report_only_daily",
+        "--disposition",
+        "safe_reports_only",
+        "--output-dir",
+        str(tmp_path),
+        "--report-suffix",
+        "run38",
+        "--dry-run",
+        "--run-mutation-guard",
+        "--before-snapshot",
+        str(before_snapshot),
+        "--after-snapshot",
+        str(after_snapshot),
+        "--mutation-guard-report",
+        str(guard_report),
+    ]
+    res = subprocess.run(cmd, cwd=ROOT, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=180)
+    assert res.returncode == 0, res.stderr + res.stdout
+    report_path = tmp_path / "citation-pipeline-test-20260612-scheduler-wrapper-contract-run38.json"
+    assert report_path.exists()
+    assert guard_report.exists()
+    assert before_snapshot.exists()
+    assert after_snapshot.exists()
+    report = json.loads(report_path.read_text())
+    assert report["mutation_guard_executed"] is True
+    assert report["mutation_guard_ok"] is True
+    assert report["selected_verification_profile"] == "report_only"
+    assert report["execution_performed"] is False
+    assert report["daily_worker_command_contract"]["blocks_capture"] is True
+    assert report["daily_worker_command_contract"]["blocks_docs_book_mutation"] is True
+    assert "--no-commit" in report["daily_worker_command_contract"]["argv"]
+    assert protected_snapshot() == before_state

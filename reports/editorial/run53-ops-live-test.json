@@ -1,0 +1,31 @@
+{
+  "failure_reason": "failed_closed_target_not_resolvable",
+  "fallback_channel_used": false,
+  "live_send_attempted": true,
+  "live_send_succeeded": false,
+  "message_body": [
+    "This is a safe Hermes OPS channel delivery test.",
+    "No secrets.",
+    "No production change.",
+    "Target channel: AL-Hermoine-OPS.",
+    "Timestamp metadata included."
+  ],
+  "message_id": null,
+  "note": "The only send attempt was an explicit send_message target probe to telegram:AL-Hermoine-OPS. It failed before delivery; no fallback/DM/default target was used.",
+  "resolved_target": null,
+  "status_metadata": {
+    "component": "hermes_ops_channel_alias_repair",
+    "disposition": "failed_closed_needs_channel_target",
+    "emitted_at_oslo_iso": "2026-06-16T21:22:56.829001+02:00",
+    "emitted_at_unix_ms": 1781637776829,
+    "emitted_at_unix_s": 1781637776,
+    "emitted_at_utc_iso": "2026-06-16T19:22:56.829001Z",
+    "run_id": "run53",
+    "severity": "warning",
+    "status": "ops_live_delivery_test",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  },
+  "target_channel": "AL-Hermoine-OPS",
+  "title": "Run 53 OPS live delivery test"
+}

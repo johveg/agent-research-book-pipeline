@@ -1,0 +1,678 @@
+# Run 53 Hermes channel runtime inventory
+
+```json
+{
+  "active_channel_directory_path": "/root/.hermes/channel_directory.json",
+  "active_profile_inferred": "default",
+  "al_hermoine_ops_exists_anywhere": false,
+  "al_hermoine_ops_matches": [],
+  "available_telegram_aliases": [
+    "Marius"
+  ],
+  "cli_checks_redacted": [
+    {
+      "cmd": "hermes profile show default",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "Profile: default\nPath:    /root/.hermes\nModel:   gpt-5.5 (copilot)\nGateway: running\nSkills:  48\n.env:    exists\nSOUL.md: exists"
+    },
+    {
+      "cmd": "hermes profile list",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "Profile          Model                        Gateway      Alias        Distribution\n \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n \u25c6default         gpt-5.5                      running      \u2014            \u2014\n  linkedin-monitor gpt-5.5                      stopped      linkedin-monitor \u2014\n  ops-bot         gpt-5.5                      running      ops-bot      \u2014\n  travel-logger   gpt-5.5                      stopped      travel-logger \u2014\n  web-monitor     gpt-5.5                      stopped      web-monitor  \u2014"
+    },
+    {
+      "cmd": "hermes send --list telegram",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "telegram:\n  telegram:Marius  [<redacted_numeric_id>]"
+    },
+    {
+      "cmd": "hermes -p ops-bot send --list telegram",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "telegram:\n  telegram:Marius  [<redacted_numeric_id>]"
+    },
+    {
+      "cmd": "python3 -c import hermes_constants; print(getattr(hermes_constants,\"HERMES_HOME\",None)); print(getattr(hermes_constants,\"ACTIVE_PROFILE\",None))",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "None\nNone"
+    }
+  ],
+  "files_inspected": [
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/root/.hermes/channel_directory.json",
+      "sha256_12": "447bf895e029",
+      "size": 690
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/root/.hermes/profiles/ops-bot/channel_directory.json",
+      "sha256_12": "db0f98b3874d",
+      "size": 690
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+      "sha256_12": "9e49425eecfb",
+      "size": 9088
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/root/.hermes/cron/jobs.json",
+      "sha256_12": "9831402708fc",
+      "size": 11452
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/root/.hermes/config.yaml",
+      "sha256_12": "eccf205dac66",
+      "size": 11494
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/root/.hermes/profiles/ops-bot/config.yaml",
+      "sha256_12": "a47c18103129",
+      "size": 11498
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/home/ubuntu/.hermes/hermes-agent/gateway/channel_directory.py",
+      "sha256_12": "16e3b775d03f",
+      "size": 13058
+    },
+    {
+      "exists": false,
+      "is_dir": false,
+      "path": "/home/ubuntu/.hermes/hermes-agent/tools/messaging_tool.py"
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/home/ubuntu/.hermes/hermes-agent/gateway/run.py",
+      "sha256_12": "b1761a717491",
+      "size": 761798
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/home/hermoine/terefohealreboa/config/status_routing.json",
+      "sha256_12": "3707c7d583e6",
+      "size": 371
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/home/hermoine/terefohealreboa/scripts/send_ops_status.py",
+      "sha256_12": "10504c267a2c",
+      "size": 4453
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/home/hermoine/terefohealreboa/reports/telegram/run52-status.md",
+      "sha256_12": "2a6a67e59b62",
+      "size": 5892
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "path": "/home/hermoine/terefohealreboa/reports/telegram/run52-ops-live-test.md",
+      "sha256_12": "65e8e02305d8",
+      "size": 701
+    }
+  ],
+  "hermes_non_session_matches_redacted": [
+    {
+      "path": "/root/.hermes/.hermes_history",
+      "terms": [
+        "al_hermoine_ops",
+        "Hermoine",
+        "OPS"
+      ]
+    },
+    {
+      "path": "/root/.hermes/.skills_prompt_snapshot.json",
+      "terms": [
+        "OPS"
+      ]
+    },
+    {
+      "path": "/root/.hermes/config.yaml",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/scripts/terefohealreboa_book_watchdog.sh",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/scripts/loop_engineering_daily_start.sh",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/scripts/terefohealreboa_book_status.sh",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/scripts/loop_engineering_daily_monitor.sh",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/scripts/terefohealreboa_book_start.sh",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/scripts/loop_engineering_monitor_watchdog.sh",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/scripts/loop_engineering_daily_status.sh",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/jobs.json.bak-20260612T094535Z",
+      "terms": [
+        "al_hermoine_ops",
+        "Hermoine",
+        "OPS"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/jobs.json.bak.activate-ops",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/jobs.json.bak-20260613T064542Z",
+      "terms": [
+        "al_hermoine_ops",
+        "Hermoine",
+        "OPS"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/jobs.json",
+      "terms": [
+        "al_hermoine_ops",
+        "Hermoine",
+        "OPS"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_13-20-32.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-15_22-20-27.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_01-20-29.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_10-20-32.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_06-20-31.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_19-20-33.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-15_18-20-26.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_11-20-31.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-15_20-20-26.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_00-20-29.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_18-20-34.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_17-20-34.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-15_23-20-27.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_09-20-34.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_14-20-35.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_05-20-32.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_04-20-29.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-15_19-20-27.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_12-20-33.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-15_21-20-26.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_16-20-33.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_08-20-32.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_07-20-32.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_02-20-29.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_03-20-29.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-15_17-20-25.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/b8189ef795c3/2026-06-16_15-20-33.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/af92cab0759a/2026-05-27_10-33-32.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-08_23-02-22.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-05_23-01-03.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-06_23-00-16.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-05-29_23-00-39.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-10_23-04-56.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-03_23-00-26.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-02_23-03-51.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-05-31_23-00-25.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-05-28_23-00-21.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-05-27_23-00-55.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-09_23-06-28.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-01_23-01-06.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-04_23-00-54.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-05-30_23-01-01.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-08_22-28-50.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-05-26_23-00-59.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-11_23-08-56.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/552d9697f7ae/2026-06-07_23-00-18.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-01_04-01-53.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-02_04-01-23.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-08_04-22-09.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-07_04-10-03.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-05-27_04-23-18.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-05-30_04-11-47.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-05-31_04-09-13.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-12_04-12-55.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-10_05-03-39.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-09_04-51-09.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-05_04-08-46.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-03_04-02-12.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-04_04-05-40.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-05-28_04-12-09.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-11_04-11-10.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-06-06_04-11-03.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-05-29_04-54-26.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/32fab799b743/2026-05-27_12-18-44.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/f320d553d7b1/2026-06-11_23-00-02.md",
+      "terms": [
+        "Hermoine"
+      ]
+    },
+    {
+      "path": "/root/.hermes/cron/output/f320d553d7b1/2026-06-12_23-00-57.md",
+      "terms": [
+        "Hermoine"
+      ]
+    }
+  ],
+  "reasoning": [
+    "send_message tool and hermes send --list expose telegram:Marius only",
+    "default/global channel_directory contains telegram:Marius only",
+    "ops-bot profile channel_directory also lacks AL-Hermoine-OPS"
+  ],
+  "redaction_status": "numeric IDs, chat IDs, and sensitive fields redacted; tokens/cookies/private keys not printed",
+  "reload_or_restart_required": "yes if channel_directory is edited; active gateway/tool runtime may need /restart or gateway restart to reload directory",
+  "repo_git_status": "## main...origin/main\n M reports/telegram/production-monitor-latest.md",
+  "repo_log_head": "d25e4e6 Run 52: record final status\na2fd610 Run 52: diagnose OPS Telegram channel alias\nb057951 Run 51: record final status\nd535021 Run 51: route OPS status and repair production scheduler\n69c322c research: daily book pipeline update citation-pipeline-test-<redacted_numeric_id>",
+  "safe_environment": {
+    "HERMES_HOME": "/root/.hermes",
+    "HOME": "/root",
+    "PWD": "/home/hermoine/terefohealreboa",
+    "USER": "root"
+  },
+  "spelling_case_differs": false,
+  "status_metadata": {
+    "component": "hermes_ops_channel_alias_repair",
+    "disposition": "inventory_only",
+    "emitted_at_oslo_iso": "2026-06-16T21:22:18.744973+02:00",
+    "emitted_at_unix_ms": 1781637738744,
+    "emitted_at_unix_s": 1781637738,
+    "emitted_at_utc_iso": "2026-06-16T19:22:18.744973Z",
+    "run_id": "run53",
+    "severity": "info",
+    "status": "runtime_inventory",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  },
+  "telegram_alias_entries_redacted": [
+    {
+      "entry": {
+        "id": "<redacted_sensitive_field>",
+        "name": "Marius",
+        "thread_id": "<redacted_sensitive_field>",
+        "type": "dm"
+      },
+      "file": "/root/.hermes/channel_directory.json",
+      "platform": "telegram"
+    },
+    {
+      "entry": {
+        "id": "<redacted_sensitive_field>",
+        "name": "Marius",
+        "thread_id": "<redacted_sensitive_field>",
+        "type": "dm"
+      },
+      "file": "/root/.hermes/profiles/ops-bot/channel_directory.json",
+      "platform": "telegram"
+    }
+  ],
+  "why_marius_available_but_ops_not": "Marius exists in the active/default channel directory and is listed by Hermes send; AL-Hermoine-OPS is absent from active/default and ops-bot channel directories."
+}
+```

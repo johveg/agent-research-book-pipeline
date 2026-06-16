@@ -1,0 +1,41 @@
+{
+  "alias_resolution_succeeded": false,
+  "available_targets_redacted": "telegram:\n  telegram:Marius  [<redacted_numeric_id>]\n\n",
+  "candidate_selected": null,
+  "candidates_checked": [
+    {
+      "candidate": "telegram:AL-Hermoine-OPS",
+      "dry_run_method": "hermes send --list telegram plus send_message explicit-target probe",
+      "resolvable": false,
+      "safe_for_live_send": false
+    },
+    {
+      "candidate": "AL-Hermoine-OPS",
+      "dry_run_method": "hermes send --list telegram plus send_message explicit-target probe",
+      "resolvable": false,
+      "safe_for_live_send": false
+    }
+  ],
+  "fallback_channel_used": false,
+  "live_send_safe": false,
+  "manual_remediation": {
+    "reload_required": "restart/reload Hermes gateway or start a new Hermes session after updating channel directory so send_message target list includes AL-Hermoine-OPS",
+    "rerun": "rerun Run 53 live delivery test and send exactly one safe test to telegram:AL-Hermoine-OPS",
+    "value_required": "a Telegram channel/destination record for the actual OPS channel using the existing channel_directory platforms.telegram schema; do not use Marius DM; keep chat/destination IDs secret",
+    "where_to_add_alias": "/root/.hermes/channel_directory.json for active default profile, or expose it through the active Telegram gateway connector channel directory"
+  },
+  "send_message_probe_result": "failed_closed_target_not_resolvable",
+  "status_metadata": {
+    "component": "hermes_ops_channel_alias_repair",
+    "disposition": "failed_closed_needs_channel_target",
+    "emitted_at_oslo_iso": "2026-06-16T21:22:56.827767+02:00",
+    "emitted_at_unix_ms": 1781637776827,
+    "emitted_at_unix_s": 1781637776,
+    "emitted_at_utc_iso": "2026-06-16T19:22:56.827767Z",
+    "run_id": "run53",
+    "severity": "warning",
+    "status": "ops_alias_resolution_check",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  }
+}

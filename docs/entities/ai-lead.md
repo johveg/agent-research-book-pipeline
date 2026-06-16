@@ -1,17 +1,17 @@
 # AI Lead
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `company`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-14T01:25:00Z
-- Last seen: 2026-06-15T01:26:41Z
+- Last seen: 2026-06-16T01:14:05Z
 - Source count: 3
-- Mention count: 53
+- Mention count: 65
 
 ## Description
 
-Candidate company entity extracted from 3 source(s).
+Candidate company entity extracted from 1 source(s).
 
 ## Related claims
 

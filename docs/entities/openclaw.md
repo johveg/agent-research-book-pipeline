@@ -1,17 +1,17 @@
 # OpenClaw
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
-- Type: `project`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 475
-- Mention count: 2787
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 568
+- Mention count: 4360
 
 ## Description
 
-Candidate project entity extracted from 135 source(s).
+Candidate tool entity extracted from 168 source(s).
 
 ## Related claims
 
@@ -22,22 +22,38 @@ Candidate project entity extracted from 135 source(s).
 - **candidate / weak** — Every tech publication is calling it a game-change "OpenClaw" Hermes. (`claim_4268fbe6cea2a58088c8`)
 - **candidate / weak** — Everyone is excited about the stats, but talking with actual peop "OpenClaw" Hermes. (`claim_1a1573e5f62ed6606e32`)
 - **candidate / weak** — Feed post Marco Iacono • 3rd+ Co-Founder & CPO @ Heavy Metal Network Formerly Apple, Viv, Samsung, Switchboard 5h • we are very close to the "OpenClaw" Hermes. (`claim_23ebfe599bf72c221166`)
+- **candidate / weak** — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. (`claim_066ba5f1b6852fa65da4`)
+- **candidate / weak** — HERMES was called the open-source Claude killer, and OpenClaw w "OpenClaw" Hermes. (`claim_dcad46d101a3123cf92e`)
 - **candidate / weak** — Have you considered using it for your own product "OpenClaw" Hermes. (`claim_f9b7b59c98f8492c3cd9`)
 - **candidate / weak** — Hermes If you are building multi-agent enterprise systems, you are likely facing "OpenClaw" Hermes. (`claim_0fb5975e6ea89f15c463`)
 - **candidate / weak** — Hermes is worth a look if you're running something like OpenClaw. (`claim_f20bce6269979cc6787a`)
+- **candidate / weak** — If you are still using traditional search eng "OpenClaw" Hermes. (`claim_38c9d4f03722a1aed830`)
+- **candidate / weak** — If you are still using traditional search engines to research shifting trends, you are like "OpenClaw" Hermes. (`claim_7ac72be1b2fe6d4e635c`)
 - **candidate / weak** — In this release: - Fable 5 has landed and it’s a big one - I tried Hermes instead o "OpenClaw" Hermes. (`claim_cc40ee0d3ade9849954a`)
+- **candidate / weak** — It is a single desktop app that hosts all my AI "OpenClaw" Hermes. (`claim_7d6dd613b9ab0ae68b56`)
 - **candidate / weak** — It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn' "OpenClaw" Hermes. (`claim_16964f79e5647cb7fe63`)
 - **candidate / weak** — Now AI is everywhere: Apps, browsers, tool "OpenClaw" Hermes. (`claim_a59cf4d062ae2b941518`)
 - **candidate / weak** — People are not talking about the security issues with Hermes or OpenClaw. (`claim_bf6a00040f945ab752fe`)
-- **candidate / weak** — Right now, thousands of agencies and startups are trying to build internal AI workflo "OpenClaw" Hermes. (`claim_cb2ef03eeeb5f69a49bf`)
-- **candidate / weak** — Singapore AI Week was one of the most intense wee "OpenClaw" Hermes. (`claim_79087b4be607d4103579`)
-- **candidate / weak** — The Model Context Protocol is an open standard that allows AI tools (Claude C "OpenClaw" Hermes. (`claim_6f210696a318b48349f9`)
-- **candidate / weak** — The Model Context Protocol is an open standard that allows AI tools (Claude Code, Cursor, Windsurf, OpenHands) to connect to ex "OpenClaw" Hermes. (`claim_035685024d9bee58a745`)
-- **candidate / weak** — The past 4 months of Claude Code / OpenClaw / Hermes hype train have been full of "agent products" that are really just prompts. (`claim_131df14aef5622e97ec3`)
-- **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $ "OpenClaw" Hermes. (`claim_72d359ba093fb921ffb5`)
+- **candidate / weak** — R/hermesagent on Reddit: Hermes Agent (and others) default Installs are silently routing web traffic to Parallel "Hermes" "OpenClaw" www.reddit.com. (`claim_299a19c0cfcb1c00af15`)
 
 ## Source references
 
+- `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
+- `src_1710e7ef6c3ea57b889e` — Move over OpenClaw, Hermes is the hot Agent right now! I test a zero to hero setup of the Hemes Desktop for Mac to answer if it will replace
+  - URL: https://www.linkedin.com/company/nousresearch/
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/058-301411cafa0821c0fb5d.md`
+- `src_6089f9f3de0ee6709dde` — עכשיו אפשר לקנות סוכן AI מתוך Telegram. לא צ׳אטבוט. לא עטיפה לפרומפט. סוכן אמיתי שמקבל סביבת עבודה משלו. בוחרים OpenClaw או Hermes. משלמים. 
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/017-03157a32341bcc77474d.md`
+- `src_7a1bfed443c12e7ffcca` — Been using and seeing a lot of AI agents lately. Such as Hermes, OpenClaw, Claude Code, and Pi. I became curious about how they actually wor
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-9d1e38ef2b708754fad1.md`
+- `src_988a63a0444c4c71a699` — hashtag #pillolegeek hashtag #geekpills Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenClaw, pi, OpenCode, an
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/035-7726de66bbbda73ddb23.md`
+- `src_b8198006a1094518b185` — Feed post Ayazelrico sPlus • 3rd+ kingpin of @Milyonus 2h • Follow HERMES and OpenClaw were two of the most hyped open-source projects in 20
+  - URL: https://www.linkedin.com/in/ayazelrico?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFP3w3QBJXIvJ7GxabfAEc3EwyZQNM9veWs
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/024-a841ea75f7554dceb49c.md`
+- `src_d233204edfe764362eef` — The agent market has a demo surplus and an operations deficit. That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-c304be09efb7c7641293.md`
 - `src_134c79564919366db4e4` — OpenClaw broke on every update, constant babysitting. Hermes looks powerful, but it's a big rig built to do everything. Phantombot is the op
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/111-fc9ea314243f4fa1d497.md`
 - `src_3a8971630c5f088c3ed4` — Woche 1 — zweites Update. Warum nicht einfach Hermes nehmen? Key Takeaway: → Hermes hat Skills, OpenClaw hat das Gateway-Pattern. Der Agent 
@@ -66,37 +82,17 @@ Candidate project entity extracted from 135 source(s).
 - `src_8e7b3cdb70416086cc19` — Hermes Agent vs. OpenClaw: Key differences compared
   - URL: https://www.hostinger.com/tutorials/hermes-agent-vs-openclaw
   - Archive: `web/manual-20260611T173313Z/openclaw-hermes/02-hermes-agent-vs-openclaw-key-differences-compared.md`
-- `src_7c0abe8c3568e8638d27` — Is Loop Engineering the new meta in agentic AI? Recently, Peter Steinberger (creator of the viral OpenClaw agent, now at OpenAI) and Boris C
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/165-d1baffb0150f97510a4c.md`
-- `src_002d69ec5e597d41ffcc` — Feed post Ahmed Choulak • 3rd+ AutoFlow | J’aide les PME à faire plus, avec moins d’effort, grâce à l’IA souveraine et locale 2h • Follow L'
-  - URL: https://www.linkedin.com/in/ahmed-choulak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFi8tVUB1GIQmnPPZvXnJIH6Avvsee6-QO0
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/045-79a4f0ecfdac75f43102.md`
-- `src_049485bc91144366b889` — 🚨 AI coding agents just got the Infinite Memory. It is called AgentMemory, and the idea is simple: Your coding agent remembers everything. A
-  - URL: https://www.linkedin.com/in/rohit-ghumare/
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/162-1c09922dd5273695dd15.md`
-- `src_08eca94c38023f8dcc94` — Feed post Brad Groux • 3rd+ CEO @ Digital Meld | OpenClaw Microsoft Maintainer | Host of the Start Small, Think Big Podcast 1h • Follow Veri
-  - URL: https://www.linkedin.com/in/bradgroux?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADHWFQB-IHEch6TCq4zJrkfEHG1PCdMPVc
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/027-81002244acac8ee34b9b.md`
-- `src_11e5b0332dd2feced00b` — Dein persönlicher AI Assistent 🤖 Unsere nächste Builder Session steht an! Wir zeigen dir, wie du dir einen eigenen AI Assistenten einrichtes
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/120-ffae2e682bb66da603c0.md`
-- `src_16f4fb47c338a0aee716` — Feed post Anton Goroshkov • 3rd+ AI Agents Harness Solution Architect 8h • Follow Тебе наврали: чтобы построить компанию на миллиард, нужна 
-  - URL: https://www.linkedin.com/in/anton-goroshkov?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABi52xABg_c1ULl2jpr3B9d66FAif30id8s
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/134-935ecec03f56f22c4d8b.md`
-- `src_18cac7c39af1f0de7afc` — Most “agent observability” approaches I see today fall into three buckets: - Reverse proxy in front of the agent: Capture all prompts/respon
-  - URL: https://www.linkedin.com/company/consult-hyperion/
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/117-85f361ff897c2628f3c9.md`
-- `src_1b5bb22e191d97d86261` — I built and deployed 20 AI sales agents to see who wins. One of them burned 1.7 MILLION tokens to write a single 4-email sequence. And the f
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/126-8331dfa581d463775247.md`
-- `src_20bdf391d87f4bcfe613` — Feed post Leo Zhang • 3rd+ Software Engineer | Factory Automation & Enterprise Systems | AI Master @ New Zealand 8h • Follow As an Android d
-  - URL: https://www.linkedin.com/in/leo-zhang-305626280?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAERvlDUBJx-pux2Ds5_XVdN83KC72K0uaoY
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/130-707e2e1d3cb6f1321c04.md`
-- `src_25e4bf84e679939cb4ce` — As an Android developer, I'm excited to embrace ADK. End-device AI is the direction the industry is heading. As agents gain access to device
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/132-a2f63066826bb87fda18.md`
-- `src_2646eff3c0cb37451394` — One thing AI has taught me: The difference between an idea and a product is execution. Everyone has ideas. Very few people sit down and try 
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/053-2af9e6c9c849f8726a4b.md`
-- `src_2d30b5dde5eb75c292ca` — I finally got around to working with the hermes desktop part of ollama (I had to update ollama 0.23.2 -> 0.30.7_1) and the transition was cl
-  - URL: https://www.linkedin.com/in/jeffrey-lee-chan/
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/020-4b1b9d8f2801a7b0e224.md`
-- `src_2db59c4ea4892740c99e` — Feed post Automação Sem Limites 0 followers 3h • Follow Hoje eu vejo o MultiPost muito além de um simples agendador de redes sociais. Na era
-  - URL: https://www.linkedin.com/company/automacao-sem-limites/posts
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/073-e99faf06b8c5842dfb4c.md`
+- `src_bd9f5b57513c68a6e52e` — AI 101:Hermes vs OpenClaw: Local AI Agents Compared
+  - URL: https://www.turingpost.com/p/hermes
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/02-ai-101-hermes-vs-openclaw-local-ai-agents-compared.md`
+- `src_018eb9030bfd63a85c8a` — Imagine ter alguém trabalhando para você 24 horas por dia, 7 dias por semana, sem férias, sem pausas e sem reclamar. Alguém capaz de organiz
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-37ed2e4bf6722cae7e84.md`
+- `src_061556e405690eb22f1e` — the top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/007-e541c311fb21233a6097.md`
+- `src_158b261020922117300f` — Feed post Abdeljabbar Elassali • 3rd+ Founder of Vilix | The cross-AI memory layer (MCP), live now | Giving ChatGPT, Claude, Cursor & Codex 
+  - URL: https://www.linkedin.com/in/abdeljabbarelassali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB0-3AIBtMkCobQecxKU1aZ-0EQlJiq2FKY
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/080-52cbd5f5d74f71098e77.md`
+- `src_1ef20755b6630d552116` — Every time you switch AI tools, you pay a hidden tax. You spend ten minutes describing your architecture to one assistant, switch to another
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/079-91d772a2865273e32e0e.md`
+- `src_276df125d2132d93d2b9` — Call for anyone building their own second brain. I have questions and Claude doesn't always have the answers (wild, I know...). Anyone out t
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/064-f1b55bca6e4aac754f20.md`

@@ -1,17 +1,17 @@
 # Machine Learning
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
-- Confidence: `medium`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
+- Last seen: 2026-06-15T17:12:16Z
 - Source count: 3
-- Mention count: 45
+- Mention count: 49
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 

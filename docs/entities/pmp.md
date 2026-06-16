@@ -1,17 +1,17 @@
 # PMP
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
-- Type: `company`
+- Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 6
-- Mention count: 82
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 7
+- Mention count: 87
 
 ## Description
 
-Candidate company entity extracted from 1 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -28,6 +28,9 @@ No related claim records yet.
 - `src_f06ce50ca9bab20ef1f2` — Feed post Zaid Alazawe • 3rd+ Senior Process Engineer | LNG, Refining, Biodiesel & Renewables | 17+Yrs | PMP® | PSM | Enzymatic & FAME Proce
   - URL: https://www.linkedin.com/in/zaid-alazawe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAncK4oBA7n7OFBrDESI51kDDlTVD98VLUk
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineer/173-6bbd75b679c9749e7d23.md`
+- `src_d96db5341b6c5cc79b14` — Feed post Nam Nguyen • 3rd+ PgMP, PMP, PMI-ACP 4h • Edited • Follow Một mô hình không nhãn hiệu, không công ty chủ quản công khai, lại đang 
+  - URL: https://www.linkedin.com/in/nam-nguyen46?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEz_yDEBKYz6YOPoCDcF84ldxrzI1qwvMlg
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/086-5687cec01eb88df89ebe.md`
 - `src_a0b873474ab5d8f877a3` — Feed post David Doyle CITP, PMP, MISST, CDMP David Doyle CITP, PMP, MISST, CDMP • 3rd+ VP, Sr Data Architect - Technology Background with a 
   - URL: https://www.linkedin.com/in/daviddoylepmp?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEc8N8Bgv3gLyyFcUDkDSwFg5Z4rhYs3Y4
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/054-35c33c9ac33d3f6001d9.md`

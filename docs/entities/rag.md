@@ -1,17 +1,17 @@
 # RAG
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
-- Type: `tool`
+- Type: `concept`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 9
-- Mention count: 93
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 11
+- Mention count: 103
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate concept entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -33,6 +33,11 @@ No related claim records yet.
 - `src_744d8e4f4921ab0ac99f` — Feed post Avishek Saha • 3rd+ Applied AI Engineer | Agentic AI, RAG, and Multimodal Systems 1h • Follow I do not want to be the human cron j
   - URL: https://www.linkedin.com/in/sahaavi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBVy2kBg1ZOr7uJkjjN5nnd1m77Sf4I4AY
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/008-61d22988442b083ad934.md`
+- `src_dfe04d7bdf7c5d94094f` — RAG reliability often breaks somewhere other than the model. Most teams start with model quality. Then retrieval. Then chunking. Sometimes t
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/091-5028ef9ea3b295df1a93.md`
+- `src_faa23c635af94cf892a1` — Feed post Anass Ez-zouaine • 3rd+ Senior Lead Web Developer | Laravel · PHP | Shopify Expert · Shopify Apps & SaaS Builder · RAG · Vector DB
+  - URL: https://www.linkedin.com/in/ansezz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABKVuq0BoQuPfjEc1ewWfTWGdW1brwJqK-M
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/104-ccd81250ad13a19d12cd.md`
 - `src_38115fa29fe3d94c5162` — Feed post Venkata Manideep Patibandla • 3rd+ AI/ML Engineer | LLM Evaluation, RAG, Agents & Cost Optimization | Building a real-estate Autom
   - URL: https://www.linkedin.com/in/manideep-analytics?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEYrx6IBW8PBJ-HdsYFOXWFJRjrVS7bpEwY
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/139-fabb67a9ee118e4abd35.md`

@@ -1,13 +1,13 @@
-# Hermes AI Agent
+# Hermes AI agent
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 4
-- Mention count: 5
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 5
+- Mention count: 13
 
 ## Description
 
@@ -19,10 +19,12 @@ Candidate tool entity extracted from 1 source(s).
 
 ## Source references
 
-- `src_e4d306d71f00d18767f4` — نركز شوية! عندما يشرح الذكاء الاصطناعي طريقته في الشرح! 🤓 وجدت مجموعة قوية من مهارات الذكاء الاصطناعي AI Skills طلبت من Hermes AI Agent يقوم
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/108-5747fe86ee800d2bb889.md`
+- `src_94c1550daca932563219` — Parents: use AI to fight summer break brain rot. I set up a Hermes AI agent to give my kids a light summer learning routine. Nothing intense
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/017-e6f335f2d93de9da28e5.md`
 - `src_7d4436ef5fbf3bbf2540` — Saat ini saya sedang mengeksplorasi implementasi Hermes AI Agent yang berjalan sepenuhnya di lingkungan lokal (on-premise) tanpa ketergantun
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/139-ca95bd7f65617c643872.md`
+- `src_e4d306d71f00d18767f4` — نركز شوية! عندما يشرح الذكاء الاصطناعي طريقته في الشرح! 🤓 وجدت مجموعة قوية من مهارات الذكاء الاصطناعي AI Skills طلبت من Hermes AI Agent يقوم
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/108-5747fe86ee800d2bb889.md`
 - `src_44eb94ec55a8bf740c4c` — Communicate with Hermes AI Agent over DeltaChat
   - URL: https://support.delta.chat/t/communicate-with-hermes-ai-agent-over-deltachat/5438
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/06-communicate-with-hermes-ai-agent-over-deltachat.md`

@@ -1,17 +1,17 @@
 # AWS
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 10
-- Mention count: 129
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 11
+- Mention count: 151
 
 ## Description
 
-Candidate tool entity extracted from 6 source(s).
+Candidate tool entity extracted from 3 source(s).
 
 ## Related claims
 
@@ -36,15 +36,18 @@ Candidate tool entity extracted from 6 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/098-be37a8fee3073c08f944.md`
 - `src_88575cd1e487f412dce2` — Rip off my home Agentic AI setup. I could have built it on AWS for $400/month. Instead I chose an $80 Raspberry Pi and open source, and I'd 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/091-eaccdd7df13cb06b0823.md`
-- `src_282eeae2c4067b4ed34b` — Feed post Abdallah Deeb • 3rd+ Senior DevOps & Cloud Infrastructure Engineer | AWS | Terraform | CI/CD | Observability | SRE 6h • Edited • F
-  - URL: https://www.linkedin.com/in/abdallahdeeb?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADKZAUB4vWWAn3ZhElMxAOArY9IUcOToyE
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/114-ae97ddf2a954b05646de.md`
 - `src_694db145d0bfde2b39ca` — Feed post Mansi Joshi • 3rd+ Full-Stack Developer | Python (Django/FastAPI), React, AWS | Software Engineering & AI-Augmented Development 1h
   - URL: https://www.linkedin.com/in/mansi-joshi-mj?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAELz9IIBjz5pcCAmCw0waC2FUe2Q8LKws1Y
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/030-34b003ba69cb5e487fc3.md`
 - `src_b541ae604da78412e1e9` — Feed post Kai Ting Chen • 3rd+ @ ELITE CLOUD | AWS, GCP AI Transformation 2h • Follow A lot of people have heard about Hermes Agent but have
   - URL: https://www.linkedin.com/in/kchen1788?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADJDc1IBP1eHmcrUW9eoJF2yTXZu-J9us0M
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/036-b97025571cda6099abf0.md`
+- `src_8389d380973c03088058` — Feed post K Vishnu Teja • 3rd+ DevOps Engineer | AWS | Kubernetes | Terraform | EKS | GitOps | CI/CD | Cloud Infrastructure | Platform Engin
+  - URL: https://www.linkedin.com/in/vishnukteja?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGjnNqwBd0XOp_jQSuQeSiSUoohjMvRkUPk
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/071-dd286c26b8595fe3b7a9.md`
+- `src_282eeae2c4067b4ed34b` — Feed post Abdallah Deeb • 3rd+ Senior DevOps & Cloud Infrastructure Engineer | AWS | Terraform | CI/CD | Observability | SRE 6h • Edited • F
+  - URL: https://www.linkedin.com/in/abdallahdeeb?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADKZAUB4vWWAn3ZhElMxAOArY9IUcOToyE
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/114-ae97ddf2a954b05646de.md`
 - `src_e83faaac896c70edc437` — Feed post Karthik Pandiyan • 3rd+ 🤖 Tech & AI Enthusiast | Web Developer @ Amazon Web Services (AWS) | Simplifying Innovation with Authentic
   - URL: https://www.linkedin.com/in/mrkarthikkn?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADg5vNsB6GIC-wDgERLh_7c90XY_opwV8Go
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/140-3b8f4dc968f76973c54e.md`

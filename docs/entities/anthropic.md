@@ -1,21 +1,22 @@
 # Anthropic
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
-- Type: `tool`
-- Confidence: `high`
+- Type: `unknown`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
+- Last seen: 2026-06-16T01:14:05Z
 - Source count: 16
-- Mention count: 108
+- Mention count: 113
 
 ## Description
 
-Candidate tool entity extracted from 4 source(s).
+Candidate unknown entity extracted from 1 source(s).
 
 ## Related claims
 
 - **candidate / weak** — Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI. (`claim_7d8671b444e5e07f1884`)
+- **candidate / weak** — When Anthropic leaked over 500,000 lines of code, buried in there was a proje "OpenClaw" Hermes. (`claim_24ae3ee9cbf007ce3bd1`)
 - **needs_review / weak** — "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering "loop engineering". (`claim_0c76b2d0770ff1442eeb`)
 - **needs_review / weak** — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation "loop engineering". (`claim_35259524a830a49e0d38`)
 - **needs_review / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made "OpenClaw" Hermes. (`claim_fdecef34a9ceafd0ea30`)
@@ -34,6 +35,8 @@ Candidate tool entity extracted from 4 source(s).
 - `src_479f9b530c4b5329e0a2` — Now what exactly is loop engineering? And where do Anthropic's Fable 5 model and web scraping fit in?
   - URL: https://www.zyte.com/blog/now-what-exactly-is-loop-engineering-and-where-do-anthropics-fable-5-model-and-web-scraping-fit-in/
   - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/10-now-what-exactly-is-loop-engineering-and-where-do-anthropic.md`
+- `src_b8ee8c174db662eaa73f` — Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI. The lesson is not "avoid AI." The lesson is:
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/173-a642fb16dce30a9fee41.md`
 - `src_f424d9e9811643b6dbfc` — Anthropic Guardrails Limit Researcher Access to Fable 5 Capabilities 📌 Anthropic’s security guardrails are inadvertently stifling innovation
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/088-58a7b6d8973a442d3288.md`
 - `src_4d65edaeeb4d402b2965` — Wild: The US government just ordered Anthropic to suspend access to Claude Fable 5 & Mythos 5 for foreign nationals, citing national securit
@@ -50,8 +53,6 @@ Candidate tool entity extracted from 4 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/145-722ab4bb5b65b4bac2ee.md`
 - `src_f11b0e92bb361c5e92b8` — Yesterday I explained loop engineering. Today, how I actually use it. Unlike the guys at Anthropic, I don't have infinite tokens. So I start
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/099-22cbb697cf4b1f4b0dd1.md`
-- `src_b8ee8c174db662eaa73f` — Anthropic's Fable 5 shutdown is a useful warning for anyone building business automation on AI. The lesson is not "avoid AI." The lesson is:
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/173-a642fb16dce30a9fee41.md`
 - `src_b034326c6ffa167a37e4` — Anthropic (acting at the request of the U.S. government) has globally restricted access to its Fable and Mythos models. That is the immediat
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/114-1c1233a16ed20c157395.md`
 - `src_59d1758fcdf8fd22b6dd` — Anthropic’s Fable 5 / Mythos 5 release is a good reminder that model quality is only one variable. If you’re running agents like Hermes or O

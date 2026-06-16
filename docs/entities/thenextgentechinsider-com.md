@@ -1,13 +1,13 @@
 # TheNextGenTechInsider.com
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
+- Last seen: 2026-06-16T01:14:05Z
 - Source count: 19
-- Mention count: 161
+- Mention count: 166
 
 ## Description
 
@@ -40,6 +40,9 @@ No related claim records yet.
 - `src_4b5cfb3d9e8670d257b8` — Feed post TheNextGenTechInsider.com 783 followers 3h • Follow Hermes Agent Evolves into Autonomous Orchestration Platform with Desktop Integ
   - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/101-f9bdb5a8c1633a69862b.md`
+- `src_7bca17c2cf6ab2ec6e34` — Feed post TheNextGenTechInsider.com 789 followers 2h • Follow Hermes Agent Launches Automation Blueprints for DevOps and Research Workflows 
+  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/049-01c67fd808cdc50a3556.md`
 - `src_07321b97c469c2b9154d` — Feed post TheNextGenTechInsider.com 783 followers 5h • Follow SapienX Launches AgentOS for Advanced Multi-Agent Orchestration and Control 📌 
   - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/129-ce5570ad89b808f1f7f2.md`
@@ -70,9 +73,6 @@ No related claim records yet.
 - `src_ddfd34fef878fc585235` — Feed post TheNextGenTechInsider.com 783 followers 10h • Follow Hermes Agent Launches as High-Performance Alternative to OpenClaw 📌 Nous Rese
   - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/113-318a022c78e217287a67.md`
-- `src_7bca17c2cf6ab2ec6e34` — Feed post TheNextGenTechInsider.com 789 followers 2h • Follow Hermes Agent Launches Automation Blueprints for DevOps and Research Workflows 
-  - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/049-01c67fd808cdc50a3556.md`
 - `src_f95f69f06f72745f7375` — Feed post TheNextGenTechInsider.com 784 followers 6h • Follow Nous Research Launches Profile Builder for Hermes Agent 📌 Nous Research has re
   - URL: https://www.linkedin.com/company/thenextgentechinsider/posts
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/093-3266c12864efe0032810.md`

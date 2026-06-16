@@ -1,17 +1,17 @@
 # Agentic AI
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 24
-- Mention count: 169
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 27
+- Mention count: 239
 
 ## Description
 
-Candidate concept entity extracted from 9 source(s).
+Candidate concept entity extracted from 10 source(s).
 
 ## Related claims
 
@@ -29,6 +29,9 @@ Candidate concept entity extracted from 9 source(s).
 - `src_93f660a204114fc11316` — Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
   - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/011-4b5875f82920e7e66589.md`
+- `src_306bb0a43b5cda7c4326` — Feed post Souvik Roy • 3rd+ Agentic AI @ Standard Chartered | IIT Gandhinagar 35m • Follow the top 3 terms in AI engineering right now: - lo
+  - URL: https://www.linkedin.com/in/souvikroy5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7h2uABY1JeTj5hHnDDA9D_SGTViV4bXSc
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/005-6c6109a327ff9037b8ad.md`
 - `src_45f24e5f767e3e33d933` — فى ظل تخبط الأسواق والاقتصاد الحالى وعدم وجود ملامح واضحة للمستقبل ولو انت متابع الاخبار فى الوقت الحالى فى موضوع ال AI و Agentic Ai هيلاحظ 
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/118-de87fc0ab32a1d55d1a8.md`
 - `src_d60d2af1d430843ee916` — Feed post Nikhil Kassetty • 3rd+ AI-Powered Architect | Top 50 Global Thought Leader – Agentic AI & FinTech (Thinkers360) | Speaker & Mentor
@@ -43,18 +46,12 @@ Candidate concept entity extracted from 9 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/098-be37a8fee3073c08f944.md`
 - `src_88575cd1e487f412dce2` — Rip off my home Agentic AI setup. I could have built it on AWS for $400/month. Instead I chose an $80 Raspberry Pi and open source, and I'd 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/091-eaccdd7df13cb06b0823.md`
-- `src_744d8e4f4921ab0ac99f` — Feed post Avishek Saha • 3rd+ Applied AI Engineer | Agentic AI, RAG, and Multimodal Systems 1h • Follow I do not want to be the human cron j
-  - URL: https://www.linkedin.com/in/sahaavi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBVy2kBg1ZOr7uJkjjN5nnd1m77Sf4I4AY
-  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/008-61d22988442b083ad934.md`
-- `src_6850e5e5cde5d2e6712e` — Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
-  - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
-  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/136-b86fd56dc8aba192cfc9.md`
-- `src_c04ac0bb49c390c67ff2` — Feed post Nishant Dodiya • 3rd+ AI Infrastructure Engineer & Prompt Systems Architect | 6+ Years | Agentic AI, LLMOps, Evaluation Systems & 
-  - URL: https://www.linkedin.com/in/nishant-dodiya-4964251a2?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC9nlnIBKd7rlrLXlPq_XJIGlc2-0-5zbME
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/118-9db4d655392464ca3c26.md`
 - `src_02b073d7a2dc972de246` — Feed post Sai Teja Pusuluri, PhD Sai Teja Pusuluri, PhD • 3rd+ Agentic AI | Experienced AI Researcher | Cross-Modal AI Solutions | Einstein 
   - URL: https://www.linkedin.com/in/sai-teja-pusuluri?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAeFt0ABZhx881aWRIte7siMimKKfXwVVgE
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/008-85c97fa3fcd86fabf2e9.md`
+- `src_744d8e4f4921ab0ac99f` — Feed post Avishek Saha • 3rd+ Applied AI Engineer | Agentic AI, RAG, and Multimodal Systems 1h • Follow I do not want to be the human cron j
+  - URL: https://www.linkedin.com/in/sahaavi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBVy2kBg1ZOr7uJkjjN5nnd1m77Sf4I4AY
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/008-61d22988442b083ad934.md`
 - `src_604600649f21a4613894` — Feed post Ryan P. • 3rd+ Agentic AI & LLM reliability | custom harnesses, spec driven development, evals, and demos you can inspect | proof-
   - URL: https://www.linkedin.com/in/ryan-prasad-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADvzpsABT76Qd5n7fj2ZVmA-i4Vpfe0Srf4
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/082-f2699025dc0cc6af2a71.md`
@@ -69,11 +66,23 @@ Candidate concept entity extracted from 9 source(s).
 - `src_6a285ffb6edbcf6e74ac` — Feed post Faisal AlBlooshi Faisal AlBlooshi • 3rd+ IT Freelance Consultancy 4h • Follow For the techies Agentic AI, Hermes agentic applicati
   - URL: https://www.linkedin.com/in/faisal-alblooshi-458b17102?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABomZsQBPt78Q5DKm0aDdC9URIZnzLmLtCw
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/070-57b70472841ee0053c8e.md`
+- `src_ec75e91c5acbd041229c` — For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/072-171aeff7e8fce13f9ce1.md`
+- `src_e0d85c60bc0a669f868c` — Feed post Junhua Zhu • 3rd+ @Meta | Ex-AWS | AI Infra | Infra AI (Agentic AI) | Messaging & Streaming | Distributed Storage | Software Consu
+  - URL: https://www.linkedin.com/in/junhuazhu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcid4kB5w2IOvmK2x0yl69kSrfVjS6prmM
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/114-a3308f46222406563fbe.md`
+- `src_a882c5f4350bef7d4faf` — Feed post Priya Sarkar • 3rd+ I translate AI for Leaders who Run Teams | Agentic AI, Tech Lead Content | Brand Partnerships | AI Keynotes & 
+  - URL: https://www.linkedin.com/in/priya-sarkar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA8ykiIBZt4NWMT2LlqFbhBiPjtDltE8hxc
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/012-083a2650ededab564324.md`
+- `src_6850e5e5cde5d2e6712e` — Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
+  - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/136-b86fd56dc8aba192cfc9.md`
+- `src_c04ac0bb49c390c67ff2` — Feed post Nishant Dodiya • 3rd+ AI Infrastructure Engineer & Prompt Systems Architect | 6+ Years | Agentic AI, LLMOps, Evaluation Systems & 
+  - URL: https://www.linkedin.com/in/nishant-dodiya-4964251a2?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC9nlnIBKd7rlrLXlPq_XJIGlc2-0-5zbME
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/118-9db4d655392464ca3c26.md`
 - `src_bb092ea64cbcc48d8f9e` — This is a real,100% human post: Two months ago, I became interested in Agentic AI and started researching everything I could find about it. 
   - URL: https://www.linkedin.com/company/nousresearch/
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/157-5df4878fa0b34eb3ba1d.md`
-- `src_ec75e91c5acbd041229c` — For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/072-171aeff7e8fce13f9ce1.md`
 - `src_66bb034203c14018f9be` — Loop Engineering & the Real Cost of Agentic AI - YouTube
   - URL: https://www.youtube.com/watch?v=Odb4YoglSdM
   - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/02-loop-engineering-the-real-cost-of-agentic-ai-youtube.md`
@@ -82,8 +91,3 @@ Candidate concept entity extracted from 9 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/098-ec9af7c5f72ef77e8e99.md`
 - `src_533c7bff7d736521d754` — As enterprises move beyond AI assistants and toward autonomous Agentic AI systems, security must evolve from protecting applications to gove
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/056-ef4e3ff99ce1ec226c88.md`
-- `src_661a6ac972e6750207f3` — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/068-ed2d7b14473e5a6ed134.md`
-- `src_aa9abc8bb1441fc47eb2` — Feed post Ruhil A. Ruhil A. • 3rd+ Enterprise Security Architect 3h • As Agentic AI moves from experimentation to enterprise deployment, a c
-  - URL: https://www.linkedin.com/in/hk-qz09?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAANCfgwB4crFSTSwqRtqLRW4HGrdRl-aPn8
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/067-d9edf6700408e0b89bba.md`

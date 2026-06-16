@@ -1,17 +1,17 @@
 # Hermes agents
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
-- Confidence: `medium`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-14T01:25:00Z
-- Source count: 5
-- Mention count: 22
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 6
+- Mention count: 23
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -22,6 +22,9 @@ Candidate tool entity extracted from 2 source(s).
 
 - `src_e9febf520acf12e85546` — Is it me or what but my Hermes Agents burned more tokens than my Openclaw?
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/102-282b69311f3fcbb9a532.md`
+- `src_59f1454783620c2aecf6` — Loop Engineering Totally 10x Hermes agents - YouTube
+  - URL: https://www.youtube.com/watch?v=AQRDjI5owZI
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/03-loop-engineering-totally-10x-hermes-agents-youtube.md`
 - `src_53e5c9ba52bb4b2e1c89` — Feed post Andy H. • 3rd+ Clarify to simplify fraud! 6h • Follow Trying out other alternative when using 3 Hermes agents in parallel quickly 
   - URL: https://www.linkedin.com/in/andyhuang1977?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAtwv7MBUdebw4uIP-6LfuYZTOrdB_CfB_8
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/083-bd9a3d16f84c0cf162bf.md`

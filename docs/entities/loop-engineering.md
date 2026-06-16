@@ -1,17 +1,17 @@
 # Loop Engineering
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 619
-- Mention count: 13546
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 628
+- Mention count: 15836
 
 ## Description
 
-Candidate concept entity extracted from 238 source(s).
+Candidate concept entity extracted from 131 source(s).
 
 ## Related claims
 
@@ -46,6 +46,8 @@ Candidate concept entity extracted from 238 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/064-b308b64010011137f7c4.md`
 - `src_1b610a06f1bcba7d81e4` — Loop Engineering: The Next Big Shift in How We Work With AI A new idea is trending in AI right now, and it is called "loop engineering." For
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/172-0fbc6d5be563445b9b8e.md`
+- `src_5fe6e1e235f2eb9f4f1e` — [AI 分享] Loop Engineering：AI程式設計的新範式 摘要：Loop Engineering強調用自動化閉環指揮AI工作，正逐步取代單純提示詞與harness思維。 內容: 近來矽谷AI圈開始出現一個新名詞：Loop Engineering。相較於過去大家熟悉的
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/007-21ee61bf7151fbcbc864.md`
 - `src_12c8cffacda909ef9717` — Feed post GyaanSetu WebDev 661 followers 4h • Follow 𝗟𝗼𝗼𝗽 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗮𝗻𝗱 𝗗𝘆𝗻𝗮𝗺𝗶𝗰 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀 I realized I was doing Loop Engineering manually
   - URL: https://www.linkedin.com/company/gyaansetu-webdev/posts
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/035-fbf347ab55f5f27fab93.md`
@@ -92,6 +94,3 @@ Candidate concept entity extracted from 238 source(s).
 - `src_fccced70af25ad30495a` — Feed post Ibon Urrutia • 3rd+ Critical thinking hands-off architect and engineer. I bring ideas not prompts 30m • Follow "Loop engineering".
   - URL: https://www.linkedin.com/in/ibonurrutia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADpe4cBCLVMZamg4L8V5tBzAeaQZj0QRFg
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/008-9baf8e463ca2976cd23b.md`
-- `src_095c81dde99ff28d9217` — Loop Engineering: Managing Teams of AI Coding Agents
-  - URL: https://www.mattwarren.co/2026/06/loop-engineering/
-  - Archive: `web/manual-20260611T173313Z/loop-engineering-ai-agents/05-loop-engineering-managing-teams-of-ai-coding-agents.md`

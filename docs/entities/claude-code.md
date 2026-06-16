@@ -1,13 +1,13 @@
 # Claude Code
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 28
-- Mention count: 126
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 31
+- Mention count: 211
 
 ## Description
 
@@ -25,6 +25,10 @@ Candidate tool entity extracted from 9 source(s).
 
 - `src_5041e58ca7814decf8f5` — There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
+- `src_7a1bfed443c12e7ffcca` — Been using and seeing a lot of AI agents lately. Such as Hermes, OpenClaw, Claude Code, and Pi. I became curious about how they actually wor
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-9d1e38ef2b708754fad1.md`
+- `src_988a63a0444c4c71a699` — hashtag #pillolegeek hashtag #geekpills Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenClaw, pi, OpenCode, an
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/035-7726de66bbbda73ddb23.md`
 - `src_04119334ec1ee2a928e1` — Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/130-372eae5f4dfdc174adda.md`
 - `src_7c6989eb5d3f90045a25` — /Goal: New command in Claude Code, Codex and Hermes agent, Full Guide for Non technical Folks
@@ -34,6 +38,22 @@ Candidate tool entity extracted from 9 source(s).
 - `src_2931d4430c4d9716fe8f` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
   - URL: https://github.com/conorbronsdon/avoid-ai-writing
   - Archive: `web/manual-20260611T173313Z/openclaw-hermes/04-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`
+- `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`
+- `src_6b4b29ae49be4778fdfd` — One of the people who built Claude Code says he doesn't write prompts anymore — his job is to write loops. I think that's the most honest de
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/010-dc56743d8842b74fd179.md`
+- `src_34708d0bda378ebf37fd` — 🤯 This app takes any book you read and turns it into a collection of Agentic AI (Hermes/OpenClaw/Claude Code) skill markdown files.
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/057-45624a146e58e6a3b4e7.md`
+- `src_36497529c369f835e824` — This is enormously valuable! My take in tldr form: Claude Code, Codex, OpenCode, Pi, Hermes, Openclaw, etc. are ways of interacting with pow
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/078-e76e34dcc7253bd3c754.md`
+- `src_c3b51d10f92949e36a34` — Feed post Jean-Christophe Yervant • 3rd+ J’installe Open Claw // Hermes // Obsidian // Claude Code et des agents IA pour mes clients qui veu
+  - URL: https://www.linkedin.com/in/jean-christophe-yervant-9217a1398?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGGmCekBoyosHikDrfFbGxjjz0ozXD4q8Fg
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/052-54281ef8d13700b38a7e.md`
+- `src_f53fd71b5c30c516bc76` — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and 
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/078-75d2fbc8c53a46ef7ee2.md`
+- `src_b3a2887a17f3fe06974a` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
+  - URL: https://github.com/Infisical/agent-vault
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
 - `src_8570f66e01b3c57f01cb` — Loop Engineering El creador de Claude Code ya no escribe prompts. Escribe loops. Boris Cherny, Head de Claude Code en Anthropic, lo dijo en 
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/145-722ab4bb5b65b4bac2ee.md`
 - `src_7c138ed755684e992664` — Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn
@@ -61,24 +81,3 @@ Candidate tool entity extracted from 9 source(s).
 - `src_5be68a06bd6ad423e2bd` — 24/7 自主代理環境實作指南：OpenClaw、Hermes Agent、Claude Code 與 Codex CLI - Tenten AI
   - URL: https://university.tenten.co/t/24-7-openclaw-hermes-agent-claude-code-codex-cli/2292
   - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/09-24-7-openclaw-hermes-agent-claude-code-codex-cli-tenten-ai.md`
-- `src_e9bb5a4bcd1c1f9e9744` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
-  - URL: https://github.com/conorbronsdon/avoid-ai-writing
-  - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/05-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`
-- `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`
-- `src_6b4b29ae49be4778fdfd` — One of the people who built Claude Code says he doesn't write prompts anymore — his job is to write loops. I think that's the most honest de
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/010-dc56743d8842b74fd179.md`
-- `src_34708d0bda378ebf37fd` — 🤯 This app takes any book you read and turns it into a collection of Agentic AI (Hermes/OpenClaw/Claude Code) skill markdown files.
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/057-45624a146e58e6a3b4e7.md`
-- `src_36497529c369f835e824` — This is enormously valuable! My take in tldr form: Claude Code, Codex, OpenCode, Pi, Hermes, Openclaw, etc. are ways of interacting with pow
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/078-e76e34dcc7253bd3c754.md`
-- `src_c3b51d10f92949e36a34` — Feed post Jean-Christophe Yervant • 3rd+ J’installe Open Claw // Hermes // Obsidian // Claude Code et des agents IA pour mes clients qui veu
-  - URL: https://www.linkedin.com/in/jean-christophe-yervant-9217a1398?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGGmCekBoyosHikDrfFbGxjjz0ozXD4q8Fg
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/052-54281ef8d13700b38a7e.md`
-- `src_f53fd71b5c30c516bc76` — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and 
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/078-75d2fbc8c53a46ef7ee2.md`
-- `src_4f89643bba70425a9bae` — What is MCP? The Model Context Protocol is an open standard that allows AI tools (Claude Code, Cursor, Windsurf, OpenHands) to connect to ex
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/083-e38764333a8b29e980cd.md`
-- `src_3e37e23440340ed65599` — Feed post Rob R. • 3rd+ Full-Stack Software Engineer · Applied AI · Forward Deployed 1h • Follow I’ve been using Claude Code more heavily la
-  - URL: https://www.linkedin.com/in/robrodolfo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1xYksBvD1HdTaF_95af06pw2zz1DPKc2w
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/007-26c5a218d5aa5841aa58.md`

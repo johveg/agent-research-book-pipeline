@@ -1,17 +1,17 @@
 # Hermes Atlas
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 6
-- Mention count: 51
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 8
+- Mention count: 67
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -28,6 +28,12 @@ No related claim records yet.
 - `src_45d026189270d1762fad` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
   - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
   - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
+- `src_d70a8c8fa08f425ef4e0` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
+  - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
+  - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
+- `src_6053689f5e31898768c0` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
+  - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
 - `src_ca9eefabeb6c152eb85a` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
   - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`

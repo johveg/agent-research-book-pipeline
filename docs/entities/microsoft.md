@@ -1,6 +1,6 @@
 # Microsoft
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
 - Confidence: `high`
@@ -15,7 +15,7 @@ Candidate tool entity extracted from 3 source(s).
 
 ## Related claims
 
-No related claim records yet.
+- **candidate / weak** — All the autonomous agent talk at Microsoft Build this year got me thinking: Do we trust what our agents are doing?. (`claim_22adcceec26d92aadd50`)
 
 ## Source references
 

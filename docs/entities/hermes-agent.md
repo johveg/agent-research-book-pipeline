@@ -1,22 +1,24 @@
 # Hermes Agent
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
-- Type: `tool`
+- Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 482
-- Mention count: 5680
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 615
+- Mention count: 8215
 
 ## Description
 
-Candidate tool entity extracted from 121 source(s).
+Candidate concept entity extracted from 206 source(s).
 
 ## Related claims
 
+- **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
 - **candidate / weak** — A lot of people have heard about Hermes Agent but have no idea where to even start. (`claim_1d7110ad8d38d5745a2b`)
 - **candidate / weak** — A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible. (`claim_fe1f08a0352de5ae4eef`)
+- **candidate / weak** — At first, I assumed Hermes Agent was another AI chatbot trying to compete with Cla "Hermes Agent". (`claim_d2db0a39ab6eef3c82cc`)
 - **candidate / weak** — Every contribution to hashtag #open hashtag #source is a oppurtunity to learn something new and collaborate with amazing communities 🥳 https "Hermes Agent". (`claim_d36f5ca260969815eae7`)
 - **candidate / weak** — For the techies Agentic AI, Hermes agentic application architecture, implementation, features, examples The document is a high-level overvie "Hermes Agent". (`claim_0fc0a2e7b5d6326d0ec4`)
 - **candidate / weak** — Here is a responsible, grown-up way of saying what I did to Hermes Agent running GPT5.5, in the last week. (`claim_a7f33f83a2710e9f30a2`)
@@ -25,16 +27,14 @@ Candidate tool entity extracted from 121 source(s).
 - **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
 - **candidate / weak** — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and "Hermes Agent". (`claim_8c52b7b8dcd5d06ca90c`)
 - **candidate / weak** — I’m currently working on a cybersecurity engineering opportunity that is giving me the chance to build a next generation AI driven security "Hermes Agent". (`claim_6db49ed7979dd6f68e77`)
+- **candidate / weak** — R/hermesagent on Reddit: Hermes Agent (and others) default Installs are silently routing web traffic to Parallel "Hermes" "OpenClaw" www.reddit.com. (`claim_299a19c0cfcb1c00af15`)
 - **candidate / weak** — So now my Hermes agent is looking out for Champagne deals for me - I am serious. (`claim_34cc736024bd33b227d6`)
+- **candidate / weak** — That is the pattern I am noticing in the latest AI up "Hermes Agent". (`claim_5b30bc1753d8305040a9`)
+- **candidate / weak** — The most important updates this week were about the infrastructure needed to make agents re "Hermes Agent". (`claim_52c6ddb04417201c7dc1`)
 - **candidate / weak** — The power of using agents to help you grow your business - this is reality for me this month - the background we can relate to is not having "Hermes Agent". (`claim_8a040ec331b5f7c79bea`)
 - **candidate / weak** — The process was much easier than I expected: • Connect the existing ImagineArt account "Hermes Agent". (`claim_adac10ae3abf548dfb15`)
 - **candidate / weak** — The promise was memory that compounds across sessi "Hermes Agent". (`claim_9f4bb6b351ac792aea65`)
 - **candidate / weak** — There was a minor bug in it: pressing Shift + Enter wouldn't take you to th "Hermes Agent". (`claim_96f3ea891c705d72b341`)
-- **candidate / weak** — This is a one-click AI app builder setup where multiple agents work together to plan and build s "Hermes Agent". (`claim_62bc2cae06490c4f0eda`)
-- **candidate / weak** — This morning I have been talking with someone analysing local models and Hermes agents after the shu "Hermes Agent". (`claim_ddfd909ae61e79f8bf0e`)
-- **candidate / weak** — 🚀 Build and Deploy AI Agents Faster with Hostinger’s Hermes Agent AI agent development is becoming more accessible, and Hostinger’s Hermes A "Hermes Agent". (`claim_b0fb8410b047577afcd4`)
-- **needs_review / weak** — As Agentic AI moves from experimentation to enterprise deployment, a critical question is emerging: What should secure the AI ecosystem, and "Hermes Agent". (`claim_c69ac1d5516664ca8a82`)
-- **needs_review / weak** — Global Manufacturing is facing data reconciliation bottleneck, planning inventory and reducing time to delivery and production is biggest dr "Hermes Agent". (`claim_640a9182c00799274d58`)
 
 ## Source references
 

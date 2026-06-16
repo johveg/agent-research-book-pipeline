@@ -1,23 +1,26 @@
 # AI agent
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 13
-- Mention count: 100
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 19
+- Mention count: 145
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 7 source(s).
 
 ## Related claims
 
+- **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
 - **candidate / weak** — A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible. (`claim_fe1f08a0352de5ae4eef`)
+- **candidate / weak** — An always-on AI agent with access to your accounts is a security problem most people ignore. (`claim_abf68c8c089a0a01aca3`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
 - **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
+- **candidate / weak** — Running AI agents (harness + model) in an isolated and secure sandbox environment for enterprise workflows - that is the new hot topic in AI "OpenClaw" Hermes. (`claim_a4c9238df754c241f177`)
 - **candidate / weak** — Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents. (`claim_8fcac90850aa71a0448b`)
 - **candidate / weak** — The biggest unlock in AI agent work right now is not a smarter model: it is a better operating system around the model. (`claim_df16192271d2bce4f7df`)
 - **candidate / weak** — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $ "OpenClaw" Hermes. (`claim_72d359ba093fb921ffb5`)
@@ -32,9 +35,6 @@ Candidate tool entity extracted from 1 source(s).
 - **needs_review / weak** — Loop Engineering: AI Coding Has Entered the Systems Era (Most People Are Still Stuck in Chat) | by JIN | JIN System Architect | Jun, 2026 | Medium "loop engineering" AI agents medium.com. (`claim_f5b1cdd1300f8324b5c6`)
 - **needs_review / weak** — Loops Replace Prompts: Loop Engineering Is Changing How AI Agents Work "loop engineering" AI agents knightli.com. (`claim_668a39d6f23fcc08c8b9`)
 - **needs_review / weak** — Loved the conversations after my talk: "The Invisible Army: How AI Agents Became the Attack Surface Nobody Is Watchin "Hermes Agent". (`claim_5587c736a27e9103cb7b`)
-- **needs_review / weak** — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). (`claim_0985fd2ad07e14723e29`)
-- **needs_review / weak** — See how an AI Agent like Hermes Agent helps develop a residen "Hermes Agent". (`claim_c26ed4521238b4efd634`)
-- **needs_review / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
 
 ## Source references
 
@@ -48,14 +48,28 @@ Candidate tool entity extracted from 1 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/086-5b526f3147f93fd8edcb.md`
 - `src_f9af5e9c44ccfa8273b8` — FREE AI WORKSHOP TONIGHT! I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. I use it to 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/083-cd7e6e0c0c2bfe74008a.md`
+- `src_fbe2ecd92c9a254b5b7c` — Saya baru bikin grup WA baru: AI Agent Indonesia Tempat belajar dan diskusi seputar Hermes, AI Agent, automation, chatbot, dan workflow otom
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/085-35592b49f054772fad72.md`
+- `src_c5f7b482d92d80e731d2` — আপনার AI agent-কে production access দিয়েছেন? ভুল করলেন। বেশিরভাগ developer AI coding agent-কে একটা চালাক chatbot মনে করেন। কিন্তু এটা চালাক
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/128-d3be699d0193925069e5.md`
+- `src_02994da92fbe39a1e863` — AI agent se nedá pochopit jen z tutoriálu. Musíš si ho postavit. Proto dělám 25. 6. v Praze hands-on workshop Stavíme AI agenty. Žádná obecn
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/128-cc5779175f08ce9a868f.md`
+- `src_7cc7c84cadb8e66bb21b` — Feed post Dwian Rianto • 3rd+ software engineer | system architechture 23m • Follow Setelah beberapa waktu bereksperimen dengan AI Agent lok
+  - URL: https://www.linkedin.com/in/dwian-rianto-4799067b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABEKxx0BP_T1aC2EUwoBjYCpWD39ZfrzDf0
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/002-ec2eed3e97e98f587a6b.md`
+- `src_c1d95857a1cd974ec896` — Setelah beberapa waktu bereksperimen dengan AI Agent lokal, akhirnya saya berhasil menyelesaikan project JARWO, sebuah AI Assistant yang ter
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/004-ec53f19259fec4b850a8.md`
+- `src_d15265804596e423a004` — Feed post Dedi Nugroho • 3rd+ Frontend Developer | Remote Worker | AI Enthusiast 4h • Follow Saya baru bikin grup WA baru: AI Agent Indonesi
+  - URL: https://www.linkedin.com/in/dedinugroho?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACozMHQBG-ckpr8y57J3mQNd10v5EYqy11g
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/083-a23c1e26567dc081d8de.md`
+- `src_eb34cd6ed15e0ce8e135` — Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Research Hermes Agent helps develop a residential b
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/041-7dbba3b9944d74c77450.md`
 - `src_58210564ddbcd2cc502b` — Turn a multi-step process into a single workflow, powered by NVIDIA hashtag #RTXSpark. See how an hashtag #AI Agent like Hermes Agent helps 
   - URL: https://www.linkedin.com/company/nvidia/
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/007-9f3fd455c6c0880b1696.md`
 - `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
-- `src_c5f7b482d92d80e731d2` — আপনার AI agent-কে production access দিয়েছেন? ভুল করলেন। বেশিরভাগ developer AI coding agent-কে একটা চালাক chatbot মনে করেন। কিন্তু এটা চালাক
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/128-d3be699d0193925069e5.md`
 - `src_c0066c50d1b7f0f3504c` — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/102-b86549066562df85a21d.md`
 - `src_ad815be808c31471af6c` — Today on the daily AI brief posted by Yousef - Imran's AI agent Today’s AI Daily Brief is really about trust, control and the cost of power 

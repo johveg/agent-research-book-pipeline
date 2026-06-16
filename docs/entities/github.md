@@ -1,17 +1,17 @@
-# Github
+# GitHub
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
-- Type: `concept`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 25
-- Mention count: 176
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 40
+- Mention count: 359
 
 ## Description
 
-Candidate concept entity extracted from 7 source(s).
+Candidate tool entity extracted from 16 source(s).
 
 ## Related claims
 
@@ -19,6 +19,15 @@ Candidate concept entity extracted from 7 source(s).
 
 ## Source references
 
+- `src_3d375ae965677513b4b4` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+- `src_1981b98e4693d480eb6e` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+- `src_81cd90cd54aaa482b614` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
 - `src_2931d4430c4d9716fe8f` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
   - URL: https://github.com/conorbronsdon/avoid-ai-writing
   - Archive: `web/manual-20260611T173313Z/openclaw-hermes/04-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`
@@ -27,6 +36,9 @@ Candidate concept entity extracted from 7 source(s).
   - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/04-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
 - `src_a9094de1a6e81993e28d` — Yapay zeka araclari kullaniminin zaman icinde bende nasil degistigini kisaca paylasayim. - 2022 baslarinda IIntelliJ IDEA bünyesinde Github 
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/025-ddace9f51410495312b1.md`
+- `src_19ad1af0200eff19d897` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
 - `src_bedf3043d512d7557a84` — 10 GitHub repos that defined 2026 so far. Bookmark this list. 1. OpenClaw Peter Steinberger went from 9,000 to over 300,000 stars in months.
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/017-03a4b185cd5e9cb2a2e2.md`
 - `src_fcb9fe7faec3f7bb7904` — El 31 de mayo de 2026, PewDiePie lanzó Odysseus AI. En 11 días: 67.000 estrellas en GitHub. 8.400 forks. Una cobertura mediática que ningún 
@@ -34,6 +46,25 @@ Candidate concept entity extracted from 7 source(s).
 - `src_b364e090655731640be0` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
   - URL: https://github.com/openclaw/openclaw
   - Archive: `web/manual-20260611T173313Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
+- `src_4bb4fa40879ecea2506e` — GitHub - NVIDIA/NemoClaw: Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference · GitHub
+  - URL: https://github.com/NVIDIA/NemoClaw
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/05-github-nvidia-nemoclaw-run-agents-like-hermes-and-openclaw-m.md`
+- `src_b3a2887a17f3fe06974a` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
+  - URL: https://github.com/Infisical/agent-vault
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
+- `src_583ceec72390244415a5` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+- `src_e67b7b5925f668983298` — Feed post Krrish D. • 3rd+ CEO @ LiteLLM (YC W23) 45k+ Github stars | Call 100+ LLMs using the OpenAI format | We’re Hiring at Berri AI! 20h
+  - URL: https://www.linkedin.com/in/krish-d?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzWhFUB-wUO9nKUHOTLfyjfTfKPRafiO0I
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/121-805411aaf3dbc84d207f.md`
+- `src_02b84972794ae38132f5` — I analyzed 50+ open-source agent projects (3M+ combined GitHub stars). As an infra engineer, here's what surprised me: the hard problems in 
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/116-8d29a46440b143133a0f.md`
+- `src_9434c37c113918e0560b` — 10 open-source GitHub repos doing real work on autopilot in 2026. Save this 1. OpenHands Autonomous coding agent with 76.5K stars. Trusted b
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/067-36d847785681872030d9.md`
+- `src_b8b7fcd6dfbe6fc660e2` — Feed post Lily La Lily La • 3rd+ AI Builder l Working until making $1M 3h • Follow 10 open-source GitHub repos doing real work on autopilot 
+  - URL: https://www.linkedin.com/in/thuyla-business?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADN9jRMB1JG_qKeeDFJOumli6sgso-flRNc
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/065-57960d51b412e79eb153.md`
 - `src_89933e373b741e71c5c6` — GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub
   - URL: https://github.com/nesquena/hermes-webui
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-openclaw/05-github-nesquena-hermes-webui-hermes-webui-the-best-way-to-us.md`
@@ -43,47 +74,18 @@ Candidate concept entity extracted from 7 source(s).
 - `src_8d4f3b9531fe6368478b` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
   - URL: https://github.com/nousresearch/hermes-agent
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+- `src_c5710022a567595d1dee` — GitHub - nesquena/hermes-webui: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! · GitHub
+  - URL: https://github.com/nesquena/hermes-webui
+  - Archive: `web/citation-pipeline-test-20260612/hermes-openclaw/06-github-nesquena-hermes-webui-hermes-webui-the-best-way-to-us.md`
+- `src_8340a05b8040ca09175f` — GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent Brain · GitHub
+  - URL: https://github.com/garrytan/gbrain
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-garrytan-gbrain-garry-s-opinionated-openclaw-hermes-a.md`
+- `src_e06fcb45b7ce66820f39` — GitHub - openclaw/clawhub: Skill + Plugin Registry for OpenClaw · GitHub
+  - URL: https://github.com/openclaw/clawhub
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/10-github-openclaw-clawhub-skill-plugin-registry-for-openclaw-g.md`
+- `src_68a67332b4cebf65d5f9` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
 - `src_7b4223ee88cdf3143b03` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
   - URL: https://github.com/cobusgreyling/loop-engineering
   - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
-- `src_4ed24cf70bede1c87702` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
-  - URL: https://github.com/nousresearch/hermes-agent
-  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
-- `src_0d8e03002b2f6c4c8bef` — Feed post Sergio S. • 3rd+ Microsoft MVP (Developer Technologies) | GitHub | AI Native Software Engineering | Digital App Innovation and Mod
-  - URL: https://www.linkedin.com/in/sesispla?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPNQxwBNle9Jld_N045FCkVlyfgYee572o
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/060-453e87ec7663876b6d99.md`
-- `src_c42fb4085e1d17428071` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
-  - URL: https://github.com/nousresearch/hermes-agent
-  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
-- `src_f45b46607537f7566a0c` — Three free open-source AI tools just exploded on GitHub 🤯 One was built by PewDiePie. Odysseus is a fully local workspace that runs on your 
-  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/057-c050168452ee07f224bc.md`
-- `src_ec29732d035ab6417896` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
-  - URL: https://github.com/openclaw/openclaw
-  - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
-- `src_e67b7b5925f668983298` — Feed post Krrish D. • 3rd+ CEO @ LiteLLM (YC W23) 45k+ Github stars | Call 100+ LLMs using the OpenAI format | We’re Hiring at Berri AI! 20h
-  - URL: https://www.linkedin.com/in/krish-d?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABzWhFUB-wUO9nKUHOTLfyjfTfKPRafiO0I
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/121-805411aaf3dbc84d207f.md`
-- `src_2eb2e4670c2987755cb8` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
-  - URL: https://github.com/openclaw/openclaw
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/08-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
-- `src_c6edffdac7f82f7a372f` — r/hermesagent on Reddit: Hermes Agent crosses 188K GitHub stars as Skills Hub explodes past 90,000 skills
-  - URL: https://www.reddit.com/r/hermesagent/comments/1u5661c/hermes_agent_crosses_188k_github_stars_as_skills/
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/09-r-hermesagent-on-reddit-hermes-agent-crosses-188k-github-sta.md`
-- `src_a27969da86165e17d965` — A GitHub repo that deserves 100k stars. works with Claude Code, Cursor, Copilot, OpenClaw, Codex, Hermes, and any agent An AI skill that cre
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/058-a1bdb30221451da690b7.md`
-- `src_d90a3efa0dfb7dff9144` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
-  - URL: https://github.com/openclaw/openclaw
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/03-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
-- `src_3e0e817c83a9e707d3b5` — Feed post IronPlate AI 605 followers 13h • Follow 🚨 Hermes Agent hit 110,000 GitHub stars in 10 weeks. It just overtook OpenClaw on daily to
-  - URL: https://www.linkedin.com/company/ironplate-ai/posts
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/126-add5efb06d9ab56b0af4.md`
-- `src_badccf7b2ac4cd375630` — 🚨 Hermes Agent hit 110,000 GitHub stars in 10 weeks. It just overtook OpenClaw on daily token processing — 224 billion tokens/day. It's the 
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/128-1fd063f9b4077df3cdd6.md`
-- `src_b66e3436c7f4b934b251` — Sick of overhyped AI Agent GitHub repos that deliver zero real business value? 🤔 We sorted top-starred projects from GitHub's official ai-ag
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/110-8933e4d3a4777b203a62.md`
-- `src_6d7b6d80cda4e784877d` — GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
-  - URL: https://github.com/openclaw/openclaw
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/07-github-openclaw-openclaw-your-own-personal-ai-assistant-any.md`
-- `src_b43e34b50bff1120ef72` — Nous Research · GitHub
-  - URL: https://github.com/nousresearch
-  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/03-nous-research-github.md`

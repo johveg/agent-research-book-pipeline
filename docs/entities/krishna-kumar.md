@@ -1,17 +1,17 @@
 # Krishna Kumar
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `person`
-- Confidence: `low`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 4
-- Mention count: 22
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 6
+- Mention count: 58
 
 ## Description
 
-Candidate person entity extracted from 1 source(s).
+Candidate person entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -19,6 +19,12 @@ No related claim records yet.
 
 ## Source references
 
+- `src_2c04eb0bb29832d3ca17` — Feed post Krishna Kumar • 3rd+ Founder & CEO – PlumoAI, Open-Source (100% FREE) AI Employees Platform 48m • Edited • Follow Day23 Live (Stre
+  - URL: https://www.linkedin.com/in/krishnafounder?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGGnSYBzrGTvFQLbvvgaT_SYjEz11ejGK8
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/008-79b4f06762f72e68e27e.md`
+- `src_e3f4e2990a91d4c2b72f` — Feed post Krishna Kumar • 3rd+ Founder & CEO – PlumoAI, Open-Source (100% FREE) AI Employees Platform 5h • Edited • Follow Day23 Live (Strea
+  - URL: https://www.linkedin.com/in/krishnafounder?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGGnSYBzrGTvFQLbvvgaT_SYjEz11ejGK8
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/076-312fb46dc19e74afebf7.md`
 - `src_3406ade3f8f51af4068a` — Feed post Krishna Kumar • 3rd+ Founder & CEO – PlumoAI, Open-Source (100% FREE) AI Employees Platform 9h • Edited • Follow Day20 Live (Strea
   - URL: https://www.linkedin.com/in/krishnafounder?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGGnSYBzrGTvFQLbvvgaT_SYjEz11ejGK8
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/167-d51acbce45f938a3802a.md`

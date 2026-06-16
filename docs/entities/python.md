@@ -1,17 +1,17 @@
 # Python
 
-Last generated: 2026-06-15T01:26:50Z
+Last generated: 2026-06-16T01:14:16Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-15T01:26:41Z
-- Source count: 13
-- Mention count: 87
+- Last seen: 2026-06-16T01:14:05Z
+- Source count: 15
+- Mention count: 124
 
 ## Description
 
-Candidate tool entity extracted from 6 source(s).
+Candidate tool entity extracted from 4 source(s).
 
 ## Related claims
 
@@ -22,6 +22,9 @@ Candidate tool entity extracted from 6 source(s).
 - `src_c6cf3d54e8eb380412df` — Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac
   - URL: https://www.linkedin.com/in/lakshay-arora-satellite-sentient?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqzywUB_90ZaHpqdzBpE_LCwRhwKcpFk9M
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/025-144e9089624de80d3540.md`
+- `src_aa56013ffdfab0a1531f` — Feed post Sandip Parida • 3rd+ Fullstack Software Engineer | Genai , Ruby on rails , Python,Product Development, immidiate joiner 2h • Follo
+  - URL: https://www.linkedin.com/in/dev-sandip-parida?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC_99GkBogGtt9daAUzEl7oNM6lf9U44gXs
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/042-f7d77099ac4688bccebb.md`
 - `src_6dcc4ca70392d35f0253` — Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera 
   - URL: https://www.linkedin.com/in/douglas-batista-295458230?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADm7PJEBv_--ElIX2zM31CP14ydWdEYMIIA
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/088-2ecf1233d61cf6196904.md`
@@ -31,6 +34,17 @@ Candidate tool entity extracted from 6 source(s).
 - `src_73ffea1b9c1824bf9c7d` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 3h • Follow Q
   - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/109-aab8a46491da0ceac194.md`
+- `src_694db145d0bfde2b39ca` — Feed post Mansi Joshi • 3rd+ Full-Stack Developer | Python (Django/FastAPI), React, AWS | Software Engineering & AI-Augmented Development 1h
+  - URL: https://www.linkedin.com/in/mansi-joshi-mj?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAELz9IIBjz5pcCAmCw0waC2FUe2Q8LKws1Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/030-34b003ba69cb5e487fc3.md`
+- `src_e6c66e211f608ae3ae48` — 🚀 NousResearch/hermes-agent The agent that grows with you 📊 ⭐ 193,424 stars | 🔧 Python | 📂 github_api 🔗 https://lnkd.in/eEXNB_-C 💡 Un proyec
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/090-9940d72d7cb75e40618b.md`
+- `src_8070fd7ed9605c9a58f9` — Feed post Anish Dubey • 3rd+ DevOps Engineer at Hashtechy || ex-DevOps Intern @Hiper Automotive || ex-Python/Django Development Intern @Nyx 
+  - URL: https://www.linkedin.com/in/anish-dubey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADaevqIBX9u1UCNZFwrefAf8vFYwEN50rR0
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/151-b5cf3a54b2e6997016b7.md`
+- `src_5fd59ebf7bd199e392de` — Feed post Shahida Batool • 3rd+ Data Analyst | Junior Data Scientist | Research Analyst | Python, SQL, R, Power BI, Machine Learning & Bioin
+  - URL: https://www.linkedin.com/in/shahidabatool?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC-3yosBZpfv9eldphv2Y6vevTM0bgqi8RI
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/117-d5fb91a7eeadfc7bd56d.md`
 - `src_a179d5f5450cc4990cca` — Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac
   - URL: https://www.linkedin.com/in/lakshay-arora-satellite-sentient?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqzywUB_90ZaHpqdzBpE_LCwRhwKcpFk9M
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/150-742949b0b08381e1f907.md`
@@ -46,14 +60,6 @@ Candidate tool entity extracted from 6 source(s).
 - `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
   - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
-- `src_5fd59ebf7bd199e392de` — Feed post Shahida Batool • 3rd+ Data Analyst | Junior Data Scientist | Research Analyst | Python, SQL, R, Power BI, Machine Learning & Bioin
-  - URL: https://www.linkedin.com/in/shahidabatool?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC-3yosBZpfv9eldphv2Y6vevTM0bgqi8RI
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/117-d5fb91a7eeadfc7bd56d.md`
-- `src_694db145d0bfde2b39ca` — Feed post Mansi Joshi • 3rd+ Full-Stack Developer | Python (Django/FastAPI), React, AWS | Software Engineering & AI-Augmented Development 1h
-  - URL: https://www.linkedin.com/in/mansi-joshi-mj?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAELz9IIBjz5pcCAmCw0waC2FUe2Q8LKws1Y
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/030-34b003ba69cb5e487fc3.md`
-- `src_e6c66e211f608ae3ae48` — 🚀 NousResearch/hermes-agent The agent that grows with you 📊 ⭐ 193,424 stars | 🔧 Python | 📂 github_api 🔗 https://lnkd.in/eEXNB_-C 💡 Un proyec
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/090-9940d72d7cb75e40618b.md`
 - `src_5cfec6ea090617f279b5` — Feed post Pekka Rajanen • 3rd+ Azure & Microsoft Fabric Data Engineer | Data Platforms, Lakehouse Architecture, SQL/Python | Practical AI Ad
   - URL: https://www.linkedin.com/in/pekkarajanen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEnJS0B4wydxdaQ9iJjc_stdzLNJZ-lOBI
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/038-40a2dab13f52192e2c12.md`

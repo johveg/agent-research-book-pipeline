@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-06-15T01:33:48Z",
+  "built_at": "2026-06-16T01:25:21Z",
   "collection": "terefohealreboa",
-  "count": 1257,
+  "count": 1285,
   "embedding_mode": "sentence_transformers:BAAI/bge-small-en-v1.5",
   "indexed_markdown_files": 200
 }

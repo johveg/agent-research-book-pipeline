@@ -1,0 +1,120 @@
+{
+  "academic_structure_plan_word_count": 190,
+  "bridge": "hermes_cli",
+  "conversion_plan_status": null,
+  "created_at": "2026-06-16T19:43:50Z",
+  "developmental_review_summary": {
+    "publication_consideration_recommendation": "needs_methodology_first",
+    "required_changes_before_publication": [
+      {
+        "change": "Add a methodology chapter before any publication-facing use.",
+        "priority": "high",
+        "reason": "The introduction depends on distinctions among established concepts, practitioner observations, local case material, open questions, and unsupported claims. Those categories need explicit selection criteria and handling procedures."
+      },
+      {
+        "change": "Add a literature and context chapter or equivalent literature-review apparatus.",
+        "priority": "high",
+        "reason": "The manuscript currently presents a strong practitioner framing but does not yet show how it relates to existing work on autonomous agents, tool use, software operations, observability, safety, HCI, governance, auditability, or human oversight."
+      },
+      {
+        "change": "Add a conceptual framework chapter or section defining the core terms.",
+        "priority": "high",
+        "reason": "Terms such as agent loop, loop engineering, governable engineering system, context architecture, memory architecture, verification, and escalation boundary are central enough that they need formal treatment beyond introductory definition."
+      },
+      {
+        "change": "Create a bibliography, source-quality appendix, or evidence taxonomy.",
+        "priority": "high",
+        "reason": "The draft explicitly depends on source-quality distinctions. A reader-facing manuscript needs a transparent apparatus explaining which sources support which kinds of claims."
+      },
+      {
+        "change": "Separate reader-facing prose from evidence-ledger, workflow, and run-management material.",
+        "priority": "medium",
+        "reason": "The current manuscript inventory includes workflow and evidence-ledger material that should not remain embedded in polished chapters. Such material may belong in appendices, internal reports, or methodology notes."
+      },
+      {
+        "change": "Clarify how Hermes and OpenClaw will be handled as case material.",
+        "priority": "medium",
+        "reason": "The introduction appropriately avoids market or adoption claims, but the tool chapters will need disciplined separation between description, local observation, public repository evidence, and externally supported claims."
+      },
+      {
+        "change": "Add a glossary after the conceptual framework is stabilized.",
+        "priority": "medium",
+        "reason": "The manuscript uses emerging and potentially ambiguous terminology. A glossary would improve consistency and reduce the risk that readers interpret cautious working terms as settled disciplinary definitions."
+      },
+      {
+        "change": "Strengthen transitions from professional inquiry to academic inquiry.",
+        "priority": "medium",
+        "reason": "The introduction already frames both audiences, but a later revision should make clearer whether the final work is primarily a professional guide, academic monograph, research agenda, or hybrid manuscript."
+      }
+    ],
+    "review_status": "developmental_review_completed"
+  },
+  "docs_book_update_allowed": false,
+  "inputs": [
+    "reports/editorial/run50-introduction-thesis-draft.json",
+    "reports/editorial/run50-introduction-developmental-review.json",
+    "reports/editorial/run49-academic-manuscript-inventory.json",
+    "reports/editorial/run49-chapter-conversion-plan.json",
+    "config/academic_book_quality_contract.json",
+    "book/academic_structure_plan.md"
+  ],
+  "introduction_summary": {
+    "central_thesis": "Agent loops should be treated as governable engineering systems rather than as isolated prompts or informal automation tricks. Loop engineering is used here as an emerging practitioner label for the design of triggers, goals, context, tools, verification, state, reporting, retry behavior, and escalation boundaries around tool-using agents.",
+    "draft_status": "introduction_draft_created",
+    "draft_word_count": 1476,
+    "limitations": [
+      "The manuscript is currently stronger as practitioner observation and local case material than as literature-supported academic synthesis.",
+      "The methodology, literature context, conceptual definitions, and bibliography support remain incomplete.",
+      "The conceptual framework requires further development, especially for Hermes, OpenClaw, loop engineering, and open questions.",
+      "The present evidence does not justify publication, claim insertion, or reader-facing chapter replacement."
+    ],
+    "scope_statement": "The introduction frames agent loops, loop engineering, and related tool cases as a bounded professional inquiry based on the current manuscript inventory. The scope includes conceptual framing, methodology needs, case material, governance concerns, and limitations; it excludes unsupported claims about field-wide adoption, tool maturity, or settled consensus."
+  },
+  "inventory_status": null,
+  "methodology_sections_required": [
+    "purpose of methodology",
+    "evidence sources and boundaries",
+    "source collection process",
+    "inclusion/exclusion criteria",
+    "source quality categories",
+    "claim extraction and claim status model",
+    "editorial review and safety gates",
+    "privacy and raw-capture handling",
+    "social/LinkedIn discovery-only policy",
+    "automation limits",
+    "reproducibility limits",
+    "bias and limitations",
+    "relationship between internal pipeline evidence and public book claims",
+    "what the method cannot prove",
+    "how future chapters should use evidence"
+  ],
+  "model": "gpt-5.5",
+  "ok": true,
+  "provider": "copilot",
+  "publication_allowed": false,
+  "quality_contract_keys": [
+    "allowed_public_chapter_update_types",
+    "appendix_only_update_types",
+    "blocked_reader_facing_update_types",
+    "contract_name",
+    "decisions",
+    "hard_safety_flags",
+    "minimum_requirements_for_academic_chapter_prose",
+    "required_academic_apparatus",
+    "version"
+  ],
+  "reasoning_profile": "closed_loop_editorial",
+  "run_id": "run54",
+  "safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "status": "methodology_input_packet_created",
+  "strict_json": true,
+  "target_channel": "AL-Hermoine-OPS",
+  "weak_local_fallback": false
+}

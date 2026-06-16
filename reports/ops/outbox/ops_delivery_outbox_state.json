@@ -1,0 +1,33 @@
+{
+  "counts_by_state": {
+    "delivered": 0,
+    "failed_closed_target_not_resolvable": 0,
+    "queued": 0,
+    "retry_scheduled": 5
+  },
+  "delivered_count": 0,
+  "entry_count": 5,
+  "fallback_channel_used": false,
+  "pending_message_ids": [
+    "ops-f7fcd763cd269722",
+    "ops-6e096bb9e5552d93",
+    "ops-adcfbf7ba56fe0bb",
+    "ops-c7d41abc5c469793",
+    "ops-0d65f7ffc04a8c65"
+  ],
+  "queued_count": 5,
+  "status_metadata": {
+    "component": "ops_delivery_outbox",
+    "disposition": "outbox_state",
+    "emitted_at_oslo_iso": "2026-06-16T22:00:05+02:00",
+    "emitted_at_unix_ms": 1781640005092,
+    "emitted_at_unix_s": 1781640005,
+    "emitted_at_utc_iso": "2026-06-16T20:00:05Z",
+    "run_id": "run54",
+    "severity": "info",
+    "status": "outbox_state",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  },
+  "target_channel": "AL-Hermoine-OPS"
+}

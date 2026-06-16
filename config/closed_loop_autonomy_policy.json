@@ -1,0 +1,31 @@
+{
+  "policy_name": "closed_loop_autonomy_policy",
+  "version": 1,
+  "target_channel": "AL-Hermoine-OPS",
+  "human_required": false,
+  "manual_action_required": false,
+  "hard_stop_triggers": [
+    "secrets_detected",
+    "protected_mutation_unexpected",
+    "docs_book_changed_without_publication_gate",
+    "source_claim_editorial_status_mutation_without_gate",
+    "data_schema_changed",
+    "weak_local_fallback_attempted",
+    "fallback_telegram_channel_used",
+    "gpt55_unavailable_for_required_reasoning_stage",
+    "invalid_required_report_json"
+  ],
+  "degraded_autonomous_conditions": [
+    "ops_alias_unresolved_but_status_queued",
+    "telegram_live_send_failed_closed_no_fallback",
+    "production_daily_completed_self_heal_not_needed",
+    "methodology_draft_report_only",
+    "status_outbox_available"
+  ],
+  "healthy_conditions": [
+    "production_monitor_completed",
+    "ops_live_delivery_verified",
+    "outbox_empty_or_flushed",
+    "verification_gates_pass"
+  ]
+}

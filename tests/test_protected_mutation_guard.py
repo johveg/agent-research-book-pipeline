@@ -607,3 +607,35 @@ def test_ops_channel_alias_resolution_profile_allows_run52_ops_only_and_blocks_p
     raw_blocked = mod.compare_snapshots(before, changed("raw/capture.json", " M"), "ops_channel_alias_resolution")
     assert raw_blocked["ok"] is False
     assert "raw/capture.json" in raw_blocked["unexpected_changed_paths"]
+
+def test_autonomy_acceleration_profile_allows_run54_control_plane_and_blocks_protected_paths():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        "?? config/closed_loop_autonomy_policy.json",
+        "?? scripts/ops_delivery_outbox.py",
+        "?? scripts/ops_channel_autodiscovery.py",
+        "?? scripts/ops_delivery_controller.py",
+        "?? scripts/run_ops_delivery_controller_cron.sh",
+        "?? scripts/production_daily_self_heal.py",
+        "?? scripts/run_production_daily_self_heal_cron.sh",
+        "?? scripts/academic_methodology_input_packet.py",
+        "?? scripts/academic_methodology_draft.py",
+        "?? scripts/academic_methodology_developmental_review.py",
+        " M scripts/protected_mutation_guard.py",
+        "?? tests/test_ops_delivery_outbox.py",
+        "?? tests/test_protected_mutation_guard.py",
+        "?? reports/editorial/run54-ops-delivery-controller.json",
+        "?? reports/architecture/run54-autonomy-acceleration-evidence-map-20260616.md",
+        "?? reports/telegram/run54-status.md",
+        "?? reports/ops/outbox/ops_delivery_outbox.jsonl",
+    ]
+    after["git_diff_names"] = ["scripts/protected_mutation_guard.py"]
+    result = mod.compare_snapshots(before, after, "autonomy_acceleration_control_plane")
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    for path in ["docs/book/chapter.md", "data/source_registry.json", "raw/capture.json", "data/schema.sql", "scripts/daily_book_worker.py"]:
+        blocked = mod.compare_snapshots(before, changed(path, " M"), "autonomy_acceleration_control_plane")
+        assert blocked["ok"] is False

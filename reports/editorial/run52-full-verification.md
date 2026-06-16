@@ -1,0 +1,18 @@
+# Run 52 full verification
+
+```json
+{
+  "citations": "ok",
+  "editorial_roles": "{'status': 'ok', 'errors': [], 'warnings': []}",
+  "full_pytest": "365 passed",
+  "git_diff_check": "ok",
+  "mkdocs_strict": "ok",
+  "protected_generated_artifacts_restored": [
+    "data/source_registry.json",
+    "docs/book",
+    "docs/entities",
+    "docs/research/claims.md"
+  ],
+  "workspace": "ok"
+}
+```

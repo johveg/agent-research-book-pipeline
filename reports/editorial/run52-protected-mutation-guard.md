@@ -1,0 +1,48 @@
+# Run 52 protected mutation guard
+
+```json
+{
+  "allowed_changed_paths": [],
+  "changed_paths": [],
+  "daily_worker_changed": false,
+  "db_delta": {},
+  "docs_book_changed": false,
+  "docs_claims_changed": false,
+  "docs_entities_changed": false,
+  "failed_checks": [],
+  "generated_at": "2026-06-16T13:16:56Z",
+  "hard_flags_changed": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "human_in_loop_dependency_added": false,
+  "ok": true,
+  "profile": "ops_channel_alias_resolution",
+  "protected_path_delta": {
+    ".var/book.sqlite": false,
+    "data/schema.sql": false,
+    "data/source_registry.json": false,
+    "docs/book": false,
+    "docs/entities": false,
+    "docs/research/claims.md": false,
+    "raw": false,
+    "scripts/daily_book_worker.py": false
+  },
+  "raw_changed": false,
+  "recommendation": "proceed_with_profile_scope",
+  "report_safety_scan": {},
+  "schema_changed": false,
+  "scope_validation": {
+    "failed_checks": [],
+    "ok": true
+  },
+  "source_registry_changed": false,
+  "sqlite_physical_hash_drift_allowed": false,
+  "status_hash_delta": {},
+  "unexpected_changed_paths": []
+}
+```

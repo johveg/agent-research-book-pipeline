@@ -1,0 +1,32 @@
+{
+  "attempted_target": "AL-Hermoine-OPS",
+  "body": [
+    "This is a safe OPS delivery test.",
+    "No secrets.",
+    "No production change.",
+    "Target channel: AL-Hermoine-OPS.",
+    "Timestamp metadata included.",
+    "Expected result: visible in AL-Hermoine-OPS."
+  ],
+  "failure_reason": "failed_closed_target_not_resolvable",
+  "fallback_channel_used": false,
+  "message_id": null,
+  "resolved_send_target": null,
+  "send_attempted": false,
+  "send_method": "not_attempted_no_resolvable_ops_target",
+  "send_succeeded": false,
+  "status_metadata": {
+    "component": "run52_ops_alias_resolution",
+    "disposition": "test_message",
+    "emitted_at_oslo_iso": "2026-06-16T15:11:30.060572+02:00",
+    "emitted_at_unix_ms": 1781615490060,
+    "emitted_at_unix_s": 1781615490,
+    "emitted_at_utc_iso": "2026-06-16T13:11:30.060572Z",
+    "run_id": "run52",
+    "severity": "info",
+    "status": "ops_live_delivery_test",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  },
+  "title": "Run 52 OPS live delivery test"
+}

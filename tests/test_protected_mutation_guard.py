@@ -581,3 +581,29 @@ def db_counts():
         return {t: con.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0] for t in ["source_notes", "claims", "editorial_reviews"]}
     finally:
         con.close()
+
+
+def test_ops_channel_alias_resolution_profile_allows_run52_ops_only_and_blocks_protected_paths():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        "?? reports/editorial/run52-ops-alias-baseline.json",
+        "?? reports/editorial/run52-hermes-channel-resolution-inventory.md",
+        "?? reports/architecture/run52-ops-channel-alias-resolution-evidence-map-20260616.md",
+        "?? reports/telegram/run52-status.md",
+        " M reports/telegram/production-monitor-latest.md",
+        " M scripts/protected_mutation_guard.py",
+        " M tests/test_protected_mutation_guard.py",
+    ]
+    result = mod.compare_snapshots(before, after, "ops_channel_alias_resolution")
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    blocked = mod.compare_snapshots(before, changed("docs/book/01-the-agent-loop.md", " M"), "ops_channel_alias_resolution")
+    assert blocked["ok"] is False
+    assert "docs/book/01-the-agent-loop.md" in blocked["unexpected_changed_paths"]
+
+    raw_blocked = mod.compare_snapshots(before, changed("raw/capture.json", " M"), "ops_channel_alias_resolution")
+    assert raw_blocked["ok"] is False
+    assert "raw/capture.json" in raw_blocked["unexpected_changed_paths"]

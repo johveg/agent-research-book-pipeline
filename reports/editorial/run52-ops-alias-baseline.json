@@ -1,0 +1,42 @@
+{
+  "al_hermoine_ops_appears_in_channel_config": false,
+  "al_hermoine_ops_appears_in_files": [],
+  "available_hermes_channel_directory_files_found": [
+    "/root/.hermes/channel_directory.json",
+    "/root/.hermes/profiles/ops-bot/channel_directory.json",
+    "/root/.hermes/profiles/travel-logger/channel_directory.json",
+    "/root/.hermes/state-snapshots/20260611-051654-pre-update/channel_directory.json"
+  ],
+  "available_hermes_target_config_files_found_count": 650,
+  "branch": "main",
+  "crontab": "CRON_TZ=Europe/Oslo\n30 5 * * * /home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh",
+  "current_configured_ops_target": "AL-Hermoine-OPS",
+  "current_known_failure": "failed_closed_target_not_resolvable",
+  "git_status": "## main...origin/main",
+  "latest_commits": [
+    "b057951 Run 51: record final status",
+    "d535021 Run 51: route OPS status and repair production scheduler",
+    "69c322c research: daily book pipeline update citation-pipeline-test-20260612",
+    "8d65615 Run 50: record final status correction",
+    "b6ad2b3 Run 50: record final clean status"
+  ],
+  "live_send_test_already_succeeded": false,
+  "run51_status_file_present": true,
+  "send_ops_status_present": true,
+  "status_message_contract_present": true,
+  "status_metadata": {
+    "component": "run52_ops_alias_resolution",
+    "disposition": "baseline_only",
+    "emitted_at_oslo_iso": "2026-06-16T15:07:23.196177+02:00",
+    "emitted_at_unix_ms": 1781615243196,
+    "emitted_at_unix_s": 1781615243,
+    "emitted_at_utc_iso": "2026-06-16T13:07:23.196177Z",
+    "run_id": "run52",
+    "severity": "info",
+    "status": "run52_baseline",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  },
+  "status_routing_config_present": true,
+  "timestamp_contract_present": true
+}

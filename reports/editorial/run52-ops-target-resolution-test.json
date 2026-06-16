@@ -1,0 +1,63 @@
+{
+  "actual_live_send_now_safe_to_attempt": false,
+  "candidate_selected": null,
+  "candidates_tested": [
+    {
+      "candidate": "telegram:AL-Hermoine-OPS",
+      "resolvable": false,
+      "resolver_model": "channel_directory_exact_or_unambiguous_prefix",
+      "safe_for_live_send": false,
+      "semantically_ops_target": true
+    },
+    {
+      "candidate": "AL-Hermoine-OPS",
+      "resolvable": false,
+      "resolver_model": "channel_directory_exact_or_unambiguous_prefix",
+      "safe_for_live_send": false,
+      "semantically_ops_target": true
+    },
+    {
+      "candidate": "telegram:#AL-Hermoine-OPS",
+      "resolvable": false,
+      "resolver_model": "channel_directory_exact_or_unambiguous_prefix",
+      "safe_for_live_send": false,
+      "semantically_ops_target": false
+    },
+    {
+      "candidate": "telegram:al_hermoine_ops",
+      "resolvable": false,
+      "resolver_model": "channel_directory_exact_or_unambiguous_prefix",
+      "safe_for_live_send": false,
+      "semantically_ops_target": true
+    },
+    {
+      "candidate": "telegram:Marius",
+      "resolvable": true,
+      "resolver_model": "channel_directory_exact_or_unambiguous_prefix",
+      "safe_for_live_send": false,
+      "semantically_ops_target": false
+    }
+  ],
+  "dry_run_available": true,
+  "dry_run_method": "local channel_directory resolver model plus hermes send --list; no live sends performed",
+  "failure_reason": "failed_closed_target_not_resolvable",
+  "fallback_channel_used": false,
+  "live_send_attempted": false,
+  "reason_selected": "No candidate for AL-Hermoine-OPS resolves. telegram:Marius resolves but is not semantically AL-Hermoine-OPS and is therefore disallowed by fail-closed policy.",
+  "send_message_tool_available_targets": [
+    "telegram:Marius (dm)"
+  ],
+  "status_metadata": {
+    "component": "run52_ops_alias_resolution",
+    "disposition": "fail_closed_unresolved",
+    "emitted_at_oslo_iso": "2026-06-16T15:11:30.059962+02:00",
+    "emitted_at_unix_ms": 1781615490059,
+    "emitted_at_unix_s": 1781615490,
+    "emitted_at_utc_iso": "2026-06-16T13:11:30.059962Z",
+    "run_id": "run52",
+    "severity": "warning",
+    "status": "target_resolution_test",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  }
+}

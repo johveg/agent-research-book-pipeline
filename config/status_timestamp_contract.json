@@ -1,0 +1,44 @@
+{
+  "allowed_severity_values": [
+    "info",
+    "success",
+    "warning",
+    "failure",
+    "blocked",
+    "failed_closed"
+  ],
+  "allowed_status_examples": [
+    "production_daily_completed",
+    "production_daily_missing_not_due_yet",
+    "production_daily_missing_after_due",
+    "production_daily_failed_closed",
+    "production_monitor_ok",
+    "ops_routing_repaired",
+    "timestamp_contract_applied",
+    "stale_job_removed",
+    "stale_job_not_controllable"
+  ],
+  "required_machine_timestamp_fields": [
+    "emitted_at_unix_s",
+    "emitted_at_unix_ms",
+    "emitted_at_utc_iso",
+    "emitted_at_oslo_iso",
+    "timezone",
+    "run_started_at_unix_s",
+    "run_finished_at_unix_s",
+    "duration_seconds"
+  ],
+  "required_operational_fields": [
+    "component",
+    "run_id",
+    "status",
+    "severity",
+    "disposition",
+    "repo",
+    "git_commit",
+    "git_branch",
+    "report_path",
+    "log_path"
+  ],
+  "timezone": "Europe/Oslo"
+}

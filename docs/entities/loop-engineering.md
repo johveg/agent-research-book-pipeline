@@ -1,17 +1,17 @@
 # Loop Engineering
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
-- Source count: 628
-- Mention count: 15836
+- Last seen: 2026-06-16T10:28:31Z
+- Source count: 631
+- Mention count: 16284
 
 ## Description
 
-Candidate concept entity extracted from 131 source(s).
+Candidate concept entity extracted from 8 source(s).
 
 ## Related claims
 

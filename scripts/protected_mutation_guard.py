@@ -251,6 +251,61 @@ PROFILES: dict[str, dict[str, Any]] = {
         "allow_sqlite_physical_hash_drift_without_logical_delta": True,
         "future_disabled": False,
     },
+    "ops_status_routing_and_scheduler_repair": {
+        "allowed": [
+            "config/status_routing.json",
+            "config/status_timestamp_contract.json",
+            "scripts/status_message_contract.py",
+            "scripts/send_ops_status.py",
+            "scripts/run_production_daily_cron.sh",
+            "scripts/production_daily_monitor.py",
+            "scripts/closed_loop_production_scheduler.py",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_status_message_contract.py",
+            "tests/test_send_ops_status.py",
+            "tests/test_run_production_daily_cron.py",
+            "tests/test_production_daily_monitor.py",
+            "tests/test_closed_loop_production_scheduler.py",
+            "tests/test_protected_mutation_guard.py",
+            "reports/editorial/run51-*.json",
+            "reports/editorial/run51-*.md",
+            "reports/editorial/run45-production-scheduler-run45.*",
+            "reports/editorial/production-daily-*-production-execute-once.*",
+            "reports/editorial/production-daily-*-book-patch-preview-run45.*",
+            "reports/editorial/production-daily-*-evidence-expansion-run45.*",
+            "reports/editorial/production-daily-*-guarded-book-publication-run45.*",
+            "reports/editorial/production-daily-*-mutation-guard-run45.*",
+            "reports/editorial/production-daily-*-production-scheduler-run45.*",
+            "reports/editorial/production-daily-*-publication-orchestrator-run45.*",
+            "reports/editorial/production-daily-*-publish-packets-run45.*",
+            "reports/editorial/production-daily-*-schedule-install-run45.*",
+            "reports/discovery/production-daily-*",
+            "config/schedules/closed-loop-production-daily.cron.example",
+            "reports/architecture/run51-*.md",
+            "reports/telegram/run51-status.md",
+            "reports/telegram/production-daily-latest.md",
+            "reports/telegram/production-monitor-latest.md",
+            "logs/closed_loop/events.jsonl",
+            "logs/runs/production-daily-*.cron.out",
+            "logs/runs/production-daily-*.cron.err",
+            "config/schedules/closed-loop-production-daily.md",
+            "docs/book/**",
+            "docs/entities/**",
+            "docs/research/claims.md",
+            "data/source_registry.json",
+            "raw/**",
+            ".var/book.sqlite",
+        ],
+        "allow_protected_path_delta": ["docs/book", "docs/entities", "docs/research/claims.md"],
+        "conditionally_allow_raw": True,
+        "conditionally_allow_source_registry": True,
+        "conditionally_allow_db_logical_delta": True,
+        "allow_db": {},
+        "allow_sqlite_physical_hash_drift_without_logical_delta": True,
+        "required_gates": ["production_daily_completed"],
+        "enforce_required_gates": True,
+        "future_disabled": False,
+    },
     "production_daily_publish": {
         "allowed": [
             "docs/book/**",
@@ -498,6 +553,8 @@ def _scan_changed_report_files(root: Path, changed_paths: list[str]) -> tuple[bo
                     safety[key] = data[key]
         if data.get("gpt55_used") is True or data.get("llm_used") is True:
             safety["gpt55_publication_gate_passed"] = True
+        if data.get("production_daily_completed") is True or data.get("status") == "production_daily_completed" or data.get("final_disposition") == "production_daily_completed":
+            safety["production_daily_completed"] = True
         if data.get("db_delta"):
             safety["db_logical_delta_expected"] = bool(data.get("db_logical_delta_expected", True))
     return human, flags, safety
@@ -525,7 +582,11 @@ def validate_allowed_write_scope(report: dict[str, Any]) -> dict[str, Any]:
             continue
         if path in allowed_protected_delta:
             continue
-        if path == DEFAULT_DB_PATH and (sqlite_physical_drift_allowed or (spec.get("conditionally_allow_db_logical_delta") and scan.get("db_logical_delta_expected") is True)):
+        if path == DEFAULT_DB_PATH and (
+            sqlite_physical_drift_allowed
+            or (spec.get("conditionally_allow_db_logical_delta") and scan.get("db_logical_delta_expected") is True)
+            or (spec.get("conditionally_allow_db_logical_delta") and scan.get("production_daily_completed") is True)
+        ):
             continue
         if path == "raw" and spec.get("conditionally_allow_raw") and scan.get("raw_collection_performed") is True:
             continue
@@ -571,15 +632,23 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
     db_logical_delta_expected = bool(merged_scan.get("db_logical_delta_expected"))
     if not (spec.get("conditionally_allow_db_logical_delta") and db_logical_delta_expected):
         source_registry_export = bool(merged_scan.get("source_registry_export_performed"))
+        production_completed = bool(merged_scan.get("production_daily_completed"))
         for table in db_delta:
             if table not in allowed_counts:
                 failed.append(f"unexpected_db_count_delta:{table}")
         for name in status_hash_delta:
+            if spec.get("conditionally_allow_db_logical_delta") and production_completed:
+                continue
             if name not in allowed_hashes and not (source_registry_export and name == "source_status_hash"):
                 failed.append(f"unexpected_status_hash_delta:{name}")
 
     if human:
         failed.append("human_in_loop_dependency_added")
+    changed_anything = bool(changed_paths or db_delta or status_hash_delta or any(protected_path_delta.values()))
+    if spec.get("enforce_required_gates") and changed_anything:
+        for required_gate in spec.get("required_gates", []):
+            if merged_scan.get(required_gate) is not True:
+                failed.append(f"required_gate_missing:{required_gate}")
     if merged_scan.get("weak_local_fallback_used") is True:
         failed.append("weak_local_fallback_used")
     if merged_scan.get("gpt55_publication_gate_passed") is False:
@@ -602,7 +671,11 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
         spec.get("allow_sqlite_physical_hash_drift_without_logical_delta")
         and protected_path_delta.get(DEFAULT_DB_PATH, False)
         and not db_delta
-        and (not status_hash_delta or (merged_scan.get("source_registry_export_performed") is True and set(status_hash_delta) <= {"source_status_hash"}))
+        and (
+            not status_hash_delta
+            or (merged_scan.get("source_registry_export_performed") is True and set(status_hash_delta) <= {"source_status_hash"})
+            or (spec.get("conditionally_allow_db_logical_delta") and merged_scan.get("production_daily_completed") is True)
+        )
     )
     protected_changed = {k: v for k, v in protected_path_delta.items() if v}
     for rel in protected_changed:

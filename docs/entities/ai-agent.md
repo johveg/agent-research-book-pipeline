@@ -1,13 +1,13 @@
 # AI agent
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
+- Last seen: 2026-06-16T10:00:22Z
 - Source count: 19
-- Mention count: 145
+- Mention count: 154
 
 ## Description
 
@@ -40,6 +40,8 @@ Candidate tool entity extracted from 7 source(s).
 
 - `src_2df3c2d1654cd80f5fc7` — TechOrange 報導了 Loop Engineering 的 AI Agent⁠，揭示了如何將 AI 自治系統與工程流程深度結合。 從 Eliyahoren.com 的視角來看，這不只是技術升級，而是一種 人類與 AI 協作的認知進化： * 多 Agent 協作：AI 不只
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/026-8d79491bc7dc0f69a3af.md`
+- `src_fbe2ecd92c9a254b5b7c` — Saya baru bikin grup WA baru: AI Agent Indonesia Tempat belajar dan diskusi seputar Hermes, AI Agent, automation, chatbot, dan workflow otom
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/085-35592b49f054772fad72.md`
 - `src_45efdb14404d2b02e0f9` — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made 
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/153-a276813cb5da6746739c.md`
 - `src_47eb81009bc23393e291` — 🤖 OpenClaw vs. Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera
@@ -48,8 +50,6 @@ Candidate tool entity extracted from 7 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/086-5b526f3147f93fd8edcb.md`
 - `src_f9af5e9c44ccfa8273b8` — FREE AI WORKSHOP TONIGHT! I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. I use it to 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/083-cd7e6e0c0c2bfe74008a.md`
-- `src_fbe2ecd92c9a254b5b7c` — Saya baru bikin grup WA baru: AI Agent Indonesia Tempat belajar dan diskusi seputar Hermes, AI Agent, automation, chatbot, dan workflow otom
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/085-35592b49f054772fad72.md`
 - `src_c5f7b482d92d80e731d2` — আপনার AI agent-কে production access দিয়েছেন? ভুল করলেন। বেশিরভাগ developer AI coding agent-কে একটা চালাক chatbot মনে করেন। কিন্তু এটা চালাক
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/128-d3be699d0193925069e5.md`
 - `src_02994da92fbe39a1e863` — AI agent se nedá pochopit jen z tutoriálu. Musíš si ho postavit. Proto dělám 25. 6. v Praze hands-on workshop Stavíme AI agenty. Žádná obecn

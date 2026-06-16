@@ -1,17 +1,17 @@
 # MCP
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
+- Last seen: 2026-06-16T10:00:22Z
 - Source count: 17
-- Mention count: 145
+- Mention count: 150
 
 ## Description
 
-Candidate tool entity extracted from 6 source(s).
+Candidate tool entity extracted from 5 source(s).
 
 ## Related claims
 
@@ -40,14 +40,14 @@ Candidate tool entity extracted from 6 source(s).
 - `src_e13858420345a9475036` — Feed post Elliot Garreffa • 3rd+ Get Discovered by Agents - MCP & MCP-Apps | Co-founder, agentdiscoverability.com Visit my website 5h • Foll
   - URL: https://www.linkedin.com/in/elliotgarreffa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABxp1xkBBQ2O2uhZjANrseSDEZ1ubY3THAI
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/096-7250b783c417aad5bb2b.md`
-- `src_6eb089341c2557e84cb9` — Feed post Deepak Jain • 3rd+ Leadership, MLOps, Vector Similarity, AI (MCP, Skills, Agents), Trillion Scale Observability Platform, OpenSour
-  - URL: https://www.linkedin.com/in/whereisdeepak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADQZtUBQf27SvX9pYCs5n9avzxb7rGoqKQ
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/099-020702f5e5c250697e99.md`
 - `src_5fa0e028eb03926ab3e8` — Feed post Abdeljabbar Elassali • 3rd+ Founder of Vilix | The cross-AI memory layer (MCP), live now | Giving ChatGPT, Claude, Cursor & Codex 
   - URL: https://www.linkedin.com/in/abdeljabbarelassali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB0-3AIBtMkCobQecxKU1aZ-0EQlJiq2FKY
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/141-f3065f895dbc2387f970.md`
 - `src_e5d776a11b74c07b6f98` — If you are using Cursor IDE without the Model Context Protocol (MCP), you are only using 10% of its power. I just integrated Hermes Agent wi
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/045-33805b705b7354c66adb.md`
+- `src_6eb089341c2557e84cb9` — Feed post Deepak Jain • 3rd+ Leadership, MLOps, Vector Similarity, AI (MCP, Skills, Agents), Trillion Scale Observability Platform, OpenSour
+  - URL: https://www.linkedin.com/in/whereisdeepak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADQZtUBQf27SvX9pYCs5n9avzxb7rGoqKQ
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/099-020702f5e5c250697e99.md`
 - `src_7c67249ece73de8642ea` — MCP this, MCP that... what the hell is an MCP, and why should you care? MCP (Model Context Protocol, just in case you want your GK to do bet
   - URL: https://www.linkedin.com/company/imagineartai/
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/103-c5728feee0f5a702ce18.md`

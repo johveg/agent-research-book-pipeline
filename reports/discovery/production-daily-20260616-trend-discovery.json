@@ -1,0 +1,186 @@
+{
+  "candidates": [
+    {
+      "count": 70,
+      "doc_count": 15,
+      "term": "work",
+      "term_type": "word"
+    },
+    {
+      "count": 42,
+      "doc_count": 15,
+      "term": "type",
+      "term_type": "word"
+    },
+    {
+      "count": 29,
+      "doc_count": 15,
+      "term": "content",
+      "term_type": "word"
+    },
+    {
+      "count": 27,
+      "doc_count": 15,
+      "term": "status",
+      "term_type": "word"
+    },
+    {
+      "count": 16,
+      "doc_count": 15,
+      "term": "extracted",
+      "term_type": "word"
+    },
+    {
+      "count": 16,
+      "doc_count": 15,
+      "term": "snippet",
+      "term_type": "word"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "content type",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "status content",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "status content type",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "t10 status",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "t10 status content",
+      "term_type": "phrase"
+    },
+    {
+      "count": 190,
+      "doc_count": 14,
+      "term": "skills",
+      "term_type": "word"
+    },
+    {
+      "count": 129,
+      "doc_count": 14,
+      "term": "github",
+      "term_type": "word"
+    },
+    {
+      "count": 91,
+      "doc_count": 14,
+      "term": "while",
+      "term_type": "word"
+    },
+    {
+      "count": 80,
+      "doc_count": 14,
+      "term": "tools",
+      "term_type": "word"
+    },
+    {
+      "count": 71,
+      "doc_count": 14,
+      "term": "every",
+      "term_type": "word"
+    },
+    {
+      "count": 54,
+      "doc_count": 14,
+      "term": "before",
+      "term_type": "word"
+    },
+    {
+      "count": 52,
+      "doc_count": 14,
+      "term": "issues",
+      "term_type": "word"
+    },
+    {
+      "count": 42,
+      "doc_count": 14,
+      "term": "start",
+      "term_type": "word"
+    },
+    {
+      "count": 33,
+      "doc_count": 14,
+      "term": "other",
+      "term_type": "word"
+    },
+    {
+      "count": 23,
+      "doc_count": 14,
+      "term": "development",
+      "term_type": "word"
+    },
+    {
+      "count": 20,
+      "doc_count": 14,
+      "term": "html",
+      "term_type": "word"
+    },
+    {
+      "count": 14,
+      "doc_count": 14,
+      "term": "content type html",
+      "term_type": "phrase"
+    },
+    {
+      "count": 14,
+      "doc_count": 14,
+      "term": "html snippet",
+      "term_type": "phrase"
+    },
+    {
+      "count": 14,
+      "doc_count": 14,
+      "term": "type html",
+      "term_type": "phrase"
+    },
+    {
+      "count": 14,
+      "doc_count": 14,
+      "term": "type html snippet",
+      "term_type": "phrase"
+    },
+    {
+      "count": 118,
+      "doc_count": 13,
+      "term": "security",
+      "term_type": "word"
+    },
+    {
+      "count": 67,
+      "doc_count": 13,
+      "term": "build",
+      "term_type": "word"
+    },
+    {
+      "count": 59,
+      "doc_count": 13,
+      "term": "docs",
+      "term_type": "word"
+    },
+    {
+      "count": 58,
+      "doc_count": 13,
+      "term": "open",
+      "term_type": "word"
+    }
+  ],
+  "generated_at": "2026-06-16T10:00:23Z",
+  "run_id": "production-daily-20260616"
+}

@@ -1,17 +1,17 @@
 # Claude Code
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `tool`
-- Confidence: `high`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
-- Source count: 31
-- Mention count: 211
+- Last seen: 2026-06-16T10:28:31Z
+- Source count: 32
+- Mention count: 229
 
 ## Description
 
-Candidate tool entity extracted from 9 source(s).
+Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -23,10 +23,10 @@ Candidate tool entity extracted from 9 source(s).
 
 ## Source references
 
-- `src_5041e58ca7814decf8f5` — There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
 - `src_7a1bfed443c12e7ffcca` — Been using and seeing a lot of AI agents lately. Such as Hermes, OpenClaw, Claude Code, and Pi. I became curious about how they actually wor
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-9d1e38ef2b708754fad1.md`
+- `src_5041e58ca7814decf8f5` — There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
 - `src_988a63a0444c4c71a699` — hashtag #pillolegeek hashtag #geekpills Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenClaw, pi, OpenCode, an
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/035-7726de66bbbda73ddb23.md`
 - `src_04119334ec1ee2a928e1` — Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create
@@ -54,6 +54,9 @@ Candidate tool entity extracted from 9 source(s).
 - `src_b3a2887a17f3fe06974a` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
   - URL: https://github.com/Infisical/agent-vault
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
+- `src_59cd7659103d18b09ecc` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
+  - URL: https://github.com/Infisical/agent-vault
+  - Archive: `web/production-daily-20260616/openclaw-hermes/03-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
 - `src_8570f66e01b3c57f01cb` — Loop Engineering El creador de Claude Code ya no escribe prompts. Escribe loops. Boris Cherny, Head de Claude Code en Anthropic, lo dijo en 
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/145-722ab4bb5b65b4bac2ee.md`
 - `src_7c138ed755684e992664` — Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn
@@ -78,6 +81,3 @@ Candidate tool entity extracted from 9 source(s).
 - `src_97124de0aea7369bc95d` — I have Claude Code on speed dial. Not metaphorically. I literally hit Option + 5 on my Mac from any screen, speak, and it's off working. I j
   - URL: https://www.linkedin.com/company/carbonvoice/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/051-1477677d244132e049ad.md`
-- `src_5be68a06bd6ad423e2bd` — 24/7 自主代理環境實作指南：OpenClaw、Hermes Agent、Claude Code 與 Codex CLI - Tenten AI
-  - URL: https://university.tenten.co/t/24-7-openclaw-hermes-agent-claude-code-codex-cli/2292
-  - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/09-24-7-openclaw-hermes-agent-claude-code-codex-cli-tenten-ai.md`

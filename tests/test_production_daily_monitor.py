@@ -29,20 +29,36 @@ def make_repo(tmp_path, run_id="production-daily-20260616"):
 def test_today_before_0530_missing_is_not_due_yet(tmp_path):
     mod = load_module()
     repo = make_repo(tmp_path)
-    now = datetime(2026, 6, 16, 5, 0, tzinfo=ZoneInfo("Europe/Oslo"))
+    now = datetime(2026, 6, 16, 5, 20, tzinfo=ZoneInfo("Europe/Oslo"))
     report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
     assert report["expected_run_id"] == "production-daily-20260616"
     assert report["status"] == "production_daily_missing_not_due_yet"
     assert report["ok"] is True
 
 
+def test_today_at_0530_missing_is_after_due_or_running_grace(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    now = datetime(2026, 6, 16, 5, 30, tzinfo=ZoneInfo("Europe/Oslo"))
+    report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
+    assert report["status"] in {"production_daily_missing_after_due", "production_daily_running"}
+
+
 def test_today_after_0530_missing_is_after_due(tmp_path):
     mod = load_module()
     repo = make_repo(tmp_path)
-    now = datetime(2026, 6, 16, 6, 0, tzinfo=ZoneInfo("Europe/Oslo"))
+    now = datetime(2026, 6, 16, 6, 20, tzinfo=ZoneInfo("Europe/Oslo"))
     report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
     assert report["status"] == "production_daily_missing_after_due"
     assert report["ok"] is False
+
+
+def test_0720_missing_is_after_due_not_not_due(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    now = datetime(2026, 6, 16, 7, 20, tzinfo=ZoneInfo("Europe/Oslo"))
+    report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
+    assert report["status"] == "production_daily_missing_after_due"
 
 
 def test_completed_report_is_completed(tmp_path):
@@ -109,9 +125,21 @@ def test_manual_production_daily_run_id_is_accepted_and_completed(tmp_path):
 def test_monitor_detects_crontab_production_command(monkeypatch, tmp_path):
     mod = load_module()
     repo = make_repo(tmp_path)
-    monkeypatch.setattr(mod, "read_crontab", lambda: "30 5 * * * cd /repo && RUN_ID=$(date -u +production-daily-%Y%m%d) && python3 scripts/closed_loop_production_scheduler.py")
+    monkeypatch.setattr(mod, "read_crontab", lambda: "CRON_TZ=Europe/Oslo\n30 5 * * * /home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh")
     report = mod.monitor(repo=repo, run_id="production-daily-20260616", timezone_name="Europe/Oslo")
     assert report["crontab_production_daily_command_found"] is True
+    assert "run_production_daily_cron.sh" in report["schedule_command"]
+
+
+def test_monitor_includes_timestamp_contract_and_ops_channel(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    out = tmp_path / "telegram.md"
+    report = mod.monitor(repo=repo, run_id="production-daily-20260616", timezone_name="Europe/Oslo", telegram_status=out)
+    text = out.read_text()
+    assert report["target_channel"] == "AL-Hermoine-OPS"
+    assert "status_metadata:" in text
+    assert "target_channel: AL-Hermoine-OPS" in text
 
 
 def test_monitor_writes_telegram_fallback_and_json_valid(tmp_path):
@@ -132,3 +160,8 @@ def test_cli_json_output(tmp_path):
     assert proc.returncode in {0, 2}
     payload = json.loads(proc.stdout)
     assert payload["expected_run_id"] == "production-daily-20260616"
+    assert payload["target_channel"] == "AL-Hermoine-OPS"
+    assert payload["status_metadata"]["target_channel"] == "AL-Hermoine-OPS"
+    for key in ["emitted_at_unix_s", "emitted_at_unix_ms", "emitted_at_utc_iso", "emitted_at_oslo_iso", "status", "severity", "disposition"]:
+        assert key in payload
+        assert payload["status_metadata"][key] == payload[key]

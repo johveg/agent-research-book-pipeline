@@ -1,17 +1,17 @@
 # NVIDIA
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
-- Type: `concept`
-- Confidence: `high`
+- Type: `tool`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
-- Source count: 9
-- Mention count: 90
+- Last seen: 2026-06-16T10:28:31Z
+- Source count: 10
+- Mention count: 98
 
 ## Description
 
-Candidate concept entity extracted from 3 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -36,6 +36,9 @@ Candidate concept entity extracted from 3 source(s).
 - `src_4bb4fa40879ecea2506e` — GitHub - NVIDIA/NemoClaw: Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference · GitHub
   - URL: https://github.com/NVIDIA/NemoClaw
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/05-github-nvidia-nemoclaw-run-agents-like-hermes-and-openclaw-m.md`
+- `src_91354f5e98f8f60bb36f` — GitHub - NVIDIA/NemoClaw: Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference · GitHub
+  - URL: https://github.com/NVIDIA/NemoClaw
+  - Archive: `web/production-daily-20260616/openclaw-hermes/02-github-nvidia-nemoclaw-run-agents-like-hermes-and-openclaw-m.md`
 - `src_493680d2704233180d12` — NVIDIA amplia a IA local baseada em agentes Os agentes pessoais estão se popularizando rapidamente, com projetos de código aberto como OpenC
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/067-5987cdee5ab17ea84b46.md`
 - `src_2800699832e778aafa04` — Feed post NVIDIA 5,517,182 followers 4h • Follow Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Re

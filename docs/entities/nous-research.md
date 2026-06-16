@@ -1,17 +1,17 @@
 # Nous Research
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
-- Source count: 63
-- Mention count: 465
+- Last seen: 2026-06-16T10:28:31Z
+- Source count: 66
+- Mention count: 545
 
 ## Description
 
-Candidate tool entity extracted from 18 source(s).
+Candidate tool entity extracted from 12 source(s).
 
 ## Related claims
 
@@ -34,6 +34,12 @@ Candidate tool entity extracted from 18 source(s).
 - `src_bd9f5b57513c68a6e52e` — AI 101:Hermes vs OpenClaw: Local AI Agents Compared
   - URL: https://www.turingpost.com/p/hermes
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/02-ai-101-hermes-vs-openclaw-local-ai-agents-compared.md`
+- `src_1981b98e4693d480eb6e` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+- `src_81cd90cd54aaa482b614` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+  - URL: https://github.com/nousresearch/hermes-agent
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
 - `src_1848bacfad85b4fd20d9` — Nous Research lanzó el Profile Builder para Hermes Agent: una interfaz web que unifica la creación de agentes de IA especializados en un sol
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/080-d51d0b580fdc03f5f592.md`
 - `src_c7232a04c69e77d8c4c7` — Hermes Enables iMessage Integration via Photon Sidecar Without a Mac 📌 Nous Research has revolutionized agent deployment by enabling the Her
@@ -41,12 +47,12 @@ Candidate tool entity extracted from 18 source(s).
 - `src_f4388170b23983ab7cdc` — 🚀 Hermes Agent — Unifying Profile Management by Nous Research 🔴 Problem • Multiple agent profiles often require separate dashboards. • Manag
   - URL: https://www.linkedin.com/company/nousresearch/
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/041-42a0931e846970977560.md`
-- `src_1981b98e4693d480eb6e` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+- `src_19ad1af0200eff19d897` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
   - URL: https://github.com/nousresearch/hermes-agent
-  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
-- `src_81cd90cd54aaa482b614` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
-  - URL: https://github.com/nousresearch/hermes-agent
-  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+  - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
+- `src_d70a8c8fa08f425ef4e0` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
+  - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
+  - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
 - `src_0d2ed207c7835dbebb72` — Building AI agents shouldn't mean fighting with YAML files all day. 🛠️ Nous Research has quietly solved one of the clunkiest parts of open-s
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/126-431eab5f7dd803e4bcbf.md`
 - `src_2a6ada1e8269c6722be2` — Feed post Kalinga AI 20 followers 3h • Follow Building AI agents shouldn't mean fighting with YAML files all day. 🛠️ Nous Research has quiet
@@ -86,14 +92,9 @@ Candidate tool entity extracted from 18 source(s).
 - `src_946462d4856d38e27d2c` — hermes-agent/README.md at main · NousResearch/hermes-agent
   - URL: https://github.com/NousResearch/hermes-agent/blob/main/README.md
   - Archive: `web/manual-20260611T173313Z/hermes-agent-nous-research/02-hermes-agent-readme-md-at-main-nousresearch-hermes-agent.md`
-- `src_19ad1af0200eff19d897` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
-  - URL: https://github.com/nousresearch/hermes-agent
-  - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
-- `src_d70a8c8fa08f425ef4e0` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
-  - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
-  - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`
+- `src_0d697e3fdbbff1bf1674` — Hermes Desktop: Ứng Dụng Desktop Native Cho AI Agent Tự Cải Tiến Từ Nous Research
+  - URL: https://viblo.asia/p/hermes-desktop-ung-dung-desktop-native-cho-ai-agent-tu-cai-tien-tu-nous-research-37Lde6ORVov
+  - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/04-hermes-desktop-ng-d-ng-desktop-native-cho-ai-agent-t-c-i-ti.md`
 - `src_6d0a69c1df04994ee40b` — Hermes Desktop: Ứng Dụng Desktop Native Cho AI Agent Tự Cải Tiến Từ Nous Research
   - URL: https://viblo.asia/p/hermes-desktop-ung-dung-desktop-native-cho-ai-agent-tu-cai-tien-tu-nous-research-37Lde6ORVov
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/07-hermes-desktop-ng-d-ng-desktop-native-cho-ai-agent-t-c-i-ti.md`
-- `src_3adae7d97f87cd59aef4` — HASTA EL 2 DE JUNIO, TENER UN AGENTE DE IA TRABAJANDO EN TU NEGOCIO REQUERÍA SABER PROGRAMAR. YA NO. Hace doce días, Nous Research lanzó la 
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/069-c63db60f7ac485cf71f7.md`

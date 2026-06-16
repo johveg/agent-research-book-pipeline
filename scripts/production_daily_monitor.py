@@ -16,6 +16,33 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS = ROOT / "scripts"
+if str(SCRIPTS) not in __import__("sys").path:
+    __import__("sys").path.insert(0, str(SCRIPTS))
+from status_message_contract import normalize_status, render_markdown_status, with_status_metadata_object  # noqa: E402
+
+
+def apply_status_metadata(report: dict[str, Any], component: str = "production_daily_monitor") -> dict[str, Any]:
+    payload = normalize_status({
+        "component": component,
+        "run_id": report.get("expected_run_id") or report.get("run_id") or "production-daily-unknown",
+        "status": report.get("status") or "production_monitor_failed_closed",
+        "severity": report.get("severity") or severity_for_status(str(report.get("status") or "")),
+        "disposition": report.get("final_disposition") or report.get("status") or "production_monitor_failed_closed",
+        "repo": report.get("repo") or str(ROOT),
+        "report_path": report.get("production_report_json"),
+        "log_path": report.get("log_path"),
+    })
+    report.update(payload)
+    return with_status_metadata_object(report)
+
+
+def write_json(path: str | Path, report: dict[str, Any]) -> None:
+    out = Path(path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(apply_status_metadata(dict(report)), indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
 RUN_RE = re.compile(r"^(production-daily-\d{8}|production-daily-manual-\d{8}T\d{6}Z)$")
 FIXED_RUN_ID = "citation-pipeline-test-20260612"
 
@@ -52,12 +79,25 @@ def write_json(path: Path, obj: dict[str, Any]) -> None:
 
 def write_md(path: Path, report: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    status_payload = normalize_status({
+        "component": "production_daily_monitor",
+        "run_id": report.get("expected_run_id") or report.get("run_id") or "production-daily-unknown",
+        "status": report.get("status") or "production_monitor_failed_closed",
+        "severity": severity_for_status(str(report.get("status") or "")),
+        "disposition": report.get("final_disposition") or report.get("status") or "production_monitor_failed_closed",
+        "repo": report.get("repo") or str(ROOT),
+        "report_path": report.get("production_report_json"),
+        "log_path": report.get("log_path"),
+    })
     lines = [
         "# Production daily monitor",
+        "",
+        render_markdown_status(status_payload, title="Production daily monitor").split("## Summary", 1)[0].rstrip(),
         "",
         f"Generated: `{report.get('generated_at')}`",
         "",
         f"- status: `{report.get('status')}`",
+        f"- target_channel: `{status_payload.get('target_channel')}`",
         f"- ok: `{report.get('ok')}`",
         f"- expected_run_id: `{report.get('expected_run_id')}`",
         f"- schedule due: `{report.get('schedule_due')}`",
@@ -71,6 +111,18 @@ def write_md(path: Path, report: dict[str, Any]) -> None:
     if report.get("warnings"):
         lines += ["", "## Warnings", ""] + [f"- `{w}`" for w in report.get("warnings", [])]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def severity_for_status(status: str) -> str:
+    if status in {"production_daily_completed", "production_monitor_ok"}:
+        return "success"
+    if status in {"production_daily_missing_not_due_yet", "production_daily_running"}:
+        return "info"
+    if status in {"production_monitor_warning", "production_daily_stale"}:
+        return "warning"
+    if status in {"production_daily_failed_closed", "production_monitor_failed_closed"}:
+        return "failed_closed"
+    return "failure"
 
 
 
@@ -123,6 +175,9 @@ def monitor(
             "expected_run_id": expected_run_id,
             "timezone": timezone_name,
             "expected_schedule_time": expect_schedule_time,
+            "severity": severity_for_status(status),
+            "target_channel": "AL-Hermoine-OPS",
+            "ops_channel": "AL-Hermoine-OPS",
             "warnings": warnings,
             "old_fixed_run_id_ignored": True,
         }
@@ -141,7 +196,7 @@ def monitor(
     log_path = repo / "logs" / "runs" / f"{expected_run_id}.log"
     event_log = repo / "logs" / "closed_loop" / "events.jsonl"
     crontab = read_crontab()
-    schedule_found = "closed_loop_production_scheduler.py" in crontab and "production-daily-%Y%m%d" in crontab
+    schedule_found = ("run_production_daily_cron.sh" in crontab) or ("closed_loop_production_scheduler.py" in crontab and "production-daily-%Y%m%d" in crontab)
 
     payload = load_json(json_path) if json_path.exists() else {}
     disposition = payload.get("final_disposition") or payload.get("status")
@@ -204,9 +259,12 @@ def monitor(
         "events_log_path": str(event_log),
         "events_log_exists": event_log.exists(),
         "latest_disposition": disposition,
+        "severity": severity_for_status(status),
+        "target_channel": "AL-Hermoine-OPS",
+        "ops_channel": "AL-Hermoine-OPS",
         "max_age_minutes": max_age_minutes,
         "crontab_production_daily_command_found": schedule_found,
-        "schedule_command": next((line for line in crontab.splitlines() if "closed_loop_production_scheduler.py" in line), ""),
+        "schedule_command": next((line for line in crontab.splitlines() if "run_production_daily_cron.sh" in line or "closed_loop_production_scheduler.py" in line), ""),
         "warnings": warnings,
     }
     if telegram_status:
@@ -227,7 +285,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--output-md")
     args = ap.parse_args(argv)
-    report = monitor(args.repo, args.date, args.run_id, args.timezone, args.expect_schedule_time, args.max_age_minutes, args.telegram_status)
+    report = apply_status_metadata(monitor(args.repo, args.date, args.run_id, args.timezone, args.expect_schedule_time, args.max_age_minutes, args.telegram_status))
     if args.output_md:
         write_md(Path(args.output_md), report)
     if args.json:

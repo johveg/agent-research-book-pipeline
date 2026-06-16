@@ -87,7 +87,9 @@ def test_build_schedule_artifact_is_installable_but_not_fake_installed(tmp_path)
     assert report["schedule_installable"] is True
     assert report["schedule_timezone"] == "Europe/Oslo"
     assert "30 5 * * *" in out.read_text()
-    assert "closed_loop_production_scheduler.py" in report["schedule_command"]
+    assert "CRON_TZ=Europe/Oslo" in out.read_text()
+    assert "run_production_daily_cron.sh" in report["schedule_command"]
+    assert "closed_loop_production_scheduler.py" not in out.read_text()
     assert "crontab" in report["install_command"]
 
 
@@ -163,6 +165,16 @@ def test_cli_writes_execute_once_reports(tmp_path):
     assert telegram.exists()
 
 
+def test_scheduler_status_reports_include_timestamp_contract(tmp_path):
+    mod = load_module()
+    out = tmp_path / "status.md"
+    report = {"run_id": "production-daily-20260616", "final_disposition": "production_daily_completed", "production_daily_completed": True}
+    mod.write_telegram_status(out, report)
+    text = out.read_text()
+    assert "status_metadata:" in text
+    assert "target_channel: AL-Hermoine-OPS" in text
+
+
 def test_status_only_reports_runtime_schedule_latest_and_push_helper_without_mutation(monkeypatch, tmp_path):
     mod = load_module()
     cfg = tmp_path / "runtime.json"
@@ -184,6 +196,8 @@ def test_status_only_reports_runtime_schedule_latest_and_push_helper_without_mut
     assert report["human_in_loop_required"] is False
     assert report["weak_local_fallback_allowed"] is False
     assert report["crontab_schedule_found"] is True
+    assert report["target_channel"] == "AL-Hermoine-OPS"
+    assert (tmp_path / "telegram.md").read_text().count("status_metadata:") >= 1
     assert report["latest_production_daily_disposition"] == "production_daily_completed"
     assert report["git_push_helper_path"].endswith("scripts/git_push_with_hermes_key.sh")
 

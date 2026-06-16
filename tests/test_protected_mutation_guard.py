@@ -156,6 +156,40 @@ def test_academic_introduction_profile_allows_run50_reports_and_blocks_book_muta
     assert "docs/book/introduction.md" in blocked["unexpected_changed_paths"]
 
 
+def test_ops_status_routing_scheduler_repair_profile_allows_run51_scope_and_blocks_book_mutation():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        "?? config/status_routing.json",
+        "?? config/status_timestamp_contract.json",
+        "?? scripts/status_message_contract.py",
+        "?? scripts/send_ops_status.py",
+        "?? scripts/run_production_daily_cron.sh",
+        " M scripts/production_daily_monitor.py",
+        " M scripts/closed_loop_production_scheduler.py",
+        " M scripts/protected_mutation_guard.py",
+        "?? tests/test_status_message_contract.py",
+        "?? tests/test_send_ops_status.py",
+        "?? tests/test_run_production_daily_cron.py",
+        " M tests/test_production_daily_monitor.py",
+        " M tests/test_closed_loop_production_scheduler.py",
+        " M tests/test_protected_mutation_guard.py",
+        "?? reports/editorial/run51-ops-baseline.json",
+        "?? reports/architecture/run51-ops-status-routing-scheduler-repair-evidence-map-20260616.md",
+        "?? reports/telegram/run51-status.md",
+        " M reports/telegram/production-monitor-latest.md",
+    ]
+    after["report_safety_scan"] = {"production_daily_completed": True}
+    result = mod.compare_snapshots(before, after, "ops_status_routing_and_scheduler_repair")
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    blocked = mod.compare_snapshots(before, changed("docs/book/introduction.md", " M"), "ops_status_routing_and_scheduler_repair")
+    assert blocked["ok"] is False
+    assert "required_gate_missing:production_daily_completed" in blocked["failed_checks"]
+
+
 def test_protected_paths_fail_under_report_config_and_control_plane_profiles():
     mod = load_module()
     protected = [

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-06-16T10:01:04Z",
+  "mode": "run44_book_patch_preview",
+  "patch_preview_generated": true,
+  "patch_previews": [
+    {
+      "citation_map": {
+        "claim:claim_e67bacfc44dd5bc6f2a0": [
+          "proposed_markdown_delta_sentence_1",
+          "proposed_markdown_delta_sentence_2"
+        ],
+        "source:src_384bcc1123ee303676b1": [
+          "proposed_markdown_delta_sentence_1",
+          "proposed_markdown_delta_sentence_2"
+        ],
+        "source:src_7387e00f4d0e7dbf7fee": [
+          "proposed_markdown_delta_sentence_1",
+          "proposed_markdown_delta_sentence_2"
+        ],
+        "source:src_80c8c50e6406c7e7fc95": [
+          "proposed_markdown_delta_sentence_1",
+          "proposed_markdown_delta_sentence_2"
+        ]
+      },
+      "proposed_markdown_delta": "Add a short paragraph to docs/book/06-operating-loops.md:\n\nFor this book, loop engineering means designing the operating harness around an agent. The harness defines how work begins, what objective the agent pursues, which context and tools are available, which checks and state must be maintained, how progress is reported, how retries are bounded, and when the loop must hand off rather than continue autonomously.",
+      "publish_packet_id": "publish_packet_run44_claim_e67bacfc44dd5bc6f2a0_loop_harness_canary",
+      "target_file_suggestion": "docs/book/06-operating-loops.md"
+    }
+  ],
+  "preview_count": 1,
+  "run_id": "production-daily-20260616",
+  "validation_result": "ready_for_guarded_publication"
+}

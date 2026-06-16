@@ -1,12 +1,15 @@
 {
   "blockers": [],
   "final_disposition": "production_daily_completed",
-  "generated_at": "2026-06-15T17:24:12Z",
+  "generated_at": "2026-06-16T12:27:41Z",
   "mode": "run45_schedule_install_artifact",
   "next_expected_run_time": null,
   "production_daily_completed": true,
   "run_id": "run45",
-  "schedule_command": "cd /home/hermoine/terefohealreboa && RUN_ID=$(date -u +production-daily-%Y%m%d) && python3 scripts/closed_loop_production_scheduler.py --run-id \"$RUN_ID\" --runtime-config /tmp/pytest-of-root/pytest-347/test_cli_writes_execute_once_r0/runtime.json --mode production_daily --execute-once --allow-raw-collection --allow-extraction --allow-evidence-promotion --allow-author-editor-redteam --allow-guarded-book-publication --allow-daily-status-fallback --allow-commit-push-after-gates --install-schedule-after-success --send-telegram-status --output-json reports/editorial/$RUN_ID-production-execute-once.json --output-md reports/editorial/$RUN_ID-production-execute-once.md --telegram-status reports/telegram/production-daily-latest.md",
+  "schedule_command": "/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh",
   "schedule_installable": true,
-  "schedule_installed": false
+  "schedule_installed": false,
+  "status_metadata": {
+    "run_id": "run45"
+  }
 }

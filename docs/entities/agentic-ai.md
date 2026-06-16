@@ -1,17 +1,17 @@
 # Agentic AI
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `concept`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
+- Last seen: 2026-06-16T10:28:31Z
 - Source count: 27
-- Mention count: 239
+- Mention count: 253
 
 ## Description
 
-Candidate concept entity extracted from 10 source(s).
+Candidate concept entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -23,15 +23,15 @@ Candidate concept entity extracted from 10 source(s).
 
 ## Source references
 
+- `src_306bb0a43b5cda7c4326` — Feed post Souvik Roy • 3rd+ Agentic AI @ Standard Chartered | IIT Gandhinagar 35m • Follow the top 3 terms in AI engineering right now: - lo
+  - URL: https://www.linkedin.com/in/souvikroy5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7h2uABY1JeTj5hHnDDA9D_SGTViV4bXSc
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/005-6c6109a327ff9037b8ad.md`
 - `src_194861917446751632aa` — Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
   - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/011-d6a2309388baa2809f47.md`
 - `src_93f660a204114fc11316` — Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT
   - URL: https://www.linkedin.com/in/nishanth-rao-69732a331?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFOFHVMBf6C6QRAZUvKeI-tvgKEsXv_BXX0
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/011-4b5875f82920e7e66589.md`
-- `src_306bb0a43b5cda7c4326` — Feed post Souvik Roy • 3rd+ Agentic AI @ Standard Chartered | IIT Gandhinagar 35m • Follow the top 3 terms in AI engineering right now: - lo
-  - URL: https://www.linkedin.com/in/souvikroy5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7h2uABY1JeTj5hHnDDA9D_SGTViV4bXSc
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/005-6c6109a327ff9037b8ad.md`
 - `src_45f24e5f767e3e33d933` — فى ظل تخبط الأسواق والاقتصاد الحالى وعدم وجود ملامح واضحة للمستقبل ولو انت متابع الاخبار فى الوقت الحالى فى موضوع ال AI و Agentic Ai هيلاحظ 
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/118-de87fc0ab32a1d55d1a8.md`
 - `src_d60d2af1d430843ee916` — Feed post Nikhil Kassetty • 3rd+ AI-Powered Architect | Top 50 Global Thought Leader – Agentic AI & FinTech (Thinkers360) | Speaker & Mentor

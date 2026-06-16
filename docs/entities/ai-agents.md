@@ -1,17 +1,17 @@
 # AI agents
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
-- Source count: 44
-- Mention count: 397
+- Last seen: 2026-06-16T10:28:31Z
+- Source count: 46
+- Mention count: 436
 
 ## Description
 
-Candidate tool entity extracted from 11 source(s).
+Candidate tool entity extracted from 6 source(s).
 
 ## Related claims
 
@@ -81,6 +81,18 @@ Candidate tool entity extracted from 11 source(s).
 - `src_14ebeb3c6dfeb8a768c9` — Feed post William Oliveira • 3rd+ Software Engineer | Independent Researcher | Edge Computing | AI Agents 13h • Follow A Hype Check on Loop 
   - URL: https://www.linkedin.com/in/william-oliveira?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA0geFwBwUSVJx2Fa8gB8OXy3c5LSGtIx2Y
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-871d8ccaa8418b35c846.md`
+- `src_2f38ab40869be0384eb4` — The New Coding Style: Engineering in Loops | by Kenji | Jun, 2026 | Medium
+  - URL: https://medium.com/@kenji-onisuka/the-new-coding-style-engineering-in-loops-3a63a326f120
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/02-the-new-coding-style-engineering-in-loops-by-kenji-jun-2026.md`
+- `src_41e8a0897070220ef54f` — Loop Engineering at Enterprise Scale: Managing Agent Fleets
+  - URL: https://www.truefoundry.com/blog/loop-engineering-fleet-runtime
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/01-loop-engineering-at-enterprise-scale-managing-agent-fleets.md`
+- `src_59f1454783620c2aecf6` — Loop Engineering Totally 10x Hermes agents - YouTube
+  - URL: https://www.youtube.com/watch?v=AQRDjI5owZI
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/03-loop-engineering-totally-10x-hermes-agents-youtube.md`
+- `src_f1cc3e5a72c00546d778` — Loop Engineering是什麼？一次解密6大組件，搞懂工程師為什麼不再寫提示詞|數位時代 BusinessNext
+  - URL: https://www.bnext.com.tw/article/91246/loop-engineering-from-prompting-to-designing-ai-coding-loops
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/05-loop-engineering-6-businessnext.md`
 - `src_8df07ec4d267d4996e1a` — Το Hermes Agent της Nous Research δείχνει πώς μπορεί να εξελιχθεί η επόμενη γενιά AI agents. Με μόνιμη μνήμη, αυτοβελτίωση και δυνατότητα δη
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/150-10eb81f772785451d0fe.md`
 - `src_95d77be75071fc8fca0d` — Feed post Anton Goroshkov • 3rd+ AI Agents Harness Solution Architect 5h • Follow Ты всё ещё гоняешься за лучшей моделью? А OpenAI в апреле 
@@ -92,14 +104,3 @@ Candidate tool entity extracted from 11 source(s).
 - `src_591956dd8ce8345751b5` — Loop Engineering是什麼？一次解密6大組件，搞懂工程師為什麼不再寫提示詞|數位時代 BusinessNext
   - URL: https://www.bnext.com.tw/article/91246/loop-engineering-from-prompting-to-designing-ai-coding-loops
   - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/04-loop-engineering-6-businessnext.md`
-- `src_d315de90d937ac02117b` — Loop engineering: orquestrar agentes vs prompting - RDD10+
-  - URL: https://www.robertodiasduarte.com.br/loop-engineering-orquestrar-agentes-vs-prompting/
-  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/03-loop-engineering-orquestrar-agentes-vs-prompting-rdd10.md`
-- `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
-  - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
-  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
-- `src_7f87577545c681c4a62f` — Your bottleneck is no longer how fast your team can code. AI agents now generate working software overnight. The constraint has moved to two
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/102-4637a12beb58f1da1a6c.md`
-- `src_2b43772bb3f0902946cd` — Feed post Melissa Wiringi • 3rd+ AI Agents and automations with a strategic focus | Marketing Operations | Process Improvement | Social Medi
-  - URL: https://www.linkedin.com/in/melissawiringi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAASOUu8BPMa5ewn_NgjcLOIMAnH0lqfy5DE
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/123-df98598dd802d933c425.md`

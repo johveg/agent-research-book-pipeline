@@ -1,6 +1,6 @@
 # Claims
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 Claims are explicit editorial records linked to source IDs. No source ID, no claim. No claim, no chapter fact.
 
@@ -4609,7 +4609,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_16ace894e1045b732baf, ent_1a59950eea2fc6641dc5, ent_2d87f3d38782aa14e5a6, ent_84e2cec5f2b7484a89b9, ent_d74a0629c1de34c7d0a3, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -4617,7 +4617,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Current best understanding: See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent".
   - Source IDs:
     - `src_eb34cd6ed15e0ce8e135` — Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Research Hermes Agent helps develop a residential b
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/041-7dbba3b9944d74c77450.md`
     - `src_dc78890a1339ad557ac6` — Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Research Hermes Agent helps develop a residential b
       - Quality: `D`
@@ -4669,15 +4669,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-16T01:14:05Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_447ce67920ff79cdda74, ent_802b05c71165443a1c5e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9edea7311a317957c956, ent_abfc412ce6e530df63b0, ent_c66f62ff98c096c1d054, ent_cb1d2fdcc86ce72aae3a`
-  - Contradiction status: `not_checked`
+  - Contradiction status: `not_found`
   - Editor note: none
   - Publication decision: `do_not_use`
   - Current best understanding: Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch - MarkTechPost "OpenClaw" Hermes www.marktechpost.com.
   - Source IDs:
     - `src_e90e5f763ad48e4d9a4d` — Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch - MarkTechPost
-      - Quality: `unknown`
+      - Quality: `C`
       - URL: https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/
       - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/06-z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thi.md`
 
@@ -4709,7 +4709,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_1f73d39a72098e75212c, ent_2d87f3d38782aa14e5a6, ent_4750ada0d49840416b38, ent_4e2295dd929e424aa1af, ent_544ad16502620232ff70, ent_57de4cf40144bdf7d000, ent_7cc6d962e40fbc035b7a, ent_a625159d18da57180b72`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -4767,7 +4767,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_04e8a05db5cb32bca176, ent_10013948ab78092766ce, ent_254637f72efcddb6a545, ent_3d59f7548e1af2151b64, ent_5a8499d47c592e8024d1, ent_aed31c11881f20f36912, ent_e4bb02662111574ef4ef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -4882,7 +4882,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_193c45b5281908d2d9c8, ent_75ca3ca2ece243555f0e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bb43b459cb3f895a6a04, ent_bd4369b9f7f2899dd365`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -4901,15 +4901,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_01083e10303e503f2873, ent_0711e79a5afda9ea1c0b, ent_6c45cb72a36e63d522aa, ent_86f519b62f871bd19ae3, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: If you are still using traditional search eng "OpenClaw" Hermes.
   - Source IDs:
     - `src_3204bab6d39de910ea1e` — Feed post Han NG Han NG • 3rd+ Freelance 2h • 🚀 Stop searching Google. Start searching people. If you are still using traditional search eng
-      - Quality: `unknown`
+      - Quality: `D`
       - URL: https://www.linkedin.com/in/han-ng-43a50551?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAArucC4Bg1Jgy0JZuKn3ZixceHiLnGESM-w
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/027-b36a09486e29f597f508.md`
 
@@ -4921,15 +4921,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-16T01:14:05Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_2e183f2a7a70de1c1004, ent_83a00300ad6a2502c3fd, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_f9cfe2f2d411d60e0ce6`
-  - Contradiction status: `not_checked`
+  - Contradiction status: `not_found`
   - Editor note: none
   - Publication decision: `do_not_use`
   - Current best understanding: R/hermesagent on Reddit: Hermes Agent (and others) default Installs are silently routing web traffic to Parallel "Hermes" "OpenClaw" www.reddit.com.
   - Source IDs:
     - `src_03de9e22c85c011e8b32` — r/hermesagent on Reddit: Hermes Agent (and others) default Installs are silently routing web traffic to Parallel
-      - Quality: `unknown`
+      - Quality: `C`
       - URL: https://www.reddit.com/r/hermesagent/comments/1u5ukz6/hermes_agent_and_others_default_installs_are/
       - Archive: `web/citation-pipeline-test-20260612/hermes-openclaw/10-r-hermesagent-on-reddit-hermes-agent-and-others-default-inst.md`
 
@@ -4941,7 +4941,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_236707bfb83474fad55a, ent_5a8499d47c592e8024d1, ent_8df51e054900e808569f, ent_e244f187f696561d5fd7, ent_ec38063c881f0a5edfef, ent_ef934365980c89e3ff1b`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -4960,7 +4960,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_5d72436256ada53828b5, ent_6105d6cc76af400325e9, ent_8044aae1f86875d993f2, ent_cf07194ee232eb531e15, ent_de2187af3fb011708ca4`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5058,7 +5058,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_0695b563acde461fc2f8, ent_3d5d2f7593c08d26bbaf, ent_45779bc98fc51729fc67, ent_5a8499d47c592e8024d1, ent_dad9a79bf7094d4e4604, ent_fb54a05f57acb1015207`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5096,15 +5096,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_2034961af3c3d5dfbdbf, ent_57de4cf40144bdf7d000, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a21b62432f445ad4c847, ent_a67fe9248d4c163c8978`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: 🚀 We’ve launched the ImagineArt MCP, allowing you to give platforms like Codex, Hermes, "OpenClaw" Hermes.
   - Source IDs:
     - `src_ea9e7e08422171425f33` — Imagine.art is officially coming to your AI agents! 🚀 We’ve launched the ImagineArt MCP, allowing you to give platforms like Codex, Hermes, 
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/107-7c9f7056b65180b27833.md`
 
 - **A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible.**
@@ -5134,15 +5134,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_6eb7269172457024e4a0, ent_74afc5cedc2aeb99cd29, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_f5b6f645efbadccbea09`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: All the autonomous agent talk at Microsoft Build this year got me thinking: Do we trust what our agents are doing?.
   - Source IDs:
     - `src_a88a8d2e50150412827d` — All the autonomous agent talk at Microsoft Build this year got me thinking: Do we trust what our agents are doing? And more importantly, can
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/113-f33ae4c3749c2393946d.md`
 
 - **AstridOS is coming You've taught your agent how you work Your context, your setup, the way you operate Switching platforms to get more contr "OpenClaw" Hermes.**
@@ -5172,7 +5172,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_0c7028af5504f90e8a92, ent_2d87f3d38782aa14e5a6, ent_8cfde6efdfc4ed5ab1f6, ent_d8a1f56007588d64054d, ent_f0e5f53af7e637286fd5`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5210,15 +5210,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_10182ab855ff772753c0, ent_2d87f3d38782aa14e5a6, ent_3b8869394641afe3a15a, ent_9c5da690faad4836d35b, ent_cb0921074010ee3d0db7`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: If you are using Cursor IDE without the Model Context Protocol (MCP), you are only using 10% of its power.
   - Source IDs:
     - `src_e5d776a11b74c07b6f98` — If you are using Cursor IDE without the Model Context Protocol (MCP), you are only using 10% of its power. I just integrated Hermes Agent wi
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/045-33805b705b7354c66adb.md`
 
 - **Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate "loop engineering".**
@@ -5248,7 +5248,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_0c2355784aac19c4fff9, ent_24ea913efda289dc1b17, ent_31a85e22a24a7a4fba06, ent_a625159d18da57180b72, ent_a7b5df69d1c30a120a57`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5267,7 +5267,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_06c8b61296010f1b121d, ent_28780a3cd242408c7287, ent_2be23c585f15e5fd3279, ent_5a8499d47c592e8024d1, ent_652d75f9bafb25e55c0e`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5306,15 +5306,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_54c5ccf0f305a9a1529d, ent_62f8e1ec095e1857446d, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_add92b9cde2bdbf3daaf`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode "OpenClaw" Hermes.
   - Source IDs:
     - `src_d233204edfe764362eef` — The agent market has a demo surplus and an operations deficit. That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-c304be09efb7c7641293.md`
 
 - **The Model Context Protocol is an open standard that allows AI tools (Claude C "OpenClaw" Hermes.**
@@ -5345,15 +5345,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_54c5ccf0f305a9a1529d, ent_62f8e1ec095e1857446d, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_add92b9cde2bdbf3daaf`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: The agent market has a demo surplus and an operations deficit.
   - Source IDs:
     - `src_d233204edfe764362eef` — The agent market has a demo surplus and an operations deficit. That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-c304be09efb7c7641293.md`
 
 - **The top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr "OpenClaw" Hermes.**
@@ -5364,15 +5364,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_4162e845a2d0111f2772, ent_7114285570afe0bb408e, ent_7138b7184c0a3a7addba, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: The top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr "OpenClaw" Hermes.
   - Source IDs:
     - `src_061556e405690eb22f1e` — the top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/007-e541c311fb21233a6097.md`
 
 - **This is a one-click AI app builder setup where multiple agents work together to plan and build s "Hermes Agent".**
@@ -5402,15 +5402,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_37dcdd8d56719b6cea34, ent_4c6a4839f83d20d276e7, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_f785296c28bf86c99bf5`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: When Anthropic leaked over 500,000 lines of code, buried in there was a proje "OpenClaw" Hermes.
   - Source IDs:
     - `src_f5841146b75244178f36` — Conway is now expected to ship VERY soon. And it's a big deal. When Anthropic leaked over 500,000 lines of code, buried in there was a proje
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/098-6ad3005bcce1d8b1a1a7.md`
 
 - **With Hermes in the game after OpenClaw and OpenHands, we now have some of the fastest growing open-source agent platforms.**
@@ -5499,7 +5499,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_09cf980b5ff304ac11b7, ent_34c89017a8c4a47d5892, ent_5a8499d47c592e8024d1, ent_c70eca6b0f88f44d81a4`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5595,7 +5595,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_4f9d3b84fea6ba61dbda, ent_5a8499d47c592e8024d1, ent_b1a2f2486c10d5258a6e, ent_e7667cf1e67b1dca0724`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5633,7 +5633,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_87c54e4d427769791d95, ent_aae62b5f0497c4a445ce, ent_e0bbfe8910781765de81`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5652,15 +5652,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_26a09564a33f092d60e5, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9c588b6b1fd1ce3f1b1d`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: I built a full Agent OS in one evening, and the interesting part is I never wrote the spec.
   - Source IDs:
     - `src_32dcb2a044c71cadab6e` — I built a full Agent OS in one evening, and the interesting part is I never wrote the spec. It is a single desktop app that hosts all my AI 
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/131-2d2071872620c0ed2c0c.md`
 
 - **If you are still using traditional search engines to research shifting trends, you are like "OpenClaw" Hermes.**
@@ -5671,15 +5671,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_01083e10303e503f2873, ent_6c45cb72a36e63d522aa, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: If you are still using traditional search engines to research shifting trends, you are like "OpenClaw" Hermes.
   - Source IDs:
     - `src_cf3655d860b3cabe64f5` — 🚀 Stop searching Google. Start searching people. If you are still using traditional search engines to research shifting trends, you are like
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/029-f40cc0606ce624de2ced.md`
 
 - **In this release: - Fable 5 has landed and it’s a big one - I tried Hermes instead o "OpenClaw" Hermes.**
@@ -5709,15 +5709,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_26a09564a33f092d60e5, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9c588b6b1fd1ce3f1b1d`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: It is a single desktop app that hosts all my AI "OpenClaw" Hermes.
   - Source IDs:
     - `src_32dcb2a044c71cadab6e` — I built a full Agent OS in one evening, and the interesting part is I never wrote the spec. It is a single desktop app that hosts all my AI 
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/131-2d2071872620c0ed2c0c.md`
 
 - **It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn' "OpenClaw" Hermes.**
@@ -5728,7 +5728,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_15cbfab2cca18f28ee61, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a8587c4b9ae8e433cf1c`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5767,15 +5767,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_24ea913efda289dc1b17, ent_2d87f3d38782aa14e5a6, ent_bbc5e661e106c6dcd8dc, ent_ca151e5462818a5d3166`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: Most "AI automation experts" have never run a production system.
   - Source IDs:
     - `src_d4a15a0f08edab4cfadc` — Most "AI automation experts" have never run a production system. I built two. ➡️ System 1 runs my personal brand. Hermes Studio powers it. A
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/047-802d89c39131907801fe.md`
 
 - **People are not talking about the security issues with Hermes or OpenClaw.**
@@ -5786,7 +5786,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bf0379178b15ecec1349, ent_c9022680f888674e2b22`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5805,7 +5805,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_27042f4e6eca7d0b2a7e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_ba78973ddcf98d4e5369`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5824,15 +5824,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9747af2ecc4f045c871b, ent_a6443e2b42524e740ea1`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: Running AI agents (harness + model) in an isolated and secure sandbox environment for enterprise workflows - that is the new hot topic in AI "OpenClaw" Hermes.
   - Source IDs:
     - `src_c60377258a336a19a37a` — Running AI agents (harness + model) in an isolated and secure sandbox environment for enterprise workflows - that is the new hot topic in AI
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/104-447c0b9f1f3cd346a1d0.md`
 
 - **Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents.**
@@ -5843,7 +5843,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_1cb6b3abf1f713846ef5, ent_34a1dfb174c615ecb41a, ent_5a8499d47c592e8024d1, ent_6b5a3ded016ab7826989`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5901,7 +5901,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_09cf980b5ff304ac11b7, ent_34c89017a8c4a47d5892, ent_5a8499d47c592e8024d1, ent_c70eca6b0f88f44d81a4`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5977,7 +5977,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_462d43f30fc360a2f751, ent_4a754148b88a68e18df1, ent_5a8499d47c592e8024d1, ent_99262a0284ae7670f20f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -5996,7 +5996,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_0c2355784aac19c4fff9, ent_7a385f2a759adb9dd943, ent_7bcf3884807208330b8f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6035,15 +6035,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3675e08dc394b7e1707f, ent_9df92a09c9386e8748c9`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: At first, I assumed Hermes Agent was another AI chatbot trying to compete with Cla "Hermes Agent".
   - Source IDs:
     - `src_f54cedca5e1cc1251cc6` — 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐇𝐞𝐫𝐦𝐞𝐬 𝐀𝐠𝐞𝐧𝐭 - 𝐖𝐡𝐲 𝐢𝐬 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐭𝐚𝐥𝐤𝐢𝐧𝐠 𝐚𝐛𝐨𝐮𝐭 𝐢𝐭 ? At first, I assumed Hermes Agent was another AI chatbot trying to compete with Cla
-      - Quality: `unknown`
+      - Quality: `D`
       - URL: https://www.linkedin.com/in/priya-sarkar/
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/014-41abb1c8b11d927d1d76.md`
 
@@ -6094,15 +6094,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c857d09db23e6822e360`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: HERMES and OpenClaw were two of the most hyped open-source projects in 2025.
   - Source IDs:
     - `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
 
 - **HERMES was called the open-source Claude killer, and OpenClaw w "OpenClaw" Hermes.**
@@ -6113,15 +6113,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c857d09db23e6822e360`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: HERMES was called the open-source Claude killer, and OpenClaw w "OpenClaw" Hermes.
   - Source IDs:
     - `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
 
 ### Evidence strength: unknown
@@ -6134,7 +6134,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-13T01:27:13Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_16ace894e1045b732baf, ent_1a59950eea2fc6641dc5, ent_2d87f3d38782aa14e5a6, ent_84e2cec5f2b7484a89b9, ent_d74a0629c1de34c7d0a3, ent_ee662f0a4316976d226a`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6142,7 +6142,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Current best understanding: See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent".
   - Source IDs:
     - `src_eb34cd6ed15e0ce8e135` — Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Research Hermes Agent helps develop a residential b
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/041-7dbba3b9944d74c77450.md`
     - `src_dc78890a1339ad557ac6` — Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Research Hermes Agent helps develop a residential b
       - Quality: `D`
@@ -6194,15 +6194,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-16T01:14:05Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_447ce67920ff79cdda74, ent_802b05c71165443a1c5e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9edea7311a317957c956, ent_abfc412ce6e530df63b0, ent_c66f62ff98c096c1d054, ent_cb1d2fdcc86ce72aae3a`
-  - Contradiction status: `not_checked`
+  - Contradiction status: `not_found`
   - Editor note: none
   - Publication decision: `do_not_use`
   - Current best understanding: Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch - MarkTechPost "OpenClaw" Hermes www.marktechpost.com.
   - Source IDs:
     - `src_e90e5f763ad48e4d9a4d` — Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch - MarkTechPost
-      - Quality: `unknown`
+      - Quality: `C`
       - URL: https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/
       - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/06-z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thi.md`
 
@@ -6234,7 +6234,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_1f73d39a72098e75212c, ent_2d87f3d38782aa14e5a6, ent_4750ada0d49840416b38, ent_4e2295dd929e424aa1af, ent_544ad16502620232ff70, ent_57de4cf40144bdf7d000, ent_7cc6d962e40fbc035b7a, ent_a625159d18da57180b72`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6292,7 +6292,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_04e8a05db5cb32bca176, ent_10013948ab78092766ce, ent_254637f72efcddb6a545, ent_3d59f7548e1af2151b64, ent_5a8499d47c592e8024d1, ent_aed31c11881f20f36912, ent_e4bb02662111574ef4ef`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6407,7 +6407,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_193c45b5281908d2d9c8, ent_75ca3ca2ece243555f0e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bb43b459cb3f895a6a04, ent_bd4369b9f7f2899dd365`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6426,15 +6426,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_01083e10303e503f2873, ent_0711e79a5afda9ea1c0b, ent_6c45cb72a36e63d522aa, ent_86f519b62f871bd19ae3, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: If you are still using traditional search eng "OpenClaw" Hermes.
   - Source IDs:
     - `src_3204bab6d39de910ea1e` — Feed post Han NG Han NG • 3rd+ Freelance 2h • 🚀 Stop searching Google. Start searching people. If you are still using traditional search eng
-      - Quality: `unknown`
+      - Quality: `D`
       - URL: https://www.linkedin.com/in/han-ng-43a50551?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAArucC4Bg1Jgy0JZuKn3ZixceHiLnGESM-w
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/027-b36a09486e29f597f508.md`
 
@@ -6446,15 +6446,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-16T01:14:05Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_2e183f2a7a70de1c1004, ent_83a00300ad6a2502c3fd, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_f9cfe2f2d411d60e0ce6`
-  - Contradiction status: `not_checked`
+  - Contradiction status: `not_found`
   - Editor note: none
   - Publication decision: `do_not_use`
   - Current best understanding: R/hermesagent on Reddit: Hermes Agent (and others) default Installs are silently routing web traffic to Parallel "Hermes" "OpenClaw" www.reddit.com.
   - Source IDs:
     - `src_03de9e22c85c011e8b32` — r/hermesagent on Reddit: Hermes Agent (and others) default Installs are silently routing web traffic to Parallel
-      - Quality: `unknown`
+      - Quality: `C`
       - URL: https://www.reddit.com/r/hermesagent/comments/1u5ukz6/hermes_agent_and_others_default_installs_are/
       - Archive: `web/citation-pipeline-test-20260612/hermes-openclaw/10-r-hermesagent-on-reddit-hermes-agent-and-others-default-inst.md`
 
@@ -6466,7 +6466,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_236707bfb83474fad55a, ent_5a8499d47c592e8024d1, ent_8df51e054900e808569f, ent_e244f187f696561d5fd7, ent_ec38063c881f0a5edfef, ent_ef934365980c89e3ff1b`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6485,7 +6485,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_5a8499d47c592e8024d1, ent_5d72436256ada53828b5, ent_6105d6cc76af400325e9, ent_8044aae1f86875d993f2, ent_cf07194ee232eb531e15, ent_de2187af3fb011708ca4`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6583,7 +6583,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_0695b563acde461fc2f8, ent_3d5d2f7593c08d26bbaf, ent_45779bc98fc51729fc67, ent_5a8499d47c592e8024d1, ent_dad9a79bf7094d4e4604, ent_fb54a05f57acb1015207`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6621,15 +6621,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_2034961af3c3d5dfbdbf, ent_57de4cf40144bdf7d000, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a21b62432f445ad4c847, ent_a67fe9248d4c163c8978`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: 🚀 We’ve launched the ImagineArt MCP, allowing you to give platforms like Codex, Hermes, "OpenClaw" Hermes.
   - Source IDs:
     - `src_ea9e7e08422171425f33` — Imagine.art is officially coming to your AI agents! 🚀 We’ve launched the ImagineArt MCP, allowing you to give platforms like Codex, Hermes, 
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/107-7c9f7056b65180b27833.md`
 
 - **A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible.**
@@ -6659,15 +6659,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_6eb7269172457024e4a0, ent_74afc5cedc2aeb99cd29, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_f5b6f645efbadccbea09`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: All the autonomous agent talk at Microsoft Build this year got me thinking: Do we trust what our agents are doing?.
   - Source IDs:
     - `src_a88a8d2e50150412827d` — All the autonomous agent talk at Microsoft Build this year got me thinking: Do we trust what our agents are doing? And more importantly, can
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/113-f33ae4c3749c2393946d.md`
 
 - **AstridOS is coming You've taught your agent how you work Your context, your setup, the way you operate Switching platforms to get more contr "OpenClaw" Hermes.**
@@ -6697,7 +6697,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_0c7028af5504f90e8a92, ent_2d87f3d38782aa14e5a6, ent_8cfde6efdfc4ed5ab1f6, ent_d8a1f56007588d64054d, ent_f0e5f53af7e637286fd5`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6735,15 +6735,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_10182ab855ff772753c0, ent_2d87f3d38782aa14e5a6, ent_3b8869394641afe3a15a, ent_9c5da690faad4836d35b, ent_cb0921074010ee3d0db7`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: If you are using Cursor IDE without the Model Context Protocol (MCP), you are only using 10% of its power.
   - Source IDs:
     - `src_e5d776a11b74c07b6f98` — If you are using Cursor IDE without the Model Context Protocol (MCP), you are only using 10% of its power. I just integrated Hermes Agent wi
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/045-33805b705b7354c66adb.md`
 
 - **Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate "loop engineering".**
@@ -6773,7 +6773,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_0c2355784aac19c4fff9, ent_24ea913efda289dc1b17, ent_31a85e22a24a7a4fba06, ent_a625159d18da57180b72, ent_a7b5df69d1c30a120a57`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6792,7 +6792,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_06c8b61296010f1b121d, ent_28780a3cd242408c7287, ent_2be23c585f15e5fd3279, ent_5a8499d47c592e8024d1, ent_652d75f9bafb25e55c0e`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -6831,15 +6831,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_54c5ccf0f305a9a1529d, ent_62f8e1ec095e1857446d, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_add92b9cde2bdbf3daaf`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode "OpenClaw" Hermes.
   - Source IDs:
     - `src_d233204edfe764362eef` — The agent market has a demo surplus and an operations deficit. That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-c304be09efb7c7641293.md`
 
 - **The Model Context Protocol is an open standard that allows AI tools (Claude C "OpenClaw" Hermes.**
@@ -6870,15 +6870,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_54c5ccf0f305a9a1529d, ent_62f8e1ec095e1857446d, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_add92b9cde2bdbf3daaf`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: The agent market has a demo surplus and an operations deficit.
   - Source IDs:
     - `src_d233204edfe764362eef` — The agent market has a demo surplus and an operations deficit. That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-c304be09efb7c7641293.md`
 
 - **The top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr "OpenClaw" Hermes.**
@@ -6889,15 +6889,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_4162e845a2d0111f2772, ent_7114285570afe0bb408e, ent_7138b7184c0a3a7addba, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: The top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr "OpenClaw" Hermes.
   - Source IDs:
     - `src_061556e405690eb22f1e` — the top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/007-e541c311fb21233a6097.md`
 
 - **This is a one-click AI app builder setup where multiple agents work together to plan and build s "Hermes Agent".**
@@ -6927,15 +6927,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_37dcdd8d56719b6cea34, ent_4c6a4839f83d20d276e7, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_f785296c28bf86c99bf5`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: When Anthropic leaked over 500,000 lines of code, buried in there was a proje "OpenClaw" Hermes.
   - Source IDs:
     - `src_f5841146b75244178f36` — Conway is now expected to ship VERY soon. And it's a big deal. When Anthropic leaked over 500,000 lines of code, buried in there was a proje
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/098-6ad3005bcce1d8b1a1a7.md`
 
 - **With Hermes in the game after OpenClaw and OpenHands, we now have some of the fastest growing open-source agent platforms.**
@@ -7024,7 +7024,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_09cf980b5ff304ac11b7, ent_34c89017a8c4a47d5892, ent_5a8499d47c592e8024d1, ent_c70eca6b0f88f44d81a4`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7120,7 +7120,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_4f9d3b84fea6ba61dbda, ent_5a8499d47c592e8024d1, ent_b1a2f2486c10d5258a6e, ent_e7667cf1e67b1dca0724`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7158,7 +7158,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_87c54e4d427769791d95, ent_aae62b5f0497c4a445ce, ent_e0bbfe8910781765de81`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7177,15 +7177,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_26a09564a33f092d60e5, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9c588b6b1fd1ce3f1b1d`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: I built a full Agent OS in one evening, and the interesting part is I never wrote the spec.
   - Source IDs:
     - `src_32dcb2a044c71cadab6e` — I built a full Agent OS in one evening, and the interesting part is I never wrote the spec. It is a single desktop app that hosts all my AI 
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/131-2d2071872620c0ed2c0c.md`
 
 - **If you are still using traditional search engines to research shifting trends, you are like "OpenClaw" Hermes.**
@@ -7196,15 +7196,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_01083e10303e503f2873, ent_6c45cb72a36e63d522aa, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: If you are still using traditional search engines to research shifting trends, you are like "OpenClaw" Hermes.
   - Source IDs:
     - `src_cf3655d860b3cabe64f5` — 🚀 Stop searching Google. Start searching people. If you are still using traditional search engines to research shifting trends, you are like
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/029-f40cc0606ce624de2ced.md`
 
 - **In this release: - Fable 5 has landed and it’s a big one - I tried Hermes instead o "OpenClaw" Hermes.**
@@ -7234,15 +7234,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_26a09564a33f092d60e5, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9c588b6b1fd1ce3f1b1d`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: It is a single desktop app that hosts all my AI "OpenClaw" Hermes.
   - Source IDs:
     - `src_32dcb2a044c71cadab6e` — I built a full Agent OS in one evening, and the interesting part is I never wrote the spec. It is a single desktop app that hosts all my AI 
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/131-2d2071872620c0ed2c0c.md`
 
 - **It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn' "OpenClaw" Hermes.**
@@ -7253,7 +7253,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_15cbfab2cca18f28ee61, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_a8587c4b9ae8e433cf1c`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7292,15 +7292,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_24ea913efda289dc1b17, ent_2d87f3d38782aa14e5a6, ent_bbc5e661e106c6dcd8dc, ent_ca151e5462818a5d3166`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: Most "AI automation experts" have never run a production system.
   - Source IDs:
     - `src_d4a15a0f08edab4cfadc` — Most "AI automation experts" have never run a production system. I built two. ➡️ System 1 runs my personal brand. Hermes Studio powers it. A
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/047-802d89c39131907801fe.md`
 
 - **People are not talking about the security issues with Hermes or OpenClaw.**
@@ -7311,7 +7311,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_bf0379178b15ecec1349, ent_c9022680f888674e2b22`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7330,7 +7330,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_27042f4e6eca7d0b2a7e, ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_ba78973ddcf98d4e5369`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7349,15 +7349,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_9747af2ecc4f045c871b, ent_a6443e2b42524e740ea1`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: Running AI agents (harness + model) in an isolated and secure sandbox environment for enterprise workflows - that is the new hot topic in AI "OpenClaw" Hermes.
   - Source IDs:
     - `src_c60377258a336a19a37a` — Running AI agents (harness + model) in an isolated and secure sandbox environment for enterprise workflows - that is the new hot topic in AI
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/104-447c0b9f1f3cd346a1d0.md`
 
 - **Since I started using coding agents, I’ve realized that writing code is no longer the hardest part of software engineering for AI agents.**
@@ -7368,7 +7368,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_1cb6b3abf1f713846ef5, ent_34a1dfb174c615ecb41a, ent_5a8499d47c592e8024d1, ent_6b5a3ded016ab7826989`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7426,7 +7426,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_09cf980b5ff304ac11b7, ent_34c89017a8c4a47d5892, ent_5a8499d47c592e8024d1, ent_c70eca6b0f88f44d81a4`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7502,7 +7502,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_462d43f30fc360a2f751, ent_4a754148b88a68e18df1, ent_5a8499d47c592e8024d1, ent_99262a0284ae7670f20f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7521,7 +7521,7 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T01:26:42Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_0c2355784aac19c4fff9, ent_7a385f2a759adb9dd943, ent_7bcf3884807208330b8f`
   - Contradiction status: `not_found`
   - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
@@ -7560,15 +7560,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:00:22Z`
   - Related entities: `ent_2d87f3d38782aa14e5a6, ent_3675e08dc394b7e1707f, ent_9df92a09c9386e8748c9`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: At first, I assumed Hermes Agent was another AI chatbot trying to compete with Cla "Hermes Agent".
   - Source IDs:
     - `src_f54cedca5e1cc1251cc6` — 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐇𝐞𝐫𝐦𝐞𝐬 𝐀𝐠𝐞𝐧𝐭 - 𝐖𝐡𝐲 𝐢𝐬 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐭𝐚𝐥𝐤𝐢𝐧𝐠 𝐚𝐛𝐨𝐮𝐭 𝐢𝐭 ? At first, I assumed Hermes Agent was another AI chatbot trying to compete with Cla
-      - Quality: `unknown`
+      - Quality: `D`
       - URL: https://www.linkedin.com/in/priya-sarkar/
       - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/014-41abb1c8b11d927d1d76.md`
 
@@ -7619,15 +7619,15 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c857d09db23e6822e360`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: HERMES and OpenClaw were two of the most hyped open-source projects in 2025.
   - Source IDs:
     - `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
 
 - **HERMES was called the open-source Claude killer, and OpenClaw w "OpenClaw" Hermes.**
@@ -7638,13 +7638,13 @@ Not usable as chapter facts: `candidate`, `needs_review`, `contradicted`, and `r
   - Evidence strength: `weak`
   - Source quality: `unknown`
   - First seen: `2026-06-15T13:28:52Z`
-  - Last seen: `2026-06-16T01:14:05Z`
+  - Last seen: `2026-06-16T10:28:32Z`
   - Related entities: `ent_8cfde6efdfc4ed5ab1f6, ent_96a4bc2602655473120f, ent_c857d09db23e6822e360`
-  - Contradiction status: `not_checked`
-  - Editor note: none
+  - Contradiction status: `not_found`
+  - Editor note: social/search-result evidence only; discovery_only; not independent confirmation; needs_more_sources before prose
   - Publication decision: `do_not_use`
   - Current best understanding: HERMES was called the open-source Claude killer, and OpenClaw w "OpenClaw" Hermes.
   - Source IDs:
     - `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
-      - Quality: `unknown`
+      - Quality: `D`
       - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`

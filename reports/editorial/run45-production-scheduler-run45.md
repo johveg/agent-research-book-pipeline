@@ -1,7 +1,33 @@
 # Run 45 production scheduler
 
-Generated: 2026-06-15T17:24:12Z
+# Run 45 production scheduler
 
+```yaml
+status_metadata:
+  emitted_at_unix_s: 1781612861
+  emitted_at_unix_ms: 1781612861940
+  emitted_at_utc_iso: "2026-06-16T12:27:41Z"
+  emitted_at_oslo_iso: "2026-06-16T14:27:41+02:00"
+  timezone: Europe/Oslo
+  component: production_daily_scheduler
+  run_id: run45
+  status: production_daily_completed
+  severity: success
+  disposition: production_daily_completed
+  target_channel: AL-Hermoine-OPS
+  repo: /home/hermoine/terefohealreboa
+  git_commit: null
+  git_branch: null
+  report_path: null
+  log_path: null
+  run_started_at_unix_s: null
+  run_finished_at_unix_s: null
+  duration_seconds: null
+```
+
+Generated: 2026-06-16T12:27:41Z
+
+- target_channel: `AL-Hermoine-OPS`
 - run_id: `run45`
 - mode: `run45_schedule_install_artifact`
 - final_disposition: `production_daily_completed`
@@ -12,5 +38,5 @@ Generated: 2026-06-15T17:24:12Z
 ## Schedule command
 
 ```bash
-cd /home/hermoine/terefohealreboa && RUN_ID=$(date -u +production-daily-%Y%m%d) && python3 scripts/closed_loop_production_scheduler.py --run-id "$RUN_ID" --runtime-config /tmp/pytest-of-root/pytest-347/test_cli_writes_execute_once_r0/runtime.json --mode production_daily --execute-once --allow-raw-collection --allow-extraction --allow-evidence-promotion --allow-author-editor-redteam --allow-guarded-book-publication --allow-daily-status-fallback --allow-commit-push-after-gates --install-schedule-after-success --send-telegram-status --output-json reports/editorial/$RUN_ID-production-execute-once.json --output-md reports/editorial/$RUN_ID-production-execute-once.md --telegram-status reports/telegram/production-daily-latest.md
+/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh
 ```

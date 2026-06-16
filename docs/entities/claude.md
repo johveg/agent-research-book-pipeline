@@ -1,17 +1,17 @@
 # Claude
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `project`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
+- Last seen: 2026-06-16T10:28:31Z
 - Source count: 28
-- Mention count: 217
+- Mention count: 232
 
 ## Description
 
-Candidate project entity extracted from 11 source(s).
+Candidate project entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -28,13 +28,13 @@ Candidate project entity extracted from 11 source(s).
 
 ## Source references
 
+- `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
 - `src_158b261020922117300f` — Feed post Abdeljabbar Elassali • 3rd+ Founder of Vilix | The cross-AI memory layer (MCP), live now | Giving ChatGPT, Claude, Cursor & Codex 
   - URL: https://www.linkedin.com/in/abdeljabbarelassali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB0-3AIBtMkCobQecxKU1aZ-0EQlJiq2FKY
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/080-52cbd5f5d74f71098e77.md`
 - `src_276df125d2132d93d2b9` — Call for anyone building their own second brain. I have questions and Claude doesn't always have the answers (wild, I know...). Anyone out t
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/064-f1b55bca6e4aac754f20.md`
-- `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
 - `src_cd656da5a9fcef5bec34` — Feed post Abdeljabbar Elassali • 3rd+ Founder of Vilix | The cross-AI memory layer (MCP), live now | Giving ChatGPT, Claude, Cursor & Codex 
   - URL: https://www.linkedin.com/in/abdeljabbarelassali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB0-3AIBtMkCobQecxKU1aZ-0EQlJiq2FKY
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/068-7f8aa950900bcb136753.md`

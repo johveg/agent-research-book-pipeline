@@ -1,13 +1,13 @@
 # Deep Learning
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `company`
 - Confidence: `high`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-16T01:14:05Z
+- Last seen: 2026-06-16T10:00:22Z
 - Source count: 4
-- Mention count: 20
+- Mention count: 23
 
 ## Description
 

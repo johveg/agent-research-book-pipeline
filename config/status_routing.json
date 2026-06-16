@@ -1,0 +1,14 @@
+{
+  "allowed_channels": [
+    "AL-Hermoine-OPS"
+  ],
+  "default_status_channel": "AL-Hermoine-OPS",
+  "fallback_channel_policy": "fail_closed",
+  "include_component": true,
+  "include_human_timestamps": true,
+  "include_machine_timestamps": true,
+  "include_run_id": true,
+  "include_status": true,
+  "ops_channel": "AL-Hermoine-OPS",
+  "redact_sensitive_values": true
+}

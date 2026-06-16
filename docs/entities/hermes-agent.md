@@ -1,17 +1,17 @@
 # Hermes Agent
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
-- Type: `concept`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
-- Source count: 615
-- Mention count: 8215
+- Last seen: 2026-06-16T10:28:31Z
+- Source count: 619
+- Mention count: 8787
 
 ## Description
 
-Candidate concept entity extracted from 206 source(s).
+Candidate tool entity extracted from 18 source(s).
 
 ## Related claims
 
@@ -98,5 +98,6 @@ Candidate concept entity extracted from 206 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/042-7ed81418f9f52d4fd9bb.md`
 - `src_f775cc379aa34e4f08a4` — Follow this easy Hermes Agent tutorial to install, configure, and run your first self-improving AI agent with OpenAI and persistent memory.
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/032-a04aa07f81b2c015e066.md`
-- `src_55aa24ea585fcc71a73c` — Do you want to give Agentic AI real memory? Last week, when I was digging in deep with Hermes Agent, and one of the things that intrigued me
-  - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/100-3754e32235e6ddf191ac.md`
+- `src_d70a8c8fa08f425ef4e0` — hermes-agent — Hermes Agent Core & Official | Hermes Atlas
+  - URL: https://hermesatlas.com/projects/NousResearch/hermes-agent
+  - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/03-hermes-agent-hermes-agent-core-official-hermes-atlas.md`

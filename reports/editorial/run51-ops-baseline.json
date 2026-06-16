@@ -1,0 +1,410 @@
+{
+  "active_cron_reminder_jobs_found": [
+    {
+      "deliver": "origin",
+      "enabled": false,
+      "id": "32fab799b743",
+      "last_run_at": "2026-06-12T04:12:55.932755+00:00",
+      "last_status": "ok",
+      "name": "Daily LinkedIn openclaw/hermes 24h capture",
+      "next_run_at": "2026-06-13T04:00:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "default",
+      "schedule_display": "0 4 * * *",
+      "script": null,
+      "state": "paused"
+    },
+    {
+      "deliver": "origin",
+      "enabled": false,
+      "id": "552d9697f7ae",
+      "last_run_at": "2026-06-11T23:08:56.955195+00:00",
+      "last_status": "ok",
+      "name": "Daily OpenClaw/Hermes broad web search capture",
+      "next_run_at": "2026-06-12T23:00:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "default",
+      "schedule_display": "0 23 * * *",
+      "script": null,
+      "state": "paused"
+    },
+    {
+      "deliver": "origin",
+      "enabled": false,
+      "id": "f320d553d7b1",
+      "last_run_at": "2026-06-12T23:00:57.418975+00:00",
+      "last_status": "ok",
+      "name": "Loop Engineering 24h monitor start",
+      "next_run_at": "2026-06-13T23:00:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "default",
+      "schedule_display": "0 23 * * *",
+      "script": "loop_engineering_daily_start.sh",
+      "state": "paused"
+    },
+    {
+      "deliver": "origin",
+      "enabled": false,
+      "id": "033e2e4de2ff",
+      "last_run_at": "2026-06-13T06:45:59.505061+00:00",
+      "last_status": "ok",
+      "name": "Loop Engineering 24h monitor status",
+      "next_run_at": "2026-06-13T07:30:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "default",
+      "schedule_display": "30 * * * *",
+      "script": "loop_engineering_daily_status.sh",
+      "state": "paused"
+    },
+    {
+      "deliver": "origin",
+      "enabled": false,
+      "id": "ee797a8af0bf",
+      "last_run_at": "2026-06-12T08:45:05.458485+00:00",
+      "last_status": "ok",
+      "name": "Loop Engineering monitor self-healing watchdog",
+      "next_run_at": "2026-06-12T09:45:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "default",
+      "schedule_display": "45 * * * *",
+      "script": "loop_engineering_monitor_watchdog.sh",
+      "state": "paused"
+    },
+    {
+      "deliver": "origin",
+      "enabled": false,
+      "id": "dd69aced67cb",
+      "last_run_at": "2026-06-12T01:10:03.260303+00:00",
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa book loop start",
+      "next_run_at": "2026-06-13T01:10:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "default",
+      "schedule_display": "10 1 * * *",
+      "script": "terefohealreboa_book_start.sh",
+      "state": "paused"
+    },
+    {
+      "deliver": "origin",
+      "enabled": false,
+      "id": "56dbab31aa45",
+      "last_run_at": "2026-06-12T08:35:03.488645+00:00",
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa book loop watchdog",
+      "next_run_at": "2026-06-12T09:35:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "default",
+      "schedule_display": "35 * * * *",
+      "script": "terefohealreboa_book_watchdog.sh",
+      "state": "paused"
+    },
+    {
+      "deliver": "origin",
+      "enabled": true,
+      "id": "b8189ef795c3",
+      "last_run_at": "2026-06-16T05:20:32.540709+00:00",
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa production daily monitor",
+      "next_run_at": "2026-06-16T06:20:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "default",
+      "schedule_display": "20 * * * *",
+      "script": null,
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "32fab799b743",
+      "last_run_at": "2026-06-16T04:02:09.403516+00:00",
+      "last_status": "ok",
+      "name": "Daily LinkedIn openclaw/hermes 24h capture",
+      "next_run_at": "2026-06-17T04:00:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "0 4 * * *",
+      "script": null,
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "552d9697f7ae",
+      "last_run_at": "2026-06-15T23:06:15.732855+00:00",
+      "last_status": "ok",
+      "name": "Daily OpenClaw/Hermes broad web search capture",
+      "next_run_at": "2026-06-16T23:00:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "0 23 * * *",
+      "script": null,
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "f320d553d7b1",
+      "last_run_at": "2026-06-15T23:00:06.742363+00:00",
+      "last_status": "ok",
+      "name": "Loop Engineering 24h monitor start",
+      "next_run_at": "2026-06-16T23:00:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "0 23 * * *",
+      "script": "loop_engineering_daily_start.sh",
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "033e2e4de2ff",
+      "last_run_at": "2026-06-16T05:30:06.742917+00:00",
+      "last_status": "ok",
+      "name": "Loop Engineering 24h monitor status",
+      "next_run_at": "2026-06-16T06:30:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "30 * * * *",
+      "script": "loop_engineering_daily_status.sh",
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "ee797a8af0bf",
+      "last_run_at": "2026-06-16T05:45:08.658411+00:00",
+      "last_status": "ok",
+      "name": "Loop Engineering monitor self-healing watchdog",
+      "next_run_at": "2026-06-16T06:45:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "45 * * * *",
+      "script": "loop_engineering_monitor_watchdog.sh",
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "dd69aced67cb",
+      "last_run_at": "2026-06-16T01:10:07.591670+00:00",
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa book loop start",
+      "next_run_at": "2026-06-17T01:10:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "10 1 * * *",
+      "script": "terefohealreboa_book_start.sh",
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "0858e829f548",
+      "last_run_at": "2026-06-16T05:20:06.675880+00:00",
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa book loop status",
+      "next_run_at": "2026-06-16T06:20:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "20 * * * *",
+      "script": "terefohealreboa_book_status.sh",
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "56dbab31aa45",
+      "last_run_at": "2026-06-16T05:35:06.845665+00:00",
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa book loop watchdog",
+      "next_run_at": "2026-06-16T06:35:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "35 * * * *",
+      "script": "terefohealreboa_book_watchdog.sh",
+      "state": "scheduled"
+    }
+  ],
+  "crontab": "\nTZ=Europe/Oslo\n30 5 * * * cd /home/hermoine/terefohealreboa && RUN_ID=$(date -u +production-daily-%Y%m%d) && python3 scripts/closed_loop_production_scheduler.py --run-id \"$RUN_ID\" --runtime-config config/closed_loop_runtime.json --mode production_daily --execute-once --allow-raw-collection --allow-extraction --allow-evidence-promotion --allow-author-editor-redteam --allow-guarded-book-publication --allow-daily-status-fallback --allow-commit-push-after-gates --install-schedule-after-success --send-telegram-status --output-json reports/editorial/$RUN_ID-production-execute-once.json --output-md reports/editorial/$RUN_ID-production-execute-once.md --telegram-status reports/telegram/production-daily-latest.md\n",
+  "current_branch": "## main...origin/main",
+  "generated_at_utc": "2026-06-16T05:49:26Z",
+  "git_status": [
+    "## main...origin/main",
+    " M reports/daily/citation-pipeline-test-20260612.md",
+    " M reports/telegram/production-monitor-latest.md"
+  ],
+  "gpt55_used": false,
+  "iteration_budget_effective": null,
+  "iteration_budget_requested": 180,
+  "iteration_budget_supported": false,
+  "latest_commits": [
+    "69c322c research: daily book pipeline update citation-pipeline-test-20260612",
+    "8d65615 Run 50: record final status correction",
+    "b6ad2b3 Run 50: record final clean status",
+    "32b0829 Run 50: record final status",
+    "5ee688f Run 50: draft introduction thesis report"
+  ],
+  "ops_channel_alias_required": "AL-Hermoine-OPS",
+  "ops_channel_alias_visible_to_current_profile": false,
+  "ops_telegram_channel_configured": true,
+  "production_daily_20260616_artifacts": {
+    "logs/runs/production-daily-20260616.cron.err": {
+      "exists": false,
+      "size": null
+    },
+    "logs/runs/production-daily-20260616.cron.out": {
+      "exists": false,
+      "size": null
+    },
+    "logs/runs/production-daily-20260616.log": {
+      "exists": false,
+      "size": null
+    },
+    "reports/editorial/production-daily-20260616-production-execute-once.json": {
+      "exists": false,
+      "size": null
+    },
+    "reports/editorial/production-daily-20260616-production-execute-once.md": {
+      "exists": false,
+      "size": null
+    },
+    "reports/telegram/production-daily-latest.md": {
+      "exists": false,
+      "size": null
+    }
+  },
+  "production_daily_20260616_artifacts_present": false,
+  "production_daily_crontab_found": true,
+  "production_daily_monitor_found": true,
+  "run_id": "run51",
+  "safe_reports_only": true,
+  "stale_fixed_run_jobs": [
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "dd69aced67cb",
+      "last_run_at": "2026-06-16T01:10:07.591670+00:00",
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa book loop start",
+      "next_run_at": "2026-06-17T01:10:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "10 1 * * *",
+      "script": "terefohealreboa_book_start.sh",
+      "state": "scheduled"
+    },
+    {
+      "deliver": "telegram",
+      "enabled": true,
+      "id": "0858e829f548",
+      "last_run_at": "2026-06-16T05:20:06.675880+00:00",
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa book loop status",
+      "next_run_at": "2026-06-16T06:20:00+00:00",
+      "origin": {
+        "chat_id": "94777959",
+        "chat_name": "Marius ops",
+        "platform": "telegram",
+        "thread_id": null
+      },
+      "profile_store": "ops-bot",
+      "schedule_display": "20 * * * *",
+      "script": "terefohealreboa_book_status.sh",
+      "state": "scheduled"
+    }
+  ],
+  "stale_fixed_run_jobs_found": true,
+  "suspected_cause_of_missing_production_daily_run": [
+    "crontab uses date -u while monitor expects Europe/Oslo-dated production-daily run IDs",
+    "crontab sets TZ variable but cron schedule still follows system cron timezone UTC; 05:30 entry runs at 05:30 UTC, not 05:30 Europe/Oslo",
+    "inline crontab does not redirect stdout/stderr to run-specific logs, hiding scheduler failure details",
+    "production-daily-20260616 report/status/log artifacts are absent after expected due time"
+  ],
+  "timestamp_contract_currently_present": false,
+  "title": "OPS notification routing, timestamp standardization, and production daily scheduler repair"
+}

@@ -1,17 +1,17 @@
 # Krishna Kumar
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `person`
-- Confidence: `medium`
+- Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
+- Last seen: 2026-06-16T10:28:31Z
 - Source count: 6
-- Mention count: 58
+- Mention count: 64
 
 ## Description
 
-Candidate person entity extracted from 2 source(s).
+Candidate person entity extracted from 1 source(s).
 
 ## Related claims
 

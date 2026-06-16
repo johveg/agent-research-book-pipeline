@@ -26,6 +26,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from closed_loop_event_ledger import append_event  # noqa: E402
+from status_message_contract import normalize_status, render_markdown_status, with_status_metadata_object  # noqa: E402
 
 FORBIDDEN_DEPENDENCY_TERMS = ["human_" + "review_required", "requires_" + "human_review", "manual_" + "approval_required", "editor_" + "must_review"]
 DB_TABLES = ["source_notes", "claims", "editorial_reviews"]
@@ -63,13 +64,55 @@ def load_json(path: str | Path) -> Any:
 def write_json(path: str | Path, obj: Any) -> None:
     out = resolve(path)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(obj, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+    payload = with_status_metadata_object(obj) if isinstance(obj, dict) and ("status" in obj or "final_disposition" in obj) else obj
+    out.write_text(json.dumps(payload, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def status_value_for_report(obj: dict[str, Any]) -> str:
+    if obj.get("mode") == "production_status":
+        return "production_monitor_ok" if obj.get("ok") is True else "production_daily_failed_closed"
+    if obj.get("final_disposition"):
+        return str(obj.get("final_disposition"))
+    if obj.get("production_daily_completed") is True:
+        return "production_daily_completed"
+    if obj.get("production_daily_failed_closed") is True:
+        return "production_daily_failed_closed"
+    return str(obj.get("status") or "production_monitor_ok")
+
+
+def severity_for_report(status: str) -> str:
+    if status in {"production_daily_completed", "production_monitor_ok"}:
+        return "success"
+    if status in {"production_daily_missing_not_due_yet", "production_daily_running"}:
+        return "info"
+    if status in {"production_monitor_warning", "production_daily_stale"}:
+        return "warning"
+    if status in {"production_daily_failed_closed", "production_daily_failed"}:
+        return "failed_closed"
+    return "failure"
+
+
+def status_payload_for_report(obj: dict[str, Any], component: str = "production_daily_scheduler") -> dict[str, Any]:
+    status = status_value_for_report(obj)
+    return normalize_status({
+        "component": component,
+        "run_id": obj.get("run_id") or "production-status",
+        "status": status,
+        "severity": severity_for_report(status),
+        "disposition": obj.get("final_disposition") or status,
+        "repo": str(ROOT),
+        "git_commit": obj.get("latest_commit_hash"),
+        "git_branch": obj.get("git_branch"),
+        "report_path": obj.get("output_json") or obj.get("latest_production_daily_report"),
+        "log_path": obj.get("log_path"),
+    })
 
 
 def write_md(path: str | Path, title: str, obj: dict[str, Any]) -> None:
     out = resolve(path)
     out.parent.mkdir(parents=True, exist_ok=True)
-    lines = [f"# {title}", "", f"Generated: {obj.get('generated_at', utc_now())}", ""]
+    status_md = render_markdown_status(status_payload_for_report(obj), title=title).split("## Summary", 1)[0].rstrip()
+    lines = [f"# {title}", "", status_md, "", f"Generated: {obj.get('generated_at', utc_now())}", "", "- target_channel: `AL-Hermoine-OPS`"]
     for key in [
         "run_id", "mode", "final_disposition", "production_daily_completed", "production_daily_failed_closed",
         "runtime_config_created", "production_scheduler_created", "schedule_installed", "schedule_installable",
@@ -159,27 +202,21 @@ def git_changed_docs_book() -> list[str]:
     return [x for x in res["stdout"].splitlines() if x.strip()]
 
 
-def schedule_command(runtime_config: str | Path, run_expr: str = "$(date -u +production-daily-%Y%m%d)") -> str:
-    return (
-        f"cd {ROOT} && RUN_ID={run_expr} && python3 scripts/closed_loop_production_scheduler.py "
-        f"--run-id \"$RUN_ID\" --runtime-config {runtime_config} --mode production_daily --execute-once "
-        f"--allow-raw-collection --allow-extraction --allow-evidence-promotion --allow-author-editor-redteam "
-        f"--allow-guarded-book-publication --allow-daily-status-fallback --allow-commit-push-after-gates "
-        f"--install-schedule-after-success "
-        f"--send-telegram-status --output-json reports/editorial/$RUN_ID-production-execute-once.json "
-        f"--output-md reports/editorial/$RUN_ID-production-execute-once.md "
-        f"--telegram-status reports/telegram/production-daily-latest.md"
-    )
+def schedule_command(runtime_config: str | Path, run_expr: str = "$(TZ=Europe/Oslo date +production-daily-%Y%m%d)") -> str:
+    # Run 51: crontab should call the robust wrapper, not a fragile inline scheduler command.
+    # The wrapper owns TZ=Europe/Oslo, dynamic run-id generation, lock protection, logs,
+    # scheduler invocation, monitor/status artifacts, and fail-closed OPS status output.
+    return f"{ROOT}/scripts/run_production_daily_cron.sh"
 
 
 def write_schedule_artifacts(run_id: str, cron_path: str | Path, md_path: str | Path, runtime_config: str | Path, installed: bool = False) -> dict[str, Any]:
     cron_out = resolve(cron_path)
     md_out = resolve(md_path)
     command = schedule_command(runtime_config)
-    cron_line = f"TZ=Europe/Oslo\n30 5 * * * {command}\n"
+    cron_line = f"CRON_TZ=Europe/Oslo\n30 5 * * * {command}\n"
     cron_out.parent.mkdir(parents=True, exist_ok=True)
     cron_out.write_text(cron_line, encoding="utf-8")
-    install_command = f"(crontab -l 2>/dev/null | grep -v 'closed_loop_production_scheduler.py'; cat {cron_out}) | crontab -"
+    install_command = f"(crontab -l 2>/dev/null | grep -v 'closed_loop_production_scheduler.py' | grep -v 'run_production_daily_cron.sh' | grep -v '^CRON_TZ=Europe/Oslo$'; cat {cron_out}) | crontab -"
     now = datetime.now(timezone.utc)
     next_run = (now + timedelta(days=1)).date().isoformat() + "T05:30:00+01:00/+02:00 Europe/Oslo"
     report = {
@@ -204,10 +241,10 @@ def write_schedule_artifacts(run_id: str, cron_path: str | Path, md_path: str | 
 
 def install_schedule(cron_path: str | Path) -> dict[str, Any]:
     cron_out = resolve(cron_path)
-    current = run_cmd(["bash", "-lc", "crontab -l 2>/dev/null | grep -v 'closed_loop_production_scheduler.py' || true"], timeout=60)
+    current = run_cmd(["bash", "-lc", "crontab -l 2>/dev/null | grep -v 'closed_loop_production_scheduler.py' | grep -v 'run_production_daily_cron.sh' | grep -v '^CRON_TZ=Europe/Oslo$' || true"], timeout=60)
     merged = (current.get("stdout") or "").rstrip() + "\n" + cron_out.read_text(encoding="utf-8")
     proc = subprocess.run(["crontab", "-"], input=merged, text=True, capture_output=True, cwd=ROOT)
-    verify = run_cmd(["bash", "-lc", "crontab -l 2>/dev/null | grep -F 'closed_loop_production_scheduler.py' >/dev/null"], timeout=60)
+    verify = run_cmd(["bash", "-lc", "crontab -l 2>/dev/null | grep -F 'run_production_daily_cron.sh' >/dev/null"], timeout=60)
     return {"attempted": True, "returncode": proc.returncode, "stderr_tail": proc.stderr[-1000:], "installed": proc.returncode == 0 and verify.get("returncode") == 0}
 
 
@@ -234,11 +271,16 @@ def summarize_json(path: str | Path) -> dict[str, Any]:
 def write_telegram_status(path: str | Path, report: dict[str, Any]) -> None:
     out = resolve(path)
     out.parent.mkdir(parents=True, exist_ok=True)
+    payload = status_payload_for_report(report, component="production_daily_scheduler")
+    header = render_markdown_status(payload, title="Production daily scheduler status").split("## Summary", 1)[0].rstrip()
     lines = [
-        "# Run 45 status — Enable daily autonomous book production scheduler",
+        "# Production daily scheduler status",
+        "",
+        header,
         "",
         f"Generated: {utc_now()}",
         "",
+        "- target_channel: `AL-Hermoine-OPS`",
         f"- success: `{report.get('production_daily_completed')}`",
         f"- final_disposition: `{report.get('final_disposition')}`",
         f"- production scheduler created: `{report.get('production_scheduler_created')}`",
@@ -296,7 +338,7 @@ def production_status_report(runtime_config: Path, output_json: Path, output_md:
         validation_errors.append("weak_local_fallback_allowed_must_be_false")
     schedule = config.get("schedule", {}) if isinstance(config.get("schedule"), dict) else {}
     crontab = read_crontab()
-    schedule_line = next((line for line in crontab.splitlines() if "closed_loop_production_scheduler.py" in line and "production-daily" in line), "")
+    schedule_line = next((line for line in crontab.splitlines() if "run_production_daily_cron.sh" in line or ("closed_loop_production_scheduler.py" in line and "production-daily" in line)), "")
     latest = find_latest_production_report(ROOT)
     latest_payload: dict[str, Any] = {}
     if latest and latest.exists():
@@ -345,6 +387,10 @@ def production_status_report(runtime_config: Path, output_json: Path, output_md:
         "git_push_helper_exists": helper.exists(),
         "configured_ssh_identity_exists": key_path.exists(),
         "default_push_identity_health": "not_checked_no_push_attempted",
+        "target_channel": "AL-Hermoine-OPS",
+        "ops_channel": "AL-Hermoine-OPS",
+        "severity": "success" if not validation_errors else "failed_closed",
+        "status": "production_monitor_ok" if not validation_errors else "production_daily_failed_closed",
         "operational_limitations": ["status-only command does not run capture, extraction, GPT, publication, commit, or push"],
     }
     write_json(output_json, report)
@@ -417,6 +463,10 @@ def execute_once(
         "production_daily_completed": False,
         "production_daily_failed_closed": True,
         "final_disposition": "production_daily_failed_closed",
+        "target_channel": "AL-Hermoine-OPS",
+        "ops_channel": "AL-Hermoine-OPS",
+        "severity": "failed_closed",
+        "status": "production_daily_failed_closed",
         "blockers": blockers,
     }
     try:
@@ -448,6 +498,8 @@ def execute_once(
             "production_daily_completed": True,
             "production_daily_failed_closed": False,
             "final_disposition": "production_daily_completed",
+            "status": "production_daily_completed",
+            "severity": "success",
         })
         write_telegram_status(telegram_status, report)
         write_json(output_json, report)
@@ -603,15 +655,23 @@ def execute_once(
     if gate_result["failed_gates"]:
         blockers.extend([f"gate:{x}" for x in gate_result["failed_gates"]])
     if blockers:
-        report["execute_once_result"] = "failed_closed"
-        report["final_disposition"] = "production_daily_failed_closed"
-        report["production_daily_completed"] = False
-        report["production_daily_failed_closed"] = True
+        report.update({
+            "execute_once_result": "failed_closed",
+            "final_disposition": "production_daily_failed_closed",
+            "production_daily_completed": False,
+            "production_daily_failed_closed": True,
+            "status": "production_daily_failed_closed",
+            "severity": "failed_closed",
+        })
     else:
-        report["execute_once_result"] = "completed"
-        report["final_disposition"] = "production_daily_completed"
-        report["production_daily_completed"] = True
-        report["production_daily_failed_closed"] = False
+        report.update({
+            "execute_once_result": "completed",
+            "final_disposition": "production_daily_completed",
+            "production_daily_completed": True,
+            "production_daily_failed_closed": False,
+            "status": "production_daily_completed",
+            "severity": "success",
+        })
     report["blockers"] = sorted(set(blockers))
     write_telegram_status(telegram_status, report)
     report["telegram_status_written"] = True

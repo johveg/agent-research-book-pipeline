@@ -1,17 +1,17 @@
 # Hermes
 
-Last generated: 2026-06-16T01:14:16Z
+Last generated: 2026-06-16T10:28:32Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T01:14:05Z
-- Source count: 595
-- Mention count: 4316
+- Last seen: 2026-06-16T10:28:31Z
+- Source count: 599
+- Mention count: 4677
 
 ## Description
 
-Candidate tool entity extracted from 174 source(s).
+Candidate tool entity extracted from 34 source(s).
 
 ## Related claims
 
@@ -40,21 +40,21 @@ Candidate tool entity extracted from 174 source(s).
 
 - `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
-- `src_3a8971630c5f088c3ed4` — Woche 1 — zweites Update. Warum nicht einfach Hermes nehmen? Key Takeaway: → Hermes hat Skills, OpenClaw hat das Gateway-Pattern. Der Agent 
+- `src_3a8971630c5f088c3ed4` — Woche 1 — zweites Update. Warum nicht einfach Hermes nehmen? Key Takeaway: → Hermes hat Skills, OpenClaw hat das Gateway-Pattern. Der Agent
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/159-b5d7019a13c3d0fab7ab.md`
-- `src_1710e7ef6c3ea57b889e` — Move over OpenClaw, Hermes is the hot Agent right now! I test a zero to hero setup of the Hemes Desktop for Mac to answer if it will replace
-  - URL: https://www.linkedin.com/company/nousresearch/
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/058-301411cafa0821c0fb5d.md`
-- `src_6089f9f3de0ee6709dde` — עכשיו אפשר לקנות סוכן AI מתוך Telegram. לא צ׳אטבוט. לא עטיפה לפרומפט. סוכן אמיתי שמקבל סביבת עבודה משלו. בוחרים OpenClaw או Hermes. משלמים. 
+- `src_6089f9f3de0ee6709dde` — עכשיו אפשר לקנות סוכן AI מתוך Telegram. לא צ׳אטבוט. לא עטיפה לפרומפט. סוכן אמיתי שמקבל סביבת עבודה משלו. בוחרים OpenClaw או Hermes. משלמים.
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/017-03157a32341bcc77474d.md`
 - `src_7a1bfed443c12e7ffcca` — Been using and seeing a lot of AI agents lately. Such as Hermes, OpenClaw, Claude Code, and Pi. I became curious about how they actually wor
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-9d1e38ef2b708754fad1.md`
+- `src_d233204edfe764362eef` — The agent market has a demo surplus and an operations deficit. That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-c304be09efb7c7641293.md`
+- `src_1710e7ef6c3ea57b889e` — Move over OpenClaw, Hermes is the hot Agent right now! I test a zero to hero setup of the Hemes Desktop for Mac to answer if it will replace
+  - URL: https://www.linkedin.com/company/nousresearch/
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/058-301411cafa0821c0fb5d.md`
 - `src_988a63a0444c4c71a699` — hashtag #pillolegeek hashtag #geekpills Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenClaw, pi, OpenCode, an
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/035-7726de66bbbda73ddb23.md`
 - `src_9d534840dd75489f2cee` — Freitagabend, Tim, ich und Hermes. Wir wollten uns schon die ganze Zeit mit Hermes auseinandersetzen. Nie dazu gekommen. Also haben wir einf
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/075-6905d59e2511074356f3.md`
-- `src_d233204edfe764362eef` — The agent market has a demo surplus and an operations deficit. That is the real signal behind today’s OpenClaw, Hermes, Grok, Kilo, OpenCode
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-c304be09efb7c7641293.md`
 - `src_134c79564919366db4e4` — OpenClaw broke on every update, constant babysitting. Hermes looks powerful, but it's a big rig built to do everything. Phantombot is the op
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/111-fc9ea314243f4fa1d497.md`
 - `src_47eb81009bc23393e291` — 🤖 OpenClaw vs. Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera
@@ -67,7 +67,7 @@ Candidate tool entity extracted from 174 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/041-3e2ee4bf047833428e09.md`
 - `src_1e7145fd7b27ce874b3e` — Day 21 of my Hermes agent experiment. Today I felt like my agent went backwards instead of forwards. I need to learn more about the Hermes m
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/010-7fe7c84d86d5db81b1ba.md`
-- `src_7e7d5a495b6eb4eeef79` — Hermes can now call you when it matters.📞☎️ Here’s how it works: You connect Hermes to ElevenLabs’ ElevenAgents and a provider like Twilio, 
+- `src_7e7d5a495b6eb4eeef79` — Hermes can now call you when it matters.📞☎️ Here’s how it works: You connect Hermes to ElevenLabs’ ElevenAgents and a provider like Twilio,
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/117-a090dd09365780fed952.md`
 - `src_2931d4430c4d9716fe8f` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
   - URL: https://github.com/conorbronsdon/avoid-ai-writing
@@ -79,19 +79,20 @@ Candidate tool entity extracted from 174 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-37ed2e4bf6722cae7e84.md`
 - `src_061556e405690eb22f1e` — the top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/007-e541c311fb21233a6097.md`
-- `src_158b261020922117300f` — Feed post Abdeljabbar Elassali • 3rd+ Founder of Vilix | The cross-AI memory layer (MCP), live now | Giving ChatGPT, Claude, Cursor & Codex 
-  - URL: https://www.linkedin.com/in/abdeljabbarelassali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB0-3AIBtMkCobQecxKU1aZ-0EQlJiq2FKY
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/080-52cbd5f5d74f71098e77.md`
-- `src_1ef20755b6630d552116` — Every time you switch AI tools, you pay a hidden tax. You spend ten minutes describing your architecture to one assistant, switch to another
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/079-91d772a2865273e32e0e.md`
-- `src_276df125d2132d93d2b9` — Call for anyone building their own second brain. I have questions and Claude doesn't always have the answers (wild, I know...). Anyone out t
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/064-f1b55bca6e4aac754f20.md`
 - `src_2c04eb0bb29832d3ca17` — Feed post Krishna Kumar • 3rd+ Founder & CEO – PlumoAI, Open-Source (100% FREE) AI Employees Platform 48m • Edited • Follow Day23 Live (Stre
   - URL: https://www.linkedin.com/in/krishnafounder?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGGnSYBzrGTvFQLbvvgaT_SYjEz11ejGK8
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/008-79b4f06762f72e68e27e.md`
 - `src_306bb0a43b5cda7c4326` — Feed post Souvik Roy • 3rd+ Agentic AI @ Standard Chartered | IIT Gandhinagar 35m • Follow the top 3 terms in AI engineering right now: - lo
   - URL: https://www.linkedin.com/in/souvikroy5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7h2uABY1JeTj5hHnDDA9D_SGTViV4bXSc
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/005-6c6109a327ff9037b8ad.md`
-- `src_3204bab6d39de910ea1e` — Feed post Han NG Han NG • 3rd+ Freelance 2h • 🚀 Stop searching Google. Start searching people. If you are still using traditional search eng
-  - URL: https://www.linkedin.com/in/han-ng-43a50551?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAArucC4Bg1Jgy0JZuKn3ZixceHiLnGESM-w
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/027-b36a09486e29f597f508.md`
+- `src_3e400b1f5a1412d4f612` — Day23 Live (Stream3) | Building an Open Source AI Platform on the Road to a $1,000,000,000 Company Current Valuation: $2M Join the Builders
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-21e35998b682cb7af37a.md`
+- `src_5213768779e402c0fe14` — Feed post Igor Domingos de Souza • 3rd+ Analista de suporte Pleno na Rede D'Or São Luiz | Engenharia da Computação 1h • Follow Imagine ter a
+  - URL: https://www.linkedin.com/in/igor-domingos-de-souza?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACGFxUMBVIpS6AhJTDFgweplA-Jz9jkRv-I
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/021-b38387f78b4995612f4b.md`
+- `src_6caeeea558dab40e498e` — Feed post Ayush Chaturvedi • 3rd+ Building Voibe · Private, on-device voice dictation for Mac · Helping dev, legal & ops teams type 3x faste
+  - URL: https://www.linkedin.com/in/ayushchat88?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABJVTSMBslDRu6KWP_Y2HwxlCftWamjSLyg
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/012-2770dc20565f232131c7.md`
+- `src_76e37de46cf8f052aa21` — Feed post GetAgentIQ 22 followers 1h • Follow The agent market has a demo surplus and an operations deficit. That is the real signal behind
+  - URL: https://www.linkedin.com/company/getagentiq/posts
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/018-3a912627095d07c6c8a0.md`

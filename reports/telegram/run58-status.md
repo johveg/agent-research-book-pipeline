@@ -2,7 +2,7 @@ status_metadata:
 ```json
 {
   "component": "closed_loop_manuscript_production",
-  "disposition": "guarded_introduction_published_ops_delivered_pending_commit",
+  "disposition": "guarded_introduction_published_ops_delivered_pushed",
   "emitted_at_oslo_iso": "2026-06-20T21:08:03+02:00",
   "emitted_at_unix_ms": 1781982483338,
   "emitted_at_unix_s": 1781982483,
@@ -10,7 +10,7 @@ status_metadata:
   "fallback_channel_used": false,
   "run_id": "run58",
   "severity": "success",
-  "status": "run58_completed_ops_delivered",
+  "status": "run58_completed_pushed",
   "target_channel": "AL-Hermoine-OPS",
   "timezone": "Europe/Oslo"
 }
@@ -18,7 +18,7 @@ status_metadata:
 
 # Run 58 status
 
-- status: success, pending commit/push
+- status: success, pushed
 - published path: `docs/book/introduction.md`
 - manuscript quality: `passed`
 - evidence safety: `passed`
@@ -29,4 +29,6 @@ status_metadata:
 - secrets scan: `passed`
 - OPS delivery: `ops_delivery_live_verified`
 - fallback channel used: `false`
+- commit: `125b397`
+- push: `pushed_main_with_hermes_ssh_fallback`
 - recommended next run: Run 59 — expand closed-loop manuscript production scheduler to next queued chapter.

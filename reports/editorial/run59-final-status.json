@@ -4,7 +4,7 @@
     "booklike_required_signals_missing"
   ],
   "baseline_public_ok": false,
-  "commit_hash": "pending",
+  "commit_hash": "1d1c1d8",
   "fallback_channel_used": false,
   "focused_tests": "38 passed, then 33 passed after profile patch",
   "full_pytest": "456 passed",
@@ -16,7 +16,7 @@
   "ops_delivery": "ops_delivery_degraded_queued",
   "ops_queued_count": null,
   "public_page_booklike": true,
-  "push_result": "pending",
+  "push_result": "pushed_to_origin_main",
   "secrets_scan_findings": 0,
   "status_metadata": {
     "component": "agent_loop_publication_proof",
@@ -25,7 +25,7 @@
     "fallback_channel_used": false,
     "run_id": "run59",
     "severity": "success",
-    "status": "run59_completed_degraded_ops_delivery_queued",
+    "status": "run59_completed_pushed_degraded_ops_delivery_queued",
     "target_channel": "AL-Hermoine-OPS",
     "timezone": "Europe/Oslo"
   },

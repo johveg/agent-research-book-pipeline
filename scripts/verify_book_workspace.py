@@ -12,6 +12,18 @@ from research_common import DB_PATH, ROOT, CONFIG_PATH
 REQUIRED = ['README.md','mkdocs.yml','data/search_config.json','data/schema.sql','scripts/daily_book_worker.py','scripts/capture_web_daily.py','scripts/capture_linkedin_daily.py','scripts/discover_trends.py','scripts/update_book_pages.py','scripts/build_vector_db.py','docs/index.md','.github/workflows/pages.yml']
 FORBIDDEN_PATTERNS = ['.env','cookie','token','secret','credential','.var/browser','browser-profile']
 
+REPORT_SAFE_SECRET_SCAN_RE = r"reports/(editorial|telegram|architecture)/run[0-9]+-secrets-scan\.(json|md)$"
+
+
+def is_unsafe_tracked_path(path: str) -> bool:
+    import re
+    low = path.lower()
+    if path == '.env.example':
+        return False
+    if re.match(REPORT_SAFE_SECRET_SCAN_RE, low):
+        return False
+    return any(x in low for x in FORBIDDEN_PATTERNS)
+
 
 def main() -> int:
     ap=argparse.ArgumentParser(); ap.add_argument('--latest', action='store_true'); args=ap.parse_args()
@@ -37,10 +49,7 @@ def main() -> int:
     import subprocess
     p=subprocess.run(['git','ls-files'], cwd=ROOT, text=True, capture_output=True)
     for line in p.stdout.splitlines():
-        low=line.lower()
-        if line == '.env.example':
-            continue
-        if any(x in low for x in FORBIDDEN_PATTERNS): errors.append(f'unsafe tracked path: {line}')
+        if is_unsafe_tracked_path(line): errors.append(f'unsafe tracked path: {line}')
     payload={'status':'ok' if not errors else 'error','errors':errors,'warnings':warnings,'db_path':str(DB_PATH)}
     print(json.dumps(payload, indent=2))
     return 0 if not errors else 1

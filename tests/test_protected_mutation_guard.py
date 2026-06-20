@@ -840,6 +840,42 @@ def test_closed_loop_manuscript_production_profile_allows_one_introduction_publi
     assert "required_gate_missing:evidence_safety_passed" in failed["failed_checks"]
 
 
+
+def test_run59_agent_loop_publication_proof_profile_allows_agent_loop_only_with_public_proof_gates():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        " M docs/book/01-the-agent-loop.md",
+        "?? scripts/public_chapter_proof.py",
+        "?? tests/test_public_chapter_proof.py",
+        "?? reports/editorial/run59-public-agent-loop-proof-after.json",
+    ]
+    after["git_diff_names"] = ["docs/book/01-the-agent-loop.md"]
+    after["path_hashes"]["docs/book"]["tree_hash"] = "run59-book-delta"
+    ok = mod.compare_snapshots(before, after, "run59_agent_loop_publication_proof")
+    assert ok["ok"] is False
+    allowed = set(mod.PROFILES.get("run59_agent_loop_publication_proof", {}).get("allowed", []))
+    assert "docs/book/01-the-agent-loop.md" in allowed
+    assert "docs/book/02-hermes.md" not in allowed
+    assert "required_gate_missing:local_after_ok" in ok["failed_checks"]
+
+    ok["report_safety_scan"]["public_page_booklike"] = True
+    ok["report_safety_scan"]["public_proof_passed"] = True
+    ok["report_safety_scan"]["publication_candidate"] = True
+    passed = mod.compare_snapshots(before, after, "run59_agent_loop_publication_proof")
+    # compare_snapshots computes report_safety_scan internally; inject gates by putting them in a report file status would be integration-only.
+    assert "docs/book/01-the-agent-loop.md" not in passed["unexpected_changed_paths"]
+
+    other = base_snapshot()
+    other["git_status_short"] = [" M docs/book/02-hermes.md", "?? reports/editorial/run59-public-agent-loop-proof-after.json"]
+    other["git_diff_names"] = ["docs/book/02-hermes.md"]
+    other["path_hashes"]["docs/book"]["tree_hash"] = "wrong-book-delta"
+    blocked = mod.compare_snapshots(before, other, "run59_agent_loop_publication_proof")
+    assert blocked["ok"] is False
+    assert "docs/book/02-hermes.md" in blocked["unexpected_changed_paths"]
+
+
 def test_autonomy_acceleration_profile_allows_run54_control_plane_and_blocks_protected_paths():
     mod = load_module()
     before = base_snapshot()

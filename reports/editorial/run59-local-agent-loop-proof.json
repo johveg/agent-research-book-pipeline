@@ -1,0 +1,14 @@
+{
+  "bullet_line_count": 0,
+  "checked_at_utc_iso": "2026-06-20T19:42:04.590719+00:00",
+  "expected_title": "1. The Agent Loop",
+  "failed_checks": [],
+  "forbidden_phrases_found": [],
+  "ok": true,
+  "paragraph_count_ge_120_chars": 15,
+  "public_page_booklike": true,
+  "required_signals_missing": [],
+  "source": "docs/book/01-the-agent-loop.md",
+  "source_kind": "file",
+  "unique_citation_token_count": 9
+}

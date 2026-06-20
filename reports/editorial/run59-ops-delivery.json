@@ -1,0 +1,9 @@
+{
+  "attempted": false,
+  "error_type": "missing_ops_bot_env",
+  "fallback_channel_used": false,
+  "message_id_present": false,
+  "ok": false,
+  "secret_values_printed": false,
+  "target_channel": "AL-Hermoine-OPS"
+}

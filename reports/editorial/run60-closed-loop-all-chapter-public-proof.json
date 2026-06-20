@@ -1,0 +1,29 @@
+{
+  "all_chapter_public_proof_executed": true,
+  "all_chapter_public_proof_gate_wired": true,
+  "all_chapter_public_proof_ok": false,
+  "autonomous_closed_loop_iteration_coverage": true,
+  "component": "closed_loop_manuscript_public_proof",
+  "daily_worker_preflight_ok": true,
+  "failed_chapters": [
+    "context_memory",
+    "hermes",
+    "introduction",
+    "loop_engineering",
+    "methodology",
+    "openclaw",
+    "operating_loops"
+  ],
+  "fallback_channel_used": false,
+  "generated_at_utc_iso": "2026-06-20T20:13:07.774647+00:00",
+  "missing_chapters": [
+    "methodology"
+  ],
+  "passed_chapters": [
+    "agent_loop"
+  ],
+  "policy": "Run all-chapter public proof in the autonomous closed-loop iteration/addition gate; any evidence-led or missing chapter fails closed before publication/commit.",
+  "run_id": "run60",
+  "total_chapters": 8,
+  "weak_local_fallback_used": false
+}

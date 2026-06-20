@@ -33,6 +33,9 @@ def no_write_capabilities() -> dict:
         "supports_no_push": True,
         "supports_no_docs_book_update_without_gate": True,
         "supports_preflight_only": True,
+        "supports_all_chapter_public_proof_gate": True,
+        "all_chapter_public_proof_gate_blocks_evidence_led_pages": True,
+        "supports_preflight_all_chapter_public_proof": True,
         "preflight_only_no_write": True,
         "capability_probe_no_write": True,
         "human_in_loop_dependency_added": False,
@@ -67,6 +70,34 @@ def load_json(path: Path, default):
         return default
 
 
+
+
+def run_all_chapter_public_proof(run_id: str) -> dict:
+    out = REPORTS / "editorial" / f"{run_id}-all-chapters-public-proof.json"
+    cmd = [
+        PY,
+        "scripts/public_chapter_proof.py",
+        "--all-local-book-chapters",
+        "--contract-json",
+        "config/book_manuscript_production_contract.json",
+        "--repo-root",
+        ".",
+        "--output-json",
+        str(out),
+    ]
+    proc = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True)
+    data = load_json(out, {})
+    return {
+        "cmd": cmd,
+        "returncode": proc.returncode,
+        "stdout_tail": proc.stdout[-2000:],
+        "stderr_tail": proc.stderr[-2000:],
+        "report": str(out.relative_to(ROOT)),
+        "ok": bool(data.get("ok")),
+        "total_chapters": data.get("total_chapters"),
+        "passed_chapters": data.get("passed_chapters", []),
+        "failed_chapters": data.get("failed_chapters", []),
+    }
 
 
 def docs_book_dirty_files() -> list[str]:
@@ -196,6 +227,7 @@ def main() -> int:
     ap.add_argument("--no-commit", action="store_true", help="Do not commit or push; useful for verification runs")
     ap.add_argument("--preflight-only", action="store_true", help="Validate arguments and emit a no-write preflight result without running pipeline steps")
     ap.add_argument("--allow-chapter-updates", action="store_true", help="Allow Author chapter synthesis. Default daily behavior is collection/preparation only; use after weekly curation or explicit Editor approval.")
+    ap.add_argument("--run-all-chapter-public-proof", action="store_true", help="Run the closed-loop manuscript public proof gate across every configured book chapter.")
     args = ap.parse_args()
 
     if args.print_capabilities_json:
@@ -204,6 +236,7 @@ def main() -> int:
 
     run_id = args.run_id or (("manual-" + run_id_now()) if args.manual else run_id_now())
     if args.preflight_only:
+        proof = run_all_chapter_public_proof(run_id) if args.run_all_chapter_public_proof else {"ok": None, "report": None, "failed_chapters": []}
         print(json.dumps({
             "ok": True,
             "preflight_only": True,
@@ -224,6 +257,10 @@ def main() -> int:
             "vector_index_build_executed": False,
             "commit_executed": False,
             "push_executed": False,
+            "all_chapter_public_proof_executed": bool(args.run_all_chapter_public_proof),
+            "all_chapter_public_proof_ok": proof.get("ok"),
+            "all_chapter_public_proof_report": proof.get("report"),
+            "all_chapter_public_proof_failed_chapters": proof.get("failed_chapters", []),
             "human_in_loop_dependency_added": False,
         }, sort_keys=True))
         return 0
@@ -315,6 +352,17 @@ def main() -> int:
                 steps.append(run([PY, "scripts/update_book_pages.py", "--run-id", run_id], log))
             steps.append(run([PY, "scripts/verify_editorial_ingestion.py"], log))
             steps.append(run([PY, "scripts/verify_book_citations.py"], log))
+            if args.run_all_chapter_public_proof:
+                public_proof = run_all_chapter_public_proof(run_id)
+                steps.append(public_proof)
+                editorial.setdefault("blocked_state_output", {})["all_chapter_public_proof_report"] = public_proof.get("report")
+                editorial["blocked_state_output"]["all_chapter_public_proof_ok"] = public_proof.get("ok")
+                editorial["blocked_state_output"]["all_chapter_public_proof_failed_chapters"] = public_proof.get("failed_chapters", [])
+                if public_proof["returncode"] != 0:
+                    status = "blocked"
+                    editorial.setdefault("blocked_reasons", []).append("all_chapter_public_proof_failed")
+                    editorial["blocked_state_output"]["chapter_update_allowed"] = False
+                    editorial["blocked_state_output"]["chapter_update_skipped_reason"] = "all_chapter_public_proof_failed"
 
             # Book role gate builds the site and checks links/unsafe paths. Use local MkDocs venv if available.
             book_gate = run([MKDOCS_PY, "scripts/book_role_report.py"], log)

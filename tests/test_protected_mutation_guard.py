@@ -876,6 +876,39 @@ def test_run59_agent_loop_publication_proof_profile_allows_agent_loop_only_with_
     assert "docs/book/02-hermes.md" in blocked["unexpected_changed_paths"]
 
 
+
+def test_closed_loop_manuscript_public_proof_profile_requires_loop_wiring_and_allows_no_book_mutation():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        " M scripts/daily_book_worker.py",
+        " M scripts/public_chapter_proof.py",
+        " M scripts/protected_mutation_guard.py",
+        "?? tests/test_daily_book_worker_public_proof.py",
+        "?? tests/test_public_chapter_proof_all_chapters.py",
+        "?? reports/editorial/run60-all-chapters-public-proof.json",
+    ]
+    after["git_diff_names"] = ["scripts/daily_book_worker.py", "scripts/public_chapter_proof.py", "scripts/protected_mutation_guard.py"]
+    missing = mod.compare_snapshots(before, after, "closed_loop_manuscript_public_proof")
+    assert missing["ok"] is False
+    assert "required_gate_missing:all_chapter_public_proof_gate_wired" in missing["failed_checks"]
+
+    after.setdefault("report_safety_scan", {})["all_chapter_public_proof_gate_wired"] = True
+    after["report_safety_scan"]["autonomous_closed_loop_iteration_coverage"] = True
+    ok = mod.compare_snapshots(before, after, "closed_loop_manuscript_public_proof")
+    assert ok["ok"] is True
+    assert ok["unexpected_changed_paths"] == []
+
+    book = base_snapshot()
+    book["git_status_short"] = [" M docs/book/02-hermes.md"]
+    book["git_diff_names"] = ["docs/book/02-hermes.md"]
+    book["path_hashes"]["docs/book"]["tree_hash"] = "book-change"
+    blocked = mod.compare_snapshots(before, book, "closed_loop_manuscript_public_proof")
+    assert blocked["ok"] is False
+    assert "docs/book/02-hermes.md" in blocked["unexpected_changed_paths"]
+
+
 def test_autonomy_acceleration_profile_allows_run54_control_plane_and_blocks_protected_paths():
     mod = load_module()
     before = base_snapshot()

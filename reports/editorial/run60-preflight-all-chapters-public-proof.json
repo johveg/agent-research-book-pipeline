@@ -1,0 +1,289 @@
+{
+  "chapter_results": {
+    "agent_loop": {
+      "bullet_line_count": 0,
+      "checked_at_utc_iso": "2026-06-20T20:17:19.753090+00:00",
+      "expected_title": "The Agent Loop",
+      "failed_checks": [],
+      "forbidden_phrases_found": [],
+      "ok": true,
+      "paragraph_count_ge_120_chars": 15,
+      "public_page_booklike": true,
+      "required_signals": [
+        "central argument",
+        "evidence limits",
+        "references",
+        "from prompt to loop",
+        "operational pattern",
+        "verification",
+        "state",
+        "escalation"
+      ],
+      "required_signals_missing": [],
+      "source": "docs/book/01-the-agent-loop.md",
+      "source_kind": "file",
+      "target_path": "docs/book/01-the-agent-loop.md",
+      "unique_citation_token_count": 9
+    },
+    "context_memory": {
+      "bullet_line_count": 5,
+      "checked_at_utc_iso": "2026-06-20T20:17:19.753526+00:00",
+      "expected_title": "Context and Memory Architecture",
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality a",
+        "quality b",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 7,
+      "public_page_booklike": false,
+      "required_signals": [
+        "central argument",
+        "evidence limits",
+        "references"
+      ],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
+      "source": "docs/book/05-context-memory-architecture.md",
+      "source_kind": "file",
+      "target_path": "docs/book/05-context-memory-architecture.md",
+      "unique_citation_token_count": 5
+    },
+    "hermes": {
+      "bullet_line_count": 5,
+      "checked_at_utc_iso": "2026-06-20T20:17:19.754217+00:00",
+      "expected_title": "Hermes",
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "quality a",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 7,
+      "public_page_booklike": false,
+      "required_signals": [
+        "central argument",
+        "evidence limits",
+        "references"
+      ],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
+      "source": "docs/book/02-hermes.md",
+      "source_kind": "file",
+      "target_path": "docs/book/02-hermes.md",
+      "unique_citation_token_count": 4
+    },
+    "introduction": {
+      "bullet_line_count": 0,
+      "checked_at_utc_iso": "2026-06-20T20:17:19.754953+00:00",
+      "expected_title": "Introduction",
+      "failed_checks": [
+        "booklike_required_signals_missing"
+      ],
+      "forbidden_phrases_found": [],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 10,
+      "public_page_booklike": false,
+      "required_signals": [
+        "central argument",
+        "evidence limits",
+        "references"
+      ],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits",
+        "references"
+      ],
+      "source": "docs/book/introduction.md",
+      "source_kind": "file",
+      "target_path": "docs/book/introduction.md",
+      "unique_citation_token_count": 3
+    },
+    "loop_engineering": {
+      "bullet_line_count": 5,
+      "checked_at_utc_iso": "2026-06-20T20:17:19.755361+00:00",
+      "expected_title": "Loop Engineering",
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality b",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 6,
+      "public_page_booklike": false,
+      "required_signals": [
+        "central argument",
+        "evidence limits",
+        "references"
+      ],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
+      "source": "docs/book/04-loop-engineering.md",
+      "source_kind": "file",
+      "target_path": "docs/book/04-loop-engineering.md",
+      "unique_citation_token_count": 5
+    },
+    "methodology": {
+      "expected_title": "Methodology",
+      "failed_checks": [
+        "chapter_file_missing"
+      ],
+      "ok": false,
+      "public_page_booklike": false,
+      "source": "docs/book/methodology.md",
+      "source_kind": "file"
+    },
+    "openclaw": {
+      "bullet_line_count": 5,
+      "checked_at_utc_iso": "2026-06-20T20:17:19.755716+00:00",
+      "expected_title": "OpenClaw",
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high",
+        "citation_tokens_missing_or_too_sparse"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality a",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 6,
+      "public_page_booklike": false,
+      "required_signals": [
+        "central argument",
+        "evidence limits",
+        "references"
+      ],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
+      "source": "docs/book/03-openclaw.md",
+      "source_kind": "file",
+      "target_path": "docs/book/03-openclaw.md",
+      "unique_citation_token_count": 2
+    },
+    "operating_loops": {
+      "bullet_line_count": 17,
+      "checked_at_utc_iso": "2026-06-20T20:17:19.756533+00:00",
+      "expected_title": "Operating Loops in Production",
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality a",
+        "quality b",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 7,
+      "public_page_booklike": false,
+      "required_signals": [
+        "central argument",
+        "evidence limits",
+        "references"
+      ],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
+      "source": "docs/book/06-operating-loops.md",
+      "source_kind": "file",
+      "target_path": "docs/book/06-operating-loops.md",
+      "unique_citation_token_count": 9
+    }
+  },
+  "checked_at_utc_iso": "2026-06-20T20:17:19.756579+00:00",
+  "contract_json": "config/book_manuscript_production_contract.json",
+  "failed_chapters": [
+    "context_memory",
+    "hermes",
+    "introduction",
+    "loop_engineering",
+    "methodology",
+    "openclaw",
+    "operating_loops"
+  ],
+  "missing_chapters": [
+    "methodology"
+  ],
+  "ok": false,
+  "passed_chapters": [
+    "agent_loop"
+  ],
+  "public_page_booklike": false,
+  "repo_root": ".",
+  "source_kind": "all_local_book_chapters",
+  "total_chapters": 8
+}

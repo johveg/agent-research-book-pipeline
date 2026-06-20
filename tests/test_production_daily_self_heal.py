@@ -18,7 +18,7 @@ def test_missing_after_due_runs_wrapper_once(monkeypatch,tmp_path):
     class P: returncode=0
     monkeypatch.setattr(m.subprocess,'run',lambda *a,**k:(calls.append(a),P())[1])
     r=m.self_heal(repo=str(tmp_path),output_json='r.json',output_md='r.md',telegram_status='t.md')
-    assert r['final_disposition']=='production_self_heal_executed'; assert len(calls)==1
+    assert r['final_disposition']=='production_execution_recovered'; assert len(calls)==1
 def test_failed_closed_no_infinite_loop(monkeypatch,tmp_path):
     m=load(); monkeypatch.setattr(m,'run_monitor',lambda *a:{'status':'production_daily_failed_closed'})
     r=m.self_heal(repo=str(tmp_path),output_json='r.json',output_md='r.md',telegram_status='t.md')

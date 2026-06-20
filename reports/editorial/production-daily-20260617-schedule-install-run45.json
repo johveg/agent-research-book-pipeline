@@ -1,0 +1,15 @@
+{
+  "cron_artifact": "config/schedules/closed-loop-production-daily.cron.example",
+  "cron_expression": "30 5 * * *",
+  "generated_at": "2026-06-17T11:12:03Z",
+  "install_command": "(crontab -l 2>/dev/null | grep -v 'closed_loop_production_scheduler.py' | grep -v 'run_production_daily_cron.sh' | grep -v '^CRON_TZ=Europe/Oslo$'; cat /home/hermoine/terefohealreboa/config/schedules/closed-loop-production-daily.cron.example) | crontab -",
+  "mode": "run45_schedule_install_artifact",
+  "next_expected_run_time": "2026-06-18T05:30:00+01:00/+02:00 Europe/Oslo",
+  "note": "Daily cron artifact is installable; scheduler installs it only after execute-once gates pass when requested.",
+  "run_id": "production-daily-20260617",
+  "schedule_command": "/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh",
+  "schedule_installable": true,
+  "schedule_installed": false,
+  "schedule_local_time": "05:30",
+  "schedule_timezone": "Europe/Oslo"
+}

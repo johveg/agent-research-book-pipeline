@@ -1,0 +1,35 @@
+{
+  "required_artifacts": [
+    "logs/runs/{RUN_ID}.log",
+    "logs/runs/{RUN_ID}.cron.out",
+    "logs/runs/{RUN_ID}.cron.err",
+    "reports/editorial/{RUN_ID}-production-execute-once.json",
+    "reports/editorial/{RUN_ID}-production-execute-once.md",
+    "reports/telegram/production-daily-latest.md"
+  ],
+  "required_machine_fields": [
+    "run_id",
+    "status",
+    "severity",
+    "disposition",
+    "run_started_at_unix_s",
+    "run_finished_at_unix_s",
+    "duration_seconds",
+    "emitted_at_unix_s",
+    "emitted_at_unix_ms",
+    "emitted_at_utc_iso",
+    "emitted_at_oslo_iso",
+    "target_channel",
+    "fallback_channel_used",
+    "production_execution_attempted",
+    "production_execution_completed",
+    "failed_closed_reason",
+    "wrapper_invocation_id",
+    "git_branch",
+    "git_commit"
+  ],
+  "target_channel": "AL-Hermoine-OPS",
+  "fallback_channel_used": false,
+  "completion_status": "production_daily_completed",
+  "failed_closed_status": "production_daily_failed_closed"
+}

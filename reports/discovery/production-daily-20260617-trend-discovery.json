@@ -1,0 +1,186 @@
+{
+  "candidates": [
+    {
+      "count": 310,
+      "doc_count": 19,
+      "term": "model",
+      "term_type": "word"
+    },
+    {
+      "count": 284,
+      "doc_count": 19,
+      "term": "code",
+      "term_type": "word"
+    },
+    {
+      "count": 218,
+      "doc_count": 19,
+      "term": "skills",
+      "term_type": "word"
+    },
+    {
+      "count": 93,
+      "doc_count": 19,
+      "term": "tools",
+      "term_type": "word"
+    },
+    {
+      "count": 88,
+      "doc_count": 19,
+      "term": "every",
+      "term_type": "word"
+    },
+    {
+      "count": 84,
+      "doc_count": 19,
+      "term": "start",
+      "term_type": "word"
+    },
+    {
+      "count": 83,
+      "doc_count": 19,
+      "term": "work",
+      "term_type": "word"
+    },
+    {
+      "count": 67,
+      "doc_count": 19,
+      "term": "same",
+      "term_type": "word"
+    },
+    {
+      "count": 66,
+      "doc_count": 19,
+      "term": "while",
+      "term_type": "word"
+    },
+    {
+      "count": 51,
+      "doc_count": 19,
+      "term": "across",
+      "term_type": "word"
+    },
+    {
+      "count": 50,
+      "doc_count": 19,
+      "term": "before",
+      "term_type": "word"
+    },
+    {
+      "count": 50,
+      "doc_count": 19,
+      "term": "type",
+      "term_type": "word"
+    },
+    {
+      "count": 49,
+      "doc_count": 19,
+      "term": "real",
+      "term_type": "word"
+    },
+    {
+      "count": 45,
+      "doc_count": 19,
+      "term": "only",
+      "term_type": "word"
+    },
+    {
+      "count": 44,
+      "doc_count": 19,
+      "term": "status",
+      "term_type": "word"
+    },
+    {
+      "count": 32,
+      "doc_count": 19,
+      "term": "call",
+      "term_type": "word"
+    },
+    {
+      "count": 32,
+      "doc_count": 19,
+      "term": "content",
+      "term_type": "word"
+    },
+    {
+      "count": 31,
+      "doc_count": 19,
+      "term": "just",
+      "term_type": "word"
+    },
+    {
+      "count": 21,
+      "doc_count": 19,
+      "term": "html",
+      "term_type": "word"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "content type",
+      "term_type": "phrase"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "content type html",
+      "term_type": "phrase"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "extracted",
+      "term_type": "word"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "html snippet",
+      "term_type": "phrase"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "snippet",
+      "term_type": "word"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "status content",
+      "term_type": "phrase"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "status content type",
+      "term_type": "phrase"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "type html",
+      "term_type": "phrase"
+    },
+    {
+      "count": 19,
+      "doc_count": 19,
+      "term": "type html snippet",
+      "term_type": "phrase"
+    },
+    {
+      "count": 68,
+      "doc_count": 18,
+      "term": "read",
+      "term_type": "word"
+    },
+    {
+      "count": 65,
+      "doc_count": 18,
+      "term": "support",
+      "term_type": "word"
+    }
+  ],
+  "generated_at": "2026-06-17T11:12:15Z",
+  "run_id": "production-daily-20260617"
+}

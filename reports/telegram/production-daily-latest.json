@@ -1,0 +1,1 @@
+{"component":"production_daily_scheduler","run_id":"production-daily-20260617","status":"production_daily_failed_closed","severity":"failed_closed","disposition":"production_daily_scheduler_repaired","target_channel":"AL-Hermoine-OPS","summary":"cron wrapper failed closed; see stderr log","log_path":"logs/runs/production-daily-20260617.cron.err"}

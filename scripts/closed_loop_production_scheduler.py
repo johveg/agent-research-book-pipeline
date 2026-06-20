@@ -413,7 +413,33 @@ def execute_once(
     allow_daily_status_fallback: bool = False,
     send_telegram_status: bool = False,
     simulate: bool = False,
+    wrapper_invocation_id: str | None = None,
+    run_started_at_unix_s: int | None = None,
 ) -> dict[str, Any]:
+    started_at = int(run_started_at_unix_s or datetime.now(timezone.utc).timestamp())
+    def stamp_report(obj: dict[str, Any], completed: bool = False, failed_reason: str | None = None) -> dict[str, Any]:
+        finished_at = int(datetime.now(timezone.utc).timestamp())
+        now_utc = datetime.fromtimestamp(finished_at, tz=timezone.utc)
+        oslo = now_utc.astimezone(__import__('zoneinfo').ZoneInfo('Europe/Oslo'))
+        obj.update({
+            "run_started_at_unix_s": started_at,
+            "run_finished_at_unix_s": finished_at,
+            "duration_seconds": max(0, finished_at - started_at),
+            "emitted_at_unix_s": finished_at,
+            "emitted_at_unix_ms": int(finished_at * 1000),
+            "emitted_at_utc_iso": now_utc.replace(microsecond=0).isoformat().replace('+00:00','Z'),
+            "emitted_at_oslo_iso": oslo.replace(microsecond=0).isoformat(),
+            "timezone": "Europe/Oslo",
+            "production_execution_attempted": True,
+            "production_execution_completed": bool(completed),
+            "failed_closed_reason": failed_reason,
+            "wrapper_invocation_id": wrapper_invocation_id,
+            "disposition": obj.get("final_disposition") or obj.get("status"),
+            "fallback_channel_used": False,
+        })
+        obj.setdefault("git_branch", run_cmd(["git", "branch", "--show-current"], timeout=30).get("stdout", "").strip())
+        obj.setdefault("git_commit", run_cmd(["git", "rev-parse", "--short", "HEAD"], timeout=30).get("stdout", "").strip())
+        return obj
     before_counts = db_counts()
     blockers: list[str] = []
     validation_errors = validate_runtime_config(config)
@@ -479,6 +505,7 @@ def execute_once(
         report["execute_once_result"] = "runtime_config_failed_closed"
         report["db_counts_after"] = db_counts()
         report["db_delta"] = delta(before_counts, report["db_counts_after"])
+        stamp_report(report, completed=False, failed_reason="runtime_config_failed_closed")
         write_telegram_status(telegram_status, report)
         write_json(output_json, report)
         write_md(output_md, "Run 45 production execute-once", report)
@@ -501,6 +528,7 @@ def execute_once(
             "status": "production_daily_completed",
             "severity": "success",
         })
+        stamp_report(report, completed=True, failed_reason=None)
         write_telegram_status(telegram_status, report)
         write_json(output_json, report)
         write_md(output_md, "Run 45 production execute-once", report)
@@ -673,6 +701,7 @@ def execute_once(
             "severity": "success",
         })
     report["blockers"] = sorted(set(blockers))
+    stamp_report(report, completed=not bool(blockers), failed_reason=";".join(sorted(set(blockers))) if blockers else None)
     write_telegram_status(telegram_status, report)
     report["telegram_status_written"] = True
     write_json(output_json, report)
@@ -700,6 +729,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--telegram-status", required=True)
     ap.add_argument("--install-schedule-after-success", action="store_true")
     ap.add_argument("--simulate", action="store_true")
+    ap.add_argument("--wrapper-invocation-id")
+    ap.add_argument("--run-started-at-unix-s", type=int)
     args = ap.parse_args(argv)
 
     if args.mode == "production_status":
@@ -751,6 +782,8 @@ def main(argv: list[str] | None = None) -> int:
         allow_daily_status_fallback=args.allow_daily_status_fallback,
         send_telegram_status=args.send_telegram_status,
         simulate=args.simulate,
+        wrapper_invocation_id=args.wrapper_invocation_id,
+        run_started_at_unix_s=args.run_started_at_unix_s,
     )
     report.update(schedule)
     if args.install_schedule_after_success and report.get("production_daily_completed"):
@@ -762,6 +795,10 @@ def main(argv: list[str] | None = None) -> int:
             report["production_daily_completed"] = False
             report["production_daily_failed_closed"] = True
             report["final_disposition"] = "production_daily_failed_closed"
+            report["status"] = "production_daily_failed_closed"
+            report["severity"] = "failed_closed"
+            report["production_execution_completed"] = False
+            report["failed_closed_reason"] = "schedule_install_failed_after_success"
             report.setdefault("blockers", []).append("schedule_install_failed_after_success")
     else:
         report["schedule_install_attempted"] = False

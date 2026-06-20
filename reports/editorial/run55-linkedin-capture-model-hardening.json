@@ -1,0 +1,28 @@
+{
+  "commit_hash": "9d3d971",
+  "created_at_utc": "2026-06-20T06:20:21.083030+00:00",
+  "deterministic_capture_fallback_behavior": "optional vector DB update/inspection failures now emit dependency_degraded_optional while preserving successful capture/push/summary status; no live broad capture was run.",
+  "linkedin_files_changed": [
+    "scripts/daily_linkedin_capture.sh"
+  ],
+  "linkedin_repo_path": "/home/hermoine/linkedin-24h-watch",
+  "model_preflight_status": "configuration_read: provider copilot, default gpt-5; live model API preflight not invoked to avoid side effects, but change removes known unsupported gpt-5.5 default.",
+  "new_model": "gpt-5",
+  "ops_bot_config_changed": true,
+  "ops_bot_config_versioned": false,
+  "previous_model": "gpt-5.5",
+  "push_result": "pushed",
+  "reason": "ops-bot default gpt-5.5 produced model_not_supported; config is not versioned, and current default gpt-5 is supported by copilot provider. Kept broad default because ops-bot scheduled jobs inherit the profile default and no versioned job-specific preflight mechanism is present in this profile config.",
+  "run_id": "run55",
+  "status": "checks_passed_committed_pushed",
+  "tests_checks": [
+    {
+      "command": "bash -n scripts/daily_linkedin_capture.sh",
+      "returncode": 0
+    },
+    {
+      "command": "test discovery",
+      "result": "no tests dir"
+    }
+  ]
+}

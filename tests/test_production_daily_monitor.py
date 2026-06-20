@@ -61,16 +61,56 @@ def test_0720_missing_is_after_due_not_not_due(tmp_path):
     assert report["status"] == "production_daily_missing_after_due"
 
 
+def test_stale_future_next_run_after_due_does_not_create_false_not_due(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    stale = repo / "reports" / "editorial" / "production-daily-20260615-schedule-install-run45.json"
+    stale.write_text(json.dumps({"next_expected_run_time": "2026-06-17T05:30:00+01:00/+02:00 Europe/Oslo"}))
+    now = datetime(2026, 6, 16, 7, 20, tzinfo=ZoneInfo("Europe/Oslo"))
+
+    report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
+
+    assert report["schedule_due"] is True
+    assert report["status"] == "production_daily_missing_after_due"
+    assert report["ok"] is False
+    assert "ignored_stale_future_recorded_next_run_due_already_reached" in report["warnings"]
+
+
 def test_completed_report_is_completed(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    run_id = "production-daily-20260616"
+    (repo / "logs" / "runs" / f"{run_id}.log").write_text("log\n")
+    (repo / "logs" / "runs" / f"{run_id}.cron.out").write_text("out\n")
+    (repo / "logs" / "runs" / f"{run_id}.cron.err").write_text("")
+    report_path = repo / "reports" / "editorial" / f"{run_id}-production-execute-once.json"
+    report_path.write_text(json.dumps({
+        "run_id": run_id, "status": "production_daily_completed", "severity": "success", "disposition": "production_daily_completed", "final_disposition": "production_daily_completed",
+        "run_started_at_unix_s": 1781674200, "run_finished_at_unix_s": 1781674300, "duration_seconds": 100,
+        "emitted_at_unix_s": 1781674300, "emitted_at_unix_ms": 1781674300000, "emitted_at_utc_iso": "2026-06-17T03:31:40Z", "emitted_at_oslo_iso": "2026-06-17T05:31:40+02:00",
+        "target_channel": "AL-Hermoine-OPS", "fallback_channel_used": False, "production_execution_attempted": True, "production_execution_completed": True, "failed_closed_reason": None,
+        "wrapper_invocation_id": "wrapper", "git_branch": "main", "git_commit": "abc123", "production_daily_completed": True
+    }))
+    (repo / "reports" / "editorial" / f"{run_id}-production-execute-once.md").write_text("# report\n")
+    (repo / "reports" / "telegram" / "production-daily-latest.md").write_text("# status\n")
+    report = mod.monitor(repo=repo, run_id=run_id, timezone_name="Europe/Oslo")
+    assert report["status"] == "production_daily_completed"
+    assert report["ok"] is True
+    assert report["production_report_json_exists"] is True
+
+
+def test_report_exists_but_log_missing_is_failed_closed(tmp_path):
     mod = load_module()
     repo = make_repo(tmp_path)
     run_id = "production-daily-20260616"
     report_path = repo / "reports" / "editorial" / f"{run_id}-production-execute-once.json"
     report_path.write_text(json.dumps({"final_disposition": "production_daily_completed", "production_daily_completed": True}))
+    (repo / "reports" / "editorial" / f"{run_id}-production-execute-once.md").write_text("# report\n")
+    (repo / "reports" / "telegram" / "production-daily-latest.md").write_text("# status\n")
     report = mod.monitor(repo=repo, run_id=run_id, timezone_name="Europe/Oslo")
-    assert report["status"] == "production_daily_completed"
-    assert report["ok"] is True
-    assert report["production_report_json_exists"] is True
+    assert report["status"] == "production_daily_failed_closed"
+    assert report["ok"] is False
+    assert any("missing_required_artifact:logs/runs" in w for w in report["warnings"])
 
 
 def test_failed_report_is_failed_closed(tmp_path):
@@ -111,9 +151,20 @@ def test_manual_production_daily_run_id_is_accepted_and_completed(tmp_path):
     mod = load_module()
     repo = make_repo(tmp_path)
     run_id = "production-daily-manual-20260615T171122Z"
+    (repo / "logs" / "runs" / f"{run_id}.log").write_text("log\n")
+    (repo / "logs" / "runs" / f"{run_id}.cron.out").write_text("out\n")
+    (repo / "logs" / "runs" / f"{run_id}.cron.err").write_text("")
     (repo / "reports" / "editorial" / f"{run_id}-production-execute-once.json").write_text(
-        json.dumps({"final_disposition": "production_daily_completed", "production_daily_completed": True})
+        json.dumps({
+            "run_id": run_id, "status": "production_daily_completed", "severity": "success", "disposition": "production_daily_completed", "final_disposition": "production_daily_completed",
+            "run_started_at_unix_s": 1781674200, "run_finished_at_unix_s": 1781674300, "duration_seconds": 100,
+            "emitted_at_unix_s": 1781674300, "emitted_at_unix_ms": 1781674300000, "emitted_at_utc_iso": "2026-06-17T03:31:40Z", "emitted_at_oslo_iso": "2026-06-17T05:31:40+02:00",
+            "target_channel": "AL-Hermoine-OPS", "fallback_channel_used": False, "production_execution_attempted": True, "production_execution_completed": True, "failed_closed_reason": None,
+            "wrapper_invocation_id": "wrapper", "git_branch": "main", "git_commit": "abc123", "production_daily_completed": True
+        })
     )
+    (repo / "reports" / "editorial" / f"{run_id}-production-execute-once.md").write_text("# report\n")
+    (repo / "reports" / "telegram" / "production-daily-latest.md").write_text("# status\n")
 
     report = mod.monitor(repo=repo, run_id=run_id, timezone_name="Europe/Oslo")
 

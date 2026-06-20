@@ -20,6 +20,7 @@ SCRIPTS = ROOT / "scripts"
 if str(SCRIPTS) not in __import__("sys").path:
     __import__("sys").path.insert(0, str(SCRIPTS))
 from status_message_contract import normalize_status, render_markdown_status, with_status_metadata_object  # noqa: E402
+from production_run_contract import validate_run_contract  # noqa: E402
 
 
 def apply_status_metadata(report: dict[str, Any], component: str = "production_daily_monitor") -> dict[str, Any]:
@@ -32,6 +33,9 @@ def apply_status_metadata(report: dict[str, Any], component: str = "production_d
         "repo": report.get("repo") or str(ROOT),
         "report_path": report.get("production_report_json"),
         "log_path": report.get("log_path"),
+        "run_started_at_unix_s": report.get("run_started_at_unix_s"),
+        "run_finished_at_unix_s": report.get("run_finished_at_unix_s"),
+        "duration_seconds": report.get("duration_seconds"),
     })
     report.update(payload)
     return with_status_metadata_object(report)
@@ -189,7 +193,7 @@ def monitor(
     due = local_now >= scheduled
     recorded_next_run = future_recorded_next_run(repo, local_now)
     if due and recorded_next_run:
-        due = False
+        warnings.append("ignored_stale_future_recorded_next_run_due_already_reached")
     json_path = repo / "reports" / "editorial" / f"{expected_run_id}-production-execute-once.json"
     md_path = repo / "reports" / "editorial" / f"{expected_run_id}-production-execute-once.md"
     telegram_daily = repo / "reports" / "telegram" / "production-daily-latest.md"
@@ -203,16 +207,14 @@ def monitor(
     status = "production_daily_missing_not_due_yet"
     ok = True
     if json_path.exists():
-        if disposition == "production_daily_completed" or payload.get("production_daily_completed") is True:
+        contract_result = validate_run_contract(repo, expected_run_id, due=due)
+        if contract_result.get("completed") is True:
             status = "production_daily_completed"
             ok = True
-        elif disposition == "production_daily_failed_closed" or payload.get("production_daily_failed_closed") is True:
+        else:
             status = "production_daily_failed_closed"
             ok = False
-        else:
-            status = "production_monitor_warning"
-            ok = False
-            warnings.append("unknown_production_report_disposition")
+            warnings.extend(contract_result.get("failed_closed_reasons", []))
     elif log_path.exists():
         age_minutes = max(0.0, (local_now.timestamp() - log_path.stat().st_mtime) / 60.0)
         if age_minutes > max_age_minutes:
@@ -259,13 +261,20 @@ def monitor(
         "events_log_path": str(event_log),
         "events_log_exists": event_log.exists(),
         "latest_disposition": disposition,
+        "run_started_at_unix_s": payload.get("run_started_at_unix_s"),
+        "run_finished_at_unix_s": payload.get("run_finished_at_unix_s"),
+        "duration_seconds": payload.get("duration_seconds"),
+        "production_execution_attempted": payload.get("production_execution_attempted") is True,
+        "production_execution_completed": payload.get("production_execution_completed") is True,
+        "fallback_channel_used": payload.get("fallback_channel_used") is True,
         "severity": severity_for_status(status),
         "target_channel": "AL-Hermoine-OPS",
         "ops_channel": "AL-Hermoine-OPS",
         "max_age_minutes": max_age_minutes,
         "crontab_production_daily_command_found": schedule_found,
         "schedule_command": next((line for line in crontab.splitlines() if "run_production_daily_cron.sh" in line or "closed_loop_production_scheduler.py" in line), ""),
-        "warnings": warnings,
+        "warnings": sorted(set(warnings)),
+        "contract_validation": contract_result if json_path.exists() else None,
     }
     if telegram_status:
         write_md(Path(telegram_status), report)

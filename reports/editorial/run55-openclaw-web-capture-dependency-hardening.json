@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "command": "bash -n scripts/daily_web_search_capture.sh",
+      "returncode": 0
+    },
+    {
+      "command": "bash -n scripts/update_vector_db.sh || true",
+      "returncode": 0
+    },
+    {
+      "command": "test discovery",
+      "result": "no tests dir"
+    }
+  ],
+  "commit_hash": "9bd9e76",
+  "commit_planned": true,
+  "created_at_utc": "2026-06-20T06:19:49.435678+00:00",
+  "files_changed": [
+    "scripts/daily_web_search_capture.sh"
+  ],
+  "optional_dependency_classification": "ChromaDB/vector update and inspect are optional post-capture enrichment; capture, commit, push, and latest-run summary remain authoritative success surfaces.",
+  "push_planned": true,
+  "push_result": "pushed_with_hermes_key_or_configured_ssh",
+  "repo_path": "/home/hermoine/openclaw-hermes-web-watch",
+  "root_cause": "daily_web_search_capture.sh treated optional vector DB update/ChromaDB inspection as mandatory after capture/push, so missing optional vector dependencies could mark an otherwise successful broad web capture as failed.",
+  "run_id": "run55",
+  "status": "checks_passed_committed_pushed",
+  "updated_at_utc": "2026-06-20T06:19:59.097383+00:00"
+}

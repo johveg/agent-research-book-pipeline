@@ -96,9 +96,10 @@ def test_build_schedule_artifact_is_installable_but_not_fake_installed(tmp_path)
 def test_execute_once_starts_ledger_probes_worker_invokes_daily_runner_and_orchestrator(monkeypatch, tmp_path):
     mod = load_module()
     calls = []
-    monkeypatch.setattr(mod, "run_cmd", lambda cmd, **kw: calls.append(cmd) or {"returncode": 0, "stdout": '{"ok": true}', "stderr": ""})
+    monkeypatch.setattr(mod, "run_cmd", lambda cmd, **kw: calls.append(cmd) or {"returncode": 0, "stdout": '{"ok": true, "llm_used": true, "publication_status": "substantive_canary_applied", "docs_book_applied": true, "daily_status_fallback_applied": false}', "stderr": ""})
     monkeypatch.setattr(mod, "append_event", lambda *a, **kw: {"event_type": kw.get("event_type", "event")})
     monkeypatch.setattr(mod, "db_counts", lambda: {"source_notes": 1, "claims": 2, "editorial_reviews": 3})
+    monkeypatch.setattr(mod, "summarize_json", lambda path: {"ok": True, "llm_used": True, "publication_status": "substantive_canary_applied", "docs_book_applied": True, "daily_status_fallback_applied": False, "publish_packet_count": 1, "disposition_counts": {}})
     report = mod.execute_once(
         run_id="run45",
         config=good_config(),
@@ -112,6 +113,8 @@ def test_execute_once_starts_ledger_probes_worker_invokes_daily_runner_and_orche
         allow_guarded_book_publication=True,
         allow_daily_status_fallback=True,
         send_telegram_status=True,
+        wrapper_invocation_id="wrapper-test",
+        run_started_at_unix_s=1781674200,
     )
     flat = "\n".join(" ".join(map(str, c)) for c in calls)
     assert "daily_book_worker.py" in flat or "closed_loop_daily_runner.py" in flat
@@ -120,6 +123,12 @@ def test_execute_once_starts_ledger_probes_worker_invokes_daily_runner_and_orche
     assert report["daily_worker_capability_probe_ok"] is True
     assert report["publication_orchestrator_invoked"] is True
     assert report["telegram_status_written"] is True
+    assert report["production_execution_attempted"] is True
+    assert report["production_execution_completed"] is True
+    assert report["run_started_at_unix_s"] == 1781674200
+    assert report["run_finished_at_unix_s"] is not None
+    assert report["duration_seconds"] >= 0
+    assert report["wrapper_invocation_id"] == "wrapper-test"
 
 
 def test_execute_once_fails_closed_when_runtime_invalid(tmp_path):
@@ -133,6 +142,11 @@ def test_execute_once_fails_closed_when_runtime_invalid(tmp_path):
     )
     assert report["final_disposition"] == "production_daily_failed_closed"
     assert report["production_daily_completed"] is False
+    assert report["production_execution_attempted"] is True
+    assert report["production_execution_completed"] is False
+    assert report["run_started_at_unix_s"] is not None
+    assert report["run_finished_at_unix_s"] is not None
+    assert report["failed_closed_reason"] == "runtime_config_failed_closed"
 
 
 def test_evaluate_gates_requires_verifiers_mkdocs_and_mutation_guard():
@@ -162,6 +176,12 @@ def test_cli_writes_execute_once_reports(tmp_path):
     assert proc.returncode == 0, proc.stderr
     payload = json.loads(out_json.read_text())
     assert payload["final_disposition"] in {"production_daily_completed", "production_daily_failed_closed"}
+    assert payload["production_execution_attempted"] is True
+    assert payload["production_execution_completed"] is True
+    assert payload["run_started_at_unix_s"] is not None
+    assert payload["run_finished_at_unix_s"] is not None
+    for key in ["run_id", "status", "severity", "disposition", "duration_seconds", "emitted_at_unix_s", "emitted_at_unix_ms", "emitted_at_utc_iso", "emitted_at_oslo_iso", "target_channel", "fallback_channel_used", "failed_closed_reason", "git_branch", "git_commit"]:
+        assert key in payload
     assert telegram.exists()
 
 

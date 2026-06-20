@@ -4,20 +4,20 @@
 
 ```yaml
 status_metadata:
-  emitted_at_unix_s: 1781604071
-  emitted_at_unix_ms: 1781604071352
-  emitted_at_utc_iso: "2026-06-16T10:01:11Z"
-  emitted_at_oslo_iso: "2026-06-16T12:01:11+02:00"
+  emitted_at_unix_s: 1781933458
+  emitted_at_unix_ms: 1781933458810
+  emitted_at_utc_iso: "2026-06-20T05:30:58Z"
+  emitted_at_oslo_iso: "2026-06-20T07:30:58+02:00"
   timezone: Europe/Oslo
   component: production_daily_scheduler
-  run_id: production-daily-20260616
+  run_id: production-daily-20260620
   status: production_daily_completed
   severity: success
   disposition: production_daily_completed
   target_channel: AL-Hermoine-OPS
   repo: /home/hermoine/terefohealreboa
   git_commit: null
-  git_branch: null
+  git_branch: main
   report_path: null
   log_path: null
   run_started_at_unix_s: null
@@ -25,7 +25,7 @@ status_metadata:
   duration_seconds: null
 ```
 
-Generated: 2026-06-16T10:01:11Z
+Generated: 2026-06-20T05:30:58Z
 
 - target_channel: `AL-Hermoine-OPS`
 - success: `True`
@@ -47,7 +47,7 @@ Generated: 2026-06-16T10:01:11Z
 - substantive update applied: `True`
 - daily status fallback applied: `False`
 - docs/book files changed: `['docs/book/06-operating-loops.md']`
-- source_registry/raw/DB deltas: `source registry export command completed; diff governed by mutation guard` / `web raw capture paths under raw/web/production-daily-20260616; LinkedIn authenticated capture skipped in execute-once to avoid browser-session stall` / `{}`
+- source_registry/raw/DB deltas: `source registry export command completed; diff governed by mutation guard` / `web raw capture paths under raw/web/production-daily-20260620; LinkedIn authenticated capture skipped in execute-once to avoid browser-session stall` / `{'claims': 2}`
 - mutation guard: `True` profile `production_daily_publish`
 - citation verifier: `True`
 - MkDocs strict: `True`
@@ -56,5 +56,5 @@ Generated: 2026-06-16T10:01:11Z
 - commit hash: `pending`
 - push result: `pending`
 - final git status: `pending`
-- daily schedule command: `cd /home/hermoine/terefohealreboa && RUN_ID=$(date -u +production-daily-%Y%m%d) && python3 scripts/closed_loop_production_scheduler.py --run-id "$RUN_ID" --runtime-config config/closed_loop_runtime.json --mode production_daily --execute-once --allow-raw-collection --allow-extraction --allow-evidence-promotion --allow-author-editor-redteam --allow-guarded-book-publication --allow-daily-status-fallback --allow-commit-push-after-gates --install-schedule-after-success --send-telegram-status --output-json reports/editorial/$RUN_ID-production-execute-once.json --output-md reports/editorial/$RUN_ID-production-execute-once.md --telegram-status reports/telegram/production-daily-latest.md`
-- next expected daily run: `2026-06-17T05:30:00+01:00/+02:00 Europe/Oslo`
+- daily schedule command: `/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh`
+- next expected daily run: `2026-06-21T05:30:00+01:00/+02:00 Europe/Oslo`

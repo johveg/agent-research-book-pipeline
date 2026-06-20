@@ -535,6 +535,76 @@ def test_production_ops_hardening_allows_ops_surfaces_and_blocks_publication_mut
     assert mod.compare_snapshots(before, unsafe, "production_ops_hardening")["ok"] is False
 
 
+def test_autonomous_production_recovery_profile_allows_run55_scope_and_blocks_unsafe_surfaces():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    allowed = [
+        "config/production_run_contract.json",
+        "scripts/production_run_contract.py",
+        "scripts/run_production_daily_cron.sh",
+        "scripts/closed_loop_production_scheduler.py",
+        "scripts/production_daily_monitor.py",
+        "scripts/production_daily_self_heal.py",
+        "scripts/ops_delivery_outbox.py",
+        "scripts/ops_delivery_controller.py",
+        "scripts/protected_mutation_guard.py",
+        "tests/test_production_run_contract.py",
+        "tests/test_run_production_daily_cron.py",
+        "tests/test_closed_loop_production_scheduler.py",
+        "tests/test_production_daily_monitor.py",
+        "tests/test_production_daily_self_heal.py",
+        "tests/test_ops_delivery_outbox.py",
+        "tests/test_ops_delivery_controller.py",
+        "tests/test_protected_mutation_guard.py",
+        "reports/editorial/run55-production-monitor-final.json",
+        "reports/architecture/run55-autonomous-production-recovery-evidence-map-20260617.md",
+        "reports/telegram/run55-status.md",
+        "reports/ops/outbox/ops_delivery_outbox.jsonl",
+        "logs/runs/production-daily-20260617.log",
+        "logs/runs/production-daily-20260617.cron.out",
+        "logs/runs/production-daily-20260617.cron.err",
+        "reports/editorial/production-daily-20260617-production-execute-once.json",
+        "reports/editorial/production-daily-20260617-production-execute-once.md",
+        "reports/telegram/production-daily-latest.md",
+        "logs/closed_loop/events.jsonl",
+        "config/schedules/closed-loop-production-daily.md",
+    ]
+    for path in allowed:
+        after["git_status_short"].append(f" M {path}")
+        after["git_diff_names"].append(path)
+    after["path_hashes"]["logs/closed_loop/events.jsonl"] = {"tree_hash": "events-run55"}
+    after["report_safety_scan"] = {"production_daily_completed": True, "canonical_production_log_exists": True}
+
+    result = mod.compare_snapshots(before, after, "autonomous_production_recovery")
+
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    for path in ["docs/book/06-operating-loops.md", "data/source_registry.json", "raw/capture.json", "data/schema.sql", "scripts/daily_book_worker.py"]:
+        blocked = mod.compare_snapshots(before, changed(path, " M"), "autonomous_production_recovery")
+        assert blocked["ok"] is False
+        assert path in blocked["unexpected_changed_paths"]
+
+    for scan_key in [
+        "fallback_channel_used",
+        "human_in_loop_dependency_added",
+        "weak_local_fallback_used",
+        "fake_completed_production_without_canonical_log",
+    ]:
+        unsafe = base_snapshot()
+        unsafe["report_safety_scan"] = {scan_key: True}
+        result = mod.compare_snapshots(before, unsafe, "autonomous_production_recovery")
+        assert result["ok"] is False
+        assert scan_key in result["failed_checks"] or scan_key in result.get("report_safety_scan", {})
+
+    fake_complete = base_snapshot()
+    fake_complete["report_safety_scan"] = {"production_daily_completed": True, "canonical_production_log_exists": False}
+    result = mod.compare_snapshots(before, fake_complete, "autonomous_production_recovery")
+    assert result["ok"] is False
+    assert "fake_completed_production_without_canonical_log" in result["failed_checks"]
+
+
 def test_unknown_and_future_publication_profiles_fail_closed_without_gates():
     mod = load_module()
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "unknown_profile")["ok"] is False

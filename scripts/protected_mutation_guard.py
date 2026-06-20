@@ -365,6 +365,47 @@ PROFILES: dict[str, dict[str, Any]] = {
         "allow_sqlite_physical_hash_drift_without_logical_delta": True,
         "future_disabled": False,
     },
+    "autonomous_production_recovery": {
+        "allowed": [
+            "config/production_run_contract.json",
+            "scripts/production_run_contract.py",
+            "scripts/run_production_daily_cron.sh",
+            "scripts/closed_loop_production_scheduler.py",
+            "scripts/production_daily_monitor.py",
+            "scripts/production_daily_self_heal.py",
+            "scripts/ops_delivery_outbox.py",
+            "scripts/ops_delivery_controller.py",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_production_run_contract.py",
+            "tests/test_run_production_daily_cron.py",
+            "tests/test_closed_loop_production_scheduler.py",
+            "tests/test_production_daily_monitor.py",
+            "tests/test_production_daily_self_heal.py",
+            "tests/test_ops_delivery_outbox.py",
+            "tests/test_ops_delivery_controller.py",
+            "tests/test_protected_mutation_guard.py",
+            "reports/editorial/run55-*.json",
+            "reports/editorial/run55-*.md",
+            "reports/architecture/run55-*.md",
+            "reports/telegram/run55-*.md",
+            "reports/ops/outbox/**",
+            "logs/runs/production-daily-20260617.log",
+            "logs/runs/production-daily-20260617.cron.out",
+            "logs/runs/production-daily-20260617.cron.err",
+            "reports/editorial/production-daily-20260617-production-execute-once.json",
+            "reports/editorial/production-daily-20260617-production-execute-once.md",
+            "reports/telegram/production-daily-latest.md",
+            "reports/telegram/production-monitor-latest.md",
+            "logs/closed_loop/events.jsonl",
+            "config/schedules/closed-loop-production-daily.md",
+        ],
+        "allow_db": {},
+        "allow_protected_path_delta": ["logs/closed_loop/events.jsonl"],
+        "allow_sqlite_physical_hash_drift_without_logical_delta": True,
+        "required_gates": ["production_daily_completed"],
+        "enforce_required_gates": True,
+        "future_disabled": False,
+    },
     "production_daily_publish": {
         "allowed": [
             "docs/book/**",
@@ -585,6 +626,9 @@ def _scan_changed_report_files(root: Path, changed_paths: list[str]) -> tuple[bo
         "citation_verifier_ok",
         "mkdocs_strict_ok",
         "unresolved_citations",
+        "fallback_channel_used",
+        "canonical_production_log_exists",
+        "fake_completed_production_without_canonical_log",
     ]
     for rel in changed_paths:
         if not rel.startswith("reports/") or not rel.endswith(".json"):
@@ -718,6 +762,12 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
         failed.append("mkdocs_strict_failed")
     if merged_scan.get("unresolved_citations") is True:
         failed.append("unresolved_citations")
+    if merged_scan.get("fallback_channel_used") is True:
+        failed.append("fallback_channel_used")
+    if merged_scan.get("fake_completed_production_without_canonical_log") is True:
+        failed.append("fake_completed_production_without_canonical_log")
+    if merged_scan.get("production_daily_completed") is True and merged_scan.get("canonical_production_log_exists") is False:
+        failed.append("fake_completed_production_without_canonical_log")
     for flag, value in hard_flags.items():
         if value:
             failed.append(f"hard_flag_true:{flag}")

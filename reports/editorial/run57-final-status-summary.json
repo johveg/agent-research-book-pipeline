@@ -89,9 +89,11 @@
   ],
   "fallback_default_home_dm_used": false,
   "final_disposition": "run57_failed_closed_no_resolvable_ops_target",
+  "final_git_status_after_main_push": "## main...origin/main",
   "focused_tests": "94 passed",
   "full_pytest": "442 passed",
   "live_OPS_delivery_verified": false,
+  "main_commit_hash": "7580043",
   "mutation_guard": {
     "failed_checks": [],
     "ok": true
@@ -101,16 +103,17 @@
     "delivered": 0,
     "failed_closed_target_not_resolvable": 0,
     "queued": 1,
-    "retry_scheduled": 387
+    "retry_scheduled": 390
   },
   "ops_outbox_delivered_count": 0,
-  "ops_outbox_queued_count": 388,
+  "ops_outbox_queued_count": 391,
   "production_monitor_routing": {
     "fallback_channel_used": false,
     "severity": "info",
     "status": "production_daily_running",
     "target_channel": "AL-Hermoine-OPS"
   },
+  "push_result": "pushed via Hermes SSH fallback after normal push publickey failure",
   "recommended_next_run": "Run 58 \u2014 Recover/complete production-daily-20260620 stale run and wire stale monitor states into autonomous self-heal, while continuing degraded OPS operation through outbox.",
   "remaining_noncompliant_emitters": null,
   "routing_fixed": false,
@@ -122,10 +125,10 @@
   "status_metadata": {
     "component": "global_ops_routing_enforcement",
     "disposition": "run57_failed_closed_no_resolvable_ops_target",
-    "emitted_at_oslo_iso": "2026-06-20T18:59:53.686600+02:00",
-    "emitted_at_unix_ms": 1781974793686,
-    "emitted_at_unix_s": 1781974793,
-    "emitted_at_utc_iso": "2026-06-20T16:59:53.686600Z",
+    "emitted_at_oslo_iso": "2026-06-20T19:00:57.915599+02:00",
+    "emitted_at_unix_ms": 1781974857915,
+    "emitted_at_unix_s": 1781974857,
+    "emitted_at_utc_iso": "2026-06-20T17:00:57.915599Z",
     "fallback_channel_used": false,
     "run_id": "run57",
     "severity": "error",

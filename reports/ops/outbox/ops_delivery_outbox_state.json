@@ -2,11 +2,11 @@
   "counts_by_state": {
     "delivered": 0,
     "failed_closed_target_not_resolvable": 0,
-    "queued": 2,
+    "queued": 3,
     "retry_scheduled": 342
   },
   "delivered_count": 0,
-  "entry_count": 344,
+  "entry_count": 345,
   "fallback_channel_used": false,
   "pending_message_ids": [
     "ops-f7fcd763cd269722",
@@ -352,16 +352,17 @@
     "ops-baabb0e624175409",
     "ops-980e336653706ae2",
     "ops-80b07306abe664a4",
-    "ops-cdbb396890ded625"
+    "ops-cdbb396890ded625",
+    "ops-6fe49ec31efddb0e"
   ],
-  "queued_count": 344,
+  "queued_count": 345,
   "status_metadata": {
     "component": "ops_delivery_outbox",
     "disposition": "outbox_state",
-    "emitted_at_oslo_iso": "2026-06-20T08:58:39+02:00",
-    "emitted_at_unix_ms": 1781938719925,
-    "emitted_at_unix_s": 1781938719,
-    "emitted_at_utc_iso": "2026-06-20T06:58:39Z",
+    "emitted_at_oslo_iso": "2026-06-20T08:59:13+02:00",
+    "emitted_at_unix_ms": 1781938753245,
+    "emitted_at_unix_s": 1781938753,
+    "emitted_at_utc_iso": "2026-06-20T06:59:13Z",
     "run_id": "run54",
     "severity": "info",
     "status": "outbox_state",

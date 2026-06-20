@@ -40,5 +40,8 @@ status_metadata:
 - secrets scan: `{'finding_count': 0, 'ok': True}`
 - commit hash: `7580043`
 - push result: `pushed via Hermes SSH fallback after normal push publickey failure`
-- final git status after main push: `## main...origin/main`
+- final git status: `## main...origin/main`
 - recommended next run: Run 58 — Recover/complete production-daily-20260620 stale run and wire stale monitor states into autonomous self-heal, while continuing degraded OPS operation through outbox.
+
+- final status commit hash: `0ee14cc`
+- final push result: `pushed via Hermes SSH fallback`

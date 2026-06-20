@@ -2,7 +2,7 @@
   "all_chapter_public_proof_gate_wired": true,
   "all_chapter_public_proof_ok_current_book": false,
   "autonomous_closed_loop_iteration_coverage": true,
-  "commit_hash": "pending",
+  "commit_hash": "eac051b",
   "failed_chapters": [
     "context_memory",
     "hermes",
@@ -24,7 +24,7 @@
   "passed_chapters": [
     "agent_loop"
   ],
-  "push_result": "pending",
+  "push_result": "pushed_to_origin_main",
   "secrets_scan_findings": 0,
   "status_metadata": {
     "component": "closed_loop_manuscript_public_proof",
@@ -33,7 +33,7 @@
     "fallback_channel_used": false,
     "run_id": "run60",
     "severity": "success",
-    "status": "run60_ready_to_commit",
+    "status": "run60_completed_pushed",
     "target_channel": "AL-Hermoine-OPS",
     "timezone": "Europe/Oslo"
   },

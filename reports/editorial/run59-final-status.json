@@ -4,8 +4,9 @@
     "booklike_required_signals_missing"
   ],
   "baseline_public_ok": false,
-  "commit_hash": "1d1c1d8",
+  "commit_hash": "b964fe3",
   "fallback_channel_used": false,
+  "final_status_commit": "b964fe3",
   "focused_tests": "38 passed, then 33 passed after profile patch",
   "full_pytest": "456 passed",
   "git_diff_check": "passed",
@@ -15,6 +16,7 @@
   "ops_delivered_count": null,
   "ops_delivery": "ops_delivery_degraded_queued",
   "ops_queued_count": null,
+  "primary_work_commit": "1d1c1d8",
   "public_page_booklike": true,
   "push_result": "pushed_to_origin_main",
   "secrets_scan_findings": 0,

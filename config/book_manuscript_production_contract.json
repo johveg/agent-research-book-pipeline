@@ -1,0 +1,101 @@
+{
+  "chapters": {
+    "agent_loop": {
+      "publication_mode": "published_canary_existing",
+      "role": "core_concept_chapter",
+      "target_path": "docs/book/01-the-agent-loop.md",
+      "title": "The Agent Loop"
+    },
+    "context_memory": {
+      "publication_mode": "future_guarded_publish",
+      "role": "tool_case_chapter",
+      "target_path": "docs/book/05-context-memory-architecture.md",
+      "title": "Context and Memory Architecture"
+    },
+    "hermes": {
+      "publication_mode": "future_guarded_publish",
+      "role": "tool_case_chapter",
+      "target_path": "docs/book/02-hermes.md",
+      "title": "Hermes"
+    },
+    "introduction": {
+      "publication_mode": "guarded_publish_canary",
+      "required_sections": [
+        "opening thesis",
+        "scope",
+        "contribution",
+        "methodology preview",
+        "limitations",
+        "chapter roadmap"
+      ],
+      "role": "front_matter_chapter",
+      "target_path": "docs/book/introduction.md",
+      "title": "Introduction"
+    },
+    "loop_engineering": {
+      "publication_mode": "future_guarded_publish",
+      "role": "core_concept_chapter",
+      "target_path": "docs/book/04-loop-engineering.md",
+      "title": "Loop Engineering"
+    },
+    "methodology": {
+      "publication_mode": "future_guarded_publish",
+      "required_sections": [
+        "evidence sources",
+        "inclusion boundaries",
+        "claim status model",
+        "automation limits",
+        "reproducibility limits"
+      ],
+      "role": "foundation_chapter",
+      "target_path": "docs/book/methodology.md",
+      "title": "Methodology"
+    },
+    "openclaw": {
+      "publication_mode": "future_guarded_publish",
+      "role": "tool_case_chapter",
+      "target_path": "docs/book/03-openclaw.md",
+      "title": "OpenClaw"
+    },
+    "operating_loops": {
+      "publication_mode": "future_guarded_publish",
+      "role": "production_operations_chapter",
+      "target_path": "docs/book/06-operating-loops.md",
+      "title": "Operating Loops in Production"
+    }
+  },
+  "contract_name": "book_manuscript_production_contract",
+  "created_at_utc": "2026-06-20T18:57:59Z",
+  "forbidden_reader_facing_phrases": [
+    "Current evidence status",
+    "Source/claim mapping",
+    "Bullet 1 maps to",
+    "Editor notes",
+    "Changelog",
+    "Editorial policy",
+    "status supported",
+    "status weakly_supported",
+    "quality A",
+    "quality B",
+    "claim record",
+    "source tokens"
+  ],
+  "global_publication_mode": "guarded_one_chapter_at_a_time",
+  "hard_safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "reader_facing_rules": {
+    "forbid_evidence_ledger_language": true,
+    "forbid_internal_claim_source_ids": true,
+    "prefer_sustained_paragraphs": true,
+    "require_integrated_citations": true,
+    "require_limitations": true
+  },
+  "run_introduced": "run58",
+  "version": 1
+}

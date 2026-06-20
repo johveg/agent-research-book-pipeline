@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import argparse,hashlib,json,re,subprocess
+import argparse,hashlib,json,os,re,subprocess,urllib.parse,urllib.request
 from datetime import datetime,timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
-ROOT=Path(__file__).resolve().parents[1]; OPS_CHANNEL='AL-Hermoine-OPS'
+ROOT=Path(__file__).resolve().parents[1]; OPS_CHANNEL='AL-Hermoine-OPS'; OPS_PROFILE_HOME=Path('/root/.hermes/profiles/ops-bot')
 DEFAULT_OUTBOX=ROOT/'reports/ops/outbox/ops_delivery_outbox.jsonl'; DEFAULT_STATE=ROOT/'reports/ops/outbox/ops_delivery_outbox_state.json'; DEFAULT_ATTEMPTS=ROOT/'reports/ops/outbox/ops_delivery_attempts.jsonl'
 SECRET=[
     re.compile(r'-----BEGIN [A-Z ]*PRIVATE KEY-----',re.I),
@@ -27,8 +27,34 @@ def state(es,state=DEFAULT_STATE):
 def attempt_log(obj,attempts=DEFAULT_ATTEMPTS):
     Path(attempts).parent.mkdir(parents=True,exist_ok=True)
     with Path(attempts).open('a') as f: f.write(json.dumps(obj,sort_keys=True)+'\n')
+def _profile_env(profile_home=OPS_PROFILE_HOME):
+    env={}
+    p=Path(profile_home)/'.env'
+    if p.exists():
+        for line in p.read_text(errors='ignore').splitlines():
+            line=line.strip()
+            if not line or line.startswith('#') or '=' not in line: continue
+            k,v=line.split('=',1); env[k.strip()]=v.strip().strip('"').strip("'")
+    return {**os.environ, **env}
+
+def _telegram_api(token, method, data=None):
+    url=f'https://api.telegram.org/bot{token}/{method}'
+    body=urllib.parse.urlencode(data).encode() if data else None
+    req=urllib.request.Request(url,data=body) if body else urllib.request.Request(url)
+    with urllib.request.urlopen(req,timeout=20) as r: return json.loads(r.read().decode())
+
+def send_via_ops_bot_home(text, profile_home=OPS_PROFILE_HOME):
+    env=_profile_env(profile_home); token=env.get('TELEGRAM_BOT_TOKEN'); chat=env.get('TELEGRAM_HOME_CHANNEL') or env.get('TELEGRAM_CHAT_ID')
+    if not token or not chat: return {'ok':False,'error':'ops_profile_missing_token_or_home_channel','fallback_channel_used':False}
+    me=_telegram_api(token,'getMe'); sent=_telegram_api(token,'sendMessage',{'chat_id':chat,'text':text,'disable_notification':'true'})
+    res=sent.get('result',{})
+    return {'ok':bool(sent.get('ok')),'message_id':res.get('message_id'),'chat_type':res.get('chat',{}).get('type'),'bot_username':me.get('result',{}).get('username'),'bot_first_name':me.get('result',{}).get('first_name'),'delivery_profile':'ops-bot','delivery_target':'telegram','fallback_channel_used':False,'chat_id_redacted':'[REDACTED]'}
+
 def alias_resolves():
-    p=subprocess.run(['bash','-lc','hermes send --list telegram 2>/dev/null || true'],text=True,capture_output=True)
+    env=_profile_env();
+    if env.get('TELEGRAM_BOT_TOKEN') and (env.get('TELEGRAM_HOME_CHANNEL') or env.get('TELEGRAM_CHAT_ID')):
+        return True
+    p=subprocess.run(['bash','-lc','hermes --profile ops-bot send --list telegram 2>/dev/null || hermes send --list telegram 2>/dev/null || true'],text=True,capture_output=True)
     return OPS_CHANNEL in (p.stdout or '')
 def enqueue(message_md_path,message_json_path,component='run54_autonomy_acceleration',run_id='run54',status='safe_reports_only',severity='info',disposition='safe_reports_only',outbox=DEFAULT_OUTBOX,state_path=DEFAULT_STATE):
     md=Path(message_md_path); js=Path(message_json_path); text=(md.read_text(errors='ignore') if md.exists() else '')+'\n'+(js.read_text(errors='ignore') if js.exists() else '')
@@ -45,7 +71,13 @@ def attempt_delivery(outbox=DEFAULT_OUTBOX,state_path=DEFAULT_STATE,attempts=DEF
         if e.get('delivery_state')=='delivered': continue
         e['attempt_count']=int(e.get('attempt_count') or 0)+1; e['last_attempt_at_unix_s']=int(datetime.now(timezone.utc).timestamp())
         if not resolvable: e['delivery_state']='retry_scheduled'; e['last_error']='failed_closed_target_not_resolvable'
-        elif live: e['delivery_state']='retry_scheduled'; e['last_error']='live_delivery_requires_external_send_message_confirmation'
+        elif live:
+            body='OPS status via @al_hermoine_ops_bot\n\n'+(Path(e.get('message_md_path','')).read_text(errors='ignore') if e.get('message_md_path') and Path(e.get('message_md_path')).exists() else e.get('message_id_local',''))
+            conf=send_via_ops_bot_home(body)
+            if conf.get('ok') and conf.get('message_id'):
+                e['delivery_state']='delivered'; e['last_error']=None; e['delivery_confirmation']=conf
+            else:
+                e['delivery_state']='retry_scheduled'; e['last_error']=conf.get('error','ops_bot_home_delivery_failed'); e['delivery_confirmation']=conf
         else: e['delivery_state']='retry_scheduled'; e['last_error']='live_delivery_disabled'
         ids.append(e['message_id_local']); attempt_log({'message_id_local':e['message_id_local'],'alias_resolvable':resolvable,'live':live,'result_state':e['delivery_state'],'last_error':e.get('last_error'),'fallback_channel_used':False,**meta(status='ops_delivery_attempt',disposition=e['delivery_state'])},attempts)
     save(es,outbox); st=state(es,state_path); st['attempted_message_ids']=ids; st['ops_alias_resolvable']=resolvable; return st

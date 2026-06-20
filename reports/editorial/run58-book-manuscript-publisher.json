@@ -1,0 +1,18 @@
+{
+  "changed_paths": [
+    "docs/book/introduction.md"
+  ],
+  "chapter_canary_published": true,
+  "chapter_id": "introduction",
+  "docs_book_changed": true,
+  "evidence_safety_passed": true,
+  "fallback_channel_used": false,
+  "generated_at_utc": "2026-06-20T18:59:34Z",
+  "manuscript_quality_passed": true,
+  "ok": true,
+  "publication_candidate": true,
+  "published": true,
+  "published_path": "docs/book/introduction.md",
+  "run_id": "run58",
+  "weak_local_fallback_used": false
+}

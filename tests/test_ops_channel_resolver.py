@@ -55,3 +55,12 @@ def test_safe_add_alias_preserves_existing_and_refuses_fake_target(tmp_path):
     assert added["status"] == "ops_alias_resolved"
     data = json.loads(p.read_text())
     assert len(data["channels"]) == 2
+
+
+def test_ops_bot_home_alias_is_safe_private_delivery_contract():
+    directory = {'channels': [{'name': 'AL-Hermoine-OPS', 'platform': 'telegram', 'kind': 'ops_bot_home', 'delivery_profile': 'ops-bot', 'delivery_target': 'telegram'}]}
+    result = resolve_alias(directory, 'AL-Hermoine-OPS')
+    assert result['status'] == 'ops_alias_resolved'
+    assert result['delivery_profile'] == 'ops-bot'
+    assert result['delivery_target'] == 'telegram'
+    assert result['fallback_channel_used'] is False

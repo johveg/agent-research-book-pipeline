@@ -1,0 +1,157 @@
+{
+  "audience": [
+    "software engineers",
+    "technical leaders",
+    "AI governance practitioners",
+    "researchers of agentic software practice"
+  ],
+  "central_thesis": "This book treats agent loops as governable engineering systems: not merely prompts, not autonomous magic, but bounded operational arrangements that require evidence, verification, memory, escalation, and publication discipline.",
+  "chapter_id": "introduction",
+  "chapter_role": "front_matter_chapter",
+  "chapter_title": "Introduction",
+  "citation_policy": [
+    "Use bracketed references only when references are supplied in the draft packet",
+    "Do not invent external bibliographic claims",
+    "Do not expose raw claim/source IDs"
+  ],
+  "claims_not_made": [
+    "prompt engineering is dead",
+    "loop engineering is a settled discipline",
+    "Hermes or OpenClaw has broad adoption",
+    "the evidence proves industry consensus"
+  ],
+  "contribution": "A cautious academic/professional framing for turning practitioner evidence and local production loops into reader-facing prose through explicit quality gates.",
+  "created_at_utc": "2026-06-20T18:57:59Z",
+  "disposition": "manuscript_input_packet_created",
+  "draft_mode": "report_only_then_guarded_publish_canary",
+  "forbidden_reader_facing_phrases": [
+    "Current evidence status",
+    "Source/claim mapping",
+    "Bullet 1 maps to",
+    "Editor notes",
+    "Changelog",
+    "Editorial policy",
+    "status supported",
+    "status weakly_supported",
+    "quality A",
+    "quality B",
+    "claim record",
+    "source tokens"
+  ],
+  "inventory_context_pages": [
+    {
+      "missing_conceptual_framework": false,
+      "missing_literature_support": false,
+      "missing_methodology_support": true,
+      "path": "docs/book/01-the-agent-loop.md",
+      "recommended_role": "tool_case_chapter",
+      "title": "1. The Agent Loop"
+    },
+    {
+      "missing_conceptual_framework": true,
+      "missing_literature_support": false,
+      "missing_methodology_support": true,
+      "path": "docs/book/02-hermes.md",
+      "recommended_role": "tool_case_chapter",
+      "title": "2. Hermes"
+    },
+    {
+      "missing_conceptual_framework": true,
+      "missing_literature_support": false,
+      "missing_methodology_support": true,
+      "path": "docs/book/03-openclaw.md",
+      "recommended_role": "tool_case_chapter",
+      "title": "3. OpenClaw"
+    },
+    {
+      "missing_conceptual_framework": true,
+      "missing_literature_support": false,
+      "missing_methodology_support": true,
+      "path": "docs/book/04-loop-engineering.md",
+      "recommended_role": "core_concept_chapter",
+      "title": "4. Loop Engineering"
+    },
+    {
+      "missing_conceptual_framework": false,
+      "missing_literature_support": false,
+      "missing_methodology_support": true,
+      "path": "docs/book/05-context-memory-architecture.md",
+      "recommended_role": "tool_case_chapter",
+      "title": "5. Context and Memory Architecture"
+    },
+    {
+      "missing_conceptual_framework": false,
+      "missing_literature_support": false,
+      "missing_methodology_support": true,
+      "path": "docs/book/06-operating-loops.md",
+      "recommended_role": "tool_case_chapter",
+      "title": "6. Operating Loops in Production"
+    },
+    {
+      "missing_conceptual_framework": true,
+      "missing_literature_support": false,
+      "missing_methodology_support": true,
+      "path": "docs/book/open-questions.md",
+      "recommended_role": "research_agenda",
+      "title": "Open Questions"
+    },
+    {
+      "missing_conceptual_framework": false,
+      "missing_literature_support": false,
+      "missing_methodology_support": true,
+      "path": "docs/book/preface.md",
+      "recommended_role": "front_matter",
+      "title": "Preface"
+    }
+  ],
+  "ok": true,
+  "publication_safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "references": [
+    {
+      "reference": "Terefo Heal Reboa manuscript inventory and academic structure plan, internal reports, 2026.",
+      "token": "[1]"
+    },
+    {
+      "reference": "Run 56 Agent Loop manuscript conversion canary and manuscript quality contract, internal reports, 2026.",
+      "token": "[2]"
+    },
+    {
+      "reference": "Terefo closed-loop production, OPS routing, and publication-gate reports, internal evidence base, 2026.",
+      "token": "[3]"
+    }
+  ],
+  "report_only": true,
+  "required_caveats": [
+    "loop engineering remains emerging practitioner vocabulary",
+    "local case material does not establish industry-wide adoption",
+    "social or discovery signals are not confirmation",
+    "the book separates evidence ledgers from public chapter prose"
+  ],
+  "required_sections": [
+    "opening thesis",
+    "scope",
+    "contribution",
+    "methodology preview",
+    "limitations",
+    "chapter roadmap"
+  ],
+  "run_id": "run58",
+  "safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "scope": "Introduce the book's argument, define why closed-loop agent production matters, describe the manuscript's evidence boundaries, and preview the chapter structure without claiming settled consensus.",
+  "structure_plan_excerpt": "# Academic book structure plan\n\nGenerated: 2026-06-15T19:47:56Z\n\n- run_id: `run48`\n- report_only: `True`\n- docs_book_restructured: `False`\n\n## Recommended future structure\n\n### Front matter\n\n- Title page\n- Preface\n- Reader guide\n- Contribution summary\n\n### Part I Foundations\n\n- Introduction\n- Literature and Context\n- Conceptual Framework\n- Methodology\n\n### Part II Core Concepts\n\n- Closed-loop production\n- Evidence boundaries\n- Machine review and safety gates\n- Academic prose quality contract\n\n### Part III Tools and Case Material\n\n- Hermes as automation infrastructure\n- OpenClaw case material\n- Terefo Heal Reboa pipeline case\n- Tooling patterns and limits\n\n### Part IV Production Operations\n\n- Daily operation model\n- Publication validation\n- Monitoring and rollback\n- Operational caveats\n\n### Back Matter\n\n- Glossary\n- Source-quality schema\n- Claim-status schema\n- Bibliography\n- Appendix: evidence ledger and internal reports\n\n## Migration principles\n\n- Move claim/source ledger material out of chapter prose and into appendices or internal reports.\n- Give the book a clear thesis, contribution, methodology, literature/context chapter, and conceptual framework before expanding case chapters.\n- Use evidence as cited support for sustained paragraphs, not as raw status bullets.\n- Keep machine/editor workflow notes out of reader-facing pages.\n- Do not restructure docs/book until a later explicitly tested restructuring run.\n\n## Recommendation\n\nRun a report-only manuscript inventory that classifies existing docs/book pages against this structure before any rewrite.\n",
+  "target_path": "docs/book/introduction.md"
+}

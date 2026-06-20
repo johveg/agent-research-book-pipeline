@@ -32,3 +32,19 @@ def test_secrets_refused(tmp_path):
 def test_validate_target_channel_and_no_fallback(tmp_path):
     m=load(); md,js=msg(tmp_path); out=tmp_path/'out.jsonl'; st=tmp_path/'state.json'; m.enqueue(md,js,outbox=out,state_path=st)
     r=m.validate(out,st); assert r['ok'] is True; assert r['state']['target_channel']=='AL-Hermoine-OPS'
+
+
+def test_ops_profile_home_delivery_is_resolvable_and_delivered(monkeypatch,tmp_path):
+    m=load()
+    monkeypatch.setattr(m, 'alias_resolves', lambda: True)
+    monkeypatch.setattr(m, 'send_via_ops_bot_home', lambda text: {'ok': True, 'message_id': 44, 'chat_type': 'private', 'bot_username': 'al_hermoine_ops_bot', 'fallback_channel_used': False})
+    md,js=msg(tmp_path,'ops profile home delivery')
+    out=tmp_path/'out.jsonl'; st=tmp_path/'state.json'; att=tmp_path/'att.jsonl'
+    e=m.enqueue(md,js,outbox=out,state_path=st)
+    s=m.attempt_delivery(out,st,att,live=True)
+    assert s['delivered_count']==1
+    rec=json.loads(out.read_text().splitlines()[0])
+    assert rec['delivery_state']=='delivered'
+    assert rec['delivery_confirmation']['bot_username']=='al_hermoine_ops_bot'
+    assert rec['fallback_channel_used'] is False
+    assert 'Marius' not in out.read_text()

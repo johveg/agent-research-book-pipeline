@@ -793,6 +793,53 @@ def test_ops_channel_alias_resolution_profile_allows_run52_ops_only_and_blocks_p
     assert raw_blocked["ok"] is False
     assert "raw/capture.json" in raw_blocked["unexpected_changed_paths"]
 
+
+def test_closed_loop_manuscript_production_profile_allows_one_introduction_publish_and_blocks_other_book_paths():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    paths = [
+        "config/book_manuscript_production_contract.json",
+        "config/book_manuscript_queue.json",
+        "scripts/book_manuscript_contract.py",
+        "scripts/book_manuscript_input_packet.py",
+        "scripts/book_manuscript_publisher.py",
+        "scripts/protected_mutation_guard.py",
+        "tests/test_book_manuscript_production.py",
+        "tests/test_protected_mutation_guard.py",
+        "docs/book/introduction.md",
+        "reports/editorial/run58-book-manuscript-publisher.json",
+        "reports/manuscript/run58-introduction-draft.md",
+        "reports/architecture/run58-closed-loop-manuscript-production-evidence-map-20260620.md",
+        "reports/telegram/run58-status.md",
+    ]
+    after["git_status_short"] = [f" M {p}" for p in paths]
+    after["git_diff_names"] = paths
+    after["path_hashes"]["docs/book"] = {"tree_hash": "introduction-updated"}
+    after["report_safety_scan"] = {
+        "manuscript_quality_passed": True,
+        "evidence_safety_passed": True,
+        "chapter_canary_published": True,
+        "publication_candidate": True,
+        "fallback_channel_used": False,
+        "weak_local_fallback_used": False,
+    }
+    result = mod.compare_snapshots(before, after, "closed_loop_manuscript_production")
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    blocked_other = mod.compare_snapshots(before, changed("docs/book/02-hermes.md", " M"), "closed_loop_manuscript_production")
+    assert blocked_other["ok"] is False
+    assert "docs/book/02-hermes.md" in blocked_other["unexpected_changed_paths"]
+
+    gate_failed = changed("docs/book/introduction.md", " M")
+    gate_failed["path_hashes"]["docs/book"] = {"tree_hash": "intro-without-gates"}
+    gate_failed["report_safety_scan"] = {"manuscript_quality_passed": True, "evidence_safety_passed": False, "chapter_canary_published": True, "publication_candidate": True}
+    failed = mod.compare_snapshots(before, gate_failed, "closed_loop_manuscript_production")
+    assert failed["ok"] is False
+    assert "required_gate_missing:evidence_safety_passed" in failed["failed_checks"]
+
+
 def test_autonomy_acceleration_profile_allows_run54_control_plane_and_blocks_protected_paths():
     mod = load_module()
     before = base_snapshot()

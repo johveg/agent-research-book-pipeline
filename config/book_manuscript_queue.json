@@ -1,0 +1,111 @@
+{
+  "created_at_utc": "2026-06-20T18:57:59Z",
+  "queue": [
+    {
+      "chapter_id": "introduction",
+      "mode": "guarded_publish_canary",
+      "required_gates": [
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed"
+      ],
+      "status": "ready_for_run58",
+      "target_path": "docs/book/introduction.md"
+    },
+    {
+      "chapter_id": "methodology",
+      "mode": "future_guarded_publish",
+      "required_gates": [
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed"
+      ],
+      "status": "queued_after_introduction",
+      "target_path": "docs/book/methodology.md"
+    },
+    {
+      "chapter_id": "hermes",
+      "mode": "future_guarded_publish",
+      "required_gates": [
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed"
+      ],
+      "status": "queued_after_introduction",
+      "target_path": "docs/book/02-hermes.md"
+    },
+    {
+      "chapter_id": "openclaw",
+      "mode": "future_guarded_publish",
+      "required_gates": [
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed"
+      ],
+      "status": "queued_after_introduction",
+      "target_path": "docs/book/03-openclaw.md"
+    },
+    {
+      "chapter_id": "loop_engineering",
+      "mode": "future_guarded_publish",
+      "required_gates": [
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed"
+      ],
+      "status": "queued_after_introduction",
+      "target_path": "docs/book/04-loop-engineering.md"
+    },
+    {
+      "chapter_id": "context_memory",
+      "mode": "future_guarded_publish",
+      "required_gates": [
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed"
+      ],
+      "status": "queued_after_introduction",
+      "target_path": "docs/book/05-context-memory-architecture.md"
+    },
+    {
+      "chapter_id": "operating_loops",
+      "mode": "future_guarded_publish",
+      "required_gates": [
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed"
+      ],
+      "status": "queued_after_introduction",
+      "target_path": "docs/book/06-operating-loops.md"
+    }
+  ],
+  "queue_name": "book_manuscript_production_queue"
+}

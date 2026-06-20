@@ -63,7 +63,19 @@ def _entry_name(entry: dict[str, Any]) -> str:
     return str(entry.get("name") or entry.get("alias") or entry.get("display_name") or entry.get("title") or entry.get("label") or "")
 
 
+def _is_ops_bot_home(entry: dict[str, Any]) -> bool:
+    return (
+        _entry_name(entry) == OPS_ALIAS
+        and str(entry.get("platform", "telegram")).lower() == "telegram"
+        and entry.get("kind") == "ops_bot_home"
+        and entry.get("delivery_profile") == "ops-bot"
+        and entry.get("delivery_target") == "telegram"
+    )
+
+
 def _is_dm(entry: dict[str, Any]) -> bool:
+    if _is_ops_bot_home(entry):
+        return False
     blob = json.dumps(entry, ensure_ascii=False).lower()
     name = _entry_name(entry).lower()
     return "marius" in name or entry.get("kind") == "dm" or entry.get("type") == "dm" or "private" in blob
@@ -83,7 +95,7 @@ def resolve_alias(directory: Any, alias: str = OPS_ALIAS) -> dict[str, Any]:
     safe = [e for e in matches if not _is_dm(e) and str(e.get("platform", "telegram")).lower() == "telegram"]
     if not safe:
         return {"status": "ops_alias_unresolved", "alias": alias, "reason": "matched_alias_is_dm_or_non_telegram", "fallback_accepted": False, "fallback_channel_used": False}
-    return {"status": "ops_alias_resolved", "alias": alias, "is_dm": False, "fallback_accepted": False, "fallback_channel_used": False, "target_redacted": "[REDACTED]", "entry_redacted": sanitize_directory(safe[0])}
+    return {"status": "ops_alias_resolved", "alias": alias, "is_dm": False, "fallback_accepted": False, "fallback_channel_used": False, "target_redacted": "[REDACTED]", "delivery_profile": safe[0].get("delivery_profile"), "delivery_target": safe[0].get("delivery_target"), "entry_redacted": sanitize_directory(safe[0])}
 
 
 def load_directory(path: Path) -> Any:

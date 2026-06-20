@@ -1,0 +1,33 @@
+{
+  "bridge": "hermes_cli",
+  "command_shape": "timeout 180 hermes chat -Q --provider copilot -m gpt-5.5 --source tool -t safe -q '<strict-json-prompt>'",
+  "elapsed_seconds": 12.87,
+  "error": "",
+  "exit_code": 0,
+  "generated_at": "2026-06-20T06:56:45Z",
+  "llm_used": true,
+  "model": "gpt-5.5",
+  "model_profile": "explicit_cli",
+  "ok": true,
+  "output_paths": {
+    "json": "reports/editorial/run56-high-reasoning-canary.json",
+    "markdown": "reports/editorial/run56-high-reasoning-canary.md"
+  },
+  "parsed_json": {
+    "model": "gpt-5.5",
+    "ok": true,
+    "reasoning": "available"
+  },
+  "prompt_hash": "095e4a38e2a4e6fcfd36c450d631a21a1523f623ae44b1773bf4bc6acd21d414",
+  "provider": "copilot",
+  "reasoning_effort": "high",
+  "reasoning_status": "high_reasoning_used",
+  "schema_name": "canary",
+  "stderr_redacted": "\nsession_id: 20260620_065647_908dd2\n",
+  "stdout_hash": "683c072db70533001e5c5220f037d30485059619ea750ba825f440f99ac7cf72",
+  "stdout_json_valid": true,
+  "strict_json_required": true,
+  "task_class": "closed_loop_editorial",
+  "timed_out": false,
+  "weak_local_fallback_refused": true
+}

@@ -121,6 +121,40 @@ PROFILES: dict[str, dict[str, Any]] = {
         "allow_sqlite_physical_hash_drift_without_logical_delta": True,
         "future_disabled": False,
     },
+    "manuscript_chapter_conversion_canary": {
+        "allowed": [
+            "config/manuscript_quality_contract.json",
+            "scripts/manuscript_quality_contract.py",
+            "scripts/chapter_packet_builder.py",
+            "scripts/academic_chapter_draft.py",
+            "scripts/manuscript_quality_gate.py",
+            "scripts/chapter_evidence_safety_gate.py",
+            "scripts/chapter_developmental_review.py",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_manuscript_quality_contract.py",
+            "tests/test_chapter_packet_builder.py",
+            "tests/test_academic_chapter_draft.py",
+            "tests/test_manuscript_quality_gate.py",
+            "tests/test_chapter_evidence_safety_gate.py",
+            "tests/test_chapter_developmental_review.py",
+            "tests/test_protected_mutation_guard.py",
+            "docs/research/manuscript-style-guide.md",
+            "docs/book/01-the-agent-loop.md",
+            "reports/editorial/run56-*.json",
+            "reports/editorial/run56-*.md",
+            "reports/manuscript/run56-*.json",
+            "reports/manuscript/run56-*.md",
+            "reports/architecture/run56-*.md",
+            "reports/telegram/run56-status.md",
+            "reports/ops/outbox/*",
+        ],
+        "allow_db": {},
+        "allow_protected_path_delta": ["docs/book"],
+        "allow_sqlite_physical_hash_drift_without_logical_delta": True,
+        "future_disabled": False,
+        "enforce_required_gates": True,
+        "required_gates": ["manuscript_quality_passed", "evidence_safety_passed", "developmental_review_publish_canary", "publication_candidate"],
+    },
     "db_write_source_notes_only": {
         "allowed": ["reports/**"],
         "allow_db": {"counts": ["source_notes"], "hashes": ["source_notes_hash"]},
@@ -629,6 +663,12 @@ def _scan_changed_report_files(root: Path, changed_paths: list[str]) -> tuple[bo
         "fallback_channel_used",
         "canonical_production_log_exists",
         "fake_completed_production_without_canonical_log",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "developmental_review_publish_canary",
+        "publication_candidate",
+        "chapter_canary_published",
+        "evidence_led_public_chapter_body",
     ]
     for rel in changed_paths:
         if not rel.startswith("reports/") or not rel.endswith(".json"):
@@ -768,6 +808,8 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
         failed.append("fake_completed_production_without_canonical_log")
     if merged_scan.get("production_daily_completed") is True and merged_scan.get("canonical_production_log_exists") is False:
         failed.append("fake_completed_production_without_canonical_log")
+    if merged_scan.get("evidence_led_public_chapter_body") is True:
+        failed.append("evidence_led_public_chapter_body")
     for flag, value in hard_flags.items():
         if value:
             failed.append(f"hard_flag_true:{flag}")

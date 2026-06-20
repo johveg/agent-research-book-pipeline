@@ -156,6 +156,70 @@ def test_academic_introduction_profile_allows_run50_reports_and_blocks_book_muta
     assert "docs/book/introduction.md" in blocked["unexpected_changed_paths"]
 
 
+def test_manuscript_chapter_conversion_canary_allows_only_agent_loop_and_reports():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    after["git_status_short"] = [
+        "?? config/manuscript_quality_contract.json",
+        "?? scripts/manuscript_quality_contract.py",
+        "?? scripts/chapter_packet_builder.py",
+        "?? scripts/academic_chapter_draft.py",
+        "?? scripts/manuscript_quality_gate.py",
+        "?? scripts/chapter_evidence_safety_gate.py",
+        "?? scripts/chapter_developmental_review.py",
+        " M scripts/protected_mutation_guard.py",
+        "?? tests/test_manuscript_quality_contract.py",
+        "?? tests/test_chapter_packet_builder.py",
+        "?? tests/test_academic_chapter_draft.py",
+        "?? tests/test_manuscript_quality_gate.py",
+        "?? tests/test_chapter_evidence_safety_gate.py",
+        "?? tests/test_chapter_developmental_review.py",
+        " M tests/test_protected_mutation_guard.py",
+        "?? docs/research/manuscript-style-guide.md",
+        "?? reports/editorial/run56-manuscript-contract.json",
+        "?? reports/manuscript/run56-01-the-agent-loop-academic-draft.md",
+        "?? reports/architecture/run56-agent-loop-manuscript-conversion-evidence-map-20260620.md",
+        "?? reports/telegram/run56-status.md",
+        " M docs/book/01-the-agent-loop.md",
+    ]
+    after["path_hashes"]["docs/book"] = {"tree_hash": "agent-loop-canary-updated"}
+    after["report_safety_scan"] = {
+        "manuscript_quality_passed": True,
+        "evidence_safety_passed": True,
+        "developmental_review_publish_canary": True,
+        "publication_candidate": True,
+        "chapter_canary_published": True,
+        "fallback_channel_used": False,
+        "weak_local_fallback_used": False,
+    }
+    result = mod.compare_snapshots(before, after, "manuscript_chapter_conversion_canary")
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    blocked_other = mod.compare_snapshots(before, changed("docs/book/02-hermes.md", " M"), "manuscript_chapter_conversion_canary")
+    assert blocked_other["ok"] is False
+    assert "docs/book/02-hermes.md" in blocked_other["unexpected_changed_paths"]
+
+    gate_failed = changed("docs/book/01-the-agent-loop.md", " M")
+    gate_failed["path_hashes"]["docs/book"] = {"tree_hash": "agent-loop-updated-without-gates"}
+    gate_failed["report_safety_scan"] = {"manuscript_quality_passed": False, "evidence_safety_passed": True, "publication_candidate": True}
+    failed = mod.compare_snapshots(before, gate_failed, "manuscript_chapter_conversion_canary")
+    assert failed["ok"] is False
+    assert "required_gate_missing:manuscript_quality_passed" in failed["failed_checks"]
+
+
+def test_manuscript_canary_profile_blocks_fallback_and_evidence_led_public_body():
+    mod = load_module()
+    before = base_snapshot()
+    after = changed("reports/editorial/run56-evidence-led-public-body.json")
+    after["report_safety_scan"] = {"evidence_led_public_chapter_body": True, "fallback_channel_used": True}
+    result = mod.compare_snapshots(before, after, "manuscript_chapter_conversion_canary")
+    assert result["ok"] is False
+    assert "fallback_channel_used" in result["failed_checks"]
+    assert "evidence_led_public_chapter_body" in result["failed_checks"]
+
+
 def test_ops_status_routing_scheduler_repair_profile_allows_run51_scope_and_blocks_book_mutation():
     mod = load_module()
     before = base_snapshot()

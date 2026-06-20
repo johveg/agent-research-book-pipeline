@@ -1,0 +1,53 @@
+# Run 56 manuscript baseline
+
+```json
+{
+  "academic_maturity_estimate": "low: evidence ledger rendered as reader-facing chapter",
+  "chapter_headings": [
+    "Current evidence status",
+    "Source/claim mapping",
+    "Editor notes",
+    "Changelog",
+    "Editorial policy",
+    "References"
+  ],
+  "chapter_path": "docs/book/01-the-agent-loop.md",
+  "chapter_title": "# 1. The Agent Loop",
+  "citation_reference_state": {
+    "has_references_section": true,
+    "reference_count": 9
+  },
+  "classification": "evidence_led",
+  "counts": {
+    "claim_mapping_phrases": 9,
+    "editor_changelog_policy_sections": 3,
+    "evidence_status_headings": 1,
+    "quality_labels": 9,
+    "references": 9,
+    "status_labels": 8
+  },
+  "created_at_utc": "2026-06-20T06:44:59.281882+00:00",
+  "git_state": [
+    "## main...origin/main",
+    " M reports/ops/outbox/ops_delivery_outbox_state.json"
+  ],
+  "iteration_budget_request": "240 unsupported by available tools; recorded and proceeding with phase checkpoints",
+  "ops_outbox_state": {
+    "delivered_count": 0,
+    "entry_count": 341,
+    "fallback_channel_used": false,
+    "queued_count": 341
+  },
+  "production_monitor_status": {
+    "fallback_channel_used": false,
+    "run_id": "production-daily-20260620",
+    "severity": "info",
+    "status": "production_daily_running",
+    "target_channel": "AL-Hermoine-OPS",
+    "warnings": []
+  },
+  "required_artifacts_missing": [],
+  "run_id": "run56",
+  "title": "Academic manuscript layer and Agent Loop chapter conversion canary"
+}
+```

@@ -1,0 +1,33 @@
+{
+  "argument_clear": true,
+  "changes_before_publication": [],
+  "created_at_utc": "2026-06-20T06:50:41.036555+00:00",
+  "model_metadata": {
+    "bridge": "hermes_cli",
+    "model": "gpt-5.5",
+    "provider": "copilot",
+    "reasoning_profile": "closed_loop_editorial",
+    "strict_json": true,
+    "weak_local_fallback": false,
+    "weak_local_fallback_used": false
+  },
+  "reads_like_book_chapter": true,
+  "recommendation": "publish_canary",
+  "review_status": "developmental_review_completed",
+  "safe_to_use_as_canary_public_chapter": true,
+  "safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "sources_synthesized_not_listed": true,
+  "useful_to_professional_reader": true,
+  "validation": {
+    "failed_checks": [],
+    "ok": true
+  },
+  "weak_claims_caveated": true
+}

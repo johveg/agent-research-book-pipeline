@@ -1,0 +1,84 @@
+{
+  "contract_name": "manuscript_quality_contract",
+  "version": 1,
+  "run_introduced": "run56",
+  "layers": {
+    "evidence_layer": [
+      "claims",
+      "source_registry",
+      "confidence_status",
+      "citation_tokens",
+      "editorial_notes",
+      "internal_traceability",
+      "source_claim_mapping"
+    ],
+    "manuscript_layer": [
+      "argument_led_prose",
+      "definitions",
+      "synthesis_across_sources",
+      "careful_citations",
+      "limitations",
+      "transitions",
+      "reader_facing_structure",
+      "no_exposed_internal_workflow_machinery"
+    ]
+  },
+  "required_reader_facing_elements": [
+    "chapter_title",
+    "opening_thesis_paragraph",
+    "conceptual_framing",
+    "analytical_sections",
+    "integrated_citations",
+    "limitations_where_needed",
+    "conclusion_or_transition",
+    "references"
+  ],
+  "forbidden_reader_facing_phrases": [
+    "Current evidence status",
+    "Source/claim mapping",
+    "Bullet 1 maps to",
+    "maps to supported claim",
+    "status supported",
+    "status weakly_supported",
+    "quality A",
+    "quality B",
+    "Generated Author output",
+    "Editor notes",
+    "Changelog",
+    "Editorial policy",
+    "claim record",
+    "source tokens"
+  ],
+  "allowed_evidence_machinery_locations": [
+    "reports/editorial/",
+    "reports/manuscript/",
+    "docs/research/",
+    "docs/appendices/",
+    "local_source_registry",
+    "editorial_database"
+  ],
+  "blocked_overclaims": [
+    "prompt engineering is dead",
+    "settled academic discipline",
+    "industry consensus",
+    "universal adoption",
+    "proven industry transition"
+  ],
+  "caveat_terms": [
+    "emerging",
+    "limited",
+    "cautious",
+    "practitioner discourse",
+    "does not establish",
+    "not settled",
+    "weak evidence"
+  ],
+  "hard_safety_flags": [
+    "author_allowed",
+    "publication_approved",
+    "eligible_for_claim_insertion",
+    "eligible_for_authoring",
+    "eligible_for_publication",
+    "chapter_update_allowed"
+  ]
+}

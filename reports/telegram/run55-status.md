@@ -32,6 +32,10 @@ status_metadata:
 - full verification: verify_book_workspace ok; verify_editorial_roles ok; verify_book_citations ok; mkdocs strict ok; git diff --check ok
 - mutation guard: ok `True`, failed_checks `[]`
 - secrets scan: ok `True`, findings `0`
-- Terefo commit hash: `pending`
-- push result: `pending`
+- Terefo commit hash: `88dbb45`
+- push result: `pushed_with_hermes_key_or_configured_ssh`
 - recommended next run: Run 56 — Methodology chapter/appendix report-only draft and quality gate.
+- final git status after first push: `## main...origin/main`
+- final status commit hash: `bc440da`
+- final push result: `pushed_with_hermes_key_or_configured_ssh`
+- final git status: `## main...origin/main`

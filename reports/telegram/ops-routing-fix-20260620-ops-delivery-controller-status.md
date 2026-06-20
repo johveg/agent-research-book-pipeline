@@ -1,0 +1,25 @@
+# ops-routing-fix-20260620 OPS delivery controller status
+
+```json
+{
+  "delivery_profile": "ops-bot",
+  "delivery_target": "telegram",
+  "fallback_channel_used": false,
+  "ops_alias_resolvable": true,
+  "status_metadata": {
+    "component": "ops_delivery_controller",
+    "disposition": "ops_alias_unresolved_retry_scheduled",
+    "emitted_at_oslo_iso": "2026-06-20T19:44:21+02:00",
+    "emitted_at_unix_ms": 1781977461646,
+    "emitted_at_unix_s": 1781977461,
+    "emitted_at_utc_iso": "2026-06-20T17:44:21Z",
+    "run_id": "ops-routing-fix-20260620",
+    "severity": "warning",
+    "status": "ops_delivery_degraded_queued",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  },
+  "summary": "ops-routing-fix-20260620 OPS delivery controller status. No fallback channel used.",
+  "target_channel": "AL-Hermoine-OPS"
+}
+```

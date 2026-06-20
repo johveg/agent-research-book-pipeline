@@ -15,9 +15,11 @@
       "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
         "terms": [
+          "AL-Hermoine-OPS",
           "Hermoine",
           "OPS",
           "telegram",
+          "channel",
           "target",
           "chat"
         ]
@@ -29,6 +31,7 @@
       "redacted_match": {
         "path": "/root/.hermes/cron/jobs.json",
         "terms": [
+          "AL-Hermoine-OPS",
           "Hermoine",
           "OPS",
           "telegram",
@@ -116,6 +119,19 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/terefo_production_daily_monitor_status.sh",
+        "terms": [
+          "Hermoine",
+          "telegram",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_monitor_watchdog.sh",
         "terms": [
           "Hermoine",
@@ -165,11 +181,42 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.run57-bak-20260620T163633Z",
         "terms": [
           "Hermoine",
           "OPS",
           "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.bak-ops-routing-20260620T175034Z",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "channel",
           "target",
           "chat"
         ]
@@ -209,9 +256,13 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/ee797a8af0bf/2026-06-12_23-47-39.md",
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_18-20-41.md",
         "terms": [
-          "OPS"
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
         ]
       },
       "source": "/root/.hermes/profiles/ops-bot"
@@ -219,9 +270,13 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/ee797a8af0bf/2026-06-13_00-47-40.md",
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-51-20.md",
         "terms": [
-          "OPS"
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
         ]
       },
       "source": "/root/.hermes/profiles/ops-bot"
@@ -229,29 +284,10 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/552d9697f7ae/2026-06-15_23-06-15.md",
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-50-59.md",
         "terms": [
-          "Hermoine"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/552d9697f7ae/2026-06-13_23-04-43.md",
-        "terms": [
-          "Hermoine"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/552d9697f7ae/2026-06-14_23-04-08.md",
-        "terms": [
-          "Hermoine"
+          "Hermoine",
+          "telegram"
         ]
       },
       "source": "/root/.hermes/profiles/ops-bot"
@@ -799,6 +835,8 @@
     }
   ],
   "candidate_confidence": "low",
+  "delivery_profile": null,
+  "delivery_target": null,
   "fallback_channel_used": false,
   "files_inspected": [
     {
@@ -854,9 +892,11 @@
         {
           "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
           "terms": [
+            "AL-Hermoine-OPS",
             "Hermoine",
             "OPS",
             "telegram",
+            "channel",
             "target",
             "chat"
           ]
@@ -871,6 +911,7 @@
         {
           "path": "/root/.hermes/cron/jobs.json",
           "terms": [
+            "AL-Hermoine-OPS",
             "Hermoine",
             "OPS",
             "telegram",
@@ -997,6 +1038,15 @@
           ]
         },
         {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/terefo_production_daily_monitor_status.sh",
+          "terms": [
+            "Hermoine",
+            "telegram",
+            "channel",
+            "target"
+          ]
+        },
+        {
           "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_monitor_watchdog.sh",
           "terms": [
             "Hermoine",
@@ -1030,11 +1080,34 @@
           ]
         },
         {
-          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.run57-bak-20260620T163633Z",
           "terms": [
             "Hermoine",
             "OPS",
             "telegram",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.bak-ops-routing-20260620T175034Z",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "channel",
             "target",
             "chat"
           ]
@@ -1065,33 +1138,30 @@
           ]
         },
         {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/ee797a8af0bf/2026-06-12_23-47-39.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_18-20-41.md",
           "terms": [
-            "OPS"
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
           ]
         },
         {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/ee797a8af0bf/2026-06-13_00-47-40.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-51-20.md",
           "terms": [
-            "OPS"
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
           ]
         },
         {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/552d9697f7ae/2026-06-15_23-06-15.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-50-59.md",
           "terms": [
-            "Hermoine"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/552d9697f7ae/2026-06-13_23-04-43.md",
-          "terms": [
-            "Hermoine"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/552d9697f7ae/2026-06-14_23-04-08.md",
-          "terms": [
-            "Hermoine"
+            "Hermoine",
+            "telegram"
           ]
         }
       ],
@@ -1754,7 +1824,7 @@
       "path": "/root/.hermes/profiles/ops-bot/config.yaml"
     }
   ],
-  "ops_alias_found": false,
+  "ops_alias_found": true,
   "ops_alias_resolvable": false,
   "reload_required": true,
   "repair_action": "no_safe_repair_candidate_do_not_invent_alias",
@@ -1762,10 +1832,10 @@
   "status_metadata": {
     "component": "ops_channel_autodiscovery",
     "disposition": "ops_alias_unresolved_retry_scheduled",
-    "emitted_at_oslo_iso": "2026-06-16T22:00:04+02:00",
-    "emitted_at_unix_ms": 1781640004276,
-    "emitted_at_unix_s": 1781640004,
-    "emitted_at_utc_iso": "2026-06-16T20:00:04Z",
+    "emitted_at_oslo_iso": "2026-06-20T21:15:05+02:00",
+    "emitted_at_unix_ms": 1781982905137,
+    "emitted_at_unix_s": 1781982905,
+    "emitted_at_utc_iso": "2026-06-20T19:15:05Z",
     "run_id": "run54",
     "severity": "warning",
     "status": "ops_alias_unresolved_retry_scheduled",

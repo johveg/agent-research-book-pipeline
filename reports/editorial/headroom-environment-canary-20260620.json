@@ -1,0 +1,75 @@
+{
+  "all_quality_gates_pass": false,
+  "all_secret_scans_pass": true,
+  "allowed_next_step": "selective_use_for_openclaw_results_openclaw_events_linkedin_posts_only_with_quality_gate_and_raw_fallback",
+  "average_wall_time_ms": 158.767,
+  "blocked_next_step": "global_proxy_or_compress_all_jsonl_event_ledgers",
+  "canary_report_json": "/home/hermoine/headroom-canary/20260620/report.json",
+  "canary_report_md": "/home/hermoine/headroom-canary/20260620/report.md",
+  "component": "headroom_environment_canary",
+  "compression_ratio": 0.7170250620510905,
+  "decision": "no_broad_environment_rollout_yet",
+  "durable_install": "/home/hermoine/headroom-venv",
+  "emitted_at_utc_iso": "2026-06-20T18:22:11Z",
+  "failed_artifacts": [
+    {
+      "failed_gates": [
+        "error_preserved",
+        "paths_preserved",
+        "status_preserved"
+      ],
+      "label": "terefo_events",
+      "path": "/home/hermoine/terefohealreboa/logs/closed_loop/events.jsonl"
+    }
+  ],
+  "headroom_version": "0.26.0",
+  "inputs": 7,
+  "no_benefit_but_safe_artifacts": [
+    {
+      "label": "terefo_production_log",
+      "path": "/home/hermoine/terefohealreboa/logs/runs/production-daily-20260620.log",
+      "transforms": [
+        "router:noop"
+      ]
+    },
+    {
+      "label": "terefo_ops_controller_log",
+      "path": "/home/hermoine/terefohealreboa/logs/runs/ops-delivery-controller-20260620T181501Z.log",
+      "transforms": [
+        "router:protected:error_output"
+      ]
+    },
+    {
+      "label": "openclaw_full_index",
+      "path": "/home/hermoine/openclaw-hermes-web-watch/full_index.log",
+      "transforms": [
+        "router:noop"
+      ]
+    }
+  ],
+  "reason": "one Terefo closed-loop JSONL event ledger lost required error/status/path facts under default Headroom compression despite strong aggregate token savings",
+  "runner": "/home/hermoine/headroom-canary-runner.py",
+  "selective_ok_artifacts": [
+    {
+      "compression_ratio": 0.6202812731310141,
+      "label": "openclaw_results",
+      "path": "/home/hermoine/openclaw-hermes-web-watch/data/web-captures/openclaw-hermes/20260616T230017Z/results.jsonl",
+      "tokens_saved": 8380
+    },
+    {
+      "compression_ratio": 0.6866825884226089,
+      "label": "openclaw_events",
+      "path": "/home/hermoine/openclaw-hermes-web-watch/data/web-captures/openclaw-hermes/20260616T230017Z/events.jsonl",
+      "tokens_saved": 6038
+    },
+    {
+      "compression_ratio": 0.6320987654320988,
+      "label": "linkedin_posts",
+      "path": "/home/hermoine/linkedin-24h-watch/data/search-captures/20260616T040011Z-openclaw-hermes/posts.jsonl",
+      "tokens_saved": 1536
+    }
+  ],
+  "tokens_after": 12883,
+  "tokens_before": 45527,
+  "tokens_saved": 32644
+}

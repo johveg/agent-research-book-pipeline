@@ -1,0 +1,90 @@
+{
+  "active_profile": "default",
+  "auto_repair_attempts": [
+    {
+      "attempt": "verify both Telegram bot tokens with getMe",
+      "result": "success",
+      "secrets_printed": false
+    },
+    {
+      "attempt": "discover historical Telegram chats via getUpdates",
+      "result": "no group/channel/private OPS chat updates available"
+    },
+    {
+      "attempt": "probe @al_hermoine_ops_bot as chat target from main bot",
+      "result": "failed_closed_USER_BOT_TO_BOT_DISABLED"
+    },
+    {
+      "attempt": "probe @al_hermoine_ops_bot as chat target from ops bot",
+      "result": "failed_closed_bot_cannot_send_to_bot"
+    }
+  ],
+  "channel_directory_state": {
+    "default_targets": [
+      "telegram:Marius (dm)"
+    ],
+    "ops_profile_targets": [
+      "telegram:Marius (dm)"
+    ],
+    "required_alias": "AL-Hermoine-OPS",
+    "required_alias_resolvable_in_default": false,
+    "required_alias_resolvable_in_ops_profile": false
+  },
+  "component": "ops_routing_auto_repair_probe",
+  "emitted_at_utc_iso": "2026-06-20T17:30:37Z",
+  "files_inspected": [
+    "/root/.hermes/channel_directory.json",
+    "/root/.hermes/profiles/ops-bot/channel_directory.json",
+    "/root/.hermes/.env",
+    "/root/.hermes/profiles/ops-bot/.env",
+    "/root/.hermes/config.yaml",
+    "/root/.hermes/profiles/ops-bot/config.yaml",
+    "/root/.hermes/cron/jobs.json",
+    "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+    "/home/ubuntu/.hermes/hermes-agent/gateway/channel_directory.py",
+    "/home/ubuntu/.hermes/hermes-agent/tools/send_message_tool.py"
+  ],
+  "gateway_processes": {
+    "default_running": true,
+    "ops_bot_running": true
+  },
+  "live_delivery": {
+    "attempted_probe_to_ops_bot_username": true,
+    "attempted_to_required_alias": false,
+    "dm_or_home_used_as_substitute": false,
+    "fallback_channel_used": false,
+    "message_id": null,
+    "succeeded": false
+  },
+  "notes": "No alias was fabricated and no fallback/default/home/DM delivery was used.",
+  "ops_profile": "ops-bot",
+  "required_external_action": [
+    "Create or choose a real Telegram destination for ops notifications: a group/supergroup/channel or a user DM that has started the ops bot.",
+    "Add the ops bot al_hermoine_ops_bot to that destination and send at least one message/mention there so Hermes can discover it, or provide the destination as an explicit Telegram target out of band.",
+    "Then add a channel-directory entry named AL-Hermoine-OPS pointing to that real chat, not to the bot username and not to Marius DM; restart/rebuild Hermes gateway; rerun one explicit live test."
+  ],
+  "root_cause": [
+    "Hermes channel_directory is built from session history for Telegram; only the Marius DM session exists in default and ops-bot profiles.",
+    "The string AL-Hermoine-OPS refers to the ops Telegram bot identity/username, not a Telegram chat/channel that a bot can send to.",
+    "Telegram Bot API forbids bot-to-bot messages, so @al_hermoine_ops_bot cannot be used as a delivery chat target."
+  ],
+  "run_id": "ops-unresolved-auto-fix-20260620",
+  "safe_fix_available_without_user_or_channel_update": false,
+  "severity": "warning",
+  "status": "partial_auto_repair_completed_destination_not_deliverable",
+  "telegram_identities": {
+    "default_bot": {
+      "first_name": "AL-Hermione",
+      "token_present": true,
+      "username": "al_hermione_bot"
+    },
+    "ops_bot": {
+      "first_name": "AL-Hermoine-OPS",
+      "token_present": true,
+      "username": "al_hermoine_ops_bot"
+    }
+  },
+  "tests": {
+    "focused_ops_routing_outbox": "24 passed"
+  }
+}

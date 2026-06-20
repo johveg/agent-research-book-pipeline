@@ -1,0 +1,1485 @@
+{
+  "active_channel_directory": "/root/.hermes/profiles/ops-bot/.env",
+  "active_profile": "ops-bot",
+  "available_telegram_aliases": [
+    "telegram:",
+    "telegram:Marius  [[REDACTED_NUMERIC_ID]]"
+  ],
+  "can_repair_safely": true,
+  "candidate_aliases": [
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/channel_directory.json",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "channel",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot/channel_directory.json"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot/cron/jobs.json"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/cron/jobs.json",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/cron/jobs.json"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/channel_directory.json",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "channel",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/.skills_prompt_snapshot.json",
+        "terms": [
+          "OPS"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/config.yaml",
+        "terms": [
+          "Hermoine",
+          "telegram",
+          "channel",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_watchdog.sh",
+        "terms": [
+          "Hermoine"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_daily_start.sh",
+        "terms": [
+          "Hermoine"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_status.sh",
+        "terms": [
+          "Hermoine"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/openclaw_hermes_daily_web_search.sh",
+        "terms": [
+          "Hermoine",
+          "OPS"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_start.sh",
+        "terms": [
+          "Hermoine"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_monitor_watchdog.sh",
+        "terms": [
+          "Hermoine",
+          "OPS"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_daily_status.sh",
+        "terms": [
+          "Hermoine"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.jobs.json.run51.bak",
+        "terms": [
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.bak.activate-ops",
+        "terms": [
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.run57-bak-20260620T163633Z",
+        "terms": [
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/run_agent.py",
+        "terms": [
+          "OPS",
+          "channel",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/model_tools.py",
+        "terms": [
+          "OPS",
+          "telegram",
+          "chat"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/Dockerfile",
+        "terms": [
+          "OPS",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/pyproject.toml",
+        "terms": [
+          "OPS",
+          "telegram",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/.hadolint.yaml",
+        "terms": [
+          "OPS",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/CONTRIBUTING.md",
+        "terms": [
+          "OPS",
+          "telegram",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/docker-compose.yml",
+        "terms": [
+          "OPS",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/toolsets.py",
+        "terms": [
+          "OPS",
+          "telegram",
+          "channel",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/hermes_state.py",
+        "terms": [
+          "OPS",
+          "telegram",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/AGENTS.md",
+        "terms": [
+          "OPS",
+          "telegram",
+          "channel",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/cli-config.yaml.example",
+        "terms": [
+          "OPS",
+          "telegram",
+          "channel",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/scripts/install.sh",
+        "terms": [
+          "OPS",
+          "telegram",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/scripts/install.ps1",
+        "terms": [
+          "OPS",
+          "telegram",
+          "channel",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/scripts/release.py",
+        "terms": [
+          "OPS",
+          "telegram",
+          "channel",
+          "target",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/scripts/whatsapp-bridge/bridge.js",
+        "terms": [
+          "OPS",
+          "chat",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/DESIGN.md",
+        "terms": [
+          "OPS",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/eslint.config.mjs",
+        "terms": [
+          "OPS",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/package.json",
+        "terms": [
+          "OPS",
+          "target"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/profile-typing-lag.md",
+        "terms": [
+          "OPS",
+          "chat"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/page-loader.tsx",
+        "terms": [
+          "OPS"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/desktop-install-overlay.tsx",
+        "terms": [
+          "OPS",
+          "channel"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/brand-mark.tsx",
+        "terms": [
+          "OPS"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/status-dot.tsx",
+        "terms": [
+          "OPS"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/model-picker.tsx",
+        "terms": [
+          "OPS",
+          "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/error-boundary.tsx",
+        "terms": [
+          "OPS",
+          "chat"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/model-visibility-dialog.tsx",
+        "terms": [
+          "OPS",
+          "target"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/language-switcher.tsx",
+        "terms": [
+          "OPS"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/config.yaml",
+        "terms": [
+          "Hermoine",
+          "telegram",
+          "channel",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/config.yaml"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/config.yaml",
+        "terms": [
+          "Hermoine",
+          "telegram",
+          "channel",
+          "target",
+          "chat"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot/config.yaml"
+    }
+  ],
+  "candidate_confidence": "high",
+  "delivery_profile": "ops-bot",
+  "delivery_target": "telegram",
+  "fallback_channel_used": false,
+  "files_inspected": [
+    {
+      "exists": true,
+      "is_dir": false,
+      "matches": [
+        {
+          "path": "/root/.hermes/channel_directory.json",
+          "terms": [
+            "telegram",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/channel_directory.json",
+          "telegram_entry": {
+            "id": "[REDACTED]",
+            "name": "Marius",
+            "thread_id": "[REDACTED]",
+            "type": "dm"
+          }
+        }
+      ],
+      "path": "/root/.hermes/channel_directory.json"
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "matches": [
+        {
+          "path": "/root/.hermes/profiles/ops-bot/channel_directory.json",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "channel",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/channel_directory.json",
+          "telegram_entry": {
+            "id": "[REDACTED]",
+            "name": "Marius",
+            "thread_id": "[REDACTED]",
+            "type": "dm"
+          }
+        }
+      ],
+      "path": "/root/.hermes/profiles/ops-bot/channel_directory.json"
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "matches": [
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "target",
+            "chat"
+          ]
+        }
+      ],
+      "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json"
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "matches": [
+        {
+          "path": "/root/.hermes/cron/jobs.json",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "target",
+            "chat"
+          ]
+        }
+      ],
+      "path": "/root/.hermes/cron/jobs.json"
+    },
+    {
+      "exists": true,
+      "is_dir": true,
+      "matches": [
+        {
+          "path": "/root/.hermes/profiles/ops-bot/channel_directory.json",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "channel",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/channel_directory.json",
+          "telegram_entry": {
+            "id": "[REDACTED]",
+            "name": "Marius",
+            "thread_id": "[REDACTED]",
+            "type": "dm"
+          }
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/.env.bak.20260612T085343Z",
+          "terms": [
+            "telegram",
+            "channel"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/.skills_prompt_snapshot.json",
+          "terms": [
+            "OPS"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/SOUL.md",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/profile.yaml",
+          "terms": [
+            "telegram"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/config.yaml",
+          "terms": [
+            "Hermoine",
+            "telegram",
+            "channel",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/gateway_state.json",
+          "terms": [
+            "telegram"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/gateway_state.json",
+          "telegram_entry": "state"
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/gateway_state.json",
+          "telegram_entry": "error_code"
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/gateway_state.json",
+          "telegram_entry": "error_message"
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/gateway_state.json",
+          "telegram_entry": "updated_at"
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/.env",
+          "terms": [
+            "telegram",
+            "channel"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_watchdog.sh",
+          "terms": [
+            "Hermoine"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_daily_start.sh",
+          "terms": [
+            "Hermoine"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_status.sh",
+          "terms": [
+            "Hermoine"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/openclaw_hermes_daily_web_search.sh",
+          "terms": [
+            "Hermoine",
+            "OPS"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_start.sh",
+          "terms": [
+            "Hermoine"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_monitor_watchdog.sh",
+          "terms": [
+            "Hermoine",
+            "OPS"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_daily_status.sh",
+          "terms": [
+            "Hermoine"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.jobs.json.run51.bak",
+          "terms": [
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.bak.activate-ops",
+          "terms": [
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.run57-bak-20260620T163633Z",
+          "terms": [
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "telegram",
+            "target",
+            "chat"
+          ]
+        }
+      ],
+      "path": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "exists": true,
+      "is_dir": true,
+      "matches": [
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/README.ur-pk.md",
+          "terms": [
+            "telegram",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/.env.example",
+          "terms": [
+            "telegram",
+            "channel",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/run_agent.py",
+          "terms": [
+            "OPS",
+            "channel",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/mini_swe_runner.py",
+          "terms": [
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/README.md",
+          "terms": [
+            "telegram",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/model_tools.py",
+          "terms": [
+            "OPS",
+            "telegram",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/setup.py",
+          "terms": [
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/mcp_serve.py",
+          "terms": [
+            "telegram",
+            "channel",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/Dockerfile",
+          "terms": [
+            "OPS",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/trajectory_compressor.py",
+          "terms": [
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/pyproject.toml",
+          "terms": [
+            "OPS",
+            "telegram",
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/setup-hermes.sh",
+          "terms": [
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/.hadolint.yaml",
+          "terms": [
+            "OPS",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/CONTRIBUTING.md",
+          "terms": [
+            "OPS",
+            "telegram",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/utils.py",
+          "terms": [
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/SECURITY.md",
+          "terms": [
+            "telegram",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/docker-compose.yml",
+          "terms": [
+            "OPS",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/toolsets.py",
+          "terms": [
+            "OPS",
+            "telegram",
+            "channel",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/README.zh-CN.md",
+          "terms": [
+            "telegram",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/hermes_state.py",
+          "terms": [
+            "OPS",
+            "telegram",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/hermes-already-has-routines.md",
+          "terms": [
+            "telegram",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/AGENTS.md",
+          "terms": [
+            "OPS",
+            "telegram",
+            "channel",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/hermes_logging.py",
+          "terms": [
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/cli-config.yaml.example",
+          "terms": [
+            "OPS",
+            "telegram",
+            "channel",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/hermes_constants.py",
+          "terms": [
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/run_tests_parallel.py",
+          "terms": [
+            "target",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/install.sh",
+          "terms": [
+            "OPS",
+            "telegram",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/build_skills_index.py",
+          "terms": [
+            "target",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/check-windows-footguns.py",
+          "terms": [
+            "target",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/tool_search_livetest.py",
+          "terms": [
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/setup_open_webui.sh",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/contributor_audit.py",
+          "terms": [
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/hermes-gateway",
+          "terms": [
+            "telegram",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/sample_and_compress.py",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/install.ps1",
+          "terms": [
+            "OPS",
+            "telegram",
+            "channel",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/lint_diff.py",
+          "terms": [
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/discord-voice-doctor.py",
+          "terms": [
+            "channel"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/release.py",
+          "terms": [
+            "OPS",
+            "telegram",
+            "channel",
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/lib/node-bootstrap.sh",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/whatsapp-bridge/allowlist.js",
+          "terms": [
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/whatsapp-bridge/bridge.js",
+          "terms": [
+            "OPS",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/whatsapp-bridge/package-lock.json",
+          "terms": [
+            "channel"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/tsconfig.json",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/README.md",
+          "terms": [
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/DESIGN.md",
+          "terms": [
+            "OPS",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/eslint.config.mjs",
+          "terms": [
+            "OPS",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/package.json",
+          "terms": [
+            "OPS",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/reload.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/leak-typing.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/eval.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/profile-synth-stream.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/probe-renderer.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/measure-submit.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/measure-real-stream.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/before-pack.cjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/diag-scroll-reset.mjs",
+          "terms": [
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/profile-long-stream.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/profile-typing.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/stage-native-deps.cjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/after-pack.cjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/profile-real-stream.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/test-desktop.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/diag-jump.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/measure-synthetic-stream.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/set-exe-identity.cjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/profile-typing-lag.md",
+          "terms": [
+            "OPS",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/scripts/measure-latency.mjs",
+          "terms": [
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/styles.css",
+          "terms": [
+            "target",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/main.tsx",
+          "terms": [
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/global.d.ts",
+          "terms": [
+            "target",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/hermes.ts",
+          "terms": [
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/page-loader.tsx",
+          "terms": [
+            "OPS"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/desktop-install-overlay.tsx",
+          "terms": [
+            "OPS",
+            "channel"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/brand-mark.tsx",
+          "terms": [
+            "OPS"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/status-dot.tsx",
+          "terms": [
+            "OPS"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/model-picker.tsx",
+          "terms": [
+            "OPS",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/error-boundary.tsx",
+          "terms": [
+            "OPS",
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/model-visibility-dialog.tsx",
+          "terms": [
+            "OPS",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/language-switcher.tsx",
+          "terms": [
+            "OPS"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/apps/desktop/src/components/prompt-overlays.tsx",
+          "terms": [
+            "target"
+          ]
+        }
+      ],
+      "path": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "matches": [
+        {
+          "path": "/root/.hermes/config.yaml",
+          "terms": [
+            "Hermoine",
+            "telegram",
+            "channel",
+            "target",
+            "chat"
+          ]
+        }
+      ],
+      "path": "/root/.hermes/config.yaml"
+    },
+    {
+      "exists": true,
+      "is_dir": false,
+      "matches": [
+        {
+          "path": "/root/.hermes/profiles/ops-bot/config.yaml",
+          "terms": [
+            "Hermoine",
+            "telegram",
+            "channel",
+            "target",
+            "chat"
+          ]
+        }
+      ],
+      "path": "/root/.hermes/profiles/ops-bot/config.yaml"
+    }
+  ],
+  "ops_alias_found": true,
+  "ops_alias_resolvable": true,
+  "reload_required": false,
+  "repair_action": "ops_profile_home_delivery",
+  "secrets_redacted": true,
+  "status_metadata": {
+    "component": "ops_channel_autodiscovery",
+    "disposition": "ops_delivery_live_verified",
+    "emitted_at_oslo_iso": "2026-06-20T19:44:21+02:00",
+    "emitted_at_unix_ms": 1781977461642,
+    "emitted_at_unix_s": 1781977461,
+    "emitted_at_utc_iso": "2026-06-20T17:44:21Z",
+    "run_id": "run54",
+    "severity": "warning",
+    "status": "ops_delivery_live_verified",
+    "target_channel": "AL-Hermoine-OPS",
+    "timezone": "Europe/Oslo"
+  }
+}

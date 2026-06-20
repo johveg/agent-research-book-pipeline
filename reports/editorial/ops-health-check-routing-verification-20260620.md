@@ -1,0 +1,92 @@
+# OPS health-check routing verification — 2026-06-20
+
+```json
+{
+  "active_health_ops_jobs": [
+    {
+      "active": true,
+      "deliver": "telegram",
+      "id": "32fab799b743",
+      "last_delivery_error_present": false,
+      "last_status": "error",
+      "name": "Daily LinkedIn openclaw/hermes 24h capture",
+      "no_agent": false,
+      "profile": "ops-bot",
+      "script": null
+    },
+    {
+      "active": true,
+      "deliver": "telegram",
+      "id": "552d9697f7ae",
+      "last_delivery_error_present": false,
+      "last_status": "error",
+      "name": "Daily OpenClaw/Hermes broad web search capture",
+      "no_agent": false,
+      "profile": "ops-bot",
+      "script": null
+    },
+    {
+      "active": true,
+      "deliver": "telegram",
+      "id": "f320d553d7b1",
+      "last_delivery_error_present": false,
+      "last_status": "ok",
+      "name": "Loop Engineering 24h monitor start",
+      "no_agent": true,
+      "profile": "ops-bot",
+      "script": "loop_engineering_daily_start.sh"
+    },
+    {
+      "active": true,
+      "deliver": "telegram",
+      "id": "033e2e4de2ff",
+      "last_delivery_error_present": false,
+      "last_status": "ok",
+      "name": "Loop Engineering 24h monitor status",
+      "no_agent": true,
+      "profile": "ops-bot",
+      "script": "loop_engineering_daily_status.sh"
+    },
+    {
+      "active": true,
+      "deliver": "telegram",
+      "id": "ee797a8af0bf",
+      "last_delivery_error_present": false,
+      "last_status": "ok",
+      "name": "Loop Engineering monitor self-healing watchdog",
+      "no_agent": true,
+      "profile": "ops-bot",
+      "script": "loop_engineering_monitor_watchdog.sh"
+    },
+    {
+      "active": true,
+      "deliver": "telegram",
+      "id": "56dbab31aa45",
+      "last_delivery_error_present": false,
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa book loop watchdog",
+      "no_agent": true,
+      "profile": "ops-bot",
+      "script": "terefohealreboa_book_watchdog.sh"
+    },
+    {
+      "active": true,
+      "deliver": "telegram",
+      "id": "b8189ef795c3",
+      "last_delivery_error_present": false,
+      "last_status": "ok",
+      "name": "Terefo Heal Reboa production daily monitor",
+      "no_agent": true,
+      "profile": "ops-bot",
+      "script": "terefo_production_daily_monitor_status.sh"
+    }
+  ],
+  "all_active_health_ops_jobs_use_ops_bot_profile_telegram_delivery": true,
+  "checked_at_utc": "2026-06-20T17:51:30.906882+00:00",
+  "default_active_health_ops_jobs": 0,
+  "fallback_channel_used": false,
+  "ops_bot_active_health_ops_jobs": 7,
+  "problem_count": 0,
+  "problems": []
+}
+```

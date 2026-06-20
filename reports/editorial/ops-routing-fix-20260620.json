@@ -1,0 +1,46 @@
+{
+  "bot_username": "al_hermoine_ops_bot",
+  "chat_type": "private",
+  "component": "ops_bot_home_routing_fix",
+  "default_bot_used_as_fallback": false,
+  "delivery_profile": "ops-bot",
+  "delivery_semantics": "OPS messages are sent to Marius through @al_hermoine_ops_bot using the ops-bot profile Telegram home channel.",
+  "delivery_target": "telegram",
+  "emitted_at_utc_iso": "2026-06-20T17:44:48Z",
+  "fallback_channel_used": false,
+  "files_changed": [
+    "scripts/ops_channel_autodiscovery.py",
+    "scripts/ops_channel_resolver.py",
+    "scripts/ops_delivery_controller.py",
+    "scripts/ops_delivery_outbox.py",
+    "tests/test_ops_channel_resolver.py",
+    "tests/test_ops_delivery_outbox.py",
+    "/root/.hermes/profiles/ops-bot/channel_directory.json"
+  ],
+  "live_checks": [
+    {
+      "bot_username": "al_hermoine_ops_bot",
+      "chat_type": "private",
+      "check": "direct Telegram Bot API send using ops-bot profile env",
+      "fallback_channel_used": false,
+      "message_id_present": true,
+      "result": "send_ok"
+    },
+    {
+      "check": "ops_delivery_controller",
+      "delivered_count": 1,
+      "queued_count": 0,
+      "result": "ops_delivery_live_verified"
+    }
+  ],
+  "marius_dm_from_default_profile_used": false,
+  "message_id_present": true,
+  "run_id": "ops-routing-fix-20260620",
+  "secrets_redacted": true,
+  "severity": "success",
+  "status": "ops_delivery_live_verified",
+  "target_channel": "AL-Hermoine-OPS",
+  "tests": {
+    "focused_ops_routing": "26 passed"
+  }
+}

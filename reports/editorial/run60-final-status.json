@@ -2,7 +2,7 @@
   "all_chapter_public_proof_gate_wired": true,
   "all_chapter_public_proof_ok_current_book": false,
   "autonomous_closed_loop_iteration_coverage": true,
-  "commit_hash": "eac051b",
+  "commit_hash": "c37a35c",
   "failed_chapters": [
     "context_memory",
     "hermes",
@@ -12,6 +12,7 @@
     "openclaw",
     "operating_loops"
   ],
+  "final_status_commit": "c37a35c",
   "focused_tests": "36 passed",
   "full_pytest": "461 passed",
   "git_diff_check": "passed",
@@ -24,6 +25,7 @@
   "passed_chapters": [
     "agent_loop"
   ],
+  "primary_work_commit": "eac051b",
   "push_result": "pushed_to_origin_main",
   "secrets_scan_findings": 0,
   "status_metadata": {

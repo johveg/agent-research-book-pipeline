@@ -1,0 +1,127 @@
+# run57 hermes cron routing repair
+
+```json
+{
+  "alias_resolution": "ops_alias_unresolved",
+  "jobs": [
+    {
+      "backup_path": "/root/.hermes/cron/jobs.json.run57-bak-20260620T163633Z",
+      "blocked_by_alias_resolution": true,
+      "exists": true,
+      "jobs_inspected": 7,
+      "jobs_patched": 7,
+      "patches": [
+        {
+          "job_id": "32fab799b743",
+          "name": "Daily LinkedIn openclaw/hermes 24h capture",
+          "new_deliver": "local",
+          "old_deliver": "origin",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "552d9697f7ae",
+          "name": "Daily OpenClaw/Hermes broad web search capture",
+          "new_deliver": "local",
+          "old_deliver": "origin",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "f320d553d7b1",
+          "name": "Loop Engineering 24h monitor start",
+          "new_deliver": "local",
+          "old_deliver": "origin",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "033e2e4de2ff",
+          "name": "Loop Engineering 24h monitor status",
+          "new_deliver": "local",
+          "old_deliver": "origin",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "ee797a8af0bf",
+          "name": "Loop Engineering monitor self-healing watchdog",
+          "new_deliver": "local",
+          "old_deliver": "origin",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "56dbab31aa45",
+          "name": "Terefo Heal Reboa book loop watchdog",
+          "new_deliver": "local",
+          "old_deliver": "origin",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "b8189ef795c3",
+          "name": "Terefo Heal Reboa production daily monitor",
+          "new_deliver": "local",
+          "old_deliver": "origin",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        }
+      ],
+      "path": "/root/.hermes/cron/jobs.json",
+      "restart_reload_needed": "Hermes cron scheduler/profile reload after jobs.json edit",
+      "versioned": false
+    },
+    {
+      "backup_path": "/root/.hermes/profiles/ops-bot/cron/jobs.json.run57-bak-20260620T163633Z",
+      "blocked_by_alias_resolution": true,
+      "exists": true,
+      "jobs_inspected": 6,
+      "jobs_patched": 6,
+      "patches": [
+        {
+          "job_id": "32fab799b743",
+          "name": "Daily LinkedIn openclaw/hermes 24h capture",
+          "new_deliver": "local",
+          "old_deliver": "telegram",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "552d9697f7ae",
+          "name": "Daily OpenClaw/Hermes broad web search capture",
+          "new_deliver": "local",
+          "old_deliver": "telegram",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "f320d553d7b1",
+          "name": "Loop Engineering 24h monitor start",
+          "new_deliver": "local",
+          "old_deliver": "telegram",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "033e2e4de2ff",
+          "name": "Loop Engineering 24h monitor status",
+          "new_deliver": "local",
+          "old_deliver": "telegram",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "ee797a8af0bf",
+          "name": "Loop Engineering monitor self-healing watchdog",
+          "new_deliver": "local",
+          "old_deliver": "telegram",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        },
+        {
+          "job_id": "56dbab31aa45",
+          "name": "Terefo Heal Reboa book loop watchdog",
+          "new_deliver": "local",
+          "old_deliver": "telegram",
+          "reason": "AL-Hermoine-OPS unresolved; block fallback/default/DM delivery"
+        }
+      ],
+      "path": "/root/.hermes/profiles/ops-bot/cron/jobs.json",
+      "restart_reload_needed": "Hermes cron scheduler/profile reload after jobs.json edit",
+      "versioned": false
+    }
+  ],
+  "run_id": "run57",
+  "safety_result": "patched operational cron deliveries to local-only where they otherwise used origin/telegram fallback; no Marius fallback configured",
+  "status": "cron_job_routing_repaired"
+}
+```

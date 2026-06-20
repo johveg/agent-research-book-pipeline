@@ -1,0 +1,22 @@
+{
+  "required_ops_channel": "AL-Hermoine-OPS",
+  "fallback_allowed": false,
+  "default_dm_allowed": false,
+  "queue_if_unresolved": true,
+  "outbox_required_if_unresolved": true,
+  "timestamp_metadata_required": true,
+  "delivery_confirmation_required_for_success": true,
+  "automated_dispositions": [
+    "ops_delivery_verified",
+    "ops_delivery_failed_closed",
+    "ops_alias_resolved",
+    "ops_alias_unresolved",
+    "ops_routing_enforced",
+    "ops_outbox_queued",
+    "cron_job_routing_repaired",
+    "fallback_channel_blocked",
+    "failed_closed_no_resolvable_ops_target",
+    "safe_reports_only",
+    "commit_push_after_gates"
+  ]
+}

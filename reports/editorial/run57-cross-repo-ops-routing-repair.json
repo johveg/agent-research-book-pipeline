@@ -1,0 +1,89 @@
+{
+  "repos": [
+    {
+      "commit_hash": null,
+      "files_changed": [],
+      "files_inspected": [
+        "/home/hermoine/loop-engineering-24h/scripts/build_chromadb.py",
+        "/home/hermoine/loop-engineering-24h/scripts/query_chromadb.py",
+        "/home/hermoine/loop-engineering-24h/scripts/daily_monitor_capture.sh",
+        "/home/hermoine/loop-engineering-24h/scripts/inspect_chromadb.py",
+        "/home/hermoine/loop-engineering-24h/scripts/daily_monitor_async_worker.sh",
+        "/home/hermoine/loop-engineering-24h/scripts/capture_linkedin_search.py",
+        "/home/hermoine/loop-engineering-24h/scripts/summarize_latest_run.py",
+        "/home/hermoine/loop-engineering-24h/scripts/loop_monitor_watchdog.py",
+        "/home/hermoine/loop-engineering-24h/scripts/capture_web_search_daily.py",
+        "/home/hermoine/loop-engineering-24h/scripts/daily_linkedin_capture.sh"
+      ],
+      "push_result": "not changed",
+      "repo": "/home/hermoine/loop-engineering-24h",
+      "tests_checks": [
+        {
+          "command": "bash -n /home/hermoine/loop-engineering-24h/scripts/daily_monitor_capture.sh",
+          "exit_code": 0
+        },
+        {
+          "command": "bash -n /home/hermoine/loop-engineering-24h/scripts/daily_monitor_async_worker.sh",
+          "exit_code": 0
+        },
+        {
+          "command": "bash -n /home/hermoine/loop-engineering-24h/scripts/daily_linkedin_capture.sh",
+          "exit_code": 0
+        }
+      ],
+      "unresolved_blockers": [
+        "AL-Hermoine-OPS alias unresolved; repo scripts do not directly provide safe live delivery target"
+      ],
+      "unsafe_fallback_hits": []
+    },
+    {
+      "commit_hash": null,
+      "files_changed": [],
+      "files_inspected": [
+        "/home/hermoine/openclaw-hermes-web-watch/scripts/build_chromadb.py",
+        "/home/hermoine/openclaw-hermes-web-watch/scripts/query_chromadb.py",
+        "/home/hermoine/openclaw-hermes-web-watch/scripts/daily_web_search_capture.sh",
+        "/home/hermoine/openclaw-hermes-web-watch/scripts/inspect_chromadb.py",
+        "/home/hermoine/openclaw-hermes-web-watch/scripts/summarize_latest_run.py",
+        "/home/hermoine/openclaw-hermes-web-watch/scripts/capture_web_search_daily.py"
+      ],
+      "push_result": "not changed",
+      "repo": "/home/hermoine/openclaw-hermes-web-watch",
+      "tests_checks": [
+        {
+          "command": "bash -n /home/hermoine/openclaw-hermes-web-watch/scripts/daily_web_search_capture.sh",
+          "exit_code": 0
+        }
+      ],
+      "unresolved_blockers": [
+        "AL-Hermoine-OPS alias unresolved; repo scripts do not directly provide safe live delivery target"
+      ],
+      "unsafe_fallback_hits": []
+    },
+    {
+      "commit_hash": null,
+      "files_changed": [],
+      "files_inspected": [
+        "/home/hermoine/linkedin-24h-watch/scripts/capture_open_browser_search.py",
+        "/home/hermoine/linkedin-24h-watch/scripts/google_linkedin_login.py",
+        "/home/hermoine/linkedin-24h-watch/scripts/capture_linkedin_all_time_oneshot.py",
+        "/home/hermoine/linkedin-24h-watch/scripts/archive_linkedin_post.py",
+        "/home/hermoine/linkedin-24h-watch/scripts/daily_linkedin_capture.sh"
+      ],
+      "push_result": "not changed",
+      "repo": "/home/hermoine/linkedin-24h-watch",
+      "tests_checks": [
+        {
+          "command": "bash -n /home/hermoine/linkedin-24h-watch/scripts/daily_linkedin_capture.sh",
+          "exit_code": 0
+        }
+      ],
+      "unresolved_blockers": [
+        "AL-Hermoine-OPS alias unresolved; repo scripts do not directly provide safe live delivery target"
+      ],
+      "unsafe_fallback_hits": []
+    }
+  ],
+  "run_id": "run57",
+  "status": "safe_reports_only"
+}

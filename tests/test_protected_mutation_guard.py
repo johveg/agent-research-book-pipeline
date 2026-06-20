@@ -669,6 +669,57 @@ def test_autonomous_production_recovery_profile_allows_run55_scope_and_blocks_un
     assert "fake_completed_production_without_canonical_log" in result["failed_checks"]
 
 
+def test_global_ops_routing_enforcement_profile_allows_run57_scope_and_blocks_protected_surfaces():
+    mod = load_module()
+    before = base_snapshot()
+    after = base_snapshot()
+    paths = [
+        "config/global_ops_routing_policy.json",
+        "scripts/global_ops_routing_inventory.py",
+        "scripts/ops_channel_resolver.py",
+        "scripts/global_ops_routing_policy.py",
+        "scripts/production_daily_monitor.py",
+        "scripts/protected_mutation_guard.py",
+        "tests/test_global_ops_routing_inventory.py",
+        "tests/test_ops_channel_resolver.py",
+        "tests/test_global_ops_routing_policy.py",
+        "tests/test_protected_mutation_guard.py",
+        "reports/editorial/run57-ops-routing-baseline.json",
+        "reports/editorial/run57-ops-routing-baseline.md",
+        "reports/architecture/run57-global-ops-routing-enforcement-evidence-map-20260620.md",
+        "reports/telegram/run57-status.md",
+        "reports/ops/outbox/ops_delivery_outbox.jsonl",
+        "reports/telegram/production-monitor-latest.md",
+    ]
+    after["git_status_short"] = [f" M {p}" for p in paths]
+    after["git_diff_names"] = paths
+    after["report_safety_scan"] = {
+        "target_channel": "AL-Hermoine-OPS",
+        "fallback_channel_used": False,
+        "telegram_marius_as_ops": False,
+        "weak_local_fallback_used": False,
+    }
+    result = mod.compare_snapshots(before, after, "global_ops_routing_enforcement")
+    assert result["ok"] is True
+    assert not result["unexpected_changed_paths"]
+
+    for path in ["docs/book/01-the-agent-loop.md", "data/source_registry.json", "docs/entities/x.md", "docs/research/claims.md", "data/schema.sql", "scripts/daily_book_worker.py"]:
+        blocked = mod.compare_snapshots(before, changed(path, " M"), "global_ops_routing_enforcement")
+        assert blocked["ok"] is False
+        assert path in blocked["unexpected_changed_paths"]
+
+
+def test_global_ops_routing_enforcement_blocks_fallback_dm_marius_and_weak_fallback():
+    mod = load_module()
+    before = base_snapshot()
+    for scan_key in ["fallback_channel_used", "telegram_marius_as_ops", "default_dm_target_used", "weak_local_fallback_used", "human_in_loop_dependency_added"]:
+        unsafe = base_snapshot()
+        unsafe["report_safety_scan"] = {scan_key: True}
+        result = mod.compare_snapshots(before, unsafe, "global_ops_routing_enforcement")
+        assert result["ok"] is False
+        assert scan_key in result["failed_checks"] or scan_key in result.get("report_safety_scan", {})
+
+
 def test_unknown_and_future_publication_profiles_fail_closed_without_gates():
     mod = load_module()
     assert mod.compare_snapshots(base_snapshot(), base_snapshot(), "unknown_profile")["ok"] is False

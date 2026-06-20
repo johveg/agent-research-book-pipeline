@@ -189,8 +189,10 @@ def test_monitor_includes_timestamp_contract_and_ops_channel(tmp_path):
     report = mod.monitor(repo=repo, run_id="production-daily-20260616", timezone_name="Europe/Oslo", telegram_status=out)
     text = out.read_text()
     assert report["target_channel"] == "AL-Hermoine-OPS"
+    assert report["fallback_channel_used"] is False
     assert "status_metadata:" in text
     assert "target_channel: AL-Hermoine-OPS" in text
+    assert "fallback_channel_used: `False`" in text
 
 
 def test_monitor_writes_telegram_fallback_and_json_valid(tmp_path):

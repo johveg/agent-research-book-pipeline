@@ -4,19 +4,19 @@
 
 ```yaml
 status_metadata:
-  emitted_at_unix_s: 1781936455
-  emitted_at_unix_ms: 1781936455139
-  emitted_at_utc_iso: "2026-06-20T06:20:55Z"
-  emitted_at_oslo_iso: "2026-06-20T08:20:55+02:00"
+  emitted_at_unix_s: 1781974398
+  emitted_at_unix_ms: 1781974398305
+  emitted_at_utc_iso: "2026-06-20T16:53:18Z"
+  emitted_at_oslo_iso: "2026-06-20T18:53:18+02:00"
   timezone: Europe/Oslo
   component: production_daily_monitor
   run_id: production-daily-20260620
-  status: production_daily_completed
-  severity: success
-  disposition: production_daily_completed
+  status: production_daily_running
+  severity: info
+  disposition: production_daily_running
   target_channel: AL-Hermoine-OPS
   repo: /home/hermoine/terefohealreboa
-  git_commit: 8883f6c
+  git_commit: 07f74e0
   git_branch: main
   report_path: /home/hermoine/terefohealreboa/reports/editorial/production-daily-20260620-production-execute-once.json
   log_path: /home/hermoine/terefohealreboa/logs/runs/production-daily-20260620.log
@@ -25,20 +25,17 @@ status_metadata:
   duration_seconds: null
 ```
 
-Generated: `2026-06-20T06:20:55Z`
+Generated: `2026-06-20T16:53:18Z`
 
-- status: `production_daily_completed`
+- status: `production_daily_running`
 - target_channel: `AL-Hermoine-OPS`
+- fallback_channel_used: `False`
 - ok: `True`
 - expected_run_id: `production-daily-20260620`
 - schedule due: `True`
 - crontab production command found: `True`
-- production report JSON: `/home/hermoine/terefohealreboa/reports/editorial/production-daily-20260620-production-execute-once.json` exists `True`
-- production report MD: `/home/hermoine/terefohealreboa/reports/editorial/production-daily-20260620-production-execute-once.md` exists `True`
+- production report JSON: `/home/hermoine/terefohealreboa/reports/editorial/production-daily-20260620-production-execute-once.json` exists `False`
+- production report MD: `/home/hermoine/terefohealreboa/reports/editorial/production-daily-20260620-production-execute-once.md` exists `False`
 - telegram status path: `/home/hermoine/terefohealreboa/reports/telegram/production-daily-latest.md` exists `True`
 - log path: `/home/hermoine/terefohealreboa/logs/runs/production-daily-20260620.log` exists `True`
-- disposition: `production_daily_completed`
-
-## Warnings
-
-- `ignored_stale_future_recorded_next_run_due_already_reached`
+- disposition: `None`

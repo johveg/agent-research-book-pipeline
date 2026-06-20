@@ -440,6 +440,43 @@ PROFILES: dict[str, dict[str, Any]] = {
         "enforce_required_gates": True,
         "future_disabled": False,
     },
+    "global_ops_routing_enforcement": {
+        "allowed": [
+            "config/global_ops_routing_policy.json",
+            "scripts/global_ops_routing_inventory.py",
+            "scripts/ops_channel_resolver.py",
+            "scripts/global_ops_routing_policy.py",
+            "scripts/send_ops_status.py",
+            "scripts/status_message_contract.py",
+            "scripts/ops_delivery_outbox.py",
+            "scripts/ops_delivery_controller.py",
+            "scripts/production_daily_monitor.py",
+            "scripts/closed_loop_production_scheduler.py",
+            "scripts/production_daily_self_heal.py",
+            "scripts/run_production_daily_cron.sh",
+            "scripts/protected_mutation_guard.py",
+            "tests/test_global_ops_routing_inventory.py",
+            "tests/test_ops_channel_resolver.py",
+            "tests/test_global_ops_routing_policy.py",
+            "tests/test_status_message_contract.py",
+            "tests/test_send_ops_status.py",
+            "tests/test_ops_delivery_outbox.py",
+            "tests/test_ops_delivery_controller.py",
+            "tests/test_production_daily_monitor.py",
+            "tests/test_closed_loop_production_scheduler.py",
+            "tests/test_production_daily_self_heal.py",
+            "tests/test_protected_mutation_guard.py",
+            "reports/editorial/run57-*.json",
+            "reports/editorial/run57-*.md",
+            "reports/architecture/run57-*.md",
+            "reports/telegram/run57-*.md",
+            "reports/ops/outbox/**",
+            "reports/telegram/production-monitor-latest.md",
+        ],
+        "allow_db": {},
+        "allow_protected_path_delta": [],
+        "future_disabled": False,
+    },
     "production_daily_publish": {
         "allowed": [
             "docs/book/**",
@@ -804,6 +841,10 @@ def compare_snapshots(before: dict[str, Any], after: dict[str, Any], profile: st
         failed.append("unresolved_citations")
     if merged_scan.get("fallback_channel_used") is True:
         failed.append("fallback_channel_used")
+    if merged_scan.get("telegram_marius_as_ops") is True:
+        failed.append("telegram_marius_as_ops")
+    if merged_scan.get("default_dm_target_used") is True:
+        failed.append("default_dm_target_used")
     if merged_scan.get("fake_completed_production_without_canonical_log") is True:
         failed.append("fake_completed_production_without_canonical_log")
     if merged_scan.get("production_daily_completed") is True and merged_scan.get("canonical_production_log_exists") is False:

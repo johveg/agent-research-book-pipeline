@@ -102,6 +102,7 @@ def write_md(path: Path, report: dict[str, Any]) -> None:
         "",
         f"- status: `{report.get('status')}`",
         f"- target_channel: `{status_payload.get('target_channel')}`",
+        f"- fallback_channel_used: `False`",
         f"- ok: `{report.get('ok')}`",
         f"- expected_run_id: `{report.get('expected_run_id')}`",
         f"- schedule due: `{report.get('schedule_due')}`",

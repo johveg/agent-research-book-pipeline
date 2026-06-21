@@ -1,0 +1,22 @@
+{
+  "chapter_id": "operating_loops",
+  "ok": true,
+  "publication_safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "revision_mode": "fluent_refactor_rewrite",
+  "safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "target_path": "docs/book/06-operating-loops.md"
+}

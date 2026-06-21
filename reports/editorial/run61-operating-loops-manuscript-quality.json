@@ -1,0 +1,12 @@
+{
+  "appendix_required": false,
+  "docs_book_update_allowed": true,
+  "evidence_mapping_externalized": true,
+  "failed_checks": [],
+  "manuscript_quality_passed": true,
+  "publication_candidate": true,
+  "safety_flags": {
+    "chapter_update_allowed": false,
+    "publication_approved": false
+  }
+}

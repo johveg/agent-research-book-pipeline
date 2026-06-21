@@ -1,0 +1,47 @@
+{
+  "bullet_line_count": 24,
+  "checked_at_utc_iso": "2026-06-21T05:17:58.597369+00:00",
+  "expected_title": "Operating Loops in Production",
+  "failed_checks": [
+    "evidence_ledger_language_present",
+    "booklike_required_signals_missing",
+    "bullet_density_too_high"
+  ],
+  "forbidden_phrases_found": [
+    "current evidence status",
+    "source/claim mapping",
+    "bullet 1 maps to",
+    "maps to supported claim",
+    "maps to caveated weak claim",
+    "quality a",
+    "quality b",
+    "generated author output",
+    "editor notes",
+    "changelog",
+    "editorial policy",
+    "claim record",
+    "source tokens"
+  ],
+  "ok": false,
+  "paragraph_count_ge_120_chars": 10,
+  "public_page_booklike": false,
+  "required_signals": [
+    "central argument",
+    "evidence limits",
+    "references",
+    "from prompt to loop",
+    "operational pattern",
+    "verification",
+    "state",
+    "escalation"
+  ],
+  "required_signals_missing": [
+    "central argument",
+    "evidence limits",
+    "from prompt to loop",
+    "operational pattern"
+  ],
+  "source": "docs/book/06-operating-loops.md",
+  "source_kind": "file",
+  "unique_citation_token_count": 9
+}

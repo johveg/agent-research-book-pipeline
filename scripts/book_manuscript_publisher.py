@@ -13,7 +13,7 @@ FALSE_FLAGS = {
     "eligible_for_publication": False,
     "chapter_update_allowed": False,
 }
-ALLOWED_TARGET = "docs/book/introduction.md"
+ALLOWED_TARGETS = {"docs/book/introduction.md", "docs/book/06-operating-loops.md"}
 FORBIDDEN = ["Current evidence status", "Source/claim mapping", "Bullet 1 maps", "Editor notes", "Changelog", "Editorial policy", "status supported", "status weakly_supported", "quality A", "quality B", "claim record", "source tokens"]
 
 
@@ -27,7 +27,8 @@ def fail(checks: list[str], **extra) -> dict[str, Any]:
 
 def target_safe(target_path: str) -> bool:
     p = Path(target_path)
-    return str(p).replace("\\", "/") == ALLOWED_TARGET and ".." not in p.parts
+    normalized = str(p).replace("\\", "/")
+    return normalized in ALLOWED_TARGETS and ".." not in p.parts
 
 
 def content_safe(text: str) -> list[str]:

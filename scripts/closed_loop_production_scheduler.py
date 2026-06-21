@@ -546,11 +546,18 @@ def execute_once(
     if allow_raw_collection and allow_extraction and config.get("raw_collection_enabled") and config.get("extraction_enabled") and report["daily_worker_capability_probe_ok"]:
         # Wire the daily worker in a bounded no-write preflight, then run the production raw/extraction stages directly.
         # This avoids an unbounded authenticated LinkedIn browser capture while still performing daily raw web collection.
-        worker_cmd = [PYTHON, "scripts/daily_book_worker.py", run_id, "--preflight-only", "--no-commit"]
+        worker_cmd = [
+            PYTHON, "scripts/daily_book_worker.py", run_id,
+            "--preflight-only", "--no-commit",
+            "--run-chapter-revision-policy",
+            "--run-all-chapter-public-proof",
+        ]
         worker = run_cmd(worker_cmd, timeout=180)
         report["daily_worker_invoked"] = True
         report["daily_runner_invoked"] = True
         report["daily_worker_result"] = command_summary(worker)
+        report["chapter_revision_policy_gate_invoked"] = "--run-chapter-revision-policy" in worker_cmd
+        report["all_chapter_public_proof_gate_invoked"] = "--run-all-chapter-public-proof" in worker_cmd
         if worker["returncode"] != 0:
             blockers.append("daily_worker_preflight_failed")
 
@@ -593,6 +600,18 @@ def execute_once(
         else:
             blockers.append("source_registry_export_failed")
 
+    if isinstance(report.get("daily_worker_result"), dict):
+        try:
+            worker_payload = json.loads(report["daily_worker_result"].get("stdout_tail") or report["daily_worker_result"].get("stdout") or "{}")
+            report["all_chapter_public_proof_gate_ok"] = worker_payload.get("all_chapter_public_proof_ok")
+            report["all_chapter_public_proof_failed_chapters"] = worker_payload.get("all_chapter_public_proof_failed_chapters", [])
+            report["all_chapter_public_proof_report"] = worker_payload.get("all_chapter_public_proof_report")
+            report["chapter_revision_policy_gate_ok"] = worker_payload.get("chapter_revision_policy_executed") is not False
+        except Exception:
+            report["all_chapter_public_proof_gate_ok"] = None
+    if report.get("all_chapter_public_proof_gate_invoked") and report.get("all_chapter_public_proof_gate_ok") is False:
+        blockers.append("all_chapter_public_proof_failed")
+
     # Evidence promotion and GPT-5.5 guarded publication.
     if allow_evidence_promotion and allow_author_editor_redteam and allow_guarded_book_publication:
         orch_cmd = [
@@ -633,6 +652,8 @@ def execute_once(
         report["gpt55_used"] = bool(orch_report.get("llm_used"))
         report["publication_status"] = orch_report.get("publication_status", "unknown")
         report["substantive_update_applied"] = bool(orch_report.get("docs_book_applied")) and not bool(orch_report.get("daily_status_fallback_applied"))
+        report["chapter_rewrite_applied"] = bool(publication_report.get("chapter_rewrite_applied"))
+        report["append_only_publication_refused"] = bool(publication_report.get("append_only_publication_refused"))
         report["daily_status_fallback_applied"] = bool(orch_report.get("daily_status_fallback_applied"))
         report["publish_packet_count"] = orch_report.get("publish_packet_count", 0)
         report["disposition_counts"] = orch_report.get("disposition_counts", {})
@@ -642,6 +663,8 @@ def execute_once(
             blockers.append("gpt55_not_used_for_publication_gate")
         if publication_report.get("docs_book_update_applied") is True:
             report["docs_book_files_changed"] = git_changed_docs_book()
+        if report.get("substantive_update_applied") and not report.get("chapter_rewrite_applied"):
+            blockers.append("append_only_publication_refused")
     else:
         blockers.append("publication_not_allowed_by_flags_or_config")
     if allow_daily_status_fallback and not report["substantive_update_applied"] and not report["daily_status_fallback_applied"] and not blockers:

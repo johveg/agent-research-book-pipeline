@@ -96,10 +96,20 @@ def test_build_schedule_artifact_is_installable_but_not_fake_installed(tmp_path)
 def test_execute_once_starts_ledger_probes_worker_invokes_daily_runner_and_orchestrator(monkeypatch, tmp_path):
     mod = load_module()
     calls = []
-    monkeypatch.setattr(mod, "run_cmd", lambda cmd, **kw: calls.append(cmd) or {"returncode": 0, "stdout": '{"ok": true, "llm_used": true, "publication_status": "substantive_canary_applied", "docs_book_applied": true, "daily_status_fallback_applied": false}', "stderr": ""})
+    def fake_run(cmd, **kw):
+        calls.append(cmd)
+        if any("daily_book_worker.py" in str(part) for part in cmd) and "--print-capabilities-json" not in cmd:
+            return {"returncode": 0, "stdout": '{"ok": true, "all_chapter_public_proof_ok": true, "chapter_revision_policy_executed": true}', "stderr": ""}
+        return {"returncode": 0, "stdout": '{"ok": true, "llm_used": true, "publication_status": "substantive_canary_applied", "docs_book_applied": true, "daily_status_fallback_applied": false}', "stderr": ""}
+    monkeypatch.setattr(mod, "run_cmd", fake_run)
     monkeypatch.setattr(mod, "append_event", lambda *a, **kw: {"event_type": kw.get("event_type", "event")})
     monkeypatch.setattr(mod, "db_counts", lambda: {"source_notes": 1, "claims": 2, "editorial_reviews": 3})
-    monkeypatch.setattr(mod, "summarize_json", lambda path: {"ok": True, "llm_used": True, "publication_status": "substantive_canary_applied", "docs_book_applied": True, "daily_status_fallback_applied": False, "publish_packet_count": 1, "disposition_counts": {}})
+    def fake_summary(path):
+        text = str(path)
+        if "guarded-book-publication" in text:
+            return {"ok": True, "docs_book_update_applied": True, "chapter_rewrite_applied": True, "append_only_publication_refused": True}
+        return {"ok": True, "llm_used": True, "publication_status": "substantive_canary_applied", "docs_book_applied": True, "daily_status_fallback_applied": False, "publish_packet_count": 1, "disposition_counts": {}}
+    monkeypatch.setattr(mod, "summarize_json", fake_summary)
     report = mod.execute_once(
         run_id="run45",
         config=good_config(),
@@ -121,6 +131,12 @@ def test_execute_once_starts_ledger_probes_worker_invokes_daily_runner_and_orche
     assert "closed_loop_publication_orchestrator.py" in flat
     assert report["event_ledger_attempt_started"] is True
     assert report["daily_worker_capability_probe_ok"] is True
+    worker_call = next(c for c in calls if "daily_book_worker.py" in " ".join(map(str, c)) and "--print-capabilities-json" not in c)
+    assert "--run-chapter-revision-policy" in worker_call
+    assert "--run-all-chapter-public-proof" in worker_call
+    assert report["chapter_revision_policy_gate_invoked"] is True
+    assert report["all_chapter_public_proof_gate_invoked"] is True
+    assert report["all_chapter_public_proof_gate_ok"] is True
     assert report["publication_orchestrator_invoked"] is True
     assert report["telegram_status_written"] is True
     assert report["production_execution_attempted"] is True

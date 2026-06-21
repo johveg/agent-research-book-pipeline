@@ -217,25 +217,24 @@ def select_publishable_packets(packets: list[dict[str, Any]], max_packets: int, 
     return {"selected": selected, "rejected": rejected}
 
 
-def append_delta(target: Path, packet: dict[str, Any], run_id: str) -> None:
+def rewrite_chapter(target: Path, packet: dict[str, Any], run_id: str) -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
     existing = target.read_text(encoding="utf-8") if target.exists() else ""
-    marker = f"<!-- run44-packet:{packet.get('idempotency_key') or packet.get('publish_packet_id')} -->"
-    if marker in existing:
-        return
+    title = existing.splitlines()[0].strip() if existing.lstrip().startswith("# ") else "# Chapter Update"
     delta = str(packet.get("proposed_markdown_delta") or "").strip()
-    citations = packet.get("citation_map") or {}
-    caveats = packet.get("required_caveats") or []
-    block = ["", marker, "", delta, "", f"*Run: `{run_id}`. Machine disposition: `{packet.get('disposition')}`.*"]
-    if caveats:
-        block += ["", "Caveats:"] + [f"- {c}" for c in caveats]
-    if citations:
-        block += ["", "Evidence references:"]
-        block.append("- Safe internal packet report: `reports/editorial/citation-pipeline-test-20260612-publish-packets-run44.json`")
-        block.append("- Guarded publication report: `reports/editorial/citation-pipeline-test-20260612-guarded-book-publication-run44.json`")
-        block.append("- Citation details are retained in internal reports; raw claim/source identifiers are not published on this page.")
-    block.append("")
-    target.write_text(existing.rstrip() + "\n" + "\n".join(block), encoding="utf-8")
+    if not delta:
+        return
+    delta = re.sub(r"(?im)^##\s*Guarded publication canary\s*\n+", "", delta).strip()
+    delta = re.sub(r"\bcanary update\b", "chapter update", delta, flags=re.I).strip()
+    if delta.startswith("# "):
+        delta = "\n".join(delta.splitlines()[1:]).strip()
+    if not existing.strip():
+        body = f"{title}\n\n{delta}\n"
+    elif "## References" in existing:
+        body = existing.replace("\n## References", "\n\n" + delta + "\n\n## References", 1)
+    else:
+        body = existing.rstrip() + "\n\n" + delta + "\n"
+    target.write_text(body.rstrip() + "\n", encoding="utf-8")
 
 
 def publish_packets(packets: list[dict[str, Any]], docs_root: str | Path, apply: bool, max_packets: int, run_id: str) -> dict[str, Any]:
@@ -255,7 +254,7 @@ def publish_packets(packets: list[dict[str, Any]], docs_root: str | Path, apply:
                 failed_checks.append("invalid_target_file")
                 continue
             before = target.read_bytes() if target.exists() else b""
-            append_delta(target, packet, run_id)
+            rewrite_chapter(target, packet, run_id)
             after = target.read_bytes() if target.exists() else b""
             if before != after:
                 changed.append("docs/book/" + str(target.relative_to(docs)))
@@ -272,6 +271,8 @@ def publish_packets(packets: list[dict[str, Any]], docs_root: str | Path, apply:
         "docs_book_update_applied": applied,
         "publication_deployed": False,
         "daily_status_fallback_applied": False,
+        "chapter_rewrite_applied": applied,
+        "append_only_publication_refused": True,
         "publish_packet_count": len(packets),
         "selected_packet_count": len(selection["selected"]),
         "selected_packets": [p.get("publish_packet_id") for p in selection["selected"]],

@@ -111,10 +111,11 @@ def test_dry_run_does_not_modify_docs_book(tmp_path):
     assert target.read_text(encoding="utf-8") == before
 
 
-def test_apply_modifies_only_target_docs_book_file_and_writes_report(tmp_path):
+def test_apply_rewrites_target_as_fluent_chapter_without_append_only_canary(tmp_path):
     docs = copy_book(tmp_path)
     target = docs / "03-openclaw.md"
     other = docs / "02-hermes.md"
+    before = target.read_text(encoding="utf-8")
     before_other = other.read_bytes()
     out_json = tmp_path / "publication.json"
     out_md = tmp_path / "publication.md"
@@ -124,10 +125,18 @@ def test_apply_modifies_only_target_docs_book_file_and_writes_report(tmp_path):
         "--output-json", str(out_json), "--output-md", str(out_md)
     ], cwd=ROOT, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=60)
     assert res.returncode == 0, res.stderr + res.stdout
-    assert "Guarded publication canary" in target.read_text(encoding="utf-8")
+    text = target.read_text(encoding="utf-8")
+    assert text != before
+    assert "run44-packet" not in text
+    assert "Machine disposition" not in text
+    assert "Evidence references:" not in text
+    assert "## Guarded publication canary" not in text
+    assert "Machine gates approved" in text
     assert other.read_bytes() == before_other
     report = json.loads(out_json.read_text())
     assert report["publication_applied"] is True
+    assert report["chapter_rewrite_applied"] is True
+    assert report["append_only_publication_refused"] is True
     assert out_md.exists()
 
 

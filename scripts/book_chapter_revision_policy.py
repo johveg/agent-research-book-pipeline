@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -192,6 +193,46 @@ def build_revision_plan(contract: dict[str, Any], processed: dict[str, Any], run
     }
 
 
+def apply_new_chapter_candidates_to_queue(queue: dict[str, Any], plan: dict[str, Any]) -> dict[str, Any]:
+    """Append automatic guarded new-chapter candidates to the manuscript queue.
+
+    This function is intentionally report/config only: it never writes docs/book.
+    The guarded manuscript publisher owns any later chapter file creation after
+    input-packet, manuscript-quality, evidence-safety, MkDocs, mutation, and
+    all-chapter public-proof gates pass.
+    """
+    updated = deepcopy(queue)
+    entries = list(updated.get("queue") or [])
+    existing_keys = {(e.get("chapter_id"), e.get("target_path")) for e in entries if isinstance(e, dict)}
+    appended: list[dict[str, Any]] = []
+    for candidate in plan.get("new_chapter_candidates", []):
+        if not isinstance(candidate, dict):
+            continue
+        key = (candidate.get("chapter_id"), candidate.get("target_path"))
+        if key in existing_keys:
+            continue
+        entry = {
+            "chapter_id": candidate.get("chapter_id"),
+            "target_path": candidate.get("target_path"),
+            "title": candidate.get("title"),
+            "mode": "automatic_guarded_new_chapter",
+            "required_gates": list(candidate.get("required_gates") or REQUIRED_GATES),
+            "status": "queued_after_revision_policy",
+            "source_information_title": candidate.get("source_information_title"),
+            "source_information_summary": candidate.get("source_information_summary"),
+            "write_docs_book_now": False,
+        }
+        entries.append(entry)
+        appended.append(entry)
+        existing_keys.add(key)
+    updated["queue"] = entries
+    updated["automatic_new_chapter_queue_updated"] = bool(appended)
+    updated["automatic_new_chapter_candidates_appended"] = appended
+    updated["docs_book_changed"] = False
+    updated["updated_at_utc"] = utc_now()
+    return updated
+
+
 def write_reports(plan: dict[str, Any], output_json: Path, output_md: Path) -> None:
     output_json.parent.mkdir(parents=True, exist_ok=True)
     output_md.parent.mkdir(parents=True, exist_ok=True)
@@ -227,11 +268,20 @@ def main(argv=None) -> int:
     ap.add_argument("--run-id", default="manual")
     ap.add_argument("--output-json", required=True)
     ap.add_argument("--output-md", required=True)
+    ap.add_argument("--queue-json")
+    ap.add_argument("--output-queue-json")
     args = ap.parse_args(argv)
     try:
         contract = json.loads(Path(args.contract).read_text(encoding="utf-8"))
         processed = json.loads(Path(args.processed_json).read_text(encoding="utf-8"))
         plan = build_revision_plan(contract, processed, run_id=args.run_id)
+        if args.queue_json and args.output_queue_json and plan.get("ok"):
+            queue = json.loads(Path(args.queue_json).read_text(encoding="utf-8"))
+            updated_queue = apply_new_chapter_candidates_to_queue(queue, plan)
+            Path(args.output_queue_json).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.output_queue_json).write_text(json.dumps(updated_queue, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+            plan["automatic_new_chapter_queue_report"] = args.output_queue_json
+            plan["automatic_new_chapter_queue_updated"] = updated_queue.get("automatic_new_chapter_queue_updated", False)
     except Exception as exc:
         plan = {
             "ok": False,

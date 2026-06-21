@@ -70,24 +70,42 @@ def test_publisher_writes_only_target_chapter_after_all_gates_pass(tmp_path):
     assert "governable agent loops" in target.read_text(encoding="utf-8")
 
 
-def test_publisher_can_rewrite_operating_loops_as_guarded_manuscript_chapter(tmp_path):
+def test_publisher_can_rewrite_any_configured_book_chapter_after_gates_pass(tmp_path):
     mod = load(PUBLISHER_SCRIPT, "book_manuscript_publisher")
     root = tmp_path
-    target = root / "docs" / "book" / "06-operating-loops.md"
-    other = root / "docs" / "book" / "02-hermes.md"
-    target.parent.mkdir(parents=True)
-    target.write_text("# 6. Operating Loops in Production\n\n## Current evidence status\n\n- status supported, quality A\n", encoding="utf-8")
-    other.write_text("# Existing\n\nKeep me.\n", encoding="utf-8")
-    draft = root / "draft.md"
-    draft.write_text("# 6. Operating Loops in Production\n\nThe central argument is that production loops need boundaries, verification, state, and escalation. The evidence is limited and should be read cautiously. [1]\n\n## References\n[1] Ref.\n", encoding="utf-8")
-    packet = {"chapter_id": "operating_loops", "target_path": "docs/book/06-operating-loops.md", "publication_safety_flags": mod.FALSE_FLAGS, "safety_flags": mod.FALSE_FLAGS}
+    (root / "docs" / "book").mkdir(parents=True)
+    contract = {
+        "chapters": {
+            "hermes": {"target_path": "docs/book/02-hermes.md"},
+            "openclaw": {"target_path": "docs/book/03-openclaw.md"},
+            "operating_loops": {"target_path": "docs/book/06-operating-loops.md"},
+        }
+    }
     quality = {"manuscript_quality_passed": True, "publication_candidate": True, "docs_book_update_allowed": True, "failed_checks": []}
     evidence = {"evidence_safety_passed": True, "publication_candidate": True, "failed_checks": []}
-    report = mod.publish(root=root, packet=packet, draft_md=draft, quality_gate=quality, evidence_gate=evidence)
+    for chapter_id, target_path in [("hermes", "docs/book/02-hermes.md"), ("openclaw", "docs/book/03-openclaw.md"), ("operating_loops", "docs/book/06-operating-loops.md")]:
+        draft = root / f"{chapter_id}.md"
+        draft.write_text(f"# {chapter_id}\n\nThe central argument is that this configured chapter can be rewritten through the guarded manuscript workflow. The evidence is limited and should be read cautiously. [1]\n\n## References\n[1] Ref.\n", encoding="utf-8")
+        packet = {"chapter_id": chapter_id, "target_path": target_path, "publication_safety_flags": mod.FALSE_FLAGS, "safety_flags": mod.FALSE_FLAGS}
+        report = mod.publish(root=root, packet=packet, draft_md=draft, quality_gate=quality, evidence_gate=evidence, contract=contract)
+        assert report["ok"] is True
+        assert report["published_path"] == target_path
+        assert (root / target_path).exists()
+
+
+def test_publisher_accepts_automatic_guarded_new_chapter_candidate_after_gates_pass(tmp_path):
+    mod = load(PUBLISHER_SCRIPT, "book_manuscript_publisher")
+    root = tmp_path
+    (root / "docs" / "book").mkdir(parents=True)
+    draft = root / "evaluation-harnesses.md"
+    draft.write_text("# Evaluation Harnesses\n\nThe central argument is that evaluation harnesses can become a separate guarded chapter when new information no longer fits existing chapters. The evidence is limited and should be read cautiously. [1]\n\n## References\n[1] Ref.\n", encoding="utf-8")
+    packet = {"chapter_id": "evaluation_harnesses", "target_path": "docs/book/evaluation-harnesses.md", "queue_mode": "automatic_guarded_new_chapter", "publication_safety_flags": mod.FALSE_FLAGS, "safety_flags": mod.FALSE_FLAGS}
+    quality = {"manuscript_quality_passed": True, "publication_candidate": True, "docs_book_update_allowed": True, "failed_checks": []}
+    evidence = {"evidence_safety_passed": True, "publication_candidate": True, "failed_checks": []}
+    report = mod.publish(root=root, packet=packet, draft_md=draft, quality_gate=quality, evidence_gate=evidence, contract={"chapters": {}})
     assert report["ok"] is True
-    assert report["published_path"] == "docs/book/06-operating-loops.md"
-    assert "Current evidence status" not in target.read_text(encoding="utf-8")
-    assert other.read_text(encoding="utf-8") == "# Existing\n\nKeep me.\n"
+    assert report["published_path"] == "docs/book/evaluation-harnesses.md"
+    assert (root / "docs" / "book" / "evaluation-harnesses.md").exists()
 
 
 def test_publisher_refuses_failed_gate_or_wrong_target(tmp_path):
@@ -98,9 +116,9 @@ def test_publisher_refuses_failed_gate_or_wrong_target(tmp_path):
     packet = {"chapter_id": "introduction", "target_path": "docs/book/02-hermes.md", "publication_safety_flags": mod.FALSE_FLAGS, "safety_flags": mod.FALSE_FLAGS}
     quality = {"manuscript_quality_passed": True, "publication_candidate": True, "docs_book_update_allowed": True}
     evidence = {"evidence_safety_passed": True, "publication_candidate": True}
-    report = mod.publish(root=root, packet=packet, draft_md=draft, quality_gate=quality, evidence_gate=evidence)
+    report = mod.publish(root=root, packet=packet, draft_md=draft, quality_gate=quality, evidence_gate=evidence, contract={"chapters": {"introduction": {"target_path": "docs/book/introduction.md"}}})
     assert report["ok"] is False
-    assert "target_not_allowed_for_run58" in report["failed_checks"]
+    assert "target_not_allowed_for_guarded_manuscript_workflow" in report["failed_checks"]
     packet["target_path"] = "docs/book/introduction.md"
     quality["manuscript_quality_passed"] = False
     report = mod.publish(root=root, packet=packet, draft_md=draft, quality_gate=quality, evidence_gate=evidence)

@@ -80,6 +80,26 @@ def test_revision_policy_creates_guarded_new_chapter_when_information_has_no_fit
     assert new_chapter["write_docs_book_now"] is False
 
 
+def test_revision_policy_appends_new_chapter_candidates_to_guarded_queue_without_docs_mutation():
+    mod = load(POLICY_SCRIPT, "book_chapter_revision_policy")
+    contract = {
+        "chapters": {
+            "hermes": {"title": "Hermes", "target_path": "docs/book/02-hermes.md", "topics": ["hermes"]},
+        },
+        "autonomous_chapter_revision_policy": mod.DEFAULT_POLICY,
+    }
+    queue = {"queue_name": "book_manuscript_production_queue", "queue": []}
+    processed = {"processed_information": [{"title": "Evaluation Harnesses", "summary": "Separate evaluation lifecycle concern.", "topics": ["evaluation", "harness"], "evidence_status": "supported"}]}
+    plan = mod.build_revision_plan(contract, processed, run_id="test-run")
+    updated = mod.apply_new_chapter_candidates_to_queue(queue, plan)
+    assert updated["queue"][0]["chapter_id"] == "evaluation_harnesses"
+    assert updated["queue"][0]["mode"] == "automatic_guarded_new_chapter"
+    assert updated["queue"][0]["target_path"] == "docs/book/evaluation-harnesses.md"
+    assert updated["queue"][0]["required_gates"] == mod.REQUIRED_GATES
+    assert updated["queue"][0]["status"] == "queued_after_revision_policy"
+    assert updated["docs_book_changed"] is False
+
+
 def test_revision_policy_cli_writes_machine_readable_reports(tmp_path):
     contract = tmp_path / "contract.json"
     processed = tmp_path / "processed.json"

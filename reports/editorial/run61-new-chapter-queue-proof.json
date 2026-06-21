@@ -1,0 +1,61 @@
+{
+  "automatic_new_chapter_queue_report": "/tmp/tmp.9XRZGe4iWo/queue.json",
+  "automatic_new_chapter_queue_updated": true,
+  "chapter_update_allowed": false,
+  "decision_summary": {
+    "existing_chapter_revision_count": 0,
+    "ignored_count": 0,
+    "new_chapter_candidate_count": 1,
+    "processed_information_count": 1
+  },
+  "disposition": "chapter_revision_plan_created_report_only",
+  "docs_book_changed": false,
+  "existing_chapter_revisions": [],
+  "generated_at_utc": "2026-06-21T05:28:05Z",
+  "ignored_information": [],
+  "new_chapter_candidates": [
+    {
+      "chapter_id": "evaluation_harnesses",
+      "queue_mode": "automatic_guarded_new_chapter",
+      "required_action": "create_new_chapter_automatically_after_gates",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "source_information_summary": "Independent evaluation harnesses are emerging as a separate lifecycle concern.",
+      "source_information_title": "Evaluation Harnesses",
+      "target_path": "docs/book/evaluation-harnesses.md",
+      "title": "Evaluation Harnesses",
+      "write_docs_book_now": false
+    }
+  ],
+  "new_chapter_required": true,
+  "ok": true,
+  "publication_approved": false,
+  "publication_safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "revision_required": false,
+  "run_id": "run61-new-chapter-queue-proof",
+  "safety_flags": {
+    "author_allowed": false,
+    "chapter_update_allowed": false,
+    "eligible_for_authoring": false,
+    "eligible_for_claim_insertion": false,
+    "eligible_for_publication": false,
+    "publication_approved": false
+  },
+  "trigger": "after_automatic_collection_and_processing"
+}

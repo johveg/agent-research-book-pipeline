@@ -47,6 +47,7 @@ REQUIRED_GATES = [
     "publisher_scope_valid",
     "mkdocs_strict_passed",
     "mutation_guard_passed",
+    "all_chapter_public_proof_gate",
 ]
 
 

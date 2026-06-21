@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-06-21T04:25:04Z",
+  "created_at_utc": "2026-06-21T05:27:54Z",
   "queue": [
     {
       "chapter_id": "introduction",
@@ -12,7 +12,8 @@
         "evidence_safety_passed",
         "publisher_scope_valid",
         "mkdocs_strict_passed",
-        "mutation_guard_passed"
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
       ],
       "status": "ready_for_run58",
       "target_path": "docs/book/introduction.md"
@@ -28,7 +29,8 @@
         "evidence_safety_passed",
         "publisher_scope_valid",
         "mkdocs_strict_passed",
-        "mutation_guard_passed"
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
       ],
       "status": "queued_after_introduction",
       "target_path": "docs/book/methodology.md"
@@ -44,7 +46,8 @@
         "evidence_safety_passed",
         "publisher_scope_valid",
         "mkdocs_strict_passed",
-        "mutation_guard_passed"
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
       ],
       "status": "queued_after_introduction",
       "target_path": "docs/book/02-hermes.md"
@@ -60,7 +63,8 @@
         "evidence_safety_passed",
         "publisher_scope_valid",
         "mkdocs_strict_passed",
-        "mutation_guard_passed"
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
       ],
       "status": "queued_after_introduction",
       "target_path": "docs/book/03-openclaw.md"
@@ -76,7 +80,8 @@
         "evidence_safety_passed",
         "publisher_scope_valid",
         "mkdocs_strict_passed",
-        "mutation_guard_passed"
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
       ],
       "status": "queued_after_introduction",
       "target_path": "docs/book/04-loop-engineering.md"
@@ -92,7 +97,8 @@
         "evidence_safety_passed",
         "publisher_scope_valid",
         "mkdocs_strict_passed",
-        "mutation_guard_passed"
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
       ],
       "status": "queued_after_introduction",
       "target_path": "docs/book/05-context-memory-architecture.md"
@@ -108,7 +114,8 @@
         "evidence_safety_passed",
         "publisher_scope_valid",
         "mkdocs_strict_passed",
-        "mutation_guard_passed"
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
       ],
       "status": "queued_after_introduction",
       "target_path": "docs/book/06-operating-loops.md"

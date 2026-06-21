@@ -1,25 +1,78 @@
 {
-  "schema_version": 1,
-  "topic": "Hermes, OpenClaw, loop engineer, and loop engineering",
-  "web_queries": [
-    "\"Hermes Agent\" \"Nous Research\"",
-    "\"OpenClaw\" Hermes",
-    "\"loop engineering\" AI agents",
-    "\"loop engineer\" AI",
-    "\"Hermes\" \"OpenClaw\""
+  "known_core_terms": [
+    "hermes",
+    "openclaw",
+    "loop engineering",
+    "loop engineer",
+    "agent",
+    "agents",
+    "ai"
   ],
   "linkedin_queries": [
     "\"Hermes Agent\"",
     "\"OpenClaw\" Hermes",
     "\"loop engineering\"",
-    "\"loop engineer\""
+    "\"loop engineer\"",
+    "\"agent runtime security\" OR \"application security\"",
+    "\"autonomous research pipeline\"",
+    "\"browser agents\"",
+    "\"citation pipeline\"",
+    "\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\"",
+    "\"computer-use agents\"",
+    "\"desktop ai agents\"",
+    "\"enterprise ai agents\"",
+    "\"human approval workflow\"",
+    "\"local ai agents\"",
+    "\"local-first agents\"",
+    "\"mcp tools\"",
+    "\"multi-agent workflows\"",
+    "\"observability for agents\"",
+    "\"red team review\"",
+    "\"self-improving agents\"",
+    "\"source registry\""
   ],
-  "known_core_terms": [
-    "hermes", "openclaw", "loop engineering", "loop engineer", "agent", "agents", "ai"
-  ],
+  "schema_version": 1,
+  "topic": "Hermes, OpenClaw, loop engineer, and loop engineering",
   "trend_discovery": {
-    "min_count": 2,
+    "exclude_terms": [
+      "linkedin",
+      "https",
+      "http",
+      "www",
+      "com",
+      "the",
+      "and",
+      "for",
+      "with",
+      "from",
+      "this",
+      "that"
+    ],
     "max_terms": 30,
-    "exclude_terms": ["linkedin", "https", "http", "www", "com", "the", "and", "for", "with", "from", "this", "that"]
-  }
+    "min_count": 2
+  },
+  "web_queries": [
+    "\"Hermes Agent\" \"Nous Research\"",
+    "\"OpenClaw\" Hermes",
+    "\"loop engineering\" AI agents",
+    "\"loop engineer\" AI",
+    "\"Hermes\" \"OpenClaw\"",
+    "(\"agent runtime security\" OR \"application security\") AI agents",
+    "\"autonomous research pipeline\" AI agents",
+    "\"browser agents\" AI agents",
+    "\"citation pipeline\" AI agents",
+    "(\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\") AI agents",
+    "\"computer-use agents\" AI agents",
+    "\"desktop ai agents\" AI agents",
+    "\"enterprise ai agents\" AI agents",
+    "\"human approval workflow\" AI agents",
+    "\"local ai agents\" AI agents",
+    "\"local-first agents\" AI agents",
+    "\"mcp tools\" AI agents",
+    "\"multi-agent workflows\" AI agents",
+    "\"observability for agents\" AI agents",
+    "\"red team review\" AI agents",
+    "\"self-improving agents\" AI agents",
+    "\"source registry\" AI agents"
+  ]
 }

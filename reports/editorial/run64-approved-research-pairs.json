@@ -1,0 +1,30 @@
+{
+  "chapter_update_allowed": false,
+  "created_chapter_ids": [
+    "agent_runtime_security",
+    "autonomous_research_pipeline",
+    "browser_agents",
+    "citation_pipeline",
+    "coding_agents",
+    "computer_use_agents",
+    "desktop_ai_agents",
+    "enterprise_ai_agents",
+    "human_approval_workflow",
+    "local_ai_agents",
+    "local_first_agents",
+    "mcp_tools",
+    "multi_agent_workflows",
+    "observability_for_agents",
+    "red_team_review",
+    "self_improving_agents",
+    "source_registry"
+  ],
+  "docs_book_changed": false,
+  "generated_at_utc": "2026-06-21T19:43:52Z",
+  "human_approval_required": true,
+  "ok": true,
+  "publication_approved": false,
+  "queue_json_path": "config/book_manuscript_queue.json",
+  "research_pairs_created": 17,
+  "search_config_path": "data/search_config.json"
+}

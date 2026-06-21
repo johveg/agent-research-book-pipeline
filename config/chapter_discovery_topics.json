@@ -1,17 +1,220 @@
 {
-  "schema_version": 1,
-  "human_approval_required_for_new_chapters": true,
-  "auto_publish_new_chapters_without_approval": false,
-  "create_research_pairs_after_approval": true,
-  "daily_discovery_enabled": true,
-  "proposal_status": "pending_human_approval",
   "approval_options": [
     "approve_new_chapter",
     "merge_into_existing_chapter",
     "monitor_only",
     "reject"
   ],
-  "approved_subjects": [],
+  "approved_subjects": [
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "agent_runtime_security",
+      "linkedin_query": "\"agent runtime security\" OR \"application security\"",
+      "status": "approved",
+      "target_path": "docs/book/agent-runtime-security.md",
+      "title": "Agent Runtime Security",
+      "web_query": "(\"agent runtime security\" OR \"application security\") AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "autonomous_research_pipeline",
+      "linkedin_query": "\"autonomous research pipeline\"",
+      "status": "approved",
+      "target_path": "docs/book/autonomous-research-pipeline.md",
+      "title": "Autonomous Research Pipeline",
+      "web_query": "\"autonomous research pipeline\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "browser_agents",
+      "linkedin_query": "\"browser agents\"",
+      "status": "approved",
+      "target_path": "docs/book/browser-agents.md",
+      "title": "Browser Agents",
+      "web_query": "\"browser agents\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "citation_pipeline",
+      "linkedin_query": "\"citation pipeline\"",
+      "status": "approved",
+      "target_path": "docs/book/citation-pipeline.md",
+      "title": "Citation Pipeline",
+      "web_query": "\"citation pipeline\" AI agents"
+    },
+    {
+      "approval_note": "User approved recommended set; merged AI coding agents/coding agents and vibe coding into one research/chapter lane.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "coding_agents",
+      "linkedin_query": "\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\"",
+      "merged_from": [
+        "ai_coding_agents",
+        "coding_agents",
+        "vibe_coding"
+      ],
+      "status": "approved",
+      "target_path": "docs/book/coding-agents.md",
+      "title": "Coding Agents",
+      "web_query": "(\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\") AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "computer_use_agents",
+      "linkedin_query": "\"computer-use agents\"",
+      "status": "approved",
+      "target_path": "docs/book/computer-use-agents.md",
+      "title": "Computer-Use Agents",
+      "web_query": "\"computer-use agents\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "desktop_ai_agents",
+      "linkedin_query": "\"desktop ai agents\"",
+      "status": "approved",
+      "target_path": "docs/book/desktop-ai-agents.md",
+      "title": "Desktop AI Agents",
+      "web_query": "\"desktop ai agents\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "enterprise_ai_agents",
+      "linkedin_query": "\"enterprise ai agents\"",
+      "status": "approved",
+      "target_path": "docs/book/enterprise-ai-agents.md",
+      "title": "Enterprise AI Agents",
+      "web_query": "\"enterprise ai agents\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "human_approval_workflow",
+      "linkedin_query": "\"human approval workflow\"",
+      "status": "approved",
+      "target_path": "docs/book/human-approval-workflow.md",
+      "title": "Human Approval Workflow",
+      "web_query": "\"human approval workflow\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "local_ai_agents",
+      "linkedin_query": "\"local ai agents\"",
+      "status": "approved",
+      "target_path": "docs/book/local-ai-agents.md",
+      "title": "Local AI Agents",
+      "web_query": "\"local ai agents\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "local_first_agents",
+      "linkedin_query": "\"local-first agents\"",
+      "status": "approved",
+      "target_path": "docs/book/local-first-agents.md",
+      "title": "Local-First Agents",
+      "web_query": "\"local-first agents\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "mcp_tools",
+      "linkedin_query": "\"mcp tools\"",
+      "status": "approved",
+      "target_path": "docs/book/mcp-tools.md",
+      "title": "MCP Tools",
+      "web_query": "\"mcp tools\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "multi_agent_workflows",
+      "linkedin_query": "\"multi-agent workflows\"",
+      "status": "approved",
+      "target_path": "docs/book/multi-agent-workflows.md",
+      "title": "Multi-Agent Workflows",
+      "web_query": "\"multi-agent workflows\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "observability_for_agents",
+      "linkedin_query": "\"observability for agents\"",
+      "status": "approved",
+      "target_path": "docs/book/observability-for-agents.md",
+      "title": "Observability for Agents",
+      "web_query": "\"observability for agents\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "red_team_review",
+      "linkedin_query": "\"red team review\"",
+      "status": "approved",
+      "target_path": "docs/book/red-team-review.md",
+      "title": "Red Team Review",
+      "web_query": "\"red team review\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "self_improving_agents",
+      "linkedin_query": "\"self-improving agents\"",
+      "status": "approved",
+      "target_path": "docs/book/self-improving-agents.md",
+      "title": "Self-Improving Agents",
+      "web_query": "\"self-improving agents\" AI agents"
+    },
+    {
+      "approval_note": "User asked to add recommended subjects both as chapters and as nightly LinkedIn/websearch harvest lanes.",
+      "approval_source": "telegram_user_request_20260621",
+      "approved_at_utc": "2026-06-21T19:43:40Z",
+      "chapter_id": "source_registry",
+      "linkedin_query": "\"source registry\"",
+      "status": "approved",
+      "target_path": "docs/book/source-registry.md",
+      "title": "Source Registry",
+      "web_query": "\"source registry\" AI agents"
+    }
+  ],
+  "auto_publish_new_chapters_without_approval": false,
+  "create_research_pairs_after_approval": true,
+  "daily_discovery_enabled": true,
+  "human_approval_required_for_new_chapters": true,
+  "monitor_only_subjects": [
+    {
+      "approval_note": "Application Security is routed into Agent Runtime Security rather than a separate chapter.",
+      "approval_source": "telegram_user_request_20260621",
+      "chapter_id": "agent_runtime_security",
+      "merge_subject": "application_security",
+      "merged_at_utc": "2026-06-21T19:43:40Z",
+      "status": "merge_into_existing_approved_subject",
+      "target_chapter_id": "agent_runtime_security"
+    }
+  ],
+  "proposal_status": "pending_human_approval",
   "rejected_subjects": [],
-  "monitor_only_subjects": []
+  "schema_version": 1
 }

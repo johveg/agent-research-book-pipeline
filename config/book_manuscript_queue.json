@@ -119,6 +119,397 @@
       ],
       "status": "queued_after_introduction",
       "target_path": "docs/book/06-operating-loops.md"
+    },
+    {
+      "chapter_id": "agent_runtime_security",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"agent runtime security\" OR \"application security\"",
+        "web_query": "(\"agent runtime security\" OR \"application security\") AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/agent-runtime-security.md",
+      "title": "Agent Runtime Security"
+    },
+    {
+      "chapter_id": "autonomous_research_pipeline",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"autonomous research pipeline\"",
+        "web_query": "\"autonomous research pipeline\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/autonomous-research-pipeline.md",
+      "title": "Autonomous Research Pipeline"
+    },
+    {
+      "chapter_id": "browser_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"browser agents\"",
+        "web_query": "\"browser agents\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/browser-agents.md",
+      "title": "Browser Agents"
+    },
+    {
+      "chapter_id": "citation_pipeline",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"citation pipeline\"",
+        "web_query": "\"citation pipeline\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/citation-pipeline.md",
+      "title": "Citation Pipeline"
+    },
+    {
+      "chapter_id": "coding_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\"",
+        "web_query": "(\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\") AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/coding-agents.md",
+      "title": "Coding Agents"
+    },
+    {
+      "chapter_id": "computer_use_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"computer-use agents\"",
+        "web_query": "\"computer-use agents\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/computer-use-agents.md",
+      "title": "Computer-Use Agents"
+    },
+    {
+      "chapter_id": "desktop_ai_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"desktop ai agents\"",
+        "web_query": "\"desktop ai agents\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/desktop-ai-agents.md",
+      "title": "Desktop AI Agents"
+    },
+    {
+      "chapter_id": "enterprise_ai_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"enterprise ai agents\"",
+        "web_query": "\"enterprise ai agents\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/enterprise-ai-agents.md",
+      "title": "Enterprise AI Agents"
+    },
+    {
+      "chapter_id": "human_approval_workflow",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"human approval workflow\"",
+        "web_query": "\"human approval workflow\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/human-approval-workflow.md",
+      "title": "Human Approval Workflow"
+    },
+    {
+      "chapter_id": "local_ai_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"local ai agents\"",
+        "web_query": "\"local ai agents\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/local-ai-agents.md",
+      "title": "Local AI Agents"
+    },
+    {
+      "chapter_id": "local_first_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"local-first agents\"",
+        "web_query": "\"local-first agents\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/local-first-agents.md",
+      "title": "Local-First Agents"
+    },
+    {
+      "chapter_id": "mcp_tools",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"mcp tools\"",
+        "web_query": "\"mcp tools\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/mcp-tools.md",
+      "title": "MCP Tools"
+    },
+    {
+      "chapter_id": "multi_agent_workflows",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"multi-agent workflows\"",
+        "web_query": "\"multi-agent workflows\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/multi-agent-workflows.md",
+      "title": "Multi-Agent Workflows"
+    },
+    {
+      "chapter_id": "observability_for_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"observability for agents\"",
+        "web_query": "\"observability for agents\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/observability-for-agents.md",
+      "title": "Observability for Agents"
+    },
+    {
+      "chapter_id": "red_team_review",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"red team review\"",
+        "web_query": "\"red team review\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/red-team-review.md",
+      "title": "Red Team Review"
+    },
+    {
+      "chapter_id": "self_improving_agents",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"self-improving agents\"",
+        "web_query": "\"self-improving agents\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/self-improving-agents.md",
+      "title": "Self-Improving Agents"
+    },
+    {
+      "chapter_id": "source_registry",
+      "human_approved_at_utc": "2026-06-21T19:43:40Z",
+      "mode": "human_approved_research_pair",
+      "required_gates": [
+        "chapter_revision_decision",
+        "input_packet_valid",
+        "draft_created",
+        "manuscript_quality_passed",
+        "evidence_safety_passed",
+        "publisher_scope_valid",
+        "mkdocs_strict_passed",
+        "mutation_guard_passed",
+        "all_chapter_public_proof_gate"
+      ],
+      "research_pair": {
+        "linkedin_query": "\"source registry\"",
+        "web_query": "\"source registry\" AI agents"
+      },
+      "status": "approved_research_lane",
+      "target_path": "docs/book/source-registry.md",
+      "title": "Source Registry"
     }
   ],
   "queue_name": "book_manuscript_production_queue"

@@ -25,6 +25,8 @@ nav:
   - Home: index.md
   - Book:
       - Preface: book/preface.md
+      - Introduction: book/introduction.md
+      - Methodology: book/methodology.md
       - 1. The Agent Loop: book/01-the-agent-loop.md
       - 2. Hermes: book/02-hermes.md
       - 3. OpenClaw: book/03-openclaw.md

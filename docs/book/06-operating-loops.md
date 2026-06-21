@@ -22,6 +22,9 @@ OpenClaw and Hermes are useful cases for thinking about these boundaries, but th
 
 The practical lesson is that a production loop should be designed as a small operating system for repeated agent work. It needs a purpose, a contract, controlled inputs, permitted actions, validation gates, durable state, readable reports, bounded retries, and explicit escalation. Prompting still matters, but in production the prompt is only one part of a larger system. The chapter therefore uses loop engineering as a cautious professional frame: a way to discuss how agent work becomes repeatable, observable, and governable without pretending that the evidence has settled every technical or organizational question. [1] [2] [3] [6] [7]
 
+
+In practical loop design, the agent runtime matters because it determines how plans become repeatable work. One safe example in the current source set is Hermes Agent: the captured official and repository metadata identify it as a Nous Research open-source agent project, and the same source cluster supports a narrow description of Hermes as oriented toward tool-using automation that can adapt around a user's workflows. This evidence is useful as an example of agent infrastructure for operating loops, but it should not be stretched into claims about industry adoption, OpenClaw dependency, or universal runtime requirements.
+
 ## References
 
 [1] “Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium”, cobusgreyling.medium.com, 2026-06-11T17:33:36Z, https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8.

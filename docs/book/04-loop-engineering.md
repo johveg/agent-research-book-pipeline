@@ -1,37 +1,37 @@
 # 4. Loop Engineering
 
-Loop engineering means designing the system around closed agent loops rather than only improving prompts.
+The central argument of this chapter is that loop engineering should be treated as the design of the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. The phrase is useful because it names a real shift in the design problem. Once a system acts repeatedly, the quality of a single prompt no longer determines whether the work is safe or useful. The surrounding loop determines what the system can attempt, how it knows whether it succeeded, and how it stops when confidence is low. [1] [2] [3]
 
-## Current evidence status
+The evidence for loop engineering remains uneven. Several public articles from June 2026 describe a shift from prompt engineering toward loop engineering, and those sources are useful for identifying an emerging professional vocabulary. They do not establish a settled academic discipline or prove that the entire industry has adopted a new paradigm. This chapter therefore uses loop engineering as a careful frame for design practice: a way to discuss repeated, tool-mediated agent work without pretending that the terminology has already stabilized. [1] [3] [4] [5]
 
-The following points are synthesized only from claim records whose status allows Author use:
+## From Prompt to Loop
 
-- Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. [1] [2] [3] (status `supported`, moderate evidence)
-- Current evidence suggests: Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition. [1] [4] [3] [5] (status `weakly_supported`, moderate evidence)
+Prompt engineering asks how an instruction should be phrased so that a model produces a useful response. Loop engineering asks a broader question: how should the operating cycle around the model be designed so that repeated action remains bounded, inspectable, and recoverable? The prompt still matters, but it becomes one element in a larger system. The loop also needs a trigger, a goal, available context, permitted tools, checks, state updates, reports, retry rules, and escalation paths. [1] [2] [3]
 
-## Source/claim mapping
+This broader view changes the failure model. A poor prompt can produce a poor answer, but a poor loop can produce repeated poor actions. It can rerun the same mistake, overwrite the wrong artifact, trust unsupported evidence, or silently continue after verification has failed. Loop engineering therefore treats repetition as a safety problem as much as a productivity feature. The design goal is not simply to make the agent run more often. The design goal is to make each run constrained enough that success and failure can be distinguished. [3] [5]
 
-Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.
+## Operational Pattern
 
-- Bullet 1 maps to supported claim: “Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation.”; source tokens: [1] [2] [3].
-- Bullet 2 maps to caveated weak claim: “Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition.”; source tokens: [1] [4] [3] [5].
+A useful loop begins with entry conditions. The system should know why it is running, which inputs are in scope, what work is permitted, and what outcome would count as completion. It then needs a context assembly step: the material made available to the agent should be relevant, bounded, and distinguishable from stale memory or unsupported claims. It also needs tool boundaries. A tool-using system should know which files, services, or external actions it may touch, and which require stronger approval. [1] [3]
 
-## Editor notes
+After action comes verification. A loop should not treat a fluent model response as proof that the work was done. It should inspect outputs, run tests, check citations, compare file changes, and record whether the result passed. State then makes the next run possible. Logs, queues, reports, and memory allow the system to know what happened previously and which issues remain open. Finally, escalation defines what happens when the loop cannot safely continue. Without escalation, autonomy becomes unattended repetition rather than governed work. [2] [3] [5]
 
-Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.
+## Verification and Failure
 
-## Changelog
+The strongest practical test of loop engineering is how the system behaves when the happy path fails. A mature loop can distinguish a transient error from a blocked publication, a missing source from a weak claim, and a retryable delivery problem from an unsafe mutation. It should not hide these distinctions behind a generic success message. It should report a disposition: completed, partial, failed closed, queued for review, or escalated. [3] [5]
 
-- 2026-06-16T10:28:32Z: conservative evidence-status regeneration for run context.
+This is why the book’s own production pipeline is part of the argument. The pipeline collects material, processes evidence, drafts chapters, checks manuscript quality, proves public chapter shape, scans for unsafe mutation, and refuses publication when gates fail. That does not make the pipeline perfect. It makes the operational pattern visible. The loop is valuable not because it always succeeds, but because it can explain why it did or did not proceed. [2] [3]
 
-## Editorial policy
+## Evidence Limits
 
-Last generated: 2026-06-16T10:28:32Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
+The evidence limits of loop engineering must remain explicit. The current sources support a cautious account of an emerging vocabulary around agentic loops, harness design, verification, and security boundaries. They do not support a claim that prompt engineering has become obsolete, that every agent project uses the same architecture, or that loop engineering is already a formal discipline. Stronger claims would require broader primary sources, sustained technical literature, and independent operational evidence. [1] [4] [5]
+
+Within those limits, the concept remains useful. It gives practitioners and researchers a way to ask better questions about agent systems: What starts the loop? What is the goal? What context is loaded? What actions are allowed? What is verified? What state persists? What is reported? What triggers retry or escalation? Those questions are the bridge between an impressive agent demo and a production system that can be governed. [2] [3] [5]
 
 ## References
 
-[1] “Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium”, cobusgreyling.medium.com, 2026-06-11T17:33:36Z, https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8, quality B.
-[2] “Loop Engineering Playbook”, cobusgreyling.substack.com, 2026-06-11T17:33:36Z, https://cobusgreyling.substack.com/p/loop-engineering-playbook, quality B.
-[3] “Agentic Loops: From ReAct to Loop Engineering (2026 Guide)”, datasciencedojo.com, 2026-06-11T17:33:28Z, https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/, quality B.
-[4] “Loop Engineering Explained Visually - by The Cloud Girl”, priyankavergadia.substack.com, 2026-06-11T17:33:28Z, https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually, quality B.
-[5] “From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium”, medium.com, 2026-06-11T17:33:28Z, https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d, quality B.
+[1] “Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium”, cobusgreyling.medium.com, 2026-06-11T17:33:36Z, https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8.
+[2] “Loop Engineering Playbook”, cobusgreyling.substack.com, 2026-06-11T17:33:36Z, https://cobusgreyling.substack.com/p/loop-engineering-playbook.
+[3] “Agentic Loops: From ReAct to Loop Engineering (2026 Guide)”, datasciencedojo.com, 2026-06-11T17:33:28Z, https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/.
+[4] “Loop Engineering Explained Visually - by The Cloud Girl”, priyankavergadia.substack.com, 2026-06-11T17:33:28Z, https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually.
+[5] “From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium”, medium.com, 2026-06-11T17:33:28Z, https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d.

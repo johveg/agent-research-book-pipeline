@@ -1,0 +1,15 @@
+{
+  "blockers": [],
+  "final_disposition": "production_daily_completed",
+  "generated_at": "2026-06-21T04:46:56Z",
+  "mode": "run45_schedule_install_artifact",
+  "next_expected_run_time": "2026-06-22T05:30:00+01:00/+02:00 Europe/Oslo",
+  "production_daily_completed": true,
+  "run_id": "production-daily-manual-20260621T044656Z",
+  "schedule_command": "/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh",
+  "schedule_installable": true,
+  "schedule_installed": true,
+  "status_metadata": {
+    "run_id": "production-daily-manual-20260621T044656Z"
+  }
+}

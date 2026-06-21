@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-06-21T04:47:39Z",
+  "mode": "run44_book_patch_preview",
+  "patch_preview_generated": true,
+  "patch_previews": [
+    {
+      "citation_map": {
+        "claim:claim_e67bacfc44dd5bc6f2a0": [
+          "input_context"
+        ],
+        "run44-citation-001": [
+          "claim:claim_e67bacfc44dd5bc6f2a0",
+          "source:src_384bcc1123ee303676b1",
+          "source:src_7387e00f4d0e7dbf7fee",
+          "source:src_80c8c50e6406c7e7fc95"
+        ],
+        "source:src_384bcc1123ee303676b1": [
+          "input_context"
+        ],
+        "source:src_7387e00f4d0e7dbf7fee": [
+          "input_context"
+        ],
+        "source:src_80c8c50e6406c7e7fc95": [
+          "input_context"
+        ]
+      },
+      "proposed_markdown_delta": "A practical way to use the term loop engineering is to describe the harness around an agent: what starts the loop, what goal it is allowed to pursue, which context and tools it may use, which checks must pass, how state is preserved, how reports are produced, when retries are allowed, and when control is escalated. In that framing, the loop is not just a larger prompt. It is an operating structure for repeated work, bounded action, evaluation, and recovery. [run44-citation-001]",
+      "publish_packet_id": "publish_packet_run44_loop_harness_canary_claim_e67bacfc44dd5bc6f2a0",
+      "target_file_suggestion": "docs/book/06-operating-loops.md"
+    }
+  ],
+  "preview_count": 1,
+  "run_id": "production-daily-manual-20260621T044656Z",
+  "validation_result": "ready_for_guarded_publication"
+}

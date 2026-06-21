@@ -34,6 +34,9 @@ def no_write_capabilities() -> dict:
         "supports_no_docs_book_update_without_gate": True,
         "supports_preflight_only": True,
         "supports_all_chapter_public_proof_gate": True,
+        "supports_post_processing_chapter_revision_policy": True,
+        "supports_existing_chapter_fluent_refactor_rewrite": True,
+        "supports_automatic_guarded_new_chapter_queue": True,
         "all_chapter_public_proof_gate_blocks_evidence_led_pages": True,
         "supports_preflight_all_chapter_public_proof": True,
         "preflight_only_no_write": True,
@@ -228,6 +231,7 @@ def main() -> int:
     ap.add_argument("--preflight-only", action="store_true", help="Validate arguments and emit a no-write preflight result without running pipeline steps")
     ap.add_argument("--allow-chapter-updates", action="store_true", help="Allow Author chapter synthesis. Default daily behavior is collection/preparation only; use after weekly curation or explicit Editor approval.")
     ap.add_argument("--run-all-chapter-public-proof", action="store_true", help="Run the closed-loop manuscript public proof gate across every configured book chapter.")
+    ap.add_argument("--run-chapter-revision-policy", action="store_true", help="After automatic collection and processing, plan fluent existing-chapter rewrites and guarded new chapter queue items from processed information.")
     args = ap.parse_args()
 
     if args.print_capabilities_json:
@@ -261,6 +265,9 @@ def main() -> int:
             "all_chapter_public_proof_ok": proof.get("ok"),
             "all_chapter_public_proof_report": proof.get("report"),
             "all_chapter_public_proof_failed_chapters": proof.get("failed_chapters", []),
+            "chapter_revision_policy_wired": True,
+            "chapter_revision_policy_executed": False,
+            "post_processing_chapter_revision_trigger": "after_automatic_collection_and_processing",
             "human_in_loop_dependency_added": False,
         }, sort_keys=True))
         return 0
@@ -327,6 +334,40 @@ def main() -> int:
             ep_step = run([PY, "scripts/editorial_pipeline_report.py", "--run-id", run_id, "--step-results", str(steps_path), "--book-build-status", "unknown", "--json-out", str(editorial_json)], log)
             steps.append(ep_step)
             editorial = load_json(editorial_json, {})
+
+            if args.run_chapter_revision_policy:
+                processed_json = LOGS / "runs" / f"{run_id}-processed-information.json"
+                processed_items = []
+                trends_payload = load_json(trends_json, {})
+                for trend in trends_payload.get("new_candidate_trends", trends_payload.get("trends", [])) if isinstance(trends_payload, dict) else []:
+                    if isinstance(trend, dict):
+                        processed_items.append({
+                            "title": trend.get("term") or trend.get("title"),
+                            "summary": trend.get("summary") or trend.get("reason") or trend.get("term"),
+                            "topics": [trend.get("term")] if trend.get("term") else trend.get("topics", []),
+                            "evidence_status": trend.get("evidence_status") or "caveat_only",
+                        })
+                if not processed_items:
+                    for trend in editorial.get("new_candidate_trends", []):
+                        if isinstance(trend, dict):
+                            processed_items.append({
+                                "title": trend.get("term") or trend.get("title"),
+                                "summary": trend.get("summary") or trend.get("decision") or trend.get("term"),
+                                "topics": [trend.get("term")] if trend.get("term") else trend.get("topics", []),
+                                "evidence_status": "caveat_only",
+                            })
+                write_json(processed_json, {"run_id": run_id, "processed_information": processed_items})
+                revision_plan_json = REPORTS / "editorial" / f"{run_id}-chapter-revision-policy.json"
+                revision_plan_md = REPORTS / "editorial" / f"{run_id}-chapter-revision-policy.md"
+                steps.append(run([PY, "scripts/book_chapter_revision_policy.py", "--contract", "config/book_manuscript_production_contract.json", "--processed-json", str(processed_json), "--run-id", run_id, "--output-json", str(revision_plan_json), "--output-md", str(revision_plan_md)], log))
+                revision_plan = load_json(revision_plan_json, {})
+                editorial.setdefault("blocked_state_output", {})["chapter_revision_policy_report"] = str(revision_plan_json.relative_to(ROOT))
+                editorial["blocked_state_output"]["chapter_revision_policy_executed"] = True
+                editorial["blocked_state_output"]["existing_chapter_revision_count"] = len(revision_plan.get("existing_chapter_revisions", []))
+                editorial["blocked_state_output"]["new_chapter_candidate_count"] = len(revision_plan.get("new_chapter_candidates", []))
+                if revision_plan.get("ok") is not True:
+                    status = "blocked"
+                    editorial.setdefault("blocked_reasons", []).append("chapter_revision_policy_failed")
 
             chapter_allowed, chapter_skip_reason = chapter_publication_allowed(editorial, args.allow_chapter_updates)
             if not chapter_allowed:

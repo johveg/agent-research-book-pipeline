@@ -1,4 +1,28 @@
 {
+  "autonomous_chapter_revision_policy": {
+    "existing_chapter_revision": {
+      "action_when_yes": "add_and_refactor_rewrite_existing_chapter",
+      "append_only_allowed": false,
+      "decision_question": "Is there new information to add to an existing chapter?",
+      "integration_style": "fluent_refactor_rewrite",
+      "required": true
+    },
+    "new_chapter_creation": {
+      "action_when_yes": "create_new_chapter_automatically",
+      "chapter_creation_mode": "automatic_guarded_queue_item",
+      "decision_question": "Is there new information that should render a new chapter?",
+      "required": true,
+      "write_docs_book_immediately": false
+    },
+    "safety": {
+      "docs_book_write_requires_guarded_publisher": true,
+      "forbid_evidence_led_reader_pages": true,
+      "planning_gate_only": true,
+      "preserve_hard_false_flags_until_publication_gate": true,
+      "require_academic_professional_prose": true
+    },
+    "trigger": "after_automatic_collection_and_processing"
+  },
   "chapters": {
     "agent_loop": {
       "publication_mode": "published_canary_existing",
@@ -65,7 +89,7 @@
     }
   },
   "contract_name": "book_manuscript_production_contract",
-  "created_at_utc": "2026-06-20T18:57:59Z",
+  "created_at_utc": "2026-06-21T04:25:04Z",
   "forbidden_reader_facing_phrases": [
     "Current evidence status",
     "Source/claim mapping",

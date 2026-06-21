@@ -1,0 +1,186 @@
+{
+  "candidates": [
+    {
+      "count": 179,
+      "doc_count": 15,
+      "term": "code",
+      "term_type": "word"
+    },
+    {
+      "count": 90,
+      "doc_count": 15,
+      "term": "tools",
+      "term_type": "word"
+    },
+    {
+      "count": 66,
+      "doc_count": 15,
+      "term": "work",
+      "term_type": "word"
+    },
+    {
+      "count": 56,
+      "doc_count": 15,
+      "term": "html",
+      "term_type": "word"
+    },
+    {
+      "count": 47,
+      "doc_count": 15,
+      "term": "real",
+      "term_type": "word"
+    },
+    {
+      "count": 45,
+      "doc_count": 15,
+      "term": "type",
+      "term_type": "word"
+    },
+    {
+      "count": 41,
+      "doc_count": 15,
+      "term": "content",
+      "term_type": "word"
+    },
+    {
+      "count": 28,
+      "doc_count": 15,
+      "term": "status",
+      "term_type": "word"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "content type",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "content type html",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "extracted",
+      "term_type": "word"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "html snippet",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "snippet",
+      "term_type": "word"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "status content",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "status content type",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "t04 status",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "t04 status content",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "type html",
+      "term_type": "phrase"
+    },
+    {
+      "count": 15,
+      "doc_count": 15,
+      "term": "type html snippet",
+      "term_type": "phrase"
+    },
+    {
+      "count": 38,
+      "doc_count": 14,
+      "term": "write",
+      "term_type": "word"
+    },
+    {
+      "count": 24,
+      "doc_count": 14,
+      "term": "privacy",
+      "term_type": "word"
+    },
+    {
+      "count": 187,
+      "doc_count": 13,
+      "term": "claude",
+      "term_type": "word"
+    },
+    {
+      "count": 55,
+      "doc_count": 13,
+      "term": "sign",
+      "term_type": "word"
+    },
+    {
+      "count": 48,
+      "doc_count": 13,
+      "term": "business",
+      "term_type": "word"
+    },
+    {
+      "count": 38,
+      "doc_count": 13,
+      "term": "other",
+      "term_type": "word"
+    },
+    {
+      "count": 34,
+      "doc_count": 13,
+      "term": "next",
+      "term_type": "word"
+    },
+    {
+      "count": 31,
+      "doc_count": 13,
+      "term": "through",
+      "term_type": "word"
+    },
+    {
+      "count": 30,
+      "doc_count": 13,
+      "term": "same",
+      "term_type": "word"
+    },
+    {
+      "count": 88,
+      "doc_count": 12,
+      "term": "every",
+      "term_type": "word"
+    },
+    {
+      "count": 54,
+      "doc_count": 12,
+      "term": "support",
+      "term_type": "word"
+    }
+  ],
+  "generated_at": "2026-06-21T04:47:07Z",
+  "run_id": "production-daily-manual-20260621T044656Z"
+}

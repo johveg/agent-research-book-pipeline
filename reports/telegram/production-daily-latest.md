@@ -4,13 +4,13 @@
 
 ```yaml
 status_metadata:
-  emitted_at_unix_s: 1781933458
-  emitted_at_unix_ms: 1781933458810
-  emitted_at_utc_iso: "2026-06-20T05:30:58Z"
-  emitted_at_oslo_iso: "2026-06-20T07:30:58+02:00"
+  emitted_at_unix_s: 1782017266
+  emitted_at_unix_ms: 1782017266024
+  emitted_at_utc_iso: "2026-06-21T04:47:46Z"
+  emitted_at_oslo_iso: "2026-06-21T06:47:46+02:00"
   timezone: Europe/Oslo
   component: production_daily_scheduler
-  run_id: production-daily-20260620
+  run_id: production-daily-manual-20260621T044656Z
   status: production_daily_completed
   severity: success
   disposition: production_daily_completed
@@ -25,7 +25,7 @@ status_metadata:
   duration_seconds: null
 ```
 
-Generated: 2026-06-20T05:30:58Z
+Generated: 2026-06-21T04:47:46Z
 
 - target_channel: `AL-Hermoine-OPS`
 - success: `True`
@@ -47,7 +47,7 @@ Generated: 2026-06-20T05:30:58Z
 - substantive update applied: `True`
 - daily status fallback applied: `False`
 - docs/book files changed: `['docs/book/06-operating-loops.md']`
-- source_registry/raw/DB deltas: `source registry export command completed; diff governed by mutation guard` / `web raw capture paths under raw/web/production-daily-20260620; LinkedIn authenticated capture skipped in execute-once to avoid browser-session stall` / `{'claims': 2}`
+- source_registry/raw/DB deltas: `source registry export command completed; diff governed by mutation guard` / `web raw capture paths under raw/web/production-daily-manual-20260621T044656Z; LinkedIn authenticated capture skipped in execute-once to avoid browser-session stall` / `{}`
 - mutation guard: `True` profile `production_daily_publish`
 - citation verifier: `True`
 - MkDocs strict: `True`
@@ -57,4 +57,4 @@ Generated: 2026-06-20T05:30:58Z
 - push result: `pending`
 - final git status: `pending`
 - daily schedule command: `/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh`
-- next expected daily run: `2026-06-21T05:30:00+01:00/+02:00 Europe/Oslo`
+- next expected daily run: `2026-06-22T05:30:00+01:00/+02:00 Europe/Oslo`

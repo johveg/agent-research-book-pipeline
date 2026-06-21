@@ -138,6 +138,29 @@ def test_no_human_dependency_appears_in_outputs(tmp_path, monkeypatch):
         assert term not in blob
 
 
+def test_orchestrator_normalizes_gpt55_caveated_guarded_canary_update_type():
+    mod = load_module()
+    packets = mod.normalize_packets([approved_packet("hybrid") | {"update_type": "guarded_substantive_canary_caveated"}])
+    assert packets[0]["update_type"] == "caveated_substantive_canary"
+    assert mod.validate_publish_packet(packets[0]) == []
+
+
+def test_orchestrator_normalizes_gpt55_guarded_insert_canary_to_academic_update():
+    mod = load_module()
+    packet = approved_packet("insert") | {"update_type": "guarded_substantive_canary_insert"}
+    packet["proposed_markdown_delta"] = (
+        "Purpose: This chapter explains how guarded publication canaries test the closed-loop book pipeline.\n\n"
+        "Definition: a guarded canary means a bounded chapter update routed through machine editor, red-team, citation, and mutation gates. "
+        "The argument is that such gates help preserve book quality while allowing small, evidence-grounded improvements. "
+        "This chapter does not claim that a canary is equivalent to full peer review; the limitation is that it only tests one scoped path.\n\n"
+        "The second paragraph argues that normalized packet types matter because unsupported model wording can fail a safe run even when the intended update is bounded. "
+        "A limitation is that the normalizer must not bypass evidence or citation checks; it only maps a model synonym into the accepted academic update category."
+    )
+    packets = mod.normalize_packets([packet])
+    assert packets[0]["update_type"] == "academic_chapter_update"
+    assert mod.validate_publish_packet(packets[0]) == []
+
+
 def test_academic_quality_gate_fail_closes_orchestrator_before_docs_mutation(tmp_path, monkeypatch):
     p = approved_packet("evidence_stub")
     p["update_type"] = "evidence_stub"

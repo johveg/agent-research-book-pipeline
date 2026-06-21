@@ -51,3 +51,20 @@ Last generated: 2026-06-16T10:28:32Z. This chapter is not synthesized directly f
 [7] “From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium”, medium.com, 2026-06-11T17:33:28Z, https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d, quality B.
 [8] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent, quality A.
 [9] “How to Set Up GBrain: A Simple Tutorial for AI Agent Memory”, www.teknoding.com, 2026-06-11T17:33:21Z, https://www.teknoding.com/2026/06/how-to-set-up-gbrain-simple-tutorial.html, quality B.
+
+<!-- run44-packet:run44_loop_harness_canary_claim_e67bacfc44dd5bc6f2a0_docs_book_06_operating_loops -->
+
+A practical way to use the term loop engineering is to describe the harness around an agent: what starts the loop, what goal it is allowed to pursue, which context and tools it may use, which checks must pass, how state is preserved, how reports are produced, when retries are allowed, and when control is escalated. In that framing, the loop is not just a larger prompt. It is an operating structure for repeated work, bounded action, evaluation, and recovery. [run44-citation-001]
+
+*Run: `production-daily-manual-20260621T044656Z`. Machine disposition: `publish_packet_machine_approved`.*
+
+Caveats:
+- Present loop engineering as a useful framing for agent operation, not as a settled industry transition.
+- Do not claim that prompts have disappeared or that loop engineering replaces all prompt design.
+- Do not extend this canary into vendor, market, safety, or dependency claims without additional supplied evidence.
+- Use only the supplied source identifiers and claim identifier for citation support.
+
+Evidence references:
+- Safe internal packet report: `reports/editorial/citation-pipeline-test-20260612-publish-packets-run44.json`
+- Guarded publication report: `reports/editorial/citation-pipeline-test-20260612-guarded-book-publication-run44.json`
+- Citation details are retained in internal reports; raw claim/source identifiers are not published on this page.

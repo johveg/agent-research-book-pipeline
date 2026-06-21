@@ -294,10 +294,6 @@ def run(args: argparse.Namespace) -> int:
             prompt = build_prompt(args.run_id, evidence, run43_packets)
             llm_result = call_high_reasoning_json(prompt, "run44_publication_packets", validator=validate_llm_payload, provider=args.provider, model=args.model, timeout_seconds=args.timeout_seconds, reasoning_profile=args.model_profile)
             packets = normalize_packets((llm_result.get("parsed_json") or {}).get("publish_packets") or [])
-            for packet in packets:
-                update_type = str(packet.get("update_type") or "")
-                if update_type.startswith("substantive_canary"):
-                    packet["update_type"] = "guarded_substantive_canary"
             publication_status = "live_gpt55_completed"
         except HighReasoningError as exc:
             llm_result = exc.result

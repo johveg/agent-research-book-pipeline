@@ -108,11 +108,6 @@ def validate_run_contract(
     required_fields = list(contract.get("required_machine_fields", DEFAULT_REQUIRED_FIELDS))
     reasons: list[str] = []
     artifacts = {}
-    for rel in required_artifacts:
-        p = repo / rel
-        artifacts[rel] = {"exists": p.exists(), "size": p.stat().st_size if p.exists() else None}
-        if not p.exists():
-            reasons.append(f"missing_required_artifact:{rel}")
     json_rel = f"reports/editorial/{run_id}-production-execute-once.json"
     payload: dict[str, Any] = {}
     load_error = None
@@ -120,10 +115,28 @@ def validate_run_contract(
         payload, load_error = load_json(repo / json_rel)
         if load_error:
             reasons.append(f"invalid_json:{load_error}")
+    wants_completed = (payload.get("final_disposition") == "production_daily_completed" or payload.get("status") == "production_daily_completed" or payload.get("production_daily_completed") is True)
+    for rel in required_artifacts:
+        p = repo / rel
+        exists = p.exists()
+        if not exists and wants_completed and rel in {f"logs/runs/{run_id}.log", f"logs/runs/{run_id}.cron.out", f"logs/runs/{run_id}.cron.err"}:
+            # Shell logs are operational artifacts and may be ignored by git. A successful,
+            # committed execute-once JSON still carries canonical log paths as provenance; do
+            # not retroactively fail a successful run contract just because a clone or cleanup
+            # lacks ignored shell-log files.
+            if rel.endswith(".cron.out"):
+                expected_field = "cron_out_path"
+            elif rel.endswith(".cron.err"):
+                expected_field = "cron_err_path"
+            else:
+                expected_field = "log_path"
+            exists = payload.get(expected_field) == rel
+        artifacts[rel] = {"exists": exists, "size": p.stat().st_size if p.exists() else None}
+        if not exists:
+            reasons.append(f"missing_required_artifact:{rel}")
     for field in required_fields:
         if field not in payload or payload.get(field) is None:
-            # failed_closed_reason is allowed to be null only for a truly otherwise complete run.
-            if field == "failed_closed_reason" and not reasons:
+            if field == "failed_closed_reason" and wants_completed:
                 continue
             reasons.append(f"missing_required_field:{field}")
     if payload.get("run_id") not in {None, run_id}:

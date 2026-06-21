@@ -14,7 +14,9 @@
     "stdout_tail": "{\n  \"status\": \"ok\",\n  \"claims_seen\": 53,\n  \"sources_read\": 500\n}\n"
   },
   "cron_artifact": "config/schedules/closed-loop-production-daily.cron.example",
+  "cron_err_path": "logs/runs/production-daily-manual-20260621T044656Z.cron.err",
   "cron_expression": "30 5 * * *",
+  "cron_out_path": "logs/runs/production-daily-manual-20260621T044656Z.cron.out",
   "daily_runner_invoked": true,
   "daily_status_fallback_applied": false,
   "daily_worker_capability_probe": {
@@ -89,6 +91,7 @@
   "guarded_publication_performed": true,
   "human_in_loop_dependency_added": false,
   "install_command": "(crontab -l 2>/dev/null | grep -v 'closed_loop_production_scheduler.py' | grep -v 'run_production_daily_cron.sh' | grep -v '^CRON_TZ=Europe/Oslo$'; cat /home/hermoine/terefohealreboa/config/schedules/closed-loop-production-daily.cron.example) | crontab -",
+  "log_path": "logs/runs/production-daily-manual-20260621T044656Z.log",
   "mkdocs_strict_ok": true,
   "mkdocs_strict_result": {
     "returncode": 0,

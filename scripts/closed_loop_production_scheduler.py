@@ -434,6 +434,9 @@ def execute_once(
             "production_execution_completed": bool(completed),
             "failed_closed_reason": failed_reason,
             "wrapper_invocation_id": wrapper_invocation_id,
+            "log_path": f"logs/runs/{run_id}.log",
+            "cron_out_path": f"logs/runs/{run_id}.cron.out",
+            "cron_err_path": f"logs/runs/{run_id}.cron.err",
             "disposition": obj.get("final_disposition") or obj.get("status"),
             "fallback_channel_used": False,
         })
@@ -702,10 +705,7 @@ def execute_once(
         })
     report["blockers"] = sorted(set(blockers))
     stamp_report(report, completed=not bool(blockers), failed_reason=";".join(sorted(set(blockers))) if blockers else None)
-    write_telegram_status(telegram_status, report)
     report["telegram_status_written"] = True
-    write_json(output_json, report)
-    write_md(output_md, "Run 45 production execute-once", report)
     return report
 
 

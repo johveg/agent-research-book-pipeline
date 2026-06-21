@@ -106,3 +106,29 @@ def test_no_fake_success_accepted(tmp_path):
     assert result["status"] == "production_daily_failed_closed"
     assert "completed_without_attempt" in result["failed_closed_reasons"]
     assert result["completed"] is False
+
+
+def test_successful_wrapper_run_accepts_json_contract_paths_when_shell_logs_not_committed(tmp_path):
+    mod = load_module()
+    run_id = "production-daily-manual-20260621T044656Z"
+    repo = make_repo(tmp_path, run_id=run_id, with_cron=False, json_payload={
+        "log_path": f"logs/runs/{run_id}.log",
+        "cron_out_path": f"logs/runs/{run_id}.cron.out",
+        "cron_err_path": f"logs/runs/{run_id}.cron.err",
+    })
+
+    result = mod.validate_run_contract(repo, run_id)
+
+    assert result["status"] == "production_daily_completed"
+    assert result["completed"] is True
+    assert result["failed_closed_reasons"] == []
+
+
+def test_successful_run_may_have_null_failed_closed_reason(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path, json_payload={"failed_closed_reason": None})
+
+    result = mod.validate_run_contract(repo, "production-daily-20260617")
+
+    assert result["status"] == "production_daily_completed"
+    assert "missing_required_field:failed_closed_reason" not in result["failed_closed_reasons"]

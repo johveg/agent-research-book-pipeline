@@ -37,6 +37,8 @@ def no_write_capabilities() -> dict:
         "supports_post_processing_chapter_revision_policy": True,
         "supports_existing_chapter_fluent_refactor_rewrite": True,
         "supports_automatic_guarded_new_chapter_queue": True,
+        "supports_human_approved_chapter_subject_discovery": True,
+        "supports_human_approved_research_pair_creation": True,
         "all_chapter_public_proof_gate_blocks_evidence_led_pages": True,
         "supports_preflight_all_chapter_public_proof": True,
         "preflight_only_no_write": True,
@@ -232,6 +234,7 @@ def main() -> int:
     ap.add_argument("--allow-chapter-updates", action="store_true", help="Allow Author chapter synthesis. Default daily behavior is collection/preparation only; use after weekly curation or explicit Editor approval.")
     ap.add_argument("--run-all-chapter-public-proof", action="store_true", help="Run the closed-loop manuscript public proof gate across every configured book chapter.")
     ap.add_argument("--run-chapter-revision-policy", action="store_true", help="After automatic collection and processing, plan fluent existing-chapter rewrites and guarded new chapter queue items from processed information.")
+    ap.add_argument("--run-chapter-subject-discovery", action="store_true", help="After trend discovery, create human-approval proposals for possible new chapter subjects and research pairs without docs/book mutation.")
     args = ap.parse_args()
 
     if args.print_capabilities_json:
@@ -267,6 +270,8 @@ def main() -> int:
             "all_chapter_public_proof_failed_chapters": proof.get("failed_chapters", []),
             "chapter_revision_policy_wired": True,
             "chapter_revision_policy_executed": False,
+            "chapter_subject_discovery_wired": True,
+            "chapter_subject_discovery_executed": False,
             "post_processing_chapter_revision_trigger": "after_automatic_collection_and_processing",
             "human_in_loop_dependency_added": False,
         }, sort_keys=True))
@@ -368,6 +373,19 @@ def main() -> int:
                 if revision_plan.get("ok") is not True:
                     status = "blocked"
                     editorial.setdefault("blocked_reasons", []).append("chapter_revision_policy_failed")
+
+            if args.run_chapter_subject_discovery:
+                subject_report_json = REPORTS / "editorial" / f"{run_id}-chapter-subject-discovery.json"
+                subject_report_md = REPORTS / "editorial" / f"{run_id}-chapter-subject-discovery.md"
+                steps.append(run([PY, "scripts/chapter_subject_discovery.py", "--run-id", run_id, "--contract", "config/book_manuscript_production_contract.json", "--trends-json", str(trends_json), "--config", "config/chapter_discovery_topics.json", "--output-json", str(subject_report_json), "--output-md", str(subject_report_md)], log))
+                subject_report = load_json(subject_report_json, {})
+                editorial.setdefault("blocked_state_output", {})["chapter_subject_discovery_report"] = str(subject_report_json.relative_to(ROOT))
+                editorial["blocked_state_output"]["chapter_subject_discovery_executed"] = True
+                editorial["blocked_state_output"]["chapter_subject_proposal_count"] = subject_report.get("proposal_count", 0)
+                editorial["blocked_state_output"]["human_approval_required_for_new_chapters"] = bool(subject_report.get("human_approval_required"))
+                if subject_report.get("ok") is not True:
+                    status = "blocked"
+                    editorial.setdefault("blocked_reasons", []).append("chapter_subject_discovery_failed")
 
             chapter_allowed, chapter_skip_reason = chapter_publication_allowed(editorial, args.allow_chapter_updates)
             if not chapter_allowed:

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "human_approval_required_for_new_chapters": true,
+  "auto_publish_new_chapters_without_approval": false,
+  "create_research_pairs_after_approval": true,
+  "daily_discovery_enabled": true,
+  "proposal_status": "pending_human_approval",
+  "approval_options": [
+    "approve_new_chapter",
+    "merge_into_existing_chapter",
+    "monitor_only",
+    "reject"
+  ],
+  "approved_subjects": [],
+  "rejected_subjects": [],
+  "monitor_only_subjects": []
+}

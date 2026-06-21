@@ -550,6 +550,7 @@ def execute_once(
             PYTHON, "scripts/daily_book_worker.py", run_id,
             "--preflight-only", "--no-commit",
             "--run-chapter-revision-policy",
+            "--run-chapter-subject-discovery",
             "--run-all-chapter-public-proof",
         ]
         worker = run_cmd(worker_cmd, timeout=180)
@@ -557,6 +558,7 @@ def execute_once(
         report["daily_runner_invoked"] = True
         report["daily_worker_result"] = command_summary(worker)
         report["chapter_revision_policy_gate_invoked"] = "--run-chapter-revision-policy" in worker_cmd
+        report["chapter_subject_discovery_invoked"] = "--run-chapter-subject-discovery" in worker_cmd
         report["all_chapter_public_proof_gate_invoked"] = "--run-all-chapter-public-proof" in worker_cmd
         if worker["returncode"] != 0:
             blockers.append("daily_worker_preflight_failed")

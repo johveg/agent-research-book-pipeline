@@ -19,9 +19,16 @@ __pycache__/
 # Runtime logs and worker state
 logs/runs/*.log
 logs/runs/*.json
+logs/runs/*.cron.out
+logs/runs/*.cron.err
 logs/runs/state/*.state
 logs/runs/state/latest.state
 logs/runs/*.pid
+reports/editorial/production-daily-*-*.json
+reports/editorial/production-daily-*-*.md
+reports/discovery/production-daily-*.json
+reports/discovery/production-daily-*.md
+reports/telegram/production-daily-latest.json
 
 # Raw/private captures; preserve locally only unless explicitly approved for publication
 raw/

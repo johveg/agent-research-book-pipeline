@@ -25,6 +25,7 @@ def test_wrapper_exists_executable_and_uses_safe_shell_contract():
     assert "closed_loop_production_scheduler.py" in text
     assert "--wrapper-invocation-id" in text
     assert "--run-started-at-unix-s" in text
+    assert "--install-schedule-after-success" not in text
     assert "reports/telegram/production-daily-latest.md" in text
     assert "AL-Hermoine-OPS" in text
     assert "telegram:Marius" not in text

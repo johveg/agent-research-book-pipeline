@@ -77,7 +77,6 @@ CMD=("${PYTHON}" scripts/closed_loop_production_scheduler.py
   --allow-guarded-book-publication
   --allow-daily-status-fallback
   --allow-commit-push-after-gates
-  --install-schedule-after-success
   --send-telegram-status
   --wrapper-invocation-id "${WRAPPER_INVOCATION_ID}"
   --run-started-at-unix-s "${RUN_STARTED_AT_UNIX_S}"

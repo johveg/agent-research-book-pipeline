@@ -60,6 +60,22 @@ def read_crontab() -> str:
     return proc.stdout or ""
 
 
+def systemd_timer_active(timer_name: str = "terefo-production-daily.timer") -> bool:
+    proc = subprocess.run(
+        ["systemctl", "is-enabled", "--quiet", timer_name],
+        text=True,
+        capture_output=True,
+    )
+    if proc.returncode == 0:
+        return True
+    proc = subprocess.run(
+        ["systemctl", "is-active", "--quiet", timer_name],
+        text=True,
+        capture_output=True,
+    )
+    return proc.returncode == 0
+
+
 def expected_run_id_for_date(date: str) -> str:
     return "production-daily-" + date.replace("-", "")
 
@@ -132,7 +148,7 @@ def severity_for_status(status: str) -> str:
 
 
 def future_recorded_next_run(repo: Path, local_now: datetime) -> str | None:
-    for path in sorted((repo / "reports" / "editorial").glob("*run45.json"), key=lambda p: p.stat().st_mtime, reverse=True):
+    for path in sorted((repo / "reports" / "editorial").glob("*schedule-install-run45.json"), key=lambda p: p.stat().st_mtime, reverse=True):
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
@@ -141,13 +157,22 @@ def future_recorded_next_run(repo: Path, local_now: datetime) -> str | None:
         if not value:
             continue
         try:
-            # Run45 stored a dual-offset display; compare the ISO prefix.
-            iso = str(value).split("/+", 1)[0]
-            dt = datetime.fromisoformat(iso)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=local_now.tzinfo)
+            raw = str(value)
+            # Run45 stored a dual-offset display like
+            # 2026-06-16T05:30:00+01:00/+02:00 Europe/Oslo. Treat the wall-clock
+            # prefix as the Europe/Oslo schedule time; otherwise the stale +01:00
+            # offset can look like a future run during summer time.
+            if "/+" in raw and raw.endswith("Europe/Oslo"):
+                wall = raw.split("+", 1)[0]
+                dt = datetime.fromisoformat(wall).replace(tzinfo=local_now.tzinfo)
+            else:
+                iso = raw.split(" ", 1)[0]
+                dt = datetime.fromisoformat(iso)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=local_now.tzinfo)
+                dt = dt.astimezone(local_now.tzinfo)
             if dt > local_now:
-                return str(value)
+                return raw
         except Exception:
             continue
     return None
@@ -193,15 +218,19 @@ def monitor(
     scheduled = datetime.combine(datetime.fromisoformat(date).date(), parse_local_time(expect_schedule_time), tzinfo=tz)
     due = local_now >= scheduled
     recorded_next_run = future_recorded_next_run(repo, local_now)
-    if due and recorded_next_run:
-        warnings.append("ignored_stale_future_recorded_next_run_due_already_reached")
     json_path = repo / "reports" / "editorial" / f"{expected_run_id}-production-execute-once.json"
     md_path = repo / "reports" / "editorial" / f"{expected_run_id}-production-execute-once.md"
     telegram_daily = repo / "reports" / "telegram" / "production-daily-latest.md"
     log_path = repo / "logs" / "runs" / f"{expected_run_id}.log"
     event_log = repo / "logs" / "closed_loop" / "events.jsonl"
     crontab = read_crontab()
-    schedule_found = ("run_production_daily_cron.sh" in crontab) or ("closed_loop_production_scheduler.py" in crontab and "production-daily-%Y%m%d" in crontab)
+    cron_schedule_found = ("run_production_daily_cron.sh" in crontab) or ("closed_loop_production_scheduler.py" in crontab and "production-daily-%Y%m%d" in crontab)
+    timer_found = systemd_timer_active()
+    schedule_found = cron_schedule_found or timer_found
+    schedule_command = next(
+        (line for line in crontab.splitlines() if "run_production_daily_cron.sh" in line or "closed_loop_production_scheduler.py" in line),
+        "systemd:terefo-production-daily.timer" if timer_found else "",
+    )
 
     payload = load_json(json_path) if json_path.exists() else {}
     disposition = payload.get("final_disposition") or payload.get("status")
@@ -216,13 +245,21 @@ def monitor(
             status = "production_daily_failed_closed"
             ok = False
             warnings.extend(contract_result.get("failed_closed_reasons", []))
-    elif log_path.exists():
+    elif log_path.exists() and log_path.stat().st_size > 0:
         age_minutes = max(0.0, (local_now.timestamp() - log_path.stat().st_mtime) / 60.0)
         if age_minutes > max_age_minutes:
             status = "production_daily_stale"
             ok = False
         else:
             status = "production_daily_running"
+            ok = True
+    elif log_path.exists() and log_path.stat().st_size == 0:
+        warnings.append("empty_placeholder_log_ignored")
+        if due:
+            status = "production_daily_missing_after_due"
+            ok = False
+        else:
+            status = "production_daily_missing_not_due_yet"
             ok = True
     elif due:
         status = "production_daily_missing_after_due"
@@ -272,8 +309,10 @@ def monitor(
         "target_channel": "AL-Hermoine-OPS",
         "ops_channel": "AL-Hermoine-OPS",
         "max_age_minutes": max_age_minutes,
-        "crontab_production_daily_command_found": schedule_found,
-        "schedule_command": next((line for line in crontab.splitlines() if "run_production_daily_cron.sh" in line or "closed_loop_production_scheduler.py" in line), ""),
+        "crontab_production_daily_command_found": cron_schedule_found,
+        "systemd_production_daily_timer_active": timer_found,
+        "production_daily_schedule_found": schedule_found,
+        "schedule_command": schedule_command,
         "warnings": sorted(set(warnings)),
         "contract_validation": contract_result if json_path.exists() else None,
     }

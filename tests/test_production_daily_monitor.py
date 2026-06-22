@@ -73,7 +73,7 @@ def test_stale_future_next_run_after_due_does_not_create_false_not_due(tmp_path)
     assert report["schedule_due"] is True
     assert report["status"] == "production_daily_missing_after_due"
     assert report["ok"] is False
-    assert "ignored_stale_future_recorded_next_run_due_already_reached" in report["warnings"]
+    assert "ignored_stale_future_recorded_next_run_due_already_reached" not in report["warnings"]
 
 
 def test_completed_report_is_completed(tmp_path):
@@ -218,3 +218,59 @@ def test_cli_json_output(tmp_path):
     for key in ["emitted_at_unix_s", "emitted_at_unix_ms", "emitted_at_utc_iso", "emitted_at_oslo_iso", "status", "severity", "disposition"]:
         assert key in payload
         assert payload["status_metadata"][key] == payload[key]
+
+
+def test_monitor_detects_systemd_timer_when_crontab_absent(monkeypatch, tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    monkeypatch.setattr(mod, "read_crontab", lambda: "")
+    monkeypatch.setattr(mod, "systemd_timer_active", lambda: True)
+    report = mod.monitor(repo=repo, run_id="production-daily-20260616", timezone_name="Europe/Oslo")
+    assert report["systemd_production_daily_timer_active"] is True
+    assert report["crontab_production_daily_command_found"] is False
+    assert report["schedule_command"] == "systemd:terefo-production-daily.timer"
+    assert "crontab_production_daily_command_missing" not in report["warnings"]
+
+
+def test_monitor_warns_when_schedule_missing_in_cron_and_systemd(monkeypatch, tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    monkeypatch.setattr(mod, "read_crontab", lambda: "")
+    monkeypatch.setattr(mod, "systemd_timer_active", lambda: False)
+    report = mod.monitor(repo=repo, run_id="production-daily-20260616", timezone_name="Europe/Oslo")
+    assert report["systemd_production_daily_timer_active"] is False
+    assert "crontab_production_daily_command_missing" in report["warnings"]
+
+
+def test_empty_placeholder_log_after_due_is_not_running(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    run_id = "production-daily-20260616"
+    (repo / "logs" / "runs" / f"{run_id}.log").write_text("")
+    now = datetime(2026, 6, 16, 6, 20, tzinfo=ZoneInfo("Europe/Oslo"))
+    report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
+    assert report["status"] == "production_daily_missing_after_due"
+    assert report["ok"] is False
+    assert "empty_placeholder_log_ignored" in report["warnings"]
+
+
+def test_recorded_next_run_at_or_before_now_is_not_reported_as_future(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    stale = repo / "reports" / "editorial" / "production-daily-20260615-schedule-install-run45.json"
+    stale.write_text(json.dumps({"next_expected_run_time": "2026-06-16T05:30:00+01:00/+02:00 Europe/Oslo"}))
+    now = datetime(2026, 6, 16, 7, 20, tzinfo=ZoneInfo("Europe/Oslo"))
+    report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
+    assert report["recorded_next_expected_run_time"] is None
+    assert "ignored_stale_future_recorded_next_run_due_already_reached" not in report["warnings"]
+
+
+def test_dual_offset_recorded_next_run_is_interpreted_as_local_schedule_time(tmp_path):
+    mod = load_module()
+    repo = make_repo(tmp_path)
+    stale = repo / "reports" / "editorial" / "production-daily-20260615-schedule-install-run45.json"
+    stale.write_text(json.dumps({"next_expected_run_time": "2026-06-16T05:30:00+01:00/+02:00 Europe/Oslo"}))
+    now = datetime(2026, 6, 16, 6, 20, tzinfo=ZoneInfo("Europe/Oslo"))
+    report = mod.monitor(repo=repo, date="2026-06-16", timezone_name="Europe/Oslo", expect_schedule_time="05:30", now=now)
+    assert report["recorded_next_expected_run_time"] is None
+    assert "ignored_stale_future_recorded_next_run_due_already_reached" not in report["warnings"]

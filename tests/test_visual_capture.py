@@ -77,10 +77,24 @@ def test_visual_capture_uses_pixelshot_and_registers_supplemental_source(tmp_pat
     assert payload["items"][0]["status"] == "ok"
     assert payload["items"][0]["source_type"] == "visual_web"
     assert payload["items"][0]["tile_count"] == 1
+    assert payload["items"][0]["book_usage"]["eligible"] is False
+    assert payload["items"][0]["book_usage"]["usage"] == "supplemental_visual_evidence_only"
+    assert payload["items"][0]["book_usage"]["required_before_publication"] == [
+        "human_or_vision_model_description",
+        "source_support_review",
+        "citation_mapping",
+        "public_proof_gate",
+    ]
+    assert payload["items"][0]["provenance"]["original_url"] == "https://example.com/diagram"
+    assert payload["items"][0]["provenance"]["originating_query"] == "visual agent diagram"
+    assert payload["items"][0]["license_review"]["required"] is True
     tile = raw / payload["items"][0]["tiles"][0]
     assert tile.read_bytes() == b"PNGDATA"
     meta = raw / "visual" / "visual-test" / "example-com-diagram" / "visual-metadata.json"
-    assert json.loads(meta.read_text())["visibility"] == "supplemental_visual_evidence"
+    meta_payload = json.loads(meta.read_text())
+    assert meta_payload["visibility"] == "supplemental_visual_evidence"
+    assert meta_payload["book_usage"]["eligible"] is False
+    assert meta_payload["provenance"]["capture_tool"] == "pixelshot"
     with sqlite3.connect(db) as con:
         row = con.execute("select source_type, url, query, archived_path, visibility from sources").fetchone()
     assert row == (

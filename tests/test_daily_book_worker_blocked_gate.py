@@ -99,6 +99,56 @@ def test_blocked_editorial_gate_skips_synthesize_and_update_even_when_allowed(mo
     assert "Human review required" not in summary
 
 
+def test_daily_worker_runs_visual_capture_when_config_enabled(monkeypatch, tmp_path):
+    passed = _blocked_editorial_payload()
+    passed.update({"final_status": "success", "blocked_reasons": [], "chapter_sections_updated": [], "publication_recommendation": "publish"})
+    passed["blocked_state_output"] = {
+        "data_collected": True,
+        "data_usable_for_reports": True,
+        "data_usable_for_chapter_update": True,
+        "chapter_update_allowed": False,
+        "chapter_update_skipped_reason": "allow_chapter_updates_flag_absent",
+        "automated_disposition": "safe_reports_only",
+        "publication_recommendation": "do_not_publish_chapter_updates",
+    }
+    calls, logs, reports = _configure_worker(monkeypatch, tmp_path, passed)
+    config = tmp_path / "search_config.json"
+    config.write_text(json.dumps({
+        "web_queries": ["visual agents"],
+        "linkedin_queries": [],
+        "visual_capture": {"enabled": True, "mode": "pixelshot", "max_urls_per_run": 3},
+    }))
+    monkeypatch.setattr(sys, "argv", ["daily_book_worker.py", "run-visual", "--skip-vector", "--no-commit"])
+
+    assert worker.main() == 0
+
+    visual_cmds = [c for c in calls if Path(c[1] if len(c) > 1 else c[0]).name == "capture_visual_daily.py"]
+    assert len(visual_cmds) == 1
+    visual_cmd = visual_cmds[0]
+    assert "--enabled" in visual_cmd
+    assert "--from-web-capture-json" in visual_cmd
+    assert "--max-urls" in visual_cmd
+    assert visual_cmd[visual_cmd.index("--max-urls") + 1] == "3"
+    steps = json.loads((logs / "runs" / "run-visual-steps.json").read_text())["steps"]
+    assert any(Path(s["cmd"][1]).name == "capture_visual_daily.py" for s in steps)
+    summary = (reports / "daily" / "run-visual.md").read_text()
+    assert "capture_visual_daily.py" in summary
+
+
+def test_daily_worker_skips_visual_capture_when_config_disabled(monkeypatch, tmp_path):
+    calls, logs, _reports = _configure_worker(monkeypatch, tmp_path, _blocked_editorial_payload())
+    config = tmp_path / "search_config.json"
+    config.write_text(json.dumps({"web_queries": [], "linkedin_queries": [], "visual_capture": {"enabled": False}}))
+    monkeypatch.setattr(sys, "argv", ["daily_book_worker.py", "run-no-visual", "--skip-capture", "--skip-vector", "--no-commit"])
+
+    assert worker.main() == 0
+
+    command_names = [Path(c[1] if len(c) > 1 else c[0]).name for c in calls]
+    assert "capture_visual_daily.py" not in command_names
+    steps = json.loads((logs / "runs" / "run-no-visual-steps.json").read_text())["steps"]
+    assert not any(Path(s["cmd"][1]).name == "capture_visual_daily.py" for s in steps if len(s["cmd"]) > 1)
+
+
 def test_allow_chapter_updates_absent_skips_chapter_update_even_when_gate_passes(monkeypatch, tmp_path):
     passed = _blocked_editorial_payload()
     passed.update({"final_status": "success", "blocked_reasons": [], "chapter_sections_updated": [], "publication_recommendation": "publish"})

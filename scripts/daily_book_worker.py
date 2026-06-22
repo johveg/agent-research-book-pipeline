@@ -22,6 +22,7 @@ MKDOCS_PY = str(ROOT / ".venv" / "bin" / "python") if (ROOT / ".venv" / "bin" / 
 def no_write_capabilities() -> dict:
     return {
         "supports_skip_capture": True,
+        "supports_optional_visual_capture": True,
         "supports_skip_entity_extraction": True,
         "supports_skip_claim_extraction": True,
         "supports_skip_docs_entities_update": True,
@@ -254,6 +255,7 @@ def main() -> int:
             "execution_performed": False,
             "writes_performed": False,
             "capture_executed": False,
+            "visual_capture_executed": False,
             "entity_extraction_executed": False,
             "claim_extraction_executed": False,
             "docs_book_update_executed": False,
@@ -307,6 +309,11 @@ def main() -> int:
 
             if not args.skip_capture:
                 steps.append(run([PY, "scripts/capture_web_daily.py", "--run-id", run_id, "--json-out", str(web_json), *sum([["--query", q] for q in cfg["web_queries"]], [])], log))
+                visual_cfg = cfg.get("visual_capture", {}) if isinstance(cfg.get("visual_capture", {}), dict) else {}
+                if visual_cfg.get("enabled"):
+                    visual_json = LOGS / "runs" / f"{run_id}-visual.json"
+                    max_urls = str(int(visual_cfg.get("max_urls_per_run", 5)))
+                    steps.append(run([PY, "scripts/capture_visual_daily.py", "--run-id", run_id, "--from-web-capture-json", str(web_json), "--max-urls", max_urls, "--enabled", "--json-out", str(visual_json)], log))
                 steps.append(run([PY, "scripts/capture_linkedin_daily.py", "--run-id", run_id, "--json-out", str(li_json), *sum([["--query", q] for q in cfg["linkedin_queries"]], [])], log))
             else:
                 steps.append(script_step("scripts/capture_web_daily.py", 0, "skipped by --skip-capture"))

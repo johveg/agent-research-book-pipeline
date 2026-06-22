@@ -3,10 +3,10 @@
     "delivered": 0,
     "failed_closed_target_not_resolvable": 0,
     "queued": 0,
-    "retry_scheduled": 401
+    "retry_scheduled": 402
   },
   "delivered_count": 0,
-  "entry_count": 401,
+  "entry_count": 402,
   "fallback_channel_used": false,
   "pending_message_ids": [
     "ops-f7fcd763cd269722",
@@ -409,16 +409,17 @@
     "ops-7bbcba00db26ec16",
     "ops-c4d059fa6f0e7984",
     "ops-f838b150d33b7d02",
-    "ops-5de82d8f66802f04"
+    "ops-5de82d8f66802f04",
+    "ops-f197a64f3b23e276"
   ],
-  "queued_count": 401,
+  "queued_count": 402,
   "status_metadata": {
     "component": "ops_delivery_outbox",
     "disposition": "outbox_state",
-    "emitted_at_oslo_iso": "2026-06-20T21:44:21+02:00",
-    "emitted_at_unix_ms": 1781984661200,
-    "emitted_at_unix_s": 1781984661,
-    "emitted_at_utc_iso": "2026-06-20T19:44:21Z",
+    "emitted_at_oslo_iso": "2026-06-22T06:45:05+02:00",
+    "emitted_at_unix_ms": 1782103505026,
+    "emitted_at_unix_s": 1782103505,
+    "emitted_at_utc_iso": "2026-06-22T04:45:05Z",
     "run_id": "run54",
     "severity": "info",
     "status": "outbox_state",

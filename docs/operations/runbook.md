@@ -38,9 +38,9 @@ Run `scripts/weekly_curation_report.py` to decide whether anything should move i
 ## Verification commands
 
 ```bash
-cd /home/hermoine/terefohealreboa
-/home/hermoine/linkedin-24h-watch/.venv/bin/python3 scripts/verify_book_workspace.py
-/home/hermoine/linkedin-24h-watch/.venv/bin/python3 scripts/verify_editorial_roles.py
+cd /home/hermoine/agent-research-book-pipeline
+/home/hermoine/agent-research-linkedin-source/.venv/bin/python3 scripts/verify_book_workspace.py
+/home/hermoine/agent-research-linkedin-source/.venv/bin/python3 scripts/verify_editorial_roles.py
 . .venv/bin/activate
 python -m mkdocs build --strict
 ```

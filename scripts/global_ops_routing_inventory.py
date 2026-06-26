@@ -11,10 +11,10 @@ from typing import Any
 REQUIRED_OPS_CHANNEL = "AL-Hermoine-OPS"
 NON_OPS_TARGETS = {"telegram:marius", "marius", "telegram", "origin", "home", "default", "local", "all"}
 DEFAULT_PATHS = {
-    "terefo": Path("/home/hermoine/terefohealreboa"),
+    "terefo": Path("/home/hermoine/agent-research-book-pipeline"),
     "loop_engineering": Path("/home/hermoine/loop-engineering-24h"),
-    "openclaw_web_watch": Path("/home/hermoine/openclaw-hermes-web-watch"),
-    "linkedin_watch": Path("/home/hermoine/linkedin-24h-watch"),
+    "openclaw_web_watch": Path("/home/hermoine/agent-research-web-source"),
+    "linkedin_watch": Path("/home/hermoine/agent-research-linkedin-source"),
     "default_profile": Path("/root/.hermes"),
     "ops_bot_profile": Path("/root/.hermes/profiles/ops-bot"),
 }

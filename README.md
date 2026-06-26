@@ -22,7 +22,7 @@ GitHub Pages is configured through `.github/workflows/pages.yml` using MkDocs Ma
 Expected local path:
 
 ```text
-/home/hermoine/terefohealreboa
+/home/hermoine/agent-research-book-pipeline
 ```
 
 ## Operating principle

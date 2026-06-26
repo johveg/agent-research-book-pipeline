@@ -2,8 +2,8 @@
 set -euo pipefail
 export HOME=/root
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-export PYTHONPATH=/home/hermoine/terefohealreboa/scripts:/home/hermoine/terefohealreboa
-cd /home/hermoine/terefohealreboa
+export PYTHONPATH=/home/hermoine/agent-research-book-pipeline/scripts:/home/hermoine/agent-research-book-pipeline
+cd /home/hermoine/agent-research-book-pipeline
 mkdir -p logs/runs reports/ops/outbox
 stamp="$(date -u +%Y%m%dT%H%M%SZ)"
 log="logs/runs/ops-delivery-controller-${stamp}.log"

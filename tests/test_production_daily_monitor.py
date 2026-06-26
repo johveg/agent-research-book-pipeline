@@ -176,7 +176,7 @@ def test_manual_production_daily_run_id_is_accepted_and_completed(tmp_path):
 def test_monitor_detects_crontab_production_command(monkeypatch, tmp_path):
     mod = load_module()
     repo = make_repo(tmp_path)
-    monkeypatch.setattr(mod, "read_crontab", lambda: "CRON_TZ=Europe/Oslo\n30 5 * * * /home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh")
+    monkeypatch.setattr(mod, "read_crontab", lambda: "CRON_TZ=Europe/Oslo\n30 5 * * * /home/hermoine/agent-research-book-pipeline/scripts/run_production_daily_cron.sh")
     report = mod.monitor(repo=repo, run_id="production-daily-20260616", timezone_name="Europe/Oslo")
     assert report["crontab_production_daily_command_found"] is True
     assert "run_production_daily_cron.sh" in report["schedule_command"]

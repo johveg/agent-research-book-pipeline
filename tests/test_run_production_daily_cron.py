@@ -11,7 +11,7 @@ def test_wrapper_exists_executable_and_uses_safe_shell_contract():
     assert os.access(SCRIPT, os.X_OK)
     text = SCRIPT.read_text()
     assert "set -euo pipefail" in text
-    assert "cd /home/hermoine/terefohealreboa" in text
+    assert "cd /home/hermoine/agent-research-book-pipeline" in text
     assert "TZ=Europe/Oslo" in text
     assert "RUN_ID=\"production-daily-$(TZ=Europe/Oslo date +%Y%m%d)\"" in text
     assert "${LOG_DIR}/${RUN_ID}.log" in text

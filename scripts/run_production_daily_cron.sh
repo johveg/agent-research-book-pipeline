@@ -7,12 +7,12 @@ if [[ "${1:-}" == "--dry-run" ]]; then
 fi
 
 export HOME="${HOME:-/root}"
-export PATH="/home/hermoine/terefohealreboa/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-export PYTHONPATH="/home/hermoine/terefohealreboa:/home/hermoine/terefohealreboa/scripts:${PYTHONPATH:-}"
+export PATH="/home/hermoine/agent-research-book-pipeline/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+export PYTHONPATH="/home/hermoine/agent-research-book-pipeline:/home/hermoine/agent-research-book-pipeline/scripts:${PYTHONPATH:-}"
 export TZ=Europe/Oslo
 export TEREFO_STATUS_OPS_CHANNEL="AL-Hermoine-OPS"
 
-cd /home/hermoine/terefohealreboa
+cd /home/hermoine/agent-research-book-pipeline
 RUN_ID="production-daily-$(TZ=Europe/Oslo date +%Y%m%d)"
 if [[ -n "${TEREFO_PRODUCTION_RUN_ID:-}" ]]; then
   RUN_ID="${TEREFO_PRODUCTION_RUN_ID}"

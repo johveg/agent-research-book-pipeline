@@ -1,8 +1,8 @@
 site_name: Terefo Heal Reboa
 site_description: A living research book about Hermes, OpenClaw, and loop engineering.
-site_url: https://johveg.github.io/terefohealreboa/
-repo_url: https://github.com/johveg/terefohealreboa
-repo_name: johveg/terefohealreboa
+site_url: https://johveg.github.io/agent-research-book-pipeline/
+repo_url: https://github.com/johveg/agent-research-book-pipeline
+repo_name: johveg/agent-research-book-pipeline
 edit_uri: edit/main/docs/
 theme:
   name: material

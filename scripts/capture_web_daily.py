@@ -13,7 +13,7 @@ from typing import Any
 from research_common import RAW, brave_key, connect_db, init_db, sha256_text, slugify, strip_html, extract_title, utc_now, upsert_source, write_json
 
 BRAVE_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
-USER_AGENT = "terefohealreboa-research-book/1.0 (+https://github.com/johveg/terefohealreboa)"
+USER_AGENT = "terefohealreboa-research-book/1.0 (+https://github.com/johveg/agent-research-book-pipeline)"
 
 
 def brave_search(api_key: str, query: str, count: int = 10, freshness: str = "pd") -> dict[str, Any]:

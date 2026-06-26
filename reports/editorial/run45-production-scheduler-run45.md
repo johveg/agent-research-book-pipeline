@@ -4,10 +4,10 @@
 
 ```yaml
 status_metadata:
-  emitted_at_unix_s: 1781612861
-  emitted_at_unix_ms: 1781612861940
-  emitted_at_utc_iso: "2026-06-16T12:27:41Z"
-  emitted_at_oslo_iso: "2026-06-16T14:27:41+02:00"
+  emitted_at_unix_s: 1782509001
+  emitted_at_unix_ms: 1782509001042
+  emitted_at_utc_iso: "2026-06-26T21:23:21Z"
+  emitted_at_oslo_iso: "2026-06-26T23:23:21+02:00"
   timezone: Europe/Oslo
   component: production_daily_scheduler
   run_id: run45
@@ -15,7 +15,7 @@ status_metadata:
   severity: success
   disposition: production_daily_completed
   target_channel: AL-Hermoine-OPS
-  repo: /home/hermoine/terefohealreboa
+  repo: /home/hermoine/agent-research-book-pipeline
   git_commit: null
   git_branch: null
   report_path: null
@@ -25,7 +25,7 @@ status_metadata:
   duration_seconds: null
 ```
 
-Generated: 2026-06-16T12:27:41Z
+Generated: 2026-06-26T21:23:20Z
 
 - target_channel: `AL-Hermoine-OPS`
 - run_id: `run45`
@@ -38,5 +38,5 @@ Generated: 2026-06-16T12:27:41Z
 ## Schedule command
 
 ```bash
-/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh
+/home/hermoine/agent-research-book-pipeline/scripts/run_production_daily_cron.sh
 ```

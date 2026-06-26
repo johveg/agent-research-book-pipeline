@@ -1,13 +1,13 @@
 # Hermes AI agent
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-16T10:00:22Z
+- Last seen: 2026-06-26T03:30:14Z
 - Source count: 5
-- Mention count: 14
+- Mention count: 36
 
 ## Description
 
@@ -28,5 +28,5 @@ Candidate tool entity extracted from 1 source(s).
 - `src_44eb94ec55a8bf740c4c` — Communicate with Hermes AI Agent over DeltaChat
   - URL: https://support.delta.chat/t/communicate-with-hermes-ai-agent-over-deltachat/5438
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/06-communicate-with-hermes-ai-agent-over-deltachat.md`
-- `src_a4b7b58314073fed717d` — Is your AI agent sitting half-configured on your hard drive? Most people spend hours trying to get Hermes AI Agent running — only to end up 
+- `src_a4b7b58314073fed717d` — Is your AI agent sitting half-configured on your hard drive? Most people spend hours trying to get Hermes AI Agent running — only to end up
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/159-cc9d3f0b25649d84babc.md`

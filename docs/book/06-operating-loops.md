@@ -1,38 +1,53 @@
 # 6. Operating Loops in Production
 
-The central argument of this chapter is that production agent loops are not simply repeated prompts. They are operational systems that need explicit boundaries, verification, memory of prior actions, and a way to stop or escalate when the work no longer remains safe. The current evidence is useful but limited: public practitioner writing in June 2026 supports a careful account of loop engineering as harness design, while it is not sufficient to claim a settled industry consensus or the disappearance of prompt design. [1] [2] [3] [6] [7]
+Production loops need manifests, verification, state files, safe retries, non-destructive watchdogs, and human escalation boundaries.
 
-## From Prompt to Loop
+## Current evidence status
 
-Loop engineering is best understood here as the design of the harness around an agent. A loop begins with a trigger and a goal, but it also requires context, tools, checks, state, reports, retry rules, and escalation paths. In that framing, the loop is not a larger prompt; it is an operating structure for repeated work, bounded action, evaluation, and recovery. This operational pattern also keeps the chapter from overstating the evidence. The available sources show an emerging vocabulary for agent loops and loop engineering, not a universal or fully standardized discipline. [1] [2] [3]
+The following points are synthesized only from claim records whose status allows Author use:
 
-The first production problem is boundary setting. An agentic loop can be described as a repeated cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange. That cycle needs a manifest or equivalent contract that says what the loop is allowed to attempt, what information it can use, what tools it can call, and which outputs count as acceptable. Without those boundaries, repetition can amplify mistakes: a weak instruction becomes a repeated weak action, and an unchecked action can become a workflow failure rather than a single bad answer. [3] [6]
+- Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. [1] [2] [3] (status `supported`, moderate evidence)
+- OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms. [4] [5] (status `supported`, moderate evidence)
+- A useful loop-engineering chapter can therefore focus on loop boundaries, observability, evaluation, and safe handoff instead of claiming that prompts have disappeared. [6] [3] (status `supported`, moderate evidence)
+- An agentic loop can be framed as a repeated AI-agent cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange. [6] [3] (status `supported`, moderate evidence)
+- Current evidence suggests: Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition. [1] [6] [3] [7] (status `weakly_supported`, moderate evidence)
+- Current evidence suggests: Current loop-engineering commentary often contrasts one-off prompting with systems that repeatedly plan, execute, evaluate, and adjust work. [1] [2] [3] (status `weakly_supported`, moderate evidence)
+- Current evidence suggests: For production use, the available loop-engineering material points toward operational concerns: checks, monitoring, repeated execution, and explicit boundaries around autonomous work. [1] [3] [7] (status `weakly_supported`, moderate evidence)
+- Current evidence suggests: The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources. [8] [9] (status `weakly_supported`, weak evidence)
 
-The second problem is verification. Production loops should not treat model output as completion by itself. They need checks that inspect whether the intended work happened, whether citations or evidence are still valid, whether generated artifacts changed only the allowed paths, and whether a failure should stop the run. This is why safe loops are often built around tests, status files, reports, and mutation guards. These controls make the loop inspectable. They also make failure less ambiguous: the system can record whether it completed, failed closed, retried, or escalated. [1] [3] [7]
+## Source/claim mapping
 
-State is the third requirement. A one-off exchange can depend on the immediate conversation, but a production loop needs durable memory of what it has already done. State files, logs, queues, and reports let the next iteration know which inputs were collected, which decisions were made, which gates passed, and which issues remain unresolved. This does not mean every memory claim is equally supported. The present source set only supports a cautious connection between agent loops and broader context or memory architecture; a stronger technical treatment would require better primary sources. [8] [9]
+Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.
 
-Retries and watchdogs are useful only when they are constrained. A safe retry should have a reason, a limit, and a new condition that makes success more likely than repeating the same failure. A watchdog should observe and report without causing destructive side effects. In production terms, this means that a loop may retry a transient operation, queue a failed notification, or rerun a validation step, but it should not silently publish, overwrite, or escalate privileges merely because the previous attempt failed. [1] [3] [7]
+- Bullet 1 maps to supported claim: “Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation.”; source tokens: [1] [2] [3].
+- Bullet 2 maps to supported claim: “OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms.”; source tokens: [4] [5].
+- Bullet 3 maps to supported claim: “A useful loop-engineering chapter can therefore focus on loop boundaries, observability, evaluation, and safe handoff instead of claiming that prompts have disappeared.”; source tokens: [6] [3].
+- Bullet 4 maps to supported claim: “An agentic loop can be framed as a repeated AI-agent cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange.”; source tokens: [6] [3].
+- Bullet 5 maps to caveated weak claim: “Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition.”; source tokens: [1] [6] [3] [7].
+- Bullet 6 maps to caveated weak claim: “Current loop-engineering commentary often contrasts one-off prompting with systems that repeatedly plan, execute, evaluate, and adjust work.”; source tokens: [1] [2] [3].
+- Bullet 7 maps to caveated weak claim: “For production use, the available loop-engineering material points toward operational concerns: checks, monitoring, repeated execution, and explicit boundaries around autonomous work.”; source tokens: [1] [3] [7].
+- Bullet 8 maps to caveated weak claim: “The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources.”; source tokens: [8] [9].
 
-Human escalation remains part of the design even in an autonomous loop. The evidence supports discussing repeated execution, monitoring, checks, and autonomy boundaries, but it does not support a claim that human judgment disappears. A mature loop should therefore describe when it can proceed alone, when it must fail closed, and when it should ask for help or hand off a report. This is especially important for editorial and research systems, where a loop may collect material automatically but still needs gates that distinguish evidence, draft prose, and publishable chapter text. [3] [6] [7]
+## Editor notes
 
-OpenClaw and Hermes are useful cases for thinking about these boundaries, but they should be treated carefully. OpenClaw appears in the source registry through its public GitHub repository, described as a personal AI assistant across operating systems and platforms. Hermes-related sources point toward agent operation and context tooling. These examples can motivate the need for operational harnesses, but they should not be used as proof that all agent platforms share the same production architecture or that the field has converged on one implementation model. [4] [5] [8]
+Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.
 
-## Evidence Limits
+## Changelog
 
-The practical lesson is that a production loop should be designed as a small operating system for repeated agent work. It needs a purpose, a contract, controlled inputs, permitted actions, validation gates, durable state, readable reports, bounded retries, and explicit escalation. Prompting still matters, but in production the prompt is only one part of a larger system. The chapter therefore uses loop engineering as a cautious professional frame: a way to discuss how agent work becomes repeatable, observable, and governable without pretending that the evidence has settled every technical or organizational question. [1] [2] [3] [6] [7]
+- 2026-06-26T21:23:29Z: conservative evidence-status regeneration for run context.
 
+## Editorial policy
 
-In practical loop design, the agent runtime matters because it determines how plans become repeatable work. One safe example in the current source set is Hermes Agent: the captured official and repository metadata identify it as a Nous Research open-source agent project, and the same source cluster supports a narrow description of Hermes as oriented toward tool-using automation that can adapt around a user's workflows. This evidence is useful as an example of agent infrastructure for operating loops, but it should not be stretched into claims about industry adoption, OpenClaw dependency, or universal runtime requirements.
+Last generated: 2026-06-26T21:23:29Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
 
 ## References
 
-[1] “Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium”, cobusgreyling.medium.com, 2026-06-11T17:33:36Z, https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8.
-[2] “Loop Engineering Playbook”, cobusgreyling.substack.com, 2026-06-11T17:33:36Z, https://cobusgreyling.substack.com/p/loop-engineering-playbook.
-[3] “Agentic Loops: From ReAct to Loop Engineering (2026 Guide)”, datasciencedojo.com, 2026-06-11T17:33:28Z, https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/.
-[4] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-11T17:33:21Z, https://github.com/openclaw/openclaw.
-[5] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-12T01:10:27Z, https://github.com/openclaw/openclaw.
-[6] “Loop Engineering Explained Visually - by The Cloud Girl”, priyankavergadia.substack.com, 2026-06-11T17:33:28Z, https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually.
-[7] “From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium”, medium.com, 2026-06-11T17:33:28Z, https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d.
-[8] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent.
-[9] “How to Set Up GBrain: A Simple Tutorial for AI Agent Memory”, www.teknoding.com, 2026-06-11T17:33:21Z, https://www.teknoding.com/2026/06/how-to-set-up-gbrain-simple-tutorial.html.
+[1] “Loop Engineering Playbook. Where loops live, how to run your first… | by Cobus Greyling | Jun, 2026 | Medium”, cobusgreyling.medium.com, 2026-06-11T17:33:36Z, https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8, quality B.
+[2] “Loop Engineering Playbook”, cobusgreyling.substack.com, 2026-06-11T17:33:36Z, https://cobusgreyling.substack.com/p/loop-engineering-playbook, quality B.
+[3] “Agentic Loops: From ReAct to Loop Engineering (2026 Guide)”, datasciencedojo.com, 2026-06-11T17:33:28Z, https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/, quality B.
+[4] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-11T17:33:21Z, https://github.com/openclaw/openclaw, quality A.
+[5] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-12T01:10:27Z, https://github.com/openclaw/openclaw, quality A.
+[6] “Loop Engineering Explained Visually - by The Cloud Girl”, priyankavergadia.substack.com, 2026-06-11T17:33:28Z, https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually, quality B.
+[7] “From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun, 2026 | Medium”, medium.com, 2026-06-11T17:33:28Z, https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d, quality B.
+[8] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent, quality A.
+[9] “How to Set Up GBrain: A Simple Tutorial for AI Agent Memory”, www.teknoding.com, 2026-06-11T17:33:21Z, https://www.teknoding.com/2026/06/how-to-set-up-gbrain-simple-tutorial.html, quality B.

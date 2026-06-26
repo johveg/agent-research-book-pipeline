@@ -1,17 +1,17 @@
 # Claude Code
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `tool`
-- Confidence: `medium`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T10:28:31Z
-- Source count: 32
-- Mention count: 229
+- Last seen: 2026-06-26T21:23:28Z
+- Source count: 47
+- Mention count: 674
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate tool entity extracted from 3 source(s).
 
 ## Related claims
 
@@ -25,59 +25,66 @@ Candidate tool entity extracted from 2 source(s).
 
 - `src_7a1bfed443c12e7ffcca` — Been using and seeing a lot of AI agents lately. Such as Hermes, OpenClaw, Claude Code, and Pi. I became curious about how they actually wor
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-9d1e38ef2b708754fad1.md`
-- `src_5041e58ca7814decf8f5` — There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
+- `src_59cd7659103d18b09ecc` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
+  - URL: https://github.com/Infisical/agent-vault
+  - Archive: `web/production-daily-20260616/openclaw-hermes/03-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
 - `src_988a63a0444c4c71a699` — hashtag #pillolegeek hashtag #geekpills Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenClaw, pi, OpenCode, an
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/035-7726de66bbbda73ddb23.md`
+- `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`
+- `src_6b4b29ae49be4778fdfd` — One of the people who built Claude Code says he doesn't write prompts anymore — his job is to write loops. I think that's the most honest de
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/010-dc56743d8842b74fd179.md`
+- `src_f1d1147baac9ebf886a4` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
+  - URL: https://github.com/nexu-io/open-design
+  - Archive: `web/production-daily-20260618/hermes-openclaw/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
+- `src_b6dd7d96799bb56ee268` — How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex
+  - URL: https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules
+  - Archive: `web/production-daily-20260618/loop-engineering-ai-agents/03-how-to-design-ai-agent-loops-schedules-goals-and-subagents-i.md`
+- `src_b75c2361e83124296385` — GitHub - SaladDay/cc-switch-cli: ⭐️ A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.
+  - URL: https://github.com/saladday/cc-switch-cli
+  - Archive: `web/production-daily-20260620/hermes-openclaw/03-github-saladday-cc-switch-cli-a-cross-platform-cli-all-in-on.md`
+- `src_b3a2887a17f3fe06974a` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
+  - URL: https://github.com/Infisical/agent-vault
+  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
+- `src_34708d0bda378ebf37fd` — 🤯 This app takes any book you read and turns it into a collection of Agentic AI (Hermes/OpenClaw/Claude Code) skill markdown files.
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/057-45624a146e58e6a3b4e7.md`
+- `src_36497529c369f835e824` — This is enormously valuable! My take in tldr form: Claude Code, Codex, OpenCode, Pi, Hermes, Openclaw, etc. are ways of interacting with pow
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/078-e76e34dcc7253bd3c754.md`
+- `src_6505735cbfbec47e5330` — AI Loop Engineering: Build Autonomous Agents with Claude Code /goal + Routines
+  - URL: https://www.sabrina.dev/p/loop-engineering-claude-code-goal-routines
+  - Archive: `web/production-daily-manual-20260621T044136Z/loop-engineering-ai-agents/03-ai-loop-engineering-build-autonomous-agents-with-claude-code.md`
+- `src_9334fe0ec8ca0fba2a72` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
+  - URL: https://github.com/nexu-io/open-design
+  - Archive: `web/production-daily-manual-20260621T044136Z/openclaw-hermes/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
+- `src_5041e58ca7814decf8f5` — There’s a shift happening in how engineers work with AI, and it’s being called loop engineering. Boris Cherny, who leads Claude Code at Anth
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
 - `src_04119334ec1ee2a928e1` — Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/130-372eae5f4dfdc174adda.md`
 - `src_7c6989eb5d3f90045a25` — /Goal: New command in Claude Code, Codex and Hermes agent, Full Guide for Non technical Folks
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/020-15dbbf88ac16af5e307b.md`
+- `src_52c3c6c525d566a4114e` — AI Loop Engineering: Build Autonomous Agents with Claude Code /goal + Routines
+  - URL: https://www.sabrina.dev/p/loop-engineering-claude-code-goal-routines
+  - Archive: `web/production-daily-20260621/loop-engineering-ai-agents/02-ai-loop-engineering-build-autonomous-agents-with-claude-code.md`
+- `src_40888e5c119519bebe82` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
+  - URL: https://github.com/nexu-io/open-design
+  - Archive: `web/production-daily-20260621/openclaw-hermes/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
 - `src_dc90704dea68e5e4628e` — Quick update on the free Mimo tokens from Xiaomi's 100T token giveaway last month, which can be used with Claude Code, OpenClaw, OpenAI, Her
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/111-b96e610ed47b04410d76.md`
 - `src_2931d4430c4d9716fe8f` — GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes. · GitHub
   - URL: https://github.com/conorbronsdon/avoid-ai-writing
   - Archive: `web/manual-20260611T173313Z/openclaw-hermes/04-github-conorbronsdon-avoid-ai-writing-skill-that-audits-and.md`
-- `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`
-- `src_6b4b29ae49be4778fdfd` — One of the people who built Claude Code says he doesn't write prompts anymore — his job is to write loops. I think that's the most honest de
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/010-dc56743d8842b74fd179.md`
-- `src_34708d0bda378ebf37fd` — 🤯 This app takes any book you read and turns it into a collection of Agentic AI (Hermes/OpenClaw/Claude Code) skill markdown files.
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/057-45624a146e58e6a3b4e7.md`
-- `src_36497529c369f835e824` — This is enormously valuable! My take in tldr form: Claude Code, Codex, OpenCode, Pi, Hermes, Openclaw, etc. are ways of interacting with pow
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/078-e76e34dcc7253bd3c754.md`
 - `src_c3b51d10f92949e36a34` — Feed post Jean-Christophe Yervant • 3rd+ J’installe Open Claw // Hermes // Obsidian // Claude Code et des agents IA pour mes clients qui veu
   - URL: https://www.linkedin.com/in/jean-christophe-yervant-9217a1398?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGGmCekBoyosHikDrfFbGxjjz0ozXD4q8Fg
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/052-54281ef8d13700b38a7e.md`
-- `src_f53fd71b5c30c516bc76` — If you have Hermes Agent, Claude Code & Codex handoffs, Obsidian + QMD memory, agentic loops, Fleet Tailscale mesh, cron jobs + Kanban, and 
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/078-75d2fbc8c53a46ef7ee2.md`
-- `src_b3a2887a17f3fe06974a` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
+- `src_b706cc7020c480e20338` — GitHub - safishamsi/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. · GitHub
+  - URL: https://github.com/safishamsi/graphify
+  - Archive: `web/production-daily-direct-20260621T120113Z/hermes-openclaw/03-github-safishamsi-graphify-ai-coding-assistant-skill-claude.md`
+- `src_5c730dcc984616912933` — AI Loop Engineering: Build Autonomous Agents with Claude Code /goal + Routines
+  - URL: https://www.sabrina.dev/p/loop-engineering-claude-code-goal-routines
+  - Archive: `web/production-daily-direct-20260621T120113Z/loop-engineering-ai-agents/02-ai-loop-engineering-build-autonomous-agents-with-claude-code.md`
+- `src_501b12c240cb4768e112` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
+  - URL: https://github.com/nexu-io/open-design
+  - Archive: `web/production-daily-direct-20260621T120113Z/openclaw-hermes/03-github-nexu-io-open-design-local-first-open-source-claude-de.md`
+- `src_504ad95bc4a40b24ad50` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
   - URL: https://github.com/Infisical/agent-vault
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
-- `src_59cd7659103d18b09ecc` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
-  - URL: https://github.com/Infisical/agent-vault
-  - Archive: `web/production-daily-20260616/openclaw-hermes/03-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
-- `src_8570f66e01b3c57f01cb` — Loop Engineering El creador de Claude Code ya no escribe prompts. Escribe loops. Boris Cherny, Head de Claude Code en Anthropic, lo dijo en 
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/145-722ab4bb5b65b4bac2ee.md`
-- `src_7c138ed755684e992664` — Delete Any IDE or heavy AI tools like Claude Code, Google Antigravity, Cursor, OpenAI (Codex) and etc...... and Install the lightest AI Harn
-  - URL: https://www.linkedin.com/company/claude-code/
-  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/026-4bdef0f146d734380888.md`
-- `src_2af6678feec1dc830ffa` — Boris Cherny (creator of Claude Code) said it best: "I don't prompt Claude anymore. I have loops running that prompt Claude... My job is to 
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-da8f9cac9fb8cc885021.md`
-- `src_420fa08c8d412dc488ac` — Tech Twitter is obsessed with Claude Code's new 'Loop Engineering'. But they are using a revolutionary architecture just to fix Python synta
-  - URL: https://www.linkedin.com/in/bcherny/
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/135-1988373f4b4d4ffbb5f4.md`
-- `src_a17f316ca896d7027321` — "I don't prompt Claude anymore. I write loops." That one line from Boris Cherny — the Anthropic engineer who built Claude Code — stopped the
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/123-544667f576b0641a5883.md`
-- `src_194bba4cc6272e8114b6` — Feed post Gui Dávid • 3rd+ head of AI @ beconfident 5h • Follow When the Claude Code codebase leaked around a month ago, it revealed somethi
-  - URL: https://www.linkedin.com/in/guid%C3%A1vid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACEsR88BSFv1Ig95gw2NawB7MAtJQRBmeys
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/046-5c6be0ead6375b4e196e.md`
-- `src_6bcc323bb2ed1a074793` — "Stop prompting your AI agents." That sentence went around the feed this week. The engineer who built Claude Code says it plainly: he doesn'
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/154-a07c9a56da13935419cd.md`
-- `src_7413a772ac28f94137a4` — When the Claude Code codebase leaked around a month ago, it revealed something striking: only about 1.6% of the system is model facing logic
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/048-f09c30a3407533d4518e.md`
-- `src_871582dceea43c6672d6` — The past 4 months of Claude Code / OpenClaw / Hermes hype train have been full of "agent products" that are really just prompts. A markdown 
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-97fcd06c1306592ac29d.md`
-- `src_97124de0aea7369bc95d` — I have Claude Code on speed dial. Not metaphorically. I literally hit Option + 5 on my Mac from any screen, speak, and it's off working. I j
-  - URL: https://www.linkedin.com/company/carbonvoice/
-  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/051-1477677d244132e049ad.md`
+  - Archive: `web/production-daily-direct-20260621T120113Z/openclaw-hermes/02-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`

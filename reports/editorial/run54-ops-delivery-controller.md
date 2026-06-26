@@ -122,6 +122,17 @@
       {
         "confidence": "low",
         "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/openclaw_hermes_daily_harvest_start.sh",
+          "terms": [
+            "Hermoine",
+            "OPS"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
           "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_start.sh",
           "terms": [
             "Hermoine"
@@ -135,6 +146,7 @@
           "path": "/root/.hermes/profiles/ops-bot/scripts/terefo_production_daily_monitor_status.sh",
           "terms": [
             "Hermoine",
+            "OPS",
             "telegram",
             "channel",
             "target"
@@ -156,9 +168,31 @@
       {
         "confidence": "low",
         "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/ops_event_dispatcher.sh",
+          "terms": [
+            "Hermoine",
+            "OPS"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
           "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_daily_status.sh",
           "terms": [
             "Hermoine"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/ops_event_dispatcher.sh.tmp",
+          "terms": [
+            "Hermoine",
+            "OPS"
           ]
         },
         "source": "/root/.hermes/profiles/ops-bot"
@@ -315,7 +349,63 @@
       {
         "confidence": "low",
         "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_21-20-07.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_18-20-49.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_07-20-19.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_14-20-22.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_18-20-23.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -343,7 +433,119 @@
       {
         "confidence": "low",
         "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_12-20-30.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_05-20-54.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_10-20-03.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_05-20-45.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_08-20-55.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_01-20-17.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_08-20-29.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_02-20-26.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_15-20-31.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -371,7 +573,245 @@
       {
         "confidence": "low",
         "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_06-20-02.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_06-20-54.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_01-20-00.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_03-20-17.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_02-20-17.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_22-20-59.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_04-20-09.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_15-20-13.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_05-20-09.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_13-20-30.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_03-20-27.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_15-20-48.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_18-20-58.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_23-20-07.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_13-20-12.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_19-20-15.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_23-20-16.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_22-20-25.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -399,7 +839,49 @@
       {
         "confidence": "low",
         "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_11-20-30.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_17-20-49.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_15-20-05.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        "source": "/root/.hermes/profiles/ops-bot"
+      },
+      {
+        "confidence": "low",
+        "redacted_match": {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_00-20-16.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -427,7 +909,7 @@
       {
         "confidence": "low",
         "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_03-20-53.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_08-20-19.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -441,7 +923,7 @@
       {
         "confidence": "low",
         "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_22-20-51.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_18-20-06.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -455,354 +937,7 @@
       {
         "confidence": "low",
         "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_14-20-48.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_21-20-50.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_04-20-53.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_21-20-42.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_20-20-50.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_02-20-44.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_06-20-45.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_01-20-43.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_07-20-45.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_19-20-41.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_12-20-47.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_02-20-53.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_03-20-44.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_20-20-42.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_00-20-52.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_01-20-52.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_19-20-50.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-51-20.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_08-20-46.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_00-20-43.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_13-20-48.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_16-20-49.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_22-20-42.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_09-20-46.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-50-59.md",
-          "terms": [
-            "Hermoine",
-            "telegram"
-          ]
-        },
-        "source": "/root/.hermes/profiles/ops-bot"
-      },
-      {
-        "confidence": "low",
-        "redacted_match": {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_23-20-43.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_11-20-12.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -1367,10 +1502,10 @@
     "status_metadata": {
       "component": "ops_channel_autodiscovery",
       "disposition": "ops_alias_unresolved_retry_scheduled",
-      "emitted_at_oslo_iso": "2026-06-22T06:45:04+02:00",
-      "emitted_at_unix_ms": 1782103504865,
-      "emitted_at_unix_s": 1782103504,
-      "emitted_at_utc_iso": "2026-06-22T04:45:04Z",
+      "emitted_at_oslo_iso": "2026-06-26T23:15:04+02:00",
+      "emitted_at_unix_ms": 1782508504411,
+      "emitted_at_unix_s": 1782508504,
+      "emitted_at_utc_iso": "2026-06-26T21:15:04Z",
       "run_id": "run54",
       "severity": "warning",
       "status": "ops_alias_unresolved_retry_scheduled",
@@ -1381,23 +1516,23 @@
   "outbox_entry": {
     "attempt_count": 0,
     "component": "ops_delivery_controller",
-    "content_hash": "f5a6be3ef40499b4089edc283a5015142fdc4b6276b4d8d8611cddd8f8acc005",
-    "created_at_oslo_iso": "2026-06-22T06:45:04+02:00",
-    "created_at_unix_ms": 1782103504882,
-    "created_at_unix_s": 1782103504,
-    "created_at_utc_iso": "2026-06-22T04:45:04Z",
+    "content_hash": "7f0529c9e79987d2cd0276f93ce76ea8f1016c2e49f927fc812fb886ca55fdce",
+    "created_at_oslo_iso": "2026-06-26T23:15:04+02:00",
+    "created_at_unix_ms": 1782508504426,
+    "created_at_unix_s": 1782508504,
+    "created_at_utc_iso": "2026-06-26T21:15:04Z",
     "delivery_state": "queued",
     "disposition": "ops_alias_unresolved_retry_scheduled",
-    "emitted_at_oslo_iso": "2026-06-22T06:45:04+02:00",
-    "emitted_at_unix_ms": 1782103504882,
-    "emitted_at_unix_s": 1782103504,
-    "emitted_at_utc_iso": "2026-06-22T04:45:04Z",
+    "emitted_at_oslo_iso": "2026-06-26T23:15:04+02:00",
+    "emitted_at_unix_ms": 1782508504426,
+    "emitted_at_unix_s": 1782508504,
+    "emitted_at_utc_iso": "2026-06-26T21:15:04Z",
     "fallback_channel_used": false,
     "last_attempt_at_unix_s": null,
     "last_error": null,
-    "message_id_local": "ops-f197a64f3b23e276",
-    "message_json_path": "/home/hermoine/terefohealreboa/reports/editorial/run54-ops-delivery-controller-status.json",
-    "message_md_path": "/home/hermoine/terefohealreboa/reports/telegram/run54-ops-delivery-controller-status.md",
+    "message_id_local": "ops-d70bc96bd1b3b5f7",
+    "message_json_path": "/home/hermoine/agent-research-book-pipeline/reports/editorial/run54-ops-delivery-controller-status.json",
+    "message_md_path": "/home/hermoine/agent-research-book-pipeline/reports/telegram/run54-ops-delivery-controller-status.md",
     "redaction_status": "secret_scan_passed_no_sensitive_values_stored",
     "run_id": "run54",
     "severity": "warning",
@@ -1808,16 +1943,276 @@
       "ops-c4d059fa6f0e7984",
       "ops-f838b150d33b7d02",
       "ops-5de82d8f66802f04",
-      "ops-f197a64f3b23e276"
+      "ops-f197a64f3b23e276",
+      "ops-47272152d22eb0b9",
+      "ops-4660e2991fb83f59",
+      "ops-05c58d068b74dd2b",
+      "ops-981b272edc5923d1",
+      "ops-9c81126761c52edd",
+      "ops-5c52af22105b774e",
+      "ops-35e344e249cf169e",
+      "ops-6a88a126bd8e8774",
+      "ops-a49650e0dcbc1f43",
+      "ops-e6df7ad6e229103a",
+      "ops-bbc89412a29d3809",
+      "ops-cb5c638077bed0aa",
+      "ops-61f7164cf53bb690",
+      "ops-61f844903c50c48f",
+      "ops-e7652360d7884e99",
+      "ops-f2bb215c056b0298",
+      "ops-2752da163c2bf67e",
+      "ops-0abe5a35d15a69ad",
+      "ops-0c77f39fd40b9a79",
+      "ops-e8079209dcddc9a5",
+      "ops-57fecdbd861469e0",
+      "ops-7b91b23fb010b2ae",
+      "ops-ac4d499f3596c3dc",
+      "ops-73552ae5ee4d78f8",
+      "ops-5b858deb8cf99f3c",
+      "ops-ca7f825b88596937",
+      "ops-51fad459acb8f96a",
+      "ops-dff0d12df3ef6505",
+      "ops-08f16354d55524b5",
+      "ops-5400c691b6804e5e",
+      "ops-1f46fc6f3a9d6e05",
+      "ops-5c172343f23aade5",
+      "ops-bafbecabe1941083",
+      "ops-0e701edeb8d7f5d5",
+      "ops-29c3e4f3e1f9d752",
+      "ops-37d7d9eb34b5e8b0",
+      "ops-3a31770cbf15f2de",
+      "ops-07bc7b3aa93d4280",
+      "ops-723a0d2a816c41e4",
+      "ops-02d48e849494040b",
+      "ops-59f3efe8b78637af",
+      "ops-2085429e0f343b15",
+      "ops-7976b7f931c3c850",
+      "ops-443e364da3f4d7c3",
+      "ops-21c74b47c8a9b66c",
+      "ops-fdec9d7cee799911",
+      "ops-3d243d586f9f335d",
+      "ops-704a90e79e009070",
+      "ops-cba0bcc9f169d252",
+      "ops-a37fedc27cfdf120",
+      "ops-23497b461aef28b4",
+      "ops-7e979664d8bf6cfe",
+      "ops-054c73e4da15cd3c",
+      "ops-763ce1e4b4a3de8e",
+      "ops-85025199f79a29c6",
+      "ops-0d98088b6dd54e7f",
+      "ops-c5ed738b35b264ac",
+      "ops-3de2a0faff2970ed",
+      "ops-21bc287534d04afb",
+      "ops-043d295b5faa7d2b",
+      "ops-ec073cbd29750a2b",
+      "ops-ce8fb7b01c6a6c3b",
+      "ops-961ab92430ee3de2",
+      "ops-df8782e6a4ad7dc1",
+      "ops-334c1c5a2627fe97",
+      "ops-7fe07a1527a38b4a",
+      "ops-505a60176a97d3e9",
+      "ops-f0a19db4077d8d26",
+      "ops-b6ede33adcecb8cd",
+      "ops-d7c986f4ba6a3dc1",
+      "ops-b65ca26b6d10cf69",
+      "ops-e018e1c04759a486",
+      "ops-338e138b9d601e1e",
+      "ops-1e504f7c5b5ffdfe",
+      "ops-ac8a0390c29c7c00",
+      "ops-2b59ae38ef4e9f72",
+      "ops-24329821c755454b",
+      "ops-6fdf3e49b6295676",
+      "ops-f1c6df303184e21b",
+      "ops-a434e06f2352c79b",
+      "ops-052b8943dd4c78f4",
+      "ops-0be86c732e42bd93",
+      "ops-60665fb805fc768f",
+      "ops-7fcb8e9cbf99c63b",
+      "ops-24a3f36212f107d3",
+      "ops-cb9516fd728e3fea",
+      "ops-8d83de3bcb0d7c5b",
+      "ops-ade573e32e81752a",
+      "ops-39b2e787a2370e64",
+      "ops-b29766395bbf0a4a",
+      "ops-f83c2f114f6741c1",
+      "ops-1889c0268ca3ab0a",
+      "ops-eea046cd1b84549f",
+      "ops-32c024a9eef89a93",
+      "ops-91660fec7fb69795",
+      "ops-7ba512e664251e36",
+      "ops-045b6ed4f4adb731",
+      "ops-25aca50e9acd34d6",
+      "ops-ea596a2e49a6d37c",
+      "ops-46c00ac500ced797",
+      "ops-224c61841c4338ff",
+      "ops-edfd7f412e0c38d3",
+      "ops-dd6905133c1771f7",
+      "ops-a91721ea504676a0",
+      "ops-1345ffbdfed51be4",
+      "ops-16fbfb973b9b9dfb",
+      "ops-1159ee339ca9a7f3",
+      "ops-95921ee4236d0db1",
+      "ops-3e266865b27d3ae6",
+      "ops-c2f00946a3e10d06",
+      "ops-9bb31064653bcdd4",
+      "ops-948e3cb62e05b9fb",
+      "ops-63b00a9203a23861",
+      "ops-1dfaa52ded6be21d",
+      "ops-6ad6ba85e269d1ac",
+      "ops-362ccc06621afa0c",
+      "ops-42dcb2b299fa4a2a",
+      "ops-958c71afd07fb552",
+      "ops-d345e34089bc677c",
+      "ops-56e82002cf12f444",
+      "ops-26f7151da2baf5cf",
+      "ops-5de13aaaf37647df",
+      "ops-abf6e3adab212911",
+      "ops-8fe7ec74988e17b1",
+      "ops-36a4f1a7af9cd634",
+      "ops-02a160ea78f63287",
+      "ops-b05cceb2210e4994",
+      "ops-11feee9bd8fb560f",
+      "ops-ca482788a441355d",
+      "ops-1a71dc7d9ecdd8ba",
+      "ops-8f876c3051a92286",
+      "ops-a315d4fe7f0f0512",
+      "ops-246eff51eb8758f8",
+      "ops-57dbc1b82607bfe5",
+      "ops-f4afd5bbaca98d5b",
+      "ops-bfc7db02f9d272fd",
+      "ops-ce1aa7aa243aef7c",
+      "ops-52a8819d6a95a9f2",
+      "ops-7ff7fb663f7b6f19",
+      "ops-e90a1f021f52516f",
+      "ops-4086d6f5506a5935",
+      "ops-36649b55850cea85",
+      "ops-ae72b2f0f67eb40d",
+      "ops-30c3d50e79667f49",
+      "ops-64aebf25170ee285",
+      "ops-a38b963da565145d",
+      "ops-990d616590d0bba0",
+      "ops-6e7b7e07ccaecdb3",
+      "ops-7cb75eefca96bef0",
+      "ops-7c7a943442419d8c",
+      "ops-4e472eb294cba9f8",
+      "ops-b6b9b2b0d16d37b5",
+      "ops-b836912c5fef412c",
+      "ops-5868f194b5d5cd69",
+      "ops-8fea4427688010b7",
+      "ops-6195c27a03ae36f2",
+      "ops-09f81c7ee3c70750",
+      "ops-48d5f215b570f448",
+      "ops-cebf9799059bf5e2",
+      "ops-a0ebd27726a61b23",
+      "ops-39a88c80e298de30",
+      "ops-b1b256697d6e3dc0",
+      "ops-4acdf2957ec25bb5",
+      "ops-485c1b05390c3797",
+      "ops-f742a7ddc52b538d",
+      "ops-dd3793ea8fea5401",
+      "ops-0536f66791c7406d",
+      "ops-e1881cf39c90454f",
+      "ops-1027bc7d9841b6dd",
+      "ops-00a8a42df4611492",
+      "ops-9ed5a5203bf0e71c",
+      "ops-5ab3140a44d40d78",
+      "ops-5e6fd77a6bf0e82c",
+      "ops-96507517a07a081e",
+      "ops-4ca10fdba5759f8a",
+      "ops-14e05e5405781718",
+      "ops-a95e2363df373769",
+      "ops-510ddb838a2628ce",
+      "ops-fbc3b13992865d3e",
+      "ops-5d1fbdb10cdd91f0",
+      "ops-cb7f7110b82c6d19",
+      "ops-dbbe78a7943a09eb",
+      "ops-afe8bae14423efd4",
+      "ops-8a781d22ccf4840b",
+      "ops-4e18d30b9abe0801",
+      "ops-120a74d30d1b8ea0",
+      "ops-6c5079e497f0093c",
+      "ops-60ee959eda4580fc",
+      "ops-84d483c2244557cf",
+      "ops-fb40e71d12f9bfdc",
+      "ops-97abc92979ea3fb8",
+      "ops-484f2ab1c3d2ad67",
+      "ops-0e04179bdc08617a",
+      "ops-25b0c09aedd739ab",
+      "ops-bdf088dd3688eaf9",
+      "ops-79c8161de56503c6",
+      "ops-b25fffab68731aea",
+      "ops-bbc927c4671fc0ca",
+      "ops-096d3a687595f05c",
+      "ops-6fb93cea4cf2ea23",
+      "ops-d6f03400045a57f0",
+      "ops-7b3479caeea77808",
+      "ops-16b2c289c0c35322",
+      "ops-cadc56e3d0946f33",
+      "ops-5513c7b0ab952b88",
+      "ops-88fad6566aa5e452",
+      "ops-c55298fa39045e9b",
+      "ops-52f29fada1773ee3",
+      "ops-c3fcdef02c982100",
+      "ops-5914e57046c9078a",
+      "ops-eb2adc12d1d62e87",
+      "ops-9b1799f15a763c5f",
+      "ops-10440fa38bacb952",
+      "ops-1c1fa49fa45a3300",
+      "ops-be2b3c754e30b444",
+      "ops-489077548806a6f1",
+      "ops-e9549a3213cd5645",
+      "ops-14328e720fec91d1",
+      "ops-d28a4f5242433ed9",
+      "ops-6fdd59a563a0e83f",
+      "ops-127950100bc2b1dd",
+      "ops-f3973e8b78e4e032",
+      "ops-6b8eb82a8e4fb4a3",
+      "ops-b7eeeaef330d27af",
+      "ops-2f31eaf87585d28b",
+      "ops-6f6064038e5a9805",
+      "ops-6c5507d18898b59a",
+      "ops-66911ddb406f2f68",
+      "ops-7c091e45233c7807",
+      "ops-dbc76cb7eaeae714",
+      "ops-ec1dd75df48874f1",
+      "ops-fc89978e0e585a46",
+      "ops-6add552d039329fb",
+      "ops-646577013d49fe51",
+      "ops-ee24b35f08c5bbc8",
+      "ops-e6d2b97d72b5d4cb",
+      "ops-b31314e2babe0b0d",
+      "ops-39187e0a590b9be4",
+      "ops-e2d4964621bae4c4",
+      "ops-b027b9be483f0e40",
+      "ops-80287242de36f554",
+      "ops-f85dfbc922839d7d",
+      "ops-987dbed40c4cadba",
+      "ops-efbc70c09ce6e8c5",
+      "ops-bbb07e8b2471ae7d",
+      "ops-687bfcc972556e79",
+      "ops-de2c04e8e10582bf",
+      "ops-8b9481fc979b1bda",
+      "ops-a356c064a1197762",
+      "ops-347ebd25cfb8ecc7",
+      "ops-58e01ac266494608",
+      "ops-b9ee5b477fa5e091",
+      "ops-00ce79f309e8a97e",
+      "ops-00c022882202f823",
+      "ops-f9264bdb6284d248",
+      "ops-337b7d3621582f9b",
+      "ops-59f25274968368e7",
+      "ops-f114a0423d5f4bbb",
+      "ops-dca4dfe006220547",
+      "ops-d70bc96bd1b3b5f7"
     ],
     "counts_by_state": {
       "delivered": 0,
       "failed_closed_target_not_resolvable": 0,
       "queued": 0,
-      "retry_scheduled": 402
+      "retry_scheduled": 662
     },
     "delivered_count": 0,
-    "entry_count": 402,
+    "entry_count": 662,
     "fallback_channel_used": false,
     "ops_alias_resolvable": true,
     "pending_message_ids": [
@@ -2222,16 +2617,276 @@
       "ops-c4d059fa6f0e7984",
       "ops-f838b150d33b7d02",
       "ops-5de82d8f66802f04",
-      "ops-f197a64f3b23e276"
+      "ops-f197a64f3b23e276",
+      "ops-47272152d22eb0b9",
+      "ops-4660e2991fb83f59",
+      "ops-05c58d068b74dd2b",
+      "ops-981b272edc5923d1",
+      "ops-9c81126761c52edd",
+      "ops-5c52af22105b774e",
+      "ops-35e344e249cf169e",
+      "ops-6a88a126bd8e8774",
+      "ops-a49650e0dcbc1f43",
+      "ops-e6df7ad6e229103a",
+      "ops-bbc89412a29d3809",
+      "ops-cb5c638077bed0aa",
+      "ops-61f7164cf53bb690",
+      "ops-61f844903c50c48f",
+      "ops-e7652360d7884e99",
+      "ops-f2bb215c056b0298",
+      "ops-2752da163c2bf67e",
+      "ops-0abe5a35d15a69ad",
+      "ops-0c77f39fd40b9a79",
+      "ops-e8079209dcddc9a5",
+      "ops-57fecdbd861469e0",
+      "ops-7b91b23fb010b2ae",
+      "ops-ac4d499f3596c3dc",
+      "ops-73552ae5ee4d78f8",
+      "ops-5b858deb8cf99f3c",
+      "ops-ca7f825b88596937",
+      "ops-51fad459acb8f96a",
+      "ops-dff0d12df3ef6505",
+      "ops-08f16354d55524b5",
+      "ops-5400c691b6804e5e",
+      "ops-1f46fc6f3a9d6e05",
+      "ops-5c172343f23aade5",
+      "ops-bafbecabe1941083",
+      "ops-0e701edeb8d7f5d5",
+      "ops-29c3e4f3e1f9d752",
+      "ops-37d7d9eb34b5e8b0",
+      "ops-3a31770cbf15f2de",
+      "ops-07bc7b3aa93d4280",
+      "ops-723a0d2a816c41e4",
+      "ops-02d48e849494040b",
+      "ops-59f3efe8b78637af",
+      "ops-2085429e0f343b15",
+      "ops-7976b7f931c3c850",
+      "ops-443e364da3f4d7c3",
+      "ops-21c74b47c8a9b66c",
+      "ops-fdec9d7cee799911",
+      "ops-3d243d586f9f335d",
+      "ops-704a90e79e009070",
+      "ops-cba0bcc9f169d252",
+      "ops-a37fedc27cfdf120",
+      "ops-23497b461aef28b4",
+      "ops-7e979664d8bf6cfe",
+      "ops-054c73e4da15cd3c",
+      "ops-763ce1e4b4a3de8e",
+      "ops-85025199f79a29c6",
+      "ops-0d98088b6dd54e7f",
+      "ops-c5ed738b35b264ac",
+      "ops-3de2a0faff2970ed",
+      "ops-21bc287534d04afb",
+      "ops-043d295b5faa7d2b",
+      "ops-ec073cbd29750a2b",
+      "ops-ce8fb7b01c6a6c3b",
+      "ops-961ab92430ee3de2",
+      "ops-df8782e6a4ad7dc1",
+      "ops-334c1c5a2627fe97",
+      "ops-7fe07a1527a38b4a",
+      "ops-505a60176a97d3e9",
+      "ops-f0a19db4077d8d26",
+      "ops-b6ede33adcecb8cd",
+      "ops-d7c986f4ba6a3dc1",
+      "ops-b65ca26b6d10cf69",
+      "ops-e018e1c04759a486",
+      "ops-338e138b9d601e1e",
+      "ops-1e504f7c5b5ffdfe",
+      "ops-ac8a0390c29c7c00",
+      "ops-2b59ae38ef4e9f72",
+      "ops-24329821c755454b",
+      "ops-6fdf3e49b6295676",
+      "ops-f1c6df303184e21b",
+      "ops-a434e06f2352c79b",
+      "ops-052b8943dd4c78f4",
+      "ops-0be86c732e42bd93",
+      "ops-60665fb805fc768f",
+      "ops-7fcb8e9cbf99c63b",
+      "ops-24a3f36212f107d3",
+      "ops-cb9516fd728e3fea",
+      "ops-8d83de3bcb0d7c5b",
+      "ops-ade573e32e81752a",
+      "ops-39b2e787a2370e64",
+      "ops-b29766395bbf0a4a",
+      "ops-f83c2f114f6741c1",
+      "ops-1889c0268ca3ab0a",
+      "ops-eea046cd1b84549f",
+      "ops-32c024a9eef89a93",
+      "ops-91660fec7fb69795",
+      "ops-7ba512e664251e36",
+      "ops-045b6ed4f4adb731",
+      "ops-25aca50e9acd34d6",
+      "ops-ea596a2e49a6d37c",
+      "ops-46c00ac500ced797",
+      "ops-224c61841c4338ff",
+      "ops-edfd7f412e0c38d3",
+      "ops-dd6905133c1771f7",
+      "ops-a91721ea504676a0",
+      "ops-1345ffbdfed51be4",
+      "ops-16fbfb973b9b9dfb",
+      "ops-1159ee339ca9a7f3",
+      "ops-95921ee4236d0db1",
+      "ops-3e266865b27d3ae6",
+      "ops-c2f00946a3e10d06",
+      "ops-9bb31064653bcdd4",
+      "ops-948e3cb62e05b9fb",
+      "ops-63b00a9203a23861",
+      "ops-1dfaa52ded6be21d",
+      "ops-6ad6ba85e269d1ac",
+      "ops-362ccc06621afa0c",
+      "ops-42dcb2b299fa4a2a",
+      "ops-958c71afd07fb552",
+      "ops-d345e34089bc677c",
+      "ops-56e82002cf12f444",
+      "ops-26f7151da2baf5cf",
+      "ops-5de13aaaf37647df",
+      "ops-abf6e3adab212911",
+      "ops-8fe7ec74988e17b1",
+      "ops-36a4f1a7af9cd634",
+      "ops-02a160ea78f63287",
+      "ops-b05cceb2210e4994",
+      "ops-11feee9bd8fb560f",
+      "ops-ca482788a441355d",
+      "ops-1a71dc7d9ecdd8ba",
+      "ops-8f876c3051a92286",
+      "ops-a315d4fe7f0f0512",
+      "ops-246eff51eb8758f8",
+      "ops-57dbc1b82607bfe5",
+      "ops-f4afd5bbaca98d5b",
+      "ops-bfc7db02f9d272fd",
+      "ops-ce1aa7aa243aef7c",
+      "ops-52a8819d6a95a9f2",
+      "ops-7ff7fb663f7b6f19",
+      "ops-e90a1f021f52516f",
+      "ops-4086d6f5506a5935",
+      "ops-36649b55850cea85",
+      "ops-ae72b2f0f67eb40d",
+      "ops-30c3d50e79667f49",
+      "ops-64aebf25170ee285",
+      "ops-a38b963da565145d",
+      "ops-990d616590d0bba0",
+      "ops-6e7b7e07ccaecdb3",
+      "ops-7cb75eefca96bef0",
+      "ops-7c7a943442419d8c",
+      "ops-4e472eb294cba9f8",
+      "ops-b6b9b2b0d16d37b5",
+      "ops-b836912c5fef412c",
+      "ops-5868f194b5d5cd69",
+      "ops-8fea4427688010b7",
+      "ops-6195c27a03ae36f2",
+      "ops-09f81c7ee3c70750",
+      "ops-48d5f215b570f448",
+      "ops-cebf9799059bf5e2",
+      "ops-a0ebd27726a61b23",
+      "ops-39a88c80e298de30",
+      "ops-b1b256697d6e3dc0",
+      "ops-4acdf2957ec25bb5",
+      "ops-485c1b05390c3797",
+      "ops-f742a7ddc52b538d",
+      "ops-dd3793ea8fea5401",
+      "ops-0536f66791c7406d",
+      "ops-e1881cf39c90454f",
+      "ops-1027bc7d9841b6dd",
+      "ops-00a8a42df4611492",
+      "ops-9ed5a5203bf0e71c",
+      "ops-5ab3140a44d40d78",
+      "ops-5e6fd77a6bf0e82c",
+      "ops-96507517a07a081e",
+      "ops-4ca10fdba5759f8a",
+      "ops-14e05e5405781718",
+      "ops-a95e2363df373769",
+      "ops-510ddb838a2628ce",
+      "ops-fbc3b13992865d3e",
+      "ops-5d1fbdb10cdd91f0",
+      "ops-cb7f7110b82c6d19",
+      "ops-dbbe78a7943a09eb",
+      "ops-afe8bae14423efd4",
+      "ops-8a781d22ccf4840b",
+      "ops-4e18d30b9abe0801",
+      "ops-120a74d30d1b8ea0",
+      "ops-6c5079e497f0093c",
+      "ops-60ee959eda4580fc",
+      "ops-84d483c2244557cf",
+      "ops-fb40e71d12f9bfdc",
+      "ops-97abc92979ea3fb8",
+      "ops-484f2ab1c3d2ad67",
+      "ops-0e04179bdc08617a",
+      "ops-25b0c09aedd739ab",
+      "ops-bdf088dd3688eaf9",
+      "ops-79c8161de56503c6",
+      "ops-b25fffab68731aea",
+      "ops-bbc927c4671fc0ca",
+      "ops-096d3a687595f05c",
+      "ops-6fb93cea4cf2ea23",
+      "ops-d6f03400045a57f0",
+      "ops-7b3479caeea77808",
+      "ops-16b2c289c0c35322",
+      "ops-cadc56e3d0946f33",
+      "ops-5513c7b0ab952b88",
+      "ops-88fad6566aa5e452",
+      "ops-c55298fa39045e9b",
+      "ops-52f29fada1773ee3",
+      "ops-c3fcdef02c982100",
+      "ops-5914e57046c9078a",
+      "ops-eb2adc12d1d62e87",
+      "ops-9b1799f15a763c5f",
+      "ops-10440fa38bacb952",
+      "ops-1c1fa49fa45a3300",
+      "ops-be2b3c754e30b444",
+      "ops-489077548806a6f1",
+      "ops-e9549a3213cd5645",
+      "ops-14328e720fec91d1",
+      "ops-d28a4f5242433ed9",
+      "ops-6fdd59a563a0e83f",
+      "ops-127950100bc2b1dd",
+      "ops-f3973e8b78e4e032",
+      "ops-6b8eb82a8e4fb4a3",
+      "ops-b7eeeaef330d27af",
+      "ops-2f31eaf87585d28b",
+      "ops-6f6064038e5a9805",
+      "ops-6c5507d18898b59a",
+      "ops-66911ddb406f2f68",
+      "ops-7c091e45233c7807",
+      "ops-dbc76cb7eaeae714",
+      "ops-ec1dd75df48874f1",
+      "ops-fc89978e0e585a46",
+      "ops-6add552d039329fb",
+      "ops-646577013d49fe51",
+      "ops-ee24b35f08c5bbc8",
+      "ops-e6d2b97d72b5d4cb",
+      "ops-b31314e2babe0b0d",
+      "ops-39187e0a590b9be4",
+      "ops-e2d4964621bae4c4",
+      "ops-b027b9be483f0e40",
+      "ops-80287242de36f554",
+      "ops-f85dfbc922839d7d",
+      "ops-987dbed40c4cadba",
+      "ops-efbc70c09ce6e8c5",
+      "ops-bbb07e8b2471ae7d",
+      "ops-687bfcc972556e79",
+      "ops-de2c04e8e10582bf",
+      "ops-8b9481fc979b1bda",
+      "ops-a356c064a1197762",
+      "ops-347ebd25cfb8ecc7",
+      "ops-58e01ac266494608",
+      "ops-b9ee5b477fa5e091",
+      "ops-00ce79f309e8a97e",
+      "ops-00c022882202f823",
+      "ops-f9264bdb6284d248",
+      "ops-337b7d3621582f9b",
+      "ops-59f25274968368e7",
+      "ops-f114a0423d5f4bbb",
+      "ops-dca4dfe006220547",
+      "ops-d70bc96bd1b3b5f7"
     ],
-    "queued_count": 402,
+    "queued_count": 662,
     "status_metadata": {
       "component": "ops_delivery_outbox",
       "disposition": "outbox_state",
-      "emitted_at_oslo_iso": "2026-06-22T06:45:04+02:00",
-      "emitted_at_unix_ms": 1782103504976,
-      "emitted_at_unix_s": 1782103504,
-      "emitted_at_utc_iso": "2026-06-22T04:45:04Z",
+      "emitted_at_oslo_iso": "2026-06-26T23:15:04+02:00",
+      "emitted_at_unix_ms": 1782508504569,
+      "emitted_at_unix_s": 1782508504,
+      "emitted_at_utc_iso": "2026-06-26T21:15:04Z",
       "run_id": "run54",
       "severity": "info",
       "status": "outbox_state",
@@ -2248,10 +2903,10 @@
         "delivered": 0,
         "failed_closed_target_not_resolvable": 0,
         "queued": 0,
-        "retry_scheduled": 402
+        "retry_scheduled": 662
       },
       "delivered_count": 0,
-      "entry_count": 402,
+      "entry_count": 662,
       "fallback_channel_used": false,
       "pending_message_ids": [
         "ops-f7fcd763cd269722",
@@ -2655,16 +3310,276 @@
         "ops-c4d059fa6f0e7984",
         "ops-f838b150d33b7d02",
         "ops-5de82d8f66802f04",
-        "ops-f197a64f3b23e276"
+        "ops-f197a64f3b23e276",
+        "ops-47272152d22eb0b9",
+        "ops-4660e2991fb83f59",
+        "ops-05c58d068b74dd2b",
+        "ops-981b272edc5923d1",
+        "ops-9c81126761c52edd",
+        "ops-5c52af22105b774e",
+        "ops-35e344e249cf169e",
+        "ops-6a88a126bd8e8774",
+        "ops-a49650e0dcbc1f43",
+        "ops-e6df7ad6e229103a",
+        "ops-bbc89412a29d3809",
+        "ops-cb5c638077bed0aa",
+        "ops-61f7164cf53bb690",
+        "ops-61f844903c50c48f",
+        "ops-e7652360d7884e99",
+        "ops-f2bb215c056b0298",
+        "ops-2752da163c2bf67e",
+        "ops-0abe5a35d15a69ad",
+        "ops-0c77f39fd40b9a79",
+        "ops-e8079209dcddc9a5",
+        "ops-57fecdbd861469e0",
+        "ops-7b91b23fb010b2ae",
+        "ops-ac4d499f3596c3dc",
+        "ops-73552ae5ee4d78f8",
+        "ops-5b858deb8cf99f3c",
+        "ops-ca7f825b88596937",
+        "ops-51fad459acb8f96a",
+        "ops-dff0d12df3ef6505",
+        "ops-08f16354d55524b5",
+        "ops-5400c691b6804e5e",
+        "ops-1f46fc6f3a9d6e05",
+        "ops-5c172343f23aade5",
+        "ops-bafbecabe1941083",
+        "ops-0e701edeb8d7f5d5",
+        "ops-29c3e4f3e1f9d752",
+        "ops-37d7d9eb34b5e8b0",
+        "ops-3a31770cbf15f2de",
+        "ops-07bc7b3aa93d4280",
+        "ops-723a0d2a816c41e4",
+        "ops-02d48e849494040b",
+        "ops-59f3efe8b78637af",
+        "ops-2085429e0f343b15",
+        "ops-7976b7f931c3c850",
+        "ops-443e364da3f4d7c3",
+        "ops-21c74b47c8a9b66c",
+        "ops-fdec9d7cee799911",
+        "ops-3d243d586f9f335d",
+        "ops-704a90e79e009070",
+        "ops-cba0bcc9f169d252",
+        "ops-a37fedc27cfdf120",
+        "ops-23497b461aef28b4",
+        "ops-7e979664d8bf6cfe",
+        "ops-054c73e4da15cd3c",
+        "ops-763ce1e4b4a3de8e",
+        "ops-85025199f79a29c6",
+        "ops-0d98088b6dd54e7f",
+        "ops-c5ed738b35b264ac",
+        "ops-3de2a0faff2970ed",
+        "ops-21bc287534d04afb",
+        "ops-043d295b5faa7d2b",
+        "ops-ec073cbd29750a2b",
+        "ops-ce8fb7b01c6a6c3b",
+        "ops-961ab92430ee3de2",
+        "ops-df8782e6a4ad7dc1",
+        "ops-334c1c5a2627fe97",
+        "ops-7fe07a1527a38b4a",
+        "ops-505a60176a97d3e9",
+        "ops-f0a19db4077d8d26",
+        "ops-b6ede33adcecb8cd",
+        "ops-d7c986f4ba6a3dc1",
+        "ops-b65ca26b6d10cf69",
+        "ops-e018e1c04759a486",
+        "ops-338e138b9d601e1e",
+        "ops-1e504f7c5b5ffdfe",
+        "ops-ac8a0390c29c7c00",
+        "ops-2b59ae38ef4e9f72",
+        "ops-24329821c755454b",
+        "ops-6fdf3e49b6295676",
+        "ops-f1c6df303184e21b",
+        "ops-a434e06f2352c79b",
+        "ops-052b8943dd4c78f4",
+        "ops-0be86c732e42bd93",
+        "ops-60665fb805fc768f",
+        "ops-7fcb8e9cbf99c63b",
+        "ops-24a3f36212f107d3",
+        "ops-cb9516fd728e3fea",
+        "ops-8d83de3bcb0d7c5b",
+        "ops-ade573e32e81752a",
+        "ops-39b2e787a2370e64",
+        "ops-b29766395bbf0a4a",
+        "ops-f83c2f114f6741c1",
+        "ops-1889c0268ca3ab0a",
+        "ops-eea046cd1b84549f",
+        "ops-32c024a9eef89a93",
+        "ops-91660fec7fb69795",
+        "ops-7ba512e664251e36",
+        "ops-045b6ed4f4adb731",
+        "ops-25aca50e9acd34d6",
+        "ops-ea596a2e49a6d37c",
+        "ops-46c00ac500ced797",
+        "ops-224c61841c4338ff",
+        "ops-edfd7f412e0c38d3",
+        "ops-dd6905133c1771f7",
+        "ops-a91721ea504676a0",
+        "ops-1345ffbdfed51be4",
+        "ops-16fbfb973b9b9dfb",
+        "ops-1159ee339ca9a7f3",
+        "ops-95921ee4236d0db1",
+        "ops-3e266865b27d3ae6",
+        "ops-c2f00946a3e10d06",
+        "ops-9bb31064653bcdd4",
+        "ops-948e3cb62e05b9fb",
+        "ops-63b00a9203a23861",
+        "ops-1dfaa52ded6be21d",
+        "ops-6ad6ba85e269d1ac",
+        "ops-362ccc06621afa0c",
+        "ops-42dcb2b299fa4a2a",
+        "ops-958c71afd07fb552",
+        "ops-d345e34089bc677c",
+        "ops-56e82002cf12f444",
+        "ops-26f7151da2baf5cf",
+        "ops-5de13aaaf37647df",
+        "ops-abf6e3adab212911",
+        "ops-8fe7ec74988e17b1",
+        "ops-36a4f1a7af9cd634",
+        "ops-02a160ea78f63287",
+        "ops-b05cceb2210e4994",
+        "ops-11feee9bd8fb560f",
+        "ops-ca482788a441355d",
+        "ops-1a71dc7d9ecdd8ba",
+        "ops-8f876c3051a92286",
+        "ops-a315d4fe7f0f0512",
+        "ops-246eff51eb8758f8",
+        "ops-57dbc1b82607bfe5",
+        "ops-f4afd5bbaca98d5b",
+        "ops-bfc7db02f9d272fd",
+        "ops-ce1aa7aa243aef7c",
+        "ops-52a8819d6a95a9f2",
+        "ops-7ff7fb663f7b6f19",
+        "ops-e90a1f021f52516f",
+        "ops-4086d6f5506a5935",
+        "ops-36649b55850cea85",
+        "ops-ae72b2f0f67eb40d",
+        "ops-30c3d50e79667f49",
+        "ops-64aebf25170ee285",
+        "ops-a38b963da565145d",
+        "ops-990d616590d0bba0",
+        "ops-6e7b7e07ccaecdb3",
+        "ops-7cb75eefca96bef0",
+        "ops-7c7a943442419d8c",
+        "ops-4e472eb294cba9f8",
+        "ops-b6b9b2b0d16d37b5",
+        "ops-b836912c5fef412c",
+        "ops-5868f194b5d5cd69",
+        "ops-8fea4427688010b7",
+        "ops-6195c27a03ae36f2",
+        "ops-09f81c7ee3c70750",
+        "ops-48d5f215b570f448",
+        "ops-cebf9799059bf5e2",
+        "ops-a0ebd27726a61b23",
+        "ops-39a88c80e298de30",
+        "ops-b1b256697d6e3dc0",
+        "ops-4acdf2957ec25bb5",
+        "ops-485c1b05390c3797",
+        "ops-f742a7ddc52b538d",
+        "ops-dd3793ea8fea5401",
+        "ops-0536f66791c7406d",
+        "ops-e1881cf39c90454f",
+        "ops-1027bc7d9841b6dd",
+        "ops-00a8a42df4611492",
+        "ops-9ed5a5203bf0e71c",
+        "ops-5ab3140a44d40d78",
+        "ops-5e6fd77a6bf0e82c",
+        "ops-96507517a07a081e",
+        "ops-4ca10fdba5759f8a",
+        "ops-14e05e5405781718",
+        "ops-a95e2363df373769",
+        "ops-510ddb838a2628ce",
+        "ops-fbc3b13992865d3e",
+        "ops-5d1fbdb10cdd91f0",
+        "ops-cb7f7110b82c6d19",
+        "ops-dbbe78a7943a09eb",
+        "ops-afe8bae14423efd4",
+        "ops-8a781d22ccf4840b",
+        "ops-4e18d30b9abe0801",
+        "ops-120a74d30d1b8ea0",
+        "ops-6c5079e497f0093c",
+        "ops-60ee959eda4580fc",
+        "ops-84d483c2244557cf",
+        "ops-fb40e71d12f9bfdc",
+        "ops-97abc92979ea3fb8",
+        "ops-484f2ab1c3d2ad67",
+        "ops-0e04179bdc08617a",
+        "ops-25b0c09aedd739ab",
+        "ops-bdf088dd3688eaf9",
+        "ops-79c8161de56503c6",
+        "ops-b25fffab68731aea",
+        "ops-bbc927c4671fc0ca",
+        "ops-096d3a687595f05c",
+        "ops-6fb93cea4cf2ea23",
+        "ops-d6f03400045a57f0",
+        "ops-7b3479caeea77808",
+        "ops-16b2c289c0c35322",
+        "ops-cadc56e3d0946f33",
+        "ops-5513c7b0ab952b88",
+        "ops-88fad6566aa5e452",
+        "ops-c55298fa39045e9b",
+        "ops-52f29fada1773ee3",
+        "ops-c3fcdef02c982100",
+        "ops-5914e57046c9078a",
+        "ops-eb2adc12d1d62e87",
+        "ops-9b1799f15a763c5f",
+        "ops-10440fa38bacb952",
+        "ops-1c1fa49fa45a3300",
+        "ops-be2b3c754e30b444",
+        "ops-489077548806a6f1",
+        "ops-e9549a3213cd5645",
+        "ops-14328e720fec91d1",
+        "ops-d28a4f5242433ed9",
+        "ops-6fdd59a563a0e83f",
+        "ops-127950100bc2b1dd",
+        "ops-f3973e8b78e4e032",
+        "ops-6b8eb82a8e4fb4a3",
+        "ops-b7eeeaef330d27af",
+        "ops-2f31eaf87585d28b",
+        "ops-6f6064038e5a9805",
+        "ops-6c5507d18898b59a",
+        "ops-66911ddb406f2f68",
+        "ops-7c091e45233c7807",
+        "ops-dbc76cb7eaeae714",
+        "ops-ec1dd75df48874f1",
+        "ops-fc89978e0e585a46",
+        "ops-6add552d039329fb",
+        "ops-646577013d49fe51",
+        "ops-ee24b35f08c5bbc8",
+        "ops-e6d2b97d72b5d4cb",
+        "ops-b31314e2babe0b0d",
+        "ops-39187e0a590b9be4",
+        "ops-e2d4964621bae4c4",
+        "ops-b027b9be483f0e40",
+        "ops-80287242de36f554",
+        "ops-f85dfbc922839d7d",
+        "ops-987dbed40c4cadba",
+        "ops-efbc70c09ce6e8c5",
+        "ops-bbb07e8b2471ae7d",
+        "ops-687bfcc972556e79",
+        "ops-de2c04e8e10582bf",
+        "ops-8b9481fc979b1bda",
+        "ops-a356c064a1197762",
+        "ops-347ebd25cfb8ecc7",
+        "ops-58e01ac266494608",
+        "ops-b9ee5b477fa5e091",
+        "ops-00ce79f309e8a97e",
+        "ops-00c022882202f823",
+        "ops-f9264bdb6284d248",
+        "ops-337b7d3621582f9b",
+        "ops-59f25274968368e7",
+        "ops-f114a0423d5f4bbb",
+        "ops-dca4dfe006220547",
+        "ops-d70bc96bd1b3b5f7"
       ],
-      "queued_count": 402,
+      "queued_count": 662,
       "status_metadata": {
         "component": "ops_delivery_outbox",
         "disposition": "outbox_state",
-        "emitted_at_oslo_iso": "2026-06-22T06:45:05+02:00",
-        "emitted_at_unix_ms": 1782103505026,
-        "emitted_at_unix_s": 1782103505,
-        "emitted_at_utc_iso": "2026-06-22T04:45:05Z",
+        "emitted_at_oslo_iso": "2026-06-26T23:15:04+02:00",
+        "emitted_at_unix_ms": 1782508504651,
+        "emitted_at_unix_s": 1782508504,
+        "emitted_at_utc_iso": "2026-06-26T21:15:04Z",
         "run_id": "run54",
         "severity": "info",
         "status": "outbox_state",
@@ -2679,10 +3594,10 @@
   "status_metadata": {
     "component": "ops_delivery_controller",
     "disposition": "ops_delivery_degraded_queued",
-    "emitted_at_oslo_iso": "2026-06-22T06:45:05+02:00",
-    "emitted_at_unix_ms": 1782103505028,
-    "emitted_at_unix_s": 1782103505,
-    "emitted_at_utc_iso": "2026-06-22T04:45:05Z",
+    "emitted_at_oslo_iso": "2026-06-26T23:15:04+02:00",
+    "emitted_at_unix_ms": 1782508504653,
+    "emitted_at_unix_s": 1782508504,
+    "emitted_at_utc_iso": "2026-06-26T21:15:04Z",
     "run_id": "run54",
     "severity": "warning",
     "status": "ops_delivery_degraded_queued",

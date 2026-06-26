@@ -1,17 +1,17 @@
 # Hermes Desktop
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `medium`
 - First seen: 2026-06-12T01:19:56Z
-- Last seen: 2026-06-16T10:28:31Z
+- Last seen: 2026-06-26T03:30:14Z
 - Source count: 4
-- Mention count: 15
+- Mention count: 63
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 

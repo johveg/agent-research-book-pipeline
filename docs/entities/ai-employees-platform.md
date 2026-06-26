@@ -1,17 +1,17 @@
 # AI Employees Platform
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `person`
-- Confidence: `low`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T10:28:31Z
+- Last seen: 2026-06-26T03:30:14Z
 - Source count: 6
-- Mention count: 64
+- Mention count: 112
 
 ## Description
 
-Candidate person entity extracted from 1 source(s).
+Candidate person entity extracted from 2 source(s).
 
 ## Related claims
 

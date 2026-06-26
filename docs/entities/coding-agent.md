@@ -1,13 +1,13 @@
 # coding agent
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T10:00:22Z
+- Last seen: 2026-06-26T03:30:14Z
 - Source count: 3
-- Mention count: 52
+- Mention count: 74
 
 ## Description
 
@@ -28,9 +28,9 @@ Candidate tool entity extracted from 1 source(s).
 
 ## Source references
 
+- `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`
 - `src_6dd1980514dc1aaed786` — For about two years, getting something out of a coding agent meant holding it the whole time. You typed a prompt, read what came back, typed
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/007-d73e252364d8dcc45838.md`
 - `src_4ece22e6dadda1dd0ac6` — "Loop engineering" is a term that has emerged recently. It means designing the system that runs a coding agent, instead of prompting the age
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/109-c98d67376a024dded32f.md`
-- `src_48e58421f55e41442667` — Claude Code has roughly 18 tools. Adding a new one requires zero changes to the core loop. Most engineers assume a coding agent is a giant p
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/058-4bdce710e86a594745a5.md`

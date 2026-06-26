@@ -1,13 +1,13 @@
 # GTM
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-12T01:19:56Z
-- Last seen: 2026-06-16T10:00:22Z
+- Last seen: 2026-06-21T12:01:26Z
 - Source count: 8
-- Mention count: 48
+- Mention count: 78
 
 ## Description
 
@@ -38,5 +38,5 @@ No related claim records yet.
 - `src_731f29e61cfca51dbcce` — Feed post Vokal.team 14 followers 7h • Follow Your next GTM workflow should not need engineer help. Introducing Loop Engineering for marketi
   - URL: https://www.linkedin.com/company/vokal-team/posts
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/073-f79a028e1be382911e92.md`
-- `src_7aac13b780b2005cc348` — Your next GTM workflow should not need engineer help. Introducing Loop Engineering for marketing teams. With Vokal, marketers can launch AI 
+- `src_7aac13b780b2005cc348` — Your next GTM workflow should not need engineer help. Introducing Loop Engineering for marketing teams. With Vokal, marketers can launch AI
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/075-03941e881b9f6edef7da.md`

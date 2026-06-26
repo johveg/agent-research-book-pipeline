@@ -119,6 +119,17 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/openclaw_hermes_daily_harvest_start.sh",
+        "terms": [
+          "Hermoine",
+          "OPS"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_start.sh",
         "terms": [
           "Hermoine"
@@ -132,6 +143,7 @@
         "path": "/root/.hermes/profiles/ops-bot/scripts/terefo_production_daily_monitor_status.sh",
         "terms": [
           "Hermoine",
+          "OPS",
           "telegram",
           "channel",
           "target"
@@ -153,9 +165,31 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/ops_event_dispatcher.sh",
+        "terms": [
+          "Hermoine",
+          "OPS"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_daily_status.sh",
         "terms": [
           "Hermoine"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/scripts/ops_event_dispatcher.sh.tmp",
+        "terms": [
+          "Hermoine",
+          "OPS"
         ]
       },
       "source": "/root/.hermes/profiles/ops-bot"
@@ -312,7 +346,63 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_21-20-07.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_18-20-49.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_07-20-19.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_14-20-22.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_18-20-23.md",
         "terms": [
           "AL-Hermoine-OPS",
           "Hermoine",
@@ -340,7 +430,119 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_12-20-30.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_05-20-54.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_10-20-03.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_05-20-45.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_08-20-55.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_01-20-17.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_08-20-29.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_02-20-26.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_15-20-31.md",
         "terms": [
           "AL-Hermoine-OPS",
           "Hermoine",
@@ -368,7 +570,245 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_06-20-02.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_06-20-54.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_01-20-00.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_03-20-17.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_02-20-17.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_22-20-59.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_04-20-09.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_15-20-13.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_05-20-09.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_13-20-30.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_03-20-27.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_15-20-48.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_18-20-58.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_23-20-07.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_13-20-12.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_19-20-15.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_23-20-16.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_22-20-25.md",
         "terms": [
           "AL-Hermoine-OPS",
           "Hermoine",
@@ -396,7 +836,49 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_11-20-30.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_17-20-49.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_15-20-05.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_00-20-16.md",
         "terms": [
           "AL-Hermoine-OPS",
           "Hermoine",
@@ -424,7 +906,7 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_03-20-53.md",
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_08-20-19.md",
         "terms": [
           "AL-Hermoine-OPS",
           "Hermoine",
@@ -438,7 +920,7 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_22-20-51.md",
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_18-20-06.md",
         "terms": [
           "AL-Hermoine-OPS",
           "Hermoine",
@@ -452,354 +934,7 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_14-20-48.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_21-20-50.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_04-20-53.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_21-20-42.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_20-20-50.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_02-20-44.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_06-20-45.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_01-20-43.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_07-20-45.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_19-20-41.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_12-20-47.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_02-20-53.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_03-20-44.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_20-20-42.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_00-20-52.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_01-20-52.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_19-20-50.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-51-20.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_08-20-46.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_00-20-43.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_13-20-48.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_16-20-49.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_22-20-42.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_09-20-46.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-50-59.md",
-        "terms": [
-          "Hermoine",
-          "telegram"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_23-20-43.md",
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_11-20-12.md",
         "terms": [
           "AL-Hermoine-OPS",
           "Hermoine",
@@ -1556,6 +1691,13 @@
           ]
         },
         {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/openclaw_hermes_daily_harvest_start.sh",
+          "terms": [
+            "Hermoine",
+            "OPS"
+          ]
+        },
+        {
           "path": "/root/.hermes/profiles/ops-bot/scripts/terefohealreboa_book_start.sh",
           "terms": [
             "Hermoine"
@@ -1565,6 +1707,7 @@
           "path": "/root/.hermes/profiles/ops-bot/scripts/terefo_production_daily_monitor_status.sh",
           "terms": [
             "Hermoine",
+            "OPS",
             "telegram",
             "channel",
             "target"
@@ -1578,9 +1721,23 @@
           ]
         },
         {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/ops_event_dispatcher.sh",
+          "terms": [
+            "Hermoine",
+            "OPS"
+          ]
+        },
+        {
           "path": "/root/.hermes/profiles/ops-bot/scripts/loop_engineering_daily_status.sh",
           "terms": [
             "Hermoine"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/scripts/ops_event_dispatcher.sh.tmp",
+          "terms": [
+            "Hermoine",
+            "OPS"
           ]
         },
         {
@@ -1696,7 +1853,47 @@
           ]
         },
         {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_21-20-07.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_18-20-49.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_07-20-19.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_14-20-22.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_18-20-23.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -1716,7 +1913,87 @@
           ]
         },
         {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_12-20-30.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_05-20-54.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_10-20-03.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_05-20-45.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_08-20-55.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_01-20-17.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_08-20-29.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_02-20-26.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_15-20-31.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -1736,7 +2013,177 @@
           ]
         },
         {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_06-20-02.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_06-20-54.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_01-20-00.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_03-20-17.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_02-20-17.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_22-20-59.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_04-20-09.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_15-20-13.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_05-20-09.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_13-20-30.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_03-20-27.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_15-20-48.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_18-20-58.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_23-20-07.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_13-20-12.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_19-20-15.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_23-20-16.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_22-20-25.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -1756,7 +2203,37 @@
           ]
         },
         {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_11-20-30.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_17-20-49.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_15-20-05.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_00-20-16.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -1776,7 +2253,7 @@
           ]
         },
         {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_03-20-53.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-25_08-20-19.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -1786,7 +2263,7 @@
           ]
         },
         {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_22-20-51.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-23_18-20-06.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -1796,254 +2273,7 @@
           ]
         },
         {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_14-20-48.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_21-20-50.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_04-20-53.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_21-20-42.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_20-20-50.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_02-20-44.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_06-20-45.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_01-20-43.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_07-20-45.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_19-20-41.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_12-20-47.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_02-20-53.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_03-20-44.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_20-20-42.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_00-20-52.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-22_01-20-52.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_19-20-50.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-51-20.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_08-20-46.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_00-20-43.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_13-20-48.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_16-20-49.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_22-20-42.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-21_09-20-46.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_17-50-59.md",
-          "terms": [
-            "Hermoine",
-            "telegram"
-          ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-20_23-20-43.md",
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_11-20-12.md",
           "terms": [
             "AL-Hermoine-OPS",
             "Hermoine",
@@ -2720,10 +2950,10 @@
   "status_metadata": {
     "component": "ops_channel_autodiscovery",
     "disposition": "ops_alias_unresolved_retry_scheduled",
-    "emitted_at_oslo_iso": "2026-06-22T06:45:04+02:00",
-    "emitted_at_unix_ms": 1782103504865,
-    "emitted_at_unix_s": 1782103504,
-    "emitted_at_utc_iso": "2026-06-22T04:45:04Z",
+    "emitted_at_oslo_iso": "2026-06-26T23:15:04+02:00",
+    "emitted_at_unix_ms": 1782508504411,
+    "emitted_at_unix_s": 1782508504,
+    "emitted_at_utc_iso": "2026-06-26T21:15:04Z",
     "run_id": "run54",
     "severity": "warning",
     "status": "ops_alias_unresolved_retry_scheduled",

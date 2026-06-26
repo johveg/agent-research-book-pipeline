@@ -180,6 +180,24 @@ def test_academic_quality_gate_fail_closes_orchestrator_before_docs_mutation(tmp
     assert any("academic quality gate" in e for e in report["validation_errors"])
 
 
+def test_repairs_safe_ledger_like_delta_into_academic_chapter_prose():
+    mod = load_module()
+    packet = approved_packet("repair")
+    packet["update_type"] = "guarded_substantive_canary"
+    packet["proposed_markdown_delta"] = "Hermes Agent is public tooling context. [claim:abc; source:def]"
+
+    repaired = mod.repair_academic_chapter_prose(packet)
+
+    assert repaired["update_type"] == "academic_chapter_update"
+    assert repaired["academic_prose_repaired"] is True
+    assert "Purpose:" in repaired["proposed_markdown_delta"]
+    assert "Definition:" in repaired["proposed_markdown_delta"]
+    assert "limitation" in repaired["proposed_markdown_delta"].lower()
+    assert "claim:" not in repaired["proposed_markdown_delta"].lower()
+    assert "source:" not in repaired["proposed_markdown_delta"].lower()
+    assert mod.validate_publish_packet(repaired) == []
+
+
 def approved_packet(suffix="a"):
     return {
         "publish_packet_id": f"pkt_{suffix}", "source_packet_ids": ["src1", "src2"], "input_context_ids": ["ctx1"],

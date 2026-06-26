@@ -1,13 +1,13 @@
 # LLM
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T10:00:22Z
+- Last seen: 2026-06-26T03:30:14Z
 - Source count: 8
-- Mention count: 84
+- Mention count: 106
 
 ## Description
 
@@ -22,6 +22,9 @@ Candidate tool entity extracted from 1 source(s).
 
 ## Source references
 
+- `src_604600649f21a4613894` — Feed post Ryan P. • 3rd+ Agentic AI & LLM reliability | custom harnesses, spec driven development, evals, and demos you can inspect | proof-
+  - URL: https://www.linkedin.com/in/ryan-prasad-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADvzpsABT76Qd5n7fj2ZVmA-i4Vpfe0Srf4
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/082-f2699025dc0cc6af2a71.md`
 - `src_9a7b5ea5d608d0434464` — Most AI coding agents share a hidden problem: they treat every LLM call identically. Each request starts fresh, carries a growing pile of co
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/028-d3a36ba242d8b8242263.md`
 - `src_e99a32967bee75ffa2a3` — Loop engineering is all the hype now but have you actually looked into what kind of stuff the LLM does in those loops? It might easily spend
@@ -31,10 +34,7 @@ Candidate tool entity extracted from 1 source(s).
 - `src_dc5252eb784bb187ded9` — Feed post Daniel Ihenacho • 3rd+ Stamp 1G 📄 | AI & ML Data Scientist 🧑‍💻 | Data Analyst 📊| Cloud & MLOps Engineer 🤖| LLM & NLP Specialist 🔠|
   - URL: https://www.linkedin.com/in/daniel-ihenacho-637467223?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADgheMsBhliqOiWzMQCs2pi9jfojo2pW168
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/047-82f4bc2ac52ecbb55278.md`
-- `src_604600649f21a4613894` — Feed post Ryan P. • 3rd+ Agentic AI & LLM reliability | custom harnesses, spec driven development, evals, and demos you can inspect | proof-
-  - URL: https://www.linkedin.com/in/ryan-prasad-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADvzpsABT76Qd5n7fj2ZVmA-i4Vpfe0Srf4
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/082-f2699025dc0cc6af2a71.md`
-- `src_f7af7c4e8e517410bf41` — "AI is quietly resetting opportunity" Not because everyone becomes equal overnight. Because for the first time, a founder of an LLM company 
+- `src_f7af7c4e8e517410bf41` — "AI is quietly resetting opportunity" Not because everyone becomes equal overnight. Because for the first time, a founder of an LLM company
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/093-c2047b21f67490f6b174.md`
 - `src_b63f44091dba80addd40` — I just tested Hermes Agent with Ollama, and it feels like a game changer for local AI workflows. Most local LLM tools are great for chatting
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/148-c4ea81506404e19f1f7f.md`

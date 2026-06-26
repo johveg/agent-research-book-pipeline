@@ -4,13 +4,13 @@
 
 ```yaml
 status_metadata:
-  emitted_at_unix_s: 1782017266
-  emitted_at_unix_ms: 1782017266024
-  emitted_at_utc_iso: "2026-06-21T04:47:46Z"
-  emitted_at_oslo_iso: "2026-06-21T06:47:46+02:00"
+  emitted_at_unix_s: 1782444661
+  emitted_at_unix_ms: 1782444661591
+  emitted_at_utc_iso: "2026-06-26T03:31:01Z"
+  emitted_at_oslo_iso: "2026-06-26T05:31:01+02:00"
   timezone: Europe/Oslo
   component: production_daily_scheduler
-  run_id: production-daily-manual-20260621T044656Z
+  run_id: production-daily-20260626
   status: production_daily_completed
   severity: success
   disposition: production_daily_completed
@@ -19,21 +19,21 @@ status_metadata:
   git_commit: null
   git_branch: main
   report_path: null
-  log_path: null
+  log_path: logs/runs/production-daily-20260626.log
   run_started_at_unix_s: null
   run_finished_at_unix_s: null
   duration_seconds: null
 ```
 
-Generated: 2026-06-21T04:47:46Z
+Generated: 2026-06-26T03:31:01Z
 
 - target_channel: `AL-Hermoine-OPS`
 - success: `True`
 - final_disposition: `production_daily_completed`
 - production scheduler created: `True`
 - runtime config created: `True`
-- schedule installed: `True`
-- schedule install attempted: `True`
+- schedule installed: `False`
+- schedule install attempted: `False`
 - schedule installable: `True`
 - execute-once result: `completed`
 - GPT-5.5 used: `True`
@@ -47,7 +47,7 @@ Generated: 2026-06-21T04:47:46Z
 - substantive update applied: `True`
 - daily status fallback applied: `False`
 - docs/book files changed: `['docs/book/06-operating-loops.md']`
-- source_registry/raw/DB deltas: `source registry export command completed; diff governed by mutation guard` / `web raw capture paths under raw/web/production-daily-manual-20260621T044656Z; LinkedIn authenticated capture skipped in execute-once to avoid browser-session stall` / `{}`
+- source_registry/raw/DB deltas: `source registry export command completed; diff governed by mutation guard` / `web raw capture paths under raw/web/production-daily-20260626; LinkedIn authenticated capture skipped in execute-once to avoid browser-session stall` / `{}`
 - mutation guard: `True` profile `production_daily_publish`
 - citation verifier: `True`
 - MkDocs strict: `True`
@@ -57,4 +57,4 @@ Generated: 2026-06-21T04:47:46Z
 - push result: `pending`
 - final git status: `pending`
 - daily schedule command: `/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh`
-- next expected daily run: `2026-06-22T05:30:00+01:00/+02:00 Europe/Oslo`
+- next expected daily run: `2026-06-27T05:30:00+01:00/+02:00 Europe/Oslo`

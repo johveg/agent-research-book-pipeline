@@ -6,7 +6,7 @@ This page records unresolved questions and weak signals that need more evidence.
 
 No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.
 
-Claims matching this chapter but not usable in prose: 3.
+Claims matching this chapter but not usable in prose: 4.
 
 ## Source/claim mapping
 
@@ -20,8 +20,8 @@ Generated Author output requires Editor approval before publication as narrative
 
 ## Changelog
 
-- 2026-06-16T10:28:32Z: conservative evidence-status regeneration for run context.
+- 2026-06-26T21:23:29Z: conservative evidence-status regeneration for run context.
 
 ## Editorial policy
 
-Last generated: 2026-06-16T10:28:32Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
+Last generated: 2026-06-26T21:23:29Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.

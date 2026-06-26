@@ -1,79 +1,76 @@
 # Projects
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 These entries come from harvested entity records. Linked entries have generated review pages; unlinked entries are candidates or weak/noisy fragments and are not treated as canonical public entities.
 
-- [Hermes Agent](hermes-agent.md) — `tool`; mentions: 8787; sources: 619
-- [Hermes](hermes.md) — `tool`; mentions: 4677; sources: 599
-- [OpenClaw](openclaw.md) — `tool`; mentions: 4727; sources: 572
-- [Nous Research](nous-research.md) — `tool`; mentions: 545; sources: 66
-- [AI agents](ai-agents.md) — `tool`; mentions: 436; sources: 46
-- [GitHub](github.md) — `tool`; mentions: 489; sources: 44
-- Loop — `tool`; mentions: 448; sources: 34
-- [Claude Code](claude-code.md) — `tool`; mentions: 229; sources: 32
-- [Claude](claude.md) — `project`; mentions: 232; sources: 28
-- [Remote OpenClaw](remote-openclaw.md) — `tool`; mentions: 54; sources: 21
-- [TheNextGenTechInsider.com](thenextgentechinsider-com.md) — `tool`; mentions: 167; sources: 19
-- [AI agent](ai-agent.md) — `tool`; mentions: 154; sources: 19
-- [SEO](seo.md) — `tool`; mentions: 103; sources: 19
-- [MCP](mcp.md) — `tool`; mentions: 150; sources: 17
-- [Python](python.md) — `tool`; mentions: 128; sources: 15
+- [Nous Research](nous-research.md) — `tool`; mentions: 1823; sources: 99
+- [Claude Code](claude-code.md) — `tool`; mentions: 674; sources: 47
+- Loop — `tool`; mentions: 694; sources: 34
+- NousResearch — `tool`; mentions: 588; sources: 26
+- How — `tool`; mentions: 407; sources: 25
+- Codex — `tool`; mentions: 393; sources: 22
+- [AI Agent](ai-agent.md) — `tool`; mentions: 389; sources: 21
+- [SEO](seo.md) — `tool`; mentions: 178; sources: 19
+- [TheNextGenTechInsider.com](thenextgentechinsider-com.md) — `tool`; mentions: 171; sources: 19
+- Cursor — `tool`; mentions: 406; sources: 18
+- [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 320; sources: 18
+- YouTube — `tool`; mentions: 320; sources: 17
+- [MCP](mcp.md) — `tool`; mentions: 260; sources: 17
+- Prompt — `tool`; mentions: 246; sources: 16
+- [Python](python.md) — `tool`; mentions: 177; sources: 15
 - But — `tool`; mentions: 90; sources: 15
-- How — `tool`; mentions: 57; sources: 15
+- [Hermes Agent Core](hermes-agent-core.md) — `tool`; mentions: 272; sources: 14
+- Official — `tool`; mentions: 272; sources: 14
 - [Google](google.md) — `tool`; mentions: 161; sources: 14
-- YouTube — `tool`; mentions: 147; sources: 14
-- NousResearch — `tool`; mentions: 155; sources: 13
-- Codex — `tool`; mentions: 97; sources: 13
-- [AWS](aws.md) — `tool`; mentions: 154; sources: 11
-- There — `project`; mentions: 52; sources: 11
-- [NVIDIA](nvidia.md) — `tool`; mentions: 98; sources: 10
-- [OpenAI](openai.md) — `tool`; mentions: 96; sources: 10
-- New — `tool`; mentions: 78; sources: 10
+- [NVIDIA](nvidia.md) — `tool`; mentions: 217; sources: 12
+- Agent — `tool`; mentions: 209; sources: 12
+- They — `tool`; mentions: 144; sources: 12
+- Cloud — `tool`; mentions: 109; sources: 12
+- [AWS](aws.md) — `tool`; mentions: 186; sources: 11
+- There — `project`; mentions: 118; sources: 11
+- Let — `tool`; mentions: 116; sources: 11
+- Run — `tool`; mentions: 163; sources: 10
+- [OpenAI](openai.md) — `tool`; mentions: 156; sources: 10
+- New — `tool`; mentions: 122; sources: 10
+- Agents — `tool`; mentions: 66; sources: 10
 - Just — `tool`; mentions: 63; sources: 10
-- Sales — `tool`; mentions: 27; sources: 10
-- Agent — `tool`; mentions: 169; sources: 9
-- [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 78; sources: 9
-- Cloud — `project`; mentions: 69; sources: 9
-- Meta — `tool`; mentions: 65; sources: 9
-- Agents — `tool`; mentions: 42; sources: 9
-- Automation — `tool`; mentions: 39; sources: 9
-- [AI SEO Prompts](ai-seo-prompts.md) — `tool`; mentions: 26; sources: 9
-- [Help Websites Get More Leads](help-websites-get-more-leads.md) — `tool`; mentions: 26; sources: 9
-- [Julian Goldie](julian-goldie.md) — `tool`; mentions: 26; sources: 9
-- Traffic — `tool`; mentions: 26; sources: 9
-- Not — `tool`; mentions: 114; sources: 8
-- [LLM](llm.md) — `tool`; mentions: 84; sources: 8
-- Author — `tool`; mentions: 74; sources: 8
-- AI Researcher — `tool`; mentions: 71; sources: 8
-- Build — `tool`; mentions: 62; sources: 8
-- [GTM](gtm.md) — `tool`; mentions: 48; sources: 8
-- Run — `tool`; mentions: 47; sources: 8
-- [PMP](pmp.md) — `tool`; mentions: 88; sources: 7
-- [FREE](free.md) — `tool`; mentions: 71; sources: 7
-- Builders — `tool`; mentions: 66; sources: 7
-- Let — `tool`; mentions: 61; sources: 7
-- Now — `project`; mentions: 51; sources: 7
-- Why — `tool`; mentions: 50; sources: 7
-- [Hermes Agent Core](hermes-agent-core.md) — `tool`; mentions: 46; sources: 7
-- Official — `tool`; mentions: 46; sources: 7
-- Harness — `tool`; mentions: 86; sources: 6
-- Join — `tool`; mentions: 64; sources: 6
-- Loops — `tool`; mentions: 64; sources: 6
-- PlumoAI — `tool`; mentions: 64; sources: 6
-- Road — `tool`; mentions: 64; sources: 6
-- [AI Builder](ai-builder.md) — `tool`; mentions: 60; sources: 6
-- [Local AI Agents](local-ai-agents.md) — `tool`; mentions: 57; sources: 6
-- [Local AI Agents Compared](local-ai-agents-compared.md) — `tool`; mentions: 57; sources: 6
-- AI Systems Engineer — `tool`; mentions: 47; sources: 6
-- Have — `tool`; mentions: 45; sources: 6
-- Director — `tool`; mentions: 41; sources: 6
-- Foll — `tool`; mentions: 41; sources: 6
-- Some — `framework`; mentions: 41; sources: 6
-- Last — `tool`; mentions: 40; sources: 6
-- [AI Enthusiast](ai-enthusiast.md) — `tool`; mentions: 38; sources: 6
-- [VPS](vps.md) — `tool`; mentions: 32; sources: 6
-- [Hermes agents](hermes-agents.md) — `tool`; mentions: 28; sources: 6
-- Business — `tool`; mentions: 24; sources: 6
-- Kubernetes — `tool`; mentions: 19; sources: 6
-- [AI Coding Agents](ai-coding-agents.md) — `framework`; mentions: 94; sources: 5
+- Sales — `tool`; mentions: 29; sources: 10
+- Guide — `tool`; mentions: 230; sources: 9
+- OpenCode — `tool`; mentions: 213; sources: 9
+- Skills — `tool`; mentions: 167; sources: 9
+- Build — `tool`; mentions: 140; sources: 9
+- Meta — `tool`; mentions: 131; sources: 9
+- Automation — `tool`; mentions: 105; sources: 9
+- [AI SEO Prompts](ai-seo-prompts.md) — `tool`; mentions: 28; sources: 9
+- [Help Websites Get More Leads](help-websites-get-more-leads.md) — `tool`; mentions: 28; sources: 9
+- [Julian Goldie](julian-goldie.md) — `tool`; mentions: 28; sources: 9
+- Traffic — `tool`; mentions: 28; sources: 9
+- Not — `tool`; mentions: 177; sources: 8
+- Free — `tool`; mentions: 144; sources: 8
+- [Data Science](data-science.md) — `tool`; mentions: 123; sources: 8
+- Why — `tool`; mentions: 120; sources: 8
+- AI Researcher — `tool`; mentions: 115; sources: 8
+- [LLM](llm.md) — `tool`; mentions: 106; sources: 8
+- [GTM](gtm.md) — `tool`; mentions: 78; sources: 8
+- [Local AI Agents](local-ai-agents.md) — `tool`; mentions: 200; sources: 7
+- [Local AI Agents Compared](local-ai-agents-compared.md) — `tool`; mentions: 200; sources: 7
+- Loops — `tool`; mentions: 198; sources: 7
+- Builders — `tool`; mentions: 114; sources: 7
+- Qwen — `tool`; mentions: 111; sources: 7
+- [PMP](pmp.md) — `tool`; mentions: 110; sources: 7
+- Web — `tool`; mentions: 106; sources: 7
+- Now — `project`; mentions: 73; sources: 7
+- [Autonomous Agents](autonomous-agents.md) — `tool`; mentions: 65; sources: 7
+- Blog — `tool`; mentions: 206; sources: 6
+- Mac — `tool`; mentions: 156; sources: 6
+- Harness — `tool`; mentions: 130; sources: 6
+- Harness Engineering — `tool`; mentions: 115; sources: 6
+- Join — `tool`; mentions: 112; sources: 6
+- PlumoAI — `tool`; mentions: 112; sources: 6
+- Road — `tool`; mentions: 112; sources: 6
+- Foll — `tool`; mentions: 107; sources: 6
+- [AI Enthusiast](ai-enthusiast.md) — `tool`; mentions: 104; sources: 6
+- With — `tool`; mentions: 102; sources: 6
+- Some — `framework`; mentions: 85; sources: 6
+- [AI Builder](ai-builder.md) — `tool`; mentions: 82; sources: 6

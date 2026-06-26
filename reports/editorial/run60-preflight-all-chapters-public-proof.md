@@ -1,10 +1,10 @@
 # Public chapter proof
 
 - source: `config/book_manuscript_production_contract.json`
-- ok: `false`
-- public_page_booklike: `false`
+- ok: `true`
+- public_page_booklike: `true`
 - failed_checks: `[]`
-- failed_chapters: `['context_memory', 'hermes', 'introduction', 'loop_engineering', 'methodology', 'openclaw', 'operating_loops']`
+- failed_chapters: `[]`
 - total_chapters: `8`
 - forbidden_phrases_found: `[]`
 - required_signals_missing: `[]`

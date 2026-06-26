@@ -1,12 +1,12 @@
 {
   "blockers": [],
   "final_disposition": "production_daily_completed",
-  "generated_at": "2026-06-16T12:27:41Z",
+  "generated_at": "2026-06-26T21:23:20Z",
   "mode": "run45_schedule_install_artifact",
   "next_expected_run_time": null,
   "production_daily_completed": true,
   "run_id": "run45",
-  "schedule_command": "/home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh",
+  "schedule_command": "/home/hermoine/agent-research-book-pipeline/scripts/run_production_daily_cron.sh",
   "schedule_installable": true,
   "schedule_installed": false,
   "status_metadata": {

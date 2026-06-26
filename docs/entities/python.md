@@ -1,17 +1,17 @@
 # Python
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `tool`
-- Confidence: `high`
+- Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-16T10:00:22Z
+- Last seen: 2026-06-26T03:30:14Z
 - Source count: 15
-- Mention count: 128
+- Mention count: 177
 
 ## Description
 
-Candidate tool entity extracted from 4 source(s).
+Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -19,13 +19,16 @@ Candidate tool entity extracted from 4 source(s).
 
 ## Source references
 
-- `src_c6cf3d54e8eb380412df` — Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac
-  - URL: https://www.linkedin.com/in/lakshay-arora-satellite-sentient?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqzywUB_90ZaHpqdzBpE_LCwRhwKcpFk9M
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/025-144e9089624de80d3540.md`
 - `src_aa56013ffdfab0a1531f` — Feed post Sandip Parida • 3rd+ Fullstack Software Engineer | Genai , Ruby on rails , Python,Product Development, immidiate joiner 2h • Follo
   - URL: https://www.linkedin.com/in/dev-sandip-parida?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC_99GkBogGtt9daAUzEl7oNM6lf9U44gXs
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/042-f7d77099ac4688bccebb.md`
-- `src_6dcc4ca70392d35f0253` — Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera 
+- `src_8070fd7ed9605c9a58f9` — Feed post Anish Dubey • 3rd+ DevOps Engineer at Hashtechy || ex-DevOps Intern @Hiper Automotive || ex-Python/Django Development Intern @Nyx
+  - URL: https://www.linkedin.com/in/anish-dubey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADaevqIBX9u1UCNZFwrefAf8vFYwEN50rR0
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/151-b5cf3a54b2e6997016b7.md`
+- `src_c6cf3d54e8eb380412df` — Feed post Lakshay Arora, PhD • 3rd+ PhD in Aerospace AI & Optimization | Python • Julia • MATLAB • SQL | From Control Theory to Scalable Mac
+  - URL: https://www.linkedin.com/in/lakshay-arora-satellite-sentient?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqzywUB_90ZaHpqdzBpE_LCwRhwKcpFk9M
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/025-144e9089624de80d3540.md`
+- `src_6dcc4ca70392d35f0253` — Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera
   - URL: https://www.linkedin.com/in/douglas-batista-295458230?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADm7PJEBv_--ElIX2zM31CP14ydWdEYMIIA
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/088-2ecf1233d61cf6196904.md`
 - `src_cb704a4f99562055089c` — Feed post Juan Felipe Rivera González • 3rd+ Senior Backend Engineer @ ACUE | PHP, Go, Python, Javascript 5h • Edited • Follow En mi post an
@@ -39,9 +42,6 @@ Candidate tool entity extracted from 4 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/030-34b003ba69cb5e487fc3.md`
 - `src_e6c66e211f608ae3ae48` — 🚀 NousResearch/hermes-agent The agent that grows with you 📊 ⭐ 193,424 stars | 🔧 Python | 📂 github_api 🔗 https://lnkd.in/eEXNB_-C 💡 Un proyec
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/090-9940d72d7cb75e40618b.md`
-- `src_8070fd7ed9605c9a58f9` — Feed post Anish Dubey • 3rd+ DevOps Engineer at Hashtechy || ex-DevOps Intern @Hiper Automotive || ex-Python/Django Development Intern @Nyx 
-  - URL: https://www.linkedin.com/in/anish-dubey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADaevqIBX9u1UCNZFwrefAf8vFYwEN50rR0
-  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/151-b5cf3a54b2e6997016b7.md`
 - `src_5fd59ebf7bd199e392de` — Feed post Shahida Batool • 3rd+ Data Analyst | Junior Data Scientist | Research Analyst | Python, SQL, R, Power BI, Machine Learning & Bioin
   - URL: https://www.linkedin.com/in/shahidabatool?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC-3yosBZpfv9eldphv2Y6vevTM0bgqi8RI
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/117-d5fb91a7eeadfc7bd56d.md`
@@ -57,7 +57,7 @@ Candidate tool entity extracted from 4 source(s).
 - `src_0185b6ed49b901c86192` — Feed post Chinmayi Ramakrishna • 3rd+ Backend Software Developer | Java, Python, Kubernetes | B2B2C E-commerce PaaS | Collaborated with Serv
   - URL: https://www.linkedin.com/in/chinmayi-ramakrishna?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC_F5dkBWI0koTY8lbvzZd1n3_6muqRXmZQ
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/012-c383ec1aaa30dc740c88.md`
-- `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow 
+- `src_a7a979a2be6b689ca786` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 11h • Follow
   - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/119-1e9f32048b5af92046d3.md`
 - `src_5cfec6ea090617f279b5` — Feed post Pekka Rajanen • 3rd+ Azure & Microsoft Fabric Data Engineer | Data Platforms, Lakehouse Architecture, SQL/Python | Practical AI Ad

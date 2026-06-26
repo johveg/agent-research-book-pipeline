@@ -1,13 +1,13 @@
 # GPU
 
-Last generated: 2026-06-16T10:28:32Z
+Last generated: 2026-06-26T21:23:28Z
 
 - Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-16T10:00:22Z
+- Last seen: 2026-06-26T03:30:14Z
 - Source count: 4
-- Mention count: 16
+- Mention count: 60
 
 ## Description
 
@@ -19,7 +19,7 @@ Candidate tool entity extracted from 2 source(s).
 
 ## Source references
 
-- `src_04a7eca5823431c35182` — 應 百業分享堂邀請，錄製一段影片 如何打造Token Free 的AI 工廠— 把個人電腦串成地端的A I超級系統案例分享 這支影片分享我如何打造自己的 Token free AI 工廠：把家中的個人電腦、GPU 工作站、NAS 與邊緣裝置串成地端 AI 超級系統。透過 Joe 
+- `src_04a7eca5823431c35182` — 應 百業分享堂邀請，錄製一段影片 如何打造Token Free 的AI 工廠— 把個人電腦串成地端的A I超級系統案例分享 這支影片分享我如何打造自己的 Token free AI 工廠：把家中的個人電腦、GPU 工作站、NAS 與邊緣裝置串成地端 AI 超級系統。透過 Joe
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/157-7b5a550844a3947cfd86.md`
 - `src_f680c74f628953dca95e` — Feed post Sriram S. • 3rd+ Director, Customer Success, Enterprise Platforms & GPU @ Singtel | AWS Certified Solution Architect - Associate 1
   - URL: https://www.linkedin.com/in/sriramsivakumar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALVwHEBnNJ-EDxDpZHUbuCTVyVWlGq3Fu0

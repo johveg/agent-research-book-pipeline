@@ -3,10 +3,10 @@
     "delivered": 0,
     "failed_closed_target_not_resolvable": 0,
     "queued": 0,
-    "retry_scheduled": 662
+    "retry_scheduled": 663
   },
   "delivered_count": 0,
-  "entry_count": 662,
+  "entry_count": 663,
   "fallback_channel_used": false,
   "pending_message_ids": [
     "ops-f7fcd763cd269722",
@@ -670,16 +670,17 @@
     "ops-59f25274968368e7",
     "ops-f114a0423d5f4bbb",
     "ops-dca4dfe006220547",
-    "ops-d70bc96bd1b3b5f7"
+    "ops-d70bc96bd1b3b5f7",
+    "ops-c88628fd269dd3f8"
   ],
-  "queued_count": 662,
+  "queued_count": 663,
   "status_metadata": {
     "component": "ops_delivery_outbox",
     "disposition": "outbox_state",
-    "emitted_at_oslo_iso": "2026-06-26T23:15:04+02:00",
-    "emitted_at_unix_ms": 1782508504651,
-    "emitted_at_unix_s": 1782508504,
-    "emitted_at_utc_iso": "2026-06-26T21:15:04Z",
+    "emitted_at_oslo_iso": "2026-06-26T23:30:05+02:00",
+    "emitted_at_unix_ms": 1782509405467,
+    "emitted_at_unix_s": 1782509405,
+    "emitted_at_utc_iso": "2026-06-26T21:30:05Z",
     "run_id": "run54",
     "severity": "info",
     "status": "outbox_state",

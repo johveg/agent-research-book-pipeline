@@ -1,2 +1,2 @@
 CRON_TZ=Europe/Oslo
-30 5 * * * /home/hermoine/terefohealreboa/scripts/run_production_daily_cron.sh
+30 5 * * * /home/hermoine/agent-research-book-pipeline/scripts/run_production_daily_cron.sh

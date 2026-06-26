@@ -8,9 +8,9 @@ from pathlib import Path
 from research_common import ROOT
 
 WRAPPERS = [
-    Path('/root/.hermes/scripts/terefohealreboa_book_start.sh'),
-    Path('/root/.hermes/scripts/terefohealreboa_book_status.sh'),
-    Path('/root/.hermes/scripts/terefohealreboa_book_watchdog.sh'),
+    Path('/root/.hermes/scripts/agent_research_book_start.sh'),
+    Path('/root/.hermes/scripts/agent_research_book_status.sh'),
+    Path('/root/.hermes/scripts/agent_research_book_watchdog.sh'),
 ]
 
 

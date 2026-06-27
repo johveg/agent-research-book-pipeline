@@ -169,6 +169,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--repo-root", default=".")
     parser.add_argument("--output-json", required=True)
     parser.add_argument("--output-md")
+    parser.add_argument("--chapter-id")
     args = parser.parse_args(argv)
 
     if args.all_local_book_chapters:
@@ -179,14 +180,14 @@ def main(argv: list[str] | None = None) -> int:
             parser.error("--expected-title is required with --url")
         text = fetch_url(args.url)
         source_value = args.url
-        result = evaluate_public_chapter_text(text, args.expected_title)
+        result = evaluate_public_chapter_text(text, args.expected_title, chapter_id=args.chapter_id)
         result.update({"source": source_value, "source_kind": "url"})
     else:
         if not args.expected_title:
             parser.error("--expected-title is required with --input-file")
         text = Path(args.input_file).read_text(encoding="utf-8")
         source_value = args.input_file
-        result = evaluate_public_chapter_text(text, args.expected_title)
+        result = evaluate_public_chapter_text(text, args.expected_title, chapter_id=args.chapter_id)
         result.update({"source": source_value, "source_kind": "file"})
     out = Path(args.output_json)
     out.parent.mkdir(parents=True, exist_ok=True)

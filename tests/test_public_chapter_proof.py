@@ -61,6 +61,40 @@ def test_public_page_booklike_chapter_passes():
     assert result["failed_checks"] == []
 
 
+def test_non_agent_loop_seed_chapter_can_pass_with_generic_signals(tmp_path):
+    seed = tmp_path / "agent-runtime-security.md"
+    seed.write_text("""
+# Agent Runtime Security
+
+The central argument of this chapter is that agent runtime security deserves a visible place in the book because it names a recurring problem in practical agent systems. The evidence limits are clear: early material supports cautious research, not settled claims. [1]
+
+A guarded seed chapter can explain the topic while the daily loop collects better evidence. The chapter should use sustained prose, integrated citations, and careful limitations before it matures into a fuller treatment. [2]
+
+The daily loop can later add definitions, examples, and practical implications when corroborated sources make those additions safe. Until then, the chapter remains visible but restrained. [3]
+
+The book therefore separates visibility from overclaiming. A subject can be approved for research and public tracking without pretending that all of its evidence has already matured. [1] [2] [3]
+
+## References
+
+[1] Ref.
+[2] Ref.
+[3] Ref.
+""", encoding="utf-8")
+    out = tmp_path / "out.json"
+    proc = subprocess.run([
+        sys.executable,
+        str(SCRIPT),
+        "--input-file", str(seed),
+        "--expected-title", "Agent Runtime Security",
+        "--chapter-id", "agent_runtime_security",
+        "--output-json", str(out),
+    ], text=True, capture_output=True)
+    assert proc.returncode == 0, proc.stdout + proc.stderr
+    data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["ok"] is True
+    assert data["required_signals_missing"] == []
+
+
 def test_cli_writes_json_and_fails_closed_on_bad_page(tmp_path):
     html = tmp_path / "bad.html"
     html.write_text("# 1. The Agent Loop\n\n## Current evidence status\n\n- status supported, quality A\n\n## Source/claim mapping\nBullet 1 maps to supported claim.", encoding="utf-8")

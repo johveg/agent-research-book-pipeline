@@ -33,6 +33,9 @@ nav:
       - 4. Loop Engineering: book/04-loop-engineering.md
       - 5. Context and Memory Architecture: book/05-context-memory-architecture.md
       - 6. Operating Loops in Production: book/06-operating-loops.md
+      - Agent Runtime Security: book/agent-runtime-security.md
+      - Autonomous Research Pipeline: book/autonomous-research-pipeline.md
+      - Browser Agents: book/browser-agents.md
       - Open Questions: book/open-questions.md
   - Chapter Briefs:
       - Index: chapter-briefs/index.md

@@ -111,6 +111,32 @@ def build_queue(contract: dict) -> dict:
             "required_gates": list(REQUIRED_GATES),
             "status": "ready_for_run58" if cid == "introduction" else "queued_after_introduction",
         })
+    approved_subjects_path = Path("config/chapter_discovery_topics.json")
+    if approved_subjects_path.exists():
+        try:
+            topics = json.loads(approved_subjects_path.read_text(encoding="utf-8"))
+            existing_ids = {item["chapter_id"] for item in queue}
+            for subject in topics.get("approved_subjects", []):
+                cid = subject.get("chapter_id")
+                target = subject.get("target_path")
+                if not cid or cid in existing_ids or not str(target).startswith("docs/book/"):
+                    continue
+                queue.append({
+                    "chapter_id": cid,
+                    "title": subject.get("title") or str(cid).replace("_", " ").title(),
+                    "target_path": target,
+                    "mode": "human_approved_research_pair",
+                    "required_gates": list(REQUIRED_GATES),
+                    "status": "approved_research_lane",
+                    "human_approved_at_utc": subject.get("approved_at_utc"),
+                    "research_pair": {
+                        "web_query": subject.get("web_query"),
+                        "linkedin_query": subject.get("linkedin_query"),
+                    },
+                })
+                existing_ids.add(cid)
+        except Exception:
+            pass
     return {"queue_name": "book_manuscript_production_queue", "created_at_utc": utc_now(), "queue": queue}
 
 

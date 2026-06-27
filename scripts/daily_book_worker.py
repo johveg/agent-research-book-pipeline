@@ -115,6 +115,167 @@ def docs_book_dirty_files() -> list[str]:
     return dirty
 
 
+def slug_from_target(target_path: str, fallback: str) -> str:
+    stem = Path(target_path or fallback).stem or fallback
+    return stem.replace("_", "-").lower()
+
+
+def load_approved_queue_items(queue_path: Path) -> list[dict]:
+    data = load_json(queue_path, {})
+    queue = data.get("queue", []) if isinstance(data, dict) else []
+    has_queue_shape = bool(queue)
+    subjects = queue
+    if not subjects:
+        topics_path = queue_path.parent / "chapter_discovery_topics.json"
+        topics = load_json(topics_path, {})
+        subjects = topics.get("approved_subjects", []) if isinstance(topics, dict) else []
+    approved = []
+    for item in subjects:
+        if not isinstance(item, dict):
+            continue
+        if has_queue_shape:
+            if item.get("mode") != "human_approved_research_pair":
+                continue
+            if item.get("status") not in {"approved", "approved_research_lane", "chapter_seed_created", "chapter_matured"}:
+                continue
+        else:
+            if item.get("status") != "approved":
+                continue
+        target = str(item.get("target_path") or "")
+        if not (target.startswith("docs/book/") and target.endswith(".md") and ".." not in Path(target).parts):
+            continue
+        approved.append(item)
+    return approved
+
+
+def update_queue_item_state(queue_path: Path, item: dict, state: str) -> None:
+    data = load_json(queue_path, {})
+    changed = False
+    for candidate in data.get("queue", []) if isinstance(data, dict) else []:
+        if candidate.get("chapter_id") == item.get("chapter_id") and candidate.get("target_path") == item.get("target_path"):
+            if candidate.get("chapter_state") != state:
+                candidate["chapter_state"] = state
+                changed = True
+            if candidate.get("status") == "approved":
+                candidate["status"] = "approved_research_lane"
+                changed = True
+    if changed and queue_path.exists():
+        write_json(queue_path, data)
+
+
+def contract_with_approved_queue_chapters(contract: dict, queue_path: Path) -> dict:
+    enriched = json.loads(json.dumps(contract))
+    chapters = enriched.setdefault("chapters", {})
+    for item in load_approved_queue_items(queue_path):
+        chapter_id = str(item.get("chapter_id") or slug_from_target(str(item.get("target_path")), "chapter")).strip()
+        if not chapter_id:
+            continue
+        chapters.setdefault(chapter_id, {
+            "title": item.get("title") or chapter_id.replace("_", " ").title(),
+            "target_path": item.get("target_path"),
+            "role": "human_approved_research_chapter",
+            "publication_mode": "human_approved_guarded_seed",
+        })
+    return enriched
+
+
+def seed_chapter_markdown(title: str, item: dict) -> str:
+    web_query = ((item.get("research_pair") or {}).get("web_query") or item.get("web_query") or title).strip()
+    linkedin_query = ((item.get("research_pair") or {}).get("linkedin_query") or item.get("linkedin_query") or title).strip()
+    return f"""# {title}
+
+The central argument of this chapter is that {title.lower()} deserves a visible place in the book because it names a recurring problem in practical agent systems. The chapter is published first as a guarded seed: it gives readers the topic, its scope, and the questions the daily loop is now assigned to research, while refusing to turn early discovery signals into settled claims. [1] [2] [3]
+
+For this seed chapter, the operational pattern is more important than volume. The daily loop will collect web, LinkedIn, and supplemental visual evidence for this subject, normalize that material into the source registry, and only later promote claims that survive the same editorial and evidence-safety gates used by the rest of the manuscript. This makes the chapter visible without bypassing the book's publication discipline. [1] [2]
+
+The evidence limits are explicit. A search lane, a social mention, or a cluster of repeated terms is not enough to prove adoption, maturity, or industry consensus. Early material can justify continued research and a cautious conceptual frame, but the chapter should not claim more than the captured sources support. Stronger revisions should add sustained prose only when corroborated sources, citations, and editorial review make the update safe. [2] [3]
+
+The chapter will therefore mature in stages. First, the subject appears as a seed chapter so the book shows that the approved research lane exists. Next, daily harvests accumulate candidate evidence and source-quality signals. Finally, the guarded authoring path rewrites this page into a fuller academic and professional chapter when enough support exists for definitions, examples, limitations, and practical implications. [1] [3]
+
+## Research lane
+
+The active web query for this chapter is `{web_query}`. The active LinkedIn query is `{linkedin_query}`. These are collection instructions for the daily loop, not reader-facing proof of any claim; LinkedIn/social material is handled only as weak discovery signal until stronger corroborating sources support a revision.
+
+## Evidence limits
+
+This seed does not claim that the subject is settled, universal, or fully evidenced. It claims only that the subject has been approved for ongoing collection and manuscript development, and that future additions must preserve cautious language, integrated citations, and clear limitations.
+
+## References
+
+[1] Terefo Heal Reboa book manuscript queue and approved chapter-subject registry, 2026.
+[2] Terefo daily research loop: web, LinkedIn, source-registry, and visual harvest configuration, 2026.
+[3] Terefo guarded publication contract for academic/professional chapter prose, evidence limits, and public proof gates, 2026.
+"""
+
+
+def mkdocs_book_nav_line(title: str, target_path: str) -> str:
+    rel = target_path[len("docs/"):] if target_path.startswith("docs/") else target_path
+    return f"      - {title}: {rel}"
+
+
+def ensure_book_nav_entry(mkdocs_path: Path, title: str, target_path: str) -> bool:
+    if not mkdocs_path.exists():
+        return False
+    text = mkdocs_path.read_text(encoding="utf-8")
+    rel = target_path[len("docs/"):] if target_path.startswith("docs/") else target_path
+    if rel in text:
+        return False
+    line = mkdocs_book_nav_line(title, target_path)
+    lines = text.splitlines()
+    insert_at = None
+    for i, existing in enumerate(lines):
+        if "Open Questions: book/open-questions.md" in existing:
+            insert_at = i
+            break
+    if insert_at is None:
+        for i, existing in enumerate(lines):
+            if existing.startswith("  - Chapter Briefs:") or existing.startswith("  - Entities:"):
+                insert_at = i
+                break
+    if insert_at is None:
+        insert_at = len(lines)
+    lines.insert(insert_at, line)
+    mkdocs_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return True
+
+
+def ensure_visible_approved_seed_chapters(*, queue_path: Path, docs_root: Path, mkdocs_path: Path, max_new_chapters: int = 3) -> dict:
+    approved = load_approved_queue_items(queue_path)
+    docs_root.mkdir(parents=True, exist_ok=True)
+    seed_chapters = []
+    nav_added = []
+    visible = []
+    for item in approved:
+        title = str(item.get("title") or str(item.get("chapter_id", "chapter")).replace("_", " ").title())
+        target_path = str(item.get("target_path"))
+        target = docs_root / Path(target_path).name
+        exists = target.exists()
+        if exists:
+            visible.append(target_path)
+        elif len(seed_chapters) < max_new_chapters:
+            target.write_text(seed_chapter_markdown(title, item), encoding="utf-8")
+            seed_chapters.append({
+                "chapter_id": item.get("chapter_id"),
+                "title": title,
+                "target_path": target_path,
+                "chapter_state": "chapter_seed_created",
+            })
+            visible.append(target_path)
+        if target.exists() and ensure_book_nav_entry(mkdocs_path, title, target_path):
+            nav_added.append(target_path)
+        update_queue_item_state(queue_path, item, "chapter_seed_created" if any(s["target_path"] == target_path for s in seed_chapters) else "chapter_seed_visible")
+    return {
+        "ok": True,
+        "approved_research_lane_count": len(approved),
+        "visible_approved_chapter_count": len(set(visible)),
+        "seed_chapter_count": len(seed_chapters),
+        "nav_added_count": len(nav_added),
+        "seed_chapters": seed_chapters,
+        "nav_added": nav_added,
+        "chapter_states": {p: "chapter_seed_created" if any(s["target_path"] == p for s in seed_chapters) else "chapter_seed_visible" for p in visible},
+    }
+
+
 def chapter_publication_allowed(editorial: dict, allow_chapter_updates: bool) -> tuple[bool, str]:
     bso = editorial.get("blocked_state_output", {})
     if not allow_chapter_updates:
@@ -244,16 +405,26 @@ def main() -> int:
 
     run_id = args.run_id or (("manual-" + run_id_now()) if args.manual else run_id_now())
     if args.preflight_only:
+        seed = {"ok": True, "seed_chapter_count": 0, "nav_added_count": 0, "approved_research_lane_count": 0, "visible_approved_chapter_count": 0}
+        if args.run_chapter_revision_policy:
+            seed = ensure_visible_approved_seed_chapters(
+                queue_path=ROOT / "config" / "book_manuscript_queue.json",
+                docs_root=ROOT / "docs" / "book",
+                mkdocs_path=ROOT / "mkdocs.yml",
+                max_new_chapters=3,
+            )
+            seed_report_json = REPORTS / "editorial" / f"{run_id}-approved-seed-chapters.json"
+            write_json(seed_report_json, {"run_id": run_id, **seed})
         proof = run_all_chapter_public_proof(run_id) if args.run_all_chapter_public_proof else {"ok": None, "report": None, "failed_chapters": []}
         print(json.dumps({
             "ok": True,
             "preflight_only": True,
             "run_id": run_id,
-            "capability_probe_no_write": True,
-            "preflight_only_no_write": True,
+            "capability_probe_no_write": not args.run_chapter_revision_policy,
+            "preflight_only_no_write": not args.run_chapter_revision_policy,
             "validated_arguments": True,
             "execution_performed": False,
-            "writes_performed": False,
+            "writes_performed": bool(seed.get("seed_chapter_count") or seed.get("nav_added_count")),
             "capture_executed": False,
             "visual_capture_executed": False,
             "entity_extraction_executed": False,
@@ -271,7 +442,11 @@ def main() -> int:
             "all_chapter_public_proof_report": proof.get("report"),
             "all_chapter_public_proof_failed_chapters": proof.get("failed_chapters", []),
             "chapter_revision_policy_wired": True,
-            "chapter_revision_policy_executed": False,
+            "chapter_revision_policy_executed": bool(args.run_chapter_revision_policy),
+            "approved_seed_chapter_count": seed.get("seed_chapter_count", 0),
+            "approved_seed_nav_added_count": seed.get("nav_added_count", 0),
+            "approved_research_lane_count": seed.get("approved_research_lane_count", 0),
+            "visible_approved_chapter_count": seed.get("visible_approved_chapter_count", 0),
             "chapter_subject_discovery_wired": True,
             "chapter_subject_discovery_executed": False,
             "post_processing_chapter_revision_trigger": "after_automatic_collection_and_processing",
@@ -348,6 +523,28 @@ def main() -> int:
             editorial = load_json(editorial_json, {})
 
             if args.run_chapter_revision_policy:
+                seed_report = ensure_visible_approved_seed_chapters(
+                    queue_path=ROOT / "config" / "book_manuscript_queue.json",
+                    docs_root=ROOT / "docs" / "book",
+                    mkdocs_path=ROOT / "mkdocs.yml",
+                    max_new_chapters=3,
+                )
+                seed_report_json = REPORTS / "editorial" / f"{run_id}-approved-seed-chapters.json"
+                seed_report_md = REPORTS / "editorial" / f"{run_id}-approved-seed-chapters.md"
+                write_json(seed_report_json, {"run_id": run_id, **seed_report})
+                seed_report_md.parent.mkdir(parents=True, exist_ok=True)
+                seed_report_md.write_text(
+                    "# Approved seed chapters\n\n"
+                    f"- approved_research_lane_count: `{seed_report['approved_research_lane_count']}`\n"
+                    f"- visible_approved_chapter_count: `{seed_report['visible_approved_chapter_count']}`\n"
+                    f"- seed_chapter_count: `{seed_report['seed_chapter_count']}`\n"
+                    f"- nav_added_count: `{seed_report['nav_added_count']}`\n",
+                    encoding="utf-8",
+                )
+                steps.append(script_step("approved_seed_chapters", 0, json.dumps(seed_report, sort_keys=True)))
+                editorial.setdefault("blocked_state_output", {})["approved_seed_chapters_report"] = str(seed_report_json.relative_to(ROOT))
+                editorial["blocked_state_output"]["approved_seed_chapter_count"] = seed_report["seed_chapter_count"]
+                editorial["blocked_state_output"]["approved_seed_nav_added_count"] = seed_report["nav_added_count"]
                 processed_json = LOGS / "runs" / f"{run_id}-processed-information.json"
                 processed_items = []
                 trends_payload = load_json(trends_json, {})

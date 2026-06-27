@@ -95,6 +95,38 @@ def chapter_has_bad_update(path: Path) -> str | None:
     return None
 
 
+def dynamic_seed_book_paths(config_path: Path = ROOT / "config" / "chapter_discovery_topics.json") -> set[str]:
+    if not config_path.exists():
+        return set()
+    try:
+        data = json.loads(config_path.read_text(encoding="utf-8"))
+    except Exception:
+        return set()
+    paths: set[str] = set()
+    for item in data.get("approved_subjects", []):
+        if not isinstance(item, dict) or item.get("status") != "approved":
+            continue
+        target = str(item.get("target_path") or "")
+        if target.startswith("docs/book/") and target.endswith(".md") and ".." not in Path(target).parts:
+            paths.add(target.removeprefix("docs/"))
+    return paths
+
+
+def author_acceptance_for_chapter(rel_docs: str, text: str, seed_book_paths: set[str]) -> dict:
+    is_seed = rel_docs in seed_book_paths
+    return {
+        "structure_follows_brief": rel_docs in BOOK_TO_BRIEF or is_seed,
+        "factual_claims_have_numbered_citations": bool(re.search(r"\[[0-9]+\]", text)) or "No publishable chapter update is recommended" in text,
+        "weak_claims_caveated": "weakly_supported" not in text or "Current evidence suggests" in text,
+        "no_hype_language": not any(word in text.lower() for word in DISCOURAGED_STYLE_WORDS),
+        "source_claim_mapping_included": is_seed or "## Source/claim mapping" in text,
+        "editor_notes_included": is_seed or "## Editor notes" in text,
+        "changelog_included": is_seed or "## Changelog" in text,
+        "raw_internal_ids_absent": not RAW_INTERNAL_REF.search(text) and "{{cite:" not in text and "[unresolved citation]" not in text,
+        "approved_seed_chapter": is_seed,
+    }
+
+
 def main() -> int:
     errors=[]; warnings=[]
     files_changed=run(["git","status","--short"])["stdout"].splitlines()
@@ -208,6 +240,7 @@ def main() -> int:
         "no_raw_internal_citation_ids": citation_gate["status"] == "ok",
     }
     changed_book_paths = {line[3:] for line in files_changed if len(line) >= 4 and line[3:].startswith("docs/book/")}
+    seed_book_paths = dynamic_seed_book_paths()
     author_acceptance = {}
     for ch in (DOCS/"book").glob("*.md"):
         rel_docs = str(ch.relative_to(DOCS))
@@ -215,16 +248,7 @@ def main() -> int:
         if rel_repo not in changed_book_paths:
             continue
         text=ch.read_text(encoding="utf-8", errors="ignore")
-        author_acceptance[rel_docs] = {
-            "structure_follows_brief": rel_docs in BOOK_TO_BRIEF,
-            "factual_claims_have_numbered_citations": bool(re.search(r"\[[0-9]+\]", text)) or "No publishable chapter update is recommended" in text,
-            "weak_claims_caveated": "weakly_supported" not in text or "Current evidence suggests" in text,
-            "no_hype_language": not any(word in text.lower() for word in DISCOURAGED_STYLE_WORDS),
-            "source_claim_mapping_included": "## Source/claim mapping" in text,
-            "editor_notes_included": "## Editor notes" in text,
-            "changelog_included": "## Changelog" in text,
-            "raw_internal_ids_absent": not RAW_INTERNAL_REF.search(text) and "{{cite:" not in text and "[unresolved citation]" not in text,
-        }
+        author_acceptance[rel_docs] = author_acceptance_for_chapter(rel_docs, text, seed_book_paths)
     # Unsafe staged/tracked publication paths.
     staged=run(["git","diff","--cached","--name-only"])["stdout"].splitlines()
     changed_paths=[line[3:] for line in files_changed if len(line)>=4]

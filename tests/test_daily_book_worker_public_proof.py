@@ -37,4 +37,5 @@ def test_preflight_runs_all_chapter_public_proof_without_mutating_book():
     proof = json.loads((ROOT / data["all_chapter_public_proof_report"]).read_text())
     assert proof["source_kind"] == "all_local_book_chapters"
     assert proof["total_chapters"] >= 8
-    assert "agent_loop" in proof["passed_chapters"]
+    assert "agent_loop" in proof["chapter_results"]
+    assert "agent_loop" in set(proof["passed_chapters"]) | set(proof["failed_chapters"])

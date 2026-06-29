@@ -36,12 +36,15 @@ def test_runtime_config_requires_gpt55_for_authoring_and_publication_gate():
     }
 
 
-def test_runtime_config_requires_verification_and_one_substantive_update():
+def test_runtime_config_requires_verification_and_event_driven_bounded_updates():
     cfg = load_config()
     assert cfg["mutation_guard_required"] is True
     assert cfg["citation_verification_required"] is True
     assert cfg["mkdocs_strict_required"] is True
-    assert cfg["max_substantive_book_updates_per_run"] == 1
+    assert cfg["event_driven_book_production_enabled"] is True
+    assert cfg["max_substantive_book_updates_per_run"] >= 1
+    assert cfg["max_existing_chapter_updates_per_window"] >= 1
+    assert cfg["max_new_seed_chapters_per_window"] >= 1
     assert cfg["daily_status_fallback_enabled"] is True
     assert cfg["allow_daily_status_only_update"] is True
 

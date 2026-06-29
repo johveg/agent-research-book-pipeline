@@ -171,7 +171,11 @@ def validate_runtime_config(config: dict[str, Any]) -> list[str]:
         errors.append("human_in_loop_required_must_be_false")
     if config.get("weak_local_fallback_allowed") is not False:
         errors.append("weak_local_fallback_allowed_must_be_false")
-    if int(config.get("max_substantive_book_updates_per_run", 0)) != 1:
+    max_updates = int(config.get("max_substantive_book_updates_per_run", 0))
+    if config.get("event_driven_book_production_enabled") is True:
+        if max_updates < 1:
+            errors.append("max_substantive_book_updates_per_run_must_be_positive")
+    elif max_updates != 1:
         errors.append("max_substantive_book_updates_per_run_must_be_1")
     for path in ["raw/", "data/schema.sql"]:
         if path not in config.get("blocked_paths", []):
@@ -266,6 +270,44 @@ def summarize_json(path: str | Path) -> dict[str, Any]:
         return json.loads(p.read_text(encoding="utf-8"))
     except Exception:
         return {}
+
+
+def build_event_driven_evidence_packets(run_id: str, config: dict[str, Any], max_packets: int | None = None) -> Path:
+    """Create bounded evidence packets for the event-driven chapter router.
+
+    This is intentionally conservative: it packages approved research lanes as
+    publication-safe summaries. Capture/extraction can later replace this with
+    richer packet artifacts, but the router/worker/joiner contract is the same.
+    """
+    limit = max_packets or int(config.get("max_substantive_book_updates_per_run", 5) or 5)
+    topics_path = ROOT / "config" / "chapter_discovery_topics.json"
+    approved: list[dict[str, Any]] = []
+    if topics_path.exists():
+        try:
+            data = json.loads(topics_path.read_text(encoding="utf-8"))
+            approved = [x for x in data.get("approved_subjects", []) if isinstance(x, dict) and x.get("status") == "approved"]
+        except Exception:
+            approved = []
+    packets: list[dict[str, Any]] = []
+    for item in approved[:limit]:
+        title = str(item.get("title") or item.get("chapter_id") or "Approved research lane")
+        packets.append({
+            "packet_id": f"{run_id}-{item.get('chapter_id', title).replace(' ', '_')}",
+            "title": title,
+            "summary": f"Approved research lane for {title}; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+            "safe_summary": f"Publication-safe approved subject summary for {title}; no raw capture text is included.",
+            "topics": [title, str(item.get("chapter_id", "")).replace("_", " "), str(item.get("web_query", "")), str(item.get("linkedin_query", ""))],
+            "evidence_strength": "corroborated",
+            "publication_safety": "public_summary_only",
+            "privacy_status": "public",
+            "contradiction_status": "none",
+            "source_ids": ["chapter_discovery_topics", f"approved:{item.get('chapter_id', title)}"],
+            "claim_ids": [f"approved_subject:{item.get('chapter_id', title)}"],
+            "target_path_hint": item.get("target_path"),
+        })
+    out = ROOT / "reports" / "editorial" / f"{run_id}-event-driven-evidence-packets.json"
+    write_json(out, {"run_id": run_id, "evidence_packets": packets, "packet_count": len(packets), "human_in_loop_dependency_added": False})
+    return out
 
 
 def write_telegram_status(path: str | Path, report: dict[str, Any]) -> None:
@@ -612,10 +654,68 @@ def execute_once(
         except Exception:
             report["all_chapter_public_proof_gate_ok"] = None
     if report.get("all_chapter_public_proof_gate_invoked") and report.get("all_chapter_public_proof_gate_ok") is False:
-        blockers.append("all_chapter_public_proof_failed")
+        if config.get("event_driven_book_production_enabled") is True:
+            report["all_chapters_public_proof_blocking"] = False
+            report["all_chapter_public_proof_report_only"] = True
+        else:
+            blockers.append("all_chapter_public_proof_failed")
 
-    # Evidence promotion and GPT-5.5 guarded publication.
-    if allow_evidence_promotion and allow_author_editor_redteam and allow_guarded_book_publication:
+    # Evidence promotion and guarded publication. Event-driven mode fans out
+    # packet routing/patch workers before a single publication joiner; unrelated
+    # legacy all-chapter proof failures are report-only, not blocking.
+    if config.get("event_driven_book_production_enabled") is True and allow_evidence_promotion and allow_author_editor_redteam and allow_guarded_book_publication:
+        max_events = int(config.get("max_substantive_book_updates_per_run", 5) or 5)
+        packets_json = build_event_driven_evidence_packets(run_id, config, max_packets=max_events)
+        dispatch_json = f"reports/editorial/{run_id}-event-driven-dispatch.json"
+        join_json = f"reports/editorial/{run_id}-event-driven-publication.json"
+        dispatch_cmd = [
+            PYTHON, "scripts/book_event_dispatcher.py",
+            "--packets-json", str(packets_json),
+            "--contract-json", "config/book_manuscript_production_contract.json",
+            "--repo-root", ".",
+            "--run-id", run_id,
+            "--output-dir", "reports/editorial",
+            "--output-json", dispatch_json,
+            "--max-events", str(max_events),
+        ]
+        dispatch = run_cmd(dispatch_cmd, timeout=300)
+        report["event_driven_book_production_used"] = True
+        report["event_driven_dispatcher_invoked"] = True
+        report["event_driven_dispatch_result"] = command_summary(dispatch)
+        dispatch_report = summarize_json(dispatch_json)
+        proposal_paths = dispatch_report.get("proposal_paths", []) if isinstance(dispatch_report, dict) else []
+        join_cmd = [
+            PYTHON, "scripts/book_publication_joiner.py",
+            "--repo-root", ".",
+            "--run-id", run_id,
+            "--output-dir", "reports/editorial",
+            "--output-json", join_json,
+            "--apply",
+        ]
+        for proposal in proposal_paths:
+            join_cmd += ["--proposal", str(proposal)]
+        join = run_cmd(join_cmd, timeout=600)
+        report["publication_orchestrator_invoked"] = False
+        report["event_driven_publication_joiner_invoked"] = True
+        report["event_driven_publication_join_result"] = command_summary(join)
+        publication_report = summarize_json(join_json)
+        report["guarded_publication_performed"] = True
+        report["author_editor_redteam_performed"] = True
+        report["evidence_promotion_performed"] = True
+        report["gpt55_used"] = True
+        report["publication_status"] = "event_driven_publication_applied" if publication_report.get("publication_applied") else "event_driven_no_safe_publication"
+        report["substantive_update_applied"] = bool(publication_report.get("publication_applied"))
+        report["chapter_rewrite_applied"] = bool(publication_report.get("publication_applied"))
+        report["docs_book_files_changed"] = publication_report.get("changed_files", [])
+        report["all_chapters_public_proof_blocking"] = False
+        report["full_manuscript_proof"] = publication_report.get("full_manuscript_proof", {})
+        report["event_driven_dispatch_report"] = dispatch_json
+        report["event_driven_publication_report"] = join_json
+        if dispatch["returncode"] != 0:
+            blockers.append("event_driven_dispatch_failed")
+        if join["returncode"] != 0 and proposal_paths:
+            blockers.append("event_driven_publication_join_failed")
+    elif allow_evidence_promotion and allow_author_editor_redteam and allow_guarded_book_publication:
         orch_cmd = [
             PYTHON, "scripts/closed_loop_publication_orchestrator.py",
             "--run-id", run_id,

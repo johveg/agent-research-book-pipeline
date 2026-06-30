@@ -4,8 +4,8 @@
 
 - `scripts/llm_source_cards.py`: new source-card draft generator. Reads SQLite read-only, uses sanitized source text helper, writes reports only.
 - `tests/test_llm_source_cards.py`: tests no-LLM output, source-card schema, safety booleans, DB/status/book/protected-file immutability, wording limits, and fail-safe behavior.
-- `/tmp/pytest-of-root/pytest-628/test_source_cards_write_source0/test-source-cards-persist-0c91433856944718888380df68c3ac8f-source-card-drafts.md`: generated Markdown source-card report.
-- `/tmp/pytest-of-root/pytest-628/test_source_cards_write_source0/test-source-cards-persist-0c91433856944718888380df68c3ac8f-source-card-drafts.json`: generated JSON source-card report.
+- `/tmp/pytest-of-root/pytest-633/test_source_cards_write_source0/test-source-cards-persist-2a29dd0a87e24764893ec5ca76d6c131-source-card-drafts.md`: generated Markdown source-card report.
+- `/tmp/pytest-of-root/pytest-633/test_source_cards_write_source0/test-source-cards-persist-2a29dd0a87e24764893ec5ca76d6c131-source-card-drafts.json`: generated JSON source-card report.
 - `reports/architecture/run3-source-card-persistence-evidence-map-20260630.md`: Run 2 evidence map.
 
 ## Files intentionally not changed

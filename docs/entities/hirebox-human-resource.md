@@ -1,6 +1,6 @@
 # HireBox Human Resource
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `person`
 - Confidence: `high`

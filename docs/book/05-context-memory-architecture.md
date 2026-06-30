@@ -22,11 +22,11 @@ Generated Author output requires Editor approval before publication as narrative
 
 ## Changelog
 
-- 2026-06-30T08:49:06Z: conservative evidence-status regeneration for run context.
+- 2026-06-30T10:06:22Z: conservative evidence-status regeneration for run context.
 
 ## Editorial policy
 
-Last generated: 2026-06-30T08:49:06Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
+Last generated: 2026-06-30T10:06:22Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
 
 ## References
 

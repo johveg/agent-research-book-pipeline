@@ -1,17 +1,17 @@
 # Hermes Agent
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T08:49:05Z
-- Source count: 691
-- Mention count: 21282
+- Last seen: 2026-06-30T10:06:21Z
+- Source count: 693
+- Mention count: 21770
 
 ## Description
 
-Candidate concept entity extracted from 24 source(s).
+Candidate concept entity extracted from 20 source(s).
 
 ## Related claims
 

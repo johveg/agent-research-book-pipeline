@@ -1,17 +1,17 @@
 # Claude Code
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
-- Type: `person`
+- Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T08:49:05Z
-- Source count: 49
-- Mention count: 861
+- Last seen: 2026-06-30T10:06:21Z
+- Source count: 50
+- Mention count: 887
 
 ## Description
 
-Candidate person entity extracted from 2 source(s).
+Candidate tool entity extracted from 2 source(s).
 
 ## Related claims
 
@@ -76,15 +76,16 @@ Candidate person entity extracted from 2 source(s).
 - `src_504ad95bc4a40b24ad50` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
   - URL: https://github.com/Infisical/agent-vault
   - Archive: `web/production-daily-direct-20260621T120113Z/openclaw-hermes/02-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
+- `src_4fe8b3eb826834a1dd7f` — AI Loop Engineering: Build Autonomous Agents with Claude Code /goal + Routines
+  - URL: https://www.sabrina.dev/p/loop-engineering-claude-code-goal-routines
+  - Archive: `web/production-daily-direct-20260621T175610Z/loop-engineering-ai-agents/03-ai-loop-engineering-build-autonomous-agents-with-claude-code.md`
 - `src_04119334ec1ee2a928e1` — Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/130-372eae5f4dfdc174adda.md`
 - `src_7c6989eb5d3f90045a25` — /Goal: New command in Claude Code, Codex and Hermes agent, Full Guide for Non technical Folks
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/020-15dbbf88ac16af5e307b.md`
-- `src_4fe8b3eb826834a1dd7f` — AI Loop Engineering: Build Autonomous Agents with Claude Code /goal + Routines
-  - URL: https://www.sabrina.dev/p/loop-engineering-claude-code-goal-routines
-  - Archive: `web/production-daily-direct-20260621T175610Z/loop-engineering-ai-agents/03-ai-loop-engineering-build-autonomous-agents-with-claude-code.md`
 - `src_a3f4481df3cd59ffab82` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
   - URL: https://github.com/Infisical/agent-vault
   - Archive: `web/production-daily-direct-20260621T175610Z/openclaw-hermes/02-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
-- `src_dc90704dea68e5e4628e` — Quick update on the free Mimo tokens from Xiaomi's 100T token giveaway last month, which can be used with Claude Code, OpenClaw, OpenAI, Her
-  - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/111-b96e610ed47b04410d76.md`
+- `src_65eb71721120d9387037` — The Definitive Guide to Loop Engineering in Claude Code and Codex - Developers Digest
+  - URL: https://www.developersdigest.tech/blog/loop-engineering-definitive-guide
+  - Archive: `web/production-daily-20260622/loop-engineering-ai-agents/02-the-definitive-guide-to-loop-engineering-in-claude-code-and.md`

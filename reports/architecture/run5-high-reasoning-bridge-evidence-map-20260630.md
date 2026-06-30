@@ -4,8 +4,8 @@
 
 - `scripts/llm_source_cards.py`: new source-card draft generator. Reads SQLite read-only, uses sanitized source text helper, writes reports only.
 - `tests/test_llm_source_cards.py`: tests no-LLM output, source-card schema, safety booleans, DB/status/book/protected-file immutability, wording limits, and fail-safe behavior.
-- `/tmp/pytest-of-root/pytest-628/test_source_cards_high_reasoni0/test-source-cards-hr-source-card-drafts-high-reasoning.md`: generated Markdown source-card report.
-- `/tmp/pytest-of-root/pytest-628/test_source_cards_high_reasoni0/test-source-cards-hr-source-card-drafts-high-reasoning.json`: generated JSON source-card report.
+- `/tmp/pytest-of-root/pytest-633/test_source_cards_high_reasoni0/test-source-cards-hr-source-card-drafts-high-reasoning.md`: generated Markdown source-card report.
+- `/tmp/pytest-of-root/pytest-633/test_source_cards_high_reasoni0/test-source-cards-hr-source-card-drafts-high-reasoning.json`: generated JSON source-card report.
 - `reports/architecture/run5-high-reasoning-bridge-evidence-map-20260630.md`: Run 2 evidence map.
 
 ## Files intentionally not changed

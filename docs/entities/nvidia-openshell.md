@@ -1,17 +1,17 @@
 # NVIDIA OpenShell
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-15T13:28:52Z
-- Last seen: 2026-06-30T08:49:05Z
-- Source count: 8
-- Mention count: 157
+- Last seen: 2026-06-30T10:06:21Z
+- Source count: 9
+- Mention count: 171
 
 ## Description
 
-Candidate tool entity extracted from 4 source(s).
+Candidate tool entity extracted from 5 source(s).
 
 ## Related claims
 
@@ -43,3 +43,6 @@ No related claim records yet.
 - `src_98719861b36dc07b4e7b` — GitHub - NVIDIA/NemoClaw: Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference · GitHub
   - URL: https://github.com/NVIDIA/NemoClaw
   - Archive: `web/production-daily-20260630/openclaw-hermes/02-github-nvidia-nemoclaw-run-agents-like-hermes-and-openclaw-m.md`
+- `src_94fd5006ff85a1c4178a` — GitHub - NVIDIA/NemoClaw: Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference · GitHub
+  - URL: https://github.com/NVIDIA/NemoClaw
+  - Archive: `web/production-daily-20260630/openclaw-hermes/01-github-nvidia-nemoclaw-run-agents-like-hermes-and-openclaw-m.md`

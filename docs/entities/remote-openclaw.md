@@ -1,13 +1,13 @@
 # Remote OpenClaw
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T08:49:05Z
+- Last seen: 2026-06-30T10:06:21Z
 - Source count: 40
-- Mention count: 384
+- Mention count: 413
 
 ## Description
 
@@ -34,15 +34,15 @@ No related claim records yet.
 - `src_f97ce9faf20b6a964d0e` — How Much Does Hermes Agent Cost to Run in 2026? | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-cost-breakdown
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/06-how-much-does-hermes-agent-cost-to-run-in-2026-remote-opencl.md`
-- `src_d729ab2c1bf4743de63f` — How Much Does Hermes Agent Cost to Run in 2026? | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-cost-breakdown
-  - Archive: `web/manual-20260611T173313Z/hermes-openclaw/05-how-much-does-hermes-agent-cost-to-run-in-2026-remote-opencl.md`
 - `src_63566924b056114dbce4` — Best Cheap AI Models for Hermes Agent — Under $1/M Tokens | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-cheap-models-for-hermes
   - Archive: `web/production-daily-20260622/hermes-openclaw/03-best-cheap-ai-models-for-hermes-agent-under-1-m-tokens-remot.md`
 - `src_b04e333eec65b1cfc795` — Hermes Agent Telegram Bot Setup Guide - Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-telegram-setup
   - Archive: `web/production-daily-20260622/hermes-openclaw/02-hermes-agent-telegram-bot-setup-guide-remote-openclaw.md`
+- `src_d729ab2c1bf4743de63f` — How Much Does Hermes Agent Cost to Run in 2026? | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-cost-breakdown
+  - Archive: `web/manual-20260611T173313Z/hermes-openclaw/05-how-much-does-hermes-agent-cost-to-run-in-2026-remote-opencl.md`
 - `src_08a4cf91fb05c31b80fc` — Best Open-Source Models for Hermes Agent — Self-Hosted Setup | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-opensource-models-for-hermes
   - Archive: `web/production-daily-20260623/hermes-openclaw/03-best-open-source-models-for-hermes-agent-self-hosted-setup-r.md`

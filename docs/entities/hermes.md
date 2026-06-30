@@ -1,13 +1,13 @@
 # Hermes
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T08:49:05Z
-- Source count: 668
-- Mention count: 11521
+- Last seen: 2026-06-30T10:06:21Z
+- Source count: 670
+- Mention count: 11753
 
 ## Description
 
@@ -75,14 +75,14 @@ Candidate concept entity extracted from 20 source(s).
 - `src_b3a2887a17f3fe06974a` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
   - URL: https://github.com/Infisical/agent-vault
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
-- `src_047a901c529a7f4d19f3` — Hermes is worth a look if you're running something like OpenClaw. It learns as it goes, building skills from real tasks and getting better a
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-f2ed4d369534588cdb67.md`
 - `src_393cb2e931a4bec21890` — How to integrate Cursor with Hermes | Composio
   - URL: https://composio.dev/toolkits/cursor/framework/hermes-agent
   - Archive: `web/production-daily-manual-20260621T044136Z/openclaw-hermes/03-how-to-integrate-cursor-with-hermes-composio.md`
 - `src_9334fe0ec8ca0fba2a72` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
   - URL: https://github.com/nexu-io/open-design
   - Archive: `web/production-daily-manual-20260621T044136Z/openclaw-hermes/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
+- `src_047a901c529a7f4d19f3` — Hermes is worth a look if you're running something like OpenClaw. It learns as it goes, building skills from real tasks and getting better a
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-f2ed4d369534588cdb67.md`
 - `src_a36777623fea62c34df8` — People are not talking about the security issues with Hermes or OpenClaw. These security threats are real and are yet to fully be seen. The
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-d8dd2178fd827894223b.md`
 - `src_bd9f5b57513c68a6e52e` — AI 101:Hermes vs OpenClaw: Local AI Agents Compared

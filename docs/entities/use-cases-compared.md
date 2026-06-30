@@ -1,13 +1,13 @@
 # Use Cases Compared
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-28T03:30:23Z
-- Last seen: 2026-06-30T08:49:05Z
+- Last seen: 2026-06-30T10:06:21Z
 - Source count: 4
-- Mention count: 34
+- Mention count: 42
 
 ## Description
 

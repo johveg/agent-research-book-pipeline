@@ -1,17 +1,17 @@
 # Opinionated OpenClaw
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `high`
 - First seen: 2026-06-16T01:14:05Z
-- Last seen: 2026-06-30T08:49:05Z
+- Last seen: 2026-06-30T10:04:24Z
 - Source count: 5
-- Mention count: 151
+- Mention count: 156
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 5 source(s).
 
 ## Related claims
 

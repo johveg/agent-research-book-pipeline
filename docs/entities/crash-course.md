@@ -1,13 +1,13 @@
 # Crash Course
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-24T03:30:11Z
-- Last seen: 2026-06-30T08:49:05Z
+- Last seen: 2026-06-30T10:06:21Z
 - Source count: 5
-- Mention count: 40
+- Mention count: 48
 
 ## Description
 

@@ -1,13 +1,13 @@
 # Boris Cherny
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T08:49:05Z
+- Last seen: 2026-06-30T10:06:21Z
 - Source count: 18
-- Mention count: 162
+- Mention count: 174
 
 ## Description
 
@@ -55,12 +55,12 @@ Candidate concept entity extracted from 5 source(s).
 - `src_e423c318ab637b722530` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
   - URL: https://github.com/cobusgreyling/loop-engineering
   - Archive: `web/production-daily-20260630/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
-- `src_8897ca8d35c6bf69de6d` — "I do not prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops." That line is from Boris Cherny, head of
-  - URL: https://www.linkedin.com/in/bcherny/
-  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/122-fe678d8667a2ddece8f0.md`
 - `src_9a427161a7b2a23fa580` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
   - URL: https://github.com/cobusgreyling/loop-engineering
   - Archive: `web/production-daily-20260630/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
+- `src_8897ca8d35c6bf69de6d` — "I do not prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops." That line is from Boris Cherny, head of
+  - URL: https://www.linkedin.com/in/bcherny/
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/122-fe678d8667a2ddece8f0.md`
 - `src_2af6678feec1dc830ffa` — Boris Cherny (creator of Claude Code) said it best: "I don't prompt Claude anymore. I have loops running that prompt Claude... My job is to
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-da8f9cac9fb8cc885021.md`
 - `src_a17f316ca896d7027321` — "I don't prompt Claude anymore. I write loops." That one line from Boris Cherny — the Anthropic engineer who built Claude Code — stopped the

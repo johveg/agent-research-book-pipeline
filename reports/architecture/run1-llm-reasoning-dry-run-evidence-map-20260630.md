@@ -4,8 +4,8 @@
 
 - `scripts/llm_reasoning_dry_run.py`: new dry-run advisory report generator; reads SQLite in read-only mode and writes Markdown/JSON reports only.
 - `tests/test_llm_reasoning_dry_run.py`: tests no-LLM execution, report outputs, safety booleans, and no docs/book or DB writes.
-- `/tmp/pytest-of-root/pytest-628/test_llm_reasoning_dry_run_doe0/test-llm-dry-run-safety-llm-reasoning-dry-run.md`: generated advisory Markdown report.
-- `/tmp/pytest-of-root/pytest-628/test_llm_reasoning_dry_run_doe0/test-llm-dry-run-safety-llm-reasoning-dry-run.json`: generated advisory JSON report.
+- `/tmp/pytest-of-root/pytest-633/test_llm_reasoning_dry_run_doe0/test-llm-dry-run-safety-llm-reasoning-dry-run.md`: generated advisory Markdown report.
+- `/tmp/pytest-of-root/pytest-633/test_llm_reasoning_dry_run_doe0/test-llm-dry-run-safety-llm-reasoning-dry-run.json`: generated advisory JSON report.
 - `reports/architecture/run1-llm-reasoning-dry-run-evidence-map-20260630.md`: implementation/evidence map for Run 1 evaluation.
 
 ## Files intentionally not changed
@@ -29,7 +29,7 @@ Record final command results after verification. The dry-run invocation that pro
 
 - Source sample size: 2
 - Claim sample size: 2
-- Entity count inspected: 4327
+- Entity count inspected: 4334
 - LLM used: False
 - Confidence level: `low_draft_structural`
 - Useful advisory reasoning produced: yes, as deterministic structural/draft analysis in no-LLM mode; high-reasoning LLM output should be evaluated separately if configured.

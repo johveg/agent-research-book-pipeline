@@ -1,30 +1,30 @@
 # Entities
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 Entities are conservative candidates extracted from collected source metadata and archived text. They require human review before being treated as canonical.
 
 | Entity | Type | Confidence | Source count |
 |---|---:|---:|---:|
-| [Hermes Agent](hermes-agent.md) | concept | high | 691 |
-| [loop engineering](loop-engineering.md) | concept | high | 689 |
-| [Hermes](hermes.md) | concept | high | 668 |
-| [OpenClaw](openclaw.md) | concept | high | 641 |
-| [Nous Research](nous-research.md) | tool | high | 113 |
-| [GitHub](github.md) | concept | high | 101 |
-| [AI agents](ai-agents.md) | concept | high | 98 |
-| [Claude Code](claude-code.md) | person | medium | 49 |
+| [Hermes Agent](hermes-agent.md) | concept | high | 693 |
+| [Loop Engineering](loop-engineering.md) | concept | high | 692 |
+| [Hermes](hermes.md) | concept | high | 670 |
+| [OpenClaw](openclaw.md) | concept | high | 643 |
+| [Nous Research](nous-research.md) | tool | high | 115 |
+| [GitHub](github.md) | tool | high | 103 |
+| [AI agents](ai-agents.md) | concept | high | 100 |
+| [Claude Code](claude-code.md) | tool | medium | 50 |
 | [Remote OpenClaw](remote-openclaw.md) | concept | high | 40 |
 | [Claude](claude.md) | concept | high | 32 |
 | [Agentic AI](agentic-ai.md) | concept | high | 27 |
-| [Hermes Atlas](hermes-atlas.md) | tool | high | 23 |
+| [Hermes Atlas](hermes-atlas.md) | tool | high | 24 |
 | [AI Agent](ai-agent.md) | tool | high | 21 |
+| [Hermes Agent Core](hermes-agent-core.md) | tool | high | 19 |
 | [SEO](seo.md) | tool | high | 19 |
 | [TheNextGenTechInsider.com](thenextgentechinsider-com.md) | tool | low | 19 |
-| [Hermes Agent Core](hermes-agent-core.md) | tool | high | 18 |
 | [Boris Cherny](boris-cherny.md) | concept | high | 18 |
 | [MCP](mcp.md) | tool | high | 17 |
-| [NVIDIA](nvidia.md) | tool | high | 16 |
+| [NVIDIA](nvidia.md) | tool | high | 17 |
 | [Anthropic](anthropic.md) | unknown | low | 16 |
 | [Python](python.md) | tool | medium | 15 |
 | [Google](google.md) | tool | medium | 14 |
@@ -33,12 +33,12 @@ Entities are conservative candidates extracted from collected source metadata an
 | [Outpost](outpost.md) | unknown | high | 10 |
 | [OpenAI](openai.md) | tool | medium | 10 |
 | [Addy Osmani](addy-osmani.md) | concept | high | 10 |
+| [NVIDIA OpenShell](nvidia-openshell.md) | tool | high | 9 |
+| [Run agents](run-agents.md) | tool | high | 9 |
 | [AI SEO Prompts](ai-seo-prompts.md) | tool | low | 9 |
 | [Help Websites Get More Leads](help-websites-get-more-leads.md) | tool | low | 9 |
 | [Julian Goldie](julian-goldie.md) | tool | low | 9 |
 | [Data Science](data-science.md) | tool | high | 8 |
-| [NVIDIA OpenShell](nvidia-openshell.md) | tool | high | 8 |
-| [Run agents](run-agents.md) | tool | high | 8 |
 | [LLM](llm.md) | tool | low | 8 |
 | [GTM](gtm.md) | tool | medium | 8 |
 | [CLI](cli.md) | concept | high | 8 |
@@ -46,12 +46,12 @@ Entities are conservative candidates extracted from collected source metadata an
 | [with AI coding agents](with-ai-coding-agents.md) | concept | high | 8 |
 | [Local AI Agents](local-ai-agents.md) | tool | high | 7 |
 | [Local AI Agents Compared](local-ai-agents-compared.md) | tool | high | 7 |
-| [PMP](pmp.md) | tool | low | 7 |
 | [OpenClaw vs Hermes Agent](openclaw-vs-hermes-agent.md) | tool | high | 7 |
+| [PMP](pmp.md) | tool | low | 7 |
 | [Autonomous Agents](autonomous-agents.md) | tool | high | 7 |
 | [Most AI](most-ai.md) | concept | medium | 7 |
-| [AI Employees Platform](ai-employees-platform.md) | person | medium | 6 |
 | [AI Enthusiast](ai-enthusiast.md) | tool | high | 6 |
+| [AI Employees Platform](ai-employees-platform.md) | person | medium | 6 |
 | [Krishna Kumar](krishna-kumar.md) | person | medium | 6 |
 | [Hermes AI](hermes-ai.md) | tool | medium | 6 |
 | [Gurudath Sadanandan](gurudath-sadanandan.md) | company | low | 6 |
@@ -61,9 +61,9 @@ Entities are conservative candidates extracted from collected source metadata an
 | [Best Hermes Agent Model](best-hermes-agent-model.md) | concept | high | 6 |
 | [Hermes agents](hermes-agents.md) | tool | low | 6 |
 | [SQL](sql.md) | tool | low | 6 |
-| [Hermes Agent Brain](hermes-agent-brain.md) | tool | low | 5 |
-| [Opinionated OpenClaw](opinionated-openclaw.md) | tool | low | 5 |
-| [Gemini CLI](gemini-cli.md) | tool | medium | 5 |
+| [Hermes Agent Brain](hermes-agent-brain.md) | tool | high | 5 |
+| [Opinionated OpenClaw](opinionated-openclaw.md) | tool | high | 5 |
+| [Gemini CLI](gemini-cli.md) | tool | low | 5 |
 | [AI Coding Agents](ai-coding-agents.md) | framework | high | 5 |
 | [AI-assisted](ai-assisted.md) | tool | low | 5 |
 | [Chief AI Officer](chief-ai-officer.md) | tool | medium | 5 |
@@ -72,10 +72,10 @@ Entities are conservative candidates extracted from collected source metadata an
 | [Autonomous AI Agents](autonomous-ai-agents.md) | tool | low | 5 |
 | [FDE](fde.md) | tool | medium | 5 |
 | [AI Strategy](ai-strategy.md) | tool | low | 5 |
-| [Spring Boot](spring-boot.md) | concept | low | 5 |
-| [LangGraph](langgraph.md) | tool | medium | 5 |
-| [Hermes AI agent](hermes-ai-agent.md) | tool | low | 5 |
 | [Crash Course](crash-course.md) | tool | high | 5 |
+| [Spring Boot](spring-boot.md) | concept | low | 5 |
+| [Hermes AI agent](hermes-ai-agent.md) | tool | low | 5 |
+| [LangGraph](langgraph.md) | tool | medium | 5 |
 | [Stop Prompting AI. Start Designing](stop-prompting-ai-start-designing.md) | company | high | 5 |
 | [SIA](sia.md) | concept | high | 5 |
 | [Build Autonomous Agents](build-autonomous-agents.md) | tool | high | 4 |
@@ -88,11 +88,11 @@ Entities are conservative candidates extracted from collected source metadata an
 | [Hermes Agent Telegram Bot Setup](hermes-agent-telegram-bot-setup.md) | tool | low | 4 |
 | [Deep Learning](deep-learning.md) | company | low | 4 |
 | [Next.js](next-js.md) | tool | low | 4 |
-| [Chief Executive Officer](chief-executive-officer.md) | company | high | 4 |
-| [Prompting AI coding agents](prompting-ai-coding-agents.md) | tool | low | 4 |
 | [Desktop Native Cho AI Agent](desktop-native-cho-ai-agent.md) | tool | medium | 4 |
 | [Hermes Desktop](hermes-desktop.md) | tool | medium | 4 |
 | [Native Cho AI Agent](native-cho-ai-agent.md) | tool | medium | 4 |
+| [Chief Executive Officer](chief-executive-officer.md) | company | high | 4 |
+| [Prompting AI coding agents](prompting-ai-coding-agents.md) | tool | low | 4 |
 | [AI Digital Marketing Automation Architect](ai-digital-marketing-automation-architect.md) | tool | medium | 4 |
 | [Roshan Kumar](roshan-kumar.md) | tool | medium | 4 |
 | [build AI agent](build-ai-agent.md) | tool | medium | 4 |
@@ -102,8 +102,8 @@ Entities are conservative candidates extracted from collected source metadata an
 | [CIO](cio.md) | tool | low | 4 |
 | [trained my Hermes Agent](trained-my-hermes-agent.md) | tool | high | 4 |
 | [how an AI Agent](how-an-ai-agent.md) | tool | low | 4 |
-| [Ex-Deloitte](ex-deloitte.md) | tool | low | 4 |
 | [Use Cases Compared](use-cases-compared.md) | tool | high | 4 |
+| [Ex-Deloitte](ex-deloitte.md) | tool | low | 4 |
 | [single workflow](single-workflow.md) | tool | medium | 4 |
 | [Agent Harnesses](agent-harnesses.md) | tool | low | 4 |
 | [Max Petrusenko](max-petrusenko.md) | tool | low | 4 |

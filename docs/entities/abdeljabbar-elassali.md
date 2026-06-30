@@ -1,13 +1,13 @@
 # Abdeljabbar Elassali
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `person`
 - Confidence: `high`
 - First seen: 2026-06-15T13:28:52Z
-- Last seen: 2026-06-30T05:15:20Z
+- Last seen: 2026-06-30T10:04:24Z
 - Source count: 3
-- Mention count: 134
+- Mention count: 137
 
 ## Description
 

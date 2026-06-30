@@ -1,13 +1,13 @@
 # Includes loop
 
-Last generated: 2026-06-30T08:49:06Z
+Last generated: 2026-06-30T10:06:21Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-15T01:26:41Z
-- Last seen: 2026-06-30T08:49:05Z
+- Last seen: 2026-06-30T10:06:21Z
 - Source count: 8
-- Mention count: 50
+- Mention count: 62
 
 ## Description
 

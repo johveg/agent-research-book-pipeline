@@ -36,12 +36,12 @@ nav:
       - Preface: book/preface.md
       - Introduction: book/introduction.md
       - Methodology: book/methodology.md
-      - 1. The Agent Loop: book/01-the-agent-loop.md
-      - 2. Hermes: book/02-hermes.md
-      - 3. OpenClaw: book/03-openclaw.md
-      - 4. Loop Engineering: book/04-loop-engineering.md
-      - 5. Context and Memory Architecture: book/05-context-memory-architecture.md
-      - 6. Operating Loops in Production: book/06-operating-loops.md
+      - The Agent Loop: book/01-the-agent-loop.md
+      - Hermes: book/02-hermes.md
+      - OpenClaw: book/03-openclaw.md
+      - Loop Engineering: book/04-loop-engineering.md
+      - Context and Memory Architecture: book/05-context-memory-architecture.md
+      - Operating Loops in Production: book/06-operating-loops.md
       - Open Questions: book/open-questions.md
   - Research Lanes:
       - Citation Pipeline: book/citation-pipeline.md

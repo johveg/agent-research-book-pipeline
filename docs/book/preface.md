@@ -12,10 +12,6 @@ The remaining material should be treated as a research signal rather than a sett
 
 One cautious reading is that The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources. [1] [8]
 
-## Evidence limits
-
-This page was last refreshed on 2026-06-30T11:26:49Z. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.
-
 ## References
 
 [1] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent, quality A.

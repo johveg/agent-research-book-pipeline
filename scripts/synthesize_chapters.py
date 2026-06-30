@@ -157,16 +157,11 @@ def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: i
                 lines.append(f"One cautious reading is that {claim}.{suffix}")
                 lines.append("")
     else:
-        lines.append("This section remains a research lane rather than a mature chapter. The current source base does not yet support a stronger public claim, so the page should frame open questions and evidence limits instead of presenting unsupported conclusions.")
+        lines.append("This section remains a research lane rather than a mature chapter. The current source base does not yet support a stronger public claim, so the page should frame open questions and avoid unsupported conclusions.")
         lines.append("")
         if candidate_count:
             lines.append("Future revisions should look for stronger primary sources, concrete examples, and corroboration before promoting this material into a fuller argument.")
             lines.append("")
-    lines += [
-        "## Evidence limits",
-        "",
-        f"This page was last refreshed on {now}. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.",
-    ]
     path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 

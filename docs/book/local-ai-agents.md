@@ -9,9 +9,3 @@ The evidence limits are explicit. A search lane, a social mention, or a cluster 
 The chapter will therefore mature in stages. First, the subject appears as a seed chapter so the book shows that the approved research lane exists. Next, daily harvests accumulate candidate evidence and source-quality signals. Finally, the guarded authoring path rewrites this page into a fuller academic and professional chapter when enough support exists for definitions, examples, limitations, and practical implications. [1] [3]
 
 ## Research lane
-
-The active web query for this chapter is `"local ai agents" AI agents`. The active LinkedIn query is `"local ai agents"`. These are collection instructions for the daily loop, not reader-facing proof of any claim; LinkedIn/social material is handled only as weak discovery signal until stronger corroborating sources support a revision.
-
-## Evidence limits
-
-This seed does not claim that the subject is settled, universal, or fully evidenced. It claims only that the subject has been approved for ongoing collection and manuscript development, and that future additions must preserve cautious language, integrated citations, and clear limitations.

@@ -6,10 +6,6 @@ The available sources support a cautious version of this point: Hermes Agent is 
 
 The available sources support a cautious version of this point: The captured Hermes documentation includes concrete guides, which makes official docs and repository material safer citation authority than social summaries. [4] [3]
 
-## Evidence limits
-
-This page was last refreshed on 2026-06-30T11:26:49Z. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.
-
 ## References
 
 [1] “hermes-agent — Hermes Agent Core & Official | Hermes Atlas”, hermesatlas.com, 2026-06-11T17:33:13Z, https://hermesatlas.com/projects/NousResearch/hermes-agent, quality A.

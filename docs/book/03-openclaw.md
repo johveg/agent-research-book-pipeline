@@ -8,10 +8,6 @@ The remaining material should be treated as a research signal rather than a sett
 
 One cautious reading is that The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption. [1]
 
-## Evidence limits
-
-This page was last refreshed on 2026-06-30T11:26:49Z. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.
-
 ## References
 
 [1] “GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞”, github.com, 2026-06-11T17:33:21Z, https://github.com/openclaw/openclaw, quality A.

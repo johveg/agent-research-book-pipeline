@@ -56,6 +56,8 @@ def build_creation_patch(event: dict[str, Any], *, repo_root: str | Path, output
         "evidence_refs": packet.get("source_ids", []) or [packet.get("packet_id", "evidence_packet")],
         "human_in_loop_dependency_added": False,
         "raw_text_publication_allowed": False,
+        "publication_stage": "research_lane_seed",
+        "public_nav_allowed": False,
         "created_at_utc": utc_now(),
     }
     out = Path(output_dir) / f"{event.get('event_id') or event.get('chapter_id')}-patch.json"

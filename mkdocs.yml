@@ -4,6 +4,15 @@ site_url: https://johveg.github.io/agent-research-book-pipeline/
 repo_url: https://github.com/johveg/agent-research-book-pipeline
 repo_name: johveg/agent-research-book-pipeline
 edit_uri: edit/main/docs/
+exclude_docs: |
+  chapter-briefs/**
+  entities/**
+  operations/**
+  research/**
+  reports/**
+  book/agent-runtime-security.md
+  book/autonomous-research-pipeline.md
+  book/browser-agents.md
 theme:
   name: material
   features:
@@ -33,9 +42,8 @@ nav:
       - 4. Loop Engineering: book/04-loop-engineering.md
       - 5. Context and Memory Architecture: book/05-context-memory-architecture.md
       - 6. Operating Loops in Production: book/06-operating-loops.md
-      - Agent Runtime Security: book/agent-runtime-security.md
-      - Autonomous Research Pipeline: book/autonomous-research-pipeline.md
-      - Browser Agents: book/browser-agents.md
+      - Open Questions: book/open-questions.md
+  - Research Lanes:
       - Citation Pipeline: book/citation-pipeline.md
       - Coding Agents: book/coding-agents.md
       - Computer-Use Agents: book/computer-use-agents.md
@@ -50,58 +58,3 @@ nav:
       - Red Team Review: book/red-team-review.md
       - Self-Improving Agents: book/self-improving-agents.md
       - Source Registry: book/source-registry.md
-      - Open Questions: book/open-questions.md
-  - Chapter Briefs:
-      - Index: chapter-briefs/index.md
-      - Preface: chapter-briefs/preface.md
-      - 1. The Agent Loop: chapter-briefs/01-the-agent-loop.md
-      - 2. Hermes: chapter-briefs/02-hermes.md
-      - 3. OpenClaw: chapter-briefs/03-openclaw.md
-      - 4. Loop Engineering: chapter-briefs/04-loop-engineering.md
-      - 5. Context and Memory Architecture: chapter-briefs/05-context-memory-architecture.md
-      - 6. Operating Loops in Production: chapter-briefs/06-operating-loops.md
-      - Open Questions: chapter-briefs/open-questions.md
-  - Entities:
-      - Index: entities/index.md
-      - Companies: entities/companies.md
-      - People: entities/people.md
-      - Projects: entities/projects.md
-      - Concepts: entities/concepts.md
-  - Research:
-      - Sources: research/sources.md
-      - Claims: research/claims.md
-      - Trend Discovery: research/trend-discovery.md
-      - Daily Reports: reports/index.md
-      - Weekly Reports: reports/weekly.md
-  - Operations:
-      - Runbook: operations/runbook.md
-      - Roles: operations/roles.md
-      - Instructions:
-          - Master Editorial System: operations/instructions/master-editorial-system.md
-          - Book Role: operations/instructions/book-role.md
-          - Author Role: operations/instructions/author-role.md
-          - Editor Role: operations/instructions/editor-role.md
-          - Curator Function: operations/instructions/curator-function.md
-          - Content Pipeline: operations/instructions/content-pipeline.md
-          - Claim Status: operations/instructions/claim-status.md
-          - Chapter Briefs: operations/instructions/chapter-briefs.md
-          - Author Style Sheet: operations/instructions/author-style-sheet.md
-          - Source Quality: operations/instructions/source-quality.md
-          - Weekly Curation: operations/instructions/weekly-curation.md
-          - Acceptance Criteria: operations/instructions/acceptance-criteria.md
-          - Do Not Publish: operations/instructions/do-not-publish.md
-      - Book Role Instruction: operations/book-role-instruction.md
-      - Author Role Instruction: operations/author-role-instruction.md
-      - Author Style Sheet: operations/author-style-sheet.md
-      - Editor Role Instruction: operations/editor-role-instruction.md
-      - Curator Function Instruction: operations/curator-function-instruction.md
-      - Role Acceptance Criteria: operations/role-acceptance-criteria.md
-      - Do-Not-Publish Instruction: operations/do-not-publish-instruction.md
-      - Editorial Content Pipeline: operations/editorial-content-pipeline.md
-      - Source Quality Instruction: operations/source-quality-instruction.md
-      - Weekly Curation Instruction: operations/weekly-curation-instruction.md
-      - Claim Status Instruction: operations/claim-status-instruction.md
-      - Chapter Brief Instruction: operations/chapter-brief-instruction.md
-      - Master Editorial System: operations/master-editorial-system.md
-      - Data Model: operations/data-model.md
-      - Cron: operations/cron.md

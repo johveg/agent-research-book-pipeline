@@ -2,26 +2,10 @@
 
 This page records unresolved questions and weak signals that need more evidence.
 
-## Current evidence status
+This section remains a research lane rather than a mature chapter. The current source base does not yet support a stronger public claim, so the page should frame open questions and evidence limits instead of presenting unsupported conclusions.
 
-No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.
+Future revisions should look for stronger primary sources, concrete examples, and corroboration before promoting this material into a fuller argument.
 
-Claims matching this chapter but not usable in prose: 4.
+## Evidence limits
 
-## Source/claim mapping
-
-Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.
-
-- No factual bullets were published for this chapter update.
-
-## Editor notes
-
-Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.
-
-## Changelog
-
-- 2026-06-30T10:06:22Z: conservative evidence-status regeneration for run context.
-
-## Editorial policy
-
-Last generated: 2026-06-30T10:06:22Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
+This page was last refreshed on 2026-06-30T11:26:49Z. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.

@@ -47,7 +47,7 @@ def test_approved_research_lanes_are_promoted_to_visible_seed_chapters_and_nav(t
     chapter = docs_book / "agent-runtime-security.md"
     assert report["ok"] is True
     assert report["seed_chapter_count"] == 1
-    assert report["nav_added_count"] == 1
+    assert report["nav_added_count"] == 0
     assert report["seed_chapters"][0]["chapter_state"] == "chapter_seed_created"
     text = chapter.read_text(encoding="utf-8")
     assert "# Agent Runtime Security" in text
@@ -57,6 +57,31 @@ def test_approved_research_lanes_are_promoted_to_visible_seed_chapters_and_nav(t
     assert "Current evidence status" not in text
     assert "Source/claim mapping" not in text
     assert "claim record" not in text
+    assert "- Agent Runtime Security: book/agent-runtime-security.md" not in mkdocs.read_text(encoding="utf-8")
+
+
+def test_matured_chapter_can_be_added_to_public_nav(tmp_path):
+    queue_path = tmp_path / "config" / "book_manuscript_queue.json"
+    queue_path.parent.mkdir(parents=True)
+    _write_queue(queue_path)
+    data = json.loads(queue_path.read_text(encoding="utf-8"))
+    data["queue"][0]["status"] = "chapter_matured"
+    queue_path.write_text(json.dumps(data), encoding="utf-8")
+    docs_book = tmp_path / "docs" / "book"
+    docs_book.mkdir(parents=True)
+    (docs_book / "agent-runtime-security.md").write_text("# Agent Runtime Security\n\nMature book prose with evidence limits and references. [1]\n\n## References\n\n[1] Existing.\n", encoding="utf-8")
+    mkdocs = tmp_path / "mkdocs.yml"
+    mkdocs.write_text("site_name: Test\nnav:\n  - Home: index.md\n  - Book:\n      - Introduction: book/introduction.md\n      - Open Questions: book/open-questions.md\n", encoding="utf-8")
+
+    report = worker.ensure_visible_approved_seed_chapters(
+        queue_path=queue_path,
+        docs_root=docs_book,
+        mkdocs_path=mkdocs,
+        max_new_chapters=1,
+    )
+
+    assert report["ok"] is True
+    assert report["nav_added_count"] == 1
     assert "- Agent Runtime Security: book/agent-runtime-security.md" in mkdocs.read_text(encoding="utf-8")
 
 

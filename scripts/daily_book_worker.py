@@ -213,8 +213,15 @@ def mkdocs_book_nav_line(title: str, target_path: str) -> str:
     return f"      - {title}: {rel}"
 
 
-def ensure_book_nav_entry(mkdocs_path: Path, title: str, target_path: str) -> bool:
-    if not mkdocs_path.exists():
+def ensure_book_nav_entry(mkdocs_path: Path, title: str, target_path: str, *, public_nav_allowed: bool = False) -> bool:
+    """Add a chapter to public nav only after it is explicitly approved for readers.
+
+    Approved research lanes may create local seed files, but they should not be
+    promoted into the published Book nav until they have matured into real
+    narrative chapters. This keeps the public site from drifting back into a
+    mixture of manuscript and internal research apparatus.
+    """
+    if not public_nav_allowed or not mkdocs_path.exists():
         return False
     text = mkdocs_path.read_text(encoding="utf-8")
     rel = target_path[len("docs/"):] if target_path.startswith("docs/") else target_path
@@ -227,11 +234,6 @@ def ensure_book_nav_entry(mkdocs_path: Path, title: str, target_path: str) -> bo
         if "Open Questions: book/open-questions.md" in existing:
             insert_at = i
             break
-    if insert_at is None:
-        for i, existing in enumerate(lines):
-            if existing.startswith("  - Chapter Briefs:") or existing.startswith("  - Entities:"):
-                insert_at = i
-                break
     if insert_at is None:
         insert_at = len(lines)
     lines.insert(insert_at, line)
@@ -261,7 +263,8 @@ def ensure_visible_approved_seed_chapters(*, queue_path: Path, docs_root: Path, 
                 "chapter_state": "chapter_seed_created",
             })
             visible.append(target_path)
-        if target.exists() and ensure_book_nav_entry(mkdocs_path, title, target_path):
+        public_nav_allowed = item.get("status") == "chapter_matured" or bool(item.get("public_nav_allowed"))
+        if target.exists() and ensure_book_nav_entry(mkdocs_path, title, target_path, public_nav_allowed=public_nav_allowed):
             nav_added.append(target_path)
         update_queue_item_state(queue_path, item, "chapter_seed_created" if any(s["target_path"] == target_path for s in seed_chapters) else "chapter_seed_visible")
     return {

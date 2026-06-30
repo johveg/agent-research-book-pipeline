@@ -42,8 +42,8 @@ def safe_target(repo: Path, target_path: str) -> Path | None:
     return target
 
 
-def ensure_nav_entry(mkdocs_path: Path, nav_entry: dict[str, str]) -> bool:
-    if not mkdocs_path.exists() or not nav_entry:
+def ensure_nav_entry(mkdocs_path: Path, nav_entry: dict[str, str], *, public_nav_allowed: bool = False) -> bool:
+    if not public_nav_allowed or not mkdocs_path.exists() or not nav_entry:
         return False
     text = mkdocs_path.read_text(encoding="utf-8")
     line = f"      - {nav_entry['title']}: {nav_entry['path']}"
@@ -126,7 +126,8 @@ def apply_patch_proposals(proposal_paths: list[str | Path], *, repo_root: str | 
                 continue
             target.write_text(desired, encoding="utf-8")
             if proposal.get("operation") == "create_chapter":
-                ensure_nav_entry(repo / "mkdocs.yml", proposal.get("nav_entry") or {})
+                public_nav_allowed = proposal.get("publication_stage") == "chapter_matured" or bool(proposal.get("public_nav_allowed"))
+                ensure_nav_entry(repo / "mkdocs.yml", proposal.get("nav_entry") or {}, public_nav_allowed=public_nav_allowed)
             after = target.read_bytes()
             if before != after:
                 changed.append(target_path)

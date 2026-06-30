@@ -2,31 +2,15 @@
 
 This chapter tracks public signals around OpenClaw and adjacent agentic coding/operator systems.
 
-## Current evidence status
+The available sources support a cautious version of this point: OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms. [1] [2]
 
-The following points are synthesized only from claim records whose status allows Author use:
+The remaining material should be treated as a research signal rather than a settled conclusion. It can guide future revision, but it should not be used to claim broad adoption, maturity, or consensus without stronger corroboration.
 
-- OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms. [1] [2] (status `supported`, moderate evidence)
-- Current evidence suggests: The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption. [1] (status `weakly_supported`, weak evidence)
+One cautious reading is that The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption. [1]
 
-## Source/claim mapping
+## Evidence limits
 
-Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.
-
-- Bullet 1 maps to supported claim: “OpenClaw is represented in the existing source registry by its public GitHub repository, whose captured title describes it as a personal AI assistant for multiple operating systems and platforms.”; source tokens: [1] [2].
-- Bullet 2 maps to caveated weak claim: “The current OpenClaw material is sufficient for cautious repository identification, but not enough for strong comparison claims or claims about adoption.”; source tokens: [1].
-
-## Editor notes
-
-Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.
-
-## Changelog
-
-- 2026-06-30T10:06:22Z: conservative evidence-status regeneration for run context.
-
-## Editorial policy
-
-Last generated: 2026-06-30T10:06:22Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
+This page was last refreshed on 2026-06-30T11:26:49Z. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.
 
 ## References
 

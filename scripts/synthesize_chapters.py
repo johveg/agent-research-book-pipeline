@@ -129,50 +129,45 @@ def citation_tokens(source_ids: str | None, limit: int = 5) -> str:
 
 
 def write_chapter(path: Path, title: str, intro: str, claims, candidate_count: int, now: str) -> None:
-    lines = [f"# {title}", "", intro, "", "## Current evidence status", ""]
-    mapped=[]
+    """Write reader-facing narrative prose, not an internal evidence ledger.
+
+    Earlier versions of this script exposed claim-status packets directly in
+    public chapters. The public manuscript now keeps traceability in the
+    research apparatus and converts usable claims into cautious prose.
+    """
+    lines = [f"# {title}", "", intro.strip(), ""]
     if claims:
-        lines.append("The following points are synthesized only from claim records whose status allows Author use:")
-        lines.append("")
-        for idx, c in enumerate(claims, start=1):
-            caveat = "Current evidence suggests: " if c["status"] == "weakly_supported" else ""
+        supported = [c for c in claims if c["status"] in {"supported", "promoted_to_chapter"}]
+        weak = [c for c in claims if c["status"] == "weakly_supported"]
+        for c in supported[:4]:
             cites = citation_tokens(c["source_ids"])
-            if not cites:
-                cites = "[unresolved citation]"
-            lines.append(f"- {caveat}{c['claim_text']} {cites} (status `{c['status']}`, {c['evidence_strength'] or 'weak'} evidence)")
-            mapped.append((idx, c, cites))
+            claim = str(c["claim_text"]).strip().rstrip(".")
+            if cites:
+                lines.append(f"The available sources support a cautious version of this point: {claim}. {cites}")
+            else:
+                lines.append(f"The available sources support a cautious version of this point: {claim}.")
+            lines.append("")
+        if weak:
+            lines.append("The remaining material should be treated as a research signal rather than a settled conclusion. It can guide future revision, but it should not be used to claim broad adoption, maturity, or consensus without stronger corroboration.")
+            lines.append("")
+            for c in weak[:2]:
+                cites = citation_tokens(c["source_ids"])
+                claim = str(c["claim_text"]).strip().rstrip(".")
+                suffix = f" {cites}" if cites else ""
+                lines.append(f"One cautious reading is that {claim}.{suffix}")
+                lines.append("")
     else:
-        lines.append("No publishable chapter update is recommended for this section because the current evidence base does not contain enough approved claims.")
+        lines.append("This section remains a research lane rather than a mature chapter. The current source base does not yet support a stronger public claim, so the page should frame open questions and evidence limits instead of presenting unsupported conclusions.")
         lines.append("")
-        lines.append(f"Claims matching this chapter but not usable in prose: {candidate_count}.")
+        if candidate_count:
+            lines.append("Future revisions should look for stronger primary sources, concrete examples, and corroboration before promoting this material into a fuller argument.")
+            lines.append("")
     lines += [
+        "## Evidence limits",
         "",
-        "## Source/claim mapping",
-        "",
-        "Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.",
-        "",
+        f"This page was last refreshed on {now}. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.",
     ]
-    if mapped:
-        for idx, c, cites in mapped:
-            claim_kind = "caveated weak claim" if c["status"] == "weakly_supported" else "supported claim"
-            lines.append(f"- Bullet {idx} maps to {claim_kind}: “{c['claim_text']}”; source tokens: {cites}.")
-        lines.append("")
-    else:
-        lines += ["- No factual bullets were published for this chapter update.", ""]
-    lines += [
-        "## Editor notes",
-        "",
-        "Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.",
-        "",
-        "## Changelog",
-        "",
-        f"- {now}: conservative evidence-status regeneration for run context.",
-        "",
-        "## Editorial policy",
-        "",
-        f"Last generated: {now}. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.",
-    ]
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
 def main() -> int:

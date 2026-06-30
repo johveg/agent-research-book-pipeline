@@ -2,35 +2,19 @@
 
 This book tracks practical agent engineering as it develops in public: tools, operating patterns, context architecture, memory architecture, and durable loops.
 
-## Current evidence status
+The available sources support a cautious version of this point: Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows. [1] [2] [3]
 
-The following points are synthesized only from claim records whose status allows Author use:
+The available sources support a cautious version of this point: Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. [4] [5] [6]
 
-- Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows. [1] [2] [3] (status `supported`, strong evidence)
-- Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. [4] [5] [6] (status `supported`, moderate evidence)
-- An agentic loop can be framed as a repeated AI-agent cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange. [7] [6] (status `supported`, moderate evidence)
-- Current evidence suggests: The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources. [1] [8] (status `weakly_supported`, weak evidence)
+The available sources support a cautious version of this point: An agentic loop can be framed as a repeated AI-agent cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange. [7] [6]
 
-## Source/claim mapping
+The remaining material should be treated as a research signal rather than a settled conclusion. It can guide future revision, but it should not be used to claim broad adoption, maturity, or consensus without stronger corroboration.
 
-Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.
+One cautious reading is that The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources. [1] [8]
 
-- Bullet 1 maps to supported claim: “Hermes Agent is a Nous Research open-source agent project presented as an agent that grows with the user and supports tool-using automation workflows.”; source tokens: [1] [2] [3].
-- Bullet 2 maps to supported claim: “Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation.”; source tokens: [4] [5] [6].
-- Bullet 3 maps to supported claim: “An agentic loop can be framed as a repeated AI-agent cycle with a trigger, a goal, actions, feedback, and verification rather than as a single prompt-response exchange.”; source tokens: [7] [6].
-- Bullet 4 maps to caveated weak claim: “The present source set supports only a cautious connection between agent loops and context or memory architecture; stronger technical treatment needs better primary sources.”; source tokens: [1] [8].
+## Evidence limits
 
-## Editor notes
-
-Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.
-
-## Changelog
-
-- 2026-06-30T10:06:22Z: conservative evidence-status regeneration for run context.
-
-## Editorial policy
-
-Last generated: 2026-06-30T10:06:22Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
+This page was last refreshed on 2026-06-30T11:26:49Z. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.
 
 ## References
 

@@ -10,5 +10,5 @@ A fourth sustained paragraph marks the evidence limits clearly. This chapter is 
 
 ## References
 [1] Approved research lane.
-[2] Evidence packet summary.
+[2] research signal summary.
 [3] Editorial synthesis note.

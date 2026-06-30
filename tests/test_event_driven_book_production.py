@@ -337,3 +337,50 @@ def test_scheduler_event_driven_no_content_delta_completes_as_status_fallback(mo
     assert report["daily_status_fallback_applied"] is True
     assert report["final_disposition"] == "production_daily_completed"
     assert "no_substantive_or_daily_status_publication" not in report["blockers"]
+
+def test_publication_joiner_keeps_seed_creation_out_of_public_nav(tmp_path):
+    joiner = load_script("book_publication_joiner")
+    (tmp_path / "docs" / "book").mkdir(parents=True)
+    (tmp_path / "mkdocs.yml").write_text("site_name: Test\nnav:\n  - Book:\n      - Open Questions: book/open-questions.md\n", encoding="utf-8")
+    proposal = {
+        "event_id": "seed-1",
+        "chapter_id": "evaluation_harnesses",
+        "target_path": "docs/book/evaluation-harnesses.md",
+        "operation": "create_chapter",
+        "proposed_markdown": "# Evaluation Harnesses\n\nThe central argument of this page is that evaluation harnesses deserve a cautious research lane in this book because they define how agent systems can be checked before use. This page states evidence limits and avoids broad claims. [1] [2]\n\nA mature revision should add concrete examples only after corroborated sources support the material. The current seed keeps the subject visible to the pipeline without promoting it into the public manuscript. [2] [3]\n\nA third sustained paragraph explains that checks, traces, and review processes are part of the surrounding loop rather than decorations around model output. [1] [3]\n\nA fourth sustained paragraph states the evidence limits again: the seed should invite future research without claiming that evaluation practice is settled, universal, or already solved. [2] [3]\n\n## References\n\n[1] Editorial synthesis note.\n[2] Public proof gate.\n[3] Publication policy.\n",
+        "nav_entry": {"title": "Evaluation Harnesses", "path": "book/evaluation-harnesses.md"},
+        "publication_stage": "research_lane_seed",
+        "public_nav_allowed": False,
+    }
+    proposal_path = tmp_path / "proposal.json"
+    proposal_path.write_text(json.dumps(proposal), encoding="utf-8")
+
+    report = joiner.apply_patch_proposals([proposal_path], repo_root=tmp_path, apply=True, run_id="seed-nav", output_dir=tmp_path / "reports")
+
+    assert report["ok"] is True
+    assert report["publication_applied"] is True
+    assert (tmp_path / "docs" / "book" / "evaluation-harnesses.md").exists()
+    assert "Evaluation Harnesses" not in (tmp_path / "mkdocs.yml").read_text(encoding="utf-8")
+
+
+def test_publication_joiner_allows_mature_creation_in_public_nav(tmp_path):
+    joiner = load_script("book_publication_joiner")
+    (tmp_path / "docs" / "book").mkdir(parents=True)
+    (tmp_path / "mkdocs.yml").write_text("site_name: Test\nnav:\n  - Book:\n      - Open Questions: book/open-questions.md\n", encoding="utf-8")
+    proposal = {
+        "event_id": "mature-1",
+        "chapter_id": "evaluation_harnesses",
+        "target_path": "docs/book/evaluation-harnesses.md",
+        "operation": "create_chapter",
+        "proposed_markdown": "# Evaluation Harnesses\n\nThe central argument of this chapter is that evaluation harnesses deserve a full chapter because production agent systems need checks, traces, and review before they can be trusted. This chapter explains the topic in sustained prose with explicit evidence limits. [1] [2]\n\nThe mature publication path differs from a seed. It adds the page to public navigation only after the proposal is marked as a mature chapter and passes the public proof gate. [2] [3]\n\nA third sustained paragraph explains why harnesses belong in the reader-facing argument: without evaluation, repeated agent action cannot be distinguished from uncontrolled automation. [1] [3]\n\nA fourth sustained paragraph states the evidence limits again: even a mature page should separate supported examples from broad claims about universal agent reliability. [2] [3]\n\n## References\n\n[1] Editorial synthesis note.\n[2] Public proof gate.\n[3] Publication policy.\n",
+        "nav_entry": {"title": "Evaluation Harnesses", "path": "book/evaluation-harnesses.md"},
+        "publication_stage": "chapter_matured",
+    }
+    proposal_path = tmp_path / "proposal.json"
+    proposal_path.write_text(json.dumps(proposal), encoding="utf-8")
+
+    report = joiner.apply_patch_proposals([proposal_path], repo_root=tmp_path, apply=True, run_id="mature-nav", output_dir=tmp_path / "reports")
+
+    assert report["ok"] is True
+    assert report["publication_applied"] is True
+    assert "- Evaluation Harnesses: book/evaluation-harnesses.md" in (tmp_path / "mkdocs.yml").read_text(encoding="utf-8")

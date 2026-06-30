@@ -2,31 +2,15 @@
 
 Loop engineering means designing the system around closed agent loops rather than only improving prompts.
 
-## Current evidence status
+The available sources support a cautious version of this point: Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. [1] [2] [3]
 
-The following points are synthesized only from claim records whose status allows Author use:
+The remaining material should be treated as a research signal rather than a settled conclusion. It can guide future revision, but it should not be used to claim broad adoption, maturity, or consensus without stronger corroboration.
 
-- Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation. [1] [2] [3] (status `supported`, moderate evidence)
-- Current evidence suggests: Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition. [1] [4] [3] [5] (status `weakly_supported`, moderate evidence)
+One cautious reading is that Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition. [1] [4] [3] [5]
 
-## Source/claim mapping
+## Evidence limits
 
-Every factual bullet above is generated from an Author-usable claim record and structured citation tokens. The public page does not expose internal claim/source IDs; traceability remains in the local source registry and editorial database.
-
-- Bullet 1 maps to supported claim: “Loop engineering is best treated here as designing the harness around an agent: triggers, goals, context, tools, checks, state, reports, retries, and escalation.”; source tokens: [1] [2] [3].
-- Bullet 2 maps to caveated weak claim: “Several June 2026 public articles describe a shift from prompt engineering toward loop engineering, but the book should present that as an emerging discourse rather than a settled industry transition.”; source tokens: [1] [4] [3] [5].
-
-## Editor notes
-
-Generated Author output requires Editor approval before publication as narrative prose. Weak claims remain explicitly caveated. LinkedIn/social captures are discovery signals only and are not treated as independent confirmation unless stronger non-social sources support the same claim.
-
-## Changelog
-
-- 2026-06-30T10:06:22Z: conservative evidence-status regeneration for run context.
-
-## Editorial policy
-
-Last generated: 2026-06-30T10:06:22Z. This chapter is not synthesized directly from raw LinkedIn/social/web captures; it only uses claim records from `docs/research/claims.md`, and social material remains discovery signal only.
+This page was last refreshed on 2026-06-30T11:26:49Z. The public chapter intentionally summarizes supported material in prose; detailed source traceability remains in the project research apparatus rather than in the reader-facing manuscript.
 
 ## References
 

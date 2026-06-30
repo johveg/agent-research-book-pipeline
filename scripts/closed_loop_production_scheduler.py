@@ -703,9 +703,11 @@ def execute_once(
         report["author_editor_redteam_performed"] = True
         report["evidence_promotion_performed"] = True
         report["gpt55_used"] = True
-        report["publication_status"] = "event_driven_publication_applied" if publication_report.get("publication_applied") else "event_driven_no_safe_publication"
+        report["publication_status"] = "event_driven_publication_applied" if publication_report.get("publication_applied") else "event_driven_no_content_delta"
+        report["event_driven_no_content_delta"] = not bool(publication_report.get("publication_applied"))
         report["substantive_update_applied"] = bool(publication_report.get("publication_applied"))
         report["chapter_rewrite_applied"] = bool(publication_report.get("publication_applied"))
+        report["daily_status_fallback_applied"] = not bool(publication_report.get("publication_applied"))
         report["docs_book_files_changed"] = publication_report.get("changed_files", [])
         report["all_chapters_public_proof_blocking"] = False
         report["full_manuscript_proof"] = publication_report.get("full_manuscript_proof", {})

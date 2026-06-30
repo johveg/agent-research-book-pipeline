@@ -40,16 +40,24 @@ def load_packets(path: str | Path | None) -> list[dict[str, Any]]:
     return []
 
 
+def existing_book_targets(repo_root: str | Path) -> set[str]:
+    docs = Path(repo_root) / "docs" / "book"
+    if not docs.exists():
+        return set()
+    return {"docs/book/" + p.name for p in docs.glob("*.md")}
+
+
 def dispatch_packets(*, packets: list[dict[str, Any]], contract_json: str | Path, repo_root: str | Path, run_id: str, output_dir: str | Path, max_events: int = 8) -> dict[str, Any]:
     outdir = Path(output_dir)
     event_dir = outdir / f"{run_id}-book-events"
     patch_dir = outdir / f"{run_id}-chapter-patches"
     chapters = chapter_router.load_chapters(contract_json)
+    existing_targets = existing_book_targets(repo_root)
     events: list[dict[str, Any]] = []
     patch_reports: list[dict[str, Any]] = []
     proposal_paths: list[str] = []
     for packet in packets:
-        routed = chapter_router.route_packet(packet, chapters)
+        routed = chapter_router.route_packet(packet, chapters, existing_targets=existing_targets)
         for event in routed.get("events", []):
             if len(events) >= max_events:
                 break

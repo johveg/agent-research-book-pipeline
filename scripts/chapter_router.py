@@ -91,7 +91,19 @@ def make_event(event_type: str, packet: dict[str, Any], **fields: Any) -> dict[s
     }
 
 
-def route_packet(packet: dict[str, Any], chapters: dict[str, dict[str, Any]], threshold: float = 0.34) -> dict[str, Any]:
+def chapter_id_from_target_path(target_path: str) -> str:
+    stem = Path(target_path).stem
+    stem = re.sub(r"^\d+-", "", stem)
+    return stem.replace("-", "_") or "untitled_chapter"
+
+
+def route_packet(
+    packet: dict[str, Any],
+    chapters: dict[str, dict[str, Any]],
+    threshold: float = 0.34,
+    existing_targets: set[str] | None = None,
+) -> dict[str, Any]:
+    existing_targets = existing_targets or set()
     if is_weak(packet):
         return {
             "ok": True,
@@ -116,15 +128,29 @@ def route_packet(packet: dict[str, Any], chapters: dict[str, dict[str, Any]], th
             ))
     if not events:
         title = str(packet.get("title") or (packet.get("topics") or ["New Chapter"])[0])
-        cid = slugify(title)
-        events.append(make_event(
-            "chapter.creation.requested",
-            packet,
-            chapter_id=cid,
-            target_path=f"docs/book/{path_slug(title)}.md",
-            confidence=0.0,
-            payload={"packet": packet, "title": title, "reason_new_chapter_needed": "no_existing_chapter_fit_above_threshold"},
-        ))
+        hinted_target = str(packet.get("target_path_hint") or "")
+        proposed_target = hinted_target if hinted_target.startswith("docs/book/") else f"docs/book/{path_slug(title)}.md"
+        if proposed_target in existing_targets:
+            cid = chapter_id_from_target_path(proposed_target)
+            events.append(make_event(
+                "chapter.update.requested",
+                packet,
+                chapter_id=cid,
+                target_path=proposed_target,
+                confidence=0.0,
+                update_type="integrate_evidence_packet",
+                payload={"packet": packet, "reason": "target_path_already_exists", "packet_id": packet.get("packet_id")},
+            ))
+        else:
+            cid = slugify(title)
+            events.append(make_event(
+                "chapter.creation.requested",
+                packet,
+                chapter_id=cid,
+                target_path=proposed_target,
+                confidence=0.0,
+                payload={"packet": packet, "title": title, "reason_new_chapter_needed": "no_existing_chapter_fit_above_threshold"},
+            ))
     if len(packet.get("source_ids", [])) < 3:
         events.append(make_event(
             "research_gap.detected",

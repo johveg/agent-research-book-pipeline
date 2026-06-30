@@ -43,6 +43,14 @@ def proposed_update_markdown(title: str, packet: dict[str, Any]) -> str:
     )
 
 
+def placeholder_only_packet(packet: dict[str, Any]) -> bool:
+    sources = [str(x) for x in packet.get("source_ids", [])]
+    claims = [str(x) for x in packet.get("claim_ids", [])]
+    if not sources:
+        return False
+    return all(s == "chapter_discovery_topics" or s.startswith("approved:") for s in sources) and all(c.startswith("approved_subject:") for c in claims)
+
+
 def build_patch_proposal(event: dict[str, Any], *, repo_root: str | Path, output_dir: str | Path) -> dict[str, Any]:
     repo = Path(repo_root)
     target_path = str(event.get("target_path") or "")
@@ -50,6 +58,15 @@ def build_patch_proposal(event: dict[str, Any], *, repo_root: str | Path, output
         report = {"ok": False, "event_type": "chapter.patch.blocked", "failed_checks": ["invalid_target_path"], "target_path": target_path}
     else:
         packet = (event.get("payload") or {}).get("packet", {})
+        if placeholder_only_packet(packet):
+            return {
+                "ok": True,
+                "event_type": "chapter.patch.deferred",
+                "target_path": target_path,
+                "reason": "approved_subject_placeholder_no_new_evidence",
+                "patch_json_path": None,
+                "docs_book_mutated": False,
+            }
         title = title_from_path(target_path)
         proposal = {
             "event_type": "chapter.patch.proposed",

@@ -3,10 +3,10 @@
     "delivered": 0,
     "failed_closed_target_not_resolvable": 0,
     "queued": 0,
-    "retry_scheduled": 961
+    "retry_scheduled": 966
   },
   "delivered_count": 0,
-  "entry_count": 961,
+  "entry_count": 966,
   "fallback_channel_used": false,
   "pending_message_ids": [
     "ops-f7fcd763cd269722",
@@ -969,16 +969,21 @@
     "ops-f3909eeceb61129d",
     "ops-f7f0dc07111c21f2",
     "ops-cc47eae98a02f001",
-    "ops-24c17c7541ee0e7c"
+    "ops-24c17c7541ee0e7c",
+    "ops-caa777b8e158d5df",
+    "ops-6ddf3975017b3298",
+    "ops-84b4cb643fdf83ba",
+    "ops-427bec2990a7f452",
+    "ops-e9bd842a8e42666e"
   ],
-  "queued_count": 961,
+  "queued_count": 966,
   "status_metadata": {
     "component": "ops_delivery_outbox",
     "disposition": "outbox_state",
-    "emitted_at_oslo_iso": "2026-06-30T10:45:05+02:00",
-    "emitted_at_unix_ms": 1782809105380,
-    "emitted_at_unix_s": 1782809105,
-    "emitted_at_utc_iso": "2026-06-30T08:45:05Z",
+    "emitted_at_oslo_iso": "2026-06-30T12:00:04+02:00",
+    "emitted_at_unix_ms": 1782813604687,
+    "emitted_at_unix_s": 1782813604,
+    "emitted_at_utc_iso": "2026-06-30T10:00:04Z",
     "run_id": "run54",
     "severity": "info",
     "status": "outbox_state",

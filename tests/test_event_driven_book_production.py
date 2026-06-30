@@ -81,6 +81,22 @@ def test_chapter_router_requests_new_chapter_when_no_existing_fit(tmp_path):
     assert creation["payload"]["reason_new_chapter_needed"]
 
 
+def test_chapter_router_updates_when_target_hint_already_exists_even_without_contract_fit(tmp_path):
+    router = load_script("chapter_router")
+    result = router.route_packet(packet(
+        packet_id="packet-existing-target-1",
+        title="Approved Runtime Lane",
+        summary="Approved research lane summary that is intentionally too sparse to match contract topics.",
+        topics=["approved lane"],
+        target_path_hint="docs/book/agent-runtime-security.md",
+    ), router.load_chapters(write_contract(tmp_path)), existing_targets={"docs/book/agent-runtime-security.md"})
+    event_types = [event["event_type"] for event in result["events"]]
+    assert "chapter.creation.requested" not in event_types
+    update = next(event for event in result["events"] if event["event_type"] == "chapter.update.requested")
+    assert update["target_path"] == "docs/book/agent-runtime-security.md"
+    assert update["payload"]["reason"] == "target_path_already_exists"
+
+
 def test_router_defers_weak_or_social_only_material_without_chapter_mutation(tmp_path):
     router = load_script("chapter_router")
     result = router.route_packet(packet(evidence_strength="weak", source_ids=["linkedin:1"], topics=["browser agents"]), router.load_chapters(write_contract(tmp_path)))
@@ -108,6 +124,23 @@ def test_chapter_update_worker_produces_patch_proposal_without_mutating_docs(tmp
     assert report["target_path"] == "docs/book/agent-runtime-security.md"
     assert report["patch_json_path"]
     assert target.read_text(encoding="utf-8") == before
+
+
+def test_update_worker_defers_approved_subject_placeholders_without_patch_file(tmp_path):
+    worker = load_script("chapter_update_worker")
+    (tmp_path / "docs" / "book").mkdir(parents=True)
+    event = {
+        "event_id": "evt-placeholder-1",
+        "event_type": "chapter.update.requested",
+        "chapter_id": "agent_runtime_security",
+        "target_path": "docs/book/agent-runtime-security.md",
+        "payload": {"packet": packet(source_ids=["chapter_discovery_topics", "approved:agent_runtime_security"], claim_ids=["approved_subject:agent_runtime_security"])},
+    }
+    report = worker.build_patch_proposal(event, repo_root=tmp_path, output_dir=tmp_path / "patches")
+    assert report["ok"] is True
+    assert report["event_type"] == "chapter.patch.deferred"
+    assert report["patch_json_path"] is None
+    assert report["reason"] == "approved_subject_placeholder_no_new_evidence"
 
 
 def test_chapter_creation_worker_creates_seed_patch_and_nav_instruction_without_mutating_docs(tmp_path):
@@ -155,6 +188,29 @@ def test_publication_joiner_blocks_only_changed_chapter_not_unrelated_legacy_cha
     assert report["full_manuscript_proof"]["ok"] is False
     assert "legacy" in report["full_manuscript_proof"]["failed_chapters"]
     assert (docs / "agent-runtime-security.md").read_text(encoding="utf-8").startswith("# Agent Runtime Security")
+
+
+def test_publication_joiner_reports_no_content_delta_without_failure(tmp_path):
+    joiner = load_script("book_publication_joiner")
+    docs = tmp_path / "docs" / "book"
+    docs.mkdir(parents=True)
+    markdown = "# Agent Runtime Security\n\nThe central argument of this chapter is that secure agent runtimes transform autonomous execution into bounded, inspectable operation. The evidence limits remain visible because current public sources are uneven and should be read cautiously. References anchor the discussion. [1]\n\nA second sustained paragraph explains how tool permissions shape the agent loop and why runtime policies matter for external actions. The chapter keeps these ideas in reader-facing language rather than pipeline notes. [2]\n\nA third sustained paragraph connects sandboxing to observability, approvals, and recovery paths. Operators need to know why a tool call was allowed or denied. [3]\n\nA fourth sustained paragraph keeps the claims cautious and connects the material to practical implications for production systems. [1] [2] [3]\n\n## References\n[1] Public source.\n[2] Public source.\n[3] Public source.\n"
+    (docs / "agent-runtime-security.md").write_text(markdown, encoding="utf-8")
+    proposal = tmp_path / "proposal.json"
+    proposal.write_text(json.dumps({
+        "event_type": "chapter.patch.proposed",
+        "event_id": "evt-identical-1",
+        "chapter_id": "agent_runtime_security",
+        "target_path": "docs/book/agent-runtime-security.md",
+        "operation": "update_chapter",
+        "proposed_markdown": markdown,
+    }), encoding="utf-8")
+    report = joiner.apply_patch_proposals([proposal], repo_root=tmp_path, apply=True, run_id="test-run", output_dir=tmp_path / "reports")
+    assert report["ok"] is True
+    assert report["publication_applied"] is False
+    assert report["no_content_delta"] is True
+    assert report["publication_decision"] == "event_driven_no_content_delta"
+    assert report["rejected_patches"][0]["reason"] == "proposal_identical_to_existing"
 
 
 def test_scheduler_event_driven_mode_invokes_router_and_joiner_without_old_one_canary(monkeypatch, tmp_path):
@@ -215,3 +271,69 @@ def test_scheduler_event_driven_mode_invokes_router_and_joiner_without_old_one_c
     assert "closed_loop_publication_orchestrator.py" not in flat
     assert report["event_driven_book_production_used"] is True
     assert report["all_chapters_public_proof_blocking"] is False
+
+def test_scheduler_event_driven_no_content_delta_completes_as_status_fallback(monkeypatch, tmp_path):
+    scheduler = load_script("closed_loop_production_scheduler")
+    calls = []
+    def fake_run(cmd, **kw):
+        calls.append(cmd)
+        return {"returncode": 0, "stdout": '{"ok": true}', "stderr": ""}
+    monkeypatch.setattr(scheduler, "run_cmd", fake_run)
+    monkeypatch.setattr(scheduler, "append_event", lambda *a, **kw: {"event_type": kw.get("event_type", "event")})
+    monkeypatch.setattr(scheduler, "db_counts", lambda: {"source_notes": 1, "claims": 2})
+    def fake_summary(path):
+        text = str(path)
+        if "event-driven-publication" in text:
+            return {"ok": True, "publication_applied": False, "no_content_delta": True, "changed_files": [], "full_manuscript_proof": {"ok": False, "failed_chapters": ["legacy"]}}
+        if "event-driven-dispatch" in text:
+            return {"proposal_paths": ["proposal.json"]}
+        if "mutation-guard" in text:
+            return {"ok": True, "failed_checks": []}
+        return {}
+    monkeypatch.setattr(scheduler, "summarize_json", fake_summary)
+    cfg = {
+        "closed_loop_enabled": True,
+        "production_daily_enabled": True,
+        "daily_schedule_enabled": True,
+        "raw_collection_enabled": True,
+        "extraction_enabled": True,
+        "evidence_promotion_enabled": True,
+        "author_editor_redteam_enabled": True,
+        "guarded_book_publication_enabled": True,
+        "daily_status_fallback_enabled": True,
+        "commit_push_enabled_after_gates": True,
+        "telegram_status_enabled": True,
+        "human_in_loop_required": False,
+        "weak_local_fallback_allowed": False,
+        "gpt55_required_for_author_editor_redteam": True,
+        "gpt55_required_for_publication_gate": True,
+        "mutation_guard_required": True,
+        "citation_verification_required": True,
+        "mkdocs_strict_required": True,
+        "event_driven_book_production_enabled": True,
+        "max_substantive_book_updates_per_run": 5,
+        "allow_daily_status_only_update": True,
+        "allowed_book_targets": ["docs/book/"],
+        "blocked_paths": ["raw/", "data/schema.sql"],
+        "blocked_unless_explicit_profile": ["data/source_registry.json", "docs/entities/", "docs/research/claims.md", ".var/book.sqlite"],
+        "default_disposition_on_failure": "production_daily_failed_closed",
+        "default_disposition_on_no_safe_promotions": "publish_daily_no_safe_promotions",
+        "model_gate": {"provider": "copilot", "model": "gpt-5.5", "bridge": "hermes_cli", "reasoning_profile": "closed_loop_editorial", "strict_json": True, "weak_local_fallback": False},
+    }
+    report = scheduler.execute_once(
+        run_id="event-run-no-delta",
+        config=cfg,
+        output_json=tmp_path / "out.json",
+        output_md=tmp_path / "out.md",
+        telegram_status=tmp_path / "telegram.md",
+        allow_raw_collection=True,
+        allow_extraction=True,
+        allow_evidence_promotion=True,
+        allow_author_editor_redteam=True,
+        allow_guarded_book_publication=True,
+        allow_daily_status_fallback=True,
+    )
+    assert report["publication_status"] == "event_driven_no_content_delta"
+    assert report["daily_status_fallback_applied"] is True
+    assert report["final_disposition"] == "production_daily_completed"
+    assert "no_substantive_or_daily_status_publication" not in report["blockers"]

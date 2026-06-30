@@ -120,7 +120,11 @@ def apply_patch_proposals(proposal_paths: list[str | Path], *, repo_root: str | 
         if apply:
             before = target.read_bytes() if target.exists() else b""
             target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_text(markdown.rstrip() + "\n", encoding="utf-8")
+            desired = markdown.rstrip() + "\n"
+            if before == desired.encode("utf-8"):
+                rejected.append({"event_id": proposal.get("event_id"), "reason": "proposal_identical_to_existing", "target_path": target_path})
+                continue
+            target.write_text(desired, encoding="utf-8")
             if proposal.get("operation") == "create_chapter":
                 ensure_nav_entry(repo / "mkdocs.yml", proposal.get("nav_entry") or {})
             after = target.read_bytes()
@@ -141,6 +145,8 @@ def apply_patch_proposals(proposal_paths: list[str | Path], *, repo_root: str | 
         "generated_at": utc_now(),
         "ok": not failed and not any(r.get("reason") == "invalid_target_path" for r in rejected),
         "publication_applied": bool(changed),
+        "publication_decision": "event_driven_publication_applied" if changed else "event_driven_no_content_delta",
+        "no_content_delta": not bool(changed),
         "changed_files": changed,
         "applied_patch_count": len(applied_proposals),
         "rejected_patches": rejected,

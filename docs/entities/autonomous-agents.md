@@ -1,17 +1,17 @@
 # Autonomous Agents
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `high`
 - First seen: 2026-06-14T01:25:00Z
-- Last seen: 2026-06-26T21:23:28Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 7
-- Mention count: 65
+- Mention count: 97
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 4 source(s).
 
 ## Related claims
 

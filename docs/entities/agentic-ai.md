@@ -1,17 +1,17 @@
 # Agentic AI
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T03:30:14Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 27
-- Mention count: 416
+- Mention count: 460
 
 ## Description
 
-Candidate concept entity extracted from 6 source(s).
+Candidate concept entity extracted from 5 source(s).
 
 ## Related claims
 
@@ -33,15 +33,15 @@ Candidate concept entity extracted from 6 source(s).
 - `src_604600649f21a4613894` — Feed post Ryan P. • 3rd+ Agentic AI & LLM reliability | custom harnesses, spec driven development, evals, and demos you can inspect | proof-
   - URL: https://www.linkedin.com/in/ryan-prasad-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADvzpsABT76Qd5n7fj2ZVmA-i4Vpfe0Srf4
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/082-f2699025dc0cc6af2a71.md`
-- `src_b4dc1ea322d1d6278287` — Feed post Vlad Daskalov, MBA • 3rd+ Shipping Software with Agentic AI, Not Just Talking About It 14h • Edited • Follow The Fable (5) inciden
-  - URL: https://www.linkedin.com/in/v11d?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-KVs4BfsX01sAESNq7uq6nWmpBkNvxDJA
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/158-292d12c4b70bb7aa2c4f.md`
 - `src_e0d85c60bc0a669f868c` — Feed post Junhua Zhu • 3rd+ @Meta | Ex-AWS | AI Infra | Infra AI (Agentic AI) | Messaging & Streaming | Distributed Storage | Software Consu
   - URL: https://www.linkedin.com/in/junhuazhu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcid4kB5w2IOvmK2x0yl69kSrfVjS6prmM
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/114-a3308f46222406563fbe.md`
 - `src_a882c5f4350bef7d4faf` — Feed post Priya Sarkar • 3rd+ I translate AI for Leaders who Run Teams | Agentic AI, Tech Lead Content | Brand Partnerships | AI Keynotes &
   - URL: https://www.linkedin.com/in/priya-sarkar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA8ykiIBZt4NWMT2LlqFbhBiPjtDltE8hxc
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/012-083a2650ededab564324.md`
+- `src_b4dc1ea322d1d6278287` — Feed post Vlad Daskalov, MBA • 3rd+ Shipping Software with Agentic AI, Not Just Talking About It 14h • Edited • Follow The Fable (5) inciden
+  - URL: https://www.linkedin.com/in/v11d?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-KVs4BfsX01sAESNq7uq6nWmpBkNvxDJA
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/158-292d12c4b70bb7aa2c4f.md`
 - `src_34708d0bda378ebf37fd` — 🤯 This app takes any book you read and turns it into a collection of Agentic AI (Hermes/OpenClaw/Claude Code) skill markdown files.
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/057-45624a146e58e6a3b4e7.md`
 - `src_194861917446751632aa` — Feed post Nishanth Rao • 3rd+ Senior AI/ML Engineer | LLM Fine-Tuning • RAG Pipelines • LangGraph • Agentic AI • XGBoost • BERT • NLP • PEFT

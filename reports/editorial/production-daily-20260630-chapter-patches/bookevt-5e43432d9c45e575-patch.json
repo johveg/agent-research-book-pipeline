@@ -1,0 +1,31 @@
+{
+  "chapter_id": "browser_agents",
+  "citation_map": {
+    "1": [
+      "approved_research_lane"
+    ],
+    "2": [
+      "chapter_discovery_topics",
+      "approved:browser_agents"
+    ],
+    "3": [
+      "editorial_synthesis"
+    ]
+  },
+  "created_at_utc": "2026-06-30T05:15:21Z",
+  "event_id": "bookevt-5e43432d9c45e575",
+  "event_type": "chapter.patch.proposed",
+  "evidence_refs": [
+    "chapter_discovery_topics",
+    "approved:browser_agents"
+  ],
+  "human_in_loop_dependency_added": false,
+  "nav_entry": {
+    "path": "book/browser-agents.md",
+    "title": "Browser Agents"
+  },
+  "operation": "create_chapter",
+  "proposed_markdown": "# Browser Agents\n\nThe central argument of this seed chapter is that Browser Agents, browser agents, \"browser agents\" AI agents, \"browser agents\" has become distinct enough to deserve a dedicated research lane in the book. The chapter is intentionally cautious: it frames the subject, states evidence limits, and avoids turning early signals into broad claims. [1]\n\nA second sustained paragraph explains why the topic should not be hidden only inside adjacent chapters. It may overlap with existing material, but its operational questions, vocabulary, and risks create a separate reader-facing path for future synthesis. [2]\n\nA third sustained paragraph describes how this seed will mature. Future updates should add corroborated sources, refine definitions, and integrate concrete examples only after citation and privacy gates confirm that the material is safe for publication. [3]\n\nA fourth sustained paragraph marks the evidence limits clearly. This chapter is not a claim ledger or a status report; it is a book-facing research lane that can later become a mature chapter when the evidence base is strong enough. [1] [2] [3]\n\n## References\n[1] Approved research lane.\n[2] Evidence packet summary.\n[3] Editorial synthesis note.\n",
+  "raw_text_publication_allowed": false,
+  "target_path": "docs/book/browser-agents.md"
+}

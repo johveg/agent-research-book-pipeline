@@ -1,17 +1,17 @@
 # Best Hermes Agent
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-26T21:23:28Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 6
-- Mention count: 48
+- Mention count: 80
 
 ## Description
 
-Candidate concept entity extracted from 3 source(s).
+Candidate concept entity extracted from 4 source(s).
 
 ## Related claims
 

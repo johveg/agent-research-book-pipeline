@@ -1,13 +1,13 @@
 # SQL
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T03:30:14Z
-- Source count: 5
-- Mention count: 39
+- Last seen: 2026-06-30T08:49:05Z
+- Source count: 6
+- Mention count: 56
 
 ## Description
 
@@ -25,6 +25,9 @@ No related claim records yet.
 - `src_b706cc7020c480e20338` — GitHub - safishamsi/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. · GitHub
   - URL: https://github.com/safishamsi/graphify
   - Archive: `web/production-daily-direct-20260621T120113Z/hermes-openclaw/03-github-safishamsi-graphify-ai-coding-assistant-skill-claude.md`
+- `src_8bd511ff50b47ae4f017` — GitHub - safishamsi/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. · GitHub
+  - URL: https://github.com/safishamsi/graphify
+  - Archive: `web/production-daily-20260628/hermes-openclaw/02-github-safishamsi-graphify-ai-coding-assistant-skill-claude.md`
 - `src_5fd59ebf7bd199e392de` — Feed post Shahida Batool • 3rd+ Data Analyst | Junior Data Scientist | Research Analyst | Python, SQL, R, Power BI, Machine Learning & Bioin
   - URL: https://www.linkedin.com/in/shahidabatool?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC-3yosBZpfv9eldphv2Y6vevTM0bgqi8RI
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/117-d5fb91a7eeadfc7bd56d.md`

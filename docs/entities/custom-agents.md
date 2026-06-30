@@ -1,13 +1,13 @@
 # custom agents
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-15T13:28:52Z
-- Last seen: 2026-06-26T03:30:14Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 4
-- Mention count: 87
+- Mention count: 119
 
 ## Description
 

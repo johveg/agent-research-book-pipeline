@@ -1,14 +1,32 @@
 {
   "chapter_results": {
     "agent_loop": {
-      "bullet_line_count": 0,
-      "checked_at_utc_iso": "2026-06-26T21:23:28.352278+00:00",
+      "bullet_line_count": 17,
+      "checked_at_utc_iso": "2026-06-30T08:49:05.716872+00:00",
       "expected_title": "The Agent Loop",
-      "failed_checks": [],
-      "forbidden_phrases_found": [],
-      "ok": true,
-      "paragraph_count_ge_120_chars": 15,
-      "public_page_booklike": true,
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality a",
+        "quality b",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 6,
+      "public_page_booklike": false,
       "required_signals": [
         "central argument",
         "evidence limits",
@@ -19,87 +37,156 @@
         "state",
         "escalation"
       ],
-      "required_signals_missing": [],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits",
+        "from prompt to loop",
+        "operational pattern"
+      ],
       "source": "docs/book/01-the-agent-loop.md",
       "source_kind": "file",
       "target_path": "docs/book/01-the-agent-loop.md",
       "unique_citation_token_count": 9
     },
     "context_memory": {
-      "bullet_line_count": 0,
-      "checked_at_utc_iso": "2026-06-26T21:23:28.353031+00:00",
+      "bullet_line_count": 5,
+      "checked_at_utc_iso": "2026-06-30T08:49:05.717356+00:00",
       "expected_title": "Context and Memory Architecture",
-      "failed_checks": [],
-      "forbidden_phrases_found": [],
-      "ok": true,
-      "paragraph_count_ge_120_chars": 11,
-      "public_page_booklike": true,
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality a",
+        "quality b",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 7,
+      "public_page_booklike": false,
       "required_signals": [
         "central argument",
         "evidence limits",
         "references"
       ],
-      "required_signals_missing": [],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
       "source": "docs/book/05-context-memory-architecture.md",
       "source_kind": "file",
       "target_path": "docs/book/05-context-memory-architecture.md",
       "unique_citation_token_count": 5
     },
     "hermes": {
-      "bullet_line_count": 0,
-      "checked_at_utc_iso": "2026-06-26T21:23:28.353682+00:00",
+      "bullet_line_count": 5,
+      "checked_at_utc_iso": "2026-06-30T08:49:05.717698+00:00",
       "expected_title": "Hermes",
-      "failed_checks": [],
-      "forbidden_phrases_found": [],
-      "ok": true,
-      "paragraph_count_ge_120_chars": 11,
-      "public_page_booklike": true,
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "quality a",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 7,
+      "public_page_booklike": false,
       "required_signals": [
         "central argument",
         "evidence limits",
         "references"
       ],
-      "required_signals_missing": [],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
       "source": "docs/book/02-hermes.md",
       "source_kind": "file",
       "target_path": "docs/book/02-hermes.md",
-      "unique_citation_token_count": 3
+      "unique_citation_token_count": 4
     },
     "introduction": {
       "bullet_line_count": 0,
-      "checked_at_utc_iso": "2026-06-26T21:23:28.354418+00:00",
+      "checked_at_utc_iso": "2026-06-30T08:49:05.719462+00:00",
       "expected_title": "Introduction",
-      "failed_checks": [],
+      "failed_checks": [
+        "booklike_required_signals_missing"
+      ],
       "forbidden_phrases_found": [],
-      "ok": true,
-      "paragraph_count_ge_120_chars": 11,
-      "public_page_booklike": true,
+      "ok": false,
+      "paragraph_count_ge_120_chars": 10,
+      "public_page_booklike": false,
       "required_signals": [
         "central argument",
         "evidence limits",
         "references"
       ],
-      "required_signals_missing": [],
+      "required_signals_missing": [
+        "references"
+      ],
       "source": "docs/book/introduction.md",
       "source_kind": "file",
       "target_path": "docs/book/introduction.md",
       "unique_citation_token_count": 3
     },
     "loop_engineering": {
-      "bullet_line_count": 0,
-      "checked_at_utc_iso": "2026-06-26T21:23:28.355045+00:00",
+      "bullet_line_count": 5,
+      "checked_at_utc_iso": "2026-06-30T08:49:05.719883+00:00",
       "expected_title": "Loop Engineering",
-      "failed_checks": [],
-      "forbidden_phrases_found": [],
-      "ok": true,
-      "paragraph_count_ge_120_chars": 11,
-      "public_page_booklike": true,
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality b",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 6,
+      "public_page_booklike": false,
       "required_signals": [
         "central argument",
         "evidence limits",
         "references"
       ],
-      "required_signals_missing": [],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
       "source": "docs/book/04-loop-engineering.md",
       "source_kind": "file",
       "target_path": "docs/book/04-loop-engineering.md",
@@ -107,12 +194,12 @@
     },
     "methodology": {
       "bullet_line_count": 0,
-      "checked_at_utc_iso": "2026-06-26T21:23:28.355589+00:00",
+      "checked_at_utc_iso": "2026-06-30T08:49:05.720400+00:00",
       "expected_title": "Methodology",
       "failed_checks": [],
       "forbidden_phrases_found": [],
       "ok": true,
-      "paragraph_count_ge_120_chars": 12,
+      "paragraph_count_ge_120_chars": 11,
       "public_page_booklike": true,
       "required_signals": [
         "central argument",
@@ -126,62 +213,105 @@
       "unique_citation_token_count": 3
     },
     "openclaw": {
-      "bullet_line_count": 0,
-      "checked_at_utc_iso": "2026-06-26T21:23:28.356342+00:00",
+      "bullet_line_count": 5,
+      "checked_at_utc_iso": "2026-06-30T08:49:05.720720+00:00",
       "expected_title": "OpenClaw",
-      "failed_checks": [],
-      "forbidden_phrases_found": [],
-      "ok": true,
-      "paragraph_count_ge_120_chars": 11,
-      "public_page_booklike": true,
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high",
+        "citation_tokens_missing_or_too_sparse"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality a",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 6,
+      "public_page_booklike": false,
       "required_signals": [
         "central argument",
         "evidence limits",
         "references"
       ],
-      "required_signals_missing": [],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
       "source": "docs/book/03-openclaw.md",
       "source_kind": "file",
       "target_path": "docs/book/03-openclaw.md",
-      "unique_citation_token_count": 3
+      "unique_citation_token_count": 2
     },
     "operating_loops": {
-      "bullet_line_count": 0,
-      "checked_at_utc_iso": "2026-06-26T21:23:28.357410+00:00",
+      "bullet_line_count": 17,
+      "checked_at_utc_iso": "2026-06-30T08:49:05.721597+00:00",
       "expected_title": "Operating Loops in Production",
-      "failed_checks": [],
-      "forbidden_phrases_found": [],
-      "ok": true,
-      "paragraph_count_ge_120_chars": 13,
-      "public_page_booklike": true,
+      "failed_checks": [
+        "evidence_ledger_language_present",
+        "booklike_required_signals_missing",
+        "bullet_density_too_high"
+      ],
+      "forbidden_phrases_found": [
+        "current evidence status",
+        "source/claim mapping",
+        "bullet 1 maps to",
+        "maps to supported claim",
+        "maps to caveated weak claim",
+        "quality a",
+        "quality b",
+        "generated author output",
+        "editor notes",
+        "changelog",
+        "editorial policy",
+        "claim record",
+        "source tokens"
+      ],
+      "ok": false,
+      "paragraph_count_ge_120_chars": 7,
+      "public_page_booklike": false,
       "required_signals": [
         "central argument",
         "evidence limits",
         "references"
       ],
-      "required_signals_missing": [],
+      "required_signals_missing": [
+        "central argument",
+        "evidence limits"
+      ],
       "source": "docs/book/06-operating-loops.md",
       "source_kind": "file",
       "target_path": "docs/book/06-operating-loops.md",
       "unique_citation_token_count": 9
     }
   },
-  "checked_at_utc_iso": "2026-06-26T21:23:28.357470+00:00",
+  "checked_at_utc_iso": "2026-06-30T08:49:05.721646+00:00",
   "contract_json": "config/book_manuscript_production_contract.json",
-  "failed_chapters": [],
-  "missing_chapters": [],
-  "ok": true,
-  "passed_chapters": [
+  "failed_chapters": [
     "agent_loop",
     "context_memory",
     "hermes",
     "introduction",
     "loop_engineering",
-    "methodology",
     "openclaw",
     "operating_loops"
   ],
-  "public_page_booklike": true,
+  "missing_chapters": [],
+  "ok": false,
+  "passed_chapters": [
+    "methodology"
+  ],
+  "public_page_booklike": false,
   "repo_root": ".",
   "source_kind": "all_local_book_chapters",
   "total_chapters": 8

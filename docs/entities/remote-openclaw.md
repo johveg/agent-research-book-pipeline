@@ -1,17 +1,17 @@
 # Remote OpenClaw
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T21:23:28Z
-- Source count: 33
-- Mention count: 234
+- Last seen: 2026-06-30T08:49:05Z
+- Source count: 40
+- Mention count: 384
 
 ## Description
 
-Candidate concept entity extracted from 10 source(s).
+Candidate concept entity extracted from 7 source(s).
 
 ## Related claims
 
@@ -52,6 +52,9 @@ No related claim records yet.
 - `src_f22f7348ef071c6e34fd` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
   - Archive: `web/production-daily-20260623/openclaw-hermes/01-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
+- `src_bbd50b951b1af416bef6` — Best DeepSeek Models for Hermes Agent — Budget Agent Setup | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/best-deepseek-models-for-hermes
+  - Archive: `web/production-daily-20260626/openclaw-hermes/03-best-deepseek-models-for-hermes-agent-budget-agent-setup-rem.md`
 - `src_e17cb4e205f6ef3bdf64` — Best Open-Source Models for Hermes Agent — Self-Hosted Setup | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-opensource-models-for-hermes
   - Archive: `web/production-daily-20260624/hermes-openclaw/03-best-open-source-models-for-hermes-agent-self-hosted-setup-r.md`
@@ -64,33 +67,30 @@ No related claim records yet.
 - `src_cb919b799dd33a618953` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
   - Archive: `web/production-daily-20260625/openclaw-hermes/03-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
-- `src_bbd50b951b1af416bef6` — Best DeepSeek Models for Hermes Agent — Budget Agent Setup | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/best-deepseek-models-for-hermes
-  - Archive: `web/production-daily-20260626/openclaw-hermes/03-best-deepseek-models-for-hermes-agent-budget-agent-setup-rem.md`
+- `src_8d1c44f6fd80ed4f39d1` — Hermes Agent vs Paperclip AI: Which AI Agent Platform? | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-paperclip
+  - Archive: `web/production-daily-20260628/openclaw-hermes/02-hermes-agent-vs-paperclip-ai-which-ai-agent-platform-remote.md`
+- `src_b1144d5b740703a7d2d4` — Best Free Models for Hermes Agent 2026 - Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/best-free-models-for-hermes
+  - Archive: `web/production-daily-20260629/openclaw-hermes/03-best-free-models-for-hermes-agent-2026-remote-openclaw.md`
+- `src_9a4e5a996634cda3d238` — Hermes Agent Telegram Bot Setup Guide - Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-telegram-setup
+  - Archive: `web/production-daily-20260630/hermes-openclaw/02-hermes-agent-telegram-bot-setup-guide-remote-openclaw.md`
+- `src_13f5dcc14382878709c1` — Hermes Agent vs Paperclip AI: Which AI Agent Platform? | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-paperclip
+  - Archive: `web/production-daily-20260630/openclaw-hermes/03-hermes-agent-vs-paperclip-ai-which-ai-agent-platform-remote.md`
+- `src_db3d2b927a654d1da669` — Best Free Models for Hermes Agent 2026 - Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/best-free-models-for-hermes
+  - Archive: `web/production-daily-20260630/openclaw-hermes/01-best-free-models-for-hermes-agent-2026-remote-openclaw.md`
+- `src_a8ac019b72353356ecb4` — Open-Source Models for Hermes Agent — DIY Automation Stack | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/best-opensource-models-for-hermes-agent
+  - Archive: `web/production-daily-20260630/hermes-openclaw/02-open-source-models-for-hermes-agent-diy-automation-stack-rem.md`
+- `src_d52cf47291d3e2404d56` — Hermes Agent on GitHub: Setup and First Run | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-github
+  - Archive: `web/production-daily-20260630/hermes-openclaw/03-hermes-agent-on-github-setup-and-first-run-remote-openclaw.md`
 - `src_2fe2d55e532f292d0a64` — GPT-4o Context Window: What 128K Tokens Actually Means for Agent Builders | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/gpt-4o-context-window-128k-tokens
   - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/07-gpt-4o-context-window-what-128k-tokens-actually-means-for-ag.md`
 - `src_fd104d61172cab0fab15` — How to Self-Host Hermes Agent on a $5 VPS | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-self-hosted-guide
   - Archive: `web/do-not-publish-check-20260611T232514Z/openclaw-hermes/03-how-to-self-host-hermes-agent-on-a-5-vps-remote-openclaw.md`
-- `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-vs-claude
-  - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
-- `src_0daee637f5a27b53046e` — Best Open-Source Models for Hermes Agent — Self-Hosted Setup | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/best-opensource-models-for-hermes
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-best-open-source-models-for-hermes-agent-self-hosted-setup-r.md`
-- `src_2b0b35242057778c1600` — Best DeepSeek Models for Hermes Agent — Budget Agent Setup | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/best-deepseek-models-for-hermes
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/07-best-deepseek-models-for-hermes-agent-budget-agent-setup-rem.md`
-- `src_68e50eb620de2fac18bb` — Open-Source Models for Hermes Agent — DIY Automation Stack | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/best-opensource-models-for-hermes-agent
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/05-open-source-models-for-hermes-agent-diy-automation-stack-rem.md`
-- `src_d05f329788370ffd20b8` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/03-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
-- `src_f57efd0dcc5ef2a2abb6` — OpenClaw vs ClawDBot: Are They the Same Thing? | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/openclaw-vs-clawdbot
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/10-openclaw-vs-clawdbot-are-they-the-same-thing-remote-openclaw.md`
-- `src_f945b148458dfd49291d` — How to Set Up Hermes Multi-Agent: Step-by-Step Guide | Remote OpenClaw
-  - URL: https://www.remoteopenclaw.com/blog/how-to-set-up-hermes-multi-agent
-  - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/06-how-to-set-up-hermes-multi-agent-step-by-step-guide-remote-o.md`

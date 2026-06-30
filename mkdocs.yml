@@ -36,6 +36,20 @@ nav:
       - Agent Runtime Security: book/agent-runtime-security.md
       - Autonomous Research Pipeline: book/autonomous-research-pipeline.md
       - Browser Agents: book/browser-agents.md
+      - Citation Pipeline: book/citation-pipeline.md
+      - Coding Agents: book/coding-agents.md
+      - Computer-Use Agents: book/computer-use-agents.md
+      - Desktop AI Agents: book/desktop-ai-agents.md
+      - Enterprise AI Agents: book/enterprise-ai-agents.md
+      - Human Approval Workflow: book/human-approval-workflow.md
+      - Local AI Agents: book/local-ai-agents.md
+      - Local-First Agents: book/local-first-agents.md
+      - MCP Tools: book/mcp-tools.md
+      - Multi-Agent Workflows: book/multi-agent-workflows.md
+      - Observability for Agents: book/observability-for-agents.md
+      - Red Team Review: book/red-team-review.md
+      - Self-Improving Agents: book/self-improving-agents.md
+      - Source Registry: book/source-registry.md
       - Open Questions: book/open-questions.md
   - Chapter Briefs:
       - Index: chapter-briefs/index.md

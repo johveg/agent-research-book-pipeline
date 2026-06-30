@@ -1,13 +1,13 @@
 # RAG
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T03:30:14Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 11
-- Mention count: 149
+- Mention count: 165
 
 ## Description
 

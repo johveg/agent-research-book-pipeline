@@ -1,17 +1,17 @@
 # Data Science
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `high`
 - First seen: 2026-06-12T01:19:56Z
-- Last seen: 2026-06-26T21:23:28Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 8
-- Mention count: 123
+- Mention count: 163
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 5 source(s).
 
 ## Related claims
 
@@ -22,12 +22,12 @@ No related claim records yet.
 - `src_784806d17da74ac6d43e` — Feed post Hanan Tabak Hanan Tabak • 3rd+ Data & AI Lead at e& | Arabic AI & NLP Researcher at NAMAA Community | MSc of Data Science | AWS Ce
   - URL: https://www.linkedin.com/in/hanan-tabak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADGUOlMBh4yJa94Ugsx4qilHwLqhzuid9pE
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/043-f50c76a54a7da751a459.md`
-- `src_39a3d93c13d47b631b91` — Great turnout at Data Science and Ai Association of Australia | DSAi's Building Agents with OpenClaw and Hermes Event! It was a tag team eff
-  - URL: https://www.linkedin.com/company/dsai/
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/102-7bbd20f4a8312cb110eb.md`
 - `src_5d079a3570397d2dd0cf` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
   - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
   - Archive: `web/production-daily-manual-20260621T044136Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
+- `src_39a3d93c13d47b631b91` — Great turnout at Data Science and Ai Association of Australia | DSAi's Building Agents with OpenClaw and Hermes Event! It was a tag team eff
+  - URL: https://www.linkedin.com/company/dsai/
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/102-7bbd20f4a8312cb110eb.md`
 - `src_6a92a98c354a3538265d` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
   - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
   - Archive: `web/production-daily-manual-20260621T054137Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`

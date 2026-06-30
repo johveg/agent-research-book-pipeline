@@ -1,23 +1,24 @@
 # AI Agent
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T21:23:28Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 21
-- Mention count: 389
+- Mention count: 476
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 8 source(s).
 
 ## Related claims
 
 - **candidate / weak** — See how an AI Agent like Nous Research Hermes Agent helps develop a residential b "Hermes Agent". (`claim_95fc62e932b3f5ad376b`)
 - **candidate / weak** — A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible. (`claim_fe1f08a0352de5ae4eef`)
 - **candidate / weak** — An always-on AI agent with access to your accounts is a security problem most people ignore. (`claim_abf68c8c089a0a01aca3`)
+- **candidate / weak** — Boris Cherny Says Loop Engineering Has Replaced Prompting - Memeburn "loop engineering" AI agents memeburn.com. (`claim_93e2f4971c4ba8bf1f58`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
 - **candidate / weak** — Forget Prompts: 'Loop Engineering' Is All the Rage Now - Business Insider "loop engineering" AI agents www.businessinsider.com. (`claim_1f7d001e8b565267a397`)
 - **candidate / weak** — Hermes Agent by Nous Research is a self-improving AI agent with persistent memory, autonomous skill "Hermes Agent". (`claim_6f483f88beab51f85afd`)
@@ -34,7 +35,6 @@ Candidate tool entity extracted from 1 source(s).
 - **needs_review / weak** — A loop is a small program that prompts an AI agent for you, reads what it produced, decid "loop engineering". (`claim_ddcb28eb301b363c351a`)
 - **needs_review / weak** — Autonomous AI agents have a holy war right now: OpenClaw vs Hermes. (`claim_5ac0ab17327f70b7cd10`)
 - **needs_review / weak** — Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera "OpenClaw" Hermes. (`claim_cf20967c5c76581b2c4b`)
-- **needs_review / weak** — How Hermes Agent with Grok Is Helping Me Hermes isn’t just another chatbot – it’s a self-improving autonomous AI agent designed for complex, "Hermes Agent". (`claim_a4809681aa20fc11a666`)
 
 ## Source references
 
@@ -43,8 +43,6 @@ Candidate tool entity extracted from 1 source(s).
 - `src_5a4ee38e52e22e9c7021` — GitHub - mvanhorn/last30days-skill: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · GitHub
   - URL: https://github.com/mvanhorn/last30days-skill
   - Archive: `web/production-daily-20260618/openclaw-hermes/03-github-mvanhorn-last30days-skill-ai-agent-skill-that-researc.md`
-- `src_c5f7b482d92d80e731d2` — আপনার AI agent-কে production access দিয়েছেন? ভুল করলেন। বেশিরভাগ developer AI coding agent-কে একটা চালাক chatbot মনে করেন। কিন্তু এটা চালাক
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/128-d3be699d0193925069e5.md`
 - `src_02994da92fbe39a1e863` — AI agent se nedá pochopit jen z tutoriálu. Musíš si ho postavit. Proto dělám 25. 6. v Praze hands-on workshop Stavíme AI agenty. Žádná obecn
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/128-cc5779175f08ce9a868f.md`
 - `src_7cc7c84cadb8e66bb21b` — Feed post Dwian Rianto • 3rd+ software engineer | system architechture 23m • Follow Setelah beberapa waktu bereksperimen dengan AI Agent lok
@@ -57,6 +55,8 @@ Candidate tool entity extracted from 1 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/083-a23c1e26567dc081d8de.md`
 - `src_eb34cd6ed15e0ce8e135` — Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Research Hermes Agent helps develop a residential b
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/041-7dbba3b9944d74c77450.md`
+- `src_c5f7b482d92d80e731d2` — আপনার AI agent-কে production access দিয়েছেন? ভুল করলেন। বেশিরভাগ developer AI coding agent-কে একটা চালাক chatbot মনে করেন। কিন্তু এটা চালাক
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/128-d3be699d0193925069e5.md`
 - `src_2df3c2d1654cd80f5fc7` — TechOrange 報導了 Loop Engineering 的 AI Agent⁠，揭示了如何將 AI 自治系統與工程流程深度結合。 從 Eliyahoren.com 的視角來看，這不只是技術升級，而是一種 人類與 AI 協作的認知進化： * 多 Agent 協作：AI 不只
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/026-8d79491bc7dc0f69a3af.md`
 - `src_45efdb14404d2b02e0f9` — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made

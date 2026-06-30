@@ -1,17 +1,17 @@
 # Hermes
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T21:23:28Z
-- Source count: 646
-- Mention count: 9902
+- Last seen: 2026-06-30T08:49:05Z
+- Source count: 668
+- Mention count: 11521
 
 ## Description
 
-Candidate concept entity extracted from 21 source(s).
+Candidate concept entity extracted from 20 source(s).
 
 ## Related claims
 
@@ -65,10 +65,6 @@ Candidate concept entity extracted from 21 source(s).
 - `src_188ba7c1625f10f934d8` — GitHub - NVIDIA/NemoClaw: Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference · GitHub
   - URL: https://github.com/NVIDIA/NemoClaw
   - Archive: `web/production-daily-20260619/openclaw-hermes/01-github-nvidia-nemoclaw-run-agents-like-hermes-and-openclaw-m.md`
-- `src_047a901c529a7f4d19f3` — Hermes is worth a look if you're running something like OpenClaw. It learns as it goes, building skills from real tasks and getting better a
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-f2ed4d369534588cdb67.md`
-- `src_a36777623fea62c34df8` — People are not talking about the security issues with Hermes or OpenClaw. These security threats are real and are yet to fully be seen. The
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-d8dd2178fd827894223b.md`
 - `src_b08bae8b922a56048df2` — Plusieurs mois que j’utilise des agents au quotidien. Et wow, ça change la vie. Voilà quelques mois qu’OpenClaw et Hermes (mon favori) sont
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/134-81cf5bbf9784155f2ac6.md`
 - `src_ea9e7e08422171425f33` — Imagine.art is officially coming to your AI agents! 🚀 We’ve launched the ImagineArt MCP, allowing you to give platforms like Codex, Hermes,
@@ -79,14 +75,16 @@ Candidate concept entity extracted from 21 source(s).
 - `src_b3a2887a17f3fe06974a` — GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more. · GitHub
   - URL: https://github.com/Infisical/agent-vault
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-infisical-agent-vault-a-http-credential-proxy-and-vau.md`
-- `src_34708d0bda378ebf37fd` — 🤯 This app takes any book you read and turns it into a collection of Agentic AI (Hermes/OpenClaw/Claude Code) skill markdown files.
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/057-45624a146e58e6a3b4e7.md`
-- `src_36497529c369f835e824` — This is enormously valuable! My take in tldr form: Claude Code, Codex, OpenCode, Pi, Hermes, Openclaw, etc. are ways of interacting with pow
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/078-e76e34dcc7253bd3c754.md`
-- `src_3a8971630c5f088c3ed4` — Woche 1 — zweites Update. Warum nicht einfach Hermes nehmen? Key Takeaway: → Hermes hat Skills, OpenClaw hat das Gateway-Pattern. Der Agent
-  - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/159-b5d7019a13c3d0fab7ab.md`
-- `src_9de80db375f3c814c720` — 𝗠𝗶𝗴𝗿𝗮𝘁𝗶𝗻𝗴 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗗𝗼𝘄𝗻𝘁𝗶𝗺𝗲 I used to run two AI agents: OpenClaw and Hermes. OpenClaw worked well for scheduled tasks. Hermes work
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/099-30a9981a34f426f6b2e3.md`
+- `src_047a901c529a7f4d19f3` — Hermes is worth a look if you're running something like OpenClaw. It learns as it goes, building skills from real tasks and getting better a
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-f2ed4d369534588cdb67.md`
+- `src_393cb2e931a4bec21890` — How to integrate Cursor with Hermes | Composio
+  - URL: https://composio.dev/toolkits/cursor/framework/hermes-agent
+  - Archive: `web/production-daily-manual-20260621T044136Z/openclaw-hermes/03-how-to-integrate-cursor-with-hermes-composio.md`
+- `src_9334fe0ec8ca0fba2a72` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
+  - URL: https://github.com/nexu-io/open-design
+  - Archive: `web/production-daily-manual-20260621T044136Z/openclaw-hermes/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
+- `src_a36777623fea62c34df8` — People are not talking about the security issues with Hermes or OpenClaw. These security threats are real and are yet to fully be seen. The
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-d8dd2178fd827894223b.md`
 - `src_bd9f5b57513c68a6e52e` — AI 101:Hermes vs OpenClaw: Local AI Agents Compared
   - URL: https://www.turingpost.com/p/hermes
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/02-ai-101-hermes-vs-openclaw-local-ai-agents-compared.md`
@@ -97,3 +95,8 @@ Candidate concept entity extracted from 21 source(s).
 - `src_2c04eb0bb29832d3ca17` — Feed post Krishna Kumar • 3rd+ Founder & CEO – PlumoAI, Open-Source (100% FREE) AI Employees Platform 48m • Edited • Follow Day23 Live (Stre
   - URL: https://www.linkedin.com/in/krishnafounder?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGGnSYBzrGTvFQLbvvgaT_SYjEz11ejGK8
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/008-79b4f06762f72e68e27e.md`
+- `src_306bb0a43b5cda7c4326` — Feed post Souvik Roy • 3rd+ Agentic AI @ Standard Chartered | IIT Gandhinagar 35m • Follow the top 3 terms in AI engineering right now: - lo
+  - URL: https://www.linkedin.com/in/souvikroy5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7h2uABY1JeTj5hHnDDA9D_SGTViV4bXSc
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/005-6c6109a327ff9037b8ad.md`
+- `src_3e400b1f5a1412d4f612` — Day23 Live (Stream3) | Building an Open Source AI Platform on the Road to a $1,000,000,000 Company Current Valuation: $2M Join the Builders
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-21e35998b682cb7af37a.md`

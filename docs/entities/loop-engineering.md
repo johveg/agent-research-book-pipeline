@@ -1,17 +1,17 @@
 # loop engineering
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T21:23:28Z
-- Source count: 669
-- Mention count: 26130
+- Last seen: 2026-06-30T08:49:05Z
+- Source count: 689
+- Mention count: 30063
 
 ## Description
 
-Candidate concept entity extracted from 16 source(s).
+Candidate concept entity extracted from 18 source(s).
 
 ## Related claims
 
@@ -19,6 +19,7 @@ Candidate concept entity extracted from 16 source(s).
 - **candidate / weak** — AI LOOP Engineering is the cycle that makes AI systems smarter over time. (`claim_7befc8fb98fd70f62709`)
 - **candidate / weak** — As LLMs grow more powerful, the main bottleneck in autonomous scientific discovery is shifting from how we program agents to how we build th "loop engineering". (`claim_5a685f6fa8a752196194`)
 - **candidate / weak** — Balance (YC W26) is growing at immense pace and we're now taking more meetings with incredible prospective cus "loop engineering". (`claim_9908fc60406b185b1a53`)
+- **candidate / weak** — Boris Cherny Says Loop Engineering Has Replaced Prompting - Memeburn "loop engineering" AI agents memeburn.com. (`claim_93e2f4971c4ba8bf1f58`)
 - **candidate / weak** — But they are using a revolutionary architecture just to fix Python synta "loop engineering". (`claim_90ad8794db77377938f3`)
 - **candidate / weak** — Feed post Scott Plunkett Scott Plunkett • 3rd+ “A great product manager has the brain of an engineer, the heart of a designer, and the speec "loop engineering". (`claim_15f8b0cc4f368aebcaa7`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
@@ -34,7 +35,6 @@ Candidate concept entity extracted from 16 source(s).
 - **candidate / weak** — Most AI systems today are still operating in a "one-shot" mode: Prompt → Model → Response If the answer is wrong, incomplete, or hallucinate "loop engineering". (`claim_aa15ac8d93b19deb75a5`)
 - **candidate / weak** — National debt is at $39.20 trillion, pacing "loop engineering". (`claim_384b8fc4eb6c06e93173`)
 - **candidate / weak** — Now AI is pushing the concept of Content as Dynamic Layer 'Loop "loop engineering". (`claim_9be3cdd6c663bf00ec0d`)
-- **candidate / weak** — Prompt Engineering was: "AI, do this." Loop Engineering is: "AI, do this → check this → fix this → repeat until it's good." 😄 We're slowly m "loop engineering". (`claim_0b29e77e277906229e55`)
 
 ## Source references
 
@@ -69,35 +69,37 @@ Candidate concept entity extracted from 16 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/072-89a629732648d41bf4ac.md`
 - `src_916646b95f1aae5006ea` — Prompt Engineering was: "AI, do this." Loop Engineering is: "AI, do this → check this → fix this → repeat until it's good." 😄 We're slowly m
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/108-8d4904c726b2380daa0e.md`
-- `src_d885b32447e9f7fd8aef` — Q: How woud you call "rat race" in the era of LLMs? A: Loop Engineering! source: - Image generated with Gemini - Prompt description is my ow
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/125-6276e60a36bffe5716ea.md`
 - `src_f9f9b06c41f52c9e1145` — Loop Engineering: Designing Systems That Run AI Agents Instead of Prompting Them Manually I recently went through this piece on Loop Enginee
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/114-06522d7b1dbae8a1c9ba.md`
+- `src_3448357365f6d9049464` — Loop Engineering: 7 Levels From Prompting to Loops
+  - URL: https://prosperinai.substack.com/p/ai-loop-engineering-guide
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/01-loop-engineering-7-levels-from-prompting-to-loops.md`
+- `src_d885b32447e9f7fd8aef` — Q: How woud you call "rat race" in the era of LLMs? A: Loop Engineering! source: - Image generated with Gemini - Prompt description is my ow
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/125-6276e60a36bffe5716ea.md`
 - `src_59431ceecad225b8a238` — From prompt engineering, to context engineering, to harness engineering, now it's loop engineering. Are they just some different AI buzz wor
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/048-cfa9c9a2382a204960dc.md`
 - `src_93dcc66b556e80f95ab3` — Loop engineering sounds obvious until you put a budget next to it. OpenClaws founder 🦄 Peter Steinberger posted, “monthly reminder for you t
   - URL: https://www.linkedin.com/in/steipete/
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/042-1c66429dbbda891e4887.md`
-- `src_3448357365f6d9049464` — Loop Engineering: 7 Levels From Prompting to Loops
-  - URL: https://prosperinai.substack.com/p/ai-loop-engineering-guide
-  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/01-loop-engineering-7-levels-from-prompting-to-loops.md`
 - `src_b48ce2b2113fb66f05b1` — Loop Engineering Guide (2026) | AI Builder Club
   - URL: https://www.aibuilderclub.com/blog/loop-engineering-guide-2026
   - Archive: `web/production-daily-20260618/loop-engineering-ai-agents/01-loop-engineering-guide-2026-ai-builder-club.md`
 - `src_e0f169a65371a8a13589` — Loop Engineering Is Fully Making The Rounds For Boosting Generative AI And Agentic AI
   - URL: https://www.forbes.com/sites/lanceeliot/2026/06/17/loop-engineering-is-fully-making-the-rounds-for-boosting-generative-ai-and-agentic-ai/
   - Archive: `web/production-daily-20260618/loop-engineering-ai-agents/02-loop-engineering-is-fully-making-the-rounds-for-boosting-gen.md`
-- `src_4b278c58c11c619f3e28` — Loop Engineering (Ingeniería de Bucles) es un nuevo enfoque para trabajar con agentes de IA para código. En lugar de estar tú promptando man
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/014-b84a179b5488a03678cd.md`
-- `src_72c51bf974ac216000b3` — 又到了週日 Youtube 總結的日子 這週出差路上錄了一下 我們現在 Agent 的一個 Task，流程是 Plan、Execution、Verify，最後由人決定下一步。Loop Engineering 想做的，就是把「人決定下一步」這一步也交給 Agent。目標是做出一個會
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/031-bb42cae5733a42a95413.md`
-- `src_85a5a89b69be1641bf89` — Loop Engineering hashtag #claude hashtag #fable hashtag #mythos
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/064-b308b64010011137f7c4.md`
 - `src_59f1454783620c2aecf6` — Loop Engineering Totally 10x Hermes agents - YouTube
   - URL: https://www.youtube.com/watch?v=AQRDjI5owZI
   - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/03-loop-engineering-totally-10x-hermes-agents-youtube.md`
+- `src_cd5670fdee2e0bbe3441` — Forget Prompts: 'Loop Engineering' Is All the Rage Now - Business Insider
+  - URL: https://www.businessinsider.com/what-are-loops-ai-engineering-tips-2026-6
+  - Archive: `web/production-daily-manual-20260621T044136Z/loop-engineering-ai-agents/02-forget-prompts-loop-engineering-is-all-the-rage-now-business.md`
 - `src_8f2af9bb396b48144e42` — Loop Engineering: 7 Levels From Prompting to Loops
   - URL: https://prosperinai.substack.com/p/ai-loop-engineering-guide
   - Archive: `web/production-daily-manual-20260615T171122Z/loop-engineer-ai/01-loop-engineering-7-levels-from-prompting-to-loops.md`
-- `src_1b610a06f1bcba7d81e4` — Loop Engineering: The Next Big Shift in How We Work With AI A new idea is trending in AI right now, and it is called "loop engineering." For
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/172-0fbc6d5be563445b9b8e.md`
+- `src_3e03217c75f1b243d93f` — I’ve been reading about Loop Engineering and GSD, and they reinforced the same idea for me: The next productivity leap from AI agents will n
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/090-1c7cd8dac9d5b55a7682.md`
+- `src_4a058d84f1b332fc65c3` — Feed post Bo Zhang • 3rd+ Digital Oilfield | Software Project Manager @SLB 7h • Follow I’ve been reading about Loop Engineering and GSD, and
+  - URL: https://www.linkedin.com/in/bo-zhang-b2713823b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADuka08BGWD6Aweexp7-Y9DUnOQRIgsrdvw
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/088-9f361ddb2b0ee8c1e3f8.md`
+- `src_5652a80f7f65bbad5cbf` — Loop Engineering. For the last couple of years, using an AI agent often meant prompting it by hand, one message at a time. You wrote the ins
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/093-b2db097e01e2663927cd.md`

@@ -1,13 +1,13 @@
 # AI agents
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T21:23:28Z
-- Source count: 81
-- Mention count: 1467
+- Last seen: 2026-06-30T08:49:05Z
+- Source count: 98
+- Mention count: 2008
 
 ## Description
 
@@ -16,6 +16,7 @@ Candidate concept entity extracted from 15 source(s).
 ## Related claims
 
 - **candidate / weak** — A team of AI agents working together while you sleep — this is what Hermes Agent OS makes possible. (`claim_fe1f08a0352de5ae4eef`)
+- **candidate / weak** — Boris Cherny Says Loop Engineering Has Replaced Prompting - Memeburn "loop engineering" AI agents memeburn.com. (`claim_93e2f4971c4ba8bf1f58`)
 - **candidate / weak** — For a long time, the industry was obsessed with prompt engineering but as we transition toward building complex, production-grade AI agents, "loop engineering". (`claim_82c6e7a92ed0fb6b2dd5`)
 - **candidate / weak** — Forget Prompts: 'Loop Engineering' Is All the Rage Now - Business Insider "loop engineering" AI agents www.businessinsider.com. (`claim_1f7d001e8b565267a397`)
 - **candidate / weak** — Loop Engineering Is Fully Making The Rounds For Boosting Generative AI And Agentic AI "loop engineering" AI agents www.forbes.com. (`claim_480de1e765aaedbfca5d`)
@@ -50,12 +51,9 @@ Candidate concept entity extracted from 15 source(s).
 - `src_d073d334eeffb3376744` — Loop Engineering: How to Design Coding Agent Loops That Run While You Sleep (2026 Guide) | explainx.ai Blog | explainx.ai
   - URL: https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026
   - Archive: `web/production-daily-20260616/loop-engineering-ai-agents/01-loop-engineering-how-to-design-coding-agent-loops-that-run-w.md`
-- `src_b498fdf309bbe197d84c` — Feed post Shivanath Devinarayanan • 3rd+ Chief Digital Labor & Technology Officer at Asymbl | Salesforce MVP Hall of Fame | 180+ AI Agents i
-  - URL: https://www.linkedin.com/in/shivanathd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAV7jRYBS_ZdxaYHQNRN4RNzIzm2osbp4-A
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/172-43d9fa8f234a060646c6.md`
-- `src_0e0da08bad35d2ccba8c` — Feed post Melissa Wiringi • 3rd+ AI Agents and automations with a strategic focus | Marketing Operations | Process Improvement | Social Medi
-  - URL: https://www.linkedin.com/in/melissawiringi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAASOUu8BPMa5ewn_NgjcLOIMAnH0lqfy5DE
-  - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/008-2b42b324af84064b39c3.md`
+- `src_6a92a98c354a3538265d` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
+  - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
+  - Archive: `web/production-daily-manual-20260621T054137Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
 - `src_caa0d7881e48bdd0bca4` — Loop Engineering: How to Design Coding Agent Loops That Run While You Sleep (2026 Guide) | explainx.ai Blog | explainx.ai
   - URL: https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026
   - Archive: `web/production-daily-20260617/loop-engineering-ai-agents/01-loop-engineering-how-to-design-coding-agent-loops-that-run-w.md`
@@ -104,9 +102,11 @@ Candidate concept entity extracted from 15 source(s).
 - `src_f1cc3e5a72c00546d778` — Loop Engineering是什麼？一次解密6大組件，搞懂工程師為什麼不再寫提示詞|數位時代 BusinessNext
   - URL: https://www.bnext.com.tw/article/91246/loop-engineering-from-prompting-to-designing-ai-coding-loops
   - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/05-loop-engineering-6-businessnext.md`
-- `src_73ffea1b9c1824bf9c7d` — Feed post Jazzmin Sicat-Cabizares • 3rd+ Software Engineer | AI Automation Engineer | Claude API, MCP, n8n, Python | AI Agents 3h • Follow Q
-  - URL: https://www.linkedin.com/in/jazzmin-sicat-cabizares-9346041b8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADKiqDgB68nSHDQO9_H8CtUDDc-scnwV5zg
-  - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/109-aab8a46491da0ceac194.md`
-- `src_6a92a98c354a3538265d` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
+- `src_b498fdf309bbe197d84c` — Feed post Shivanath Devinarayanan • 3rd+ Chief Digital Labor & Technology Officer at Asymbl | Salesforce MVP Hall of Fame | 180+ AI Agents i
+  - URL: https://www.linkedin.com/in/shivanathd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAV7jRYBS_ZdxaYHQNRN4RNzIzm2osbp4-A
+  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/172-43d9fa8f234a060646c6.md`
+- `src_68ae7d84fe9ba73a28a4` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
   - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
-  - Archive: `web/production-daily-manual-20260621T054137Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
+  - Archive: `web/production-daily-direct-20260621T120113Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
+- `src_8df07ec4d267d4996e1a` — Το Hermes Agent της Nous Research δείχνει πώς μπορεί να εξελιχθεί η επόμενη γενιά AI agents. Με μόνιμη μνήμη, αυτοβελτίωση και δυνατότητα δη
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/150-10eb81f772785451d0fe.md`

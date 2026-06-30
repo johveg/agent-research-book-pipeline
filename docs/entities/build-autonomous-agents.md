@@ -1,17 +1,17 @@
 # Build Autonomous Agents
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `high`
 - First seen: 2026-06-21T04:41:57Z
-- Last seen: 2026-06-26T21:23:28Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 4
-- Mention count: 116
+- Mention count: 180
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 4 source(s).
 
 ## Related claims
 

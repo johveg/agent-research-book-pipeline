@@ -1,17 +1,17 @@
 # Hermes Agent
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T21:23:28Z
-- Source count: 663
-- Mention count: 17746
+- Last seen: 2026-06-30T08:49:05Z
+- Source count: 691
+- Mention count: 21282
 
 ## Description
 
-Candidate concept entity extracted from 21 source(s).
+Candidate concept entity extracted from 24 source(s).
 
 ## Related claims
 
@@ -77,9 +77,6 @@ Candidate concept entity extracted from 21 source(s).
 - `src_81cd90cd54aaa482b614` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
   - URL: https://github.com/nousresearch/hermes-agent
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
-- `src_19ad1af0200eff19d897` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
-  - URL: https://github.com/nousresearch/hermes-agent
-  - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
 - `src_1e7361c91e56af7947a2` — Last Saturday, we hosted Build with Hermes Agent at 2586Labs, bringing together builders exploring workflows, context, and self-learning age
   - URL: https://www.linkedin.com/company/2586labs/
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/010-8bc3ed3fb9af39a03086.md`
@@ -104,3 +101,6 @@ Candidate concept entity extracted from 21 source(s).
 - `src_c9d5eab7e70865068637` — Feed post Gerald F. • 3rd+ Vice President IT-Operational Excellence at KARL STORZ 2h • Follow Early Experiences with Hermes Agent: From Chat
   - URL: https://www.linkedin.com/in/fuchsgerald?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAD3MBcBDO1IcZgD7m9ox4-8E5VP2VMtL6w
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/048-073d99dcef82a90f2d21.md`
+- `src_d2cbda9640e0a85ba81f` — Feed post Devfolio 14,439 followers 50m • Follow Last Saturday, we hosted Build with Hermes Agent at 2586Labs, bringing together builders ex
+  - URL: https://www.linkedin.com/company/devfolio/posts
+  - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/008-f11ab9741306c995a803.md`

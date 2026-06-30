@@ -122,6 +122,7 @@
     },
     {
       "chapter_id": "agent_runtime_security",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -145,6 +146,7 @@
     },
     {
       "chapter_id": "autonomous_research_pipeline",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -168,6 +170,7 @@
     },
     {
       "chapter_id": "browser_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -191,6 +194,7 @@
     },
     {
       "chapter_id": "citation_pipeline",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -214,6 +218,7 @@
     },
     {
       "chapter_id": "coding_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -237,6 +242,7 @@
     },
     {
       "chapter_id": "computer_use_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -260,6 +266,7 @@
     },
     {
       "chapter_id": "desktop_ai_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -283,6 +290,7 @@
     },
     {
       "chapter_id": "enterprise_ai_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -306,6 +314,7 @@
     },
     {
       "chapter_id": "human_approval_workflow",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -329,6 +338,7 @@
     },
     {
       "chapter_id": "local_ai_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -352,6 +362,7 @@
     },
     {
       "chapter_id": "local_first_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -375,6 +386,7 @@
     },
     {
       "chapter_id": "mcp_tools",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -398,6 +410,7 @@
     },
     {
       "chapter_id": "multi_agent_workflows",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -421,6 +434,7 @@
     },
     {
       "chapter_id": "observability_for_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -444,6 +458,7 @@
     },
     {
       "chapter_id": "red_team_review",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -467,6 +482,7 @@
     },
     {
       "chapter_id": "self_improving_agents",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [
@@ -490,6 +506,7 @@
     },
     {
       "chapter_id": "source_registry",
+      "chapter_state": "chapter_seed_visible",
       "human_approved_at_utc": "2026-06-21T19:43:40Z",
       "mode": "human_approved_research_pair",
       "required_gates": [

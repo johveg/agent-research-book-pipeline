@@ -1,17 +1,17 @@
 # Claude
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T21:23:28Z
+- Last seen: 2026-06-30T05:15:20Z
 - Source count: 32
-- Mention count: 516
+- Mention count: 597
 
 ## Description
 
-Candidate concept entity extracted from 3 source(s).
+Candidate concept entity extracted from 10 source(s).
 
 ## Related claims
 
@@ -41,13 +41,13 @@ Candidate concept entity extracted from 3 source(s).
 - `src_b555aaef61025e1c6424` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
   - Archive: `web/production-daily-20260617/openclaw-hermes/03-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
-- `src_764fd6b8ed3fd996bdee` — Sharing a project I have been dogfooding for about a month, and got to happy results with. I kept wanting to ask Claude about my own money.
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-a2c7d5c5e06dc15d0ae6.md`
 - `src_2b197382da71c16794fc` — How do I stop re-explaining project details to different AI models? Every AI tool starts with a blank slate. You open a new chat in Claude,
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/142-72f85bf44efb1ddfc919.md`
 - `src_5fa0e028eb03926ab3e8` — Feed post Abdeljabbar Elassali • 3rd+ Founder of Vilix | The cross-AI memory layer (MCP), live now | Giving ChatGPT, Claude, Cursor & Codex
   - URL: https://www.linkedin.com/in/abdeljabbarelassali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB0-3AIBtMkCobQecxKU1aZ-0EQlJiq2FKY
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/141-f3065f895dbc2387f970.md`
+- `src_764fd6b8ed3fd996bdee` — Sharing a project I have been dogfooding for about a month, and got to happy results with. I kept wanting to ask Claude about my own money.
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/020-a2c7d5c5e06dc15d0ae6.md`
 - `src_912542b70de2db6fbadb` — STOP aux chatbots qui vous font perdre du temps. Vous passez encore vos journées à copier-coller des prompts dans ChatGPT ou Claude ? Vous r
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/066-e480a8e9d822e9878386.md`
 - `src_e7a410ddda311813dc75` — Feed post Federico Greco Barragán • 3rd+ KAM @ CDA | Especialista en IA Agéntica & Automatización con Multi-Agentes | OpenClaw • Claude • De
@@ -69,8 +69,6 @@ Candidate concept entity extracted from 3 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/080-25e32e91cf9dcd537b4d.md`
 - `src_0596247e69d3b6cce8d7` — My AI costs have quintupled in less than a year. And I suspect that was just the beginning. Earlier this year, my $20 hashtag #Claude subscr
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/077-5ed45271dc1e4df5ee31.md`
-- `src_136972744c8b3999bcb1` — I asked my AI to keep improving itself. It refused. It was right. This week I built an instruction system for Claude based on Loop Engineeri
-  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/046-a77d66d5160599b679dc.md`
 - `src_f22f7348ef071c6e34fd` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
   - Archive: `web/production-daily-20260623/openclaw-hermes/01-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
@@ -80,6 +78,8 @@ Candidate concept entity extracted from 3 source(s).
 - `src_cb919b799dd33a618953` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
   - Archive: `web/production-daily-20260625/openclaw-hermes/03-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
+- `src_136972744c8b3999bcb1` — I asked my AI to keep improving itself. It refused. It was right. This week I built an instruction system for Claude based on Loop Engineeri
+  - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/046-a77d66d5160599b679dc.md`
 - `src_888ad805e840b9b5902f` — Feed post Jon Ingi Ingimundarson Jon Ingi Ingimundarson • 3rd+ CTO and Strategy at Ljósleiðarinn 4h • Follow Tonight I ran multiple Claude C
   - URL: https://www.linkedin.com/in/joningi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAATAwBKzRfL9Mf6xl1WZxInXuPuJH1pDs
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/069-ba313021787612170d13.md`

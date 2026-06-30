@@ -1,20 +1,21 @@
 # Boris Cherny
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `concept`
-- Confidence: `medium`
+- Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-26T21:23:28Z
-- Source count: 13
-- Mention count: 118
+- Last seen: 2026-06-30T08:49:05Z
+- Source count: 18
+- Mention count: 162
 
 ## Description
 
-Candidate concept entity extracted from 2 source(s).
+Candidate concept entity extracted from 5 source(s).
 
 ## Related claims
 
+- **candidate / weak** — Boris Cherny Says Loop Engineering Has Replaced Prompting - Memeburn "loop engineering" AI agents memeburn.com. (`claim_93e2f4971c4ba8bf1f58`)
 - **needs_review / weak** — "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering "loop engineering". (`claim_0c76b2d0770ff1442eeb`)
 - **needs_review / weak** — My job is to write loops." That line is from Boris Cherny, head of "loop engineering". (`claim_49570dbf867b7755957b`)
 
@@ -30,21 +31,36 @@ Candidate concept entity extracted from 2 source(s).
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/013-0bf12273c34d33640095.md`
 - `src_04119334ec1ee2a928e1` — Where are we headed..... Boris Cherny (Creator of Claude Code) recently in one of his interviews mentioned - he doesn't code. He just create
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/130-372eae5f4dfdc174adda.md`
+- `src_44d736847e1215d4649f` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
+  - URL: https://github.com/cobusgreyling/loop-engineering
+  - Archive: `web/production-daily-20260626/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
+- `src_17270a4da206f85ccd78` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
+  - URL: https://github.com/cobusgreyling/loop-engineering
+  - Archive: `web/production-daily-20260625/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
 - `src_9da43a54cdf655735fdc` — Feed post Suhnylla Kler • 3rd+ Training Director 1h • Follow "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job
   - URL: https://www.linkedin.com/in/suhnylla-kler-17312b3?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACNaScB3YcHhw7ZWrJfFRaV3yPgkXUbG8U
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/018-787b48b968ca4d20f53e.md`
 - `src_c1fd14777568931947ca` — "Designing Loops" - A Practioners Short Guide Anthropic's Boris Cherny "My job is to write Loops" 🔄 Prompt Engineering, Context Engineering
   - URL: https://www.linkedin.com/company/anthropicresearch/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/020-cd9864f23d2744f6478a.md`
-- `src_17270a4da206f85ccd78` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
+- `src_650aef0347fec7bef9e2` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
   - URL: https://github.com/cobusgreyling/loop-engineering
-  - Archive: `web/production-daily-20260625/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
+  - Archive: `web/production-daily-20260628/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
+- `src_24c323161962e89ea4f1` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
+  - URL: https://github.com/cobusgreyling/loop-engineering
+  - Archive: `web/production-daily-20260629/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
+- `src_ca7d0a498a4a3e5cf1d6` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
+  - URL: https://github.com/cobusgreyling/loop-engineering
+  - Archive: `web/production-daily-20260629/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
+- `src_e423c318ab637b722530` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
+  - URL: https://github.com/cobusgreyling/loop-engineering
+  - Archive: `web/production-daily-20260630/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
 - `src_8897ca8d35c6bf69de6d` — "I do not prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops." That line is from Boris Cherny, head of
   - URL: https://www.linkedin.com/in/bcherny/
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/122-fe678d8667a2ddece8f0.md`
-- `src_44d736847e1215d4649f` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
+- `src_9a427161a7b2a23fa580` — GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost. · GitHub
   - URL: https://github.com/cobusgreyling/loop-engineering
-  - Archive: `web/production-daily-20260626/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
+  - Archive: `web/production-daily-20260630/loop-engineering-ai-agents/01-github-cobusgreyling-loop-engineering-practical-patterns-sta.md`
 - `src_2af6678feec1dc830ffa` — Boris Cherny (creator of Claude Code) said it best: "I don't prompt Claude anymore. I have loops running that prompt Claude... My job is to
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-da8f9cac9fb8cc885021.md`
 - `src_a17f316ca896d7027321` — "I don't prompt Claude anymore. I write loops." That one line from Boris Cherny — the Anthropic engineer who built Claude Code — stopped the

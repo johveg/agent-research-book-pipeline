@@ -1,17 +1,17 @@
 # Opinionated OpenClaw
 
-Last generated: 2026-06-26T21:23:28Z
+Last generated: 2026-06-30T08:49:06Z
 
 - Type: `tool`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-16T01:14:05Z
-- Last seen: 2026-06-26T03:30:14Z
-- Source count: 3
-- Mention count: 107
+- Last seen: 2026-06-30T08:49:05Z
+- Source count: 5
+- Mention count: 151
 
 ## Description
 
-Candidate tool entity extracted from 3 source(s).
+Candidate tool entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -28,3 +28,9 @@ No related claim records yet.
 - `src_8340a05b8040ca09175f` — GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent Brain · GitHub
   - URL: https://github.com/garrytan/gbrain
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/04-github-garrytan-gbrain-garry-s-opinionated-openclaw-hermes-a.md`
+- `src_c3f3618871cd4508cf55` — GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent Brain · GitHub
+  - URL: https://github.com/garrytan/gbrain
+  - Archive: `web/production-daily-20260627/openclaw-hermes/03-github-garrytan-gbrain-garry-s-opinionated-openclaw-hermes-a.md`
+- `src_26750565f55428afa502` — GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent Brain · GitHub
+  - URL: https://github.com/garrytan/gbrain
+  - Archive: `web/production-daily-20260627/openclaw-hermes/03-github-garrytan-gbrain-garry-s-opinionated-openclaw-hermes-a.md`

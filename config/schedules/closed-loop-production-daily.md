@@ -4,13 +4,13 @@
 
 ```yaml
 status_metadata:
-  emitted_at_unix_s: 1782444601
-  emitted_at_unix_ms: 1782444601167
-  emitted_at_utc_iso: "2026-06-26T03:30:01Z"
-  emitted_at_oslo_iso: "2026-06-26T05:30:01+02:00"
+  emitted_at_unix_s: 1782796505
+  emitted_at_unix_ms: 1782796505007
+  emitted_at_utc_iso: "2026-06-30T05:15:05Z"
+  emitted_at_oslo_iso: "2026-06-30T07:15:05+02:00"
   timezone: Europe/Oslo
   component: production_daily_scheduler
-  run_id: production-daily-20260626
+  run_id: production-daily-20260630
   status: production_monitor_ok
   severity: success
   disposition: production_monitor_ok
@@ -25,10 +25,10 @@ status_metadata:
   duration_seconds: null
 ```
 
-Generated: 2026-06-26T03:30:01Z
+Generated: 2026-06-30T05:15:05Z
 
 - target_channel: `AL-Hermoine-OPS`
-- run_id: `production-daily-20260626`
+- run_id: `production-daily-20260630`
 - mode: `run45_schedule_install_artifact`
 - schedule_installed: `False`
 - schedule_installable: `True`

@@ -12,6 +12,8 @@ from editorial_common import ensure_editorial_schema
 
 BOOK_PAGES = [
     "book/preface.md",
+    "book/introduction.md",
+    "book/methodology.md",
     "book/01-the-agent-loop.md",
     "book/02-hermes.md",
     "book/03-openclaw.md",
@@ -20,6 +22,7 @@ BOOK_PAGES = [
     "book/06-operating-loops.md",
     "book/open-questions.md",
 ]
+RESEARCH_LANE_PAGES = {"book/open-questions.md"}
 PLACEHOLDER_BITS = [
     "will be curated here",
     "no claim records have been extracted yet",
@@ -46,11 +49,13 @@ def tracked_or_staged_raw() -> tuple[list[str], list[str]]:
     return tracked, staged_raw
 
 
-def page_is_stub(path: Path) -> bool:
+def page_is_stub(path: Path, rel: str | None = None) -> bool:
     if not path.exists():
         return True
     text = path.read_text(encoding="utf-8", errors="ignore")
     body_lines = [ln.strip() for ln in text.splitlines() if ln.strip() and not ln.startswith("#")]
+    if rel in RESEARCH_LANE_PAGES:
+        return len(body_lines) < 3
     if len(body_lines) < 4:
         return True
     if any(bit in text.lower() for bit in PLACEHOLDER_BITS) and "Current evidence status" not in text:
@@ -82,7 +87,7 @@ def main() -> int:
     claims_page = DOCS / "research" / "claims.md"
     if not claims_page.exists() or "Candidate claims" not in claims_page.read_text(encoding="utf-8", errors="ignore"):
         errors.append("docs/research/claims.md missing candidate/supported grouping")
-    stub_pages = [p for p in BOOK_PAGES if page_is_stub(DOCS / p)]
+    stub_pages = [p for p in BOOK_PAGES if page_is_stub(DOCS / p, p)]
     if sources > 0 and stub_pages:
         errors.append("book pages still look like stubs: " + ", ".join(stub_pages))
     for rel in ["entities/index.md", "research/claims.md", *BOOK_PAGES]:

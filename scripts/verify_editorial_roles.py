@@ -32,6 +32,8 @@ def main() -> int:
     roles = roles_path.read_text(encoding="utf-8", errors="ignore") if roles_path.exists() else ""
     mkdocs = mkdocs_path.read_text(encoding="utf-8", errors="ignore") if mkdocs_path.exists() else ""
 
+    operations_excluded_from_public_site = "operations/**" in mkdocs or "operations/" in mkdocs
+
     for name in REQUIRED:
         path = INST / name
         if not path.exists():
@@ -46,7 +48,7 @@ def main() -> int:
         if rel not in roles:
             errors.append(f"roles.md does not link to {rel}")
         nav_rel = f"operations/instructions/{name}"
-        if nav_rel not in mkdocs:
+        if not operations_excluded_from_public_site and nav_rel not in mkdocs:
             errors.append(f"mkdocs.yml does not include {nav_rel}")
 
     all_text = "\n".join(

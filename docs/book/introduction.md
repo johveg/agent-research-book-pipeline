@@ -22,7 +22,7 @@ The chapters are organized around a progression from concept to operation. The o
 
 This structure is intentionally conservative. The book does not claim that prompts no longer matter, that agent loops solve governance, or that automation removes editorial responsibility. It instead asks how prompts, tools, memory, verification, reporting, and escalation fit together when a system acts repeatedly over time. A useful loop is not merely one that runs unattended. It is one whose boundaries, evidence, and failure modes are visible enough that its output can be assessed. [2] [3]
 
-## Evidence Limits
+## Limitations
 
 The main limitation of the current manuscript is that its source base is uneven. Some chapters draw on concrete operational reports and project documentation; others still need stronger literature support, clearer definitions, and more explicit methodology. The book should therefore be read as an academic and professional manuscript in development, not as a finished survey of a settled field. Its strongest claims concern the design and governance of the local closed-loop production system. Broader claims about industry transition, adoption, or disciplinary status remain deliberately caveated. [1] [3]
 

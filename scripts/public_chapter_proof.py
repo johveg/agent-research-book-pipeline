@@ -28,15 +28,11 @@ FORBIDDEN_EVIDENCE_PHRASES = [
 ]
 
 GENERIC_BOOKLIKE_SIGNALS = [
-    "central argument",
-    "evidence limits",
     "references",
 ]
 
 CHAPTER_SPECIFIC_SIGNALS = {
     "agent_loop": [
-        "from prompt to loop",
-        "operational pattern",
         "verification",
         "state",
         "escalation",

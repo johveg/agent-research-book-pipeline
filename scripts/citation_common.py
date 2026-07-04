@@ -107,7 +107,6 @@ def citation_label(record: dict[str, Any]) -> str:
     author = record.get("author")
     date = record.get("published_at") or record.get("captured_at") or "unknown date"
     url = record.get("canonical_url") or record.get("original_url")
-    quality = record.get("quality_score") or "unknown"
     source_id = record.get("source_id")
     bits = []
     if author:
@@ -117,9 +116,8 @@ def citation_label(record: dict[str, Any]) -> str:
     bits.append(str(date))
     if url:
         bits.append(str(url))
-    bits.append(f"quality {quality}")
-    # Do not expose internal source IDs in public book pages. Traceability is
-    # preserved in data/source_registry.json.
+    # Do not expose internal source IDs or report-only source quality labels in
+    # public book pages. Traceability is preserved in data/source_registry.json.
     return ", ".join(bits) + "."
 
 
@@ -177,9 +175,12 @@ def resolve_text_citations(text: str, registry: dict[str, dict[str, Any]] | None
     text = BARE_ID_RE.sub(lambda m: cite_for_identifier(m.group(1)), text)
     text = text.replace("[unresolved citation]", "")
 
-    # Replace an existing generated reference section to keep reruns idempotent.
-    text = re.sub(r"\n## References\n\n.*\Z", "", text, flags=re.S).rstrip() + "\n"
+    # Replace an existing generated reference section only when this pass has
+    # resolved raw citation tokens. If a page already contains reader-facing
+    # numeric citations and references, a no-token resolver pass must be
+    # idempotent and must not delete the bibliography.
     if citation_numbers:
+        text = re.sub(r"\n## References\n\n.*\Z", "", text, flags=re.S).rstrip() + "\n"
         references = ["", "## References", ""]
         for source_id, number in sorted(citation_numbers.items(), key=lambda item: item[1]):
             references.append(f"[{number}] {citation_label(registry[source_id])}")

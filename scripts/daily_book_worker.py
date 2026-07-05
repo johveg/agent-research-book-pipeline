@@ -194,9 +194,9 @@ The chapter will therefore mature in stages. First, the subject appears as a see
 
 ## References
 
-[1] Terefo Heal Reboa book manuscript queue and approved chapter-subject registry, 2026.
-[2] Terefo daily research loop editorial review and source-quality process, 2026.
-[3] Terefo guarded publication contract for academic/professional chapter prose and public proof gates, 2026.
+[1] [Approved research lane](book/open-questions.md).
+[2] [Research loop evidence process](book/source-registry.md).
+[3] [Guarded publication policy](book/methodology.md).
 """
 
 

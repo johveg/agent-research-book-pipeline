@@ -1,13 +1,13 @@
 # AI Builder
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-30T10:04:24Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 6
-- Mention count: 91
+- Mention count: 99
 
 ## Description
 
@@ -19,7 +19,7 @@ No related claim records yet.
 
 ## Source references
 
-- `src_b8b7fcd6dfbe6fc660e2` — Feed post Lily La Lily La • 3rd+ AI Builder l Working until making $1M 3h • Follow 10 open-source GitHub repos doing real work on autopilot
+- `src_b8b7fcd6dfbe6fc660e2` — Feed post Lily La Lily La • 3rd+ AI Builder l Working until making $1M 3h • Follow 10 open-source GitHub repos doing real work on autopilot 
   - URL: https://www.linkedin.com/in/thuyla-business?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADN9jRMB1JG_qKeeDFJOumli6sgso-flRNc
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/065-57960d51b412e79eb153.md`
 - `src_898eaec2bf887638012a` — Feed post Lily La Lily La • 3rd+ AI Builder l Working until making $1M 10h • Follow Loop Engineering - Stop Prompting AI. Start Designing Sy
@@ -34,6 +34,6 @@ No related claim records yet.
 - `src_54590df748b4458202a0` — Feed post Lily La Lily La • 3rd+ AI Builder l Working until making $1M 10h • Follow Loop Engineering - Stop Prompting AI. Start Designing Sy
   - URL: https://www.linkedin.com/in/thuyla-business?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADN9jRMB1JG_qKeeDFJOumli6sgso-flRNc
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/107-37c4448bfe61a4e08d05.md`
-- `src_0b297c7d7e8f4eaf1671` — Feed post Chen Liu • 3rd+ AI Product, AI Builder & Creator, Business & Entrepreneurship 10h • Follow A few weeks ago I shared how I used AI
+- `src_0b297c7d7e8f4eaf1671` — Feed post Chen Liu • 3rd+ AI Product, AI Builder & Creator, Business & Entrepreneurship 10h • Follow A few weeks ago I shared how I used AI 
   - URL: https://www.linkedin.com/in/chenliu1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABERYdIBC0nkmKkqaWNc92XZIrAIHH_dAEo
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/141-6cca97274b60c4ef4b96.md`

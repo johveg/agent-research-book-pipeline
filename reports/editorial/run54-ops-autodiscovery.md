@@ -501,6 +501,20 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-07-03_04-20-30.md",
+        "terms": [
+          "AL-Hermoine-OPS",
+          "Hermoine",
+          "OPS",
+          "channel",
+          "target"
+        ]
+      },
+      "source": "/root/.hermes/profiles/ops-bot"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_12-20-30.md",
         "terms": [
           "AL-Hermoine-OPS",
@@ -921,34 +935,6 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_19-20-15.md",
-        "terms": [
-          "AL-Hermoine-OPS",
-          "Hermoine",
-          "OPS",
-          "channel",
-          "target"
-        ]
-      },
-      "source": "/root/.hermes/profiles/ops-bot"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/run_agent.py",
-        "terms": [
-          "OPS",
-          "channel",
-          "target",
-          "chat",
-          "group"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
         "path": "/home/ubuntu/.hermes/hermes-agent/model_tools.py",
         "terms": [
           "OPS",
@@ -1002,6 +988,7 @@
         "terms": [
           "OPS",
           "telegram",
+          "channel",
           "target",
           "chat",
           "group"
@@ -1029,20 +1016,6 @@
           "OPS",
           "telegram",
           "channel",
-          "target",
-          "chat",
-          "group"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/hermes_state.py",
-        "terms": [
-          "OPS",
-          "telegram",
           "target",
           "chat",
           "group"
@@ -1127,13 +1100,39 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/cron/lifecycle_guard.py",
+        "terms": [
+          "OPS",
+          "target"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/home/ubuntu/.hermes/hermes-agent/cron/scheduler.py",
         "terms": [
           "OPS",
           "telegram",
           "channel",
           "target",
-          "chat"
+          "chat",
+          "group",
+          "supergroup"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/cron/jobs.py",
+        "terms": [
+          "OPS",
+          "telegram",
+          "target",
+          "group"
         ]
       },
       "source": "/home/ubuntu/.hermes/hermes-agent"
@@ -1169,6 +1168,27 @@
           "OPS",
           "target",
           "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/nix/desktop.nix",
+        "terms": [
+          "OPS"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/ui-tui/README.md",
+        "terms": [
+          "OPS",
+          "chat"
         ]
       },
       "source": "/home/ubuntu/.hermes/hermes-agent"
@@ -1220,6 +1240,17 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/agent/tool_executor.py",
+        "terms": [
+          "OPS",
+          "target"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/home/ubuntu/.hermes/hermes-agent/agent/conversation_compression.py",
         "terms": [
           "OPS",
@@ -1243,6 +1274,16 @@
     {
       "confidence": "low",
       "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/agent/turn_context.py",
+        "terms": [
+          "OPS"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
         "path": "/home/ubuntu/.hermes/hermes-agent/agent/process_bootstrap.py",
         "terms": [
           "OPS"
@@ -1256,6 +1297,7 @@
         "path": "/home/ubuntu/.hermes/hermes-agent/agent/chat_completion_helpers.py",
         "terms": [
           "OPS",
+          "telegram",
           "channel",
           "target",
           "chat"
@@ -1273,6 +1315,19 @@
           "target",
           "chat",
           "group"
+        ]
+      },
+      "source": "/home/ubuntu/.hermes/hermes-agent"
+    },
+    {
+      "confidence": "low",
+      "redacted_match": {
+        "path": "/home/ubuntu/.hermes/hermes-agent/agent/system_prompt.py",
+        "terms": [
+          "OPS",
+          "channel",
+          "target",
+          "chat"
         ]
       },
       "source": "/home/ubuntu/.hermes/hermes-agent"
@@ -1315,23 +1370,11 @@
     {
       "confidence": "low",
       "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/agent/conversation_loop.py",
-        "terms": [
-          "OPS",
-          "telegram",
-          "target",
-          "chat"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
         "path": "/home/ubuntu/.hermes/hermes-agent/agent/gemini_native_adapter.py",
         "terms": [
           "OPS",
-          "chat"
+          "chat",
+          "group"
         ]
       },
       "source": "/home/ubuntu/.hermes/hermes-agent"
@@ -1370,77 +1413,6 @@
           "target",
           "chat",
           "group"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/agent/context_compressor.py",
-        "terms": [
-          "OPS",
-          "channel",
-          "target",
-          "chat",
-          "group"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/agent/gemini_schema.py",
-        "terms": [
-          "OPS"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/agent/curator.py",
-        "terms": [
-          "OPS",
-          "target",
-          "chat",
-          "group"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/agent/plugin_llm.py",
-        "terms": [
-          "OPS",
-          "target",
-          "chat",
-          "group"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/agent/credits_tracker.py",
-        "terms": [
-          "OPS",
-          "target"
-        ]
-      },
-      "source": "/home/ubuntu/.hermes/hermes-agent"
-    },
-    {
-      "confidence": "low",
-      "redacted_match": {
-        "path": "/home/ubuntu/.hermes/hermes-agent/agent/image_gen_registry.py",
-        "terms": [
-          "OPS"
         ]
       },
       "source": "/home/ubuntu/.hermes/hermes-agent"
@@ -1947,6 +1919,16 @@
           ]
         },
         {
+          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-07-03_04-20-30.md",
+          "terms": [
+            "AL-Hermoine-OPS",
+            "Hermoine",
+            "OPS",
+            "channel",
+            "target"
+          ]
+        },
+        {
           "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-26_12-20-30.md",
           "terms": [
             "AL-Hermoine-OPS",
@@ -2245,16 +2227,6 @@
             "channel",
             "target"
           ]
-        },
-        {
-          "path": "/root/.hermes/profiles/ops-bot/cron/output/b8189ef795c3/2026-06-24_19-20-15.md",
-          "terms": [
-            "AL-Hermoine-OPS",
-            "Hermoine",
-            "OPS",
-            "channel",
-            "target"
-          ]
         }
       ],
       "path": "/root/.hermes/profiles/ops-bot"
@@ -2263,6 +2235,14 @@
       "exists": true,
       "is_dir": true,
       "matches": [
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/README.es.md",
+          "terms": [
+            "telegram",
+            "target",
+            "chat"
+          ]
+        },
         {
           "path": "/home/ubuntu/.hermes/hermes-agent/README.ur-pk.md",
           "terms": [
@@ -2281,13 +2261,9 @@
           ]
         },
         {
-          "path": "/home/ubuntu/.hermes/hermes-agent/run_agent.py",
+          "path": "/home/ubuntu/.hermes/hermes-agent/hermes_bootstrap.py",
           "terms": [
-            "OPS",
-            "channel",
-            "target",
-            "chat",
-            "group"
+            "target"
           ]
         },
         {
@@ -2316,6 +2292,13 @@
           "path": "/home/ubuntu/.hermes/hermes-agent/setup.py",
           "terms": [
             "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/CONTRIBUTING.es.md",
+          "terms": [
+            "telegram",
+            "chat"
           ]
         },
         {
@@ -2360,6 +2343,12 @@
           ]
         },
         {
+          "path": "/home/ubuntu/.hermes/hermes-agent/SECURITY.es.md",
+          "terms": [
+            "telegram"
+          ]
+        },
+        {
           "path": "/home/ubuntu/.hermes/hermes-agent/.hadolint.yaml",
           "terms": [
             "OPS",
@@ -2371,6 +2360,7 @@
           "terms": [
             "OPS",
             "telegram",
+            "channel",
             "target",
             "chat",
             "group"
@@ -2418,16 +2408,6 @@
           ]
         },
         {
-          "path": "/home/ubuntu/.hermes/hermes-agent/hermes_state.py",
-          "terms": [
-            "OPS",
-            "telegram",
-            "target",
-            "chat",
-            "group"
-          ]
-        },
-        {
           "path": "/home/ubuntu/.hermes/hermes-agent/hermes-already-has-routines.md",
           "terms": [
             "telegram",
@@ -2449,6 +2429,7 @@
         {
           "path": "/home/ubuntu/.hermes/hermes-agent/hermes_logging.py",
           "terms": [
+            "chat",
             "group"
           ]
         },
@@ -2466,6 +2447,7 @@
         {
           "path": "/home/ubuntu/.hermes/hermes-agent/hermes_constants.py",
           "terms": [
+            "target",
             "group"
           ]
         },
@@ -2504,12 +2486,6 @@
           "path": "/home/ubuntu/.hermes/hermes-agent/scripts/tool_search_livetest.py",
           "terms": [
             "channel",
-            "target"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/scripts/setup_open_webui.sh",
-          "terms": [
             "target"
           ]
         },
@@ -2567,18 +2543,49 @@
           ]
         },
         {
+          "path": "/home/ubuntu/.hermes/hermes-agent/cron/blueprint_catalog.py",
+          "terms": [
+            "telegram",
+            "channel",
+            "chat",
+            "group"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/cron/lifecycle_guard.py",
+          "terms": [
+            "OPS",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/cron/suggestion_catalog.py",
+          "terms": [
+            "chat"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/cron/suggestions.py",
+          "terms": [
+            "chat"
+          ]
+        },
+        {
           "path": "/home/ubuntu/.hermes/hermes-agent/cron/scheduler.py",
           "terms": [
             "OPS",
             "telegram",
             "channel",
             "target",
-            "chat"
+            "chat",
+            "group",
+            "supergroup"
           ]
         },
         {
           "path": "/home/ubuntu/.hermes/hermes-agent/cron/jobs.py",
           "terms": [
+            "OPS",
             "telegram",
             "target",
             "group"
@@ -2621,6 +2628,12 @@
           ]
         },
         {
+          "path": "/home/ubuntu/.hermes/hermes-agent/nix/desktop.nix",
+          "terms": [
+            "OPS"
+          ]
+        },
+        {
           "path": "/home/ubuntu/.hermes/hermes-agent/ui-tui/tsconfig.json",
           "terms": [
             "target"
@@ -2629,6 +2642,7 @@
         {
           "path": "/home/ubuntu/.hermes/hermes-agent/ui-tui/README.md",
           "terms": [
+            "OPS",
             "chat"
           ]
         },
@@ -2661,7 +2675,21 @@
           ]
         },
         {
+          "path": "/home/ubuntu/.hermes/hermes-agent/agent/moa_loop.py",
+          "terms": [
+            "target",
+            "chat"
+          ]
+        },
+        {
           "path": "/home/ubuntu/.hermes/hermes-agent/agent/tool_executor.py",
+          "terms": [
+            "OPS",
+            "target"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/agent/verification_evidence.py",
           "terms": [
             "target"
           ]
@@ -2682,6 +2710,18 @@
           ]
         },
         {
+          "path": "/home/ubuntu/.hermes/hermes-agent/agent/turn_context.py",
+          "terms": [
+            "OPS"
+          ]
+        },
+        {
+          "path": "/home/ubuntu/.hermes/hermes-agent/agent/context_breakdown.py",
+          "terms": [
+            "group"
+          ]
+        },
+        {
           "path": "/home/ubuntu/.hermes/hermes-agent/agent/azure_identity_adapter.py",
           "terms": [
             "target"
@@ -2694,9 +2734,16 @@
           ]
         },
         {
+          "path": "/home/ubuntu/.hermes/hermes-agent/agent/learning_graph_render.py",
+          "terms": [
+            "group"
+          ]
+        },
+        {
           "path": "/home/ubuntu/.hermes/hermes-agent/agent/chat_completion_helpers.py",
           "terms": [
             "OPS",
+            "telegram",
             "channel",
             "target",
             "chat"
@@ -2713,14 +2760,22 @@
           ]
         },
         {
+          "path": "/home/ubuntu/.hermes/hermes-agent/agent/message_content.py",
+          "terms": [
+            "chat"
+          ]
+        },
+        {
           "path": "/home/ubuntu/.hermes/hermes-agent/agent/codex_runtime.py",
           "terms": [
+            "telegram",
             "chat"
           ]
         },
         {
           "path": "/home/ubuntu/.hermes/hermes-agent/agent/system_prompt.py",
           "terms": [
+            "OPS",
             "channel",
             "target",
             "chat"
@@ -2750,19 +2805,11 @@
           ]
         },
         {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/conversation_loop.py",
-          "terms": [
-            "OPS",
-            "telegram",
-            "target",
-            "chat"
-          ]
-        },
-        {
           "path": "/home/ubuntu/.hermes/hermes-agent/agent/gemini_native_adapter.py",
           "terms": [
             "OPS",
-            "chat"
+            "chat",
+            "group"
           ]
         },
         {
@@ -2795,87 +2842,6 @@
             "target",
             "chat",
             "group"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/context_compressor.py",
-          "terms": [
-            "OPS",
-            "channel",
-            "target",
-            "chat",
-            "group"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/gemini_schema.py",
-          "terms": [
-            "OPS"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/tts_provider.py",
-          "terms": [
-            "telegram"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/rate_limit_tracker.py",
-          "terms": [
-            "chat"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/credential_pool.py",
-          "terms": [
-            "target",
-            "chat",
-            "group"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/curator.py",
-          "terms": [
-            "OPS",
-            "target",
-            "chat",
-            "group"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/plugin_llm.py",
-          "terms": [
-            "OPS",
-            "target",
-            "chat",
-            "group"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/copilot_acp_client.py",
-          "terms": [
-            "target",
-            "chat",
-            "group"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/credits_tracker.py",
-          "terms": [
-            "OPS",
-            "target"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/insights.py",
-          "terms": [
-            "group"
-          ]
-        },
-        {
-          "path": "/home/ubuntu/.hermes/hermes-agent/agent/image_gen_registry.py",
-          "terms": [
-            "OPS"
           ]
         }
       ],
@@ -2924,10 +2890,10 @@
   "status_metadata": {
     "component": "ops_channel_autodiscovery",
     "disposition": "ops_alias_unresolved_retry_scheduled",
-    "emitted_at_oslo_iso": "2026-06-30T12:00:04+02:00",
-    "emitted_at_unix_ms": 1782813604343,
-    "emitted_at_unix_s": 1782813604,
-    "emitted_at_utc_iso": "2026-06-30T10:00:04Z",
+    "emitted_at_oslo_iso": "2026-07-05T17:45:04+02:00",
+    "emitted_at_unix_ms": 1783266304856,
+    "emitted_at_unix_s": 1783266304,
+    "emitted_at_utc_iso": "2026-07-05T15:45:04Z",
     "run_id": "run54",
     "severity": "warning",
     "status": "ops_alias_unresolved_retry_scheduled",

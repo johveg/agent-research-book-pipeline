@@ -1,13 +1,13 @@
 # Hermes AI
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:04:24Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 6
-- Mention count: 99
+- Mention count: 115
 
 ## Description
 
@@ -31,6 +31,6 @@ Candidate tool entity extracted from 2 source(s).
 - `src_0b40058568ca8368d5c7` — Openclaw and Hermes AI agents have been transformative for our company PayPerQ (PPQ.AI). Our monthly deposit volume growth since Nov '25 has
   - URL: https://www.linkedin.com/company/payperq/
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/116-10b3642afa281826367b.md`
-- `src_92e0bf89b61bd45ed112` — Feed post Matt Ahlborg • 3rd+ Founder and CEO, PayPerQ (PPQ.AI) 12h • Follow Openclaw and Hermes AI agents have been transformative for our
+- `src_92e0bf89b61bd45ed112` — Feed post Matt Ahlborg • 3rd+ Founder and CEO, PayPerQ (PPQ.AI) 12h • Follow Openclaw and Hermes AI agents have been transformative for our 
   - URL: https://www.linkedin.com/in/mattahlborg?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB-nmL4B-IeBJ48F7OszugfDOI5nFv_u32U
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/114-4ea9ec1d556bad7da387.md`

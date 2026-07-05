@@ -1,13 +1,13 @@
 # Hermes Agent Telegram Bot Setup
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-15T13:28:52Z
-- Last seen: 2026-06-30T10:06:21Z
-- Source count: 4
-- Mention count: 101
+- Last seen: 2026-07-04T18:45:39Z
+- Source count: 5
+- Mention count: 150
 
 ## Description
 
@@ -31,3 +31,6 @@ No related claim records yet.
 - `src_9a4e5a996634cda3d238` — Hermes Agent Telegram Bot Setup Guide - Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/hermes-agent-telegram-setup
   - Archive: `web/production-daily-20260630/hermes-openclaw/02-hermes-agent-telegram-bot-setup-guide-remote-openclaw.md`
+- `src_93de31b01da022343b4b` — Hermes Agent Telegram Bot Setup Guide - Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/hermes-agent-telegram-setup
+  - Archive: `web/production-daily-20260702/hermes-openclaw/03-hermes-agent-telegram-bot-setup-guide-remote-openclaw.md`

@@ -102,6 +102,24 @@ def test_router_defers_weak_or_social_only_material_without_chapter_mutation(tmp
     result = router.route_packet(packet(evidence_strength="weak", source_ids=["linkedin:1"], topics=["browser agents"]), router.load_chapters(write_contract(tmp_path)))
     assert [event["event_type"] for event in result["events"]] == ["evidence.packet.deferred", "research_gap.detected"]
     assert result["events"][0]["payload"]["no_book_mutation"] is True
+    trace = result["events"][1]["payload"]["trace"]
+    assert trace["reason_code"] == "weak_or_social_only_evidence"
+    assert trace["source_count"] == 1
+    assert trace["required_source_count"] == 3
+
+
+def test_router_research_gap_trace_includes_threshold_and_top_matches(tmp_path):
+    router = load_script("chapter_router")
+    result = router.route_packet(packet(source_ids=["src1", "src2"], topics=["agent runtime security", "sandbox"]), router.load_chapters(write_contract(tmp_path)), threshold=0.34)
+    gaps = [event for event in result["events"] if event["event_type"] == "research_gap.detected"]
+    assert gaps
+    trace = gaps[0]["payload"].get("trace", {})
+    assert trace["reason_code"] == "source_count_below_minimum"
+    assert trace["fit_threshold"] == 0.34
+    assert trace["source_count"] == 2
+    assert trace["required_source_count"] == 3
+    assert isinstance(trace.get("top_match_scores"), list)
+    assert trace["top_match_scores"]
 
 
 def test_chapter_update_worker_produces_patch_proposal_without_mutating_docs(tmp_path):
@@ -289,6 +307,8 @@ def test_scheduler_event_driven_no_content_delta_completes_as_status_fallback(mo
             return {"proposal_paths": ["proposal.json"]}
         if "mutation-guard" in text:
             return {"ok": True, "failed_checks": []}
+        if "-all-chapters-public-proof" in text:
+            return {"ok": False, "failed_chapters": ["legacy"]}
         return {}
     monkeypatch.setattr(scheduler, "summarize_json", fake_summary)
     cfg = {
@@ -337,6 +357,9 @@ def test_scheduler_event_driven_no_content_delta_completes_as_status_fallback(mo
     assert report["daily_status_fallback_applied"] is True
     assert report["final_disposition"] == "production_daily_completed"
     assert "no_substantive_or_daily_status_publication" not in report["blockers"]
+    assert report.get("no_content_delta_guarded_completion") is True
+    assert "editorial_verifier_ok" in (report.get("waived_gates") or [])
+    assert "gate:editorial_verifier_ok" not in report["blockers"]
 
 def test_publication_joiner_keeps_seed_creation_out_of_public_nav(tmp_path):
     joiner = load_script("book_publication_joiner")

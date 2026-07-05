@@ -1,17 +1,17 @@
 # Loop Engineering
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:06:21Z
-- Source count: 692
-- Mention count: 30571
+- Last seen: 2026-07-04T18:45:39Z
+- Source count: 703
+- Mention count: 34372
 
 ## Description
 
-Candidate concept entity extracted from 21 source(s).
+Candidate concept entity extracted from 14 source(s).
 
 ## Related claims
 
@@ -65,22 +65,16 @@ Candidate concept entity extracted from 21 source(s).
 - `src_41e8a0897070220ef54f` — Loop Engineering at Enterprise Scale: Managing Agent Fleets
   - URL: https://www.truefoundry.com/blog/loop-engineering-fleet-runtime
   - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/01-loop-engineering-at-enterprise-scale-managing-agent-fleets.md`
-- `src_165be7bf9b82307be14b` — Reposting Avi Chawla's excellent thread on loop engineering: https://lnkd.in/eVbJSwFA Karpathy's "loop engineering" framing nails something
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/072-89a629732648d41bf4ac.md`
-- `src_916646b95f1aae5006ea` — Prompt Engineering was: "AI, do this." Loop Engineering is: "AI, do this → check this → fix this → repeat until it's good." 😄 We're slowly m
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/108-8d4904c726b2380daa0e.md`
 - `src_3448357365f6d9049464` — Loop Engineering: 7 Levels From Prompting to Loops
   - URL: https://prosperinai.substack.com/p/ai-loop-engineering-guide
   - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/01-loop-engineering-7-levels-from-prompting-to-loops.md`
-- `src_f9f9b06c41f52c9e1145` — Loop Engineering: Designing Systems That Run AI Agents Instead of Prompting Them Manually I recently went through this piece on Loop Enginee
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/114-06522d7b1dbae8a1c9ba.md`
-- `src_59431ceecad225b8a238` — From prompt engineering, to context engineering, to harness engineering, now it's loop engineering. Are they just some different AI buzz wor
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/048-cfa9c9a2382a204960dc.md`
 - `src_93dcc66b556e80f95ab3` — Loop engineering sounds obvious until you put a budget next to it. OpenClaws founder 🦄 Peter Steinberger posted, “monthly reminder for you t
   - URL: https://www.linkedin.com/in/steipete/
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/042-1c66429dbbda891e4887.md`
-- `src_d885b32447e9f7fd8aef` — Q: How woud you call "rat race" in the era of LLMs? A: Loop Engineering! source: - Image generated with Gemini - Prompt description is my ow
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/125-6276e60a36bffe5716ea.md`
+- `src_165be7bf9b82307be14b` — Reposting Avi Chawla's excellent thread on loop engineering: https://lnkd.in/eVbJSwFA Karpathy's "loop engineering" framing nails something 
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/072-89a629732648d41bf4ac.md`
+- `src_59431ceecad225b8a238` — From prompt engineering, to context engineering, to harness engineering, now it's loop engineering. Are they just some different AI buzz wor
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/048-cfa9c9a2382a204960dc.md`
 - `src_b48ce2b2113fb66f05b1` — Loop Engineering Guide (2026) | AI Builder Club
   - URL: https://www.aibuilderclub.com/blog/loop-engineering-guide-2026
   - Archive: `web/production-daily-20260618/loop-engineering-ai-agents/01-loop-engineering-guide-2026-ai-builder-club.md`
@@ -93,6 +87,15 @@ Candidate concept entity extracted from 21 source(s).
 - `src_cd5670fdee2e0bbe3441` — Forget Prompts: 'Loop Engineering' Is All the Rage Now - Business Insider
   - URL: https://www.businessinsider.com/what-are-loops-ai-engineering-tips-2026-6
   - Archive: `web/production-daily-manual-20260621T044136Z/loop-engineering-ai-agents/02-forget-prompts-loop-engineering-is-all-the-rage-now-business.md`
+- `src_916646b95f1aae5006ea` — Prompt Engineering was: "AI, do this." Loop Engineering is: "AI, do this → check this → fix this → repeat until it's good." 😄 We're slowly m
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/108-8d4904c726b2380daa0e.md`
+- `src_f9f9b06c41f52c9e1145` — Loop Engineering: Designing Systems That Run AI Agents Instead of Prompting Them Manually I recently went through this piece on Loop Enginee
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/114-06522d7b1dbae8a1c9ba.md`
+- `src_d315de90d937ac02117b` — Loop engineering: orquestrar agentes vs prompting - RDD10+
+  - URL: https://www.robertodiasduarte.com.br/loop-engineering-orquestrar-agentes-vs-prompting/
+  - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/03-loop-engineering-orquestrar-agentes-vs-prompting-rdd10.md`
+- `src_d885b32447e9f7fd8aef` — Q: How woud you call "rat race" in the era of LLMs? A: Loop Engineering! source: - Image generated with Gemini - Prompt description is my ow
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/125-6276e60a36bffe5716ea.md`
 - `src_8f2af9bb396b48144e42` — Loop Engineering: 7 Levels From Prompting to Loops
   - URL: https://prosperinai.substack.com/p/ai-loop-engineering-guide
   - Archive: `web/production-daily-manual-20260615T171122Z/loop-engineer-ai/01-loop-engineering-7-levels-from-prompting-to-loops.md`
@@ -101,5 +104,3 @@ Candidate concept entity extracted from 21 source(s).
 - `src_4a058d84f1b332fc65c3` — Feed post Bo Zhang • 3rd+ Digital Oilfield | Software Project Manager @SLB 7h • Follow I’ve been reading about Loop Engineering and GSD, and
   - URL: https://www.linkedin.com/in/bo-zhang-b2713823b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADuka08BGWD6Aweexp7-Y9DUnOQRIgsrdvw
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/088-9f361ddb2b0ee8c1e3f8.md`
-- `src_5652a80f7f65bbad5cbf` — Loop Engineering. For the last couple of years, using an AI agent often meant prompting it by hand, one message at a time. You wrote the ins
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/093-b2db097e01e2663927cd.md`

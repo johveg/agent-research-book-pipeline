@@ -1,6 +1,6 @@
 # Most AI
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `concept`
 - Confidence: `medium`
@@ -35,5 +35,5 @@ Candidate concept entity extracted from 2 source(s).
 - `src_7a795c2025f6c5160230` — Feed post Craig Foldes • 3rd+ Most AI rollouts fail. I fix that. Was Global Head of AI at Crocs 🐊 9h • Follow Watched a $200M brand's CFO re
   - URL: https://www.linkedin.com/in/craig-foldes-1b949b96?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABRcdF0BiNBgJ9buQKJLquak_MAOboDAac8
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/openclaw-hermes/088-f07c76e952482aea3458.md`
-- `src_0b0f413c049ede9d55ad` — Most AI agents still live in demos. The real test isn't whether they can answer a question — it's whether they can sit inside the tools you
+- `src_0b0f413c049ede9d55ad` — Most AI agents still live in demos. The real test isn't whether they can answer a question — it's whether they can sit inside the tools you 
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/066-fe1ee6863239980fc279.md`

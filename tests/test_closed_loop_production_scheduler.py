@@ -211,6 +211,25 @@ def test_scheduler_status_reports_include_timestamp_contract(tmp_path):
     assert "target_channel: AL-Hermoine-OPS" in text
 
 
+def test_write_telegram_status_syncs_latest_json_with_markdown(tmp_path):
+    mod = load_module()
+    out = tmp_path / "production-daily-latest.md"
+    report = {
+        "run_id": "production-daily-20260616",
+        "status": "production_daily_completed",
+        "final_disposition": "production_daily_completed",
+        "production_daily_completed": True,
+        "fallback_channel_used": False,
+    }
+    mod.write_telegram_status(out, report)
+    latest_json = out.with_suffix(".json")
+    assert latest_json.exists()
+    payload = json.loads(latest_json.read_text())
+    assert payload["run_id"] == "production-daily-20260616"
+    assert payload["status"] == "production_daily_completed"
+    assert payload["final_disposition"] == "production_daily_completed"
+
+
 def test_status_only_reports_runtime_schedule_latest_and_push_helper_without_mutation(monkeypatch, tmp_path):
     mod = load_module()
     cfg = tmp_path / "runtime.json"

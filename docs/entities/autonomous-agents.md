@@ -1,13 +1,13 @@
 # Autonomous Agents
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-14T01:25:00Z
-- Last seen: 2026-06-30T10:04:24Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 7
-- Mention count: 101
+- Mention count: 133
 
 ## Description
 
@@ -32,7 +32,7 @@ Candidate tool entity extracted from 4 source(s).
 - `src_4fe8b3eb826834a1dd7f` — AI Loop Engineering: Build Autonomous Agents with Claude Code /goal + Routines
   - URL: https://www.sabrina.dev/p/loop-engineering-claude-code-goal-routines
   - Archive: `web/production-daily-direct-20260621T175610Z/loop-engineering-ai-agents/03-ai-loop-engineering-build-autonomous-agents-with-claude-code.md`
-- `src_a2b06d7199b8d5ae95db` — Feed post Fredrick Chew • 3rd+ Building Portable Agentic AI Co-Workers | Autonomous Agents for Analysis, Automation & Decision Intelligence
+- `src_a2b06d7199b8d5ae95db` — Feed post Fredrick Chew • 3rd+ Building Portable Agentic AI Co-Workers | Autonomous Agents for Analysis, Automation & Decision Intelligence 
   - URL: https://www.linkedin.com/in/fredrickchew?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC3PIMB47_CBBFzoUoc8-srKPqC-1rZmPk
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/161-698138f1a94e113ce06f.md`
 - `src_06bd002fdb55ce892afe` — Out-of-the-box AI is stupid. I made mine accountable. The goal was simple: Can I trust autonomous agents to operate without supervision? The

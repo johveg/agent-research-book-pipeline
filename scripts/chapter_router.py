@@ -104,16 +104,28 @@ def route_packet(
     existing_targets: set[str] | None = None,
 ) -> dict[str, Any]:
     existing_targets = existing_targets or set()
+    source_ids = packet.get("source_ids", []) if isinstance(packet.get("source_ids"), list) else []
+    source_count = len(source_ids)
+
     if is_weak(packet):
+        trace = {
+            "reason_code": "weak_or_social_only_evidence",
+            "fit_threshold": float(threshold),
+            "source_count": source_count,
+            "required_source_count": 3,
+            "evidence_strength": str(packet.get("evidence_strength", "")),
+        }
         return {
             "ok": True,
             "packet_id": packet.get("packet_id"),
             "events": [
-                make_event("evidence.packet.deferred", packet, payload={"packet": packet, "reason": "weak_or_social_only_evidence", "no_book_mutation": True}),
-                make_event("research_gap.detected", packet, payload={"packet": packet, "reason": "need_stronger_public_corroboration", "suggested_queries": packet.get("topics", [])}),
+                make_event("evidence.packet.deferred", packet, payload={"packet": packet, "reason": "weak_or_social_only_evidence", "no_book_mutation": True, "trace": trace}),
+                make_event("research_gap.detected", packet, payload={"packet": packet, "reason": "need_stronger_public_corroboration", "suggested_queries": packet.get("topics", []), "trace": trace}),
             ],
         }
+
     scored = sorted(((fit_score(packet, spec), cid, spec) for cid, spec in chapters.items()), reverse=True)
+    top_match_scores = [{"chapter_id": cid, "score": round(score, 3)} for score, cid, _ in scored[:3]]
     events: list[dict[str, Any]] = []
     for score, cid, spec in scored[:3]:
         if score >= threshold:
@@ -151,11 +163,22 @@ def route_packet(
                 confidence=0.0,
                 payload={"packet": packet, "title": title, "reason_new_chapter_needed": "no_existing_chapter_fit_above_threshold"},
             ))
-    if len(packet.get("source_ids", [])) < 3:
+    if source_count < 3:
         events.append(make_event(
             "research_gap.detected",
             packet,
-            payload={"packet": packet, "reason": "additional_independent_sources_would_strengthen_publication", "suggested_queries": packet.get("topics", [])},
+            payload={
+                "packet": packet,
+                "reason": "additional_independent_sources_would_strengthen_publication",
+                "suggested_queries": packet.get("topics", []),
+                "trace": {
+                    "reason_code": "source_count_below_minimum",
+                    "fit_threshold": float(threshold),
+                    "source_count": source_count,
+                    "required_source_count": 3,
+                    "top_match_scores": top_match_scores,
+                },
+            },
         ))
     return {"ok": True, "packet_id": packet.get("packet_id"), "events": events}
 

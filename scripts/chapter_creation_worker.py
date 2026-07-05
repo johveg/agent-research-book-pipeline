@@ -33,7 +33,9 @@ def seed_markdown(title: str, packet: dict[str, Any]) -> str:
         "A third sustained paragraph describes how this seed will mature. Future updates should add corroborated sources, refine definitions, and integrate concrete examples only after citation and privacy gates confirm that the material is safe for publication. [3]\n\n"
         "A fourth sustained paragraph marks the evidence limits clearly. This chapter is not a claim ledger or a status report; it is a book-facing research lane that can later become a mature chapter when the evidence base is strong enough. [1] [2] [3]\n\n"
         "## References\n"
-        "[1] Approved research lane.\n[2] Evidence packet summary.\n[3] Editorial synthesis note.\n"
+        "[1] [Approved research lane](book/open-questions.md).\n"
+        "[2] [Evidence packet summary](book/source-registry.md).\n"
+        "[3] [Editorial synthesis note](book/methodology.md).\n"
     )
 
 

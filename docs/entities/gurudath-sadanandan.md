@@ -1,6 +1,6 @@
 # Gurudath Sadanandan
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `company`
 - Confidence: `low`
@@ -34,6 +34,6 @@ No related claim records yet.
 - `src_d4971ef0bc9add0c0ac8` — Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 9h • Follow I wrote the book I couldn't find anywhere! Everyone
   - URL: https://www.linkedin.com/in/gurudath-sadanandan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAiHXKoB-vLH-4van9Pud0X3dLvr15B81Ik
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/085-9fa197397987666fee3a.md`
-- `src_f054e902a67bc63526ad` — Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 9h • Follow The highest leverage hour in software right now is
+- `src_f054e902a67bc63526ad` — Feed post Gurudath Sadanandan • 3rd+ AI Researcher | Educator | Entrepreneur 9h • Follow The highest leverage hour in software right now is 
   - URL: https://www.linkedin.com/in/gurudath-sadanandan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAiHXKoB-vLH-4van9Pud0X3dLvr15B81Ik
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/131-5b149c5404c3ad10d20d.md`

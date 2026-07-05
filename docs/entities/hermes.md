@@ -1,17 +1,17 @@
 # Hermes
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
-- Type: `concept`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:06:21Z
-- Source count: 670
-- Mention count: 11753
+- Last seen: 2026-07-04T18:45:39Z
+- Source count: 691
+- Mention count: 13812
 
 ## Description
 
-Candidate concept entity extracted from 20 source(s).
+Candidate tool entity extracted from 22 source(s).
 
 ## Related claims
 
@@ -40,7 +40,7 @@ Candidate concept entity extracted from 20 source(s).
 
 - `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
-- `src_6089f9f3de0ee6709dde` — עכשיו אפשר לקנות סוכן AI מתוך Telegram. לא צ׳אטבוט. לא עטיפה לפרומפט. סוכן אמיתי שמקבל סביבת עבודה משלו. בוחרים OpenClaw או Hermes. משלמים.
+- `src_6089f9f3de0ee6709dde` — עכשיו אפשר לקנות סוכן AI מתוך Telegram. לא צ׳אטבוט. לא עטיפה לפרומפט. סוכן אמיתי שמקבל סביבת עבודה משלו. בוחרים OpenClaw או Hermes. משלמים. 
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/017-03157a32341bcc77474d.md`
 - `src_7a1bfed443c12e7ffcca` — Been using and seeing a lot of AI agents lately. Such as Hermes, OpenClaw, Claude Code, and Pi. I became curious about how they actually wor
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-9d1e38ef2b708754fad1.md`
@@ -65,9 +65,9 @@ Candidate concept entity extracted from 20 source(s).
 - `src_188ba7c1625f10f934d8` — GitHub - NVIDIA/NemoClaw: Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference · GitHub
   - URL: https://github.com/NVIDIA/NemoClaw
   - Archive: `web/production-daily-20260619/openclaw-hermes/01-github-nvidia-nemoclaw-run-agents-like-hermes-and-openclaw-m.md`
-- `src_b08bae8b922a56048df2` — Plusieurs mois que j’utilise des agents au quotidien. Et wow, ça change la vie. Voilà quelques mois qu’OpenClaw et Hermes (mon favori) sont
+- `src_b08bae8b922a56048df2` — Plusieurs mois que j’utilise des agents au quotidien. Et wow, ça change la vie. Voilà quelques mois qu’OpenClaw et Hermes (mon favori) sont 
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/134-81cf5bbf9784155f2ac6.md`
-- `src_ea9e7e08422171425f33` — Imagine.art is officially coming to your AI agents! 🚀 We’ve launched the ImagineArt MCP, allowing you to give platforms like Codex, Hermes,
+- `src_ea9e7e08422171425f33` — Imagine.art is officially coming to your AI agents! 🚀 We’ve launched the ImagineArt MCP, allowing you to give platforms like Codex, Hermes, 
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/107-7c9f7056b65180b27833.md`
 - `src_4bb4fa40879ecea2506e` — GitHub - NVIDIA/NemoClaw: Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference · GitHub
   - URL: https://github.com/NVIDIA/NemoClaw
@@ -81,10 +81,9 @@ Candidate concept entity extracted from 20 source(s).
 - `src_9334fe0ec8ca0fba2a72` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
   - URL: https://github.com/nexu-io/open-design
   - Archive: `web/production-daily-manual-20260621T044136Z/openclaw-hermes/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
-- `src_047a901c529a7f4d19f3` — Hermes is worth a look if you're running something like OpenClaw. It learns as it goes, building skills from real tasks and getting better a
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-f2ed4d369534588cdb67.md`
-- `src_a36777623fea62c34df8` — People are not talking about the security issues with Hermes or OpenClaw. These security threats are real and are yet to fully be seen. The
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-d8dd2178fd827894223b.md`
+- `src_40888e5c119519bebe82` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
+  - URL: https://github.com/nexu-io/open-design
+  - Archive: `web/production-daily-20260621/openclaw-hermes/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
 - `src_bd9f5b57513c68a6e52e` — AI 101:Hermes vs OpenClaw: Local AI Agents Compared
   - URL: https://www.turingpost.com/p/hermes
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/02-ai-101-hermes-vs-openclaw-local-ai-agents-compared.md`
@@ -98,5 +97,8 @@ Candidate concept entity extracted from 20 source(s).
 - `src_306bb0a43b5cda7c4326` — Feed post Souvik Roy • 3rd+ Agentic AI @ Standard Chartered | IIT Gandhinagar 35m • Follow the top 3 terms in AI engineering right now: - lo
   - URL: https://www.linkedin.com/in/souvikroy5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7h2uABY1JeTj5hHnDDA9D_SGTViV4bXSc
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/005-6c6109a327ff9037b8ad.md`
-- `src_3e400b1f5a1412d4f612` — Day23 Live (Stream3) | Building an Open Source AI Platform on the Road to a $1,000,000,000 Company Current Valuation: $2M Join the Builders
+- `src_3e400b1f5a1412d4f612` — Day23 Live (Stream3) | Building an Open Source AI Platform on the Road to a $1,000,000,000 Company Current Valuation: $2M Join the Builders 
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/010-21e35998b682cb7af37a.md`
+- `src_5213768779e402c0fe14` — Feed post Igor Domingos de Souza • 3rd+ Analista de suporte Pleno na Rede D'Or São Luiz | Engenharia da Computação 1h • Follow Imagine ter a
+  - URL: https://www.linkedin.com/in/igor-domingos-de-souza?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACGFxUMBVIpS6AhJTDFgweplA-Jz9jkRv-I
+  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/021-b38387f78b4995612f4b.md`

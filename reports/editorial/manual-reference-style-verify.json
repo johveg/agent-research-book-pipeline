@@ -1,0 +1,280 @@
+{
+  "citation_reference_mismatch_hits": [
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/citation-pipeline.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/coding-agents.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/computer-use-agents.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/desktop-ai-agents.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/enterprise-ai-agents.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/human-approval-workflow.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/introduction.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/local-ai-agents.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/local-first-agents.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/mcp-tools.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/methodology.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/multi-agent-workflows.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/observability-for-agents.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/red-team-review.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/self-improving-agents.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    },
+    {
+      "duplicate_reference_numbers": [],
+      "has_references_section": false,
+      "missing_reference_numbers": [
+        1,
+        2,
+        3
+      ],
+      "orphan_reference_numbers": [],
+      "path": "docs/book/source-registry.md",
+      "prose_citation_numbers": [
+        1,
+        2,
+        3
+      ],
+      "reference_numbers": []
+    }
+  ],
+  "legacy_reference_style_hits": [],
+  "raw_id_hits": [],
+  "status": "blocked",
+  "unresolved_hits": []
+}

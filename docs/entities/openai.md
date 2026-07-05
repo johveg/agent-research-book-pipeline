@@ -1,13 +1,13 @@
 # OpenAI
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:04:24Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 10
-- Mention count: 174
+- Mention count: 190
 
 ## Description
 
@@ -19,7 +19,7 @@ No related claim records yet.
 
 ## Source references
 
-- `src_95d77be75071fc8fca0d` — Feed post Anton Goroshkov • 3rd+ AI Agents Harness Solution Architect 5h • Follow Ты всё ещё гоняешься за лучшей моделью? А OpenAI в апреле
+- `src_95d77be75071fc8fca0d` — Feed post Anton Goroshkov • 3rd+ AI Agents Harness Solution Architect 5h • Follow Ты всё ещё гоняешься за лучшей моделью? А OpenAI в апреле 
   - URL: https://www.linkedin.com/in/anton-goroshkov?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABi52xABg_c1ULl2jpr3B9d66FAif30id8s
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/092-ef36a6cce2542cea1ee3.md`
 - `src_aa2587440c68acfe82e3` — Ты всё ещё гоняешься за лучшей моделью? А OpenAI в апреле 2026 переписала Agents SDK не под новый GPT — под harness. Контроль потока, мульти

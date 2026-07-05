@@ -1,6 +1,6 @@
 # Spring Boot
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `concept`
 - Confidence: `low`
@@ -19,7 +19,7 @@ No related claim records yet.
 
 ## Source references
 
-- `src_6dcc4ca70392d35f0253` — Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera
+- `src_6dcc4ca70392d35f0253` — Feed post Douglas Batista • 3rd+ Software Engineer | Java | Spring Boot | MySql | React | Python | Next.js | TypeScript 2h • Follow IA gera 
   - URL: https://www.linkedin.com/in/douglas-batista-295458230?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADm7PJEBv_--ElIX2zM31CP14ydWdEYMIIA
   - Archive: `linkedin/manual-20260611T173313Z/loop-engineering/088-2ecf1233d61cf6196904.md`
 - `src_0558fa944445b337adfc` — Feed post Kaushik Joshi • 3rd+ Skilled in backend development using Java and Spring Boot, database design with MySQL and PostgreSQL, REST AP

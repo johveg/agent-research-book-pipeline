@@ -12,6 +12,7 @@ import json
 import re
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 from research_common import DATA, DOCS, RAW, connect_db, init_db, utc_now, write_json
 
@@ -101,24 +102,30 @@ def resolve_claim_sources(claim_id: str) -> list[str]:
     return [row["source_id"] for row in rows]
 
 
-def citation_label(record: dict[str, Any]) -> str:
-    title = record.get("title") or "Untitled source"
-    publisher = record.get("publisher") or record.get("source_type") or "unknown publisher"
-    author = record.get("author")
-    date = record.get("published_at") or record.get("captured_at") or "unknown date"
-    url = record.get("canonical_url") or record.get("original_url")
-    source_id = record.get("source_id")
-    bits = []
-    if author:
-        bits.append(str(author))
-    bits.append(f"“{title}”")
-    bits.append(str(publisher))
-    bits.append(str(date))
+def _display_name_for_reference(record: dict[str, Any]) -> str:
+    publisher = (record.get("publisher") or "").strip()
+    title = (record.get("title") or "").strip()
+    source_type = (record.get("source_type") or "").strip()
+    url = (record.get("canonical_url") or record.get("original_url") or "").strip()
+
+    if publisher:
+        return publisher
+    if title:
+        return title
+    if source_type:
+        return source_type
     if url:
-        bits.append(str(url))
-    # Do not expose internal source IDs or report-only source quality labels in
-    # public book pages. Traceability is preserved in data/source_registry.json.
-    return ", ".join(bits) + "."
+        host = urlparse(url).netloc.replace("www.", "")
+        return host or "Source"
+    return "Source"
+
+
+def citation_label(record: dict[str, Any]) -> str:
+    name = _display_name_for_reference(record)
+    url = (record.get("canonical_url") or record.get("original_url") or "").strip()
+    if url:
+        return f"[{name}]({url})"
+    return name
 
 
 def display_path(path: Path) -> str:
@@ -139,6 +146,51 @@ def _ids_to_source_ids(identifier: str) -> list[str]:
     if identifier.startswith("claim_"):
         return resolve_claim_sources(identifier)
     return []
+
+
+def _normalize_legacy_reference_lines(text: str) -> tuple[str, bool]:
+    references_header_re = re.compile(r"^##\s+references\s*$", re.I | re.M)
+    number_line_re = re.compile(r"^\[(\d+)\]\s+(.*)$")
+    markdown_link_re = re.compile(r"\[[^\]]+\]\(https?://[^)]+\)")
+    url_re = re.compile(r"https?://[^\s),]+")
+
+    lines = text.splitlines()
+    header_idx = next((i for i, line in enumerate(lines) if references_header_re.match(line.strip())), None)
+    if header_idx is None:
+        return text, False
+
+    changed = False
+    for i in range(header_idx + 1, len(lines)):
+        line = lines[i]
+        if line.startswith("## "):
+            break
+        m = number_line_re.match(line.strip())
+        if not m:
+            continue
+        number = m.group(1)
+        body = m.group(2).strip()
+        if markdown_link_re.search(body):
+            continue
+        url_match = None
+        for candidate in url_re.findall(body):
+            if candidate:
+                url_match = candidate.rstrip('.,;)')
+                if url_match:
+                    break
+        if not url_match:
+            continue
+
+        label = body.split(',', 1)[0].strip().strip('"“”')
+        if not label:
+            label = urlparse(url_match).netloc.replace("www.", "") or "Source"
+
+        lines[i] = f"[{number}] [{label}]({url_match})"
+        changed = True
+
+    normalized = "\n".join(lines)
+    if text.endswith("\n") and not normalized.endswith("\n"):
+        normalized += "\n"
+    return normalized, changed
 
 
 def resolve_text_citations(text: str, registry: dict[str, dict[str, Any]] | None = None) -> tuple[str, dict[str, Any]]:
@@ -179,17 +231,21 @@ def resolve_text_citations(text: str, registry: dict[str, dict[str, Any]] | None
     # resolved raw citation tokens. If a page already contains reader-facing
     # numeric citations and references, a no-token resolver pass must be
     # idempotent and must not delete the bibliography.
+    references_normalized = False
     if citation_numbers:
         text = re.sub(r"\n## References\n\n.*\Z", "", text, flags=re.S).rstrip() + "\n"
         references = ["", "## References", ""]
         for source_id, number in sorted(citation_numbers.items(), key=lambda item: item[1]):
             references.append(f"[{number}] {citation_label(registry[source_id])}")
         text += "\n".join(references) + "\n"
+    else:
+        text, references_normalized = _normalize_legacy_reference_lines(text)
 
     return text, {
         "citation_count": len(citation_numbers),
         "source_ids": sorted(citation_numbers, key=citation_numbers.get),
         "unresolved": unresolved,
+        "references_normalized": references_normalized,
     }
 
 
@@ -214,16 +270,80 @@ def scan_publication_citation_issues(book_dir: Path | None = None) -> dict[str, 
     book_dir = book_dir or (DOCS / "book")
     raw_id_hits: list[dict[str, Any]] = []
     unresolved_hits: list[dict[str, Any]] = []
+    citation_reference_mismatch_hits: list[dict[str, Any]] = []
+    legacy_reference_style_hits: list[dict[str, Any]] = []
+    prose_citation_re = re.compile(r"\[(\d+)\]")
+    reference_line_re = re.compile(r"^\[(\d+)\]\s+")
+    markdown_link_re = re.compile(r"\[[^\]]+\]\(https?://[^)]+\)")
+    url_re = re.compile(r"https?://[^\s),]+")
+    timestamp_re = re.compile(r"\b\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z\b")
+    quality_re = re.compile(r"\bquality\s+[A-Z]\b", re.I)
+
     for path in sorted(book_dir.glob("*.md")):
         text = path.read_text(encoding="utf-8", errors="ignore")
+        lines = text.splitlines()
         rel = display_path(path)
-        for idx, line in enumerate(text.splitlines(), start=1):
+
+        for idx, line in enumerate(lines, start=1):
             if RAW_ID_RE.search(line) or TOKEN_RE.search(line):
                 raw_id_hits.append({"path": rel, "line": idx, "text": line.strip()[:300]})
             if "[unresolved citation]" in line:
                 unresolved_hits.append({"path": rel, "line": idx, "text": line.strip()[:300]})
+
+        references_header_idx = next((i for i, line in enumerate(lines) if line.strip().lower() == "## references"), None)
+        prose_lines = lines[:references_header_idx] if references_header_idx is not None else lines
+        reference_lines = lines[references_header_idx + 1 :] if references_header_idx is not None else []
+
+        prose_numbers = sorted({int(match.group(1)) for line in prose_lines for match in prose_citation_re.finditer(line)})
+        reference_numbers_all = [int(match.group(1)) for line in reference_lines for match in reference_line_re.finditer(line)]
+        reference_numbers = sorted(set(reference_numbers_all))
+        duplicate_reference_numbers = sorted({n for n in reference_numbers_all if reference_numbers_all.count(n) > 1})
+
+        missing_reference_numbers = sorted(set(prose_numbers) - set(reference_numbers))
+        orphan_reference_numbers = sorted(set(reference_numbers) - set(prose_numbers))
+
+        if missing_reference_numbers or orphan_reference_numbers or duplicate_reference_numbers:
+            citation_reference_mismatch_hits.append(
+                {
+                    "path": rel,
+                    "has_references_section": references_header_idx is not None,
+                    "prose_citation_numbers": prose_numbers,
+                    "reference_numbers": reference_numbers,
+                    "missing_reference_numbers": missing_reference_numbers,
+                    "orphan_reference_numbers": orphan_reference_numbers,
+                    "duplicate_reference_numbers": duplicate_reference_numbers,
+                }
+            )
+
+        for idx, line in enumerate(reference_lines, start=(references_header_idx + 2) if references_header_idx is not None else 1):
+            ref_match = reference_line_re.match(line)
+            if not ref_match:
+                continue
+            body = line.strip()
+            style_failures: list[str] = []
+            has_link = bool(markdown_link_re.search(body))
+            has_url = bool(url_re.search(body))
+            if has_url and not has_link:
+                style_failures.append("missing_markdown_hyperlink")
+            if timestamp_re.search(body):
+                style_failures.append("contains_timestamp")
+            if quality_re.search(body):
+                style_failures.append("contains_quality_label")
+            if style_failures:
+                legacy_reference_style_hits.append(
+                    {
+                        "path": rel,
+                        "line": idx,
+                        "text": body[:300],
+                        "style_failures": style_failures,
+                    }
+                )
+
+    blocked = bool(raw_id_hits or unresolved_hits or citation_reference_mismatch_hits or legacy_reference_style_hits)
     return {
-        "status": "ok" if not raw_id_hits and not unresolved_hits else "blocked",
+        "status": "ok" if not blocked else "blocked",
         "raw_id_hits": raw_id_hits,
         "unresolved_hits": unresolved_hits,
+        "citation_reference_mismatch_hits": citation_reference_mismatch_hits,
+        "legacy_reference_style_hits": legacy_reference_style_hits,
     }

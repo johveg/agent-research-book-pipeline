@@ -1,17 +1,17 @@
 # AI agents
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `concept`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:06:21Z
-- Source count: 100
-- Mention count: 2096
+- Last seen: 2026-07-04T18:45:39Z
+- Source count: 110
+- Mention count: 2883
 
 ## Description
 
-Candidate concept entity extracted from 17 source(s).
+Candidate concept entity extracted from 12 source(s).
 
 ## Related claims
 
@@ -39,21 +39,27 @@ Candidate concept entity extracted from 17 source(s).
 - `src_79b2e1f18e0c24e3f25d` — Feed post Sergey Golubev • 3rd+ Technical Product Manager | AI Agents & Automation | Data-Driven | Salesforce Expert 5h • Follow На этой нед
   - URL: https://www.linkedin.com/in/salesforceadmqa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAQplYIBUTIaiKFmqBJfS8Sfv_URWU0jcJU
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/056-b6a68954b591a8ee56e8.md`
-- `src_14ebeb3c6dfeb8a768c9` — Feed post William Oliveira • 3rd+ Software Engineer | Independent Researcher | Edge Computing | AI Agents 13h • Follow A Hype Check on Loop
-  - URL: https://www.linkedin.com/in/william-oliveira?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA0geFwBwUSVJx2Fa8gB8OXy3c5LSGtIx2Y
-  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-871d8ccaa8418b35c846.md`
 - `src_5d079a3570397d2dd0cf` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
   - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
   - Archive: `web/production-daily-manual-20260621T044136Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
+- `src_14ebeb3c6dfeb8a768c9` — Feed post William Oliveira • 3rd+ Software Engineer | Independent Researcher | Edge Computing | AI Agents 13h • Follow A Hype Check on Loop 
+  - URL: https://www.linkedin.com/in/william-oliveira?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA0geFwBwUSVJx2Fa8gB8OXy3c5LSGtIx2Y
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/144-871d8ccaa8418b35c846.md`
+- `src_6a92a98c354a3538265d` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
+  - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
+  - Archive: `web/production-daily-manual-20260621T054137Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
 - `src_63cb547843bc0d734cec` — Loop Engineering at Enterprise Scale: Managing Agent Fleets
   - URL: https://www.truefoundry.com/blog/loop-engineering-fleet-runtime
   - Archive: `web/production-daily-20260616/loop-engineering-ai-agents/02-loop-engineering-at-enterprise-scale-managing-agent-fleets.md`
 - `src_d073d334eeffb3376744` — Loop Engineering: How to Design Coding Agent Loops That Run While You Sleep (2026 Guide) | explainx.ai Blog | explainx.ai
   - URL: https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026
   - Archive: `web/production-daily-20260616/loop-engineering-ai-agents/01-loop-engineering-how-to-design-coding-agent-loops-that-run-w.md`
-- `src_6a92a98c354a3538265d` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
+- `src_68ae7d84fe9ba73a28a4` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
   - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
-  - Archive: `web/production-daily-manual-20260621T054137Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
+  - Archive: `web/production-daily-direct-20260621T120113Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
+- `src_afdcac807cf788b2ac6c` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
+  - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
+  - Archive: `web/production-daily-direct-20260621T175610Z/loop-engineering-ai-agents/02-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
 - `src_caa0d7881e48bdd0bca4` — Loop Engineering: How to Design Coding Agent Loops That Run While You Sleep (2026 Guide) | explainx.ai Blog | explainx.ai
   - URL: https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026
   - Archive: `web/production-daily-20260617/loop-engineering-ai-agents/01-loop-engineering-how-to-design-coding-agent-loops-that-run-w.md`
@@ -102,11 +108,5 @@ Candidate concept entity extracted from 17 source(s).
 - `src_f1cc3e5a72c00546d778` — Loop Engineering是什麼？一次解密6大組件，搞懂工程師為什麼不再寫提示詞|數位時代 BusinessNext
   - URL: https://www.bnext.com.tw/article/91246/loop-engineering-from-prompting-to-designing-ai-coding-loops
   - Archive: `web/citation-pipeline-test-20260612/loop-engineering-ai-agents/05-loop-engineering-6-businessnext.md`
-- `src_b498fdf309bbe197d84c` — Feed post Shivanath Devinarayanan • 3rd+ Chief Digital Labor & Technology Officer at Asymbl | Salesforce MVP Hall of Fame | 180+ AI Agents i
-  - URL: https://www.linkedin.com/in/shivanathd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAV7jRYBS_ZdxaYHQNRN4RNzIzm2osbp4-A
-  - Archive: `linkedin/manual-20260611T173313Z/loop-engineer/172-43d9fa8f234a060646c6.md`
-- `src_68ae7d84fe9ba73a28a4` — Engineers Embrace Loop Engineering For AI Agents | Let's Data Science
-  - URL: https://letsdatascience.com/news/engineers-embrace-loop-engineering-for-ai-agents-cb1a1d6a
-  - Archive: `web/production-daily-direct-20260621T120113Z/loop-engineering-ai-agents/01-engineers-embrace-loop-engineering-for-ai-agents-let-s-data.md`
 - `src_8df07ec4d267d4996e1a` — Το Hermes Agent της Nous Research δείχνει πώς μπορεί να εξελιχθεί η επόμενη γενιά AI agents. Με μόνιμη μνήμη, αυτοβελτίωση και δυνατότητα δη
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/150-10eb81f772785451d0fe.md`

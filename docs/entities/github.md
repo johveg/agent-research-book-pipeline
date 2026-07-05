@@ -1,17 +1,17 @@
 # GitHub
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:06:21Z
-- Source count: 103
-- Mention count: 3765
+- Last seen: 2026-07-04T18:45:39Z
+- Source count: 115
+- Mention count: 5273
 
 ## Description
 
-Candidate tool entity extracted from 16 source(s).
+Candidate tool entity extracted from 13 source(s).
 
 ## Related claims
 

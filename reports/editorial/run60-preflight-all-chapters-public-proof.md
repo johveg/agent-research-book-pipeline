@@ -4,7 +4,7 @@
 - ok: `false`
 - public_page_booklike: `false`
 - failed_checks: `[]`
-- failed_chapters: `['agent_loop', 'context_memory', 'hermes', 'introduction', 'loop_engineering', 'openclaw', 'operating_loops']`
+- failed_chapters: `['introduction', 'openclaw']`
 - total_chapters: `8`
 - forbidden_phrases_found: `[]`
 - required_signals_missing: `[]`

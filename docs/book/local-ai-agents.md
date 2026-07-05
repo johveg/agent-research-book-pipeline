@@ -9,3 +9,8 @@ The evidence limits are explicit. A search lane, a social mention, or a cluster 
 The chapter will therefore mature in stages. First, the subject appears as a seed chapter so the book shows that the approved research lane exists. Next, daily harvests accumulate candidate evidence and source-quality signals. Finally, the guarded authoring path rewrites this page into a fuller academic and professional chapter when enough support exists for definitions, examples, limitations, and practical implications. [1] [3]
 
 ## Research lane
+## References
+
+[1] [Approved research lane](book/open-questions.md).
+[2] [Research loop evidence process](book/source-registry.md).
+[3] [Guarded publication policy](book/methodology.md).

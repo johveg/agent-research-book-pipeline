@@ -1,17 +1,17 @@
 # OpenClaw
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
-- Type: `concept`
+- Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:06:21Z
-- Source count: 643
-- Mention count: 11891
+- Last seen: 2026-07-04T18:45:39Z
+- Source count: 664
+- Mention count: 14013
 
 ## Description
 
-Candidate concept entity extracted from 20 source(s).
+Candidate tool entity extracted from 22 source(s).
 
 ## Related claims
 
@@ -33,14 +33,14 @@ Candidate concept entity extracted from 20 source(s).
 - **candidate / weak** — It is a single desktop app that hosts all my AI "OpenClaw" Hermes. (`claim_7d6dd613b9ab0ae68b56`)
 - **candidate / weak** — It was great to get along to a Byron Tech Community meetup on Thursday night - my first real-world meetup in a number of years, and it didn' "OpenClaw" Hermes. (`claim_16964f79e5647cb7fe63`)
 - **candidate / weak** — Now AI is everywhere: Apps, browsers, tool "OpenClaw" Hermes. (`claim_a59cf4d062ae2b941518`)
+- **candidate / weak** — OpenClaw vs Hermes Agent: Which One Is Actually Better in 2026?. (`claim_03085d15d159fac1a726`)
 - **candidate / weak** — People are not talking about the security issues with Hermes or OpenClaw. (`claim_bf6a00040f945ab752fe`)
-- **candidate / weak** — R/hermesagent on Reddit: Hermes Agent (and others) default Installs are silently routing web traffic to Parallel "Hermes" "OpenClaw" www.reddit.com. (`claim_299a19c0cfcb1c00af15`)
 
 ## Source references
 
 - `src_acf1438172c903914837` — HERMES and OpenClaw were two of the most hyped open-source projects in 2025. HERMES was called the open-source Claude killer, and OpenClaw w
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/026-8f0f48234840124c2361.md`
-- `src_6089f9f3de0ee6709dde` — עכשיו אפשר לקנות סוכן AI מתוך Telegram. לא צ׳אטבוט. לא עטיפה לפרומפט. סוכן אמיתי שמקבל סביבת עבודה משלו. בוחרים OpenClaw או Hermes. משלמים.
+- `src_6089f9f3de0ee6709dde` — עכשיו אפשר לקנות סוכן AI מתוך Telegram. לא צ׳אטבוט. לא עטיפה לפרומפט. סוכן אמיתי שמקבל סביבת עבודה משלו. בוחרים OpenClaw או Hermes. משלמים. 
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/017-03157a32341bcc77474d.md`
 - `src_7a1bfed443c12e7ffcca` — Been using and seeing a lot of AI agents lately. Such as Hermes, OpenClaw, Claude Code, and Pi. I became curious about how they actually wor
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/004-9d1e38ef2b708754fad1.md`
@@ -81,7 +81,7 @@ Candidate concept entity extracted from 20 source(s).
 - `src_ebbd95f3c4786aa57c41` — OpenClaw vs Hermes Agent (Don’t choose WRONG!) - YouTube
   - URL: https://www.youtube.com/watch?v=jOK10k70XWE
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/05-openclaw-vs-hermes-agent-don-t-choose-wrong-youtube.md`
-- `src_b08bae8b922a56048df2` — Plusieurs mois que j’utilise des agents au quotidien. Et wow, ça change la vie. Voilà quelques mois qu’OpenClaw et Hermes (mon favori) sont
+- `src_b08bae8b922a56048df2` — Plusieurs mois que j’utilise des agents au quotidien. Et wow, ça change la vie. Voilà quelques mois qu’OpenClaw et Hermes (mon favori) sont 
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/134-81cf5bbf9784155f2ac6.md`
 - `src_3097f631574c03115e10` — OpenClaw vs Hermes Agent: 2026 Comparison (Updated June) | Flowtivity
   - URL: https://flowtivity.ai/blog/openclaw-vs-hermes-agent-comparison/
@@ -95,6 +95,9 @@ Candidate concept entity extracted from 20 source(s).
 - `src_9334fe0ec8ca0fba2a72` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
   - URL: https://github.com/nexu-io/open-design
   - Archive: `web/production-daily-manual-20260621T044136Z/openclaw-hermes/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
+- `src_40888e5c119519bebe82` — GitHub - nexu-io/open-design: 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
+  - URL: https://github.com/nexu-io/open-design
+  - Archive: `web/production-daily-20260621/openclaw-hermes/02-github-nexu-io-open-design-local-first-open-source-claude-de.md`
 - `src_bd9f5b57513c68a6e52e` — AI 101:Hermes vs OpenClaw: Local AI Agents Compared
   - URL: https://www.turingpost.com/p/hermes
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/02-ai-101-hermes-vs-openclaw-local-ai-agents-compared.md`
@@ -102,6 +105,3 @@ Candidate concept entity extracted from 20 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/023-37ed2e4bf6722cae7e84.md`
 - `src_061556e405690eb22f1e` — the top 3 terms in AI engineering right now: - loop - harness - context what they are: - Loops : Replaces the need for you to manually re-pr
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/007-e541c311fb21233a6097.md`
-- `src_2c04eb0bb29832d3ca17` — Feed post Krishna Kumar • 3rd+ Founder & CEO – PlumoAI, Open-Source (100% FREE) AI Employees Platform 48m • Edited • Follow Day23 Live (Stre
-  - URL: https://www.linkedin.com/in/krishnafounder?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGGnSYBzrGTvFQLbvvgaT_SYjEz11ejGK8
-  - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/008-79b4f06762f72e68e27e.md`

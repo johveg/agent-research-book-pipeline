@@ -27,3 +27,8 @@ This structure is intentionally conservative. The book does not claim that promp
 The main limitation of the current manuscript is that its source base is uneven. Some chapters draw on concrete operational reports and project documentation; others still need stronger literature support, clearer definitions, and more explicit methodology. The book should therefore be read as an academic and professional manuscript in development, not as a finished survey of a settled field. Its strongest claims concern the design and governance of the local closed-loop production system. Broader claims about industry transition, adoption, or disciplinary status remain deliberately caveated. [1] [3]
 
 That limitation is also part of the argument. A closed-loop book pipeline should be able to say what it does not know. It should block unsupported prose, preserve caveats, and keep evidence records outside the reader-facing chapter body unless they are being presented as appendices. The goal is not to hide uncertainty. The goal is to make uncertainty legible in prose rather than dumping internal status labels into the manuscript. If the system succeeds, each production run should move the book closer to a coherent argument while preserving the evidence discipline that made the argument safe to publish. [1]
+## References
+
+[1] [Approved research lane](book/open-questions.md).
+[2] [Research loop evidence process](book/source-registry.md).
+[3] [Guarded publication policy](book/methodology.md).

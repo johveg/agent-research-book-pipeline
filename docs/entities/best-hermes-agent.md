@@ -1,17 +1,17 @@
 # Best Hermes Agent
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `concept`
-- Confidence: `high`
+- Confidence: `low`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-30T10:04:24Z
-- Source count: 6
-- Mention count: 84
+- Last seen: 2026-07-04T18:45:39Z
+- Source count: 7
+- Mention count: 127
 
 ## Description
 
-Candidate concept entity extracted from 4 source(s).
+Candidate concept entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -31,6 +31,9 @@ No related claim records yet.
 - `src_cb919b799dd33a618953` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
   - Archive: `web/production-daily-20260625/openclaw-hermes/03-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
+- `src_c033a2ed51cd3807e2cd` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
+  - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
+  - Archive: `web/production-daily-20260701/hermes-openclaw/02-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`
 - `src_d05f329788370ffd20b8` — Best Hermes Agent Model 2026: Claude vs DeepSeek | Remote OpenClaw
   - URL: https://www.remoteopenclaw.com/blog/best-models-for-hermes-agent
   - Archive: `web/citation-pipeline-test-20260612/openclaw-hermes/03-best-hermes-agent-model-2026-claude-vs-deepseek-remote-openc.md`

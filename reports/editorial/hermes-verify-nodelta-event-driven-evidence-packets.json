@@ -1,0 +1,127 @@
+{
+  "evidence_packets": [
+    {
+      "claim_ids": [
+        "approved_subject:agent_runtime_security"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "hermes-verify-nodelta-agent_runtime_security",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Agent Runtime Security; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:agent_runtime_security"
+      ],
+      "summary": "Approved research lane for Agent Runtime Security; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/agent-runtime-security.md",
+      "title": "Agent Runtime Security",
+      "topics": [
+        "Agent Runtime Security",
+        "agent runtime security",
+        "(\"agent runtime security\" OR \"application security\") AI agents",
+        "\"agent runtime security\" OR \"application security\""
+      ]
+    },
+    {
+      "claim_ids": [
+        "approved_subject:autonomous_research_pipeline"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "hermes-verify-nodelta-autonomous_research_pipeline",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Autonomous Research Pipeline; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:autonomous_research_pipeline"
+      ],
+      "summary": "Approved research lane for Autonomous Research Pipeline; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/autonomous-research-pipeline.md",
+      "title": "Autonomous Research Pipeline",
+      "topics": [
+        "Autonomous Research Pipeline",
+        "autonomous research pipeline",
+        "\"autonomous research pipeline\" AI agents",
+        "\"autonomous research pipeline\""
+      ]
+    },
+    {
+      "claim_ids": [
+        "approved_subject:browser_agents"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "hermes-verify-nodelta-browser_agents",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Browser Agents; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:browser_agents"
+      ],
+      "summary": "Approved research lane for Browser Agents; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/browser-agents.md",
+      "title": "Browser Agents",
+      "topics": [
+        "Browser Agents",
+        "browser agents",
+        "\"browser agents\" AI agents",
+        "\"browser agents\""
+      ]
+    },
+    {
+      "claim_ids": [
+        "approved_subject:citation_pipeline"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "hermes-verify-nodelta-citation_pipeline",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Citation Pipeline; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:citation_pipeline"
+      ],
+      "summary": "Approved research lane for Citation Pipeline; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/citation-pipeline.md",
+      "title": "Citation Pipeline",
+      "topics": [
+        "Citation Pipeline",
+        "citation pipeline",
+        "\"citation pipeline\" AI agents",
+        "\"citation pipeline\""
+      ]
+    },
+    {
+      "claim_ids": [
+        "approved_subject:coding_agents"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "hermes-verify-nodelta-coding_agents",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Coding Agents; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:coding_agents"
+      ],
+      "summary": "Approved research lane for Coding Agents; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/coding-agents.md",
+      "title": "Coding Agents",
+      "topics": [
+        "Coding Agents",
+        "coding agents",
+        "(\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\") AI agents",
+        "\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\""
+      ]
+    }
+  ],
+  "human_in_loop_dependency_added": false,
+  "packet_count": 5,
+  "run_id": "hermes-verify-nodelta"
+}

@@ -1,75 +1,76 @@
 # Projects
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 These entries come from harvested entity records. Linked entries have generated review pages; unlinked entries are candidates or weak/noisy fragments and are not treated as canonical public entities.
 
-- [Nous Research](nous-research.md) — `tool`; mentions: 2557; sources: 115
-- [GitHub](github.md) — `tool`; mentions: 3765; sources: 103
-- [Claude Code](claude-code.md) — `tool`; mentions: 887; sources: 50
-- NousResearch — `tool`; mentions: 818; sources: 32
-- How — `tool`; mentions: 551; sources: 26
-- Codex — `tool`; mentions: 534; sources: 25
-- [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 475; sources: 24
-- [AI Agent](ai-agent.md) — `tool`; mentions: 486; sources: 21
-- Cursor — `tool`; mentions: 534; sources: 19
-- [Hermes Agent Core](hermes-agent-core.md) — `tool`; mentions: 398; sources: 19
-- Official — `tool`; mentions: 398; sources: 19
-- [SEO](seo.md) — `tool`; mentions: 205; sources: 19
+- [Hermes Agent](hermes-agent.md) — `tool`; mentions: 26165; sources: 720
+- [Hermes](hermes.md) — `tool`; mentions: 13812; sources: 691
+- [OpenClaw](openclaw.md) — `tool`; mentions: 14013; sources: 664
+- [Nous Research](nous-research.md) — `tool`; mentions: 3435; sources: 129
+- [GitHub](github.md) — `tool`; mentions: 5273; sources: 115
+- [Claude Code](claude-code.md) — `tool`; mentions: 1098; sources: 50
+- Loop — `tool`; mentions: 883; sources: 35
+- NousResearch — `tool`; mentions: 1047; sources: 33
+- How — `tool`; mentions: 708; sources: 28
+- [Hermes Atlas](hermes-atlas.md) — `tool`; mentions: 672; sources: 27
+- Codex — `tool`; mentions: 681; sources: 25
+- [NVIDIA](nvidia.md) — `tool`; mentions: 449; sources: 22
+- [AI Agent](ai-agent.md) — `tool`; mentions: 566; sources: 21
+- [Hermes Agent Core](hermes-agent-core.md) — `tool`; mentions: 555; sources: 21
+- Official — `tool`; mentions: 555; sources: 21
+- Run — `tool`; mentions: 395; sources: 20
+- Cursor — `tool`; mentions: 654; sources: 19
+- YouTube — `tool`; mentions: 456; sources: 19
+- [SEO](seo.md) — `tool`; mentions: 229; sources: 19
 - [TheNextGenTechInsider.com](thenextgentechinsider-com.md) — `tool`; mentions: 171; sources: 19
-- [MCP](mcp.md) — `tool`; mentions: 305; sources: 17
-- [NVIDIA](nvidia.md) — `tool`; mentions: 292; sources: 17
-- Run — `tool`; mentions: 238; sources: 15
-- [Python](python.md) — `tool`; mentions: 195; sources: 15
+- [MCP](mcp.md) — `tool`; mentions: 345; sources: 17
+- Prompt — `tool`; mentions: 304; sources: 17
+- NemoClaw — `tool`; mentions: 338; sources: 15
+- [Python](python.md) — `tool`; mentions: 211; sources: 15
 - But — `tool`; mentions: 90; sources: 15
+- [NVIDIA OpenShell](nvidia-openshell.md) — `tool`; mentions: 320; sources: 14
+- [Run agents](run-agents.md) — `tool`; mentions: 320; sources: 14
 - [Google](google.md) — `tool`; mentions: 161; sources: 14
-- Agent — `tool`; mentions: 245; sources: 12
-- Prompt Engineering — `tool`; mentions: 219; sources: 12
-- They — `tool`; mentions: 157; sources: 12
-- Cloud — `tool`; mentions: 145; sources: 12
-- [AWS](aws.md) — `tool`; mentions: 195; sources: 11
-- Let — `tool`; mentions: 152; sources: 11
-- There — `project`; mentions: 129; sources: 11
-- Agents — `tool`; mentions: 95; sources: 11
-- Guide — `tool`; mentions: 298; sources: 10
-- OpenCode — `tool`; mentions: 287; sources: 10
-- NemoClaw — `tool`; mentions: 189; sources: 10
-- [OpenAI](openai.md) — `tool`; mentions: 174; sources: 10
-- New — `tool`; mentions: 140; sources: 10
+- Agents — `tool`; mentions: 139; sources: 13
+- Agent — `tool`; mentions: 277; sources: 12
+- Prompt Engineering — `tool`; mentions: 251; sources: 12
+- Cloud — `tool`; mentions: 169; sources: 12
+- They — `tool`; mentions: 165; sources: 12
+- Guide — `tool`; mentions: 379; sources: 11
+- [AWS](aws.md) — `tool`; mentions: 203; sources: 11
+- Let — `tool`; mentions: 184; sources: 11
+- There — `project`; mentions: 131; sources: 11
+- OpenCode — `tool`; mentions: 359; sources: 10
+- [OpenAI](openai.md) — `tool`; mentions: 190; sources: 10
+- New — `tool`; mentions: 156; sources: 10
 - Just — `tool`; mentions: 63; sources: 10
 - Sales — `tool`; mentions: 29; sources: 10
-- Skills — `tool`; mentions: 212; sources: 9
-- [NVIDIA OpenShell](nvidia-openshell.md) — `tool`; mentions: 171; sources: 9
-- [Run agents](run-agents.md) — `tool`; mentions: 171; sources: 9
-- Build — `tool`; mentions: 167; sources: 9
-- Meta — `tool`; mentions: 158; sources: 9
-- Automation — `tool`; mentions: 132; sources: 9
+- Skills — `tool`; mentions: 252; sources: 9
+- Build — `tool`; mentions: 191; sources: 9
+- Meta — `tool`; mentions: 172; sources: 9
+- Automation — `tool`; mentions: 154; sources: 9
 - [AI SEO Prompts](ai-seo-prompts.md) — `tool`; mentions: 28; sources: 9
 - [Help Websites Get More Leads](help-websites-get-more-leads.md) — `tool`; mentions: 28; sources: 9
 - [Julian Goldie](julian-goldie.md) — `tool`; mentions: 28; sources: 9
 - Traffic — `tool`; mentions: 28; sources: 9
-- Loops — `tool`; mentions: 254; sources: 8
-- Not — `tool`; mentions: 195; sources: 8
-- Free — `tool`; mentions: 175; sources: 8
-- [Data Science](data-science.md) — `tool`; mentions: 168; sources: 8
-- Why — `tool`; mentions: 138; sources: 8
-- AI Researcher — `tool`; mentions: 133; sources: 8
-- [LLM](llm.md) — `tool`; mentions: 115; sources: 8
+- Loops — `tool`; mentions: 302; sources: 8
+- Not — `tool`; mentions: 211; sources: 8
+- [Data Science](data-science.md) — `tool`; mentions: 208; sources: 8
+- [OpenClaw vs Hermes Agent](openclaw-vs-hermes-agent.md) — `tool`; mentions: 208; sources: 8
+- Why — `tool`; mentions: 150; sources: 8
+- AI Researcher — `tool`; mentions: 141; sources: 8
+- [LLM](llm.md) — `tool`; mentions: 118; sources: 8
 - [GTM](gtm.md) — `tool`; mentions: 78; sources: 8
-- [Local AI Agents](local-ai-agents.md) — `tool`; mentions: 245; sources: 7
-- [Local AI Agents Compared](local-ai-agents-compared.md) — `tool`; mentions: 245; sources: 7
-- Qwen — `tool`; mentions: 147; sources: 7
-- Web — `tool`; mentions: 142; sources: 7
-- Fol — `tool`; mentions: 134; sources: 7
-- Builders — `tool`; mentions: 132; sources: 7
-- [OpenClaw vs Hermes Agent](openclaw-vs-hermes-agent.md) — `tool`; mentions: 121; sources: 7
-- [PMP](pmp.md) — `tool`; mentions: 119; sources: 7
-- Creator — `tool`; mentions: 107; sources: 7
-- [Autonomous Agents](autonomous-agents.md) — `tool`; mentions: 101; sources: 7
-- Now — `project`; mentions: 82; sources: 7
-- Blog — `tool`; mentions: 260; sources: 6
-- Mac — `tool`; mentions: 183; sources: 6
-- Harness — `tool`; mentions: 148; sources: 6
-- Foll — `tool`; mentions: 133; sources: 6
-- Harness Engineering — `tool`; mentions: 133; sources: 6
-- [AI Enthusiast](ai-enthusiast.md) — `tool`; mentions: 131; sources: 6
+- [Local AI Agents](local-ai-agents.md) — `tool`; mentions: 285; sources: 7
+- [Local AI Agents Compared](local-ai-agents-compared.md) — `tool`; mentions: 285; sources: 7
+- Qwen — `tool`; mentions: 179; sources: 7
+- Web — `tool`; mentions: 174; sources: 7
+- Builders — `tool`; mentions: 148; sources: 7
+- Fol — `tool`; mentions: 142; sources: 7
+- [Autonomous Agents](autonomous-agents.md) — `tool`; mentions: 133; sources: 7
+- [PMP](pmp.md) — `tool`; mentions: 127; sources: 7
+- Creator — `tool`; mentions: 115; sources: 7
+- Blog — `tool`; mentions: 306; sources: 6
+- Mac — `tool`; mentions: 207; sources: 6
+- Harness — `tool`; mentions: 164; sources: 6

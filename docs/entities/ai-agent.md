@@ -1,13 +1,13 @@
 # AI Agent
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:04:24Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 21
-- Mention count: 486
+- Mention count: 566
 
 ## Description
 
@@ -59,18 +59,18 @@ Candidate tool entity extracted from 8 source(s).
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/128-d3be699d0193925069e5.md`
 - `src_2df3c2d1654cd80f5fc7` — TechOrange 報導了 Loop Engineering 的 AI Agent⁠，揭示了如何將 AI 自治系統與工程流程深度結合。 從 Eliyahoren.com 的視角來看，這不只是技術升級，而是一種 人類與 AI 協作的認知進化： * 多 Agent 協作：AI 不只
   - Archive: `linkedin/do-not-publish-check-20260611T232514Z/loop-engineering/026-8d79491bc7dc0f69a3af.md`
-- `src_45efdb14404d2b02e0f9` — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made
+- `src_2267df1d00c8edad6485` — Loop Engineering for PMs: 20+ AI Agent Loops and Templates
+  - URL: https://www.productcompass.pm/p/loop-engineering-for-pms
+  - Archive: `web/production-daily-20260624/loop-engineering-ai-agents/02-loop-engineering-for-pms-20-ai-agent-loops-and-templates.md`
+- `src_45efdb14404d2b02e0f9` — Today on the daily AI brief posted by Yousef - Imran's AI agent Anthropic has launched Claude Fable 5, the first Mythos-class AI model made 
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/153-a276813cb5da6746739c.md`
 - `src_47eb81009bc23393e291` — 🤖 OpenClaw vs. Hermes: Two Radically Different Paths for AI Automation If you are building or deploying AI Agent systems to streamline opera
   - Archive: `linkedin/manual-20260611T173313Z/openclaw-hermes/123-eee6a358aad09d82b2f2.md`
 - `src_b3a7ff23264a5ffea471` — Turn a multi-step process into a single workflow, powered by NVIDIA RTX Spark. See how an AI Agent like Hermes Agent helps develop a residen
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/086-5b526f3147f93fd8edcb.md`
-- `src_f9af5e9c44ccfa8273b8` — FREE AI WORKSHOP TONIGHT! I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. I use it to
+- `src_f9af5e9c44ccfa8273b8` — FREE AI WORKSHOP TONIGHT! I have spent over 100 hours using Hermes Agent - the best 24/7 AI agent you can text from your phone. I use it to 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/083-cd7e6e0c0c2bfe74008a.md`
-- `src_2267df1d00c8edad6485` — Loop Engineering for PMs: 20+ AI Agent Loops and Templates
-  - URL: https://www.productcompass.pm/p/loop-engineering-for-pms
-  - Archive: `web/production-daily-20260624/loop-engineering-ai-agents/02-loop-engineering-for-pms-20-ai-agent-loops-and-templates.md`
-- `src_58210564ddbcd2cc502b` — Turn a multi-step process into a single workflow, powered by NVIDIA hashtag #RTXSpark. See how an hashtag #AI Agent like Hermes Agent helps
+- `src_58210564ddbcd2cc502b` — Turn a multi-step process into a single workflow, powered by NVIDIA hashtag #RTXSpark. See how an hashtag #AI Agent like Hermes Agent helps 
   - URL: https://www.linkedin.com/company/nvidia/
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/007-9f3fd455c6c0880b1696.md`
 - `src_139097f1d03306618411` — Hermes Agent vs Claude: AI Agent Platform vs AI Model | Remote OpenClaw
@@ -78,7 +78,7 @@ Candidate tool entity extracted from 8 source(s).
   - Archive: `web/do-not-publish-check-20260611T232514Z/hermes-agent-nous-research/07-hermes-agent-vs-claude-ai-agent-platform-vs-ai-model-remote.md`
 - `src_c0066c50d1b7f0f3504c` — Today on the daily AI brief posted by Yousef - Imran's AI agent SpaceX is making headlines with the largest IPO in history, priced flat at $
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/102-b86549066562df85a21d.md`
-- `src_ad815be808c31471af6c` — Today on the daily AI brief posted by Yousef - Imran's AI agent Today’s AI Daily Brief is really about trust, control and the cost of power
+- `src_ad815be808c31471af6c` — Today on the daily AI brief posted by Yousef - Imran's AI agent Today’s AI Daily Brief is really about trust, control and the cost of power 
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/131-eeed8400c8150c62298b.md`
 - `src_2800699832e778aafa04` — Feed post NVIDIA 5,517,182 followers 4h • Follow Automate your multi-application workflows with Agentic AI. See how an AI Agent like Nous Re
   - URL: https://www.linkedin.com/company/nvidia/posts

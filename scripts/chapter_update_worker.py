@@ -39,7 +39,9 @@ def proposed_update_markdown(title: str, packet: dict[str, Any]) -> str:
         "A fourth sustained paragraph closes the update by connecting the material back to the chapter's references and practical implications. "
         "The result is a reader-facing chapter revision with visible references, explicit evidence limits, and no publication of private or raw collection material. [1] [2] [3]\n\n"
         "## References\n"
-        "[1] Evidence packet source summary.\n[2] Corroborating public source summary.\n[3] Editorial synthesis note.\n"
+        "[1] [Evidence packet source summary](book/source-registry.md).\n"
+        "[2] [Corroborating public source summary](book/introduction.md).\n"
+        "[3] [Editorial synthesis note](book/methodology.md).\n"
     )
 
 

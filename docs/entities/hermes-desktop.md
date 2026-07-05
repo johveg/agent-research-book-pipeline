@@ -1,13 +1,13 @@
 # Hermes Desktop
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-12T01:19:56Z
-- Last seen: 2026-06-30T10:04:24Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 4
-- Mention count: 81
+- Mention count: 97
 
 ## Description
 

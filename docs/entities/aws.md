@@ -1,13 +1,13 @@
 # AWS
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `low`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:04:24Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 11
-- Mention count: 195
+- Mention count: 203
 
 ## Description
 
@@ -22,13 +22,13 @@ Candidate tool entity extracted from 1 source(s).
 - `src_8389d380973c03088058` — Feed post K Vishnu Teja • 3rd+ DevOps Engineer | AWS | Kubernetes | Terraform | EKS | GitOps | CI/CD | Cloud Infrastructure | Platform Engin
   - URL: https://www.linkedin.com/in/vishnukteja?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGjnNqwBd0XOp_jQSuQeSiSUoohjMvRkUPk
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/071-dd286c26b8595fe3b7a9.md`
-- `src_c3889936f21fa6b6b8d7` — Feed post Shabana Khanam • 3rd+ Engineering Leader, ML & AI | Production LLM Systems | Regulated Financial Services | Azure · GCP · AWS|MIT
+- `src_c3889936f21fa6b6b8d7` — Feed post Shabana Khanam • 3rd+ Engineering Leader, ML & AI | Production LLM Systems | Regulated Financial Services | Azure · GCP · AWS|MIT 
   - URL: https://www.linkedin.com/in/iamshabanakhanam?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHbVLEBBI7SnfZHgTyuq7xphMlyQVBtYHc
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/050-41850edaa9689afb98c2.md`
-- `src_d4bf7505a7072203aee7` — Feed post Shabana Khanam • 3rd+ Engineering Leader, ML & AI | Production LLM Systems | Regulated Financial Services | Azure · GCP · AWS|MIT
+- `src_d4bf7505a7072203aee7` — Feed post Shabana Khanam • 3rd+ Engineering Leader, ML & AI | Production LLM Systems | Regulated Financial Services | Azure · GCP · AWS|MIT 
   - URL: https://www.linkedin.com/in/iamshabanakhanam?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHbVLEBBI7SnfZHgTyuq7xphMlyQVBtYHc
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/050-14bcbae19b94e14eca83.md`
-- `src_14f0f32f65c557000df0` — Feed post Sergio Cabeza de Vaca Montero • 3rd+ AI Product Engineer: Agentic Workflows & Engineering Harnesses | AWS - Azure - Terraform 12h
+- `src_14f0f32f65c557000df0` — Feed post Sergio Cabeza de Vaca Montero • 3rd+ AI Product Engineer: Agentic Workflows & Engineering Harnesses | AWS - Azure - Terraform 12h 
   - URL: https://www.linkedin.com/in/sergio-cvm?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACanMfkBUkpsZ61drZyHU0YjJS6MDiqdgK4
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineer/179-3f4931b6001532f7f914.md`
 - `src_66599fe3327ec6f84c0c` — Feed post Corey Strausman • 3rd+ Unlocking Business Value with Community at AWS 2h • Follow ☀️ June is here, and so is the latest AWS Commun
@@ -37,7 +37,7 @@ Candidate tool entity extracted from 1 source(s).
 - `src_68277970039ef6271227` — Feed post Matt Lea • 3rd+ I help CTOs running on AWS sleep at night Visit my website 3h • Follow Do you want to give Agentic AI real memory?
   - URL: https://www.linkedin.com/in/schematical?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGkZwIBxfR6CFHZmsfX1u_MHeYBbvefSVg
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/098-be37a8fee3073c08f944.md`
-- `src_88575cd1e487f412dce2` — Rip off my home Agentic AI setup. I could have built it on AWS for $400/month. Instead I chose an $80 Raspberry Pi and open source, and I'd
+- `src_88575cd1e487f412dce2` — Rip off my home Agentic AI setup. I could have built it on AWS for $400/month. Instead I chose an $80 Raspberry Pi and open source, and I'd 
   - Archive: `linkedin/manual-20260611T173313Z/hermes-agent/091-eaccdd7df13cb06b0823.md`
 - `src_694db145d0bfde2b39ca` — Feed post Mansi Joshi • 3rd+ Full-Stack Developer | Python (Django/FastAPI), React, AWS | Software Engineering & AI-Augmented Development 1h
   - URL: https://www.linkedin.com/in/mansi-joshi-mj?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAELz9IIBjz5pcCAmCw0waC2FUe2Q8LKws1Y

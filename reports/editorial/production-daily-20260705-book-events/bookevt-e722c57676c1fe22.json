@@ -1,0 +1,62 @@
+{
+  "created_at_utc": "2026-07-05T04:56:59Z",
+  "event_id": "bookevt-e722c57676c1fe22",
+  "event_type": "research_gap.detected",
+  "human_in_loop_dependency_added": false,
+  "idempotency_key": "bookevt-e722c57676c1fe22",
+  "packet_id": "production-daily-20260705-autonomous_research_pipeline",
+  "payload": {
+    "packet": {
+      "claim_ids": [
+        "approved_subject:autonomous_research_pipeline"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "production-daily-20260705-autonomous_research_pipeline",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Autonomous Research Pipeline; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:autonomous_research_pipeline"
+      ],
+      "summary": "Approved research lane for Autonomous Research Pipeline; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/autonomous-research-pipeline.md",
+      "title": "Autonomous Research Pipeline",
+      "topics": [
+        "Autonomous Research Pipeline",
+        "autonomous research pipeline",
+        "\"autonomous research pipeline\" AI agents",
+        "\"autonomous research pipeline\""
+      ]
+    },
+    "packet_id": "production-daily-20260705-autonomous_research_pipeline",
+    "reason": "additional_independent_sources_would_strengthen_publication",
+    "suggested_queries": [
+      "Autonomous Research Pipeline",
+      "autonomous research pipeline",
+      "\"autonomous research pipeline\" AI agents",
+      "\"autonomous research pipeline\""
+    ],
+    "trace": {
+      "fit_threshold": 0.34,
+      "reason_code": "source_count_below_minimum",
+      "required_source_count": 3,
+      "source_count": 2,
+      "top_match_scores": [
+        {
+          "chapter_id": "operating_loops",
+          "score": 0.0
+        },
+        {
+          "chapter_id": "openclaw",
+          "score": 0.0
+        },
+        {
+          "chapter_id": "methodology",
+          "score": 0.0
+        }
+      ]
+    }
+  }
+}

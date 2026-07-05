@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-07-04T19:11:21Z",
+  "event_id": "bookevt-dd17a43fd76158bc",
+  "event_type": "research_gap.detected",
+  "human_in_loop_dependency_added": false,
+  "idempotency_key": "bookevt-dd17a43fd76158bc",
+  "packet_id": "production-daily-20260704-agent_runtime_security",
+  "payload": {
+    "packet": {
+      "claim_ids": [
+        "approved_subject:agent_runtime_security"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "production-daily-20260704-agent_runtime_security",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Agent Runtime Security; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:agent_runtime_security"
+      ],
+      "summary": "Approved research lane for Agent Runtime Security; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/agent-runtime-security.md",
+      "title": "Agent Runtime Security",
+      "topics": [
+        "Agent Runtime Security",
+        "agent runtime security",
+        "(\"agent runtime security\" OR \"application security\") AI agents",
+        "\"agent runtime security\" OR \"application security\""
+      ]
+    },
+    "packet_id": "production-daily-20260704-agent_runtime_security",
+    "reason": "additional_independent_sources_would_strengthen_publication",
+    "suggested_queries": [
+      "Agent Runtime Security",
+      "agent runtime security",
+      "(\"agent runtime security\" OR \"application security\") AI agents",
+      "\"agent runtime security\" OR \"application security\""
+    ]
+  }
+}

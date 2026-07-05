@@ -1,13 +1,13 @@
 # Run Hermes Agent
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `medium`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-30T10:04:24Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 4
-- Mention count: 174
+- Mention count: 206
 
 ## Description
 
@@ -25,7 +25,7 @@ No related claim records yet.
 - `src_e258810c611a33fd7c33` — GitHub - AaronWong1999/hermesclaw: Run Hermes Agent and OpenClaw on the same WeChat account · GitHub
   - URL: https://github.com/AaronWong1999/hermesclaw
   - Archive: `web/production-daily-20260617/openclaw-hermes/02-github-aaronwong1999-hermesclaw-run-hermes-agent-and-opencla.md`
-- `src_312c751e900ae6e7b4cc` — Feed post Enterprise Cloud Server Hosting 2,300 followers 9h • Follow 🚀 How to Install and Run Hermes Agent on hashtag #Ubuntu hashtag #VPS
+- `src_312c751e900ae6e7b4cc` — Feed post Enterprise Cloud Server Hosting 2,300 followers 9h • Follow 🚀 How to Install and Run Hermes Agent on hashtag #Ubuntu hashtag #VPS 
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/135-9abc74394bde075f47ba.md`
 - `src_75655d2a9744038885e7` — 🚀 How to Install and Run Hermes Agent on hashtag #Ubuntu hashtag #VPS (5 Minute Quick-Start Guide) This article describes how to install and
   - Archive: `linkedin/citation-pipeline-test-20260612/hermes-agent/137-f0f549a91e85f30db4de.md`

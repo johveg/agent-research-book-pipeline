@@ -1,6 +1,6 @@
 # Deep Learning
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `company`
 - Confidence: `low`
@@ -28,6 +28,6 @@ No related claim records yet.
 - `src_4f799eaac12023362488` — Feed post Michael W. • 3rd+ Using AI to solve real world problems | Fractional CAIO | Ex LinkedIn Top Voice - AI & Deep Learning | Speaker |
   - URL: https://www.linkedin.com/in/michael-wang-9a78011b5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADIhfE8BcAKRGVkP7vhZ2ZXayiaSwfuXBbY
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/100-6eee22142bae0d1a71d4.md`
-- `src_09a75d5f7e12201907fc` — Feed post Sunder Ali Khowaja , Ph.D., SMIEEE, FHEA • 3rd+ Researcher (Deep Learning, Responsible AI, Privacy Preservation Machine Learning,
+- `src_09a75d5f7e12201907fc` — Feed post Sunder Ali Khowaja , Ph.D., SMIEEE, FHEA • 3rd+ Researcher (Deep Learning, Responsible AI, Privacy Preservation Machine Learning, 
   - URL: https://www.linkedin.com/in/sanderali?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAOISVoB3zxlnSZziTGHO5ICEJgSsijCu-s
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/112-87175e2e6aeb783f543c.md`

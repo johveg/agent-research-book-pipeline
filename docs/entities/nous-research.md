@@ -1,17 +1,17 @@
 # Nous Research
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `high`
 - First seen: 2026-06-11T20:34:17Z
-- Last seen: 2026-06-30T10:06:21Z
-- Source count: 115
-- Mention count: 2557
+- Last seen: 2026-07-04T18:45:39Z
+- Source count: 129
+- Mention count: 3435
 
 ## Description
 
-Candidate tool entity extracted from 8 source(s).
+Candidate tool entity extracted from 14 source(s).
 
 ## Related claims
 
@@ -43,6 +43,9 @@ Candidate tool entity extracted from 8 source(s).
 - `src_400ed835a9010ec32b94` — Nous Research releases Hermes Agent v0.17.0 ...
   - URL: https://digg.com/tech/60ct5f9i
   - Archive: `web/production-daily-manual-20260621T044136Z/hermes-agent-nous-research/03-nous-research-releases-hermes-agent-v0-17-0.md`
+- `src_fd34ae2ccb960359d350` — Nous Research releases Hermes Agent v0.17.0 ...
+  - URL: https://digg.com/tech/60ct5f9i
+  - Archive: `web/production-daily-20260621/hermes-agent-nous-research/03-nous-research-releases-hermes-agent-v0-17-0.md`
 - `src_3d375ae965677513b4b4` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
   - URL: https://github.com/nousresearch/hermes-agent
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
@@ -55,9 +58,6 @@ Candidate tool entity extracted from 8 source(s).
 - `src_81cd90cd54aaa482b614` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
   - URL: https://github.com/nousresearch/hermes-agent
   - Archive: `web/citation-pipeline-test-20260612/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`
-- `src_fd34ae2ccb960359d350` — Nous Research releases Hermes Agent v0.17.0 ...
-  - URL: https://digg.com/tech/60ct5f9i
-  - Archive: `web/production-daily-20260621/hermes-agent-nous-research/03-nous-research-releases-hermes-agent-v0-17-0.md`
 - `src_19ad1af0200eff19d897` — GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
   - URL: https://github.com/nousresearch/hermes-agent
   - Archive: `web/production-daily-manual-20260615T171122Z/hermes-agent-nous-research/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md`

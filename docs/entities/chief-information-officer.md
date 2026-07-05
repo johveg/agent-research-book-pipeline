@@ -1,17 +1,17 @@
-# USD259
+# Chief Information Officer
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
-- Type: `tool`
-- Confidence: `medium`
+- Type: `person`
+- Confidence: `low`
 - First seen: 2026-06-13T01:27:13Z
-- Last seen: 2026-06-30T10:04:24Z
-- Source count: 3
-- Mention count: 85
+- Last seen: 2026-07-04T05:07:54Z
+- Source count: 4
+- Mention count: 121
 
 ## Description
 
-Candidate tool entity extracted from 2 source(s).
+Candidate person entity extracted from 1 source(s).
 
 ## Related claims
 
@@ -25,6 +25,9 @@ No related claim records yet.
 - `src_50469f971135fbc9a549` — Feed post Robert Dickson • 3rd+ Chief Information Officer at Wichita Public Schools - USD259 5h • Follow Most people are trying to become be
   - URL: https://www.linkedin.com/in/showmerob?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAROxOcB2BQsyz3VH6ehUjwEdYp-tncd4uM
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/065-f31eb211917ae3716717.md`
+- `src_6f1894766b5298c37467` — Feed post Zach Rossmiller, MBA • 3rd+ AVP/Chief Information Officer at University of Montana 4h • Follow Keeping up with AI right now feels 
+  - URL: https://www.linkedin.com/in/rossmillerz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAdtOOEBfo5AEThTyJAwLT3Bk2sbtl5OKZ4
+  - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/024-a604cccde00f1cb1e0dc.md`
 - `src_aa9b83f5f87cb1ca7b68` — Feed post Robert Dickson • 3rd+ Chief Information Officer at Wichita Public Schools - USD259 5h • Follow I'm not using AI like a chatbot any
   - URL: https://www.linkedin.com/in/showmerob?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAROxOcB2BQsyz3VH6ehUjwEdYp-tncd4uM
   - Archive: `linkedin/citation-pipeline-test-20260612/openclaw-hermes/038-53d6fd3545f4a26dcdfd.md`

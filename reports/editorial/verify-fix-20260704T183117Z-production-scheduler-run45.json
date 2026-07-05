@@ -1,0 +1,15 @@
+{
+  "blockers": [],
+  "final_disposition": "production_daily_completed",
+  "generated_at": "2026-07-04T18:31:17Z",
+  "mode": "run45_schedule_install_artifact",
+  "next_expected_run_time": null,
+  "production_daily_completed": true,
+  "run_id": "verify-fix-20260704T183117Z",
+  "schedule_command": "/home/hermoine/agent-research-book-pipeline/scripts/run_production_daily_cron.sh",
+  "schedule_installable": true,
+  "schedule_installed": false,
+  "status_metadata": {
+    "run_id": "verify-fix-20260704T183117Z"
+  }
+}

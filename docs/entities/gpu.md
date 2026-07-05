@@ -1,6 +1,6 @@
 # GPU
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
 - Confidence: `low`
@@ -22,7 +22,7 @@ Candidate tool entity extracted from 1 source(s).
 - `src_f680c74f628953dca95e` — Feed post Sriram S. • 3rd+ Director, Customer Success, Enterprise Platforms & GPU @ Singtel | AWS Certified Solution Architect - Associate 1
   - URL: https://www.linkedin.com/in/sriramsivakumar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALVwHEBnNJ-EDxDpZHUbuCTVyVWlGq3Fu0
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/117-1970a7efa6ffdc6b2072.md`
-- `src_04a7eca5823431c35182` — 應 百業分享堂邀請，錄製一段影片 如何打造Token Free 的AI 工廠— 把個人電腦串成地端的A I超級系統案例分享 這支影片分享我如何打造自己的 Token free AI 工廠：把家中的個人電腦、GPU 工作站、NAS 與邊緣裝置串成地端 AI 超級系統。透過 Joe
+- `src_04a7eca5823431c35182` — 應 百業分享堂邀請，錄製一段影片 如何打造Token Free 的AI 工廠— 把個人電腦串成地端的A I超級系統案例分享 這支影片分享我如何打造自己的 Token free AI 工廠：把家中的個人電腦、GPU 工作站、NAS 與邊緣裝置串成地端 AI 超級系統。透過 Joe 
   - Archive: `linkedin/citation-pipeline-test-20260612/loop-engineering/157-7b5a550844a3947cfd86.md`
 - `src_8baa654da67b22f5647d` — Feed post Manish Sainani 🤫 • 3rd+ Co-Founder, Engineer & CEO @ 🤫 hussh / hushh - ex-Google Director of Product - Core AI Infrastructure, GPU
   - URL: https://www.linkedin.com/in/manishsainani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAA0b80B9vF2lKjAiVu5MF5tVMFxA0WopDc

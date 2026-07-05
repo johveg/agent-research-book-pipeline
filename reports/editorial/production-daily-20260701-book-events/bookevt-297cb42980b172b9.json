@@ -1,0 +1,40 @@
+{
+  "chapter_id": "browser_agents",
+  "confidence": 0.0,
+  "created_at_utc": "2026-07-01T04:55:27Z",
+  "event_id": "bookevt-297cb42980b172b9",
+  "event_type": "chapter.update.requested",
+  "human_in_loop_dependency_added": false,
+  "idempotency_key": "bookevt-297cb42980b172b9",
+  "packet_id": "production-daily-20260701-browser_agents",
+  "payload": {
+    "packet": {
+      "claim_ids": [
+        "approved_subject:browser_agents"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "production-daily-20260701-browser_agents",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Browser Agents; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:browser_agents"
+      ],
+      "summary": "Approved research lane for Browser Agents; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/browser-agents.md",
+      "title": "Browser Agents",
+      "topics": [
+        "Browser Agents",
+        "browser agents",
+        "\"browser agents\" AI agents",
+        "\"browser agents\""
+      ]
+    },
+    "packet_id": "production-daily-20260701-browser_agents",
+    "reason": "target_path_already_exists"
+  },
+  "target_path": "docs/book/browser-agents.md",
+  "update_type": "integrate_evidence_packet"
+}

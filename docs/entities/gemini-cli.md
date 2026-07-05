@@ -1,17 +1,17 @@
 # Gemini CLI
 
-Last generated: 2026-06-30T10:06:21Z
+Last generated: 2026-07-04T18:45:39Z
 
 - Type: `tool`
-- Confidence: `low`
+- Confidence: `high`
 - First seen: 2026-06-15T13:28:52Z
-- Last seen: 2026-06-30T10:06:21Z
+- Last seen: 2026-07-04T05:07:54Z
 - Source count: 5
-- Mention count: 133
+- Mention count: 181
 
 ## Description
 
-Candidate tool entity extracted from 1 source(s).
+Candidate tool entity extracted from 5 source(s).
 
 ## Related claims
 
@@ -24,12 +24,12 @@ No related claim records yet.
 - `src_b75c2361e83124296385` — GitHub - SaladDay/cc-switch-cli: ⭐️ A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.
   - URL: https://github.com/saladday/cc-switch-cli
   - Archive: `web/production-daily-20260620/hermes-openclaw/03-github-saladday-cc-switch-cli-a-cross-platform-cli-all-in-on.md`
-- `src_b706cc7020c480e20338` — GitHub - safishamsi/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. · GitHub
-  - URL: https://github.com/safishamsi/graphify
-  - Archive: `web/production-daily-direct-20260621T120113Z/hermes-openclaw/03-github-safishamsi-graphify-ai-coding-assistant-skill-claude.md`
 - `src_8bd511ff50b47ae4f017` — GitHub - safishamsi/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. · GitHub
   - URL: https://github.com/safishamsi/graphify
   - Archive: `web/production-daily-20260628/hermes-openclaw/02-github-safishamsi-graphify-ai-coding-assistant-skill-claude.md`
+- `src_b706cc7020c480e20338` — GitHub - safishamsi/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. · GitHub
+  - URL: https://github.com/safishamsi/graphify
+  - Archive: `web/production-daily-direct-20260621T120113Z/hermes-openclaw/03-github-safishamsi-graphify-ai-coding-assistant-skill-claude.md`
 - `src_76dd473bb58af5029d7d` — GitHub - SaladDay/cc-switch-cli: ⭐️ A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.
   - URL: https://github.com/saladday/cc-switch-cli
   - Archive: `web/production-daily-20260627/hermes-openclaw/03-github-saladday-cc-switch-cli-a-cross-platform-cli-all-in-on.md`

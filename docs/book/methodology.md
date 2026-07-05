@@ -31,6 +31,6 @@ The evidence boundaries of this methodology are the same limits that shape the r
 These limits are especially important for autonomous chapter creation. A new chapter should appear only when processed information has no good existing home and the queue can describe its scope, target path, evidence status, and required gates. Even then, the chapter should not be treated as public until the publisher and proof gates approve it. The method is fast because it is explicit: every run either advances the manuscript through visible gates or records exactly why it stopped. That audit trail is part of the method rather than an administrative afterthought. [1] [2] [3]
 ## References
 
-[1] [Approved research lane](book/open-questions.md).
-[2] [Research loop evidence process](book/source-registry.md).
-[3] [Guarded publication policy](book/methodology.md).
+[1] [Approved research lane](open-questions.md).
+[2] [Research loop evidence process](source-registry.md).
+[3] [Guarded publication policy](methodology.md).

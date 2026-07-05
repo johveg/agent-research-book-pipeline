@@ -108,7 +108,10 @@ def test_citation_resolver_formats_references_as_hyperlinks(tmp_path):
     book_dir = tmp_path / "book"
     book_dir.mkdir()
     page = book_dir / "chapter.md"
-    page.write_text("# Chapter\n\nClaim {{cite:src_aaaaaaaaaaaaaaaaaaaa}}.\n", encoding="utf-8")
+    page.write_text(
+        "# Chapter\n\nClaim {{cite:src_aaaaaaaaaaaaaaaaaaaa}} and {{cite:src_bbbbbbbbbbbbbbbbbbbb}}.\n",
+        encoding="utf-8",
+    )
 
     registry = {
         "schema_version": 1,
@@ -123,7 +126,16 @@ def test_citation_resolver_formats_references_as_hyperlinks(tmp_path):
                 "original_url": "https://hermesatlas.com/projects/NousResearch/hermes-agent",
                 "source_type": "web",
                 "privacy_publication_status": "public",
-            }
+            },
+            {
+                "source_id": "src_bbbbbbbbbbbbbbbbbbbb",
+                "title": "Hermes README",
+                "publisher": "GitHub",
+                "canonical_url": "https://github.com/NousResearch/hermes-agent",
+                "original_url": "https://github.com/NousResearch/hermes-agent",
+                "source_type": "web",
+                "privacy_publication_status": "public",
+            },
         ],
     }
     registry_path = tmp_path / "registry.json"
@@ -132,7 +144,7 @@ def test_citation_resolver_formats_references_as_hyperlinks(tmp_path):
     result = run_script("resolve_book_citations.py", "--book-dir", str(book_dir), "--registry", str(registry_path))
     assert result.returncode == 0, result.stderr + result.stdout
     text = page.read_text(encoding="utf-8")
-    assert "[1] [Hermes Atlas](https://hermesatlas.com/projects/NousResearch/hermes-agent)" in text
+    assert "[1] [Hermes Atlas](https://hermesatlas.com/projects/NousResearch/hermes-agent)\n\n" in text
     assert "2026-" not in text
 
 
@@ -151,6 +163,39 @@ def test_citation_resolver_normalizes_legacy_reference_lines(tmp_path):
     text = page.read_text(encoding="utf-8")
     assert "[1] [Hermes](https://hermesatlas.com/projects/NousResearch/hermes-agent)" in text
     assert "2026-06-11T17:33:13Z" not in text
+
+
+def test_citation_resolver_adds_blank_lines_between_existing_reference_entries(tmp_path):
+    book_dir = tmp_path / "book"
+    book_dir.mkdir()
+    page = book_dir / "chapter.md"
+    page.write_text(
+        "# Chapter\n\nSupported point [1] [2].\n\n## References\n\n"
+        "[1] [Source one](https://example.com/one).\n"
+        "[2] [Source two](https://example.com/two).\n",
+        encoding="utf-8",
+    )
+
+    result = run_script("resolve_book_citations.py", "--book-dir", str(book_dir))
+    assert result.returncode == 0, result.stderr + result.stdout
+    text = page.read_text(encoding="utf-8")
+    assert "[1] [Source one](https://example.com/one).\n\n[2] [Source two](https://example.com/two)." in text
+
+
+def test_publication_gate_blocks_missing_blank_line_between_references(tmp_path):
+    book_dir = tmp_path / "book"
+    book_dir.mkdir()
+    (book_dir / "cramped.md").write_text(
+        "# Cramped\n\nSupported point [1] [2].\n\n## References\n\n"
+        "[1] [Source one](https://example.com/one).\n"
+        "[2] [Source two](https://example.com/two).\n",
+        encoding="utf-8",
+    )
+    result = run_script("verify_book_citations.py", "--book-dir", str(book_dir))
+    assert result.returncode == 2
+    payload = json.loads(result.stdout)
+    failures = payload["legacy_reference_style_hits"][0]["style_failures"]
+    assert "missing_blank_line_after_reference" in failures
 
 
 def test_publication_gate_blocks_legacy_metadata_reference_style(tmp_path):

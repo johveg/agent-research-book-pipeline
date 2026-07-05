@@ -11,7 +11,11 @@ One cautious reading is that Several June 2026 public articles describe a shift 
 ## References
 
 [1] [Loop Engineering Playbook. Where loops live](https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8)
+
 [2] [Loop Engineering Playbook](https://cobusgreyling.substack.com/p/loop-engineering-playbook)
+
 [3] [Agentic Loops: From ReAct to Loop Engineering (2026 Guide)](https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/)
+
 [4] [Loop Engineering Explained Visually - by The Cloud Girl](https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually)
+
 [5] [From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun](https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d)

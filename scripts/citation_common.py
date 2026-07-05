@@ -187,10 +187,31 @@ def _normalize_legacy_reference_lines(text: str) -> tuple[str, bool]:
         lines[i] = f"[{number}] [{label}]({url_match})"
         changed = True
 
+    lines, spacing_changed = _space_reference_entries(lines, header_idx)
     normalized = "\n".join(lines)
     if text.endswith("\n") and not normalized.endswith("\n"):
         normalized += "\n"
-    return normalized, changed
+    return normalized, changed or spacing_changed
+
+
+def _space_reference_entries(lines: list[str], header_idx: int) -> tuple[list[str], bool]:
+    spaced: list[str] = []
+    changed = False
+    reference_line_re = re.compile(r"^\[(\d+)\]\s+")
+
+    for i, line in enumerate(lines):
+        if i > header_idx and line.startswith("## "):
+            spaced.extend(lines[i:])
+            break
+        if i > header_idx and reference_line_re.match(line.strip()) and spaced:
+            previous = spaced[-1].strip()
+            if reference_line_re.match(previous):
+                spaced.append("")
+                changed = True
+        spaced.append(line)
+    else:
+        return spaced, changed
+    return spaced, changed
 
 
 def resolve_text_citations(text: str, registry: dict[str, dict[str, Any]] | None = None) -> tuple[str, dict[str, Any]]:
@@ -237,7 +258,8 @@ def resolve_text_citations(text: str, registry: dict[str, dict[str, Any]] | None
         references = ["", "## References", ""]
         for source_id, number in sorted(citation_numbers.items(), key=lambda item: item[1]):
             references.append(f"[{number}] {citation_label(registry[source_id])}")
-        text += "\n".join(references) + "\n"
+            references.append("")
+        text += "\n".join(references).rstrip() + "\n"
     else:
         text, references_normalized = _normalize_legacy_reference_lines(text)
 
@@ -315,7 +337,8 @@ def scan_publication_citation_issues(book_dir: Path | None = None) -> dict[str, 
                 }
             )
 
-        for idx, line in enumerate(reference_lines, start=(references_header_idx + 2) if references_header_idx is not None else 1):
+        for offset, line in enumerate(reference_lines):
+            idx = ((references_header_idx + 2) if references_header_idx is not None else 1) + offset
             ref_match = reference_line_re.match(line)
             if not ref_match:
                 continue
@@ -329,6 +352,8 @@ def scan_publication_citation_issues(book_dir: Path | None = None) -> dict[str, 
                 style_failures.append("contains_timestamp")
             if quality_re.search(body):
                 style_failures.append("contains_quality_label")
+            if offset + 1 < len(reference_lines) and reference_line_re.match(reference_lines[offset + 1]):
+                style_failures.append("missing_blank_line_after_reference")
             if style_failures:
                 legacy_reference_style_hits.append(
                     {

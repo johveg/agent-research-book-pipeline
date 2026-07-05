@@ -32,5 +32,7 @@ These limits are especially important for autonomous chapter creation. A new cha
 ## References
 
 [1] [Approved research lane](open-questions.md).
+
 [2] [Research loop evidence process](source-registry.md).
+
 [3] [Guarded publication policy](methodology.md).

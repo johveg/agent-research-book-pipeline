@@ -19,10 +19,17 @@ One cautious reading is that Current loop-engineering commentary often contrasts
 ## References
 
 [1] [hermes-agent — Hermes Agent Core & Official | Hermes Atlas](https://hermesatlas.com/projects/NousResearch/hermes-agent)
+
 [2] [GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub](https://github.com/nousresearch/hermes-agent)
+
 [3] [hermes-agent/README.md at main · NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent/blob/main/README.md)
+
 [4] [Loop Engineering Playbook. Where loops live](https://cobusgreyling.medium.com/loop-engineering-playbook-4460e01e88d8)
+
 [5] [Loop Engineering Playbook](https://cobusgreyling.substack.com/p/loop-engineering-playbook)
+
 [6] [Agentic Loops: From ReAct to Loop Engineering (2026 Guide)](https://datasciencedojo.com/blog/agentic-loops-explained-from-react-to-loop-engineering-2026-guide/)
+
 [7] [Loop Engineering Explained Visually - by The Cloud Girl](https://priyankavergadia.substack.com/p/agent-loop-and-fleet-explained-visually)
+
 [8] [From Prompt Engineering to Loop Engineering: Why the Agent Era Demands a New Security Paradigm | by Filip Verloy | Jun](https://medium.com/@filipv_74515/from-prompt-engineering-to-loop-engineering-why-the-agent-era-demands-a-new-security-paradigm-816385040e3d)

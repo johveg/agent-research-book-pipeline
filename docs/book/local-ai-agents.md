@@ -12,5 +12,7 @@ The chapter will therefore mature in stages. First, the subject appears as a see
 ## References
 
 [1] [Approved research lane](open-questions.md).
+
 [2] [Research loop evidence process](source-registry.md).
+
 [3] [Guarded publication policy](methodology.md).

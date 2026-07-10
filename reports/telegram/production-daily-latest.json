@@ -1,48 +1,725 @@
 {
-  "blockers": [
-    "scheduler_failed_closed"
+  "all_chapter_public_proof_failed_chapters": [
+    "openclaw"
   ],
-  "cron_err_path": "logs/runs/production-daily-20260705.cron.err",
-  "cron_out_path": "logs/runs/production-daily-20260705.cron.out",
-  "disposition": "production_daily_failed_closed",
-  "duration_seconds": 14,
-  "emitted_at_oslo_iso": "2026-07-05T06:57:02+0200",
-  "emitted_at_unix_ms": 1783227422000,
-  "emitted_at_unix_s": 1783227422,
-  "emitted_at_utc_iso": "2026-07-05T04:57:02Z",
-  "failed_closed_reason": "scheduler_failed_closed",
+  "all_chapter_public_proof_gate_invoked": true,
+  "all_chapter_public_proof_gate_ok": false,
+  "all_chapter_public_proof_report": "reports/editorial/production-daily-20260710-all-chapters-public-proof.json",
+  "all_chapter_public_proof_report_only": true,
+  "all_chapters_public_proof_blocking": false,
+  "author_editor_redteam_performed": true,
+  "blockers": [],
+  "bridge": "hermes_cli",
+  "chapter_revision_policy_gate_invoked": true,
+  "chapter_revision_policy_gate_ok": true,
+  "chapter_rewrite_applied": false,
+  "chapter_subject_discovery_invoked": true,
+  "citation_verifier_ok": true,
+  "citation_verifier_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"status\": \"ok\",\n  \"raw_id_hits\": [],\n  \"unresolved_hits\": [],\n  \"citation_reference_mismatch_hits\": [],\n  \"legacy_reference_style_hits\": []\n}\n"
+  },
+  "claim_extraction_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"status\": \"ok\",\n  \"claims_seen\": 32,\n  \"sources_read\": 500\n}\n"
+  },
+  "cron_artifact": "config/schedules/closed-loop-production-daily.cron.example",
+  "cron_err_path": "logs/runs/production-daily-20260710.cron.err",
+  "cron_expression": "30 5 * * *",
+  "cron_out_path": "logs/runs/production-daily-20260710.cron.out",
+  "daily_runner_invoked": true,
+  "daily_status_fallback_applied": true,
+  "daily_worker_capability_probe": {
+    "command": [
+      "/home/hermoine/agent-research-book-pipeline/.venv/bin/python",
+      "scripts/daily_book_worker.py",
+      "--print-capabilities-json"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stderr_tail": "",
+    "stdout": "{\"all_chapter_public_proof_gate_blocks_evidence_led_pages\": true, \"author_allowed\": false, \"capability_probe_no_write\": true, \"chapter_update_allowed\": false, \"eligible_for_authoring\": false, \"eligible_for_claim_insertion\": false, \"eligible_for_publication\": false, \"human_in_loop_dependency_added\": false, \"preflight_only_no_write\": true, \"publication_approved\": false, \"supports_all_chapter_public_proof_gate\": true, \"supports_automatic_guarded_new_chapter_queue\": true, \"supports_existing_chapter_fluent_refactor_rewrite\": true, \"supports_human_approved_chapter_subject_discovery\": true, \"supports_human_approved_research_pair_creation\": true, \"supports_no_commit\": true, \"supports_no_docs_book_update_without_gate\": true, \"supports_no_push\": true, \"supports_optional_visual_capture\": true, \"supports_post_processing_chapter_revision_policy\": true, \"supports_preflight_all_chapter_public_proof\": true, \"supports_preflight_only\": true, \"supports_skip_capture\": true, \"supports_skip_claim_extraction\": true, \"supports_skip_docs_claims_update\": true, \"supports_skip_docs_entities_update\": true, \"supports_skip_entity_extraction\": true, \"supports_skip_run_table_update\": true, \"supports_skip_source_registry_export\": true, \"supports_skip_vector\": true}\n",
+    "stdout_tail": "{\"all_chapter_public_proof_gate_blocks_evidence_led_pages\": true, \"author_allowed\": false, \"capability_probe_no_write\": true, \"chapter_update_allowed\": false, \"eligible_for_authoring\": false, \"eligible_for_claim_insertion\": false, \"eligible_for_publication\": false, \"human_in_loop_dependency_added\": false, \"preflight_only_no_write\": true, \"publication_approved\": false, \"supports_all_chapter_public_proof_gate\": true, \"supports_automatic_guarded_new_chapter_queue\": true, \"supports_existing_chapter_fluent_refactor_rewrite\": true, \"supports_human_approved_chapter_subject_discovery\": true, \"supports_human_approved_research_pair_creation\": true, \"supports_no_commit\": true, \"supports_no_docs_book_update_without_gate\": true, \"supports_no_push\": true, \"supports_optional_visual_capture\": true, \"supports_post_processing_chapter_revision_policy\": true, \"supports_preflight_all_chapter_public_proof\": true, \"supports_preflight_only\": true, \"supports_skip_capture\": true, \"supports_skip_claim_extraction\": true, \"supports_skip_docs_claims_update\": true, \"supports_skip_docs_entities_update\": true, \"supports_skip_entity_extraction\": true, \"supports_skip_run_table_update\": true, \"supports_skip_source_registry_export\": true, \"supports_skip_vector\": true}\n"
+  },
+  "daily_worker_capability_probe_ok": true,
+  "daily_worker_invoked": true,
+  "daily_worker_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\"all_chapter_public_proof_executed\": true, \"all_chapter_public_proof_failed_chapters\": [\"openclaw\"], \"all_chapter_public_proof_ok\": false, \"all_chapter_public_proof_report\": \"reports/editorial/production-daily-20260710-all-chapters-public-proof.json\", \"approved_research_lane_count\": 17, \"approved_seed_chapter_count\": 0, \"approved_seed_nav_added_count\": 0, \"capability_probe_no_write\": false, \"capture_executed\": false, \"chapter_revision_policy_executed\": true, \"chapter_revision_policy_wired\": true, \"chapter_subject_discovery_executed\": false, \"chapter_subject_discovery_wired\": true, \"claim_extraction_executed\": false, \"commit_executed\": false, \"docs_book_update_executed\": false, \"docs_claims_update_executed\": false, \"docs_entities_update_executed\": false, \"entity_extraction_executed\": false, \"execution_performed\": false, \"human_in_loop_dependency_added\": false, \"ok\": true, \"post_processing_chapter_revision_trigger\": \"after_automatic_collection_and_processing\", \"preflight_only\": true, \"preflight_only_no_write\": false, \"push_executed\": false, \"run_id\": \"production-daily-20260710\", \"run_table_update_executed\": false, \"source_registry_export_executed\": false, \"validated_arguments\": true, \"vector_index_build_executed\": false, \"visible_approved_chapter_count\": 17, \"visual_capture_executed\": false, \"writes_performed\": false}\n"
+  },
+  "db_counts_after": {
+    "claims": 250,
+    "editorial_reviews": 10,
+    "source_notes": 525
+  },
+  "db_counts_before": {
+    "claims": 250,
+    "editorial_reviews": 10,
+    "source_notes": 525
+  },
+  "db_delta": {},
+  "degraded_warnings": [
+    "editorial_verifier_report_only_no_content_delta"
+  ],
+  "disposition": "production_daily_completed",
+  "docs_book_files_changed": [],
+  "duration_seconds": 13,
+  "editorial_verifier_ok": true,
+  "editorial_verifier_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{'status': 'ok', 'errors': [], 'warnings': []}\n"
+  },
+  "emitted_at_oslo_iso": "2026-07-10T07:13:48+02:00",
+  "emitted_at_unix_ms": 1783660428000,
+  "emitted_at_unix_s": 1783660428,
+  "emitted_at_utc_iso": "2026-07-10T05:13:48Z",
+  "entity_extraction_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"status\": \"ok\",\n  \"entities_seen\": 878,\n  \"sources_read\": 500\n}\n"
+  },
+  "event_driven_book_production_used": true,
+  "event_driven_dispatch_report": "reports/editorial/production-daily-20260710-event-driven-dispatch.json",
+  "event_driven_dispatch_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\"event_count\": 5, \"ok\": true, \"patch_proposal_count\": 0}\n"
+  },
+  "event_driven_dispatcher_invoked": true,
+  "event_driven_no_content_delta": true,
+  "event_driven_publication_join_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\"all_chapters_public_proof_blocking\": false, \"changed_files\": [], \"ok\": true}\n"
+  },
+  "event_driven_publication_joiner_invoked": true,
+  "event_driven_publication_report": "reports/editorial/production-daily-20260710-event-driven-publication.json",
+  "event_ledger_attempt_started": true,
+  "evidence_promotion_performed": true,
+  "execute_once_result": "completed",
+  "extraction_performed": true,
+  "failed_closed_reason": null,
   "fallback_channel_used": false,
-  "final_disposition": "production_daily_failed_closed",
+  "final_disposition": "production_daily_completed",
+  "final_gate_result": {
+    "failed_gates": [],
+    "ok": true,
+    "waived_gates": [
+      "editorial_verifier_ok"
+    ]
+  },
+  "full_manuscript_proof": {
+    "chapter_results": {
+      "agent_runtime_security": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.205770+00:00",
+        "expected_title": "Agent Runtime Security",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/agent-runtime-security.md",
+        "target_path": "docs/book/agent-runtime-security.md",
+        "unique_citation_token_count": 3
+      },
+      "autonomous_research_pipeline": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.205985+00:00",
+        "expected_title": "Autonomous Research Pipeline",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/autonomous-research-pipeline.md",
+        "target_path": "docs/book/autonomous-research-pipeline.md",
+        "unique_citation_token_count": 3
+      },
+      "browser_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.206166+00:00",
+        "expected_title": "Browser Agents",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/browser-agents.md",
+        "target_path": "docs/book/browser-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "citation_pipeline": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.206385+00:00",
+        "expected_title": "Citation Pipeline",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/citation-pipeline.md",
+        "target_path": "docs/book/citation-pipeline.md",
+        "unique_citation_token_count": 3
+      },
+      "coding_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.206594+00:00",
+        "expected_title": "Coding Agents",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/coding-agents.md",
+        "target_path": "docs/book/coding-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "computer_use_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.206807+00:00",
+        "expected_title": "Computer Use Agents",
+        "failed_checks": [
+          "expected_title_missing"
+        ],
+        "forbidden_phrases_found": [],
+        "ok": false,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": false,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/computer-use-agents.md",
+        "target_path": "docs/book/computer-use-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "context_memory_architecture": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.205158+00:00",
+        "expected_title": "Context Memory Architecture",
+        "failed_checks": [
+          "expected_title_missing"
+        ],
+        "forbidden_phrases_found": [],
+        "ok": false,
+        "paragraph_count_ge_120_chars": 8,
+        "public_page_booklike": false,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/05-context-memory-architecture.md",
+        "target_path": "docs/book/05-context-memory-architecture.md",
+        "unique_citation_token_count": 5
+      },
+      "desktop_ai_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.207046+00:00",
+        "expected_title": "Desktop Ai Agents",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/desktop-ai-agents.md",
+        "target_path": "docs/book/desktop-ai-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "enterprise_ai_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.207267+00:00",
+        "expected_title": "Enterprise Ai Agents",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/enterprise-ai-agents.md",
+        "target_path": "docs/book/enterprise-ai-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "hermes": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.204514+00:00",
+        "expected_title": "Hermes",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 7,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/02-hermes.md",
+        "target_path": "docs/book/02-hermes.md",
+        "unique_citation_token_count": 4
+      },
+      "human_approval_workflow": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.207477+00:00",
+        "expected_title": "Human Approval Workflow",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/human-approval-workflow.md",
+        "target_path": "docs/book/human-approval-workflow.md",
+        "unique_citation_token_count": 3
+      },
+      "introduction": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.208256+00:00",
+        "expected_title": "Introduction",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 10,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/introduction.md",
+        "target_path": "docs/book/introduction.md",
+        "unique_citation_token_count": 3
+      },
+      "local_ai_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.208495+00:00",
+        "expected_title": "Local Ai Agents",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/local-ai-agents.md",
+        "target_path": "docs/book/local-ai-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "local_first_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.208706+00:00",
+        "expected_title": "Local First Agents",
+        "failed_checks": [
+          "expected_title_missing"
+        ],
+        "forbidden_phrases_found": [],
+        "ok": false,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": false,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/local-first-agents.md",
+        "target_path": "docs/book/local-first-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "loop_engineering": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.204937+00:00",
+        "expected_title": "Loop Engineering",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 7,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/04-loop-engineering.md",
+        "target_path": "docs/book/04-loop-engineering.md",
+        "unique_citation_token_count": 5
+      },
+      "mcp_tools": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.208932+00:00",
+        "expected_title": "Mcp Tools",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/mcp-tools.md",
+        "target_path": "docs/book/mcp-tools.md",
+        "unique_citation_token_count": 3
+      },
+      "methodology": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.209419+00:00",
+        "expected_title": "Methodology",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 11,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/methodology.md",
+        "target_path": "docs/book/methodology.md",
+        "unique_citation_token_count": 3
+      },
+      "multi_agent_workflows": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.209640+00:00",
+        "expected_title": "Multi Agent Workflows",
+        "failed_checks": [
+          "expected_title_missing"
+        ],
+        "forbidden_phrases_found": [],
+        "ok": false,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": false,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/multi-agent-workflows.md",
+        "target_path": "docs/book/multi-agent-workflows.md",
+        "unique_citation_token_count": 3
+      },
+      "observability_for_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.209867+00:00",
+        "expected_title": "Observability For Agents",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/observability-for-agents.md",
+        "target_path": "docs/book/observability-for-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "open_questions": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.209983+00:00",
+        "expected_title": "Open Questions",
+        "failed_checks": [
+          "booklike_required_signals_missing",
+          "insufficient_sustained_prose",
+          "citation_tokens_missing_or_too_sparse"
+        ],
+        "forbidden_phrases_found": [],
+        "ok": false,
+        "paragraph_count_ge_120_chars": 2,
+        "public_page_booklike": false,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [
+          "references"
+        ],
+        "source": "docs/book/open-questions.md",
+        "target_path": "docs/book/open-questions.md",
+        "unique_citation_token_count": 0
+      },
+      "openclaw": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.204718+00:00",
+        "expected_title": "Openclaw",
+        "failed_checks": [
+          "citation_tokens_missing_or_too_sparse"
+        ],
+        "forbidden_phrases_found": [],
+        "ok": false,
+        "paragraph_count_ge_120_chars": 5,
+        "public_page_booklike": false,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/03-openclaw.md",
+        "target_path": "docs/book/03-openclaw.md",
+        "unique_citation_token_count": 2
+      },
+      "operating_loops": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.205541+00:00",
+        "expected_title": "Operating Loops",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 14,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/06-operating-loops.md",
+        "target_path": "docs/book/06-operating-loops.md",
+        "unique_citation_token_count": 7
+      },
+      "preface": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.210270+00:00",
+        "expected_title": "Preface",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 13,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/preface.md",
+        "target_path": "docs/book/preface.md",
+        "unique_citation_token_count": 8
+      },
+      "red_team_review": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.210486+00:00",
+        "expected_title": "Red Team Review",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/red-team-review.md",
+        "target_path": "docs/book/red-team-review.md",
+        "unique_citation_token_count": 3
+      },
+      "self_improving_agents": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.210704+00:00",
+        "expected_title": "Self Improving Agents",
+        "failed_checks": [
+          "expected_title_missing"
+        ],
+        "forbidden_phrases_found": [],
+        "ok": false,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": false,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/self-improving-agents.md",
+        "target_path": "docs/book/self-improving-agents.md",
+        "unique_citation_token_count": 3
+      },
+      "source_registry": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.210947+00:00",
+        "expected_title": "Source Registry",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 4,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/source-registry.md",
+        "target_path": "docs/book/source-registry.md",
+        "unique_citation_token_count": 3
+      },
+      "the_agent_loop": {
+        "bullet_line_count": 0,
+        "checked_at_utc_iso": "2026-07-10T05:13:45.204285+00:00",
+        "expected_title": "The Agent Loop",
+        "failed_checks": [],
+        "forbidden_phrases_found": [],
+        "ok": true,
+        "paragraph_count_ge_120_chars": 14,
+        "public_page_booklike": true,
+        "required_signals": [
+          "references"
+        ],
+        "required_signals_missing": [],
+        "source": "docs/book/01-the-agent-loop.md",
+        "target_path": "docs/book/01-the-agent-loop.md",
+        "unique_citation_token_count": 8
+      }
+    },
+    "failed_chapters": [
+      "openclaw",
+      "context_memory_architecture",
+      "computer_use_agents",
+      "local_first_agents",
+      "multi_agent_workflows",
+      "open_questions",
+      "self_improving_agents"
+    ],
+    "ok": false,
+    "passed_chapters": [
+      "agent_runtime_security",
+      "autonomous_research_pipeline",
+      "browser_agents",
+      "citation_pipeline",
+      "coding_agents",
+      "desktop_ai_agents",
+      "enterprise_ai_agents",
+      "hermes",
+      "human_approval_workflow",
+      "introduction",
+      "local_ai_agents",
+      "loop_engineering",
+      "mcp_tools",
+      "methodology",
+      "observability_for_agents",
+      "operating_loops",
+      "preface",
+      "red_team_review",
+      "source_registry",
+      "the_agent_loop"
+    ],
+    "source_kind": "all_local_book_chapters_report_only",
+    "total_chapters": 27
+  },
+  "generated_at": "2026-07-10T05:13:35Z",
   "git_branch": "main",
-  "git_commit": "90d3355",
-  "log_path": "logs/runs/production-daily-20260705.log",
-  "mode": "production_daily",
-  "production_daily_completed": false,
-  "production_daily_failed_closed": true,
+  "git_commit": "c678127",
+  "gpt55_required": true,
+  "gpt55_used": true,
+  "guarded_publication_performed": true,
+  "human_in_loop_dependency_added": false,
+  "install_command": "(crontab -l 2>/dev/null | grep -v 'closed_loop_production_scheduler.py' | grep -v 'run_production_daily_cron.sh' | grep -v '^CRON_TZ=Europe/Oslo$'; cat /home/hermoine/agent-research-book-pipeline/config/schedules/closed-loop-production-daily.cron.example) | crontab -",
+  "log_path": "logs/runs/production-daily-20260710.log",
+  "mkdocs_strict_ok": true,
+  "mkdocs_strict_result": {
+    "returncode": 0,
+    "stderr_tail": "\n\u001b[31m │  ⚠  Warning from the Material for MkDocs team\u001b[0m\n\u001b[31m │\u001b[0m\n\u001b[31m │\u001b[0m  MkDocs 2.0, the underlying framework of Material for MkDocs,\n\u001b[31m │\u001b[0m  will introduce backward-incompatible changes, including:\n\u001b[31m │\u001b[0m\n\u001b[31m │  × \u001b[0mAll plugins will stop working – the plugin system has been removed\n\u001b[31m │  × \u001b[0mAll theme overrides will break – the theming system has been rewritten\n\u001b[31m │  × \u001b[0mNo migration path exists – existing projects cannot be upgraded\n\u001b[31m │  × \u001b[0mClosed contribution model – community members can't report bugs\n\u001b[31m │  × \u001b[0mCurrently unlicensed – unsuitable for production use\n\u001b[31m │\u001b[0m\n\u001b[31m │\u001b[0m  Our full analysis:\n\u001b[31m │\u001b[0m\n\u001b[31m │\u001b[0m  \u001b[4mhttps://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/\u001b[0m\n\u001b[0m\nINFO    -  Cleaning site directory\nINFO    -  Building documentation to directory: /home/hermoine/agent-research-book-pipeline/site\nINFO    -  Documentation built in 0.53 seconds\n",
+    "stdout_tail": ""
+  },
+  "mode": "run45_schedule_install_artifact",
+  "model": "gpt-5.5",
+  "mutation_guard_failed_checks": [],
+  "mutation_guard_ok": true,
+  "mutation_guard_profile": "production_daily_publish",
+  "mutation_guard_report": "reports/editorial/production-daily-20260710-mutation-guard-run45.json",
+  "next_expected_run_time": "2026-07-11T05:30:00+01:00/+02:00 Europe/Oslo",
+  "no_content_delta_guarded_completion": true,
+  "note": "Daily cron artifact is installable; scheduler installs it only after execute-once gates pass when requested.",
+  "ops_channel": "AL-Hermoine-OPS",
+  "production_daily_completed": true,
+  "production_daily_failed_closed": false,
   "production_execution_attempted": true,
-  "production_execution_completed": false,
-  "run_finished_at_unix_s": 1783227422,
-  "run_id": "production-daily-20260705",
-  "run_started_at_unix_s": 1783227408,
-  "severity": "failed_closed",
-  "status": "production_daily_failed_closed",
+  "production_execution_completed": true,
+  "production_scheduler_created": true,
+  "provider": "copilot",
+  "publication_orchestrator_invoked": false,
+  "publication_status": "event_driven_no_content_delta",
+  "raw_collection_performed": true,
+  "raw_delta_summary": "web raw capture paths under raw/web/production-daily-20260710; LinkedIn authenticated capture skipped in execute-once to avoid browser-session stall",
+  "reasoning_profile": "closed_loop_editorial",
+  "run_finished_at_unix_s": 1783660428,
+  "run_id": "production-daily-20260710",
+  "run_started_at_unix_s": 1783660415,
+  "runtime_config_created": true,
+  "runtime_config_validation_errors": [],
+  "schedule_command": "/home/hermoine/agent-research-book-pipeline/scripts/run_production_daily_cron.sh",
+  "schedule_install_attempted": false,
+  "schedule_installable": true,
+  "schedule_installed": false,
+  "schedule_local_time": "05:30",
+  "schedule_timezone": "Europe/Oslo",
+  "severity": "success",
+  "source_registry_delta_summary": "source registry export command completed; diff governed by mutation guard",
+  "source_registry_export_performed": true,
+  "status": "production_daily_completed",
+  "status_hash_delta": {},
   "status_metadata": {
-    "disposition": "production_daily_failed_closed",
-    "duration_seconds": 14,
-    "emitted_at_oslo_iso": "2026-07-05T06:57:02+0200",
-    "emitted_at_unix_ms": 1783227422000,
-    "emitted_at_unix_s": 1783227422,
-    "emitted_at_utc_iso": "2026-07-05T04:57:02Z",
-    "fallback_channel_used": false,
-    "run_finished_at_unix_s": 1783227422,
-    "run_id": "production-daily-20260705",
-    "run_started_at_unix_s": 1783227408,
-    "severity": "failed_closed",
-    "status": "production_daily_failed_closed",
+    "disposition": "production_daily_completed",
+    "duration_seconds": 13,
+    "emitted_at_oslo_iso": "2026-07-10T07:13:48+02:00",
+    "emitted_at_unix_ms": 1783660428000,
+    "emitted_at_unix_s": 1783660428,
+    "emitted_at_utc_iso": "2026-07-10T05:13:48Z",
+    "git_branch": "main",
+    "git_commit": "c678127",
+    "log_path": "logs/runs/production-daily-20260710.log",
+    "run_finished_at_unix_s": 1783660428,
+    "run_id": "production-daily-20260710",
+    "run_started_at_unix_s": 1783660415,
+    "severity": "success",
+    "status": "production_daily_completed",
     "target_channel": "AL-Hermoine-OPS",
     "timezone": "Europe/Oslo"
   },
+  "substantive_update_applied": false,
   "target_channel": "AL-Hermoine-OPS",
+  "telegram_status_written": true,
   "timezone": "Europe/Oslo",
-  "wrapper_invocation_id": "wrapper-production-daily-20260705-20260705T045648Z-2241218"
+  "trend_discovery_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"run_id\": \"production-daily-20260710\",\n  \"markdown\": \"/home/hermoine/agent-research-book-pipeline/reports/discovery/production-daily-20260710-trend-discovery.md\",\n  \"json\": \"/home/hermoine/agent-research-book-pipeline/reports/discovery/production-daily-20260710-trend-discovery.json\",\n  \"candidates\": [\n    {\n      \"term\": \"status\",\n      \"count\": 18,\n      \"doc_count\": 9,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"content\",\n      \"count\": 15,\n      \"doc_count\": 9,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"type\",\n      \"count\": 12,\n      \"doc_count\": 9,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"content type\",\n      \"count\": 9,\n      \"doc_count\": 9,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"extracted\",\n      \"count\": 9,\n      \"doc_count\": 9,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"snippet\",\n      \"count\": 9,\n      \"doc_count\": 9,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"status content\",\n      \"count\": 9,\n      \"doc_count\": 9,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"status content type\",\n      \"count\": 9,\n      \"doc_count\": 9,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"t05 status\",\n      \"count\": 9,\n      \"doc_count\": 9,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"t05 status content\",\n      \"count\": 9,\n      \"doc_count\": 9,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"error\",\n      \"count\": 22,\n      \"doc_count\": 8,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"models\",\n      \"count\": 20,\n      \"doc_count\": 8,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"quality\",\n      \"count\": 11,\n      \"doc_count\": 8,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"stop\",\n      \"count\": 11,\n      \"doc_count\": 8,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"nous\",\n      \"count\": 66,\n      \"doc_count\": 7,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"community\",\n      \"count\": 49,\n      \"doc_count\": 7,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"research\",\n      \"count\": 29,\n      \"doc_count\": 7,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"nous research\",\n      \"count\": 17,\n      \"doc_count\": 7,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"assistant\",\n      \"count\": 10,\n      \"doc_count\": 7,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"content type html\",\n      \"count\": 7,\n      \"doc_count\": 7,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"html\",\n      \"count\": 7,\n      \"doc_count\": 7,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"html snippet\",\n      \"count\": 7,\n      \"doc_count\": 7,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"type html\",\n      \"count\": 7,\n      \"doc_count\": 7,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"type html snippet\",\n      \"count\": 7,\n      \"doc_count\": 7,\n      \"term_type\": \"phrase\"\n    },\n    {\n      \"term\": \"model\",\n      \"count\": 146,\n      \"doc_count\": 6,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"skills\",\n      \"count\": 140,\n      \"doc_count\": 6,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"code\",\n      \"count\": 108,\n      \"doc_count\": 6,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"install\",\n      \"count\": 108,\n      \"doc_count\": 6,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"memory\",\n      \"count\": 79,\n      \"doc_count\": 6,\n      \"term_type\": \"word\"\n    },\n    {\n      \"term\": \"telegram\",\n      \"count\": 70,\n      \"doc_count\": 6,\n      \"term_type\": \"word\"\n    }\n  ]\n}\n"
+  },
+  "waived_gates": [
+    "editorial_verifier_ok"
+  ],
+  "weak_local_fallback_used": false,
+  "web_capture_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "       \"url\": \"https://methodshop.com/cheapest-openclaw-models-save-money/\",\n          \"title\": \"Stop Overpaying For AI Agents: Cheapest Models For OpenClaw And Hermes\",\n          \"description\": \"How to optimize your agent stack to save money without sacrificing quality and reduce OpenClaw and Hermes token costs.\",\n          \"captured_at\": \"2026-07-10T05:13:39Z\",\n          \"http_status\": 0,\n          \"content_type\": \"error\",\n          \"markdown_path\": \"web/production-daily-20260710/openclaw-hermes/03-stop-overpaying-for-ai-agents-cheapest-models-for-openclaw-a.md\",\n          \"content_hash\": \"2fbdaaa36a31ec4853f2062504fc20ecfc24512cfe648271bc840f246a542911\"\n        }\n      ],\n      \"out_dir\": \"/home/hermoine/agent-research-book-pipeline/raw/web/production-daily-20260710/openclaw-hermes\"\n    },\n    {\n      \"query\": \"\\\"loop engineering\\\" AI agents\",\n      \"status\": \"ok\",\n      \"items\": [],\n      \"out_dir\": \"/home/hermoine/agent-research-book-pipeline/raw/web/production-daily-20260710/loop-engineering-ai-agents\"\n    },\n    {\n      \"query\": \"\\\"loop engineer\\\" AI\",\n      \"status\": \"ok\",\n      \"items\": [],\n      \"out_dir\": \"/home/hermoine/agent-research-book-pipeline/raw/web/production-daily-20260710/loop-engineer-ai\"\n    },\n    {\n      \"query\": \"\\\"Hermes\\\" \\\"OpenClaw\\\"\",\n      \"status\": \"ok\",\n      \"items\": [\n        {\n          \"source_id\": \"src_1d1cf147f514295e99ee\",\n          \"query\": \"\\\"Hermes\\\" \\\"OpenClaw\\\"\",\n          \"url\": \"https://github.com/nousresearch/hermes-agent\",\n          \"title\": \"GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub\",\n          \"description\": \"All documentation lives at hermes-agent.nousresearch.com/docs: ... If you&#x27;re coming from OpenClaw, <strong>Hermes can automatically import your settings, memories, skills, and API keys</strong>.\",\n          \"captured_at\": \"2026-07-10T05:13:42Z\",\n          \"http_status\": 200,\n          \"content_type\": \"text/html\",\n          \"markdown_path\": \"web/production-daily-20260710/hermes-openclaw/01-github-nousresearch-hermes-agent-the-agent-that-grows-with-y.md\",\n          \"content_hash\": \"b0a6a052f9b884a81e10c431806a82f75f73fd475054b2a63dd829390199a59a\"\n        },\n        {\n          \"source_id\": \"src_5ebceaf39dbe36923ac8\",\n          \"query\": \"\\\"Hermes\\\" \\\"OpenClaw\\\"\",\n          \"url\": \"https://hermesatlas.com/guide/\",\n          \"title\": \"Hermes Agent v0.18.0: The Complete Beginner's Guide (Jul 2026) | Hermes Atlas\",\n          \"description\": \"Where does Hermes fit? Claude Code is an in-repo coding agent. Cursor is an in-editor pair programmer. OpenClaw is <strong>a configuration-driven task runner</strong>. Hermes is a self-improving autonomous agent that lives outside all of them.\",\n          \"captured_at\": \"2026-07-10T05:13:42Z\",\n          \"http_status\": 200,\n          \"content_type\": \"text/html\",\n          \"markdown_path\": \"web/production-daily-20260710/hermes-openclaw/02-hermes-agent-v0-18-0-the-complete-beginner-s-guide-jul-2026.md\",\n          \"content_hash\": \"a52f163e51e44135c939fcd6af5e95d726f8e6b2691713f4cf2402b394248617\"\n        },\n        {\n          \"source_id\": \"src_34dd39f6ac4ff15c0422\",\n          \"query\": \"\\\"Hermes\\\" \\\"OpenClaw\\\"\",\n          \"url\": \"https://methodshop.com/cheapest-openclaw-models-save-money/\",\n          \"title\": \"Stop Overpaying For AI Agents: Cheapest Models For OpenClaw And Hermes\",\n          \"description\": \"How to optimize your agent stack to save money without sacrificing quality and reduce OpenClaw and Hermes token costs.\",\n          \"captured_at\": \"2026-07-10T05:13:42Z\",\n          \"http_status\": 0,\n          \"content_type\": \"error\",\n          \"markdown_path\": \"web/production-daily-20260710/hermes-openclaw/03-stop-overpaying-for-ai-agents-cheapest-models-for-openclaw-a.md\",\n          \"content_hash\": \"2fbdaaa36a31ec4853f2062504fc20ecfc24512cfe648271bc840f246a542911\"\n        }\n      ],\n      \"out_dir\": \"/home/hermoine/agent-research-book-pipeline/raw/web/production-daily-20260710/hermes-openclaw\"\n    }\n  ]\n}\n"
+  },
+  "workspace_verifier_ok": true,
+  "workspace_verifier_result": {
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"status\": \"ok\",\n  \"errors\": [],\n  \"warnings\": [],\n  \"db_path\": \"/home/hermoine/agent-research-book-pipeline/.var/book.sqlite\"\n}\n"
+  },
+  "wrapper_invocation_id": "wrapper-production-daily-20260710-20260710T051335Z-3392786"
 }

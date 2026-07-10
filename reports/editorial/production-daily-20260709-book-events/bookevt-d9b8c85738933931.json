@@ -1,0 +1,40 @@
+{
+  "chapter_id": "autonomous_research_pipeline",
+  "confidence": 0.0,
+  "created_at_utc": "2026-07-09T05:09:36Z",
+  "event_id": "bookevt-d9b8c85738933931",
+  "event_type": "chapter.update.requested",
+  "human_in_loop_dependency_added": false,
+  "idempotency_key": "bookevt-d9b8c85738933931",
+  "packet_id": "production-daily-20260709-autonomous_research_pipeline",
+  "payload": {
+    "packet": {
+      "claim_ids": [
+        "approved_subject:autonomous_research_pipeline"
+      ],
+      "contradiction_status": "none",
+      "evidence_strength": "corroborated",
+      "packet_id": "production-daily-20260709-autonomous_research_pipeline",
+      "privacy_status": "public",
+      "publication_safety": "public_summary_only",
+      "safe_summary": "Publication-safe approved subject summary for Autonomous Research Pipeline; no raw capture text is included.",
+      "source_ids": [
+        "chapter_discovery_topics",
+        "approved:autonomous_research_pipeline"
+      ],
+      "summary": "Approved research lane for Autonomous Research Pipeline; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
+      "target_path_hint": "docs/book/autonomous-research-pipeline.md",
+      "title": "Autonomous Research Pipeline",
+      "topics": [
+        "Autonomous Research Pipeline",
+        "autonomous research pipeline",
+        "\"autonomous research pipeline\" AI agents",
+        "\"autonomous research pipeline\""
+      ]
+    },
+    "packet_id": "production-daily-20260709-autonomous_research_pipeline",
+    "reason": "target_path_already_exists"
+  },
+  "target_path": "docs/book/autonomous-research-pipeline.md",
+  "update_type": "integrate_evidence_packet"
+}

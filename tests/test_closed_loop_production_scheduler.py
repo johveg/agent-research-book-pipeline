@@ -147,6 +147,57 @@ def test_execute_once_starts_ledger_probes_worker_invokes_daily_runner_and_orche
     assert report["wrapper_invocation_id"] == "wrapper-test"
 
 
+def test_build_event_driven_evidence_packets_consumes_linkedin_catalogue_safely(monkeypatch, tmp_path):
+    mod = load_module()
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "data").mkdir()
+    (tmp_path / "reports" / "editorial").mkdir(parents=True)
+    catalogue = tmp_path / "data" / "linkedin_content_catalogue.jsonl"
+    catalogue.write_text(
+        "\n".join([
+            json.dumps({
+                "schema_version": 1,
+                "source_platform": "linkedin",
+                "status": "catalogued",
+                "activity_id": "new-social",
+                "ingested_at": "2026-07-10T12:00:00Z",
+                "title": "Uncorroborated LinkedIn claim",
+                "author": "Example Author",
+                "post_text_summary": "Raw social post text should not be copied into the packet body.",
+                "book_relevance": {"score": 8, "candidate_chapters": ["Browser Agents"], "claim_or_example": "Social-only discovery item.", "evidence_strength": "discovery-only"},
+                "limitations": ["LinkedIn post is social/discovery evidence until corroborated."],
+            }),
+            json.dumps({
+                "schema_version": 1,
+                "source_platform": "linkedin",
+                "status": "catalogued",
+                "activity_id": "older-corroborated",
+                "ingested_at": "2026-07-09T12:00:00Z",
+                "title": "Primary source checked item",
+                "author": "Example Author",
+                "post_text_summary": "This raw LinkedIn wording should not be used directly.",
+                "book_relevance": {"score": 9, "candidate_chapters": ["Agent Runtime Security"], "claim_or_example": "Corroborated public-source lesson."},
+                "wider_web_research": {"assessment": "Primary sources support the narrow lesson.", "primary_sources": ["https://example.com/repo", "https://example.com/docs"]},
+            }),
+        ]) + "\n",
+        encoding="utf-8",
+    )
+
+    out = mod.build_event_driven_evidence_packets("run-linkedin", {"max_substantive_book_updates_per_run": 4})
+    payload = json.loads(out.read_text(encoding="utf-8"))
+    packets = payload["evidence_packets"]
+
+    assert payload["linkedin_catalogue_entries_seen"] == 2
+    assert payload["linkedin_catalogue_packet_count"] == 2
+    assert packets[0]["packet_id"].endswith("new-social")
+    assert packets[0]["evidence_strength"] == "social_only"
+    assert packets[0]["no_raw_social_text_publication"] is True
+    assert "Raw social post text" not in packets[0]["safe_summary"]
+    assert packets[1]["evidence_strength"] == "moderate"
+    assert packets[1]["corroboration_status"] == "public_sources_checked"
+    assert "https://example.com/repo" in packets[1]["source_ids"]
+
+
 def test_execute_once_fails_closed_when_runtime_invalid(tmp_path):
     mod = load_module()
     report = mod.execute_once(

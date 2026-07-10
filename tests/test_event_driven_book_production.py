@@ -108,6 +108,30 @@ def test_router_defers_weak_or_social_only_material_without_chapter_mutation(tmp
     assert trace["required_source_count"] == 3
 
 
+def test_router_allows_linkedin_catalogue_packet_only_after_public_corroboration(tmp_path):
+    router = load_script("chapter_router")
+    chapters = router.load_chapters(write_contract(tmp_path))
+    uncorroborated = packet(
+        packet_id="packet-linkedin-social-only",
+        evidence_strength="social_only",
+        source_ids=["linkedin_catalogue:123"],
+        no_raw_social_text_publication=True,
+        topics=["agent runtime security", "sandbox"],
+    )
+    deferred = router.route_packet(uncorroborated, chapters)
+    assert [event["event_type"] for event in deferred["events"]] == ["evidence.packet.deferred", "research_gap.detected"]
+
+    corroborated = packet(
+        packet_id="packet-linkedin-corroborated",
+        evidence_strength="moderate",
+        source_ids=["linkedin_catalogue:123", "https://github.com/example/project", "https://arxiv.org/abs/1234.5678"],
+        no_raw_social_text_publication=True,
+        topics=["agent runtime security", "sandbox"],
+    )
+    routed = router.route_packet(corroborated, chapters)
+    assert "chapter.update.requested" in [event["event_type"] for event in routed["events"]]
+
+
 def test_router_research_gap_trace_includes_threshold_and_top_matches(tmp_path):
     router = load_script("chapter_router")
     result = router.route_packet(packet(source_ids=["src1", "src2"], topics=["agent runtime security", "sandbox"]), router.load_chapters(write_contract(tmp_path)), threshold=0.34)

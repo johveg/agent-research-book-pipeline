@@ -1,127 +1,308 @@
 {
   "evidence_packets": [
     {
+      "activity_id": "7480992753246638081",
+      "candidate_chapters": [
+        "Coding-agent context engineering",
+        "Static analysis for agents",
+        "Repository maps and architecture memory",
+        "Trust/provenance in generated context"
+      ],
+      "canonical_url": "https://www.linkedin.com/posts/alindnbrg_codingagents-staticanalysis-softwarearchitecture-activity-7480992753246638081-GBff",
+      "catalogue_intake_id": null,
       "claim_ids": [
-        "approved_subject:agent_runtime_security"
+        "linkedin_catalogue_claim:7480992753246638081"
       ],
-      "contradiction_status": "none",
-      "evidence_strength": "corroborated",
-      "packet_id": "event-run-agent_runtime_security",
-      "privacy_status": "public",
-      "publication_safety": "public_summary_only",
-      "safe_summary": "Publication-safe approved subject summary for Agent Runtime Security; no raw capture text is included.",
+      "contradiction_status": "social_discovery_needs_corroboration",
+      "corroboration_status": "needs_public_corroboration",
+      "evidence_strength": "social_only",
+      "limitations": [
+        "LinkedIn/social discovery evidence only",
+        "Repo/star/license/parser coverage/browser-only claims not verified",
+        "Guest-visible comments are partial",
+        "Authenticated capture is visible-page only, not exhaustive thread export",
+        "Confidence and blast-radius semantics require primary-source inspection"
+      ],
+      "no_raw_social_text_publication": true,
+      "packet_id": "event-run-linkedin-7480992753246638081",
+      "privacy_status": "public_summary_only",
+      "publication_safety": "public_summary_only_no_raw_linkedin_text",
+      "safe_summary": "Coding agents need confidence-aware repo maps where AST/parser-derived edges are distinguished from inferred regex/name-match edges, especially for blast-radius analysis. Hermione can use repo maps and static-analysis context, but must know provenance/freshness/confidence before relying on them for edits or architecture reasoning. This packet comes from the LinkedIn Telegram intake catalogue and remains social/discovery-only. It is routed only to defer/research-gap events until public corroboration exists.",
       "source_ids": [
-        "chapter_discovery_topics",
-        "approved:agent_runtime_security"
+        "linkedin_catalogue:7480992753246638081",
+        "https://github.com/braedonsaunders/codeflow",
+        "https://binary16labs.github.io/prime-silo/"
       ],
-      "summary": "Approved research lane for Agent Runtime Security; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
-      "target_path_hint": "docs/book/agent-runtime-security.md",
-      "title": "Agent Runtime Security",
+      "source_platform": "linkedin",
+      "summary": "Coding agents need confidence-aware repo maps where AST/parser-derived edges are distinguished from inferred regex/name-match edges, especially for blast-radius analysis. Hermione can use repo maps and static-analysis context, but must know provenance/freshness/confidence before relying on them for edits or architecture reasoning.",
+      "title": "CodeFlow: confidence-aware codebase architecture maps for coding agents",
       "topics": [
-        "Agent Runtime Security",
-        "agent runtime security",
-        "(\"agent runtime security\" OR \"application security\") AI agents",
-        "\"agent runtime security\" OR \"application security\""
+        "CodeFlow: confidence-aware codebase architecture maps for coding agents",
+        "André Lindenberg",
+        "Coding-agent context engineering",
+        "Static analysis for agents",
+        "Repository maps and architecture memory",
+        "Trust/provenance in generated context",
+        "coding agent context engineering",
+        "static analysis for agents",
+        "repository maps and architecture memory",
+        "trust provenance in generated context",
+        "CodeFlow",
+        "tree-sitter",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "AST",
+        "regex",
+        "codegraph",
+        "graphify",
+        "prime-silo",
+        "MCP",
+        "MIT"
       ]
     },
     {
+      "activity_id": "7480962704967516160",
+      "candidate_chapters": [
+        "AI security and red-team automation",
+        "Local/offline agent capability",
+        "Agent governance and authorization boundaries",
+        "Dual-use coding-agent tools"
+      ],
+      "canonical_url": "https://www.linkedin.com/posts/charlywargnier_4000-stars-for-a-tool-that-turns-your-local-activity-7480962704967516160-qlsD",
+      "catalogue_intake_id": null,
       "claim_ids": [
-        "approved_subject:autonomous_research_pipeline"
+        "linkedin_catalogue_claim:7480962704967516160"
       ],
-      "contradiction_status": "none",
-      "evidence_strength": "corroborated",
-      "packet_id": "event-run-autonomous_research_pipeline",
-      "privacy_status": "public",
-      "publication_safety": "public_summary_only",
-      "safe_summary": "Publication-safe approved subject summary for Autonomous Research Pipeline; no raw capture text is included.",
+      "contradiction_status": "social_discovery_needs_corroboration",
+      "corroboration_status": "needs_public_corroboration",
+      "evidence_strength": "social_only",
+      "limitations": [
+        "LinkedIn/social discovery evidence only",
+        "No visible comments captured",
+        "Repo/license/star/offline/containment claims not re-verified in this intake",
+        "Offensive workflows were not run and should not be run during intake",
+        "Shortlink resolved by network fetch only; no LinkedIn UI link was clicked"
+      ],
+      "no_raw_social_text_publication": true,
+      "packet_id": "event-run-linkedin-7480962704967516160",
+      "privacy_status": "public_summary_only",
+      "publication_safety": "public_summary_only_no_raw_linkedin_text",
+      "safe_summary": "Local/offline coding agents can be wrapped into offensive-security workflows, making authorization and policy enforcement the central safety question. Hermione-like agents can operate tools and shells; T3MP3ST illustrates why explicit target scope, approval gates, audit logs, and network/credential controls must surround powerful tool use. This packet comes from the LinkedIn Telegram intake catalogue and remains social/discovery-only. It is routed only to defer/research-gap events until public corroboration exists.",
       "source_ids": [
-        "chapter_discovery_topics",
-        "approved:autonomous_research_pipeline"
+        "linkedin_catalogue:7480962704967516160",
+        "https://lnkd.in/emerscBH",
+        "https://lnkd.in/ezChADCN",
+        "https://github.com/elder-plinius/T3MP3ST"
       ],
-      "summary": "Approved research lane for Autonomous Research Pipeline; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
-      "target_path_hint": "docs/book/autonomous-research-pipeline.md",
-      "title": "Autonomous Research Pipeline",
+      "source_platform": "linkedin",
+      "summary": "Local/offline coding agents can be wrapped into offensive-security workflows, making authorization and policy enforcement the central safety question. Hermione-like agents can operate tools and shells; T3MP3ST illustrates why explicit target scope, approval gates, audit logs, and network/credential controls must surround powerful tool use.",
+      "title": "T3MP3ST: local/offline offensive-security meta-harness for coding agents",
       "topics": [
-        "Autonomous Research Pipeline",
-        "autonomous research pipeline",
-        "\"autonomous research pipeline\" AI agents",
-        "\"autonomous research pipeline\""
+        "T3MP3ST: local/offline offensive-security meta-harness for coding agents",
+        "Charly Wargnier",
+        "AI security and red-team automation",
+        "Local/offline agent capability",
+        "Agent governance and authorization boundaries",
+        "Dual-use coding-agent tools",
+        "ai security and red team automation",
+        "local offline agent capability",
+        "agent governance and authorization boundaries",
+        "dual use coding agent tools",
+        "T3MP3ST",
+        "Elder Plinius",
+        "Claude",
+        "Codex",
+        "Hermes",
+        "Ollama",
+        "LM Studio",
+        "vLLM",
+        "AGPL-3.0"
       ]
     },
     {
+      "activity_id": "7480311097145765889",
+      "candidate_chapters": [
+        "Agent orchestration layers",
+        "LLMOps and AI governance",
+        "Enterprise coding-agent architecture",
+        "Policy enforcement and sandboxing"
+      ],
+      "canonical_url": "https://www.linkedin.com/posts/alindnbrg_agentengineering-llmops-enterprisearchitecture-activity-7480311097145765889-9mWk",
+      "catalogue_intake_id": null,
       "claim_ids": [
-        "approved_subject:browser_agents"
+        "linkedin_catalogue_claim:7480311097145765889"
       ],
-      "contradiction_status": "none",
-      "evidence_strength": "corroborated",
-      "packet_id": "event-run-browser_agents",
-      "privacy_status": "public",
-      "publication_safety": "public_summary_only",
-      "safe_summary": "Publication-safe approved subject summary for Browser Agents; no raw capture text is included.",
+      "contradiction_status": "social_discovery_needs_corroboration",
+      "corroboration_status": "needs_public_corroboration",
+      "evidence_strength": "social_only",
+      "limitations": [
+        "LinkedIn/social discovery evidence only",
+        "Repo/release/license/stars/policy implementation not verified in this intake",
+        "Guest-visible comments are partial",
+        "Authenticated capture is visible-page only, not exhaustive thread export",
+        "Safety-critical sandbox/policy claims require primary-source inspection"
+      ],
+      "no_raw_social_text_publication": true,
+      "packet_id": "event-run-linkedin-7480311097145765889",
+      "privacy_status": "public_summary_only",
+      "publication_safety": "public_summary_only_no_raw_linkedin_text",
+      "safe_summary": "A meta-harness can enforce approvals, spend/risk caps, and sandboxing outside model prompts so governance persists when teams swap coding-agent harnesses. Directly relevant to Hermione as a coordinator over multiple tools/workers/models: governance should be infrastructure-level and auditable, not prompt-only, and Hermes is named as a supported/target harness in visible m… This packet comes from the LinkedIn Telegram intake catalogue and remains social/discovery-only. It is routed only to defer/research-gap events until public corroboration exists.",
       "source_ids": [
-        "chapter_discovery_topics",
-        "approved:browser_agents"
+        "linkedin_catalogue:7480311097145765889",
+        "https://github.com/omnigent-ai/omnigent",
+        "https://github.com/omnigent-ai/omnigent/releases/tag/v0.4.0"
       ],
-      "summary": "Approved research lane for Browser Agents; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
-      "target_path_hint": "docs/book/browser-agents.md",
-      "title": "Browser Agents",
+      "source_platform": "linkedin",
+      "summary": "A meta-harness can enforce approvals, spend/risk caps, and sandboxing outside model prompts so governance persists when teams swap coding-agent harnesses. Directly relevant to Hermione as a coordinator over multiple tools/workers/models: governance should be infrastructure-level and auditable, not prompt-only, and Hermes is named as a supported/target harness in visible m…",
+      "title": "Omnigent: guardrails outside prompts for coding-agent meta-harnesses",
       "topics": [
-        "Browser Agents",
-        "browser agents",
-        "\"browser agents\" AI agents",
-        "\"browser agents\""
+        "Omnigent: guardrails outside prompts for coding-agent meta-harnesses",
+        "André Lindenberg",
+        "Agent orchestration layers",
+        "LLMOps and AI governance",
+        "Enterprise coding-agent architecture",
+        "Policy enforcement and sandboxing",
+        "agent orchestration layers",
+        "llmops and ai governance",
+        "enterprise coding agent architecture",
+        "policy enforcement and sandboxing",
+        "Omnigent",
+        "Databricks",
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode",
+        "Hermes",
+        "Pi",
+        "Polly",
+        "Apache-2.0",
+        "PyPI",
+        "Databricks Apps"
       ]
     },
     {
+      "activity_id": "7479963758728048640",
+      "candidate_chapters": [
+        "Agentic workflows beyond coding",
+        "AI-mediated labor markets",
+        "Multi-agent critique and review loops",
+        "Personal automation and human approval"
+      ],
+      "canonical_url": "https://www.linkedin.com/posts/charlywargnier_a-danish-scientist-got-tired-of-sending-cvs-activity-7479963758728048640-s1s0",
+      "catalogue_intake_id": null,
       "claim_ids": [
-        "approved_subject:citation_pipeline"
+        "linkedin_catalogue_claim:7479963758728048640"
       ],
-      "contradiction_status": "none",
-      "evidence_strength": "corroborated",
-      "packet_id": "event-run-citation_pipeline",
-      "privacy_status": "public",
-      "publication_safety": "public_summary_only",
-      "safe_summary": "Publication-safe approved subject summary for Citation Pipeline; no raw capture text is included.",
+      "contradiction_status": "social_discovery_needs_corroboration",
+      "corroboration_status": "needs_public_corroboration",
+      "evidence_strength": "social_only",
+      "limitations": [
+        "LinkedIn/social discovery evidence only",
+        "GitHub repo implementation/license/stars/outcome not verified in this intake",
+        "Guest HTML exposed only 10 of 25 reported comments",
+        "Authenticated capture is visible-page only, not exhaustive thread export",
+        "Job-application automation raises fairness, spam, hallucination, and regulatory caveats"
+      ],
+      "no_raw_social_text_publication": true,
+      "packet_id": "event-run-linkedin-7479963758728048640",
+      "privacy_status": "public_summary_only",
+      "publication_safety": "public_summary_only_no_raw_linkedin_text",
+      "safe_summary": "A Claude Code workflow can transform job search into an agentic pipeline: scrape/evaluate postings, tailor CV/cover letters, critique drafts, and compile PDFs. Useful pattern for Hermione workflows: structured profile data, fit scoring, draft generation, reviewer-agent critique, and final artifact compilation; also a cautionary case for hallucination, bias, and over-automation. This packet comes from the LinkedIn Telegram intake catalogue and remains social/discovery-only. It is routed only to defer/research-gap events until public corroboration exists.",
       "source_ids": [
-        "chapter_discovery_topics",
-        "approved:citation_pipeline"
+        "linkedin_catalogue:7479963758728048640",
+        "https://lnkd.in/eMd5t-TC",
+        "https://github.com/MadsLorentzen/ai-job-search",
+        "https://yarba.app",
+        "https://github.com/Toadoum/ai-research-skill"
       ],
-      "summary": "Approved research lane for Citation Pipeline; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
-      "target_path_hint": "docs/book/citation-pipeline.md",
-      "title": "Citation Pipeline",
+      "source_platform": "linkedin",
+      "summary": "A Claude Code workflow can transform job search into an agentic pipeline: scrape/evaluate postings, tailor CV/cover letters, critique drafts, and compile PDFs. Useful pattern for Hermione workflows: structured profile data, fit scoring, draft generation, reviewer-agent critique, and final artifact compilation; also a cautionary case for hallucination, bias, and over-automation.",
+      "title": "AI Job Search: Claude Code job application framework",
       "topics": [
-        "Citation Pipeline",
-        "citation pipeline",
-        "\"citation pipeline\" AI agents",
-        "\"citation pipeline\""
+        "AI Job Search: Claude Code job application framework",
+        "Charly Wargnier",
+        "Agentic workflows beyond coding",
+        "AI-mediated labor markets",
+        "Multi-agent critique and review loops",
+        "Personal automation and human approval",
+        "agentic workflows beyond coding",
+        "ai mediated labor markets",
+        "multi agent critique and review loops",
+        "personal automation and human approval",
+        "Charly Wargnier",
+        "Mads Lorentzen",
+        "Claude Code",
+        "AI Job Search",
+        "LaTeX",
+        "GitHub",
+        "MIT License",
+        "YARBA",
+        "Codex"
       ]
     },
     {
+      "activity_id": "7480602213350998016",
+      "candidate_chapters": [
+        "AI engineering observability",
+        "Coding-assistant operations",
+        "Agent telemetry and evaluation",
+        "Cost/latency tuning for AI tools"
+      ],
+      "canonical_url": "https://www.linkedin.com/posts/webmax_you-cant-tune-what-you-cant-see-promptcache-activity-7480602213350998016-v4nT",
+      "catalogue_intake_id": null,
       "claim_ids": [
-        "approved_subject:coding_agents"
+        "linkedin_catalogue_claim:7480602213350998016"
       ],
-      "contradiction_status": "none",
-      "evidence_strength": "corroborated",
-      "packet_id": "event-run-coding_agents",
-      "privacy_status": "public",
-      "publication_safety": "public_summary_only",
-      "safe_summary": "Publication-safe approved subject summary for Coding Agents; no raw capture text is included.",
+      "contradiction_status": "social_discovery_needs_corroboration",
+      "corroboration_status": "needs_public_corroboration",
+      "evidence_strength": "social_only",
+      "limitations": [
+        "LinkedIn social post only; repo/docs not inspected in this intake",
+        "Guest HTML exposed only 1 of 3 reported comments",
+        "Authenticated capture is a visible viewport capture, not exhaustive comment/media export",
+        "Privacy and telemetry-field claims require primary-source verification"
+      ],
+      "no_raw_social_text_publication": true,
+      "packet_id": "event-run-linkedin-7480602213350998016",
+      "privacy_status": "public_summary_only",
+      "publication_safety": "public_summary_only_no_raw_linkedin_text",
+      "safe_summary": "Prompt-cache hit rate, tokens, latency, tool calls, and model/surface mix are useful operational metrics for tuning GitHub Copilot-like coding assistants. Hermione/Hermes needs similar observability for model/tool latency, retries, token/cache behavior, provider/model mix, and privacy-controlled traces to improve reliability and cost. This packet comes from the LinkedIn Telegram intake catalogue and remains social/discovery-only. It is routed only to defer/research-gap events until public corroboration exists.",
       "source_ids": [
-        "chapter_discovery_topics",
-        "approved:coding_agents"
+        "linkedin_catalogue:7480602213350998016",
+        "https://github.com/webmaxru/copilot-opentelemetry",
+        "https://samueltauil.github.io/github-copilot/devops/2026/07/02/visualizing-copilot-prompt-cache-otel-grafana.html"
       ],
-      "summary": "Approved research lane for Coding Agents; route current normalized evidence into an existing chapter when possible or create a guarded seed chapter when distinct.",
-      "target_path_hint": "docs/book/coding-agents.md",
-      "title": "Coding Agents",
+      "source_platform": "linkedin",
+      "summary": "Prompt-cache hit rate, tokens, latency, tool calls, and model/surface mix are useful operational metrics for tuning GitHub Copilot-like coding assistants. Hermione/Hermes needs similar observability for model/tool latency, retries, token/cache behavior, provider/model mix, and privacy-controlled traces to improve reliability and cost.",
+      "title": "You can't tune what you can't see: prompt-cache observability for GitHub Copilot with OpenTelemetry",
       "topics": [
-        "Coding Agents",
-        "coding agents",
-        "(\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\") AI agents",
-        "\"coding agents\" OR \"AI coding agents\" OR \"vibe coding\""
+        "You can't tune what you can't see: prompt-cache observability for GitHub Copilot with OpenTelemetry",
+        "Maxim Salnikov",
+        "AI engineering observability",
+        "Coding-assistant operations",
+        "Agent telemetry and evaluation",
+        "Cost/latency tuning for AI tools",
+        "ai engineering observability",
+        "coding assistant operations",
+        "agent telemetry and evaluation",
+        "cost latency tuning for ai tools",
+        "GitHub Copilot",
+        "OpenTelemetry",
+        "Grafana Labs",
+        "VS Code Copilot Chat",
+        "Copilot CLI",
+        "OpenTelemetry GenAI conventions",
+        "Azure",
+        "Grafana Cloud",
+        "webmaxru/copilot-opentelemetry"
       ]
     }
   ],
   "human_in_loop_dependency_added": false,
+  "linkedin_catalogue_entries_seen": 14,
+  "linkedin_catalogue_packet_count": 5,
+  "linkedin_catalogue_path": "data/linkedin_content_catalogue.jsonl",
   "packet_count": 5,
   "run_id": "event-run"
 }

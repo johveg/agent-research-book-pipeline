@@ -1,0 +1,222 @@
+{
+  "files": [
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/01-the-agent-loop.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/02-hermes.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/03-openclaw.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/04-loop-engineering.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/05-context-memory-architecture.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/06-operating-loops.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/agent-runtime-security.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/autonomous-research-pipeline.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/browser-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/citation-pipeline.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/coding-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/computer-use-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/desktop-ai-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/enterprise-ai-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/human-approval-workflow.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/introduction.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/local-ai-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/local-first-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/mcp-tools.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/methodology.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/multi-agent-workflows.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/observability-for-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": false,
+      "citation_count": 0,
+      "path": "docs/book/open-questions.md",
+      "references_normalized": false,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/preface.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/red-team-review.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/self-improving-agents.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    },
+    {
+      "changed": true,
+      "citation_count": 0,
+      "path": "docs/book/source-registry.md",
+      "references_normalized": true,
+      "source_ids": [],
+      "unresolved": []
+    }
+  ],
+  "status": "ok",
+  "unresolved": []
+}

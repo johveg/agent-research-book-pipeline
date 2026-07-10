@@ -274,12 +274,140 @@ def summarize_json(path: str | Path) -> dict[str, Any]:
         return {}
 
 
+def compact_text(value: Any, limit: int = 700) -> str:
+    text = " ".join(str(value or "").split())
+    if len(text) <= limit:
+        return text
+    return text[: limit - 1].rstrip() + "…"
+
+
+def as_list(value: Any) -> list[Any]:
+    return value if isinstance(value, list) else []
+
+
+def linkedin_catalogue_path(config: dict[str, Any]) -> Path:
+    configured = config.get("linkedin_content_catalogue_path") or config.get("linkedin_catalogue_path")
+    return resolve(configured) if configured else ROOT / "data" / "linkedin_content_catalogue.jsonl"
+
+
+def load_linkedin_catalogue_entries(config: dict[str, Any]) -> list[dict[str, Any]]:
+    path = linkedin_catalogue_path(config)
+    if not path.exists():
+        return []
+    entries: list[dict[str, Any]] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            item = json.loads(line)
+        except Exception:
+            continue
+        if isinstance(item, dict) and item.get("source_platform") == "linkedin" and item.get("status", "catalogued") != "rejected":
+            entries.append(item)
+    entries.sort(key=lambda item: str(item.get("ingested_at") or ""), reverse=True)
+    return entries
+
+
+def linkedin_entry_has_corroboration(entry: dict[str, Any]) -> bool:
+    wider = entry.get("wider_web_research") if isinstance(entry.get("wider_web_research"), dict) else {}
+    repo = entry.get("github_repo_inspection") if isinstance(entry.get("github_repo_inspection"), dict) else {}
+    return bool(
+        wider.get("primary_sources")
+        or wider.get("key_sources")
+        or wider.get("primary_sources_checked")
+        or repo.get("repo_url")
+        or repo.get("evidence_strength") == "primary_source_quick_pass"
+    )
+
+
+def linkedin_entry_public_sources(entry: dict[str, Any]) -> list[str]:
+    wider = entry.get("wider_web_research") if isinstance(entry.get("wider_web_research"), dict) else {}
+    repo = entry.get("github_repo_inspection") if isinstance(entry.get("github_repo_inspection"), dict) else {}
+    sources: list[str] = []
+    for key in ["primary_sources", "key_sources"]:
+        sources.extend(str(x) for x in as_list(wider.get(key)) if str(x).strip())
+    sources.extend(str(x) for x in as_list(entry.get("external_links_visible")) if str(x).strip())
+    if repo.get("repo_url"):
+        sources.append(str(repo.get("repo_url")))
+    # Preserve order while deduplicating. These are public source identifiers,
+    # not private archive paths or browser-session artifacts.
+    deduped: list[str] = []
+    seen: set[str] = set()
+    for src in sources:
+        if src not in seen:
+            seen.add(src)
+            deduped.append(src)
+    return deduped
+
+
+def catalogue_chapter_to_target(chapter: str) -> str:
+    return chapter.lower().replace("/", " ").replace("_", " ").replace("-", " ")
+
+
+def linkedin_entry_to_packet(run_id: str, entry: dict[str, Any]) -> dict[str, Any]:
+    relevance = entry.get("book_relevance") if isinstance(entry.get("book_relevance"), dict) else {}
+    hermione = entry.get("hermione_relevance") if isinstance(entry.get("hermione_relevance"), dict) else {}
+    wider = entry.get("wider_web_research") if isinstance(entry.get("wider_web_research"), dict) else {}
+    repo = entry.get("github_repo_inspection") if isinstance(entry.get("github_repo_inspection"), dict) else {}
+    activity = str(entry.get("activity_id") or entry.get("intake_id") or entry.get("canonical_url") or entry.get("input_url") or "unknown")
+    public_sources = linkedin_entry_public_sources(entry)
+    corroborated = linkedin_entry_has_corroboration(entry)
+    candidates = [str(x) for x in as_list(relevance.get("candidate_chapters")) if str(x).strip()]
+    topics = [
+        str(entry.get("title") or "LinkedIn catalogue item"),
+        str(entry.get("author") or ""),
+        *candidates,
+        *[catalogue_chapter_to_target(x) for x in candidates],
+        *[str(x) for x in as_list(entry.get("named_entities")) if str(x).strip()],
+    ]
+    evidence_strength = "moderate" if corroborated else "social_only"
+    source_ids = [f"linkedin_catalogue:{activity}"] + public_sources
+    claim_bits = [
+        compact_text(relevance.get("claim_or_example"), 320),
+        compact_text(wider.get("assessment") or wider.get("summary") or repo.get("bottom_line"), 420),
+        compact_text(hermione.get("why"), 220),
+    ]
+    claim_summary = " ".join(bit for bit in claim_bits if bit).strip()
+    if not claim_summary:
+        claim_summary = "LinkedIn catalogue item requires corroboration before any reader-facing claim is drafted."
+    safety_note = (
+        "This packet comes from the LinkedIn Telegram intake catalogue. LinkedIn itself is treated as discovery/provenance only; "
+        "reader-facing claims must rely on the listed public corroborating sources."
+        if corroborated else
+        "This packet comes from the LinkedIn Telegram intake catalogue and remains social/discovery-only. It is routed only to defer/research-gap events until public corroboration exists."
+    )
+    return {
+        "packet_id": f"{run_id}-linkedin-{activity}",
+        "title": compact_text(entry.get("title") or "LinkedIn catalogue item", 160),
+        "summary": claim_summary,
+        "safe_summary": compact_text(f"{claim_summary} {safety_note}", 900),
+        "topics": [x for x in topics if x],
+        "evidence_strength": evidence_strength,
+        "publication_safety": "public_summary_only_no_raw_linkedin_text",
+        "privacy_status": "public_summary_only",
+        "contradiction_status": "social_discovery_needs_corroboration" if not corroborated else "corroborated_public_sources_checked",
+        "source_ids": source_ids,
+        "claim_ids": [f"linkedin_catalogue_claim:{activity}"],
+        "source_platform": "linkedin",
+        "catalogue_intake_id": entry.get("intake_id"),
+        "activity_id": entry.get("activity_id"),
+        "canonical_url": entry.get("canonical_url") or entry.get("input_url"),
+        "candidate_chapters": candidates,
+        "corroboration_status": "public_sources_checked" if corroborated else "needs_public_corroboration",
+        "no_raw_social_text_publication": True,
+        "limitations": [compact_text(x, 260) for x in as_list(entry.get("limitations"))[:5]],
+    }
+
+
 def build_event_driven_evidence_packets(run_id: str, config: dict[str, Any], max_packets: int | None = None) -> Path:
     """Create bounded evidence packets for the event-driven chapter router.
 
-    This is intentionally conservative: it packages approved research lanes as
-    publication-safe summaries. Capture/extraction can later replace this with
-    richer packet artifacts, but the router/worker/joiner contract is the same.
+    The first lane consumes Telegram-fed LinkedIn catalogue entries. It promotes
+    only sanitized summaries into packets: discovery-only/social entries become
+    defer/research-gap packets, while entries with explicit wider-web or primary
+    source inspection can become moderate public-source packets. Approved static
+    research lanes remain as low-priority placeholders to keep the scheduler
+    contract alive when there is no fresh catalogue material.
     """
     limit = max_packets or int(config.get("max_substantive_book_updates_per_run", 5) or 5)
     topics_path = ROOT / "config" / "chapter_discovery_topics.json"
@@ -291,7 +419,14 @@ def build_event_driven_evidence_packets(run_id: str, config: dict[str, Any], max
         except Exception:
             approved = []
     packets: list[dict[str, Any]] = []
-    for item in approved[:limit]:
+    linkedin_entries = load_linkedin_catalogue_entries(config)
+    for entry in linkedin_entries:
+        if len(packets) >= limit:
+            break
+        packets.append(linkedin_entry_to_packet(run_id, entry))
+    for item in approved:
+        if len(packets) >= limit:
+            break
         title = str(item.get("title") or item.get("chapter_id") or "Approved research lane")
         packets.append({
             "packet_id": f"{run_id}-{item.get('chapter_id', title).replace(' ', '_')}",
@@ -308,7 +443,15 @@ def build_event_driven_evidence_packets(run_id: str, config: dict[str, Any], max
             "target_path_hint": item.get("target_path"),
         })
     out = ROOT / "reports" / "editorial" / f"{run_id}-event-driven-evidence-packets.json"
-    write_json(out, {"run_id": run_id, "evidence_packets": packets, "packet_count": len(packets), "human_in_loop_dependency_added": False})
+    write_json(out, {
+        "run_id": run_id,
+        "evidence_packets": packets,
+        "packet_count": len(packets),
+        "linkedin_catalogue_path": rel(linkedin_catalogue_path(config)),
+        "linkedin_catalogue_entries_seen": len(linkedin_entries),
+        "linkedin_catalogue_packet_count": sum(1 for packet in packets if packet.get("source_platform") == "linkedin"),
+        "human_in_loop_dependency_added": False,
+    })
     return out
 
 

@@ -70,7 +70,18 @@ def fit_score(packet: dict[str, Any], chapter: dict[str, Any]) -> float:
 def is_weak(packet: dict[str, Any]) -> bool:
     strength = str(packet.get("evidence_strength", "")).lower()
     sources = [str(x).lower() for x in packet.get("source_ids", [])]
-    return strength in {"weak", "social_only", "caveat_only"} or (sources and all("linkedin" in s or "social" in s for s in sources))
+    no_raw_social = packet.get("no_raw_social_text_publication") is True
+    corroborated_social_packet = bool(sources) and any(
+        s.startswith("http://")
+        or s.startswith("https://")
+        or "github.com" in s
+        or "arxiv.org" in s
+        for s in sources
+    )
+    social_only_packet = (sources and all("linkedin" in s or "social" in s for s in sources)) or (
+        no_raw_social and not corroborated_social_packet
+    )
+    return strength in {"weak", "social_only", "caveat_only"} or social_only_packet
 
 
 def make_event(event_type: str, packet: dict[str, Any], **fields: Any) -> dict[str, Any]:
